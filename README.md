@@ -6,4 +6,9 @@
 + https://oraal.uoregon.edu/about - some AA(V)E related topics (maybe comparative with other American English?)
 + language variation/change in social media - gaming (MMO)-related terms, differences between different MMO communities (from r/elderscrollsonline/ and r/wow/)
 + the topics that were already suggested
+
+### SKILLS/KNOWLEDGE
++ Historical linguistics, cognitive linguistics, some sociolinguistics, some comparative linguistics.
++ Python (recently also Discord bots - but is that ethical/legal for data scraping? Highly unsure).
++ English, Polish, some Swedish, a bit less German.
     
