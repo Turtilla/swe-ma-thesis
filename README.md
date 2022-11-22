@@ -9,6 +9,6 @@
 
 ### SKILLS/KNOWLEDGE
 + Historical linguistics, cognitive linguistics, some sociolinguistics, some comparative linguistics.
-+ Python (recently also Discord bots - but is that ethical/legal for data scraping? Highly unsure).
++ Python (recently also Discord bots - but is that ethical/legal for data scraping? Unsure, but this is why I haven't suggested anything involving that).
 + English, Polish, some Swedish, a bit less German.
     
