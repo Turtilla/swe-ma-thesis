@@ -1,2 +1,2 @@
 # ma-thesis-swe
-(LTR project)[https://github.com/Turtilla/ltr-project]
+[LTR project](https://github.com/Turtilla/ltr-project)
