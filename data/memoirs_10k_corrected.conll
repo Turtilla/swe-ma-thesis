@@ -201,19 +201,19 @@
 
 # sent_id = 7
 # text = Niewiem o ile to prawda – ale mi mówił kuzyn nasz Karol Czermiński – jakoby Dziad jego a stryj Melchiora zaopiekował się młodzieniaszkiem i wziął go do siebie na wychowanie po śmierci Rodziców.
-1	Niewiem	niewiem	VERB	subst:sg:loc:f	_	_	_	_	_
-2	o	o	ADP	interj	_	_	_	_	_
-3	ile	ile	ADV	num:pl:acc:n:rec	_	_	_	_	_
-4	to	to	AUX	comp	_	_	_	_	_
+1	Niewiem	niewiedzieć	VERB	fin:sg:pri:imperf:neg	_	_	_	_	_
+2	o	o	ADP	prep:acc	_	_	_	_	_
+3	ile	ile	ADV	adv	_	_	_	_	_
+4	to	to	AUX	pred	_	_	_	_	_
 5	prawda	prawda	NOUN	subst:sg:nom:f	_	_	_	_	_
 6	–	–	PUNCT	interp	_	_	_	_	_
 7	ale	ale	CCONJ	conj	_	_	_	_	_
-8	mi	ja	PRON	ppron12:sg:dat:f:pri:nakc	_	_	_	_	_
+8	mi	ja	PRON	ppron12:sg:dat:m1:pri:nakc!	_	_	_	_	_
 9	mówił	mówić	VERB	praet:sg:m1:imperf	_	_	_	_	_
 10	kuzyn	kuzyn	NOUN	subst:sg:nom:m1	_	_	_	_	_
 11	nasz	nasz	DET	adj:sg:nom:m1:pos	_	_	_	_	_
 12	Karol	Karol	PROPN	subst:sg:nom:m1	_	_	_	_	_
-13	Czermiński	czermiński	PROPN	adj:sg:nom:m1:pos	_	_	_	_	_
+13	Czermiński	Czermiński	PROPN	subst:sg:nom:m1	_	_	_	_	_
 14	–	–	PUNCT	interp	_	_	_	_	_
 15	jakoby	jakoby	SCONJ	part	_	_	_	_	_
 16	Dziad	dziad	NOUN	subst:sg:nom:m1	_	_	_	_	_
@@ -230,7 +230,7 @@
 27	do	do	ADP	prep:gen	_	_	_	_	_
 28	siebie	siebie	PRON	siebie:gen	_	_	_	_	_
 29	na	na	ADP	prep:acc	_	_	_	_	_
-30	wychowanie	wychować	NOUN	ger:sg:acc:n:perf:aff	_	_	_	_	_
+30	wychowanie	wychowanie	NOUN	subst:sg:acc:n:ncol	_	_	_	_	_
 31	po	po	ADP	prep:loc	_	_	_	_	_
 32	śmierci	śmierć	NOUN	subst:sg:loc:f	_	_	_	_	_
 33	Rodziców	rodzic	NOUN	subst:pl:gen:m1	_	_	_	_	_
@@ -240,11 +240,11 @@
 # text = Był podobno Starostą, ale jakim niepamiętam.
 1	Był	być	VERB	praet:sg:m1:imperf	_	_	_	_	_
 2	podobno	podobno	PART	part	_	_	_	_	_
-3	Starostą	starosta	NOUN	subst:sg:inst:f	_	_	_	_	_
+3	Starostą	starosta	NOUN	subst:sg:inst:m1	_	_	_	_	_
 4	,	,	PUNCT	interp	_	_	_	_	_
 5	ale	ale	CCONJ	conj	_	_	_	_	_
-6	jakim	jaki	DET	adj:sg:inst:m3:pos	_	_	_	_	_
-7	niepamiętam	niepamiętam	VERB	part	_	_	_	_	_
+6	jakim	jaki	DET	adj:sg:inst:m1:pos	_	_	_	_	_
+7	niepamiętam	niepamiętać	VERB	fin:sg:pri:imperf:neg	_	_	_	_	_
 8	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 9
@@ -259,12 +259,12 @@
 8	,	,	PUNCT	interp	_	_	_	_	_
 9	prawdopodobnie	prawdopodobnie	ADV	part	_	_	_	_	_
 10	,	,	PUNCT	interp	_	_	_	_	_
-11	Dziedziców	dziedzic	NOUN	subst:pl:acc:m1	_	_	_	_	_
-12	Brzeżan	brzeżanin	PROPN	subst:pl:gen:m1	_	_	_	_	_
+11	Dziedziców	dziedzic	NOUN	subst:pl:gen:m1	_	_	_	_	_
+12	Brzeżan	Brzeżany	PROPN	subst:pl:gen:n:pt	_	_	_	_	_
 13	i	i	CCONJ	conj	_	_	_	_	_
 14	Skolego	Skole	PROPN	subst:sg:gen:n:ncol	_	_	_	_	_
 15	w	w	ADP	prep:loc:nwok	_	_	_	_	_
-16	Stryjskim	Stryjski	PROPN	subst:sg:loc:m1	_	_	_	_	_
+16	Stryjskim	Stryjski	PROPN	subst:sg:loc:m3	_	_	_	_	_
 17	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 10
@@ -297,14 +297,14 @@
 26	Potocki	Potocki	PROPN	subst:sg:nom:m1	_	_	_	_	_
 27	co	co	PRON	subst:sg:nom:n:ncol	_	_	_	_	_
 28	to	to	PRON	pred	_	_	_	_	_
-29	za	za	ADP	part	_	_	_	_	_
-30	jeden	jeden	NUM	adj:sg:nom:m3:pos	_	_	_	_	_
+29	za	za	PART	part	_	_	_	_	_
+30	jeden	jeden	NUM	adj:sg:nom:m1:pos	_	_	_	_	_
 31	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 11
 # text = Odpowiedział mu Pan Starosta całą rzecz – a wtenczas Pan Potocki zaproponował, że chce go wziąć na swój dwór.
 1	Odpowiedział	odpowiedzieć	VERB	praet:sg:m1:perf	_	_	_	_	_
-2	mu	on	PRON	ppron3:sg:dat:m2:ter:nakc:npraep	_	_	_	_	_
+2	mu	on	PRON	ppron3:sg:dat:m1:ter:nakc:npraep	_	_	_	_	_
 3	Pan	pan	NOUN	subst:sg:nom:m1	_	_	_	_	_
 4	Starosta	starosta	NOUN	subst:sg:nom:m1	_	_	_	_	_
 5	całą	cały	ADJ	adj:sg:acc:f:pos	_	_	_	_	_
@@ -354,7 +354,7 @@
 25	Patrona	patron	NOUN	subst:sg:gen:m1	_	_	_	_	_
 26	,	,	PUNCT	interp	_	_	_	_	_
 27	że	że	SCONJ	comp	_	_	_	_	_
-28	ten	ten	DET	adj:sg:nom:m3:pos	_	_	_	_	_
+28	ten	ten	DET	adj:sg:nom:m1:pos	_	_	_	_	_
 29	jadąc	jechać	VERB	pcon:imperf	_	_	_	_	_
 30	raz	raz	NOUN	subst:sg:acc:m3	_	_	_	_	_
 31	do	do	ADP	prep:gen	_	_	_	_	_
@@ -379,9 +379,9 @@
 5	się	się	PRON	part	_	_	_	_	_
 6	,	,	PUNCT	interp	_	_	_	_	_
 7	że	że	SCONJ	comp	_	_	_	_	_
-8	te	ten	DET	adj:pl:nom:m3:pos	_	_	_	_	_
-9	rozległe	rozległy	ADJ	adj:pl:nom:m3:pos	_	_	_	_	_
-10	dobra	dobry	NOUN	adj:sg:nom:f:pos	_	_	_	_	_
+8	te	ten	DET	adj:pl:nom:n:pos	_	_	_	_	_
+9	rozległe	rozległy	ADJ	adj:pl:nom:n:pos	_	_	_	_	_
+10	dobra	dobra	NOUN	subst:pl:nom:n:pt	_	_	_	_	_
 11	w	w	ADP	prep:loc:nwok	_	_	_	_	_
 12	górach	góra	NOUN	subst:pl:loc:f	_	_	_	_	_
 13	i	i	CCONJ	conj	_	_	_	_	_
@@ -397,7 +397,7 @@
 23	na	na	ADP	prep:acc	_	_	_	_	_
 24	to	to	PRON	subst:sg:acc:n:ncol	_	_	_	_	_
 25	przed	przed	ADP	prep:inst:nwok	_	_	_	_	_
-26	Melchiorem	melchior	PROPN	subst:sg:inst:m3	_	_	_	_	_
+26	Melchiorem	Melchior	PROPN	subst:sg:inst:m1	_	_	_	_	_
 27	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 14
@@ -434,7 +434,7 @@
 9	Melchiorowi	Melchior	PROPN	subst:sg:dat:m1	_	_	_	_	_
 10	żeby	żeby	SCONJ	comp	_	_	_	_	_
 11	objął	objąć	VERB	praet:sg:m1:perf	_	_	_	_	_
-12	administracyę	administracyę	NOUN	subst:sg:acc:f	_	_	_	_	_
+12	administracyę	administracya	NOUN	subst:sg:acc:f	_	_	_	_	_
 13	tych	ten	DET	adj:pl:gen:n:pos	_	_	_	_	_
 14	dóbr	dobra	NOUN	subst:pl:gen:n:pt	_	_	_	_	_
 15	i	i	CCONJ	conj	_	_	_	_	_
