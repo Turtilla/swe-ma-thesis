@@ -52,7 +52,7 @@
 50	matki	matka	NOUN	subst:sg:gen:f	_	_	_	_	_
 51	Ewy	Ewa	PROPN	subst:sg:gen:f	_	_	_	_	_
 52	z	z	ADP	prep:gen:nwok	_	_	_	_	_
-53	Pinińskich	Piniński	PROPN	subst:pl:gen:m1:pos	_	_	_	_	_
+53	Pinińskich	Piniński	PROPN	subst:pl:gen:m1	_	_	_	_	_
 54	właścicieli	właściciel	NOUN	subst:pl:gen:m1	_	_	_	_	_
 55	Dóbr	dobra	NOUN	subst:pl:gen:n:pt	_	_	_	_	_
 56	Strużewo	Strużewo	PROPN	subst:sg:nom:n:ncol	_	_	_	_	_
@@ -80,7 +80,7 @@
 # text = A że śp Dziad mój był najmłodszy i piąty z pomiędzy Rodzeństwa – odstąpił swoją część najstarszemu bratu swojemu Mateuszowi komornikowi ziemi Dobrzyńskiej za ośm tysięcy tynfów.
 1	A	a	CCONJ	conj	_	_	_	_	_
 2	że	że	SCONJ	comp	_	_	_	_	_
-3	śp	śp	X	aglt:sg:sec:imperf:nwok	_	_	_	_	_
+3	śp	śp	X	brev:npun	_	_	_	_	_
 4	Dziad	dziad	NOUN	subst:sg:nom:m1	_	_	_	_	_
 5	mój	mój	DET	adj:sg:nom:m1:pos	_	_	_	_	_
 6	był	być	AUX	praet:sg:m1:imperf	_	_	_	_	_
@@ -104,7 +104,7 @@
 24	za	za	ADP	prep:acc	_	_	_	_	_
 25	ośm	osiem	NUM	num:pl:acc:m3:rec:ncol	_	_	_	_	_
 26	tysięcy	tysiąc	NOUN	subst:pl:gen:m3	_	_	_	_	_
-27	tynfów	tynf	NOUN	subst:pl:gen:m2	_	_	_	_	_
+27	tynfów	tynf	NOUN	subst:pl:gen:m3	_	_	_	_	_
 28	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 3
@@ -119,7 +119,7 @@
 8	siostra	siostra	NOUN	subst:sg:nom:f	_	_	_	_	_
 9	Panna	panna	NOUN	subst:sg:nom:f	_	_	_	_	_
 10	Urszula	Urszula	PROPN	subst:sg:nom:f	_	_	_	_	_
-11	Czermińska	czermiński	PROPN	adj:sg:nom:f:pos	_	_	_	_	_
+11	Czermińska	czermiński	PROPN	subst:sg:nom:f	_	_	_	_	_
 12	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 4
