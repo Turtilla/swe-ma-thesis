@@ -128,26 +128,26 @@
 2	miał	mieć	VERB	praet:sg:m1:imperf	_	_	_	_	_
 3	śp	śp	X	brev:pun	_	_	_	_	_
 4	.	.	PUNCT	interp	_	_	_	_	_
-5	Melchior	Melchior	PROPN	subst:sg:gen:f	_	_	_	_	_
-6	czterech	cztery	NUM	num:pl:gen:m1:congr:ncol	_	_	_	_	_
+5	Melchior	Melchior	PROPN	subst:sg:nom:m1	_	_	_	_	_
+6	czterech	cztery	NUM	num:pl:acc:m1:congr:ncol	_	_	_	_	_
 7	i	i	CCONJ	conj	_	_	_	_	_
 8	jedną	jeden	NUM	adj:sg:acc:f:pos	_	_	_	_	_
 9	ciotkę	ciotka	NOUN	subst:sg:acc:f	_	_	_	_	_
 10	–	–	PUNCT	interp	_	_	_	_	_
 11	Antoniego	Antoni	PROPN	subst:sg:acc:m1	_	_	_	_	_
-12	Wawrzyńca	Wawrzyniec	PROPN	subst:sg:gen:m1	_	_	_	_	_
-13	ożenionego	ożenić	ADJ	ppas:sg:gen:m1:perf:aff	_	_	_	_	_
+12	Wawrzyńca	Wawrzyniec	PROPN	subst:sg:acc:m1	_	_	_	_	_
+13	ożenionego	ożenić	ADJ	ppas:sg:acc:m1:perf:aff	_	_	_	_	_
 14	z	z	ADP	prep:inst:nwok	_	_	_	_	_
-15	Głuską	głuski	PROPN	adj:sg:inst:f:pos	_	_	_	_	_
+15	Głuską	Głuska	PROPN	subst:sg:inst:f	_	_	_	_	_
 16	z	z	ADP	prep:gen:nwok	_	_	_	_	_
 17	niej	on	PRON	ppron3:sg:gen:f:ter:akc:praep	_	_	_	_	_
-18	trzech	trzy	NUM	num:pl:gen:m3:congr:ncol	_	_	_	_	_
-19	synów	syn	NOUN	subst:pl:gen:m1	_	_	_	_	_
-20	Jakuba	Jakub	PROPN	subst:sg:gen:m1	_	_	_	_	_
+18	trzech	trzy	NUM	num:pl:acc:m3:congr:ncol	_	_	_	_	_
+19	synów	syn	NOUN	subst:pl:acc:m1	_	_	_	_	_
+20	Jakuba	Jakub	PROPN	subst:sg:acc:m1	_	_	_	_	_
 21	,	,	PUNCT	interp	_	_	_	_	_
-22	Łukasza	Łukasz	PROPN	subst:sg:gen:m1	_	_	_	_	_
+22	Łukasza	Łukasz	PROPN	subst:sg:acc:m1	_	_	_	_	_
 23	i	i	CCONJ	conj	_	_	_	_	_
-24	Floyrana	Floyrana	PROPN	subst:sg:gen:m2	_	_	_	_	_
+24	Floyrana	Floyran	PROPN	subst:sg:acc:m1	_	_	_	_	_
 25	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 5
@@ -158,19 +158,19 @@
 4	,	,	PUNCT	interp	_	_	_	_	_
 5	Floryan	Floryan	PROPN	subst:sg:nom:m1	_	_	_	_	_
 6	z	z	ADP	prep:inst:nwok	_	_	_	_	_
-7	Korytyńską	Korytyńską	PROPN	subst:sg:inst:f	_	_	_	_	_
+7	Korytyńską	Korytyńska	PROPN	subst:sg:inst:f	_	_	_	_	_
 8	,	,	PUNCT	interp	_	_	_	_	_
 9	Wawrzyniec	Wawrzyniec	PROPN	subst:sg:nom:m1	_	_	_	_	_
 10	z	z	ADP	prep:inst:nwok	_	_	_	_	_
-11	Muczynowską	Muczynowską	PROPN	subst:sg:inst:f	_	_	_	_	_
+11	Muczynowską	Muczynowska	PROPN	subst:sg:inst:f	_	_	_	_	_
 12	–	–	PUNCT	interp	_	_	_	_	_
 13	mieli	mieć	VERB	praet:pl:m1:imperf	_	_	_	_	_
 14	syna	syn	NOUN	subst:sg:acc:m1	_	_	_	_	_
-15	Ludwika	Ludwik	PROPN	subst:sg:gen:m1	_	_	_	_	_
+15	Ludwika	Ludwik	PROPN	subst:sg:acc:m1	_	_	_	_	_
 16	–	–	PUNCT	interp	_	_	_	_	_
 17	Ciotka	ciotka	NOUN	subst:sg:nom:f	_	_	_	_	_
 18	za	za	ADP	prep:inst	_	_	_	_	_
-19	Rzotoławskim	Rzotoławskim	PROPN	subst:sg:inst:m1	_	_	_	_	_
+19	Rzotoławskim	Rzotoławski	PROPN	subst:sg:inst:m1	_	_	_	_	_
 20	–	–	PUNCT	interp	_	_	_	_	_
 21	wszystkich	wszystek	DET	adj:pl:acc:m1:pos	_	_	_	_	_
 22	braci	brat	NOUN	subst:pl:acc:m1	_	_	_	_	_
@@ -179,14 +179,14 @@
 25	.	.	PUNCT	interp	_	_	_	_	_
 26	Melchiora	Melchior	PROPN	subst:sg:gen:m1	_	_	_	_	_
 27	było	być	AUX	praet:sg:n:imperf	_	_	_	_	_
-28	17	17	NUM	dig	_	_	_	_	_
+28	17	17	NUM	num:pl:nom:m1:rec	_	_	_	_	_
 29	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 6
 # text = Antonich było dwóch brat Jana a stryj brata Melchiora i Antoni brat Melchiora.
 1	Antonich	Antoni	PROPN	subst:pl:gen:m1	_	_	_	_	_
 2	było	być	AUX	praet:sg:n:imperf	_	_	_	_	_
-3	dwóch	dwa	NUM	num:pl:nom:m1:rec:ncol	_	_	_	_	_
+3	dwóch	dwa	NUM	num:pl:nom:m1:rec	_	_	_	_	_
 4	brat	brat	NOUN	subst:sg:nom:m1	_	_	_	_	_
 5	Jana	Jan	PROPN	subst:sg:gen:m1	_	_	_	_	_
 6	a	a	CCONJ	conj	_	_	_	_	_
