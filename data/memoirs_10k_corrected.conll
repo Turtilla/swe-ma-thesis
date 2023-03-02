@@ -944,10 +944,10 @@
 # sent_id = 31
 # text = Przy bombardowaniu Lwowa roku 1848 - cała akademia w została w perzynę obrucona – więc i zbiory te zniszczały.
 1	Przy	przy	ADP	prep:loc	_	_	_	_	_
-2	bombardowaniu	bombardować	NOUN	ger:sg:loc:n:imperf:aff	_	_	_	_	_
+2	bombardowaniu	bombardowanie	NOUN	subst:sg:loc:n:ncol	_	_	_	_	_
 3	Lwowa	Lwów	PROPN	subst:sg:gen:m3	_	_	_	_	_
 4	roku	rok	NOUN	subst:sg:gen:m3	_	_	_	_	_
-5	1848	1848	ADJ	dig	_	_	_	_	_
+5	1848	1848	ADJ	adj:sg:gen:m3	_	_	_	_	_
 6	-	-	PUNCT	interp	_	_	_	_	_
 7	cała	cały	ADJ	adj:sg:nom:f:pos	_	_	_	_	_
 8	akademia	akademia	NOUN	subst:sg:nom:f	_	_	_	_	_
@@ -955,7 +955,7 @@
 10	została	zostać	VERB	praet:sg:f:perf	_	_	_	_	_
 11	w	w	ADP	prep:acc:nwok	_	_	_	_	_
 12	perzynę	perzyna	NOUN	subst:sg:acc:f	_	_	_	_	_
-13	obrucona	obrucona	ADJ	subst:sg:acc:m1	_	_	_	_	_
+13	obrucona	obrucony	ADJ	subst:sg:nom:f	_	_	_	_	_
 14	–	–	PUNCT	interp	_	_	_	_	_
 15	więc	więc	CCONJ	comp	_	_	_	_	_
 16	i	i	CCONJ	conj	_	_	_	_	_
@@ -975,16 +975,16 @@
 7	to	to	AUX	pred	_	_	_	_	_
 8	fantasta	fantasta	NOUN	subst:sg:nom:m1	_	_	_	_	_
 9	–	–	PUNCT	interp	_	_	_	_	_
-10	oryginał	oryginał	NOUN	subst:sg:acc:m3	_	_	_	_	_
-11	jakich	jaki	DET	adj:pl:gen:f:pos	_	_	_	_	_
+10	oryginał	oryginał	NOUN	subst:sg:nom:m1	_	_	_	_	_
+11	jakich	jaki	DET	adj:pl:gen:m1:pos	_	_	_	_	_
 12	dziś	dziś	ADV	adv	_	_	_	_	_
 13	się	się	PRON	part	_	_	_	_	_
-14	niespotyka	niespotyka	VERB	subst:sg:nom:f	_	_	_	_	_
+14	niespotyka	niespotykać	VERB	fin:sg:ter:imperf:neg	_	_	_	_	_
 15	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 33
 # text = Miał majątek, bo i po ciotce mojej wziął 100000 zł.polskich w posagu, to zarządzał jako plenipotent wielkimi dobrami, to dzierżawił – ale w rzeczy samej jeździł po znajomych i bawił się.
-1	Miał	mieć	VERB	praet:sg:m3:imperf	_	_	_	_	_
+1	Miał	mieć	VERB	praet:sg:m1:imperf	_	_	_	_	_
 2	majątek	majątek	NOUN	subst:sg:acc:m3	_	_	_	_	_
 3	,	,	PUNCT	interp	_	_	_	_	_
 4	bo	bo	SCONJ	comp	_	_	_	_	_
@@ -993,10 +993,10 @@
 7	ciotce	ciotka	NOUN	subst:sg:loc:f	_	_	_	_	_
 8	mojej	mój	DET	adj:sg:loc:f:pos	_	_	_	_	_
 9	wziął	wziąć	VERB	praet:sg:m1:perf	_	_	_	_	_
-10	100000	100000	NUM	dig	_	_	_	_	_
+10	100000	100000	NUM	num:pl:acc:m3:congr	_	_	_	_	_
 11	zł	złoty	X	brev:npun	_	_	_	_	_
 12	.	.	PUNCT	interp	_	_	_	_	_
-13	polskich	polski	ADJ	adj:pl:gen:m1:pos	_	_	_	_	_
+13	polskich	polski	ADJ	adj:pl:acc:m3:pos	_	_	_	_	_
 14	w	w	ADP	prep:loc:nwok	_	_	_	_	_
 15	posagu	posag	NOUN	subst:sg:loc:m3	_	_	_	_	_
 16	,	,	PUNCT	interp	_	_	_	_	_
@@ -1005,7 +1005,7 @@
 19	jako	jako	SCONJ	conj	_	_	_	_	_
 20	plenipotent	plenipotent	NOUN	subst:sg:nom:m1	_	_	_	_	_
 21	wielkimi	wielki	ADJ	adj:pl:inst:n:pos	_	_	_	_	_
-22	dobrami	dobro	NOUN	subst:pl:inst:n:ncol	_	_	_	_	_
+22	dobrami	dobra	NOUN	subst:pl:inst:n:pt	_	_	_	_	_
 23	,	,	PUNCT	interp	_	_	_	_	_
 24	to	to	PART	comp	_	_	_	_	_
 25	dzierżawił	dzierżawić	VERB	praet:sg:m1:imperf	_	_	_	_	_
@@ -1014,7 +1014,7 @@
 28	w	w	ADP	prep:loc:nwok	_	_	_	_	_
 29	rzeczy	rzecz	NOUN	subst:sg:loc:f	_	_	_	_	_
 30	samej	sam	ADJ	adj:sg:loc:f:pos	_	_	_	_	_
-31	jeździł	jeździć	VERB	praet:sg:m3:imperf	_	_	_	_	_
+31	jeździł	jeździć	VERB	praet:sg:m1:imperf	_	_	_	_	_
 32	po	po	ADP	prep:acc	_	_	_	_	_
 33	znajomych	znajomy	NOUN	subst:pl:acc:m1	_	_	_	_	_
 34	i	i	CCONJ	conj	_	_	_	_	_
@@ -1035,8 +1035,8 @@
 9	ręku	ręka	NOUN	subst:pl:loc:f	_	_	_	_	_
 10	wyśpiewywał	wyśpiewywać	VERB	praet:sg:m1:imperf	_	_	_	_	_
 11	różne	różny	ADJ	adj:pl:nom:f:pos	_	_	_	_	_
-12	arye	arye	NOUN	adj:pl:nom:m2:pos	_	_	_	_	_
-13	krakowiaki	krakowiak	NOUN	subst:pl:nom:m2	_	_	_	_	_
+12	arye	arya	NOUN	subst:pl:nom:f	_	_	_	_	_
+13	krakowiaki	krakowiak	NOUN	subst:pl:nom:m3	_	_	_	_	_
 14	i	i	CCONJ	conj	_	_	_	_	_
 15	kołomyjki	kołomyjka	NOUN	subst:pl:nom:f	_	_	_	_	_
 16	.	.	PUNCT	interp	_	_	_	_	_
@@ -1046,7 +1046,7 @@
 1	Straciwszy	stracić	VERB	pant:perf	_	_	_	_	_
 2	mienie	mienie	NOUN	subst:sg:acc:n:ncol	_	_	_	_	_
 3	całe	cały	ADJ	adj:sg:acc:n:pos	_	_	_	_	_
-4	jeździł	jeździć	VERB	praet:sg:m3:imperf	_	_	_	_	_
+4	jeździł	jeździć	VERB	praet:sg:m1:imperf	_	_	_	_	_
 5	na	na	ADP	prep:loc	_	_	_	_	_
 6	koniu	koń	NOUN	subst:sg:loc:m2	_	_	_	_	_
 7	po	po	ADP	prep:acc	_	_	_	_	_
@@ -1079,7 +1079,7 @@
 11	–	–	PUNCT	interp	_	_	_	_	_
 12	od	od	ADP	prep:gen:nwok	_	_	_	_	_
 13	niej	on	PRON	ppron3:sg:gen:f:ter:akc:praep	_	_	_	_	_
-14	dużo	dużo	DET	num:pl:acc:m3:rec	_	_	_	_	_
+14	dużo	dużo	DET	num:pl:gen:m3:rec	_	_	_	_	_
 15	szczegółów	szczegół	NOUN	subst:pl:gen:m3	_	_	_	_	_
 16	tyczących	tyczyć	ADJ	pact:pl:gen:m3:imperf:aff	_	_	_	_	_
 17	familii	familia	NOUN	subst:sg:gen:f	_	_	_	_	_
@@ -1093,7 +1093,7 @@
 # sent_id = 37
 # text = Opowiadano mi też zabawny epizod z pożycia moich wujostwa.
 1	Opowiadano	opowiadać	VERB	imps:imperf	_	_	_	_	_
-2	mi	mi	PRON	subst:sg:acc:n:ncol	_	_	_	_	_
+2	mi	mi	PRON	subst:sg:acc:m1:ncol	_	_	_	_	_
 3	też	też	PART	part	_	_	_	_	_
 4	zabawny	zabawny	ADJ	adj:sg:acc:m3:pos	_	_	_	_	_
 5	epizod	epizod	NOUN	subst:sg:acc:m3	_	_	_	_	_
@@ -1119,10 +1119,10 @@
 12	-	-	PUNCT	interp	_	_	_	_	_
 13	zastaje	zastawać	VERB	fin:sg:ter:imperf	_	_	_	_	_
 14	katafalk	katafalk	NOUN	subst:sg:acc:m3	_	_	_	_	_
-15	oświecony	oświecony	VERB	subst:sg:nom:m1	_	_	_	_	_
+15	oświecony	oświecony	VERB	subst:sg:nom:m3	_	_	_	_	_
 16	a	a	CCONJ	conj	_	_	_	_	_
 17	na	na	ADP	prep:loc	_	_	_	_	_
-18	nim	on	PRON	ppron3:sg:loc:n:ter:akc:praep	_	_	_	_	_
+18	nim	on	PRON	ppron3:sg:loc:m3:ter:akc:praep	_	_	_	_	_
 19	leży	leżeć	VERB	fin:sg:ter:imperf	_	_	_	_	_
 20	Pan	pan	NOUN	subst:sg:nom:m1	_	_	_	_	_
 21	Stanisław	Stanisław	PROPN	subst:sg:nom:m1	_	_	_	_	_
@@ -1135,7 +1135,7 @@
 3	wstępie	wstęp	NOUN	subst:sg:loc:m3	_	_	_	_	_
 4	opowiedziała	opowiedzieć	VERB	praet:sg:f:perf	_	_	_	_	_
 5	jej	on	PRON	ppron3:sg:gen:f:ter:akc:npraep	_	_	_	_	_
-6	czeladź	czeladź	NOUN	subst:sg:acc:f	_	_	_	_	_
+6	czeladź	czeladź	NOUN	subst:sg:nom:f	_	_	_	_	_
 7	,	,	PUNCT	interp	_	_	_	_	_
 8	że	że	SCONJ	comp	_	_	_	_	_
 9	Pan	pan	NOUN	subst:sg:nom:m1	_	_	_	_	_
@@ -1159,7 +1159,7 @@
 5	lamentuje	lamentować	VERB	fin:sg:ter:imperf	_	_	_	_	_
 6	,	,	PUNCT	interp	_	_	_	_	_
 7	żałuje	żałować	VERB	fin:sg:ter:imperf	_	_	_	_	_
-8	nieboszczyka	nieboszczyk	NOUN	subst:sg:acc:m1	_	_	_	_	_
+8	nieboszczyka	nieboszczyk	NOUN	subst:sg:gen:m1	_	_	_	_	_
 9	-	-	PUNCT	interp	_	_	_	_	_
 10	wreszcie	wreszcie	PART	part	_	_	_	_	_
 11	uspokaja	uspokajać	VERB	fin:sg:ter:imperf	_	_	_	_	_
@@ -1168,17 +1168,17 @@
 14	do	do	ADP	prep:gen	_	_	_	_	_
 15	nieboszczyka	nieboszczyk	NOUN	subst:sg:gen:m1	_	_	_	_	_
 16	przemawia	przemawiać	VERB	fin:sg:ter:imperf	_	_	_	_	_
-17	:		PUNCT	interp	_	_	_	_	_
+17	:	:	PUNCT	interp	_	_	_	_	_
 18	„	„	PUNCT	interp	_	_	_	_	_
 18-19	przeżyłam	_	_	_	_	_	_	_	_
 19	przeżyła	przeżyć	VERB	praet:sg:f:perf	_	_	_	_	_
 20	m	być	AUX	aglt:sg:pri:imperf:nwok	_	_	_	_	_
 21	z	z	ADP	prep:inst:nwok	_	_	_	_	_
-22	Tobą	ty	PRON	ppron12:sg:inst:f:sec	_	_	_	_	_
+22	Tobą	ty	PRON	ppron12:sg:inst:m1:sec	_	_	_	_	_
 23	Stasiu	Stasio	PROPN	subst:sg:voc:m1	_	_	_	_	_
-24	tyle	tyle	DET	num:pl:acc:m3:rec	_	_	_	_	_
+24	tyle	tyle	DET	num:pl:nom:m3:rec	_	_	_	_	_
 25	a	a	CCONJ	conj	_	_	_	_	_
-26	tyle	tyle	DET	num:pl:acc:m3:rec	_	_	_	_	_
+26	tyle	tyle	DET	num:pl:nom:m3:rec	_	_	_	_	_
 27	lat	rok	NOUN	subst:pl:gen:m3	_	_	_	_	_
 28	!	!	PUNCT	interp	_	_	_	_	_
 29	Zostawiasz	zostawiać	VERB	fin:sg:sec:imperf	_	_	_	_	_
@@ -1195,7 +1195,7 @@
 40	w	w	ADP	prep:loc:nwok	_	_	_	_	_
 41	domu	dom	NOUN	subst:sg:loc:m3	_	_	_	_	_
 42	–	–	PUNCT	interp	_	_	_	_	_
-43	zato	zato	PRON	praet:sg:m1:perf	_	_	_	_	_
+43	zato	zato	PRON	subst:sg:acc:n:ncol	_	_	_	_	_
 44	,	,	PUNCT	interp	_	_	_	_	_
 45	ażeby	ażeby	SCONJ	comp	_	_	_	_	_
 46	Ci	ty	PRON	ppron12:sg:dat:m1:sec:nakc	_	_	_	_	_
