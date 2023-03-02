@@ -776,12 +776,12 @@
 # sent_id = 26
 # text = W 1784 roku w kościele Chyrowskim pobłogosławił związek ówczesny Dziekan i proboszcz ksiądz Michał Józef Rzepecki.
 1	W	w	ADP	prep:loc:nwok	_	_	_	_	_
-2	1784	1784	ADJ	dig	_	_	_	_	_
+2	1784	1784	ADJ	adj:sg:loc:m3	_	_	_	_	_
 3	roku	rok	NOUN	subst:sg:loc:m3	_	_	_	_	_
 4	w	w	ADP	prep:loc:nwok	_	_	_	_	_
 5	kościele	kościół	NOUN	subst:sg:loc:m3	_	_	_	_	_
-6	Chyrowskim	chyrowskim	ADJ	adj:sg:loc:m3:pos	_	_	_	_	_
-7	pobłogosławił	pobłogosławić	VERB	praet:sg:m3:perf	_	_	_	_	_
+6	Chyrowskim	chyrowski	ADJ	adj:sg:loc:m3:pos	_	_	_	_	_
+7	pobłogosławił	pobłogosławić	VERB	praet:sg:m1:perf	_	_	_	_	_
 8	związek	związek	NOUN	subst:sg:acc:m3	_	_	_	_	_
 9	ówczesny	ówczesny	ADJ	adj:sg:nom:m1:pos	_	_	_	_	_
 10	Dziekan	dziekan	NOUN	subst:sg:nom:m1	_	_	_	_	_
@@ -809,9 +809,9 @@
 12	,	,	PUNCT	interp	_	_	_	_	_
 13	urodzony	urodzić	ADJ	ppas:sg:nom:m1:perf:aff	_	_	_	_	_
 14	w	w	ADP	prep:loc:nwok	_	_	_	_	_
-15	Czołhanach	Czołhanach	PROPN	subst:sg:loc:m3	_	_	_	_	_
+15	Czołhanach	Czołhany	PROPN	subst:pl:loc:n:pt	_	_	_	_	_
 16	roku	rok	NOUN	subst:sg:gen:m3	_	_	_	_	_
-17	1786	1786	ADJ	dig	_	_	_	_	_
+17	1786	1786	ADJ	adj:sg:gen:m3	_	_	_	_	_
 18	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 28
@@ -822,7 +822,7 @@
 4	Ojca	ojciec	NOUN	subst:sg:gen:m1	_	_	_	_	_
 5	pokończywszy	pokończyć	VERB	pant:perf	_	_	_	_	_
 6	nauki	nauka	NOUN	subst:sg:gen:f	_	_	_	_	_
-7	osiedli	osiedle	VERB	subst:pl:gen:n:ncol	_	_	_	_	_
+7	osiedli	osiadać	VERB	praet:pl:m1:perf	_	_	_	_	_
 8	na	na	ADP	prep:loc	_	_	_	_	_
 9	wsi	wieś	NOUN	subst:sg:loc:f	_	_	_	_	_
 10	,	,	PUNCT	interp	_	_	_	_	_
@@ -851,7 +851,7 @@
 33	we	w	ADP	prep:loc:wok	_	_	_	_	_
 34	Lwowie	Lwów	PROPN	subst:sg:loc:m3	_	_	_	_	_
 35	–	–	PUNCT	interp	_	_	_	_	_
-36	wyszły	wyjść	VERB	praet:pl:m3:perf	_	_	_	_	_
+36	wyszły	wyjść	VERB	praet:pl:f:perf	_	_	_	_	_
 37	za	za	ADP	prep:acc	_	_	_	_	_
 38	mąż	mąż	NOUN	frag	_	_	_	_	_
 39	jedna	jeden	ADJ	adj:sg:nom:f:pos	_	_	_	_	_
@@ -863,11 +863,11 @@
 45	druga	drugi	ADJ	adj:sg:nom:f:pos	_	_	_	_	_
 46	za	za	ADP	prep:acc	_	_	_	_	_
 47	Świeżawskiego	Świeżawski	PROPN	subst:sg:acc:m1	_	_	_	_	_
-48	komornika	komornik	NOUN	subst:sg:gen:m1	_	_	_	_	_
-49	ziemskiego	ziemski	ADJ	adj:sg:gen:m1:pos	_	_	_	_	_
+48	komornika	komornik	NOUN	subst:sg:acc:m1	_	_	_	_	_
+49	ziemskiego	ziemski	ADJ	adj:sg:acc:m1:pos	_	_	_	_	_
 50	i	i	CCONJ	conj	_	_	_	_	_
-51	właściciela	właściciel	NOUN	subst:sg:gen:m1	_	_	_	_	_
-52	Maksymowic	Maksymowic	PROPN	subst:sg:gen:m1	_	_	_	_	_
+51	właściciela	właściciel	NOUN	subst:sg:acc:m1	_	_	_	_	_
+52	Maksymowic	Maksymowic	PROPN	subst:sg:gen:m3	_	_	_	_	_
 53	w	w	ADP	prep:loc:nwok	_	_	_	_	_
 54	Cyrkule	cyrkuł	NOUN	subst:sg:loc:m3	_	_	_	_	_
 55	Samborskim	samborski	PROPN	adj:sg:loc:m3:pos	_	_	_	_	_
@@ -882,11 +882,11 @@
 5	był	być	AUX	praet:sg:m1:imperf	_	_	_	_	_
 6	szambelanem	szambelan	NOUN	subst:sg:inst:m1	_	_	_	_	_
 7	za	za	ADP	prep:acc	_	_	_	_	_
-8	Stan	stan	X	subst:sg:acc:f	_	_	_	_	_
+8	Stan	Stanisława	X	brev:pun	_	_	_	_	_
 9	.	.	PUNCT	interp	_	_	_	_	_
-10	Aug	aug	X	xxs:loc	_	_	_	_	_
+10	Aug	Augusta	X	brev:pun	_	_	_	_	_
 11	.	.	PUNCT	interp	_	_	_	_	_
-12	Poniatowskiego	poniatowski	PROPN	adj:sg:acc:m1:pos	_	_	_	_	_
+12	Poniatowskiego	Poniatowski	PROPN	subst:sg:acc:m1	_	_	_	_	_
 13	–	–	PUNCT	interp	_	_	_	_	_
 14	wielki	wielki	ADJ	adj:sg:nom:m1:pos	_	_	_	_	_
 15	literat	literat	NOUN	subst:sg:nom:m1	_	_	_	_	_
@@ -903,7 +903,7 @@
 7	moich	mój	DET	adj:pl:gen:m1:pos	_	_	_	_	_
 8	Rodziców	rodzic	NOUN	subst:pl:gen:m1	_	_	_	_	_
 9	w	w	ADP	prep:loc:nwok	_	_	_	_	_
-10	Bludnikach	Bludnik	PROPN	subst:pl:loc:m1	_	_	_	_	_
+10	Bludnikach	Bludniki	PROPN	subst:pl:loc:n:pt	_	_	_	_	_
 11	–	–	PUNCT	interp	_	_	_	_	_
 12	zajmował	zajmować	VERB	praet:sg:m1:imperf	_	_	_	_	_
 13	w	w	ADP	prep:loc:nwok	_	_	_	_	_
@@ -912,9 +912,9 @@
 16	pokoje	pokój	NOUN	subst:pl:nom:m3	_	_	_	_	_
 17	–	–	PUNCT	interp	_	_	_	_	_
 18	jeden	jeden	NUM	adj:sg:nom:m3:pos	_	_	_	_	_
-19	był	być	AUX	praet:sg:m1:imperf	_	_	_	_	_
-20	cały	cały	ADJ	adj:sg:nom:m1:pos	_	_	_	_	_
-21	zapełniony	zapełnić	ADJ	ppas:sg:nom:m1:perf:aff	_	_	_	_	_
+19	był	być	AUX	praet:sg:m3:imperf	_	_	_	_	_
+20	cały	cały	ADJ	adj:sg:nom:m3:pos	_	_	_	_	_
+21	zapełniony	zapełnić	ADJ	ppas:sg:nom:m3:perf:aff	_	_	_	_	_
 22	książkami	książka	NOUN	subst:pl:inst:f	_	_	_	_	_
 23	–	–	PUNCT	interp	_	_	_	_	_
 24	później	późno	ADV	adv:com	_	_	_	_	_
@@ -926,8 +926,8 @@
 30	Lwowie	Lwów	PROPN	subst:sg:loc:m3	_	_	_	_	_
 31	,	,	PUNCT	interp	_	_	_	_	_
 32	gdzie	gdzie	ADV	adv	_	_	_	_	_
-33	osobny	osobny	ADJ	adj:sg:nom:m1:pos	_	_	_	_	_
-34	był	być	AUX	praet:sg:m1:imperf	_	_	_	_	_
+33	osobny	osobny	ADJ	adj:sg:nom:m3:pos	_	_	_	_	_
+34	był	być	AUX	praet:sg:m3:imperf	_	_	_	_	_
 35	na	na	ADP	prep:acc	_	_	_	_	_
 36	tę	ten	DET	adj:sg:acc:f:pos	_	_	_	_	_
 37	bibliotekę	biblioteka	NOUN	subst:sg:acc:f	_	_	_	_	_
@@ -937,8 +937,8 @@
 41	napisem	napis	NOUN	subst:sg:inst:m3	_	_	_	_	_
 42	nad	nad	ADP	prep:inst:nwok	_	_	_	_	_
 43	drzwiami	drzwi	NOUN	subst:pl:inst:n:pt	_	_	_	_	_
-44	Abbum	abbum	X	xxs:nom	_	_	_	_	_
-45	Treterianum	treterianum	X	xxs:nom	_	_	_	_	_
+44	Abbum	abbum	X	ign	_	_	_	_	_
+45	Treterianum	treterianum	X	ign	_	_	_	_	_
 46	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 31
