@@ -1233,7 +1233,7 @@
 9	gdzie	gdzie	ADV	adv	_	_	_	_	_
 10	się	się	PRON	part	_	_	_	_	_
 11	obracają	obracać	VERB	fin:pl:ter:imperf	_	_	_	_	_
-12	ich	on	DET	ppron3:pl:gen:m1:ter:akc:npraep	_	_	_	_	_
+12	ich	on	DET	ppron3:pl:gen:n:ter:akc:npraep	_	_	_	_	_
 13	rodziny	rodzina	NOUN	subst:pl:acc:f	_	_	_	_	_
 14	.	.	PUNCT	interp	_	_	_	_	_
 
@@ -1242,25 +1242,25 @@
 1	Drugi	drugi	ADJ	adj:sg:nom:m1:pos	_	_	_	_	_
 2	mój	mój	DET	adj:sg:nom:m1:pos	_	_	_	_	_
 3	wuj	wuj	NOUN	subst:sg:nom:m1	_	_	_	_	_
-4	Świerzawski	świerzawski	PROPN	adj:sg:nom:m3:pos	_	_	_	_	_
-5	kuzyn	kuzyna	NOUN	subst:pl:gen:f	_	_	_	_	_
-6	Polanowskich	polanowski	PROPN	adj:pl:gen:f:pos	_	_	_	_	_
+4	Świerzawski	Świerzawski	PROPN	subst:sg:nom:m1	_	_	_	_	_
+5	kuzyn	kuzyn	NOUN	subst:sg:nom:m1	_	_	_	_	_
+6	Polanowskich	Polanowski	PROPN	subst:pl:gen:m1	_	_	_	_	_
 7	z	z	ADP	prep:gen:nwok	_	_	_	_	_
-8	Bełzkiego	Bełzkiego	PROPN	subst:sg:gen:m1	_	_	_	_	_
+8	Bełzkiego	Bełzkie	PROPN	subst:sg:gen:n:ncol	_	_	_	_	_
 9	często	często	ADV	adv:pos	_	_	_	_	_
 10	bywał	bywać	VERB	praet:sg:m1:imperf	_	_	_	_	_
-11	w	w	ADP	prep:acc:nwok	_	_	_	_	_
-12	Moszkowie	Moszek	PROPN	subst:pl:nom:m1	_	_	_	_	_
+11	w	w	ADP	prep:loc:nwok	_	_	_	_	_
+12	Moszkowie	Moszkowo	PROPN	subst:sg:loc:n:ncol	_	_	_	_	_
 13	z	z	ADP	prep:inst:nwok	_	_	_	_	_
 14	ciotką	ciotka	NOUN	subst:sg:inst:f	_	_	_	_	_
 15	-	-	PUNCT	interp	_	_	_	_	_
 16	tam	tam	ADV	adv	_	_	_	_	_
-17	bywał	bywać	VERB	praet:sg:m3:imperf	_	_	_	_	_
+17	bywał	bywać	VERB	praet:sg:m1:imperf	_	_	_	_	_
 18	duszą	dusza	NOUN	subst:sg:inst:f	_	_	_	_	_
 19	towarzystwa	towarzystwo	NOUN	subst:sg:gen:n:ncol	_	_	_	_	_
 20	od	od	ADP	prep:gen:nwok	_	_	_	_	_
 21	Pań	pani	NOUN	subst:pl:gen:f	_	_	_	_	_
-22	oblegany	oblegać	ADJ	ppas:sg:nom:m3:imperf:aff	_	_	_	_	_
+22	oblegany	oblegać	ADJ	ppas:sg:nom:m1:imperf:aff	_	_	_	_	_
 23	–	–	PUNCT	interp	_	_	_	_	_
 24	ale	ale	CCONJ	conj	_	_	_	_	_
 25	ciotka	ciotka	NOUN	subst:sg:nom:f	_	_	_	_	_
@@ -1269,11 +1269,11 @@
 28	dziwaczką	dziwaczka	NOUN	subst:sg:inst:f	_	_	_	_	_
 29	–	–	PUNCT	interp	_	_	_	_	_
 30	opowiadał	opowiadać	VERB	praet:sg:m1:imperf	_	_	_	_	_
-31	mi	ja	PRON	ppron12:sg:dat:f:pri:nakc	_	_	_	_	_
-32	śp	śp	X	aglt:sg:sec:imperf:nwok	_	_	_	_	_
+31	mi	ja	PRON	ppron12:sg:dat:m1:pri:nakc	_	_	_	_	_
+32	śp	śp	X	brev:pun	_	_	_	_	_
 33	.	.	PUNCT	interp	_	_	_	_	_
 34	Dziadek	dziadek	NOUN	subst:sg:nom:m1	_	_	_	_	_
-35	móy	móy	DET	praet:sg:m1:imperf	_	_	_	_	_
+35	móy	móy	DET	adj:sg:nom:m1:pos	_	_	_	_	_
 36	Ostaszewski	Ostaszewski	PROPN	subst:sg:nom:m1	_	_	_	_	_
 37	że	że	SCONJ	comp	_	_	_	_	_
 38	jadąc	jechać	VERB	pcon:imperf	_	_	_	_	_
@@ -1308,7 +1308,7 @@
 67	suknia	suknia	NOUN	subst:sg:nom:f	_	_	_	_	_
 68	Pani	pani	NOUN	subst:sg:gen:f	_	_	_	_	_
 69	Komornikowej	komornikowej	ADJ	subst:sg:gen:f	_	_	_	_	_
-70	niepomięła	niepomięła	VERB	praet:sg:f:perf	_	_	_	_	_
+70	niepomięła	niepomięła	VERB	praet:sg:f:perf:neg	_	_	_	_	_
 71	–	–	PUNCT	interp	_	_	_	_	_
 72	z	z	ADP	prep:gen:nwok	_	_	_	_	_
 73	tego	ten	DET	adj:sg:gen:n:pos	_	_	_	_	_
@@ -1335,11 +1335,11 @@
 
 # sent_id = 44
 # text = Niewiem jakim sposobem majątek zniszczał – jeden syn ożeniwszy się z cioteczną siostrą Treterówną - żeby rodzinie wstydu nierobił.
-1	Niewiem	niewiem	VERB	subst:sg:nom:m1	_	_	_	_	_
+1	Niewiem	niewiem	VERB	fin:sg:pri:imperf:neg	_	_	_	_	_
 2	jakim	jaki	DET	adj:sg:inst:m3:pos	_	_	_	_	_
 3	sposobem	sposób	NOUN	subst:sg:inst:m3	_	_	_	_	_
-4	majątek	majątek	NOUN	subst:sg:acc:m3	_	_	_	_	_
-5	zniszczał	zniszczeć	VERB	praet:sg:m1:perf	_	_	_	_	_
+4	majątek	majątek	NOUN	subst:sg:nom:m3	_	_	_	_	_
+5	zniszczał	zniszczeć	VERB	praet:sg:m3:perf	_	_	_	_	_
 6	–	–	PUNCT	interp	_	_	_	_	_
 7	jeden	jeden	ADJ	adj:sg:nom:m1:pos	_	_	_	_	_
 8	syn	syn	NOUN	subst:sg:nom:m1	_	_	_	_	_
@@ -1353,7 +1353,7 @@
 16	żeby	żeby	SCONJ	comp	_	_	_	_	_
 17	rodzinie	rodzina	NOUN	subst:sg:dat:f	_	_	_	_	_
 18	wstydu	wstyd	NOUN	subst:sg:gen:m3	_	_	_	_	_
-19	nierobił	nierobił	VERB	subst:sg:gen:m3	_	_	_	_	_
+19	nierobił	nierobił	VERB	praet:sg:m1:imperf:neg	_	_	_	_	_
 20	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 45
@@ -1369,7 +1369,7 @@
 9	założył	założyć	VERB	praet:sg:m1:perf	_	_	_	_	_
 10	konwikt	konwikt	NOUN	subst:sg:acc:m3	_	_	_	_	_
 11	w	w	ADP	prep:loc:nwok	_	_	_	_	_
-12	Rosyi	Rosyi	PROPN	subst:sg:loc:n:ncol	_	_	_	_	_
+12	Rosyi	Rosya	PROPN	subst:sg:loc:f	_	_	_	_	_
 13	–	–	PUNCT	interp	_	_	_	_	_
 14	czy	czy	CCONJ	conj	_	_	_	_	_
 15	na	na	ADP	prep:loc	_	_	_	_	_
@@ -1402,19 +1402,19 @@
 # sent_id = 46
 # text = Ojciec móy sierota oddany do szkół nie bardzo smakował w naukach, niżeli książki wolał konia i szabelkę.
 1	Ojciec	ojciec	NOUN	subst:sg:nom:m1	_	_	_	_	_
-2	móy	móy	DET	fin:sg:ter:imperf	_	_	_	_	_
-3	sierota	sierota	NOUN	subst:sg:nom:m2	_	_	_	_	_
-4	oddany	oddać	ADJ	ppas:sg:nom:m3:perf:aff	_	_	_	_	_
+2	móy	móy	DET	adj:sg:nom:m1:pos	_	_	_	_	_
+3	sierota	sierota	NOUN	subst:sg:nom:m1	_	_	_	_	_
+4	oddany	oddać	ADJ	ppas:sg:nom:m1:perf:aff	_	_	_	_	_
 5	do	do	ADP	prep:gen	_	_	_	_	_
 6	szkół	szkoła	NOUN	subst:pl:gen:f	_	_	_	_	_
 7	nie	nie	PART	part	_	_	_	_	_
 8	bardzo	bardzo	ADV	adv:pos	_	_	_	_	_
-9	smakował	smakować	VERB	praet:sg:m3:imperf	_	_	_	_	_
+9	smakował	smakować	VERB	praet:sg:m1:imperf	_	_	_	_	_
 10	w	w	ADP	prep:loc:nwok	_	_	_	_	_
 11	naukach	nauka	NOUN	subst:pl:loc:f	_	_	_	_	_
 12	,	,	PUNCT	interp	_	_	_	_	_
 13	niżeli	niżeli	SCONJ	conj	_	_	_	_	_
-14	książki	książka	NOUN	subst:pl:nom:f	_	_	_	_	_
+14	książki	książka	NOUN	subst:pl:acc:f	_	_	_	_	_
 15	wolał	woleć	VERB	praet:sg:m1:imperf	_	_	_	_	_
 16	konia	koń	NOUN	subst:sg:acc:m2	_	_	_	_	_
 17	i	i	CCONJ	conj	_	_	_	_	_
@@ -1427,21 +1427,21 @@
 2	to	to	PRON	pred	_	_	_	_	_
 3	być	być	AUX	inf:imperf	_	_	_	_	_
 4	około	około	ADP	part	_	_	_	_	_
-5	1801	1801	ADJ	dig	_	_	_	_	_
+5	1801	1801	ADJ	adj:sg:gen:m3	_	_	_	_	_
 6	roku	rok	NOUN	subst:sg:gen:m3	_	_	_	_	_
 7	–	–	PUNCT	interp	_	_	_	_	_
-8	podpodczas	podpodczas	ADP	subst:sg:nom:n:ncol	_	_	_	_	_
+8	podpodczas	podpodczas	ADP	prep:gen	_	_	_	_	_
 9	wojen	wojna	NOUN	subst:pl:gen:f	_	_	_	_	_
 10	napoleońskich	napoleoński	ADJ	adj:pl:gen:f:pos	_	_	_	_	_
 11	zawerbował	zawerbować	VERB	praet:sg:m1:perf	_	_	_	_	_
 12	się	się	PRON	part	_	_	_	_	_
 13	do	do	ADP	prep:gen	_	_	_	_	_
-14	Sachsen	sachsen	X	xxs:gen	_	_	_	_	_
-15	Cobary	cobary	X	xxs:gen	_	_	_	_	_
+14	Sachsen	sachsen	X	ign	_	_	_	_	_
+15	Cobary	cobary	X	ign	_	_	_	_	_
 16	Ułanów	ułan	NOUN	subst:pl:gen:m1	_	_	_	_	_
 17	mając	maić	VERB	pcon:imperf	_	_	_	_	_
 18	lat	rok	NOUN	subst:pl:gen:m3	_	_	_	_	_
-19	14	14	NUM	dig	_	_	_	_	_
+19	14	14	NUM	num:pl:acc:m3:rec	_	_	_	_	_
 20	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 48
@@ -1467,32 +1467,36 @@
 2	tych	ten	DET	adj:pl:gen:m3:pos	_	_	_	_	_
 3	czasów	czas	NOUN	subst:pl:gen:m3	_	_	_	_	_
 4	niewiele	niewiele	DET	adv	_	_	_	_	_
-5	opowiadał	opowiadać	VERB	praet:sg:m3:imperf	_	_	_	_	_
-6	mi	ja	PRON	ppron12:sg:dat:f:pri:nakc	_	_	_	_	_
+5	opowiadał	opowiadać	VERB	praet:sg:m1:imperf	_	_	_	_	_
+6	mi	ja	PRON	ppron12:sg:dat:m1:pri:nakc	_	_	_	_	_
 7	ś	ś	X	brev:pun	_	_	_	_	_
 8	.	.	PUNCT	interp	_	_	_	_	_
-9	p	list_świętego_piotra	X	brev:npun	_	_	_	_	_
+9	p	p	X	brev:npun	_	_	_	_	_
 10	.	.	PUNCT	interp	_	_	_	_	_
 11	Ojciec	ojciec	NOUN	subst:sg:nom:m1	_	_	_	_	_
 12	–	–	PUNCT	interp	_	_	_	_	_
 13	a	a	CCONJ	conj	_	_	_	_	_
 14	ja	ja	PRON	ppron12:sg:nom:m1:pri	_	_	_	_	_
-15	nieśmiałem	nieśmiałem	VERB	subst:sg:inst:m1	_	_	_	_	_
-16	wypytywać	wypytywać	VERB	inf:imperf	_	_	_	_	_
-17	.	.	PUNCT	interp	_	_	_	_	_
+15-16   nieśmiałem  _	_	_	_	_	_	_	_ 
+15	nieśmiał	nieśmieć	VERB	praet:sg:m1:imperf:neg	_	_	_	_	_
+16  em  być AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
+17	wypytywać	wypytywać	VERB	inf:imperf	_	_	_	_	_
+18	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 50
 # text = Wreszcie niebyłem nigdy dłuższy czas z Oycem na gawędce.
 1	Wreszcie	wreszcie	PART	part	_	_	_	_	_
-2	niebyłem	niebyłem	VERB	fin:pl:pri:perf	_	_	_	_	_
-3	nigdy	nigdy	ADV	adv	_	_	_	_	_
-4	dłuższy	długi	ADJ	adj:sg:acc:m3:com	_	_	_	_	_
-5	czas	czas	NOUN	subst:sg:acc:m3	_	_	_	_	_
-6	z	z	ADP	prep:inst:nwok	_	_	_	_	_
-7	Oycem	oycem	NOUN	subst:sg:inst:m1	_	_	_	_	_
-8	na	na	ADP	prep:loc	_	_	_	_	_
-9	gawędce	gawędka	NOUN	subst:sg:loc:f	_	_	_	_	_
-10	.	.	PUNCT	interp	_	_	_	_	_
+2-3 niebyłem    _	_	_	_	_	_	_	_
+2	niebył	niebyć	VERB	praet:sg:m1:imperf	_	_	_	_	_
+3   em  być AUX aglt:sg:pri:imperf:wok  _	_	_	_	_
+4	nigdy	nigdy	ADV	adv	_	_	_	_	_
+5	dłuższy	długi	ADJ	adj:sg:acc:m3:com	_	_	_	_	_
+6	czas	czas	NOUN	subst:sg:acc:m3	_	_	_	_	_
+7	z	z	ADP	prep:inst:nwok	_	_	_	_	_
+8	Oycem	oycem	NOUN	subst:sg:inst:m1	_	_	_	_	_
+9	na	na	ADP	prep:loc	_	_	_	_	_
+10	gawędce	gawędka	NOUN	subst:sg:loc:f	_	_	_	_	_
+11	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 51
 # text = Młodzieniaszkiem oddany do szkół – w czasie świąt lub wakacji – koń – spacery w sąsiedztwa, a najwięcej czasu podróże i pobyt u Dziaduniów w Zarszynie i z powrotem znowu do szkół a Oyciec ciągle zajęty gospodarstwem, także mało zostawało czasu na wspomnienia lat ubiegłych.
