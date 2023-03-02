@@ -603,13 +603,13 @@
 9	mężach	mąż	NOUN	subst:pl:loc:m1	_	_	_	_	_
 10	–	–	PUNCT	interp	_	_	_	_	_
 11	z	z	ADP	prep:inst:nwok	_	_	_	_	_
-12	pierwszym	pierwszy	ADJ	adj:sg:inst:m3:pos	_	_	_	_	_
-13	Pierściorowskim	Pierściorowskim	PROPN	subst:sg:inst:m1	_	_	_	_	_
+12	pierwszym	pierwszy	ADJ	adj:sg:inst:m1:pos	_	_	_	_	_
+13	Pierściorowskim	Pierściorowski	PROPN	subst:sg:inst:m1	_	_	_	_	_
 14	miała	mieć	VERB	praet:sg:f:imperf	_	_	_	_	_
 15	córkę	córka	NOUN	subst:sg:acc:f	_	_	_	_	_
-16	Maryę	Maryę	PROPN	subst:sg:acc:f	_	_	_	_	_
+16	Maryę	Marya	PROPN	subst:sg:acc:f	_	_	_	_	_
 17	,	,	PUNCT	interp	_	_	_	_	_
-18	Kleofasę	Kleofasę	PROPN	subst:sg:acc:f	_	_	_	_	_
+18	Kleofasę	Kleofasa	PROPN	subst:sg:acc:f	_	_	_	_	_
 19	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 22
@@ -642,10 +642,10 @@
 5	starym	stary	ADJ	adj:sg:inst:n:pos	_	_	_	_	_
 6	winem	wino	NOUN	subst:sg:inst:n:ncol	_	_	_	_	_
 7	–	–	PUNCT	interp	_	_	_	_	_
-8	rada	rad	ADJ	winien:sg:f:imperf	_	_	_	_	_
+8	rada	rad	ADJ	adj:sg:nom:f:pos	_	_	_	_	_
 9	była	być	AUX	praet:sg:f:imperf	_	_	_	_	_
 10	gosposia	gosposia	NOUN	subst:sg:nom:f	_	_	_	_	_
-11	gościowi	gościowy	NOUN	adj:pl:nom:m1:pos	_	_	_	_	_
+11	gościowi	gość	NOUN	subst:sg:dat:m1	_	_	_	_	_
 12	a	a	CCONJ	conj	_	_	_	_	_
 13	śp	śp	X	brev:pun	_	_	_	_	_
 14	.	.	PUNCT	interp	_	_	_	_	_
@@ -664,15 +664,15 @@
 27	bez	bez	ADP	prep:gen:nwok	_	_	_	_	_
 28	wielu	wiele	DET	num:pl:gen:m3:congr	_	_	_	_	_
 29	korowodów	korowód	NOUN	subst:pl:gen:m3	_	_	_	_	_
-30	odezwał	odezwać	VERB	praet:sg:m3:perf	_	_	_	_	_
+30	odezwał	odezwać	VERB	praet:sg:m1:perf	_	_	_	_	_
 31	się	się	PRON	part	_	_	_	_	_
 32	do	do	ADP	prep:gen	_	_	_	_	_
 33	niej	on	PRON	ppron3:sg:gen:f:ter:akc:praep	_	_	_	_	_
-34	:		PUNCT	interp	_	_	_	_	_
+34	:	:	PUNCT	interp	_	_	_	_	_
 35	-	-	PUNCT	interp	_	_	_	_	_
 36	„	„	PUNCT	interp	_	_	_	_	_
 37	wiesz	wiedzieć	VERB	fin:sg:sec:imperf	_	_	_	_	_
-38	Asińdźka	asińdźka	PROPN	subst:sg:nom:f	_	_	_	_	_
+38	Asińdźka	Asińdźka	PROPN	subst:sg:voc:f	_	_	_	_	_
 39	co	co	PRON	subst:sg:nom:n:ncol	_	_	_	_	_
 40	?	?	PUNCT	interp	_	_	_	_	_
 41	Jesteś	być	VERB	fin:sg:sec:imperf	_	_	_	_	_
@@ -692,7 +692,7 @@
 55	Joanna	Joanna	PROPN	subst:sg:nom:f	_	_	_	_	_
 56	–	–	PUNCT	interp	_	_	_	_	_
 57	„	„	PUNCT	interp	_	_	_	_	_
-58	Ja	ja	PRON	ppron12:sg:nom:m1:pri	_	_	_	_	_
+58	Ja	ja	PRON	ppron12:sg:nom:f:pri	_	_	_	_	_
 59	już	już	PART	part	_	_	_	_	_
 60	z	z	ADP	prep:gen:nwok	_	_	_	_	_
 61	zamęścia	zamęście	NOUN	subst:sg:gen:n:ncol	_	_	_	_	_
