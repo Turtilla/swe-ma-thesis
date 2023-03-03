@@ -4,7 +4,8 @@
 ### TODO tagging:
 + ~~Tag 10k tokens with basic tags.~~
 + Decide how many tokens to tag with advanced tags + lemmas.
-+ Pre-tag with the above.
++ ~~Pre-tag with the above.~~
++ Fix issues with reconstructing and spaces after t.p..
 + Finish advanced tagging.
 + Review the tagging.
 
@@ -12,7 +13,7 @@
 + Decide on a method to use BERT for tagging ([existing architecture?](https://github.com/huggingface/transformers/tree/main/examples/legacy/token-classification) 
 + (Potentially) train Marmot on the desired data.
 + ~~Figure out how to access the UD one.~~
-+ Figure out how to use Morfeusz.
++ ~~Figure out how to use Morfeusz.~~
 + Figure out how to use the lemmatizer.
 
 ### TODO eval:
