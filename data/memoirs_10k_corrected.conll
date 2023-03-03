@@ -1921,21 +1921,21 @@
 3-4	słyszałem	_	_	_	_	_	_	_	_
 4	słyszał	słyszeć	VERB	praet:sg:m1:imperf	_	_	_	_	_
 5	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
-6	śp	śp	X	subst:sg:acc:m3	_	_	_	_	_
+6	śp	śp	X	brev:pun	_	_	_	_	_
 7	.	.	PUNCT	interp	_	_	_	_	_
-8	Dziadka	dziadek	NOUN	subst:sg:gen:m1	_	_	_	_	_
-9	Ostaszewskigo	Ostaszewskigo	PROPN	subst:sg:gen:m1	_	_	_	_	_
+8	Dziadka	dziadek	NOUN	subst:sg:acc:m1	_	_	_	_	_
+9	Ostaszewskigo	Ostaszewskigo	PROPN	subst:sg:acc:m1	_	_	_	_	_
 10	jak	jak	SCONJ	adv:pos	_	_	_	_	_
 11	się	się	PRON	part	_	_	_	_	_
 12	chlubił	chlubić	VERB	praet:sg:m1:imperf	_	_	_	_	_
 13	,	,	PUNCT	interp	_	_	_	_	_
 14	że	że	SCONJ	comp	_	_	_	_	_
 15	jego	on	DET	ppron3:sg:gen:m1:ter:akc:npraep	_	_	_	_	_
-16	kmiecie	kmieci	NOUN	adj:sg:nom:n:pos	_	_	_	_	_
+16	kmiecie	kmieć	NOUN	subst:sg:nom:m1	_	_	_	_	_
 17	na	na	ADP	prep:loc	_	_	_	_	_
-18	Długim	długi	ADJ	adj:sg:loc:n:pos	_	_	_	_	_
+18	Długim	długi	ADJ	adj:sg:loc:m3:pos	_	_	_	_	_
 19	najlepsze	dobry	ADJ	adj:sg:acc:n:sup	_	_	_	_	_
-20	mają	maić	VERB	fin:pl:ter:imperf	_	_	_	_	_
+20	mają	mieć	VERB	fin:pl:ter:imperf	_	_	_	_	_
 21	konie	koń	NOUN	subst:pl:acc:m2	_	_	_	_	_
 22	z	z	ADP	prep:gen:nwok	_	_	_	_	_
 23	okolicy	okolica	NOUN	subst:sg:gen:f	_	_	_	_	_
@@ -1944,11 +1944,11 @@
 26	jeżeli	jeżeli	SCONJ	comp	_	_	_	_	_
 27	któremu	który	DET	adj:sg:dat:m1:pos	_	_	_	_	_
 28	padło	paść	VERB	praet:sg:n:perf	_	_	_	_	_
-29	bydle	bydło	NOUN	subst:sg:loc:n:ncol	_	_	_	_	_
-30	robocze	roboczy	ADJ	adj:sg:acc:n:pos	_	_	_	_	_
+29	bydle	bydlę	NOUN	subst:sg:nom:n:ncol	_	_	_	_	_
+30	robocze	roboczy	ADJ	adj:sg:nom:n:pos	_	_	_	_	_
 31	–	–	PUNCT	interp	_	_	_	_	_
 32	zaraz	zaraz	ADV	adv	_	_	_	_	_
-33	dawał	dawać	VERB	praet:sg:m3:imperf	_	_	_	_	_
+33	dawał	dawać	VERB	praet:sg:m1:imperf	_	_	_	_	_
 34	pieniądze	pieniądz	NOUN	subst:pl:acc:m3	_	_	_	_	_
 35	–	–	PUNCT	interp	_	_	_	_	_
 36	żeby	żeby	SCONJ	comp	_	_	_	_	_
@@ -1965,30 +1965,30 @@
 1	A	a	CCONJ	conj	_	_	_	_	_
 2	gdy	gdy	ADV	adv	_	_	_	_	_
 3	raz	raz	NOUN	subst:sg:acc:m3	_	_	_	_	_
-4	Dłużanie	Dłużanie	PROPN	subst:sg:loc:f	_	_	_	_	_
+4	Dłużanie	Dłużanin	PROPN	subst:pl:nom:m1	_	_	_	_	_
 5	żalili	żalić	VERB	praet:pl:m1:imperf	_	_	_	_	_
 6	się	się	PRON	part	_	_	_	_	_
 7	,	,	PUNCT	interp	_	_	_	_	_
 8	że	że	SCONJ	comp	_	_	_	_	_
-9	niemają	niemaja	VERB	subst:sg:inst:f	_	_	_	_	_
+9	niemają	niemieć	VERB	fin:pl:ter:imperf:neg	_	_	_	_	_
 10	dogodnego	dogodny	ADJ	adj:sg:gen:n:pos	_	_	_	_	_
 11	pastwiska	pastwisko	NOUN	subst:sg:gen:n:ncol	_	_	_	_	_
 12	dla	dla	ADP	prep:gen	_	_	_	_	_
 13	koni	koń	NOUN	subst:pl:gen:m2	_	_	_	_	_
 14	–	–	PUNCT	interp	_	_	_	_	_
 15	Oddzieli	oddzielić	VERB	fin:sg:ter:perf	_	_	_	_	_
-16	śp	śp	X	aglt:sg:sec:imperf:nwok	_	_	_	_	_
+16	śp	śp	X	brev:pun	_	_	_	_	_
 17	.	.	PUNCT	interp	_	_	_	_	_
 18	Pan	pan	NOUN	subst:sg:nom:m1	_	_	_	_	_
 19	Kazimierz	Kazimierz	PROPN	subst:sg:nom:m1	_	_	_	_	_
-20	60	60	NUM	dig	_	_	_	_	_
+20	60	60	NUM	num:pl:acc:m3:rec	_	_	_	_	_
 21	morgów	mórg	NOUN	subst:pl:gen:m3	_	_	_	_	_
-22	suchey	suchey	ADJ	pact:pl:gen:m3:imperf:aff	_	_	_	_	_
-23	łąki	łąka	NOUN	subst:pl:acc:f	_	_	_	_	_
-24	podedworem	podedworem	NOUN	subst:sg:inst:m3	_	_	_	_	_
+22	suchey	suchy	ADJ	adj:sg:gen:f:pos	_	_	_	_	_
+23	łąki	łąka	NOUN	subst:sg:gen:f	_	_	_	_	_
+24	podedworem	podedwór	NOUN	subst:sg:loc:m3	_	_	_	_	_
 25	a	a	CCONJ	conj	_	_	_	_	_
-26	nayskładniey	nayskładniey	ADV	subst:pl:nom:m2	_	_	_	_	_
-27	położone	położony	ADJ	adj:pl:nom:m2:pos	_	_	_	_	_
+26	nayskładniey	składnie	ADV	adv:sup	_	_	_	_	_
+27	położone	położony	ADJ	adj:pl:nom:m3:pos	_	_	_	_	_
 28	dla	dla	ADP	prep:gen	_	_	_	_	_
 29	kmieci	kmieć	NOUN	subst:pl:gen:m1	_	_	_	_	_
 30	,	,	PUNCT	interp	_	_	_	_	_
@@ -2000,7 +2000,7 @@
 
 # sent_id = 64
 # text = Niebył to obowiązek spełniony ale był ten czyn wypływem poczucia obywatelskiego, życzliwości dla poddanych. Oycowskiey.
-1	Niebył	niebyła	AUX	subst:pl:gen:f	_	_	_	_	_
+1	Niebył	niebyć	AUX	praet:sg:m3:imperf:neg	_	_	_	_	_
 2	to	to	AUX	pred	_	_	_	_	_
 3	obowiązek	obowiązek	NOUN	subst:sg:nom:m3	_	_	_	_	_
 4	spełniony	spełnić	ADJ	ppas:sg:nom:m3:perf:aff	_	_	_	_	_
@@ -2016,7 +2016,7 @@
 14	dla	dla	ADP	prep:gen	_	_	_	_	_
 15	poddanych	poddany	NOUN	subst:pl:gen:m1	_	_	_	_	_
 16	.	.	PUNCT	interp	_	_	_	_	_
-17	Oycowskiey	oycowskiey	ADJ	subst:pl:nom:f	_	_	_	_	_
+17	Oycowskiey	oycowski	ADJ	subst:sg:acc:f	_	_	_	_	_
 18	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 65
@@ -2025,11 +2025,11 @@
 2	też	też	PART	part	_	_	_	_	_
 3	do	do	ADP	prep:gen	_	_	_	_	_
 4	dworu	dwór	NOUN	subst:sg:gen:m3	_	_	_	_	_
-5	prawo	prawo	NOUN	adv:pos	_	_	_	_	_
+5	prawo	prawo	NOUN	subst:sg:nom:n:ncol	_	_	_	_	_
 6	wyszynku	wyszynk	NOUN	subst:sg:gen:m3	_	_	_	_	_
-7	napar	napar	NOUN	subst:sg:acc:m3	_	_	_	_	_
-8	prawo	prawo	NOUN	subst:sg:acc:n:ncol	_	_	_	_	_
-9	warżenia	warżenia	NOUN	ger:sg:gen:n:perf:aff	_	_	_	_	_
+7	napar	napar	NOUN	subst:sg:nom:m3	_	_	_	_	_
+8	prawo	prawo	NOUN	subst:sg:nom:n:ncol	_	_	_	_	_
+9	warżenia	warżyć	NOUN	ger:sg:gen:n:perf:aff	_	_	_	_	_
 10	piwa	piwo	NOUN	subst:sg:gen:n:ncol	_	_	_	_	_
 11	i	i	CCONJ	conj	_	_	_	_	_
 12	wódki	wódka	NOUN	subst:sg:gen:f	_	_	_	_	_
@@ -2049,7 +2049,7 @@
 26	całym	cały	ADJ	adj:sg:loc:m3:pos	_	_	_	_	_
 27	obszarze	obszar	NOUN	subst:sg:loc:m3	_	_	_	_	_
 28	tak	tak	CCONJ	adv:pos	_	_	_	_	_
-29	dworskim	dworskie	ADJ	subst:sg:inst:n:ncol	_	_	_	_	_
+29	dworskim	dworski	ADJ	adj:sg:loc:m3:pos	_	_	_	_	_
 30	jak	jak	CCONJ	conj	_	_	_	_	_
 31	i	i	CCONJ	conj	_	_	_	_	_
 32	gromadzkim	gromadzki	ADJ	adj:sg:loc:m3:pos	_	_	_	_	_
@@ -2083,7 +2083,7 @@
 24	suszonych	suszyć	ADJ	ppas:pl:gen:m3:imperf:aff	_	_	_	_	_
 25	grzybów	grzyb	NOUN	subst:pl:gen:m3	_	_	_	_	_
 26	–	–	PUNCT	interp	_	_	_	_	_
-27	miarkmi	miarkmi	NOUN	num:pl:nom:m3:congr:ncol	_	_	_	_	_
+27	miarkmi	miarka	NOUN	subst:pl:inst:f	_	_	_	_	_
 28	wianki	wianek	NOUN	subst:pl:nom:m3	_	_	_	_	_
 29	powinny	powinien	VERB	winien:pl:m3:imperf	_	_	_	_	_
 30	były	być	AUX	praet:pl:m3:imperf	_	_	_	_	_
@@ -2102,26 +2102,27 @@
 6	dawał	dawać	VERB	praet:sg:m1:imperf	_	_	_	_	_
 7	też	też	PART	part	_	_	_	_	_
 8	z	z	ADP	prep:gen:nwok	_	_	_	_	_
-9	niego	on	PRON	ppron3:sg:gen:m1:ter:akc:praep	_	_	_	_	_
+9	niego	on	PRON	ppron3:sg:gen:m3:ter:akc:praep	_	_	_	_	_
 10	dziesięcinę	dziesięcina	NOUN	subst:sg:acc:f	_	_	_	_	_
 11	,	,	PUNCT	interp	_	_	_	_	_
 12	to	to	AUX	pred	_	_	_	_	_
 13	jest	być	AUX	fin:sg:ter:imperf	_	_	_	_	_
-14	dziesiąty	dziesiąty	ADJ	adj:sg:nom:m3:pos	_	_	_	_	_
-15	pniak	pniak	NOUN	subst:sg:nom:m3	_	_	_	_	_
+14	dziesiąty	dziesiąty	ADJ	adj:sg:acc:m3:pos	_	_	_	_	_
+15	pniak	pniak	NOUN	subst:sg:acc:m3	_	_	_	_	_
 16	do	do	ADP	prep:gen	_	_	_	_	_
 17	dworu	dwór	NOUN	subst:sg:gen:m3	_	_	_	_	_
 18	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 68
 # text = Zdawałoby się – że przy takiem obciążeniu gruntu obowiązkami dla dworu – chłop był biedny - jednakże tak nie było – majątki były wyłącznie w ręku szlachty – pieczęć urzędowa jurysdykcyi był Herb Dziedzica – a dokoła napis Dominium Bludniki – Zarszyn – i t.p.
+1-2 Zdawałoby	_	_	_	_	_	_	_	_
 1	Zdawało	zdawać	VERB	praet:sg:n:imperf	_	_	_	_	_
 2	by	by	AUX	part	_	_	_	_	_
 3	się	się	PRON	part	_	_	_	_	_
 4	–	–	PUNCT	interp	_	_	_	_	_
 5	że	że	SCONJ	comp	_	_	_	_	_
 6	przy	przy	ADP	prep:loc	_	_	_	_	_
-7	takiem	takiem	DET	adj:sg:loc:n:pos	_	_	_	_	_
+7	takiem	taki	DET	adj:sg:loc:n:pos	_	_	_	_	_
 8	obciążeniu	obciążyć	NOUN	ger:sg:loc:n:perf:aff	_	_	_	_	_
 9	gruntu	grunt	NOUN	subst:sg:gen:m3	_	_	_	_	_
 10	obowiązkami	obowiązek	NOUN	subst:pl:inst:m3	_	_	_	_	_
@@ -2142,11 +2143,11 @@
 25	wyłącznie	wyłącznie	ADV	part	_	_	_	_	_
 26	w	w	ADP	prep:loc:nwok	_	_	_	_	_
 27	ręku	ręka	NOUN	subst:pl:loc:f	_	_	_	_	_
-28	szlachty	szlachta	NOUN	subst:pl:acc:f	_	_	_	_	_
+28	szlachty	szlachta	NOUN	subst:sg:gen:f	_	_	_	_	_
 29	–	–	PUNCT	interp	_	_	_	_	_
 30	pieczęć	pieczęć	NOUN	subst:sg:nom:f	_	_	_	_	_
 31	urzędowa	urzędowy	ADJ	adj:sg:nom:f:pos	_	_	_	_	_
-32	jurysdykcyi	jurysdykcyi	NOUN	subst:sg:gen:f	_	_	_	_	_
+32	jurysdykcyi	jurysdykcya	NOUN	subst:sg:gen:f	_	_	_	_	_
 33	był	być	AUX	praet:sg:m3:imperf	_	_	_	_	_
 34	Herb	herb	NOUN	subst:sg:nom:m3	_	_	_	_	_
 35	Dziedzica	dziedzic	NOUN	subst:sg:gen:m1	_	_	_	_	_
@@ -2154,17 +2155,21 @@
 37	a	a	CCONJ	conj	_	_	_	_	_
 38	dokoła	dokoła	ADP	adv	_	_	_	_	_
 39	napis	napis	NOUN	subst:sg:nom:m3	_	_	_	_	_
-40	Dominium	dominium	NOUN	subst:sg:gen:n:ncol	_	_	_	_	_
-41	Bludniki	Bludnik	PROPN	depr:pl:voc:m2	_	_	_	_	_
+40	Dominium	dominium	NOUN	subst:sg:nom:n:ncol	_	_	_	_	_
+41	Bludniki	Bludniki	PROPN	subst:pl:nom:n:pt	_	_	_	_	_
 42	–	–	PUNCT	interp	_	_	_	_	_
 43	Zarszyn	Zarszyn	PROPN	subst:sg:nom:m3	_	_	_	_	_
 44	–	–	PUNCT	interp	_	_	_	_	_
 45	i	i	CCONJ	conj	_	_	_	_	_
+46  t   t   X   brev:pun    _	_	_	_	_
+47  .   .   PUNCT   interp  _	_	_	_	_
+48  p   p   X   brev:pun    _	_	_	_	_
+49  .   .   PUNCT   interp  _	_	_	_	_
 
 # sent_id = 69
 # text = Nieszlachcic niemógł kupować majątku ziemskiego.
 1	Nieszlachcic	nieszlachcic	NOUN	subst:sg:nom:m1	_	_	_	_	_
-2	niemógł	niemógł	VERB	fin:sg:ter:imperf	_	_	_	_	_
+2	niemógł	niemóc	VERB	fin:sg:ter:imperf:neg	_	_	_	_	_
 3	kupować	kupować	VERB	inf:imperf	_	_	_	_	_
 4	majątku	majątek	NOUN	subst:sg:gen:m3	_	_	_	_	_
 5	ziemskiego	ziemski	ADJ	adj:sg:gen:m3:pos	_	_	_	_	_
@@ -2175,9 +2180,9 @@
 1	Dziedzic	dziedzic	NOUN	subst:sg:nom:m1	_	_	_	_	_
 2	postanawiał	postanawiać	VERB	praet:sg:m1:imperf	_	_	_	_	_
 3	na	na	ADP	prep:acc	_	_	_	_	_
-4	swojem	swojem	DET	subst:sg:acc:m3	_	_	_	_	_
-5	mieycus	mieycus	NOUN	subst:sg:nom:m1	_	_	_	_	_
-6	Mandatariusza	mandatariusz	NOUN	subst:sg:gen:m1	_	_	_	_	_
+4	swojem	swój	DET	adj:sg:loc:n:pos	_	_	_	_	_
+5	mieycus	mieysce	NOUN	subst:sg:loc:n:ncol	_	_	_	_	_
+6	Mandatariusza	mandatariusz	NOUN	subst:sg:acc:m1	_	_	_	_	_
 7	-	-	PUNCT	interp	_	_	_	_	_
 8	który	który	DET	adj:sg:nom:m1:pos	_	_	_	_	_
 9	obliczał	obliczać	VERB	praet:sg:m1:imperf	_	_	_	_	_
