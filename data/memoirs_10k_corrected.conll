@@ -264,7 +264,7 @@
 13	i	i	CCONJ	conj	_	_	_	_	_
 14	Skolego	Skole	PROPN	subst:sg:gen:n:ncol	_	_	_	_	_
 15	w	w	ADP	prep:loc:nwok	_	_	_	_	_
-16	Stryjskim	Stryjski	PROPN	subst:sg:loc:m3	_	_	_	_	_
+16	Stryjskim	Stryjski	ADJ	adj:sg:loc:m3:pos	_	_	_	_	_
 17	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 10
@@ -521,11 +521,11 @@
 56	owe	ow	DET	adj:pl:acc:m3:pos	_	_	_	_	_
 57	czasy	czas	NOUN	subst:pl:acc:m3	_	_	_	_	_
 58	w	w	ADP	prep:loc:nwok	_	_	_	_	_
-59	Halickim	halicki	PROPN	adj:sg:loc:m3:pos	_	_	_	_	_
+59	Halickim	halicki	ADJ	adj:sg:loc:m3:pos	_	_	_	_	_
 60	,	,	PUNCT	interp	_	_	_	_	_
 61	później	późno	ADV	adv:com	_	_	_	_	_
 62	w	w	ADP	prep:loc:nwok	_	_	_	_	_
-63	Stryjskim	stryjski	PROPN	adj:sg:loc:m3:pos	_	_	_	_	_
+63	Stryjskim	stryjski	ADJ	adj:sg:loc:m3:pos	_	_	_	_	_
 64	cyrkule	cyrkuł	NOUN	subst:sg:loc:m3	_	_	_	_	_
 65	.	.	PUNCT	interp	_	_	_	_	_
 
@@ -1540,7 +1540,7 @@
 38	gospodarstwem	gospodarstwo	NOUN	subst:sg:inst:n:ncol	_	_	_	_	_
 39	,	,	PUNCT	interp	_	_	_	_	_
 40	także	także	PART	part	_	_	_	_	_
-41	mało	mało	ADV	num:pl:nom:m1:rec	_	_	_	_	_
+41	mało	mało	DET	num:pl:nom:m3:rec	_	_	_	_	_
 42	zostawało	zostawać	VERB	praet:sg:n:imperf	_	_	_	_	_
 43	czasu	czas	NOUN	subst:sg:gen:m3	_	_	_	_	_
 44	na	na	ADP	prep:acc	_	_	_	_	_
@@ -1552,7 +1552,7 @@
 # sent_id = 52
 # text = Zdaje mi się, że służbę wojskową zakończył śp.móy Oyciec około 1808 – albo 1809 – w randze nadporucznika, zatrzymując charakter wojskowego do kończ życia.
 1	Zdaje	zdawać	VERB	fin:sg:ter:imperf	_	_	_	_	_
-2	mi	ja	PRON	ppron12:sg:dat:f:pri:nakc	_	_	_	_	_
+2	mi	ja	PRON	ppron12:sg:dat:m1:pri:nakc	_	_	_	_	_
 3	się	się	PRON	part	_	_	_	_	_
 4	,	,	PUNCT	interp	_	_	_	_	_
 5	że	że	SCONJ	comp	_	_	_	_	_
@@ -1561,13 +1561,13 @@
 8	zakończył	zakończyć	VERB	praet:sg:m1:perf	_	_	_	_	_
 9	śp	śp	X	brev:pun	_	_	_	_	_
 10	.	.	PUNCT	interp	_	_	_	_	_
-11	móy	móy	DET	adj:sg:nom:m3:pos	_	_	_	_	_
+11	móy	móy	DET	adj:sg:nom:m1:pos	_	_	_	_	_
 12	Oyciec	oyciec	NOUN	subst:sg:nom:m1	_	_	_	_	_
 13	około	około	ADP	part	_	_	_	_	_
-14	1808	1808	ADJ	dig	_	_	_	_	_
+14	1808	1808	ADJ	adj:sg:gen:m3	_	_	_	_	_
 15	–	–	PUNCT	interp	_	_	_	_	_
 16	albo	albo	CCONJ	conj	_	_	_	_	_
-17	1809	1809	ADJ	dig	_	_	_	_	_
+17	1809	1809	ADJ	adj:sg:gen:m3	_	_	_	_	_
 18	–	–	PUNCT	interp	_	_	_	_	_
 19	w	w	ADP	prep:loc:nwok	_	_	_	_	_
 20	randze	ranga	NOUN	subst:sg:loc:f	_	_	_	_	_
@@ -1577,7 +1577,7 @@
 24	charakter	charakter	NOUN	subst:sg:acc:m3	_	_	_	_	_
 25	wojskowego	wojskowy	ADJ	adj:sg:gen:m3:pos	_	_	_	_	_
 26	do	do	ADP	prep:gen	_	_	_	_	_
-27	kończ	kończyć	NOUN	impt:sg:sec:imperf	_	_	_	_	_
+27	kończ	koniec	NOUN	subst:sg:gen:m3	_	_	_	_	_
 28	życia	żyć	NOUN	ger:sg:gen:n:imperf:aff	_	_	_	_	_
 29	.	.	PUNCT	interp	_	_	_	_	_
 
@@ -1586,24 +1586,24 @@
 1	Brał	brać	VERB	praet:sg:m1:imperf	_	_	_	_	_
 2	udział	udział	NOUN	subst:sg:acc:m3	_	_	_	_	_
 3	we	w	ADP	prep:loc:wok	_	_	_	_	_
-4	wielu	wiele	DET	num:pl:loc:m1:congr	_	_	_	_	_
+4	wielu	wiele	DET	num:pl:loc:f:congr	_	_	_	_	_
 5	bitwach	bitwa	NOUN	subst:pl:loc:f	_	_	_	_	_
 6	–	–	PUNCT	interp	_	_	_	_	_
 7	a	a	CCONJ	conj	_	_	_	_	_
 8	pod	pod	ADP	prep:inst:nwok	_	_	_	_	_
-9	Iglan	Iglan	PROPN	subst:sg:inst:m1	_	_	_	_	_
+9	Iglan	Iglan	PROPN	subst:sg:inst:m3	_	_	_	_	_
 10	był	być	VERB	praet:sg:m1:imperf	_	_	_	_	_
 11	ranny	ranny	ADJ	adj:sg:nom:m1:pos	_	_	_	_	_
 12	w	w	ADP	prep:acc:nwok	_	_	_	_	_
 13	rękę	ręka	NOUN	subst:sg:acc:f	_	_	_	_	_
 14	a	a	CCONJ	conj	_	_	_	_	_
-15	pod	pod	ADP	prep:acc:nwok	_	_	_	_	_
-16	Wagram	Wagram	PROPN	subst:sg:acc:m3	_	_	_	_	_
+15	pod	pod	ADP	prep:inst:nwok	_	_	_	_	_
+16	Wagram	Wagram	PROPN	subst:sg:inst:m3	_	_	_	_	_
 17	stojąc	stać	VERB	pcon:imperf	_	_	_	_	_
 18	w	w	ADP	prep:loc:nwok	_	_	_	_	_
-19	assekuracyi	assekuracyi	NOUN	subst:sg:loc:n:ncol	_	_	_	_	_
+19	assekuracyi	assekuracya	NOUN	subst:sg:loc:f	_	_	_	_	_
 20	armat	armata	NOUN	subst:pl:gen:f	_	_	_	_	_
-21	utracił	utracić	VERB	praet:sg:m2:perf	_	_	_	_	_
+21	utracił	utracić	VERB	praet:sg:m1:perf	_	_	_	_	_
 22	konia	koń	NOUN	subst:sg:acc:m2	_	_	_	_	_
 23	,	,	PUNCT	interp	_	_	_	_	_
 24	sam	sam	ADJ	adj:sg:nom:m1:pos	_	_	_	_	_
@@ -1612,13 +1612,13 @@
 27	na	na	ADP	prep:loc	_	_	_	_	_
 28	pobojowisku	pobojowisko	NOUN	subst:sg:loc:n:ncol	_	_	_	_	_
 29	jak	jak	SCONJ	adv:pos	_	_	_	_	_
-30	nieżywy	nieżywy	ADJ	adj:sg:nom:m2:pos	_	_	_	_	_
+30	nieżywy	nieżywy	ADJ	adj:sg:nom:m1:pos	_	_	_	_	_
 31	–	–	PUNCT	interp	_	_	_	_	_
 32	cały	cały	ADJ	adj:sg:acc:m3:pos	_	_	_	_	_
 33	pułk	pułk	NOUN	subst:sg:acc:m3	_	_	_	_	_
 34	pieszy	pieszy	ADJ	adj:sg:acc:m3:pos	_	_	_	_	_
-35	Francuzów	Francuz	PROPN	subst:pl:acc:m1	_	_	_	_	_
-36	przemaszerował	przemaszerować	VERB	praet:sg:m1:perf	_	_	_	_	_
+35	Francuzów	Francuz	PROPN	subst:pl:gen:m1	_	_	_	_	_
+36	przemaszerował	przemaszerować	VERB	praet:sg:m3:perf	_	_	_	_	_
 37	po	po	ADP	prep:loc	_	_	_	_	_
 38	nim	on	PRON	ppron3:sg:loc:m1:ter:akc:praep	_	_	_	_	_
 39	,	,	PUNCT	interp	_	_	_	_	_
@@ -1662,7 +1662,7 @@
 7	się	się	PRON	part	_	_	_	_	_
 8	znacznej	znaczny	ADJ	adj:sg:gen:f:pos	_	_	_	_	_
 9	fortuny	fortuna	NOUN	subst:sg:gen:f	_	_	_	_	_
-10	skrzętnem	skrzętnem	ADJ	subst:sg:inst:m3	_	_	_	_	_
+10	skrzętnem	skrzętny	ADJ	adj:sg:inst:n	_	_	_	_	_
 11	gospodarstwem	gospodarstwo	NOUN	subst:sg:inst:n:ncol	_	_	_	_	_
 12	.	.	PUNCT	interp	_	_	_	_	_
 
@@ -1671,13 +1671,13 @@
 1	Kupił	kupić	VERB	praet:sg:m1:perf	_	_	_	_	_
 2	na	na	ADP	prep:acc	_	_	_	_	_
 3	własność	własność	NOUN	subst:sg:acc:f	_	_	_	_	_
-4	wieś	wieś	NOUN	subst:sg:nom:f	_	_	_	_	_
-5	Siemiginów	Siemiginów	PROPN	subst:pl:gen:n:pt	_	_	_	_	_
+4	wieś	wieś	NOUN	subst:sg:acc:f	_	_	_	_	_
+5	Siemiginów	Siemiginów	PROPN	subst:pl:nom:m3	_	_	_	_	_
 6	w	w	ADP	prep:loc:nwok	_	_	_	_	_
-7	Stryjskim	Stryjski	PROPN	subst:sg:loc:m1	_	_	_	_	_
+7	Stryjskim	stryjski	ADJ	adj:sg:loc:m3:pos	_	_	_	_	_
 8	-	-	PUNCT	interp	_	_	_	_	_
 9	po	po	ADP	prep:loc	_	_	_	_	_
-10	tem	tema	DET	subst:pl:gen:f	_	_	_	_	_
+10	tem	to	PRON	subst:pl:gen:n:ncol	_	_	_	_	_
 11	jak	jak	SCONJ	adv:pos	_	_	_	_	_
 12	powiadano	powiadać	VERB	imps:imperf	_	_	_	_	_
 13	za	za	ADP	prep:acc	_	_	_	_	_
@@ -1695,14 +1695,14 @@
 25	odesłał	odesłać	VERB	praet:sg:m1:perf	_	_	_	_	_
 26	,	,	PUNCT	interp	_	_	_	_	_
 27	kupił	kupić	VERB	praet:sg:m1:perf	_	_	_	_	_
-28	Bludniki	Bludnik	PROPN	depr:pl:nom:m2	_	_	_	_	_
+28	Bludniki	Bludniki	PROPN	subst:pl:nom:n:pt	_	_	_	_	_
 29	za	za	ADP	prep:acc	_	_	_	_	_
-30	które	który	DET	adj:pl:nom:m2:pos	_	_	_	_	_
+30	które	który	DET	adj:pl:nom:n:pos	_	_	_	_	_
 31	wyliczył	wyliczyć	VERB	praet:sg:m1:perf	_	_	_	_	_
 32	Pani	pani	NOUN	subst:sg:dat:f	_	_	_	_	_
-33	Rozwadowskiej	Rozwadowska	PROPN	subst:sg:gen:f	_	_	_	_	_
-34	10000	10000	NUM	dig	_	_	_	_	_
-35	dukatów	dukat	NOUN	subst:pl:gen:m2	_	_	_	_	_
+33	Rozwadowskiej	Rozwadowska	PROPN	subst:sg:dat:f	_	_	_	_	_
+34	10000	10000	NUM	num:pl:nom:m3:rec	_	_	_	_	_
+35	dukatów	dukat	NOUN	subst:pl:gen:m3	_	_	_	_	_
 36	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 56
@@ -1713,9 +1713,9 @@
 4	ceny	cena	NOUN	subst:sg:gen:f	_	_	_	_	_
 5	kupna	kupno	NOUN	subst:sg:gen:n:ncol	_	_	_	_	_
 6	brakowało	brakować	VERB	praet:sg:n:imperf	_	_	_	_	_
-7	2000	2000	NUM	dig	_	_	_	_	_
-8	dukatów	dukat	NOUN	subst:pl:gen:m2	_	_	_	_	_
-9	pełnłnomocnik	pełnłnomocnik	NOUN	subst:sg:nom:m3	_	_	_	_	_
+7	2000	2000	NUM	num:pl:gen:m3:rec	_	_	_	_	_
+8	dukatów	dukat	NOUN	subst:pl:gen:m3	_	_	_	_	_
+9	pełnłnomocnik	pełnłnomocnik	NOUN	subst:sg:nom:m1	_	_	_	_	_
 10	Pani	pani	NOUN	subst:sg:gen:f	_	_	_	_	_
 11	Rozwadowskiej	Rozwadowska	PROPN	subst:sg:gen:f	_	_	_	_	_
 12	nie	nie	PART	part	_	_	_	_	_
@@ -1755,8 +1755,8 @@
 17	i	i	CCONJ	conj	_	_	_	_	_
 18	oddawał	oddawać	VERB	praet:sg:m1:imperf	_	_	_	_	_
 19	tak	tak	ADV	adv:pos	_	_	_	_	_
-20	nazwane	nazwać	ADJ	ppas:sg:nom:n:perf:aff	_	_	_	_	_
-21	posłuszeństwo	posłuszeństwo	NOUN	subst:sg:nom:n:ncol	_	_	_	_	_
+20	nazwane	nazwać	ADJ	ppas:sg:acc:n:perf:aff	_	_	_	_	_
+21	posłuszeństwo	posłuszeństwo	NOUN	subst:sg:acc:n:ncol	_	_	_	_	_
 22	–	–	PUNCT	interp	_	_	_	_	_
 23	Nowy	nowy	ADJ	adj:sg:nom:m1:pos	_	_	_	_	_
 24	Dziedzic	dziedzic	NOUN	subst:sg:nom:m1	_	_	_	_	_
@@ -1771,38 +1771,38 @@
 33	majątku	majątek	NOUN	subst:sg:gen:m3	_	_	_	_	_
 34	z	z	ADP	prep:inst:nwok	_	_	_	_	_
 35	prawami	prawo	NOUN	subst:pl:inst:n:ncol	_	_	_	_	_
-36	pańszczyźnianymi	pańszczyźniany	ADJ	adj:pl:inst:m3:pos	_	_	_	_	_
+36	pańszczyźnianymi	pańszczyźniany	ADJ	adj:pl:inst:n:pos	_	_	_	_	_
 37	osypami	osyp	NOUN	subst:pl:inst:m3	_	_	_	_	_
 38	daninami	danina	NOUN	subst:pl:inst:f	_	_	_	_	_
 39	od	od	ADP	prep:gen:nwok	_	_	_	_	_
 40	poddanych	poddany	NOUN	subst:pl:gen:m1	_	_	_	_	_
 41	-	-	PUNCT	interp	_	_	_	_	_
 42	nad	nad	ADP	prep:inst:nwok	_	_	_	_	_
-43	któremi	któremi	DET	subst:pl:inst:m1	_	_	_	_	_
-44	obeymował	obeymował	VERB	praet:sg:m1:perf	_	_	_	_	_
-45	Dziedzictwo	dziedzictwo	NOUN	subst:sg:nom:n:ncol	_	_	_	_	_
+43	któremi	który	DET	adj:pl:inst:m1:pos	_	_	_	_	_
+44	obeymował	obeymować	VERB	praet:sg:m1:imperf	_	_	_	_	_
+45	Dziedzictwo	dziedzictwo	NOUN	subst:sg:acc:n:ncol	_	_	_	_	_
 46	opiekę	opieka	NOUN	subst:sg:acc:f	_	_	_	_	_
 47	prawną	prawny	ADJ	adj:sg:acc:f:pos	_	_	_	_	_
-48	juryzdyksye	juryzdyksye	NOUN	xxs:nom	_	_	_	_	_
-49	sądową	sądowy	ADJ	adj:sg:inst:f:pos	_	_	_	_	_
-50	polityczną	polityczny	ADJ	adj:sg:inst:f:pos	_	_	_	_	_
+48	juryzdyksye	juryzdyksya	NOUN	subst:sg:acc:f	_	_	_	_	_
+49	sądową	sądowy	ADJ	adj:sg:acc:f:pos	_	_	_	_	_
+50	polityczną	polityczny	ADJ	adj:sg:acc:f:pos	_	_	_	_	_
 51	i	i	CCONJ	conj	_	_	_	_	_
-52	policyjną	policyjny	ADJ	adj:sg:inst:f:pos	_	_	_	_	_
-53	pierwszey	pierwszey	ADJ	subst:sg:inst:f	_	_	_	_	_
-54	instantacyi	instantacyi	NOUN	conj	_	_	_	_	_
+52	policyjną	policyjny	ADJ	adj:sg:acc:f:pos	_	_	_	_	_
+53	pierwszey	pierwszey	ADJ	adj:sg:gen:f:pos	_	_	_	_	_
+54	instantacyi	instantacya	NOUN	subst:sg:gen:f	_	_	_	_	_
 55	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 58
 # text = Zaś daniny w robocie odbywali poddani wedle ilości posiadanych morgów - byli więc całorolni gospodarze albo półrolni – ci winni byli odrabiać pewną ilość dni bydłem co tygodnia – byli zagrodnicy – i chałupnicy - ci odrabiali powinności pieszo.
 1	Zaś	zaś	CCONJ	conj	_	_	_	_	_
-2	daniny	danina	NOUN	subst:pl:nom:f	_	_	_	_	_
+2	daniny	danina	NOUN	subst:pl:acc:f	_	_	_	_	_
 3	w	w	ADP	prep:loc:nwok	_	_	_	_	_
 4	robocie	robota	NOUN	subst:sg:loc:f	_	_	_	_	_
 5	odbywali	odbywać	VERB	praet:pl:m1:imperf	_	_	_	_	_
 6	poddani	poddany	NOUN	subst:pl:nom:m1	_	_	_	_	_
 7	wedle	wedle	ADP	prep:gen	_	_	_	_	_
 8	ilości	ilość	NOUN	subst:sg:gen:f	_	_	_	_	_
-9	posiadanych	posiadać	ADJ	ppas:pl:gen:m3:imperf:aff	_	_	_	_	_
+9	posiadanych	posiadać	ADJ	ppas:pl:gen:m1:imperf:aff	_	_	_	_	_
 10	morgów	mórg	NOUN	subst:pl:gen:m3	_	_	_	_	_
 11	-	-	PUNCT	interp	_	_	_	_	_
 12	byli	być	VERB	praet:pl:m1:imperf	_	_	_	_	_
@@ -1820,7 +1820,7 @@
 24	ilość	ilość	NOUN	subst:sg:acc:f	_	_	_	_	_
 25	dni	dzień	NOUN	subst:pl:gen:m3	_	_	_	_	_
 26	bydłem	bydło	NOUN	subst:sg:inst:n:ncol	_	_	_	_	_
-27	co	co	ADP	subst:sg:nom:n:ncol	_	_	_	_	_
+27	co	co	ADP	prep:acc	_	_	_	_	_
 28	tygodnia	tydzień	NOUN	subst:sg:gen:m3	_	_	_	_	_
 29	–	–	PUNCT	interp	_	_	_	_	_
 30	byli	być	VERB	praet:pl:m1:imperf	_	_	_	_	_
@@ -1850,7 +1850,7 @@
 11	ilość	ilość	NOUN	subst:sg:acc:f	_	_	_	_	_
 12	owsa	owies	NOUN	subst:sg:gen:m3	_	_	_	_	_
 13	–	–	PUNCT	interp	_	_	_	_	_
-14	korzec	korzec	NOUN	subst:sg:nom:m3	_	_	_	_	_
+14	korzec	korzec	NOUN	subst:sg:acc:m3	_	_	_	_	_
 15	albo	albo	CCONJ	conj	_	_	_	_	_
 16	dwa	dwa	NUM	num:pl:acc:m3:congr:ncol	_	_	_	_	_
 17	korce	korzec	NOUN	subst:pl:acc:m3	_	_	_	_	_
@@ -1867,16 +1867,16 @@
 5	zagrodnicy	zagrodnik	NOUN	subst:pl:nom:m1	_	_	_	_	_
 6	dawali	dawać	VERB	praet:pl:m1:imperf	_	_	_	_	_
 7	tak	tak	ADV	adv:pos	_	_	_	_	_
-8	zwane	zwać	ADJ	ppas:sg:nom:n:imperf:aff	_	_	_	_	_
-9	spaśne	spaśne	NOUN	subst:sg:nom:n:ncol	_	_	_	_	_
+8	zwane	zwać	ADJ	ppas:sg:acc:n:imperf:aff	_	_	_	_	_
+9	spaśne	spaśne	NOUN	subst:sg:acc:n:ncol	_	_	_	_	_
 10	-	-	PUNCT	interp	_	_	_	_	_
-11	kury	kura	NOUN	subst:pl:nom:f	_	_	_	_	_
-12	kapłony	kapłon	NOUN	subst:pl:nom:m2	_	_	_	_	_
-13	kaczki	kaczka	NOUN	subst:pl:nom:f	_	_	_	_	_
+11	kury	kura	NOUN	subst:pl:acc:f	_	_	_	_	_
+12	kapłony	kapłon	NOUN	subst:pl:acc:m2	_	_	_	_	_
+13	kaczki	kaczka	NOUN	subst:pl:acc:f	_	_	_	_	_
 14	i	i	CCONJ	conj	_	_	_	_	_
-15	gęsi	gęś	NOUN	subst:pl:nom:f	_	_	_	_	_
+15	gęsi	gęś	NOUN	subst:pl:acc:f	_	_	_	_	_
 16	,	,	PUNCT	interp	_	_	_	_	_
-17	jaja	jaje	NOUN	subst:pl:nom:n:ncol	_	_	_	_	_
+17	jaja	jaje	NOUN	subst:pl:acc:n:ncol	_	_	_	_	_
 18	–	–	PUNCT	interp	_	_	_	_	_
 19	miewali	miewać	VERB	praet:pl:m1:imperf	_	_	_	_	_
 20	oni	on	PRON	ppron3:pl:nom:m1:ter:akc:npraep	_	_	_	_	_
