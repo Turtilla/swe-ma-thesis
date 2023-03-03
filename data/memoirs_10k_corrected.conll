@@ -2664,7 +2664,7 @@
 96	i	i	CCONJ	conj	_	_	_	_	_
 97	dzban	dzban	NOUN	subst:sg:nom:m3	_	_	_	_	_
 98	–	–	PUNCT	interp	_	_	_	_	_
-99	niewiem	niewiem	VERB	subst:sg:nom:m1	_	_	_	_	_
+99	niewiem	niewiem	VERB	fin:sg:pri:imperf:neg	_	_	_	_	_
 100	czy	czy	PART	part	_	_	_	_	_
 101	z	z	ADP	prep:inst:nwok	_	_	_	_	_
 102	nalewką	nalewka	NOUN	subst:sg:inst:f	_	_	_	_	_
@@ -2811,15 +2811,15 @@
 15	to	to	AUX	pred	_	_	_	_	_
 16	oyciec	oyciec	NOUN	subst:sg:nom:m1	_	_	_	_	_
 17	owego	ow	DET	adj:sg:gen:m1:pos	_	_	_	_	_
-18	Głoweckiego	Głoweckiego	PROPN	subst:sg:gen:m1	_	_	_	_	_
+18	Głoweckiego	Głowecki	PROPN	subst:sg:gen:m1	_	_	_	_	_
 19	–	–	PUNCT	interp	_	_	_	_	_
 20	który	który	DET	adj:sg:nom:m1:pos	_	_	_	_	_
 21	przeszedł	przejść	VERB	praet:sg:m1:perf	_	_	_	_	_
 22	w	w	ADP	prep:acc:nwok	_	_	_	_	_
 23	Lubelskie	Lubelskie	PROPN	subst:sg:acc:n:ncol	_	_	_	_	_
 24	jako	jako	SCONJ	conj	_	_	_	_	_
-25	pop	pop	NOUN	adj:pl:nom:f:pos	_	_	_	_	_
-26	szyzmatycki	szyzmatycki	ADJ	subst:pl:nom:f	_	_	_	_	_
+25	pop	pop	NOUN	subst:sg:nom:m1	_	_	_	_	_
+26	szyzmatycki	szyzmatycki	ADJ	adj:sg:nom:m1:pos	_	_	_	_	_
 27	jako	jako	SCONJ	conj	_	_	_	_	_
 28	renegat	renegat	NOUN	subst:sg:nom:m1	_	_	_	_	_
 29	tam	tam	ADV	adv	_	_	_	_	_
@@ -2831,18 +2831,18 @@
 # text = I tak późney dokupił Dziad móy Dorchów i Kurypów – W Dochorowie osadził nayjstarszego syna Michała – a oddając masę tych dóbr napisał w ruskim języku – Toje diło daruju ukochanomu Synu mojomu Mychayłowu.
 1	I	i	CCONJ	conj	_	_	_	_	_
 2	tak	tak	ADV	adv:pos	_	_	_	_	_
-3	późney	późney	ADV	subst:sg:nom:n:ncol	_	_	_	_	_
+3	późney	późno	ADV	adv:com	_	_	_	_	_
 4	dokupił	dokupić	VERB	praet:sg:m1:perf	_	_	_	_	_
 5	Dziad	dziad	NOUN	subst:sg:nom:m1	_	_	_	_	_
-6	móy	móy	DET	subst:sg:gen:f	_	_	_	_	_
-7	Dorchów	Dorchów	PROPN	subst:pl:gen:m1	_	_	_	_	_
+6	móy	móy	DET	adj:sg:nom:m1:pos	_	_	_	_	_
+7	Dorchów	Dorchów	PROPN	subst:sg:acc:m3	_	_	_	_	_
 8	i	i	CCONJ	conj	_	_	_	_	_
-9	Kurypów	Kurypów	PROPN	subst:pl:gen:m1	_	_	_	_	_
+9	Kurypów	Kurypów	PROPN	subst:sg:acc:m3	_	_	_	_	_
 10	–	–	PUNCT	interp	_	_	_	_	_
 11	W	w	ADP	prep:loc:nwok	_	_	_	_	_
-12	Dochorowie	Dochorowie	PROPN	subst:sg:loc:m2	_	_	_	_	_
+12	Dochorowie	Dochorów	PROPN	subst:sg:loc:m3	_	_	_	_	_
 13	osadził	osadzić	VERB	praet:sg:m1:perf	_	_	_	_	_
-14	nayjstarszego	nayjstarszego	ADJ	adj:sg:acc:m1:pos	_	_	_	_	_
+14	nayjstarszego	stary	ADJ	adj:sg:acc:m1:sup	_	_	_	_	_
 15	syna	syn	NOUN	subst:sg:acc:m1	_	_	_	_	_
 16	Michała	Michał	PROPN	subst:sg:acc:m1	_	_	_	_	_
 17	–	–	PUNCT	interp	_	_	_	_	_
@@ -2856,23 +2856,23 @@
 25	ruskim	ruski	ADJ	adj:sg:loc:m3:pos	_	_	_	_	_
 26	języku	język	NOUN	subst:sg:loc:m3	_	_	_	_	_
 27	–	–	PUNCT	interp	_	_	_	_	_
-28	Toje	toje	X	xxx	_	_	_	_	_
-29	diło	diło	X	xxx	_	_	_	_	_
-30	daruju	daruju	X	xxx	_	_	_	_	_
-31	ukochanomu	ukochanomu	X	xxx	_	_	_	_	_
-32	Synu	syn	X	subst:sg:voc:m1	_	_	_	_	_
-33	mojomu	mojomu	X	subst:sg:gen:m3	_	_	_	_	_
-34	Mychayłowu	mychayłowu	X	subst:sg:gen:m3	_	_	_	_	_
+28	Toje	toje	X	ign	_	_	_	_	_
+29	diło	diło	X	ign	_	_	_	_	_
+30	daruju	daruju	X	ign	_	_	_	_	_
+31	ukochanomu	ukochanomu	X	ign	_	_	_	_	_
+32	Synu	syn	X	ign	_	_	_	_	_
+33	mojomu	mojomu	X	ign	_	_	_	_	_
+34	Mychayłowu	mychayłowu	X	ign	_	_	_	_	_
 35	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 88
 # text = Bludniki oddał Panu Józefowi iOycu mojemu.
-1	Bludniki	Bludnik	PROPN	depr:pl:nom:m2	_	_	_	_	_
+1	Bludniki	Bludniki	PROPN	subst:pl:nom:n:pt	_	_	_	_	_
 2	oddał	oddać	VERB	praet:sg:m1:perf	_	_	_	_	_
 3	Panu	pan	NOUN	subst:sg:dat:m1	_	_	_	_	_
 4	Józefowi	Józef	PROPN	subst:sg:dat:m1	_	_	_	_	_
-5	iOycu	ioycu	NOUN	subst:sg:dat:m1	_	_	_	_	_
-6	mojemu	mój	DET	subst:sg:dat:m1	_	_	_	_	_
+5	iOycu	ioyciec	NOUN	subst:sg:dat:m1	_	_	_	_	_
+6	mojemu	mój	DET	adj:sg:dat:m1:pos	_	_	_	_	_
 7	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 89
@@ -2903,24 +2903,24 @@
 24	mojego	mój	DET	adj:sg:gen:m1:pos	_	_	_	_	_
 25	Oyca	oyca	NOUN	subst:sg:gen:m1	_	_	_	_	_
 26	pono	pono	PART	part	_	_	_	_	_
-27	1813	1813	ADJ	dig	_	_	_	_	_
+27	1813	1813	ADJ	adj:sg:gen:m3	_	_	_	_	_
 28	albo	albo	CCONJ	conj	_	_	_	_	_
-29	1814	1814	ADJ	dig	_	_	_	_	_
+29	1814	1814	ADJ	adj:sg:gen:m3	_	_	_	_	_
 30	–	–	PUNCT	interp	_	_	_	_	_
-31	Pana	pan	NOUN	subst:sg:gen:m1	_	_	_	_	_
-32	Józefa	Józef	PROPN	subst:sg:gen:m1	_	_	_	_	_
+31	Pana	pan	NOUN	subst:sg:acc:m1	_	_	_	_	_
+32	Józefa	Józef	PROPN	subst:sg:acc:m1	_	_	_	_	_
 33	wziął	wziąć	VERB	praet:sg:m1:perf	_	_	_	_	_
-34	Dziadek	dziadek	NOUN	subst:sg:acc:f	_	_	_	_	_
-35	móy	móy	DET	fin:pl:pri:imperf	_	_	_	_	_
+34	Dziadek	dziadek	NOUN	subst:sg:nom:m1	_	_	_	_	_
+35	móy	móy	DET	adj:sg:nom:m1:pos	_	_	_	_	_
 36	do	do	ADP	prep:gen	_	_	_	_	_
 37	Siebie	siebie	PRON	siebie:gen	_	_	_	_	_
 38	do	do	ADP	prep:gen	_	_	_	_	_
-39	Siemginowa	Siemginowa	PROPN	subst:sg:gen:m1	_	_	_	_	_
+39	Siemginowa	Siemginów	PROPN	subst:sg:gen:m3	_	_	_	_	_
 40	–	–	PUNCT	interp	_	_	_	_	_
 41	i	i	CCONJ	conj	_	_	_	_	_
 42	aż	aż	PART	part	_	_	_	_	_
-43	dośmierci	dośmierci	NOUN	subst:pl:nom:m1	_	_	_	_	_
-44	Oyca	oyca	NOUN	subst:sg:gen:m1	_	_	_	_	_
+43	dośmierci	dośmierć	NOUN	subst:pl:gen:f	_	_	_	_	_
+44	Oyca	oyciec	NOUN	subst:sg:gen:m1	_	_	_	_	_
 45	przy	przy	ADP	prep:loc	_	_	_	_	_
 46	Nim	on	PRON	ppron3:sg:loc:m1:ter:akc:praep	_	_	_	_	_
 47	zostawał	zostawać	VERB	praet:sg:m1:imperf	_	_	_	_	_
@@ -2950,11 +2950,11 @@
 10	poszła	pójść	VERB	praet:sg:f:perf	_	_	_	_	_
 11	operacya	operacya	NOUN	subst:sg:nom:f	_	_	_	_	_
 12	i	i	CCONJ	conj	_	_	_	_	_
-13	ile	ile	DET	num:pl:nom:n:rec	_	_	_	_	_
+13	ile	ile	ADV	adv	_	_	_	_	_
 14	sobie	siebie	PRON	siebie:dat	_	_	_	_	_
 15	przypominam	przypominać	VERB	fin:sg:pri:imperf	_	_	_	_	_
 16	około	około	ADP	part	_	_	_	_	_
-17	1826	1826	ADJ	dig	_	_	_	_	_
+17	1826	1826	ADJ	adj:sg:gen:m3	_	_	_	_	_
 18	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 91
@@ -2968,7 +2968,7 @@
 7	objął	objąć	VERB	praet:sg:m1:perf	_	_	_	_	_
 8	na	na	ADP	prep:acc	_	_	_	_	_
 9	własność	własność	NOUN	subst:sg:acc:f	_	_	_	_	_
-10	Semiginów	Semiginów	PROPN	subst:pl:gen:m1	_	_	_	_	_
+10	Semiginów	Semiginów	PROPN	subst:pl:acc:m1	_	_	_	_	_
 11	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 92
@@ -2995,7 +2995,7 @@
 10	która	który	DET	adj:sg:nom:f:pos	_	_	_	_	_
 11	to	to	AUX	comp	_	_	_	_	_
 12	Lipa	Lipa	PROPN	subst:sg:nom:f	_	_	_	_	_
-13	niewinem	niewino	VERB	subst:sg:inst:n:ncol	_	_	_	_	_
+13	niewinem	niewiedzieć	VERB	fin:sg:pri:imperf:neg	_	_	_	_	_
 14	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 94
@@ -3003,12 +3003,12 @@
 1	Pan	pan	NOUN	subst:sg:nom:m1	_	_	_	_	_
 2	Michał	Michał	PROPN	subst:sg:nom:m1	_	_	_	_	_
 3	był	być	AUX	praet:sg:m1:imperf	_	_	_	_	_
-4	najstarszy	stary	ADJ	adj:sg:nom:m3:sup	_	_	_	_	_
+4	najstarszy	stary	ADJ	adj:sg:nom:m1:sup	_	_	_	_	_
 5	w	w	ADP	prep:loc:nwok	_	_	_	_	_
 6	rodzinie	rodzina	NOUN	subst:sg:loc:f	_	_	_	_	_
 7	sąsiadował	sąsiadować	VERB	praet:sg:m1:imperf	_	_	_	_	_
 8	z	z	ADP	prep:inst:nwok	_	_	_	_	_
-9	Bludnikami	Bludnik	PROPN	subst:pl:inst:m1	_	_	_	_	_
+9	Bludnikami	Bludniki	PROPN	subst:pl:inst:n:pt	_	_	_	_	_
 10	o	o	ADP	prep:acc	_	_	_	_	_
 11	miedzę	miedza	NOUN	subst:sg:acc:f	_	_	_	_	_
 12	.	.	PUNCT	interp	_	_	_	_	_
@@ -3019,17 +3019,17 @@
 2	ze	z	ADP	prep:inst:wok	_	_	_	_	_
 3	Zabilską	Zabilska	PROPN	subst:sg:inst:f	_	_	_	_	_
 4	z	z	ADP	prep:gen:nwok	_	_	_	_	_
-5	Temerowiec	Temerowiec	PROPN	subst:sg:gen:f	_	_	_	_	_
+5	Temerowiec	Temerowice	PROPN	subst:pl:gen:n:ncol	_	_	_	_	_
 6	,	,	PUNCT	interp	_	_	_	_	_
 7	siostra	siostra	NOUN	subst:sg:nom:f	_	_	_	_	_
-8	Teodora	Teodora	PROPN	subst:sg:nom:f	_	_	_	_	_
+8	Teodora	Teodora	PROPN	subst:sg:gen:m1	_	_	_	_	_
 9	i	i	CCONJ	conj	_	_	_	_	_
-10	Stanisława	Stanisława	PROPN	subst:sg:nom:f	_	_	_	_	_
+10	Stanisława	Stanisław	PROPN	subst:sg:gen:m1	_	_	_	_	_
 11	Zabilskich	Zabilski	PROPN	subst:pl:acc:m1	_	_	_	_	_
 12	–	–	PUNCT	interp	_	_	_	_	_
 13	miał	mieć	VERB	praet:sg:m1:imperf	_	_	_	_	_
 14	Syna	syn	NOUN	subst:sg:acc:m1	_	_	_	_	_
-15	jedynaka	jedynak	NOUN	subst:sg:gen:m1	_	_	_	_	_
+15	jedynaka	jedynak	NOUN	subst:sg:acc:m1	_	_	_	_	_
 16	Sabina	Sabin	PROPN	subst:sg:gen:m1	_	_	_	_	_
 17	.	.	PUNCT	interp	_	_	_	_	_
 
@@ -3045,11 +3045,11 @@
 8	niedługo	niedługo	ADV	adv:pos	_	_	_	_	_
 9	poszedł	pójść	VERB	praet:sg:m1:perf	_	_	_	_	_
 10	za	za	ADP	prep:acc	_	_	_	_	_
-11	Oycem	oycem	NOUN	subst:sg:inst:m1	_	_	_	_	_
+11	Oycem	oyciec	NOUN	subst:sg:inst:m1	_	_	_	_	_
 12	doszedłszy	dojść	VERB	pant:perf	_	_	_	_	_
 13	lat	rok	NOUN	subst:pl:gen:m3	_	_	_	_	_
 14	około	około	ADP	part	_	_	_	_	_
-15	24	24	NUM	dig	_	_	_	_	_
+15	24	24	NUM	num:pl:gen:m3:rec	_	_	_	_	_
 16	na	na	ADP	prep:acc	_	_	_	_	_
 17	tyfus	tyfus	NOUN	subst:sg:acc:m3	_	_	_	_	_
 18	zachorował	zachorować	VERB	praet:sg:m1:perf	_	_	_	_	_
@@ -3061,7 +3061,7 @@
 # text = Majątek prawem sukcessyi przeszedł po synie na Matkę – a ta zapisała Dorchów bratu swojemu Teodorowi żona temu pono z Jordanówną z Bełzkiego, ten zostawił Dorchów swojemu synowi. – Pan Kazimierz zmarł kawalerem.
 1	Majątek	majątek	NOUN	subst:sg:nom:m3	_	_	_	_	_
 2	prawem	prawo	NOUN	subst:sg:inst:n:ncol	_	_	_	_	_
-3	sukcessyi	sukcessyi	NOUN	subst:sg:gen:f	_	_	_	_	_
+3	sukcessyi	sukcessya	NOUN	subst:sg:gen:f	_	_	_	_	_
 4	przeszedł	przejść	VERB	praet:sg:m3:perf	_	_	_	_	_
 5	po	po	ADP	prep:loc	_	_	_	_	_
 6	synie	synie	NOUN	subst:sg:loc:m3	_	_	_	_	_
@@ -3071,7 +3071,7 @@
 10	a	a	CCONJ	conj	_	_	_	_	_
 11	ta	ten	DET	adj:sg:nom:f:pos	_	_	_	_	_
 12	zapisała	zapisać	VERB	praet:sg:f:perf	_	_	_	_	_
-13	Dorchów	Dorchów	PROPN	subst:pl:acc:m1	_	_	_	_	_
+13	Dorchów	Dorchów	PROPN	subst:pl:acc:m3	_	_	_	_	_
 14	bratu	brat	NOUN	subst:sg:dat:m1	_	_	_	_	_
 15	swojemu	swój	DET	adj:sg:dat:m1:pos	_	_	_	_	_
 16	Teodorowi	Teodor	PROPN	subst:sg:dat:m1	_	_	_	_	_
@@ -3081,11 +3081,11 @@
 20	z	z	ADP	prep:inst:nwok	_	_	_	_	_
 21	Jordanówną	Jordanówną	PROPN	subst:sg:inst:f	_	_	_	_	_
 22	z	z	ADP	prep:gen:nwok	_	_	_	_	_
-23	Bełzkiego	Bełzkiego	PROPN	subst:sg:gen:m1	_	_	_	_	_
+23	Bełzkiego	Bełzkiego	PROPN	subst:sg:gen:m3	_	_	_	_	_
 24	,	,	PUNCT	interp	_	_	_	_	_
 25	ten	ten	DET	adj:sg:nom:m1:pos	_	_	_	_	_
 26	zostawił	zostawić	VERB	praet:sg:m1:perf	_	_	_	_	_
-27	Dorchów	Dorchów	PROPN	subst:pl:gen:m1	_	_	_	_	_
+27	Dorchów	Dorchów	PROPN	subst:pl:acc:m1	_	_	_	_	_
 28	swojemu	swój	DET	adj:sg:dat:m1:pos	_	_	_	_	_
 29	synowi	syn	NOUN	subst:sg:dat:m1	_	_	_	_	_
 30	.	.	PUNCT	interp	_	_	_	_	_
@@ -3104,9 +3104,9 @@
 4	moich	mój	DET	adj:pl:gen:m1:pos	_	_	_	_	_
 5	Rodziców	rodzic	NOUN	subst:pl:gen:m1	_	_	_	_	_
 6	–	–	PUNCT	interp	_	_	_	_	_
-7	niebył	niebyła	VERB	subst:pl:gen:f	_	_	_	_	_
+7	niebył	niebyć	VERB	praet:sg:ter:imperf:neg	_	_	_	_	_
 8	gospodarzem	gospodarz	NOUN	subst:sg:inst:m1	_	_	_	_	_
-9	więcey	więcey	DET	praet:sg:m1:imperf	_	_	_	_	_
+9	więcey	dużo	ADV	adv:com	_	_	_	_	_
 10	fantasta	fantasta	NOUN	subst:sg:nom:m1	_	_	_	_	_
 11	–	–	PUNCT	interp	_	_	_	_	_
 12	pamiętam	pamiętać	VERB	fin:sg:pri:imperf	_	_	_	_	_
@@ -3120,10 +3120,10 @@
 20	w	w	ADP	prep:loc:nwok	_	_	_	_	_
 21	kuchni	kuchnia	NOUN	subst:sg:loc:f	_	_	_	_	_
 22	czytywał	czytywać	VERB	praet:sg:m1:imperf	_	_	_	_	_
-23	wgłos	wgłos	ADV	brev:pun	_	_	_	_	_
+23	wgłos	wgłos	ADV	adv	_	_	_	_	_
 24	„	„	PUNCT	interp	_	_	_	_	_
-25	Pana	pan	NOUN	subst:sg:gen:m1	_	_	_	_	_
-26	Tadeusza	Tadeusz	PROPN	subst:sg:gen:m1	_	_	_	_	_
+25	Pana	pan	NOUN	subst:sg:acc:m1	_	_	_	_	_
+26	Tadeusza	Tadeusz	PROPN	subst:sg:acc:m1	_	_	_	_	_
 27	”	”	PUNCT	interp	_	_	_	_	_
 28	,	,	PUNCT	interp	_	_	_	_	_
 29	skupował	skupować	VERB	praet:sg:m1:imperf	_	_	_	_	_
@@ -3148,12 +3148,12 @@
 # sent_id = 100
 # text = Gdy przyszedł post – ligał na gołey podłodze obok łóżka dyscypliną mortyfikował ciało – Zapraszał do tey praktyki do siebie zakonników – ale ci niemogli długo wytrwać i uciekali.
 1	Gdy	gdy	ADV	adv	_	_	_	_	_
-2	przyszedł	przyjść	VERB	praet:sg:m1:perf	_	_	_	_	_
-3	post	post	NOUN	subst:sg:nom:m2	_	_	_	_	_
+2	przyszedł	przyjść	VERB	praet:sg:m3:perf	_	_	_	_	_
+3	post	post	NOUN	subst:sg:nom:m3	_	_	_	_	_
 4	–	–	PUNCT	interp	_	_	_	_	_
-5	ligał	ligać	VERB	praet:sg:m2:imperf	_	_	_	_	_
+5	ligał	ligać	VERB	praet:sg:m1:imperf	_	_	_	_	_
 6	na	na	ADP	prep:loc	_	_	_	_	_
-7	gołey	gołey	ADJ	ppas:sg:loc:f:perf:aff	_	_	_	_	_
+7	gołey	goła	ADJ	adj:sg:loc:f:pos	_	_	_	_	_
 8	podłodze	podłoga	NOUN	subst:sg:loc:f	_	_	_	_	_
 9	obok	obok	ADP	prep:gen	_	_	_	_	_
 10	łóżka	łóżko	NOUN	subst:sg:gen:n:ncol	_	_	_	_	_
@@ -3163,7 +3163,7 @@
 14	–	–	PUNCT	interp	_	_	_	_	_
 15	Zapraszał	zapraszać	VERB	praet:sg:m1:imperf	_	_	_	_	_
 16	do	do	ADP	prep:gen	_	_	_	_	_
-17	tey	tey	DET	pact:sg:gen:f:imperf:aff	_	_	_	_	_
+17	tey	tey	DET	adj:sg:gen:f:pos	_	_	_	_	_
 18	praktyki	praktyka	NOUN	subst:sg:gen:f	_	_	_	_	_
 19	do	do	ADP	prep:gen	_	_	_	_	_
 20	siebie	siebie	PRON	siebie:gen	_	_	_	_	_
@@ -3171,7 +3171,7 @@
 22	–	–	PUNCT	interp	_	_	_	_	_
 23	ale	ale	CCONJ	conj	_	_	_	_	_
 24	ci	ty	PRON	ppron12:sg:dat:m1:sec:nakc	_	_	_	_	_
-25	niemogli	niemogel	VERB	subst:pl:gen:m3	_	_	_	_	_
+25	niemogli	niemóc	VERB	praet:pl:m1:imperf:neg	_	_	_	_	_
 26	długo	długo	ADV	adv:pos	_	_	_	_	_
 27	wytrwać	wytrwać	VERB	inf:perf	_	_	_	_	_
 28	i	i	CCONJ	conj	_	_	_	_	_
