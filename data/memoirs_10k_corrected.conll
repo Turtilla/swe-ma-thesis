@@ -2169,7 +2169,7 @@
 # sent_id = 69
 # text = Nieszlachcic niemógł kupować majątku ziemskiego.
 1	Nieszlachcic	nieszlachcic	NOUN	subst:sg:nom:m1	_	_	_	_	_
-2	niemógł	niemóc	VERB	fin:sg:ter:imperf:neg	_	_	_	_	_
+2	niemógł	niemóc	VERB	praet:sg:m1:imperf:neg	_	_	_	_	_
 3	kupować	kupować	VERB	inf:imperf	_	_	_	_	_
 4	majątku	majątek	NOUN	subst:sg:gen:m3	_	_	_	_	_
 5	ziemskiego	ziemski	ADJ	adj:sg:gen:m3:pos	_	_	_	_	_
@@ -3185,7 +3185,7 @@
 3	wielki	wielki	ADJ	adj:sg:nom:m3:pos	_	_	_	_	_
 4	piątek	piątek	NOUN	subst:sg:nom:m3	_	_	_	_	_
 5	–	–	PUNCT	interp	_	_	_	_	_
-6	nietylko	nietylko	PART	subst:sg:nom:m1	_	_	_	_	_
+6	nietylko	nietylko	PART	part	_	_	_	_	_
 7	czeladź	czeladź	NOUN	subst:sg:nom:f	_	_	_	_	_
 8	ale	ale	CCONJ	conj	_	_	_	_	_
 9	i	i	CCONJ	conj	_	_	_	_	_
@@ -3202,8 +3202,8 @@
 20	i	i	CCONJ	conj	_	_	_	_	_
 21	kwiku	kwik	NOUN	subst:sg:gen:m3	_	_	_	_	_
 22	na	na	ADP	prep:loc	_	_	_	_	_
-23	obeyściu	obeyściu	NOUN	subst:sg:loc:m3	_	_	_	_	_
-24	niemożna	niemożny	VERB	adj:sg:nom:f:pos	_	_	_	_	_
+23	obeyściu	obeyście	NOUN	subst:sg:loc:n:ncol	_	_	_	_	_
+24	niemożna	niemóc	VERB	pred:neg	_	_	_	_	_
 25	było	być	AUX	praet:sg:n:imperf	_	_	_	_	_
 26	wysłuchać	wysłuchać	VERB	inf:perf	_	_	_	_	_
 27	.	.	PUNCT	interp	_	_	_	_	_
@@ -3215,10 +3215,10 @@
 3	ukończył	ukończyć	VERB	praet:sg:m1:perf	_	_	_	_	_
 4	prawa	prawo	NOUN	subst:pl:acc:n:ncol	_	_	_	_	_
 5	bardzo	bardzo	ADV	adv:pos	_	_	_	_	_
-6	był	być	AUX	praet:sg:m3:imperf	_	_	_	_	_
+6	był	być	AUX	praet:sg:m1:imperf	_	_	_	_	_
 7	oczytany	oczytać	ADJ	ppas:sg:nom:m1:perf:aff	_	_	_	_	_
 8	–	–	PUNCT	interp	_	_	_	_	_
-9	poczciwy	poczciwy	ADJ	adj:sg:nom:m3:pos	_	_	_	_	_
+9	poczciwy	poczciwy	ADJ	adj:sg:nom:m1:pos	_	_	_	_	_
 10	–	–	PUNCT	interp	_	_	_	_	_
 11	zacny	zacny	ADJ	adj:sg:nom:m1:pos	_	_	_	_	_
 12	tylko	tylko	PART	conj	_	_	_	_	_
@@ -3229,36 +3229,36 @@
 # text = Zastała go raz służba klęczącym ze złożonymi rękoma nieżywym.
 1	Zastała	zastać	VERB	praet:sg:f:perf	_	_	_	_	_
 2	go	on	PRON	ppron3:sg:acc:m1:ter:nakc:npraep	_	_	_	_	_
-3	raz	raz	NOUN	subst:sg:nom:m3	_	_	_	_	_
+3	raz	raz	NOUN	subst:sg:acc:m3	_	_	_	_	_
 4	służba	służba	NOUN	subst:sg:nom:f	_	_	_	_	_
-5	klęczącym	klęczący	ADJ	adj:sg:loc:m3:pos	_	_	_	_	_
+5	klęczącym	klęczący	ADJ	adj:sg:inst:m1:pos	_	_	_	_	_
 6	ze	z	ADP	prep:inst:wok	_	_	_	_	_
 7	złożonymi	złożony	ADJ	adj:pl:inst:f:pos	_	_	_	_	_
 8	rękoma	ręka	NOUN	subst:pl:inst:f	_	_	_	_	_
-9	nieżywym	nieżywy	ADJ	adj:pl:dat:f:pos	_	_	_	_	_
+9	nieżywym	nieżywy	ADJ	adj:pl:inst:f:pos	_	_	_	_	_
 10	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 104
 # text = Sukcesya po mim, której część i na mojego Oyca spadała odstąpił On Siostrom swoim rodzonym Treterowej i Swieżaskiey.
 1	Sukcesya	sukcesya	NOUN	subst:sg:nom:f	_	_	_	_	_
 2	po	po	ADP	prep:acc	_	_	_	_	_
-3	mim	mim	PRON	subst:sg:acc:m3	_	_	_	_	_
+3	mim	mim	PRON	ppron3:sg:acc:m1:ter:akc:praep	_	_	_	_	_
 4	,	,	PUNCT	interp	_	_	_	_	_
 5	której	który	DET	adj:sg:gen:f:pos	_	_	_	_	_
 6	część	część	NOUN	subst:sg:nom:f	_	_	_	_	_
 7	i	i	CCONJ	conj	_	_	_	_	_
 8	na	na	ADP	prep:acc	_	_	_	_	_
 9	mojego	mój	DET	adj:sg:acc:m1:pos	_	_	_	_	_
-10	Oyca	oyca	NOUN	subst:sg:acc:m1	_	_	_	_	_
+10	Oyca	oyciec	NOUN	subst:sg:acc:m1	_	_	_	_	_
 11	spadała	spadać	VERB	praet:sg:f:imperf	_	_	_	_	_
-12	odstąpił	odstąpić	VERB	praet:sg:m3:perf	_	_	_	_	_
+12	odstąpił	odstąpić	VERB	praet:sg:m1:perf	_	_	_	_	_
 13	On	on	PRON	ppron3:sg:nom:m1:ter:akc:npraep	_	_	_	_	_
 14	Siostrom	siostra	NOUN	subst:pl:dat:f	_	_	_	_	_
-15	swoim	swój	DET	adj:sg:inst:n:pos	_	_	_	_	_
-16	rodzonym	rodzić	ADJ	ppas:sg:loc:n:imperf:aff	_	_	_	_	_
-17	Treterowej	Treterowej	PROPN	subst:sg:dat:f	_	_	_	_	_
+15	swoim	swój	DET	adj:sg:dat:f:pos	_	_	_	_	_
+16	rodzonym	rodzić	ADJ	ppas:sg:dat:f:imperf:aff	_	_	_	_	_
+17	Treterowej	Treterowa	PROPN	subst:sg:dat:f	_	_	_	_	_
 18	i	i	CCONJ	conj	_	_	_	_	_
-19	Swieżaskiey	Swieżaskiey	PROPN	subst:sg:nom:m1	_	_	_	_	_
+19	Swieżaskiey	Swieżaska	PROPN	subst:sg:dat:f	_	_	_	_	_
 20	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 105
@@ -3274,7 +3274,7 @@
 9	Panną	panna	NOUN	subst:sg:inst:f	_	_	_	_	_
 10	Julią	Julia	PROPN	subst:sg:inst:f	_	_	_	_	_
 11	Świeżyńską	Świeżyńska	PROPN	subst:sg:inst:f	_	_	_	_	_
-12	urodzoną	urodzona	ADJ	subst:sg:inst:f	_	_	_	_	_
+12	urodzoną	urodzona	ADJ	adj:sg:inst:f:pos	_	_	_	_	_
 13	ze	z	ADP	prep:gen:wok	_	_	_	_	_
 14	Zawadzkich	Zawadzki	PROPN	subst:pl:gen:m1	_	_	_	_	_
 15	–	–	PUNCT	interp	_	_	_	_	_
@@ -3282,13 +3282,13 @@
 17	oni	on	PRON	ppron3:pl:nom:m1:ter:akc:npraep	_	_	_	_	_
 18	część	część	NOUN	subst:sg:acc:f	_	_	_	_	_
 19	wsi	wieś	NOUN	subst:sg:gen:f	_	_	_	_	_
-20	Łukowiec	Łukowiec	PROPN	subst:sg:gen:f	_	_	_	_	_
+20	Łukowiec	Łukowiec	PROPN	subst:sg:nom:m3	_	_	_	_	_
 21	w	w	ADP	prep:loc:nwok	_	_	_	_	_
-22	Stryiskim	Stryiskim	PROPN	subst:sg:loc:m3	_	_	_	_	_
+22	Stryiskim	Stryiskim	PROPN	adj:sg:loc:m3:pos	_	_	_	_	_
 23	w	w	ADP	prep:loc:nwok	_	_	_	_	_
 24	górach	góra	NOUN	subst:pl:loc:f	_	_	_	_	_
 25	czy	czy	CCONJ	part	_	_	_	_	_
-26	Kruszelnicę	Kruszelnicę	PROPN	subst:sg:acc:f	_	_	_	_	_
+26	Kruszelnicę	Kruszelnica	PROPN	subst:sg:acc:f	_	_	_	_	_
 27	–	–	PUNCT	interp	_	_	_	_	_
 28	liczne	liczny	ADJ	adj:sg:nom:n:pos	_	_	_	_	_
 29	było	być	AUX	praet:sg:n:imperf	_	_	_	_	_
@@ -3296,7 +3296,7 @@
 31	,	,	PUNCT	interp	_	_	_	_	_
 32	siedziało	siedzieć	VERB	praet:sg:n:imperf	_	_	_	_	_
 33	razem	razem	ADV	adv	_	_	_	_	_
-34	kilka	kilka	DET	num:pl:acc:f:rec:ncol	_	_	_	_	_
+34	kilka	kilka	DET	num:pl:nom:f:rec:ncol	_	_	_	_	_
 35	generacyi	generacyi	NOUN	subst:pl:gen:f	_	_	_	_	_
 36	na	na	ADP	prep:loc	_	_	_	_	_
 37	jednem	jednem	NUM	adj:sg:loc:m3:pos	_	_	_	_	_
@@ -3305,7 +3305,7 @@
 40	dwa	dwa	NUM	num:pl:nom:m3:congr:ncol	_	_	_	_	_
 41	dwory	dwór	NOUN	subst:pl:nom:m3	_	_	_	_	_
 42	-	-	PUNCT	interp	_	_	_	_	_
-43	2	2	NUM	dig	_	_	_	_	_
+43	2	2	NUM	num:pl:nom:f:congr	_	_	_	_	_
 44	Panny	panna	NOUN	subst:pl:nom:f	_	_	_	_	_
 45	niemając	niemając	VERB	pcon:imperf	_	_	_	_	_
 46	widoków	widok	NOUN	subst:pl:gen:m3	_	_	_	_	_
@@ -3333,27 +3333,27 @@
 13	ale	ale	CCONJ	conj	_	_	_	_	_
 14	–	–	PUNCT	interp	_	_	_	_	_
 15	jakby	jakby	SCONJ	part	_	_	_	_	_
-16	jakieś	jakiś	DET	adj:sg:acc:n:pos	_	_	_	_	_
-17	fatum	fatum	NOUN	subst:sg:acc:n:ncol	_	_	_	_	_
+16	jakieś	jakiś	DET	adj:sg:nom:n:pos	_	_	_	_	_
+17	fatum	fatum	NOUN	subst:sg:nom:n:ncol	_	_	_	_	_
 18	Panna	panna	NOUN	subst:sg:nom:f	_	_	_	_	_
 19	Julia	Julia	PROPN	subst:sg:nom:f	_	_	_	_	_
 20	dostała	dostać	VERB	praet:sg:f:perf	_	_	_	_	_
 21	się	się	PRON	part	_	_	_	_	_
 22	w	w	ADP	prep:acc:nwok	_	_	_	_	_
 23	sąsiedztwo	sąsiedztwo	NOUN	subst:sg:acc:n:ncol	_	_	_	_	_
-24	Bludnik	Bludnik	PROPN	subst:sg:gen:f	_	_	_	_	_
+24	Bludnik	Bludniki	PROPN	subst:pl:gen:n:pt	_	_	_	_	_
 25	do	do	ADP	prep:gen	_	_	_	_	_
 26	Martynowa	Martynów	PROPN	subst:sg:gen:m3	_	_	_	_	_
 27	do	do	ADP	prep:gen	_	_	_	_	_
 28	Państwa	państwo	NOUN	subst:sg:gen:n:ncol	_	_	_	_	_
-29	Rudzkich	rudzki	PROPN	adj:pl:gen:f:pos	_	_	_	_	_
+29	Rudzkich	Rudzki	PROPN	adj:pl:gen:m1:pos	_	_	_	_	_
 30	gdzie	gdzie	ADV	adv	_	_	_	_	_
 31	były	być	VERB	praet:pl:f:imperf	_	_	_	_	_
 32	dwie	dwa	NUM	num:pl:nom:f:congr:ncol	_	_	_	_	_
 33	panienki	panienka	NOUN	subst:pl:nom:f	_	_	_	_	_
 34	–	–	PUNCT	interp	_	_	_	_	_
 35	z	z	ADP	prep:gen:nwok	_	_	_	_	_
-36	tąd	tąd	ADV	subst:sg:gen:m3	_	_	_	_	_
+36	tąd	tąd	ADV	adv	_	_	_	_	_
 37	bywała	bywać	VERB	praet:sg:f:imperf	_	_	_	_	_
 38	z	z	ADP	prep:inst:nwok	_	_	_	_	_
 39	tym	ten	DET	adj:sg:inst:m3:pos	_	_	_	_	_
@@ -3371,7 +3371,7 @@
 4	moja	mój	DET	adj:sg:nom:f:pos	_	_	_	_	_
 5	jey	jey	PRON	ppron3:sg:gen:m1:ter:nakc:npraep	_	_	_	_	_
 6	znieść	znieść	VERB	inf:perf	_	_	_	_	_
-7	niemogła	niemogła	VERB	part	_	_	_	_	_
+7	niemogła	niemogła	VERB	praet:sg:f:imperf:neg	_	_	_	_	_
 8	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 108
@@ -3380,7 +3380,7 @@
 2	Józef	Józef	PROPN	subst:sg:nom:m1	_	_	_	_	_
 3	osiadły	osiadły	ADJ	adj:sg:nom:m1:pos	_	_	_	_	_
 4	na	na	ADP	prep:loc	_	_	_	_	_
-5	Siemiginowie	Siemiginowie	PROPN	subst:sg:loc:m1	_	_	_	_	_
+5	Siemiginowie	Siemiginów	PROPN	subst:sg:loc:m3	_	_	_	_	_
 6	już	już	PART	part	_	_	_	_	_
 7	starym	stary	ADJ	adj:sg:inst:m1:pos	_	_	_	_	_
 8	kawalerem	kawaler	NOUN	subst:sg:inst:m1	_	_	_	_	_
@@ -3418,8 +3418,8 @@
 21	życie	życie	NOUN	subst:sg:acc:n:ncol	_	_	_	_	_
 22	,	,	PUNCT	interp	_	_	_	_	_
 23	że	że	SCONJ	comp	_	_	_	_	_
-24	niema	niema	VERB	subst:sg:nom:f	_	_	_	_	_
-25	sukcessorów	sukcessorów	NOUN	subst:pl:gen:m1	_	_	_	_	_
+24	niema	niema	VERB	fin:sg:ter:imperf:neg	_	_	_	_	_
+25	sukcessorów	sukcessor	NOUN	subst:pl:gen:m1	_	_	_	_	_
 26	,	,	PUNCT	interp	_	_	_	_	_
 27	że	że	SCONJ	comp	_	_	_	_	_
 28	zdało	zdać	VERB	praet:sg:n:perf	_	_	_	_	_
@@ -3437,7 +3437,7 @@
 40	ale	ale	CCONJ	conj	_	_	_	_	_
 41	Panu	pan	NOUN	subst:sg:dat:m1	_	_	_	_	_
 42	Józefowi	Józef	PROPN	subst:sg:dat:m1	_	_	_	_	_
-43	niechciało	niechciało	VERB	part	_	_	_	_	_
+43	niechciało	niechciało	VERB	praet:sg:n:imperf:neg	_	_	_	_	_
 44	ruszać	ruszać	VERB	inf:imperf	_	_	_	_	_
 45	się	się	PRON	part	_	_	_	_	_
 46	z	z	ADP	prep:gen:nwok	_	_	_	_	_
@@ -3448,7 +3448,7 @@
 51	stado	stado	NOUN	subst:sg:acc:n:ncol	_	_	_	_	_
 52	po	po	ADP	prep:loc	_	_	_	_	_
 53	Ojcu	ojciec	NOUN	subst:sg:loc:m1	_	_	_	_	_
-54	oddziedziczone	oddziedziczyć	ADJ	ppas:sg:nom:n:perf:aff	_	_	_	_	_
+54	oddziedziczone	oddziedziczyć	ADJ	ppas:sg:acc:n:perf:aff	_	_	_	_	_
 55	znaczne	znaczny	ADJ	adj:sg:acc:n:pos	_	_	_	_	_
 56	,	,	PUNCT	interp	_	_	_	_	_
 57	pielęgnował	pielęgnować	VERB	praet:sg:m1:imperf	_	_	_	_	_
@@ -3463,13 +3463,13 @@
 1	Wreszcie	wreszcie	PART	part	_	_	_	_	_
 2	zaproszono	zaprosić	VERB	imps:perf	_	_	_	_	_
 3	do	do	ADP	prep:gen	_	_	_	_	_
-4	Kruszelnicy	Kruszelnicy	PROPN	subst:sg:gen:f	_	_	_	_	_
+4	Kruszelnicy	Kruszelnica	PROPN	subst:sg:gen:f	_	_	_	_	_
 5	o	o	ADP	prep:acc	_	_	_	_	_
 6	kilka	kilka	DET	num:pl:acc:f:rec:ncol	_	_	_	_	_
 7	mil	mila	NOUN	subst:pl:gen:f	_	_	_	_	_
-8	odległey	odległey	ADJ	subst:pl:gen:m2	_	_	_	_	_
+8	odległey	odległa	ADJ	adj:sg:gen:f:pos	_	_	_	_	_
 9	od	od	ADP	prep:gen:nwok	_	_	_	_	_
-10	Siemignowa	Siemignowa	PROPN	subst:sg:gen:m1	_	_	_	_	_
+10	Siemignowa	Siemignów	PROPN	subst:sg:gen:m1	_	_	_	_	_
 11	–	–	PUNCT	interp	_	_	_	_	_
 12	rzecz	rzecz	NOUN	subst:sg:nom:f	_	_	_	_	_
 13	była	być	AUX	praet:sg:f:imperf	_	_	_	_	_
@@ -3479,7 +3479,7 @@
 17	się	się	PRON	part	_	_	_	_	_
 18	hoża	hoży	ADJ	adj:sg:nom:f:pos	_	_	_	_	_
 19	jak	jak	SCONJ	prep:nom	_	_	_	_	_
-20	łania	łani	NOUN	adj:sg:nom:f:pos	_	_	_	_	_
+20	łania	łania	NOUN	adj:sg:nom:f:pos	_	_	_	_	_
 21	Panna	panna	NOUN	subst:sg:nom:f	_	_	_	_	_
 22	Julia	Julia	PROPN	subst:sg:nom:f	_	_	_	_	_
 23	i	i	CCONJ	conj	_	_	_	_	_
@@ -3487,17 +3487,17 @@
 25	Jegomości	jegomość	NOUN	subst:pl:acc:m1	_	_	_	_	_
 26	już	już	PART	part	_	_	_	_	_
 27	bardzo	bardzo	ADV	adv:pos	_	_	_	_	_
-28	niemłodego	niemłody	ADJ	adj:sg:gen:m3:pos	_	_	_	_	_
+28	niemłodego	niemłody	ADJ	adj:sg:acc:m1:pos	_	_	_	_	_
 29	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 111
 # text = Było to około 1829 albo 1830 roku.
 1	Było	być	AUX	praet:sg:n:imperf	_	_	_	_	_
 2	to	to	AUX	pred	_	_	_	_	_
-3	około	około	ADP	part	_	_	_	_	_
-4	1829	1829	ADJ	dig	_	_	_	_	_
+3	około	około	ADP	prep:gen	_	_	_	_	_
+4	1829	1829	ADJ	adj:sg:gen:m3	_	_	_	_	_
 5	albo	albo	CCONJ	conj	_	_	_	_	_
-6	1830	1830	ADJ	dig	_	_	_	_	_
+6	1830	1830	ADJ	adj:sg:gen:m3	_	_	_	_	_
 7	roku	rok	NOUN	subst:sg:gen:m3	_	_	_	_	_
 8	.	.	PUNCT	interp	_	_	_	_	_
 
@@ -3513,32 +3513,32 @@
 8	,	,	PUNCT	interp	_	_	_	_	_
 9	jedyna	jedyny	ADJ	adj:sg:nom:f:pos	_	_	_	_	_
 10	sukcessorka	sukcessorka	NOUN	adj:sg:nom:f:pos	_	_	_	_	_
-11	Siemiginowa	Siemiginowa	PROPN	subst:sg:nom:f	_	_	_	_	_
+11	Siemiginowa	Siemiginów	PROPN	subst:sg:gen:f	_	_	_	_	_
 12	–	–	PUNCT	interp	_	_	_	_	_
 13	dla	dla	ADP	prep:gen	_	_	_	_	_
 14	żony	żona	NOUN	subst:sg:gen:f	_	_	_	_	_
 15	kupił	kupić	VERB	praet:sg:m1:perf	_	_	_	_	_
 16	Pan	pan	NOUN	subst:sg:nom:m1	_	_	_	_	_
 17	Józef	Józef	PROPN	subst:sg:nom:m1	_	_	_	_	_
-18	miejscowość	miejscowość	NOUN	subst:sg:nom:f	_	_	_	_	_
-19	Leśniowice	Leśniowice	PROPN	subst:pl:nom:n:pt	_	_	_	_	_
+18	miejscowość	miejscowość	NOUN	subst:sg:acc:f	_	_	_	_	_
+19	Leśniowice	Leśniowice	PROPN	subst:pl:acc:n:pt	_	_	_	_	_
 20	z	z	ADP	prep:inst:nwok	_	_	_	_	_
 21	Polanką	Polanka	PROPN	subst:sg:inst:f	_	_	_	_	_
 22	pod	pod	ADP	prep:inst:nwok	_	_	_	_	_
 23	Lwowem	Lwów	PROPN	subst:sg:inst:m3	_	_	_	_	_
 24	koło	koło	ADP	prep:gen	_	_	_	_	_
-25	Nawaryi	Nawaryi	PROPN	subst:sg:gen:n:ncol	_	_	_	_	_
+25	Nawaryi	Nawarya	PROPN	subst:sg:gen:f	_	_	_	_	_
 26	i	i	CCONJ	conj	_	_	_	_	_
 27	tam	tam	ADV	adv	_	_	_	_	_
 28	życie	życie	NOUN	subst:sg:nom:n:ncol	_	_	_	_	_
-29	zakończył	zakończyć	VERB	praet:sg:m3:perf	_	_	_	_	_
+29	zakończył	zakończyć	VERB	praet:sg:m1:perf	_	_	_	_	_
 30	roku	rok	NOUN	subst:sg:gen:m3	_	_	_	_	_
-31	1845	1845	ADJ	dig	_	_	_	_	_
+31	1845	1845	ADJ	adj:sg:gen:m3	_	_	_	_	_
 32	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 113
 # text = Ledwie się żałoba skończyła zaczęli uwijać się konkurenci o rękę niemłodej już, ale ciepłey wdowy.
-1	Ledwie	ledwie	SCONJ	part	_	_	_	_	_
+1	Ledwie	ledwie	SCONJ	comp	_	_	_	_	_
 2	się	się	PRON	part	_	_	_	_	_
 3	żałoba	żałoba	NOUN	subst:sg:nom:f	_	_	_	_	_
 4	skończyła	skończyć	VERB	praet:sg:f:perf	_	_	_	_	_
@@ -3552,7 +3552,7 @@
 12	już	już	PART	part	_	_	_	_	_
 13	,	,	PUNCT	interp	_	_	_	_	_
 14	ale	ale	CCONJ	conj	_	_	_	_	_
-15	ciepłey	ciepłey	ADJ	subst:pl:nom:m3	_	_	_	_	_
+15	ciepłey	ciepła	ADJ	adj:sg:gen:f:pos	_	_	_	_	_
 16	wdowy	wdowa	NOUN	subst:sg:gen:f	_	_	_	_	_
 17	.	.	PUNCT	interp	_	_	_	_	_
 
@@ -3564,10 +3564,10 @@
 4	wreszcie	wreszcie	PART	part	_	_	_	_	_
 5	wybrała	wybrać	VERB	praet:sg:f:perf	_	_	_	_	_
 6	pana	pan	NOUN	subst:sg:acc:m1	_	_	_	_	_
-7	Szołayskiego	Szołayskiego	PROPN	subst:sg:gen:m1	_	_	_	_	_
+7	Szołayskiego	Szołayski	PROPN	subst:sg:gen:m1	_	_	_	_	_
 8	młodzika	młodzik	NOUN	subst:sg:gen:m1	_	_	_	_	_
 9	około	około	ADP	part	_	_	_	_	_
-10	24	24	ADJ	dig	_	_	_	_	_
+10	24	24	ADJ	num:pl:gen:m3:rec	_	_	_	_	_
 11	lat	rok	NOUN	subst:pl:gen:m3	_	_	_	_	_
 12	liczącego	liczyć	VERB	pact:sg:acc:m1:imperf:aff	_	_	_	_	_
 13	–	–	PUNCT	interp	_	_	_	_	_
@@ -3588,14 +3588,14 @@
 # text = Pani Julia secundo voto Szołayska lubiła procesa – miała ich też sporo – były chwile, że już cały swój majątek zaryzykowała – ale się z tego wywikłała – dokupiła i do Lesniowic przyległe Mosty.
 1	Pani	pani	NOUN	subst:sg:nom:f	_	_	_	_	_
 2	Julia	Julia	PROPN	subst:sg:nom:f	_	_	_	_	_
-3	secundo	secundo	X	subst:sg:nom:f	_	_	_	_	_
-4	voto	voto	X	part	_	_	_	_	_
+3	secundo	secundo	X	ign	_	_	_	_	_
+4	voto	voto	X	ign	_	_	_	_	_
 5	Szołayska	Szołayska	PROPN	subst:sg:nom:f	_	_	_	_	_
 6	lubiła	lubić	VERB	praet:sg:f:imperf	_	_	_	_	_
-7	procesa	procesa	NOUN	subst:sg:acc:m3	_	_	_	_	_
+7	procesa	proces	NOUN	subst:sg:acc:m3	_	_	_	_	_
 8	–	–	PUNCT	interp	_	_	_	_	_
 9	miała	mieć	VERB	praet:sg:f:imperf	_	_	_	_	_
-10	ich	on	PRON	ppron3:pl:acc:m1:ter:akc:npraep	_	_	_	_	_
+10	ich	on	PRON	ppron3:pl:acc:m3:ter:akc:npraep	_	_	_	_	_
 11	też	też	PART	part	_	_	_	_	_
 12	sporo	sporo	DET	num:pl:nom:m3:rec	_	_	_	_	_
 13	–	–	PUNCT	interp	_	_	_	_	_
@@ -3618,9 +3618,9 @@
 30	dokupiła	dokupić	VERB	praet:sg:f:perf	_	_	_	_	_
 31	i	i	CCONJ	conj	_	_	_	_	_
 32	do	do	ADP	prep:gen	_	_	_	_	_
-33	Lesniowic	Lesniowic	PROPN	subst:sg:gen:n:ncol	_	_	_	_	_
+33	Lesniowic	Lesniowice	PROPN	subst:pl:gen:n:pt	_	_	_	_	_
 34	przyległe	przyległy	ADJ	adj:pl:acc:m3:pos	_	_	_	_	_
-35	Mosty	Most	PROPN	subst:pl:acc:m3	_	_	_	_	_
+35	Mosty	Mosty	PROPN	subst:pl:acc:n:pt	_	_	_	_	_
 36	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 116
