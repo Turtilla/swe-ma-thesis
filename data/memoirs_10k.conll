@@ -17,7 +17,7 @@
 15	Jana	Jan	PROPN	subst:sg:gen:m1	_	_	_	_	_
 16	Komornika	komornik	NOUN	subst:sg:acc:m1	_	_	_	_	_
 17	ziemi	ziemia	NOUN	subst:sg:gen:f	_	_	_	_	_
-18	Dobrrzyńskiej	Dobrrzyńskiej	ADJ	adj:sg:gen:f:pos	_	_	_	_	_
+18	Dobrrzyńskiej	dobrrzyńskiej	ADJ	adj:sg:gen:f:pos	_	_	_	_	_
 19	(	(	PUNCT	interp	_	_	_	_	_
 20	a	a	CCONJ	conj	_	_	_	_	_
 21	nie	nie	PART	part	_	_	_	_	_
@@ -668,7 +668,7 @@
 31	się	się	PRON	part	_	_	_	_	_
 32	do	do	ADP	prep:gen	_	_	_	_	_
 33	niej	on	PRON	ppron3:sg:gen:f:ter:akc:praep	_	_	_	_	_
-34	:		PUNCT	interp	_	_	_	_	_
+34	:	:	PUNCT	interp	_	_	_	_	_
 35	-	-	PUNCT	interp	_	_	_	_	_
 36	„	„	PUNCT	interp	_	_	_	_	_
 37	wiesz	wiedzieć	VERB	fin:sg:sec:imperf	_	_	_	_	_
@@ -1168,7 +1168,7 @@
 14	do	do	ADP	prep:gen	_	_	_	_	_
 15	nieboszczyka	nieboszczyk	NOUN	subst:sg:gen:m1	_	_	_	_	_
 16	przemawia	przemawiać	VERB	fin:sg:ter:imperf	_	_	_	_	_
-17	:		PUNCT	interp	_	_	_	_	_
+17	:	:	PUNCT	interp	_	_	_	_	_
 18	„	„	PUNCT	interp	_	_	_	_	_
 18-19	przeżyłam	_	_	_	_	_	_	_	_
 19	przeżyła	przeżyć	VERB	praet:sg:f:perf	_	_	_	_	_
@@ -1536,7 +1536,7 @@
 38	gospodarstwem	gospodarstwo	NOUN	subst:sg:inst:n:ncol	_	_	_	_	_
 39	,	,	PUNCT	interp	_	_	_	_	_
 40	także	także	PART	part	_	_	_	_	_
-41	mało	mało	ADV	num:pl:nom:m1:rec	_	_	_	_	_
+41	mało	mało	DET	num:pl:nom:m1:rec	_	_	_	_	_
 42	zostawało	zostawać	VERB	praet:sg:n:imperf	_	_	_	_	_
 43	czasu	czas	NOUN	subst:sg:gen:m3	_	_	_	_	_
 44	na	na	ADP	prep:acc	_	_	_	_	_
@@ -1670,10 +1670,10 @@
 4	wieś	wieś	NOUN	subst:sg:nom:f	_	_	_	_	_
 5	Siemiginów	Siemiginów	PROPN	subst:pl:gen:n:pt	_	_	_	_	_
 6	w	w	ADP	prep:loc:nwok	_	_	_	_	_
-7	Stryjskim	Stryjski	PROPN	subst:sg:loc:m1	_	_	_	_	_
+7	Stryjskim	stryjski	ADJ	subst:sg:loc:m1	_	_	_	_	_
 8	-	-	PUNCT	interp	_	_	_	_	_
 9	po	po	ADP	prep:loc	_	_	_	_	_
-10	tem	tema	DET	subst:pl:gen:f	_	_	_	_	_
+10	tem	tema	PRON	subst:pl:gen:f	_	_	_	_	_
 11	jak	jak	SCONJ	adv:pos	_	_	_	_	_
 12	powiadano	powiadać	VERB	imps:imperf	_	_	_	_	_
 13	za	za	ADP	prep:acc	_	_	_	_	_
@@ -9566,7 +9566,7 @@
 27	w	w	ADP	prep:acc:nwok	_	_	_	_	_
 28	te	ten	DET	adj:pl:acc:n:pos	_	_	_	_	_
 29	słowa	słowo	NOUN	subst:pl:acc:n:ncol	_	_	_	_	_
-30	:		PUNCT	interp	_	_	_	_	_
+30	:	:	PUNCT	interp	_	_	_	_	_
 31	”	”	PUNCT	interp	_	_	_	_	_
 32	W	w	ADP	prep:loc:nwok	_	_	_	_	_
 33	Roku	rok	NOUN	subst:sg:loc:m3	_	_	_	_	_
@@ -10976,7 +10976,7 @@
 21	do	do	ADP	prep:gen	_	_	_	_	_
 22	wchodzącej	wchodzić	ADJ	pact:sg:gen:f:imperf:aff	_	_	_	_	_
 23	Pani	pani	NOUN	subst:sg:gen:f	_	_	_	_	_
-24	:		PUNCT	interp	_	_	_	_	_
+24	:	:	PUNCT	interp	_	_	_	_	_
 25	W	w	ADP	prep:acc:nwok	_	_	_	_	_
 26	ręce	ręka	NOUN	subst:pl:acc:f	_	_	_	_	_
 27	Pani	pani	NOUN	subst:sg:nom:f	_	_	_	_	_
