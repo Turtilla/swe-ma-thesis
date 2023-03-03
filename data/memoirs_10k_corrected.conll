@@ -2311,7 +2311,7 @@
 20	domu	dom	NOUN	subst:sg:loc:m3	_	_	_	_	_
 21	P	p	X	brev:npun	_	_	_	_	_
 22	.	.	PUNCT	interp	_	_	_	_	_
-23	T   t   X   brev:npun   _	_	_	_	_
+23	T	t	X	brev:npun	_	_	_	_	_
 24  Dziadek	dziadek	NOUN	subst:sg:nom:m1	_	_	_	_	_
 25	móy	móy	DET	adj:sg:nom:m1:pos	_	_	_	_	_
 26	mawiał	mawiać	VERB	praet:sg:m1:imperf	_	_	_	_	_
