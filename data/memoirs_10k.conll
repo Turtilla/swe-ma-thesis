@@ -1,5 +1,5 @@
 # sent_id = 1
-# text = Dziad mój Melchior urodzony roku 1741 we wsi Godziszewo parafii Rypnin syn komornika ziemskiego Jana Komornika ziemi Dobrrzyńskiej (a nie Antoniego – Antoni był starszym bratem ś.p.Melchiora – i nie rozumiem skąd się wzięła ta myłka, która później wdokumentach się powtarza) i matki Ewy z Pinińskich właścicieli Dóbr Strużewo z adlinencjami Puszczanki, Dąbrowy części, Ronantowizna, Żółtowizna, Będowszczyazna, Kmińszczyzna, Bęklowizna, Ruszkowizna.
+# text = Dziad mój Melchior urodzony roku 1741 we wsi Godziszewo parafii Rypnin syn komornika ziemskiego Jana Komornika ziemi Dobrrzyńskiej (a nie Antoniego – Antoni był starszym bratem ś.p. Melchiora – i nie rozumiem skąd się wzięła ta myłka, która później wdokumentach się powtarza) i matki Ewy z Pinińskich właścicieli Dóbr Strużewo z adlinencjami Puszczanki, Dąbrowy części, Ronantowizna, Żółtowizna, Będowszczyazna, Kmińszczyzna, Bęklowizna, Ruszkowizna.
 1	Dziad	dziad	NOUN	subst:sg:acc:f	_	_	_	_	_
 2	mój	mój	DET	adj:sg:nom:m3:pos	_	_	_	_	_
 3	Melchior	melchior	PROPN	subst:sg:nom:m3	_	_	_	_	_
@@ -123,10 +123,10 @@
 12	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 4
-# text = Stryjów miał śp.Melchior czterech i jedną ciotkę – Antoniego Wawrzyńca ożenionego z Głuską z niej trzech synów Jakuba, Łukasza i Floyrana.
+# text = Stryjów miał śp. Melchior czterech i jedną ciotkę – Antoniego Wawrzyńca ożenionego z Głuską z niej trzech synów Jakuba, Łukasza i Floyrana.
 1	Stryjów	stryj	NOUN	subst:pl:acc:m1	_	_	_	_	_
 2	miał	mieć	VERB	praet:sg:m1:imperf	_	_	_	_	_
-3	śp	śp	X	brev:pun	_	_	_	_	_
+3	śp	świętej_pamięci	X	brev:pun	_	_	_	_	_
 4	.	.	PUNCT	interp	_	_	_	_	_
 5	Melchior	Melchior	PROPN	subst:sg:gen:f	_	_	_	_	_
 6	czterech	cztery	NUM	num:pl:gen:m1:congr:ncol	_	_	_	_	_
@@ -151,7 +151,7 @@
 25	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 5
-# text = Maciej z Chądzyńską, Floryan z Korytyńską, Wawrzyniec z Muczynowską – mieli syna Ludwika – Ciotka za Rzotoławskim – wszystkich braci stryjecznych śp.Melchiora było 17.
+# text = Maciej z Chądzyńską, Floryan z Korytyńską, Wawrzyniec z Muczynowską – mieli syna Ludwika – Ciotka za Rzotoławskim – wszystkich braci stryjecznych śp. Melchiora było 17.
 1	Maciej	Maciej	PROPN	subst:sg:nom:m1	_	_	_	_	_
 2	z	z	ADP	prep:inst:nwok	_	_	_	_	_
 3	Chądzyńską	Chądzyńska	PROPN	subst:sg:inst:f	_	_	_	_	_
@@ -175,7 +175,7 @@
 21	wszystkich	wszystek	DET	adj:pl:acc:m1:pos	_	_	_	_	_
 22	braci	brat	NOUN	subst:pl:acc:m1	_	_	_	_	_
 23	stryjecznych	stryjeczny	ADJ	adj:pl:acc:m1:pos	_	_	_	_	_
-24	śp	śp	X	brev:pun	_	_	_	_	_
+24	śp	świętej_pamięci	X	brev:pun	_	_	_	_	_
 25	.	.	PUNCT	interp	_	_	_	_	_
 26	Melchiora	Melchior	PROPN	subst:sg:gen:m1	_	_	_	_	_
 27	było	być	AUX	praet:sg:n:imperf	_	_	_	_	_
@@ -462,7 +462,7 @@
 13	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 17
-# text = Dochód jaki okazał mój Dziad Panu Potockiemu był jak na owe czasy piękny – tak że ujęty tem zaproponował śp.Melchiorowi jakąś znaczną tantiemę z tego przedsiębiorstwa – i to był początek jego fortuny - mogło to być około roku 1767 – jak świętej pamięci Pan Melchior wziął w dzierżawę Czołhany w obwodzie w owe czasy w Halickim, później w Stryjskim cyrkule.
+# text = Dochód jaki okazał mój Dziad Panu Potockiemu był jak na owe czasy piękny – tak że ujęty tem zaproponował śp. Melchiorowi jakąś znaczną tantiemę z tego przedsiębiorstwa – i to był początek jego fortuny - mogło to być około roku 1767 – jak świętej pamięci Pan Melchior wziął w dzierżawę Czołhany w obwodzie w owe czasy w Halickim, później w Stryjskim cyrkule.
 1	Dochód	dochód	NOUN	subst:sg:nom:m3	_	_	_	_	_
 2	jaki	jaki	DET	adj:sg:acc:m3:pos	_	_	_	_	_
 3	okazał	okazać	VERB	praet:sg:m1:perf	_	_	_	_	_
@@ -482,7 +482,7 @@
 17	ujęty	ująć	ADJ	ppas:sg:nom:m3:perf:aff	_	_	_	_	_
 18	tem	tema	PRON	subst:pl:gen:f	_	_	_	_	_
 19	zaproponował	zaproponować	VERB	praet:sg:m1:perf	_	_	_	_	_
-20	śp	śp	X	brev:pun	_	_	_	_	_
+20	śp	świętej_pamięci	X	brev:pun	_	_	_	_	_
 21	.	.	PUNCT	interp	_	_	_	_	_
 22	Melchiorowi	Melchior	PROPN	subst:sg:dat:m1	_	_	_	_	_
 23	jakąś	jakiś	DET	adj:sg:acc:f:pos	_	_	_	_	_
@@ -558,14 +558,14 @@
 25	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 19
-# text = Około roku 1784 pojechał śp.Melchior za wołami.
+# text = Około roku 1784 pojechał śp. Melchior za wołami.
 1	Około	około	PART	prep:gen	_	_	_	_	_
 2	roku	rok	NOUN	subst:sg:gen:m3	_	_	_	_	_
 3	1784	1784	ADJ	dig	_	_	_	_	_
 4	pojechał	pojechać	VERB	praet:sg:m1:perf	_	_	_	_	_
-5	śp	śp	X	brev:pun	_	_	_	_	_
+5	śp	świętej_pamięci	X	brev:pun	_	_	_	_	_
 6	.	.	PUNCT	interp	_	_	_	_	_
-7	Melchior	melchior	PROPN	subst:sg:nom:m3	_	_	_	_	_
+7	Melchior	Melchior	PROPN	subst:sg:nom:m1	_	_	_	_	_
 8	za	za	ADP	prep:inst	_	_	_	_	_
 9	wołami	wół	NOUN	subst:pl:inst:m2	_	_	_	_	_
 10	.	.	PUNCT	interp	_	_	_	_	_
@@ -634,7 +634,7 @@
 18	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 23
-# text = Zastawiono sute śniadanie z starym winem – rada była gosposia gościowi a śp.Melchior nie namyślając się, gdy mu wdówka wpadła w oko – bez wielu korowodów odezwał się do niej: - „wiesz Asińdźka co? Jesteś wdowa – ja wdowiec – pobierzmy się.” A na to Pani Joanna – „Ja już z zamęścia zrezygnowałam, ale że mi się Waszmość podobałeś, więc jeżeli wola Twoja oddam Ci moją Kleosię”.
+# text = Zastawiono sute śniadanie z starym winem – rada była gosposia gościowi a śp. Melchior nie namyślając się, gdy mu wdówka wpadła w oko – bez wielu korowodów odezwał się do niej: - „wiesz Asińdźka co? Jesteś wdowa – ja wdowiec – pobierzmy się.” A na to Pani Joanna – „Ja już z zamęścia zrezygnowałam, ale że mi się Waszmość podobałeś, więc jeżeli wola Twoja oddam Ci moją Kleosię”.
 1	Zastawiono	zastawić	VERB	imps:perf	_	_	_	_	_
 2	sute	suty	ADJ	adj:sg:acc:n:pos	_	_	_	_	_
 3	śniadanie	śniadanie	NOUN	subst:sg:acc:n:ncol	_	_	_	_	_
@@ -647,7 +647,7 @@
 10	gosposia	gosposia	NOUN	subst:sg:nom:f	_	_	_	_	_
 11	gościowi	gościowy	NOUN	adj:pl:nom:m1:pos	_	_	_	_	_
 12	a	a	CCONJ	conj	_	_	_	_	_
-13	śp	śp	X	brev:pun	_	_	_	_	_
+13	śp	świętej_pamięci	X	brev:pun	_	_	_	_	_
 14	.	.	PUNCT	interp	_	_	_	_	_
 15	Melchior	Melchior	PROPN	subst:sg:nom:m1	_	_	_	_	_
 16	nie	nie	PART	part	_	_	_	_	_
@@ -874,7 +874,7 @@
 56	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 29
-# text = Ojciec wuja mojego Tretera był szambelanem za Stan.Aug.Poniatowskiego – wielki literat.
+# text = Ojciec wuja mojego Tretera był szambelanem za Stan. Aug. Poniatowskiego – wielki literat.
 1	Ojciec	ojciec	NOUN	subst:sg:nom:m1	_	_	_	_	_
 2	wuja	wuj	NOUN	subst:sg:gen:m1	_	_	_	_	_
 3	mojego	mój	DET	adj:sg:gen:m1:pos	_	_	_	_	_
@@ -983,7 +983,7 @@
 15	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 33
-# text = Miał majątek, bo i po ciotce mojej wziął 100000 zł.polskich w posagu, to zarządzał jako plenipotent wielkimi dobrami, to dzierżawił – ale w rzeczy samej jeździł po znajomych i bawił się.
+# text = Miał majątek, bo i po ciotce mojej wziął 100000 zł. polskich w posagu, to zarządzał jako plenipotent wielkimi dobrami, to dzierżawił – ale w rzeczy samej jeździł po znajomych i bawił się.
 1	Miał	mieć	VERB	praet:sg:m3:imperf	_	_	_	_	_
 2	majątek	majątek	NOUN	subst:sg:acc:m3	_	_	_	_	_
 3	,	,	PUNCT	interp	_	_	_	_	_
@@ -1238,7 +1238,7 @@
 14	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 42
-# text = Drugi mój wuj Świerzawski kuzyn Polanowskich z Bełzkiego często bywał w Moszkowie z ciotką - tam bywał duszą towarzystwa od Pań oblegany – ale ciotka moja była dziwaczką – opowiadał mi śp.Dziadek móy Ostaszewski że jadąc do Zarszyna w Sanoku parę godzin spędziła na strojeniu się i trefieniu a jadąc już do Zarszyna musiała służąca całą drogę stać na stopniach powozu, żeby się suknia Pani Komornikowej niepomięła – z tego małżeństwa było dwóch synów.
+# text = Drugi mój wuj Świerzawski kuzyn Polanowskich z Bełzkiego często bywał w Moszkowie z ciotką - tam bywał duszą towarzystwa od Pań oblegany – ale ciotka moja była dziwaczką – opowiadał mi śp. Dziadek móy Ostaszewski że jadąc do Zarszyna w Sanoku parę godzin spędziła na strojeniu się i trefieniu a jadąc już do Zarszyna musiała służąca całą drogę stać na stopniach powozu, żeby się suknia Pani Komornikowej niepomięła – z tego małżeństwa było dwóch synów.
 1	Drugi	drugi	ADJ	adj:sg:nom:m1:pos	_	_	_	_	_
 2	mój	mój	DET	adj:sg:nom:m1:pos	_	_	_	_	_
 3	wuj	wuj	NOUN	subst:sg:nom:m1	_	_	_	_	_
@@ -1270,10 +1270,10 @@
 29	–	–	PUNCT	interp	_	_	_	_	_
 30	opowiadał	opowiadać	VERB	praet:sg:m1:imperf	_	_	_	_	_
 31	mi	ja	PRON	ppron12:sg:dat:f:pri:nakc	_	_	_	_	_
-32	śp	śp	X	aglt:sg:sec:imperf:nwok	_	_	_	_	_
+32	śp	świętej_pamięci	X	brev:pun	_	_	_	_	_
 33	.	.	PUNCT	interp	_	_	_	_	_
 34	Dziadek	dziadek	NOUN	subst:sg:nom:m1	_	_	_	_	_
-35	móy	móy	DET	praet:sg:m1:imperf	_	_	_	_	_
+35	móy	móy	DET	adj:sg:nom:m1:pos	_	_	_	_	_
 36	Ostaszewski	Ostaszewski	PROPN	subst:sg:nom:m1	_	_	_	_	_
 37	że	że	SCONJ	comp	_	_	_	_	_
 38	jadąc	jechać	VERB	pcon:imperf	_	_	_	_	_
@@ -1462,7 +1462,7 @@
 14	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 49
-# text = Z tych czasów niewiele opowiadał mi ś.p.Ojciec – a ja nieśmiałem wypytywać.
+# text = Z tych czasów niewiele opowiadał mi ś.p. Ojciec – a ja nieśmiałem wypytywać.
 1	Z	z	ADP	prep:gen:nwok	_	_	_	_	_
 2	tych	ten	DET	adj:pl:gen:m3:pos	_	_	_	_	_
 3	czasów	czas	NOUN	subst:pl:gen:m3	_	_	_	_	_
@@ -1546,7 +1546,7 @@
 48	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 52
-# text = Zdaje mi się, że służbę wojskową zakończył śp.móy Oyciec około 1808 – albo 1809 – w randze nadporucznika, zatrzymując charakter wojskowego do kończ życia.
+# text = Zdaje mi się, że służbę wojskową zakończył śp. móy Oyciec około 1808 – albo 1809 – w randze nadporucznika, zatrzymując charakter wojskowego do kończ życia.
 1	Zdaje	zdawać	VERB	fin:sg:ter:imperf	_	_	_	_	_
 2	mi	ja	PRON	ppron12:sg:dat:f:pri:nakc	_	_	_	_	_
 3	się	się	PRON	part	_	_	_	_	_
@@ -1555,7 +1555,7 @@
 6	służbę	służba	NOUN	subst:sg:acc:f	_	_	_	_	_
 7	wojskową	wojskowy	ADJ	adj:sg:acc:f:pos	_	_	_	_	_
 8	zakończył	zakończyć	VERB	praet:sg:m1:perf	_	_	_	_	_
-9	śp	śp	X	brev:pun	_	_	_	_	_
+9	śp	świętej_pamięci	X	brev:pun	_	_	_	_	_
 10	.	.	PUNCT	interp	_	_	_	_	_
 11	móy	móy	DET	adj:sg:nom:m3:pos	_	_	_	_	_
 12	Oyciec	oyciec	NOUN	subst:sg:nom:m1	_	_	_	_	_
@@ -1910,14 +1910,14 @@
 24	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 62
-# text = Wieleż to razy słyszałem śp.Dziadka Ostaszewskigo jak się chlubił, że jego kmiecie na Długim najlepsze mają konie z okolicy – ale jeżeli któremu padło bydle robocze – zaraz dawał pieniądze – żeby robota ciągła do dworu nie ustawała.
+# text = Wieleż to razy słyszałem śp. Dziadka Ostaszewskigo jak się chlubił, że jego kmiecie na Długim najlepsze mają konie z okolicy – ale jeżeli któremu padło bydle robocze – zaraz dawał pieniądze – żeby robota ciągła do dworu nie ustawała.
 1	Wieleż	wieleż	DET	num:pl:acc:m3:rec	_	_	_	_	_
 2	to	to	PART	part	_	_	_	_	_
 3	razy	raz	NOUN	subst:pl:acc:m3	_	_	_	_	_
 3-4	słyszałem	_	_	_	_	_	_	_	_
 4	słyszał	słyszeć	VERB	praet:sg:m1:imperf	_	_	_	_	_
 5	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
-6	śp	śp	X	subst:sg:acc:m3	_	_	_	_	_
+6	śp	świętej_pamięci	X	brev:pun	_	_	_	_	_
 7	.	.	PUNCT	interp	_	_	_	_	_
 8	Dziadka	dziadek	NOUN	subst:sg:gen:m1	_	_	_	_	_
 9	Ostaszewskigo	Ostaszewskigo	PROPN	subst:sg:gen:m1	_	_	_	_	_
@@ -1957,7 +1957,7 @@
 43	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 63
-# text = A gdy raz Dłużanie żalili się, że niemają dogodnego pastwiska dla koni – Oddzieli śp.Pan Kazimierz 60 morgów suchey łąki podedworem a nayskładniey położone dla kmieci, i oddał w posiadanie.
+# text = A gdy raz Dłużanie żalili się, że niemają dogodnego pastwiska dla koni – Oddzieli śp. Pan Kazimierz 60 morgów suchey łąki podedworem a nayskładniey położone dla kmieci, i oddał w posiadanie.
 1	A	a	CCONJ	conj	_	_	_	_	_
 2	gdy	gdy	ADV	adv	_	_	_	_	_
 3	raz	raz	NOUN	subst:sg:acc:m3	_	_	_	_	_
@@ -1973,7 +1973,7 @@
 13	koni	koń	NOUN	subst:pl:gen:m2	_	_	_	_	_
 14	–	–	PUNCT	interp	_	_	_	_	_
 15	Oddzieli	oddzielić	VERB	fin:sg:ter:perf	_	_	_	_	_
-16	śp	śp	X	aglt:sg:sec:imperf:nwok	_	_	_	_	_
+16	śp	świętej_pamięci	X	brev:pun	_	_	_	_	_
 17	.	.	PUNCT	interp	_	_	_	_	_
 18	Pan	pan	NOUN	subst:sg:nom:m1	_	_	_	_	_
 19	Kazimierz	Kazimierz	PROPN	subst:sg:nom:m1	_	_	_	_	_
@@ -2156,6 +2156,10 @@
 43	Zarszyn	Zarszyn	PROPN	subst:sg:nom:m3	_	_	_	_	_
 44	–	–	PUNCT	interp	_	_	_	_	_
 45	i	i	CCONJ	conj	_	_	_	_	_
+46	t	tona	X	brev:npun	_	_	_	_	_
+47	.	.	PUNCT	interp	_	_	_	_	_
+48	p	list_świętego_piotra	X	brev:npun	_	_	_	_	_
+49	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 69
 # text = Nieszlachcic niemógł kupować majątku ziemskiego.
@@ -2279,7 +2283,7 @@
 10	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 74
-# text = Pamiętam że przybył z Podola szlachcic w Sanockie – słynny ze zdzierstwa poddanych – i nieprawego stosunku kawalerskiego w domu P.TDziadek móy mawiał – niech noga Pana tego nie powstanie na progu mojego domu.
+# text = Pamiętam że przybył z Podola szlachcic w Sanockie – słynny ze zdzierstwa poddanych – i nieprawego stosunku kawalerskiego w domu P.T Dziadek móy mawiał – niech noga Pana tego nie powstanie na progu mojego domu.
 1	Pamiętam	pamiętać	VERB	fin:sg:pri:imperf	_	_	_	_	_
 2	że	że	SCONJ	comp	_	_	_	_	_
 3	przybył	przybyć	VERB	praet:sg:m1:perf	_	_	_	_	_
@@ -2302,21 +2306,22 @@
 20	domu	dom	NOUN	subst:sg:loc:m3	_	_	_	_	_
 21	P	list_świętego_piotra	X	brev:npun	_	_	_	_	_
 22	.	.	PUNCT	interp	_	_	_	_	_
-23	TDziadek	tdziadek	X	subst:sg:nom:m1	_	_	_	_	_
-24	móy	móy	DET	pact:sg:nom:m1:imperf:aff	_	_	_	_	_
-25	mawiał	mawiać	VERB	praet:sg:m1:imperf	_	_	_	_	_
-26	–	–	PUNCT	interp	_	_	_	_	_
-27	niech	niech	AUX	part	_	_	_	_	_
-28	noga	noga	NOUN	subst:sg:nom:f	_	_	_	_	_
-29	Pana	pan	NOUN	subst:sg:gen:m1	_	_	_	_	_
-30	tego	to	DET	subst:sg:gen:n:ncol	_	_	_	_	_
-31	nie	nie	PART	part	_	_	_	_	_
-32	powstanie	powstać	VERB	fin:sg:ter:perf	_	_	_	_	_
-33	na	na	ADP	prep:loc	_	_	_	_	_
-34	progu	próg	NOUN	subst:sg:loc:m3	_	_	_	_	_
-35	mojego	mój	DET	adj:sg:gen:m3:pos	_	_	_	_	_
-36	domu	dom	NOUN	subst:sg:gen:m3	_	_	_	_	_
-37	.	.	PUNCT	interp	_	_	_	_	_
+23	T	tona	X	brev:npun	_	_	_	_	_
+24	Dziadek	dziadek	NOUN	subst:sg:nom:m1	_	_	_	_	_
+25	móy	móy	DET	subst:sg:nom:m1	_	_	_	_	_
+26	mawiał	mawiać	VERB	praet:sg:m1:imperf	_	_	_	_	_
+27	–	–	PUNCT	interp	_	_	_	_	_
+28	niech	niech	AUX	part	_	_	_	_	_
+29	noga	noga	NOUN	subst:sg:nom:f	_	_	_	_	_
+30	Pana	pan	NOUN	subst:sg:gen:m1	_	_	_	_	_
+31	tego	to	DET	subst:sg:gen:n:ncol	_	_	_	_	_
+32	nie	nie	PART	part	_	_	_	_	_
+33	powstanie	powstać	VERB	fin:sg:ter:perf	_	_	_	_	_
+34	na	na	ADP	prep:loc	_	_	_	_	_
+35	progu	próg	NOUN	subst:sg:loc:m3	_	_	_	_	_
+36	mojego	mój	DET	adj:sg:gen:m3:pos	_	_	_	_	_
+37	domu	dom	NOUN	subst:sg:gen:m3	_	_	_	_	_
+38	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 75
 # text = Mandatariaty po większej części obsadzane były szlachtą zagonową – cząstkową – czynszową – Chłopak poduczył się w szkołach normalnych – dziś ludowemi zwanych czytać, pisać, rarachować – czasem lizną trochę łaciny w gymnazyum – szedł na praktykę na pisarza do mandataryusza – poduczywszy się trochę prawa – manipulacyi urzędowey – zdawał egzamin w Starostwie w Cyrkule i dostawał dekret na reprezentanta Domnikalnego czyli Mandataryusza.
@@ -3782,7 +3787,7 @@
 22	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 124
-# text = Na przyjęcie Pani dom odświeżono malowidłem al fresco – w jednym bawialnym pokoju widoki Bludnik i okolicy – Skała na niey Sokołów wieś dołem Łomnica – widok Ś-tegoStanisława klasztoru koło Halicza od wschodu położonego na skale nad Łomnicą wpadającą w tym miejscu do Dniestru, to znowu Ruiny zamku Halickiego opodal – to znowu widok na Bołszowice za Dniestrem od północy wreszcie droga z miejscowego dworu a przy niey kaplica nayjświętszey Panny Niepokalanego Poczęcia – daley jak droga w bok do Halicza wiodła – kaplica Swiętego Jana.
+# text = Na przyjęcie Pani dom odświeżono malowidłem al fresco – w jednym bawialnym pokoju widoki Bludnik i okolicy – Skała na niey Sokołów wieś dołem Łomnica – widok Ś-tego Stanisława klasztoru koło Halicza od wschodu położonego na skale nad Łomnicą wpadającą w tym miejscu do Dniestru, to znowu Ruiny zamku Halickiego opodal – to znowu widok na Bołszowice za Dniestrem od północy wreszcie droga z miejscowego dworu a przy niey kaplica nayjświętszey Panny Niepokalanego Poczęcia – daley jak droga w bok do Halicza wiodła – kaplica Swiętego Jana.
 1	Na	na	ADP	prep:acc	_	_	_	_	_
 2	przyjęcie	przyjąć	NOUN	ger:sg:acc:n:perf:aff	_	_	_	_	_
 3	Pani	pani	NOUN	subst:sg:gen:f	_	_	_	_	_
@@ -3809,70 +3814,71 @@
 24	dołem	dół	NOUN	subst:sg:inst:m3	_	_	_	_	_
 25	Łomnica	Łomnica	PROPN	subst:sg:nom:f	_	_	_	_	_
 26	–	–	PUNCT	interp	_	_	_	_	_
-27	widok	widok	NOUN	subst:sg:acc:m3	_	_	_	_	_
-28	Ś	ś	X	aglt:sg:sec:imperf:nwok	_	_	_	_	_
+27	widok	widok	NOUN	subst:sg:nom:m3	_	_	_	_	_
+28	Ś	ś	X	subst:sg:gen:f	_	_	_	_	_
 29	-	-	PUNCT	interp	_	_	_	_	_
-30	tegoStanisława	tegostanisława	X	xxs:nom	_	_	_	_	_
-31	klasztoru	klasztor	NOUN	subst:sg:gen:m3	_	_	_	_	_
-32	koło	koło	ADP	prep:gen	_	_	_	_	_
-33	Halicza	Halicza	PROPN	subst:sg:gen:m1	_	_	_	_	_
-34	od	od	ADP	prep:gen:nwok	_	_	_	_	_
-35	wschodu	wschód	NOUN	subst:sg:gen:m3	_	_	_	_	_
-36	położonego	położony	ADJ	adj:sg:gen:m3:pos	_	_	_	_	_
-37	na	na	ADP	prep:loc	_	_	_	_	_
-38	skale	skała	NOUN	subst:sg:loc:f	_	_	_	_	_
-39	nad	nad	ADP	prep:inst:nwok	_	_	_	_	_
-40	Łomnicą	Łomnica	PROPN	subst:sg:inst:f	_	_	_	_	_
-41	wpadającą	wpadać	ADJ	pact:sg:inst:f:imperf:aff	_	_	_	_	_
-42	w	w	ADP	prep:loc:nwok	_	_	_	_	_
-43	tym	ten	DET	adj:sg:loc:n:pos	_	_	_	_	_
-44	miejscu	miejsce	NOUN	subst:sg:loc:n:ncol	_	_	_	_	_
-45	do	do	ADP	prep:gen	_	_	_	_	_
-46	Dniestru	Dniestr	PROPN	subst:sg:gen:m3	_	_	_	_	_
-47	,	,	PUNCT	interp	_	_	_	_	_
-48	to	to	AUX	comp	_	_	_	_	_
-49	znowu	znowu	PART	part	_	_	_	_	_
-50	Ruiny	ruina	NOUN	subst:pl:nom:f	_	_	_	_	_
-51	zamku	zamek	NOUN	subst:sg:gen:m3	_	_	_	_	_
-52	Halickiego	halicki	PROPN	adj:sg:gen:m3:pos	_	_	_	_	_
-53	opodal	opodal	ADP	prep:gen	_	_	_	_	_
-54	–	–	PUNCT	interp	_	_	_	_	_
-55	to	to	AUX	pred	_	_	_	_	_
-56	znowu	znowu	PART	part	_	_	_	_	_
-57	widok	widok	NOUN	subst:sg:nom:m3	_	_	_	_	_
-58	na	na	ADP	prep:loc	_	_	_	_	_
-59	Bołszowice	Bołszowice	PROPN	subst:sg:loc:f	_	_	_	_	_
-60	za	za	ADP	prep:inst	_	_	_	_	_
-61	Dniestrem	Dniestr	PROPN	subst:sg:inst:m3	_	_	_	_	_
-62	od	od	ADP	prep:gen:nwok	_	_	_	_	_
-63	północy	północ	NOUN	subst:sg:gen:f	_	_	_	_	_
-64	wreszcie	wreszcie	PART	part	_	_	_	_	_
-65	droga	drogi	NOUN	adj:sg:nom:f:pos	_	_	_	_	_
-66	z	z	ADP	prep:gen:nwok	_	_	_	_	_
-67	miejscowego	miejscowy	ADJ	adj:sg:gen:m3:pos	_	_	_	_	_
-68	dworu	dwór	NOUN	subst:sg:gen:m3	_	_	_	_	_
-69	a	a	CCONJ	conj	_	_	_	_	_
-70	przy	przy	ADP	prep:loc	_	_	_	_	_
-71	niey	niey	PRON	subst:sg:loc:n:ncol	_	_	_	_	_
-72	kaplica	kaplica	NOUN	subst:sg:nom:f	_	_	_	_	_
-73	nayjświętszey	nayjświętszey	ADJ	prep:gen	_	_	_	_	_
-74	Panny	panna	NOUN	subst:pl:nom:f	_	_	_	_	_
-75	Niepokalanego	niepokalany	ADJ	adj:sg:gen:n:pos	_	_	_	_	_
-76	Poczęcia	poczęcie	NOUN	subst:sg:gen:n:ncol	_	_	_	_	_
-77	–	–	PUNCT	interp	_	_	_	_	_
-78	daley	daley	ADV	subst:sg:nom:n:ncol	_	_	_	_	_
-79	jak	jak	ADV	conj	_	_	_	_	_
-80	droga	droga	NOUN	subst:sg:nom:f	_	_	_	_	_
-81	w	w	ADP	prep:acc:nwok	_	_	_	_	_
-82	bok	bok	NOUN	subst:sg:acc:m3	_	_	_	_	_
-83	do	do	ADP	prep:gen	_	_	_	_	_
-84	Halicza	Halicza	PROPN	subst:sg:gen:m1	_	_	_	_	_
-85	wiodła	wieść	VERB	praet:sg:f:imperf	_	_	_	_	_
-86	–	–	PUNCT	interp	_	_	_	_	_
-87	kaplica	kaplica	NOUN	subst:sg:nom:f	_	_	_	_	_
-88	Swiętego	swiętego	ADJ	subst:sg:gen:m1	_	_	_	_	_
-89	Jana	Jan	PROPN	subst:sg:gen:m1	_	_	_	_	_
-90	.	.	PUNCT	interp	_	_	_	_	_
+30	tego	ten	X	adj:sg:gen:m1:pos	_	_	_	_	_
+31	Stanisława	Stanisław	PROPN	subst:sg:gen:m1	_	_	_	_	_
+32	klasztoru	klasztor	NOUN	subst:sg:gen:m3	_	_	_	_	_
+33	koło	koło	ADP	prep:gen	_	_	_	_	_
+34	Halicza	Halicza	PROPN	subst:sg:gen:m1	_	_	_	_	_
+35	od	od	ADP	prep:gen:nwok	_	_	_	_	_
+36	wschodu	wschód	NOUN	subst:sg:gen:m3	_	_	_	_	_
+37	położonego	położony	ADJ	adj:sg:gen:m3:pos	_	_	_	_	_
+38	na	na	ADP	prep:loc	_	_	_	_	_
+39	skale	skała	NOUN	subst:sg:loc:f	_	_	_	_	_
+40	nad	nad	ADP	prep:inst:nwok	_	_	_	_	_
+41	Łomnicą	Łomnica	PROPN	subst:sg:inst:f	_	_	_	_	_
+42	wpadającą	wpadać	ADJ	pact:sg:inst:f:imperf:aff	_	_	_	_	_
+43	w	w	ADP	prep:loc:nwok	_	_	_	_	_
+44	tym	ten	DET	adj:sg:loc:n:pos	_	_	_	_	_
+45	miejscu	miejsce	NOUN	subst:sg:loc:n:ncol	_	_	_	_	_
+46	do	do	ADP	prep:gen	_	_	_	_	_
+47	Dniestru	Dniestr	PROPN	subst:sg:gen:m3	_	_	_	_	_
+48	,	,	PUNCT	interp	_	_	_	_	_
+49	to	to	AUX	comp	_	_	_	_	_
+50	znowu	znowu	PART	part	_	_	_	_	_
+51	Ruiny	ruina	NOUN	subst:pl:nom:f	_	_	_	_	_
+52	zamku	zamek	NOUN	subst:sg:gen:m3	_	_	_	_	_
+53	Halickiego	halicki	PROPN	adj:sg:gen:m3:pos	_	_	_	_	_
+54	opodal	opodal	ADP	prep:gen	_	_	_	_	_
+55	–	–	PUNCT	interp	_	_	_	_	_
+56	to	to	AUX	pred	_	_	_	_	_
+57	znowu	znowu	PART	part	_	_	_	_	_
+58	widok	widok	NOUN	subst:sg:nom:m3	_	_	_	_	_
+59	na	na	ADP	prep:loc	_	_	_	_	_
+60	Bołszowice	Bołszowice	PROPN	subst:sg:loc:f	_	_	_	_	_
+61	za	za	ADP	prep:inst	_	_	_	_	_
+62	Dniestrem	Dniestr	PROPN	subst:sg:inst:m3	_	_	_	_	_
+63	od	od	ADP	prep:gen:nwok	_	_	_	_	_
+64	północy	północ	NOUN	subst:sg:gen:f	_	_	_	_	_
+65	wreszcie	wreszcie	PART	part	_	_	_	_	_
+66	droga	drogi	NOUN	adj:sg:nom:f:pos	_	_	_	_	_
+67	z	z	ADP	prep:gen:nwok	_	_	_	_	_
+68	miejscowego	miejscowy	ADJ	adj:sg:gen:m3:pos	_	_	_	_	_
+69	dworu	dwór	NOUN	subst:sg:gen:m3	_	_	_	_	_
+70	a	a	CCONJ	conj	_	_	_	_	_
+71	przy	przy	ADP	prep:loc	_	_	_	_	_
+72	niey	niey	PRON	subst:sg:loc:n:ncol	_	_	_	_	_
+73	kaplica	kaplica	NOUN	subst:sg:nom:f	_	_	_	_	_
+74	nayjświętszey	nayjświętszey	ADJ	prep:gen	_	_	_	_	_
+75	Panny	panna	NOUN	subst:pl:nom:f	_	_	_	_	_
+76	Niepokalanego	niepokalany	ADJ	adj:sg:gen:n:pos	_	_	_	_	_
+77	Poczęcia	poczęcie	NOUN	subst:sg:gen:n:ncol	_	_	_	_	_
+78	–	–	PUNCT	interp	_	_	_	_	_
+79	daley	daley	ADV	subst:sg:nom:n:ncol	_	_	_	_	_
+80	jak	jak	ADV	conj	_	_	_	_	_
+81	droga	droga	NOUN	subst:sg:nom:f	_	_	_	_	_
+82	w	w	ADP	prep:acc:nwok	_	_	_	_	_
+83	bok	bok	NOUN	subst:sg:acc:m3	_	_	_	_	_
+84	do	do	ADP	prep:gen	_	_	_	_	_
+85	Halicza	Halicza	PROPN	subst:sg:gen:m1	_	_	_	_	_
+86	wiodła	wieść	VERB	praet:sg:f:imperf	_	_	_	_	_
+87	–	–	PUNCT	interp	_	_	_	_	_
+88	kaplica	kaplica	NOUN	subst:sg:nom:f	_	_	_	_	_
+89	Swiętego	swiętego	ADJ	subst:sg:gen:m1	_	_	_	_	_
+90	Jana	Jan	PROPN	subst:sg:gen:m1	_	_	_	_	_
+91	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 125
 # text = Wszystko to tak żywo i dokładnie a udatnie malowane że ja dziś nigdzie się z czemś podobnem niespotkałem nawet w pałacu Łańcuckim nierobiły salony takie takiego wspaniałego wrażenia jak wówczas pokoje nasze.
@@ -4190,7 +4196,7 @@
 28	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 135
-# text = Dom ten musiał prawdopodobnie ś.p.Dziad murować bo i kształtem i rozkładem był kopią domu w Siemiginowie.
+# text = Dom ten musiał prawdopodobnie ś.p. Dziad murować bo i kształtem i rozkładem był kopią domu w Siemiginowie.
 1	Dom	dom	NOUN	subst:sg:nom:m3	_	_	_	_	_
 2	ten	ten	DET	adj:sg:nom:m3:pos	_	_	_	_	_
 3	musiał	musieć	VERB	praet:sg:m3:imperf	_	_	_	_	_
@@ -5073,7 +5079,7 @@
 14	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 171
-# text = Powóz żółty na wiszących ogromnych resorach – Sześć koni rosłych gniadych ze stada Simiginowskiego wartości 6000 fl.Czyli na srebro 2400 fl – jak na owe czasy gdzie konia do woyska płacono 120 fl. Była to cena niesłychana.
+# text = Powóz żółty na wiszących ogromnych resorach – Sześć koni rosłych gniadych ze stada Simiginowskiego wartości 6000 fl. Czyli na srebro 2400 fl – jak na owe czasy gdzie konia do woyska płacono 120 fl. Była to cena niesłychana.
 1	Powóz	powóz	NOUN	subst:sg:nom:m3	_	_	_	_	_
 2	żółty	żółty	ADJ	adj:sg:nom:m3:pos	_	_	_	_	_
 3	na	na	ADP	prep:loc	_	_	_	_	_
@@ -5462,7 +5468,7 @@
 84	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 180
-# text = W roku 1825 wielki pożar spalił wszystkie gospodarskie budynki, zbiory polne i znaczną część inwentarza szkoda na 20000 fl.W zł.na teraźnieysze pieniądze 8000 fl., jak na owe czasy summa znaczna bo piątą część majątku stanowiąca.
+# text = W roku 1825 wielki pożar spalił wszystkie gospodarskie budynki, zbiory polne i znaczną część inwentarza szkoda na 20000 fl. W zł. na teraźnieysze pieniądze 8000 fl., jak na owe czasy summa znaczna bo piątą część majątku stanowiąca.
 1	W	w	ADP	prep:loc:nwok	_	_	_	_	_
 2	roku	rok	NOUN	subst:sg:loc:m3	_	_	_	_	_
 3	1825	1825	ADJ	dig	_	_	_	_	_
@@ -7451,7 +7457,7 @@
 15	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 245
-# text = Pan Wiktor Mociumdzieju typ starego szlachcica z twarzą całą ogoloną już to w one czasy bardzo wielu obywateli nienosiło zarostu na twarzy – chyba małe krótkie bokobrody) jowialny wesoły, o gospodarstwo niewiele dbający – ale pszczelarz zawołany – żonaty z Janicką osobą cichą apatyczną także niegospodarną dzieci było dużo, ale naywięcej córek – jedna z nich wyszła za Alfonsa Dziduszyckiego oryginała – druga za nauczyciela dawniey naszego ale który później był w Kunaszowie za Żórawskiego i t.d.już nie wiem jak się wszystkie obruciły – wiem że naystarsza była przy starey Pannie Puzyniance we Lwowie.
+# text = Pan Wiktor Mociumdzieju typ starego szlachcica z twarzą całą ogoloną już to w one czasy bardzo wielu obywateli nienosiło zarostu na twarzy – chyba małe krótkie bokobrody) jowialny wesoły, o gospodarstwo niewiele dbający – ale pszczelarz zawołany – żonaty z Janicką osobą cichą apatyczną także niegospodarną dzieci było dużo, ale naywięcej córek – jedna z nich wyszła za Alfonsa Dziduszyckiego oryginała – druga za nauczyciela dawniey naszego ale który później był w Kunaszowie za Żórawskiego i t.d. już nie wiem jak się wszystkie obruciły – wiem że naystarsza była przy starey Pannie Puzyniance we Lwowie.
 1	Pan	pan	NOUN	subst:sg:nom:m1	_	_	_	_	_
 2	Wiktor	Wiktor	PROPN	subst:sg:gen:f	_	_	_	_	_
 3	Mociumdzieju	mociumdzieju	NOUN	subst:sg:nom:m1	_	_	_	_	_
@@ -7825,7 +7831,7 @@
 15	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 256
-# text = Na pamiątkę szczęśliwego powrotu z wprawy wiedeńskiej Dziadek Pana Wiktora wystawił opodal ode dworu krzyż pod ten krzyż po śmierci fundatora chodziła jeszcze za życia Oyca Pana Wiktora staruszka ciemna respektowa Pana w domu Kunaszowskich i modliła się zawsze za duszę ś.p.Swojego Dobrodzieja.
+# text = Na pamiątkę szczęśliwego powrotu z wprawy wiedeńskiej Dziadek Pana Wiktora wystawił opodal ode dworu krzyż pod ten krzyż po śmierci fundatora chodziła jeszcze za życia Oyca Pana Wiktora staruszka ciemna respektowa Pana w domu Kunaszowskich i modliła się zawsze za duszę ś.p. Swojego Dobrodzieja.
 1	Na	na	ADP	prep:acc	_	_	_	_	_
 2	pamiątkę	pamiątka	NOUN	subst:sg:acc:f	_	_	_	_	_
 3	szczęśliwego	szczęśliwy	ADJ	adj:sg:gen:m3:pos	_	_	_	_	_
@@ -8088,6 +8094,8 @@
 # text = Wstawka do str.
 1	Wstawka	wstawka	NOUN	subst:sg:nom:f	_	_	_	_	_
 2	do	do	ADP	prep:gen	_	_	_	_	_
+3	str	strona	X	brev:pun	_	_	_	_	_
+4	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 263
 # text = Przypominam sobie zabawną historyę w czasie przyjęcia imieninowego któregoś z Leboskich.
@@ -8884,7 +8892,7 @@
 31	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 289
-# text = Zakończył życie jako poseł na Seym Krajowy i Dyrektor Gal.Tow.kredyt.ziemsk.
+# text = Zakończył życie jako poseł na Seym Krajowy i Dyrektor Gal. Tow. kredyt. ziemsk.
 1	Zakończył	zakończyć	VERB	praet:sg:m1:perf	_	_	_	_	_
 2	życie	życie	NOUN	subst:sg:nom:n:ncol	_	_	_	_	_
 3	jako	jako	SCONJ	conj	_	_	_	_	_
@@ -8894,6 +8902,14 @@
 7	Krajowy	krajowy	ADJ	adj:sg:nom:m1:pos	_	_	_	_	_
 8	i	i	CCONJ	conj	_	_	_	_	_
 9	Dyrektor	dyrektor	NOUN	subst:sg:nom:m1	_	_	_	_	_
+10	Gal	gal	X	subst:sg:nom:m1	_	_	_	_	_
+11	.	.	PUNCT	interp	_	_	_	_	_
+12	Tow	towarzystwo	X	brev:pun	_	_	_	_	_
+13	.	.	PUNCT	interp	_	_	_	_	_
+14	kredyt	kredyt	X	subst:sg:nom:m3	_	_	_	_	_
+15	.	.	PUNCT	interp	_	_	_	_	_
+16	ziemsk	ziemsko	X	subst:pl:gen:n:ncol	_	_	_	_	_
+17	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 290
 # text = Jego Siostra Aleksandra żyje z mężem Koziebrodzkim w Chlebowie, który w spadku po stryju Tadeuszu otrzymała – a Tadeusz po swoim Bracie Samuelu, którego zmordowali właśni słudzy – podobno iż był gwałtownego usposobienia.
@@ -9450,7 +9466,7 @@
 18	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 309
-# text = Odbywały się wybory do Towarzystwa – ktoś postawił Chomińskiego direktora policyu Kandydaturę na członka Towarz.Gospod.
+# text = Odbywały się wybory do Towarzystwa – ktoś postawił Chomińskiego direktora policyu Kandydaturę na członka Towarz. Gospod.
 1	Odbywały	odbywać	VERB	praet:pl:n:imperf	_	_	_	_	_
 2	się	się	PRON	part	_	_	_	_	_
 3	wybory	wybory	NOUN	subst:pl:nom:n:pt	_	_	_	_	_
@@ -9465,6 +9481,10 @@
 13	Kandydaturę	kandydatura	NOUN	subst:sg:acc:f	_	_	_	_	_
 14	na	na	ADP	prep:acc	_	_	_	_	_
 15	członka	członek	NOUN	subst:sg:acc:m1	_	_	_	_	_
+16	Towarz	towarz	X	subst:sg:gen:f	_	_	_	_	_
+17	.	.	PUNCT	interp	_	_	_	_	_
+18	Gospod	gospod	X	subst:sg:nom:m1	_	_	_	_	_
+19	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 310
 # text = Zacni obywatele a na czele ówczesny Gubernator Artur Gołuchowski oburzyli się tem i chciano dojść kto był inicjatorem tey propozycyi – ktoś co chciał od siebie odrzucić podeyrzenie póścił w kurs jakoby ta myśl wyszła z Komitetu w którym zasiadał także Pan Dawid Jędrżejowicz z Czapel w Samborskim – ale Pan Dawid właśnie w ten czas leżał chory i udziału w balożowaniu nie mógł brać.
@@ -9536,7 +9556,7 @@
 67	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 311
-# text = Usłyszawszy to Pan Fredo sprostował tę pogłoskę – napiętnowawszy ją oszczerstwem i przy tey okazyi w dowód jakich zasad obywatelskich i uczuć patryotycznych Pan Dawid kończył w te słowa:” W Roku 830 byłem przewodniczącym Komitetu wspierającego ruch narodowy. Zwołałem Zjazd Obywateli do Sambora – zebranie było liczne około 60 obywateli. Obok mnie po prawey siedział Pan Dawid Jędrzejowicz – Z arkuszem na stole zapytywałem koleyno kto ile ofiaruje na sprawę narodową – ofiarowali więc po 100 po 200 – 300 dukatów spłacać ratami do kasy – kończę kwerendę na Panu Dawidzie – a ten kładzie na stół 2000 Dukatów i powiada – Mam 5-ciorodzieci – jako szóstą schedę uważam datek na sprawę Oyczyzny – dam więc za dwa miesiące drugie 2000 Dukatów, a do pół roku reszta uzupełnię całą schedę 6000 Dukatów. Pan Jędrzejowicz dał dowody serca dla Polski i poświęcenia jakiem niewielu z nas poszczycić się może”
+# text = Usłyszawszy to Pan Fredo sprostował tę pogłoskę – napiętnowawszy ją oszczerstwem i przy tey okazyi w dowód jakich zasad obywatelskich i uczuć patryotycznych Pan Dawid kończył w te słowa:” W Roku 830 byłem przewodniczącym Komitetu wspierającego ruch narodowy. Zwołałem Zjazd Obywateli do Sambora – zebranie było liczne około 60 obywateli. Obok mnie po prawey siedział Pan Dawid Jędrzejowicz – Z arkuszem na stole zapytywałem koleyno kto ile ofiaruje na sprawę narodową – ofiarowali więc po 100 po 200 – 300 dukatów spłacać ratami do kasy – kończę kwerendę na Panu Dawidzie – a ten kładzie na stół 2000 Dukatów i powiada – Mam 5-cioro dzieci – jako szóstą schedę uważam datek na sprawę Oyczyzny – dam więc za dwa miesiące drugie 2000 Dukatów, a do pół roku reszta uzupełnię całą schedę 6000 Dukatów. Pan Jędrzejowicz dał dowody serca dla Polski i poświęcenia jakiem niewielu z nas poszczycić się może”
 1	Usłyszawszy	usłyszeć	VERB	pant:perf	_	_	_	_	_
 2	to	to	PRON	subst:sg:acc:n:ncol	_	_	_	_	_
 3	Pan	pan	NOUN	subst:sg:nom:m1	_	_	_	_	_
@@ -9652,54 +9672,55 @@
 110	Mam	mieć	VERB	fin:sg:pri:imperf	_	_	_	_	_
 111	5	5	X	dig	_	_	_	_	_
 112	-	-	PUNCT	interp	_	_	_	_	_
-113	ciorodzieci	ciorodzieci	X	subst:pl:nom:m1	_	_	_	_	_
-114	–	–	PUNCT	interp	_	_	_	_	_
-115	jako	jako	SCONJ	conj	_	_	_	_	_
-116	szóstą	szósty	ADJ	adj:sg:acc:f:pos	_	_	_	_	_
-117	schedę	scheda	NOUN	subst:sg:acc:f	_	_	_	_	_
-118	uważam	uważać	VERB	fin:sg:pri:imperf	_	_	_	_	_
-119	datek	datek	NOUN	subst:sg:acc:m3	_	_	_	_	_
-120	na	na	ADP	prep:acc	_	_	_	_	_
-121	sprawę	sprawa	NOUN	subst:sg:acc:f	_	_	_	_	_
-122	Oyczyzny	oyczyzny	NOUN	subst:sg:gen:f	_	_	_	_	_
-123	–	–	PUNCT	interp	_	_	_	_	_
-124	dam	dać	VERB	fin:sg:pri:perf	_	_	_	_	_
-125	więc	więc	SCONJ	comp	_	_	_	_	_
-126	za	za	ADP	prep:acc	_	_	_	_	_
-127	dwa	dwa	NUM	num:pl:acc:m3:congr:ncol	_	_	_	_	_
-128	miesiące	miesiąc	NOUN	subst:pl:acc:m3	_	_	_	_	_
-129	drugie	drugi	ADJ	adj:pl:acc:m3:pos	_	_	_	_	_
-130	2000	2000	NUM	dig	_	_	_	_	_
-131	Dukatów	dukat	NOUN	subst:pl:gen:m1	_	_	_	_	_
-132	,	,	PUNCT	interp	_	_	_	_	_
-133	a	a	CCONJ	conj	_	_	_	_	_
-134	do	do	ADP	prep:gen	_	_	_	_	_
-135	pół	pół	NUM	num:sg:gen:m3:rec	_	_	_	_	_
-136	roku	rok	NOUN	subst:sg:gen:m3	_	_	_	_	_
-137	reszta	reszta	NOUN	subst:sg:nom:f	_	_	_	_	_
-138	uzupełnię	uzupełnić	VERB	fin:sg:pri:perf	_	_	_	_	_
-139	całą	cały	ADJ	adj:sg:acc:f:pos	_	_	_	_	_
-140	schedę	scheda	NOUN	subst:sg:acc:f	_	_	_	_	_
-141	6000	6000	NUM	dig	_	_	_	_	_
-142	Dukatów	dukat	NOUN	subst:pl:gen:m1	_	_	_	_	_
-143	.	.	PUNCT	interp	_	_	_	_	_
-144	Pan	pan	NOUN	subst:sg:nom:m1	_	_	_	_	_
-145	Jędrzejowicz	Jędrzejowicz	PROPN	subst:sg:nom:m1	_	_	_	_	_
-146	dał	dać	VERB	praet:sg:m1:perf	_	_	_	_	_
-147	dowody	dowód	NOUN	subst:pl:acc:m3	_	_	_	_	_
-148	serca	serce	NOUN	subst:sg:gen:n:ncol	_	_	_	_	_
-149	dla	dla	ADP	prep:gen	_	_	_	_	_
-150	Polski	Polska	PROPN	subst:sg:gen:f	_	_	_	_	_
-151	i	i	CCONJ	conj	_	_	_	_	_
-152	poświęcenia	poświęcenie	NOUN	subst:sg:gen:n:ncol	_	_	_	_	_
-153	jakiem	jak	DET	subst:sg:inst:m2	_	_	_	_	_
-154	niewielu	niewiele	DET	num:pl:nom:m1:rec	_	_	_	_	_
-155	z	z	ADP	prep:gen:nwok	_	_	_	_	_
-156	nas	my	PRON	ppron12:pl:gen:m1:pri	_	_	_	_	_
-157	poszczycić	poszczycić	VERB	inf:perf	_	_	_	_	_
-158	się	się	PRON	part	_	_	_	_	_
-159	może	móc	VERB	fin:sg:ter:imperf	_	_	_	_	_
-160	”	”	PUNCT	interp	_	_	_	_	_
+113	cioro	cioro	X	adv	_	_	_	_	_
+114	dzieci	dziecko	NOUN	subst:pl:nom:n:col	_	_	_	_	_
+115	–	–	PUNCT	interp	_	_	_	_	_
+116	jako	jako	SCONJ	conj	_	_	_	_	_
+117	szóstą	szósty	ADJ	adj:sg:acc:f:pos	_	_	_	_	_
+118	schedę	scheda	NOUN	subst:sg:acc:f	_	_	_	_	_
+119	uważam	uważać	VERB	fin:sg:pri:imperf	_	_	_	_	_
+120	datek	datek	NOUN	subst:sg:acc:m3	_	_	_	_	_
+121	na	na	ADP	prep:acc	_	_	_	_	_
+122	sprawę	sprawa	NOUN	subst:sg:acc:f	_	_	_	_	_
+123	Oyczyzny	oyczyzny	NOUN	subst:sg:gen:f	_	_	_	_	_
+124	–	–	PUNCT	interp	_	_	_	_	_
+125	dam	dać	VERB	fin:sg:pri:perf	_	_	_	_	_
+126	więc	więc	SCONJ	comp	_	_	_	_	_
+127	za	za	ADP	prep:acc	_	_	_	_	_
+128	dwa	dwa	NUM	num:pl:acc:m3:congr:ncol	_	_	_	_	_
+129	miesiące	miesiąc	NOUN	subst:pl:acc:m3	_	_	_	_	_
+130	drugie	drugi	ADJ	adj:pl:acc:m3:pos	_	_	_	_	_
+131	2000	2000	NUM	dig	_	_	_	_	_
+132	Dukatów	dukat	NOUN	subst:pl:gen:m1	_	_	_	_	_
+133	,	,	PUNCT	interp	_	_	_	_	_
+134	a	a	CCONJ	conj	_	_	_	_	_
+135	do	do	ADP	prep:gen	_	_	_	_	_
+136	pół	pół	NUM	num:sg:gen:m3:rec	_	_	_	_	_
+137	roku	rok	NOUN	subst:sg:gen:m3	_	_	_	_	_
+138	reszta	reszta	NOUN	subst:sg:nom:f	_	_	_	_	_
+139	uzupełnię	uzupełnić	VERB	fin:sg:pri:perf	_	_	_	_	_
+140	całą	cały	ADJ	adj:sg:acc:f:pos	_	_	_	_	_
+141	schedę	scheda	NOUN	subst:sg:acc:f	_	_	_	_	_
+142	6000	6000	NUM	dig	_	_	_	_	_
+143	Dukatów	dukat	NOUN	subst:pl:gen:m1	_	_	_	_	_
+144	.	.	PUNCT	interp	_	_	_	_	_
+145	Pan	pan	NOUN	subst:sg:nom:m1	_	_	_	_	_
+146	Jędrzejowicz	Jędrzejowicz	PROPN	subst:sg:nom:m1	_	_	_	_	_
+147	dał	dać	VERB	praet:sg:m1:perf	_	_	_	_	_
+148	dowody	dowód	NOUN	subst:pl:acc:m3	_	_	_	_	_
+149	serca	serce	NOUN	subst:sg:gen:n:ncol	_	_	_	_	_
+150	dla	dla	ADP	prep:gen	_	_	_	_	_
+151	Polski	Polska	PROPN	subst:sg:gen:f	_	_	_	_	_
+152	i	i	CCONJ	conj	_	_	_	_	_
+153	poświęcenia	poświęcenie	NOUN	subst:sg:gen:n:ncol	_	_	_	_	_
+154	jakiem	jak	DET	subst:sg:inst:m2	_	_	_	_	_
+155	niewielu	niewiele	DET	num:pl:nom:m1:rec	_	_	_	_	_
+156	z	z	ADP	prep:gen:nwok	_	_	_	_	_
+157	nas	my	PRON	ppron12:pl:gen:m1:pri	_	_	_	_	_
+158	poszczycić	poszczycić	VERB	inf:perf	_	_	_	_	_
+159	się	się	PRON	part	_	_	_	_	_
+160	może	móc	VERB	fin:sg:ter:imperf	_	_	_	_	_
+161	”	”	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 312
 # text = Wiedziało o tem Obywatelstwo ale żona ani dzieci ani żaden z krewnych o tey ofiarności Pana Dawida niewiedział, dopiero ja im to opowiedziałem.
@@ -10907,7 +10928,7 @@
 7	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 348
-# text = O chodzeniu do szkoły Marcelemu już się nieśniło – był przecie gospodarzem – kto się zajął katafalkiem e.t.r.niepamiętam – ale Marceli sprosił sobie kolegów rozumie się z nieodstępnym Antonim Golejowskim – i nuż trupa obliwać.
+# text = O chodzeniu do szkoły Marcelemu już się nieśniło – był przecie gospodarzem – kto się zajął katafalkiem e.t.r. niepamiętam – ale Marceli sprosił sobie kolegów rozumie się z nieodstępnym Antonim Golejowskim – i nuż trupa obliwać.
 1	O	o	ADP	prep:loc	_	_	_	_	_
 2	chodzeniu	chodzenie	NOUN	subst:sg:loc:n:ncol	_	_	_	_	_
 3	do	do	ADP	prep:gen	_	_	_	_	_
