@@ -1701,8 +1701,8 @@
 31	wyliczył	wyliczyć	VERB	praet:sg:m1:perf	_	_	_	_	_
 32	Pani	pani	NOUN	subst:sg:dat:f	_	_	_	_	_
 33	Rozwadowskiej	Rozwadowska	PROPN	subst:sg:dat:f	_	_	_	_	_
-34	10000	10000	NUM	num:pl:nom:m3:rec	_	_	_	_	_
-35	dukatów	dukat	NOUN	subst:pl:gen:m3	_	_	_	_	_
+34	10000	10000	NUM	num:pl:nom:m2:rec	_	_	_	_	_
+35	dukatów	dukat	NOUN	subst:pl:gen:m2	_	_	_	_	_
 36	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 56
@@ -1713,8 +1713,8 @@
 4	ceny	cena	NOUN	subst:sg:gen:f	_	_	_	_	_
 5	kupna	kupno	NOUN	subst:sg:gen:n:ncol	_	_	_	_	_
 6	brakowało	brakować	VERB	praet:sg:n:imperf	_	_	_	_	_
-7	2000	2000	NUM	num:pl:gen:m3:rec	_	_	_	_	_
-8	dukatów	dukat	NOUN	subst:pl:gen:m3	_	_	_	_	_
+7	2000	2000	NUM	num:pl:gen:m2:rec	_	_	_	_	_
+8	dukatów	dukat	NOUN	subst:pl:gen:m2	_	_	_	_	_
 9	pełnłnomocnik	pełnłnomocnik	NOUN	subst:sg:nom:m1	_	_	_	_	_
 10	Pani	pani	NOUN	subst:sg:gen:f	_	_	_	_	_
 11	Rozwadowskiej	Rozwadowska	PROPN	subst:sg:gen:f	_	_	_	_	_
@@ -2215,7 +2215,7 @@
 3	władzą	władza	NOUN	subst:sg:inst:f	_	_	_	_	_
 4	opiekuńczą	opiekuńczy	ADJ	adj:sg:inst:f:pos	_	_	_	_	_
 5	–	–	PUNCT	interp	_	_	_	_	_
-6	niemogło	niemogło	VERB	part	_	_	_	_	_
+6	niemogło	niemóc	VERB	praet:sg:n:imperf:neg	_	_	_	_	_
 7	się	się	PRON	part	_	_	_	_	_
 8	żadne	żaden	DET	adj:sg:nom:n:pos	_	_	_	_	_
 9	małżeństwo	małżeństwo	NOUN	subst:sg:nom:n:ncol	_	_	_	_	_
@@ -2230,8 +2230,8 @@
 18	–	–	PUNCT	interp	_	_	_	_	_
 19	dopokąd	dopokąd	SCONJ	comp	_	_	_	_	_
 20	z	z	ADP	prep:gen:nwok	_	_	_	_	_
-21	Dominii	dominii	NOUN	subst:sg:gen:f	_	_	_	_	_
-22	nieprzyniósł	nieprzyniósł	VERB	subst:sg:gen:m3	_	_	_	_	_
+21	Dominii	dominia	NOUN	subst:sg:gen:f	_	_	_	_	_
+22	nieprzyniósł	nieprzyniósł	VERB	praet:sg:m1:perf:neg	_	_	_	_	_
 23	kartki	kartka	NOUN	subst:sg:gen:f	_	_	_	_	_
 24	pozwolenia	pozwolenie	NOUN	subst:sg:gen:n:ncol	_	_	_	_	_
 25	.	.	PUNCT	interp	_	_	_	_	_
@@ -2242,13 +2242,13 @@
 2	chociaż	chociaż	SCONJ	part	_	_	_	_	_
 3	i	i	CCONJ	conj	_	_	_	_	_
 4	tu	tu	ADV	adv	_	_	_	_	_
-5	mogły	móc	VERB	praet:pl:f:imperf	_	_	_	_	_
+5	mogły	móc	VERB	praet:pl:n:imperf	_	_	_	_	_
 6	się	się	PRON	part	_	_	_	_	_
 7	dziać	dziać	VERB	inf:imperf	_	_	_	_	_
-8	nadużycia	nadużycie	NOUN	subst:pl:acc:n:ncol	_	_	_	_	_
+8	nadużycia	nadużycie	NOUN	subst:pl:nom:n:ncol	_	_	_	_	_
 9	–	–	PUNCT	interp	_	_	_	_	_
 10	mogły	móc	VERB	praet:pl:n:imperf	_	_	_	_	_
-11	one	on	PRON	ppron3:pl:nom:f:ter:akc:npraep	_	_	_	_	_
+11	one	on	PRON	ppron3:pl:nom:n:ter:akc:npraep	_	_	_	_	_
 12	być	być	AUX	inf:imperf	_	_	_	_	_
 13	wyjątkowe	wyjątkowy	ADJ	adj:pl:nom:n:pos	_	_	_	_	_
 14	,	,	PUNCT	interp	_	_	_	_	_
@@ -2288,7 +2288,7 @@
 10	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 74
-# text = Pamiętam że przybył z Podola szlachcic w Sanockie – słynny ze zdzierstwa poddanych – i nieprawego stosunku kawalerskiego w domu P.TDziadek móy mawiał – niech noga Pana tego nie powstanie na progu mojego domu.
+# text = Pamiętam że przybył z Podola szlachcic w Sanockie – słynny ze zdzierstwa poddanych – i nieprawego stosunku kawalerskiego w domu P.T Dziadek móy mawiał – niech noga Pana tego nie powstanie na progu mojego domu.
 1	Pamiętam	pamiętać	VERB	fin:sg:pri:imperf	_	_	_	_	_
 2	że	że	SCONJ	comp	_	_	_	_	_
 3	przybył	przybyć	VERB	praet:sg:m1:perf	_	_	_	_	_
@@ -2309,38 +2309,39 @@
 18	kawalerskiego	kawalerski	ADJ	adj:sg:gen:m3:pos	_	_	_	_	_
 19	w	w	ADP	prep:loc:nwok	_	_	_	_	_
 20	domu	dom	NOUN	subst:sg:loc:m3	_	_	_	_	_
-21	P	list_świętego_piotra	X	brev:npun	_	_	_	_	_
+21	P	p	X	brev:npun	_	_	_	_	_
 22	.	.	PUNCT	interp	_	_	_	_	_
-23	TDziadek	tdziadek	X	subst:sg:nom:m1	_	_	_	_	_
-24	móy	móy	DET	pact:sg:nom:m1:imperf:aff	_	_	_	_	_
-25	mawiał	mawiać	VERB	praet:sg:m1:imperf	_	_	_	_	_
-26	–	–	PUNCT	interp	_	_	_	_	_
-27	niech	niech	AUX	part	_	_	_	_	_
-28	noga	noga	NOUN	subst:sg:nom:f	_	_	_	_	_
-29	Pana	pan	NOUN	subst:sg:gen:m1	_	_	_	_	_
-30	tego	to	DET	subst:sg:gen:n:ncol	_	_	_	_	_
-31	nie	nie	PART	part	_	_	_	_	_
-32	powstanie	powstać	VERB	fin:sg:ter:perf	_	_	_	_	_
-33	na	na	ADP	prep:loc	_	_	_	_	_
-34	progu	próg	NOUN	subst:sg:loc:m3	_	_	_	_	_
-35	mojego	mój	DET	adj:sg:gen:m3:pos	_	_	_	_	_
-36	domu	dom	NOUN	subst:sg:gen:m3	_	_	_	_	_
-37	.	.	PUNCT	interp	_	_	_	_	_
+23	T   t   X   brev:npun   _	_	_	_	_
+24  Dziadek	dziadek	NOUN	subst:sg:nom:m1	_	_	_	_	_
+25	móy	móy	DET	adj:sg:nom:m1:pos	_	_	_	_	_
+26	mawiał	mawiać	VERB	praet:sg:m1:imperf	_	_	_	_	_
+27	–	–	PUNCT	interp	_	_	_	_	_
+28	niech	niech	AUX	part	_	_	_	_	_
+29	noga	noga	NOUN	subst:sg:nom:f	_	_	_	_	_
+30	Pana	pan	NOUN	subst:sg:gen:m1	_	_	_	_	_
+31	tego	to	DET	adj:sg:gen:m1:pos	_	_	_	_	_
+32	nie	nie	PART	part	_	_	_	_	_
+33	powstanie	powstać	VERB	fin:sg:ter:perf	_	_	_	_	_
+34	na	na	ADP	prep:loc	_	_	_	_	_
+35	progu	próg	NOUN	subst:sg:loc:m3	_	_	_	_	_
+36	mojego	mój	DET	adj:sg:gen:m3:pos	_	_	_	_	_
+37	domu	dom	NOUN	subst:sg:gen:m3	_	_	_	_	_
+38	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 75
 # text = Mandatariaty po większej części obsadzane były szlachtą zagonową – cząstkową – czynszową – Chłopak poduczył się w szkołach normalnych – dziś ludowemi zwanych czytać, pisać, rarachować – czasem lizną trochę łaciny w gymnazyum – szedł na praktykę na pisarza do mandataryusza – poduczywszy się trochę prawa – manipulacyi urzędowey – zdawał egzamin w Starostwie w Cyrkule i dostawał dekret na reprezentanta Domnikalnego czyli Mandataryusza.
-1	Mandatariaty	mandatariaty	NOUN	subst:sg:nom:f	_	_	_	_	_
+1	Mandatariaty	mandatariat	NOUN	subst:pl:nom:m3	_	_	_	_	_
 2	po	po	ADP	prep:loc	_	_	_	_	_
 3	większej	duży	ADJ	adj:sg:loc:f:com	_	_	_	_	_
 4	części	część	NOUN	subst:sg:loc:f	_	_	_	_	_
-5	obsadzane	obsadzać	ADJ	ppas:pl:nom:f:imperf:aff	_	_	_	_	_
-6	były	być	AUX	praet:pl:f:imperf	_	_	_	_	_
+5	obsadzane	obsadzać	ADJ	ppas:pl:nom:m3:imperf:aff	_	_	_	_	_
+6	były	być	AUX	praet:pl:m3:imperf	_	_	_	_	_
 7	szlachtą	szlachta	NOUN	subst:sg:inst:f	_	_	_	_	_
 8	zagonową	zagonowy	ADJ	adj:sg:inst:f:pos	_	_	_	_	_
 9	–	–	PUNCT	interp	_	_	_	_	_
 10	cząstkową	cząstkowy	ADJ	adj:sg:inst:f:pos	_	_	_	_	_
 11	–	–	PUNCT	interp	_	_	_	_	_
-12	czynszową	czynszowy	ADJ	adj:sg:acc:f:pos	_	_	_	_	_
+12	czynszową	czynszowy	ADJ	adj:sg:inst:f:pos	_	_	_	_	_
 13	–	–	PUNCT	interp	_	_	_	_	_
 14	Chłopak	chłopak	NOUN	subst:sg:nom:m1	_	_	_	_	_
 15	poduczył	poduczyć	VERB	praet:sg:m1:perf	_	_	_	_	_
@@ -2350,8 +2351,8 @@
 19	normalnych	normalny	ADJ	adj:pl:loc:f:pos	_	_	_	_	_
 20	–	–	PUNCT	interp	_	_	_	_	_
 21	dziś	dziś	ADV	adv	_	_	_	_	_
-22	ludowemi	ludowemi	ADJ	subst:pl:inst:f	_	_	_	_	_
-23	zwanych	zwać	ADJ	ppas:pl:gen:f:imperf:aff	_	_	_	_	_
+22	ludowemi	ludowe	ADJ	adj:pl:inst:f	_	_	_	_	_
+23	zwanych	zwać	ADJ	ppas:pl:loc:f:imperf:aff	_	_	_	_	_
 24	czytać	czytać	VERB	inf:imperf	_	_	_	_	_
 25	,	,	PUNCT	interp	_	_	_	_	_
 26	pisać	pisać	VERB	inf:imperf	_	_	_	_	_
@@ -2359,7 +2360,7 @@
 28	rarachować	rarachować	VERB	inf:imperf	_	_	_	_	_
 29	–	–	PUNCT	interp	_	_	_	_	_
 30	czasem	czas	NOUN	subst:sg:inst:m3	_	_	_	_	_
-31	lizną	liznąć	VERB	fin:pl:ter:perf	_	_	_	_	_
+31	lizną	liznąć	VERB	praet:sg:m1:perf	_	_	_	_	_
 32	trochę	trochę	DET	num:pl:acc:m3:rec	_	_	_	_	_
 33	łaciny	łacina	NOUN	subst:sg:gen:f	_	_	_	_	_
 34	w	w	ADP	prep:loc:nwok	_	_	_	_	_
@@ -2378,8 +2379,8 @@
 47	trochę	trochę	DET	adv	_	_	_	_	_
 48	prawa	prawo	NOUN	subst:sg:gen:n:ncol	_	_	_	_	_
 49	–	–	PUNCT	interp	_	_	_	_	_
-50	manipulacyi	manipulacyi	NOUN	xxs:nom	_	_	_	_	_
-51	urzędowey	urzędowey	ADJ	xxs:nom	_	_	_	_	_
+50	manipulacyi	manipulacya	NOUN	subst:sg:gen:f	_	_	_	_	_
+51	urzędowey	urzędowa	ADJ	adj:sg:gen:f:pos	_	_	_	_	_
 52	–	–	PUNCT	interp	_	_	_	_	_
 53	zdawał	zdawać	VERB	praet:sg:m1:imperf	_	_	_	_	_
 54	egzamin	egzamin	NOUN	subst:sg:acc:m3	_	_	_	_	_
@@ -2388,20 +2389,20 @@
 57	w	w	ADP	prep:loc:nwok	_	_	_	_	_
 58	Cyrkule	cyrkuł	NOUN	subst:sg:loc:m3	_	_	_	_	_
 59	i	i	CCONJ	conj	_	_	_	_	_
-60	dostawał	dostawać	VERB	praet:sg:m3:imperf	_	_	_	_	_
+60	dostawał	dostawać	VERB	praet:sg:m1:imperf	_	_	_	_	_
 61	dekret	dekret	NOUN	subst:sg:acc:m3	_	_	_	_	_
 62	na	na	ADP	prep:acc	_	_	_	_	_
 63	reprezentanta	reprezentant	NOUN	subst:sg:acc:m1	_	_	_	_	_
-64	Domnikalnego	domnikalnego	ADJ	subst:sg:acc:m1	_	_	_	_	_
+64	Domnikalnego	domnikalny	ADJ	adj:sg:acc:m1:pos	_	_	_	_	_
 65	czyli	czyli	CCONJ	conj	_	_	_	_	_
 66	Mandataryusza	mandataryusza	NOUN	subst:sg:acc:m1	_	_	_	_	_
 67	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 76
 # text = Mandatyrusza przyjmował Dziedzic na swoją odpowiedzialność ręcząc za podatki i depozyta starościńskie.
-1	Mandatyrusza	mandatyrusza	NOUN	subst:sg:nom:f	_	_	_	_	_
+1	Mandatyrusza	mandatyrusza	NOUN	subst:sg:acc:f	_	_	_	_	_
 2	przyjmował	przyjmować	VERB	praet:sg:m1:imperf	_	_	_	_	_
-3	Dziedzic	dziedzic	NOUN	subst:sg:acc:f	_	_	_	_	_
+3	Dziedzic	dziedzic	NOUN	subst:sg:nom:f	_	_	_	_	_
 4	na	na	ADP	prep:acc	_	_	_	_	_
 5	swoją	swój	DET	adj:sg:acc:f:pos	_	_	_	_	_
 6	odpowiedzialność	odpowiedzialność	NOUN	subst:sg:acc:f	_	_	_	_	_
@@ -2409,8 +2410,8 @@
 8	za	za	ADP	prep:acc	_	_	_	_	_
 9	podatki	podatek	NOUN	subst:pl:acc:m3	_	_	_	_	_
 10	i	i	CCONJ	conj	_	_	_	_	_
-11	depozyta	depozyta	NOUN	subst:pl:acc:n:ncol	_	_	_	_	_
-12	starościńskie	starościński	ADJ	adj:pl:acc:n:pos	_	_	_	_	_
+11	depozyta	depozyt	NOUN	subst:pl:acc:m3	_	_	_	_	_
+12	starościńskie	starościński	ADJ	adj:pl:acc:m3:pos	_	_	_	_	_
 13	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 77
@@ -2419,26 +2420,26 @@
 2	pobierał	pobierać	VERB	praet:sg:m1:imperf	_	_	_	_	_
 3	od	od	ADP	prep:gen:nwok	_	_	_	_	_
 4	Dziedzica	dziedzic	NOUN	subst:sg:gen:m1	_	_	_	_	_
-5	pensyę	pensyę	NOUN	subst:sg:acc:f	_	_	_	_	_
+5	pensyę	pensya	NOUN	subst:sg:acc:f	_	_	_	_	_
 6	od	od	ADP	prep:gen:nwok	_	_	_	_	_
-7	120	120	NUM	dig	_	_	_	_	_
+7	120	120	NUM	num:pl:gen:m2:rec	_	_	_	_	_
 8	do	do	ADP	prep:gen	_	_	_	_	_
-9	200	200	NUM	dig	_	_	_	_	_
+9	200	200	NUM	num:pl:gen:m2:rec	_	_	_	_	_
 10	–	–	PUNCT	interp	_	_	_	_	_
-11	300	300	NUM	dig	_	_	_	_	_
+11	300	300	NUM	num:pl:gen:m2:rec	_	_	_	_	_
 12	fl	fl	X	brev:npun	_	_	_	_	_
-13	20	20	NUM	dig	_	_	_	_	_
+13	20	20	NUM	num:pl:gen:m3:rec	_	_	_	_	_
 14	do	do	ADP	prep:gen	_	_	_	_	_
-15	50	50	NUM	dig	_	_	_	_	_
+15	50	50	NUM	num:pl:gen:m3:rec	_	_	_	_	_
 16	korcy	korzec	NOUN	subst:pl:gen:m3	_	_	_	_	_
-17	ordynaryi	ordynaryi	NOUN	subst:pl:gen:m1	_	_	_	_	_
+17	ordynaryi	ordynarya	NOUN	subst:pl:gen:f	_	_	_	_	_
 18	–	–	PUNCT	interp	_	_	_	_	_
-19	ogród	ogród	NOUN	subst:sg:nom:m3	_	_	_	_	_
+19	ogród	ogród	NOUN	subst:sg:acc:m3	_	_	_	_	_
 20	,	,	PUNCT	interp	_	_	_	_	_
-21	pomieszkanie	pomieszkać	NOUN	ger:sg:nom:n:perf:aff	_	_	_	_	_
-22	opał	opał	NOUN	subst:sg:nom:m3	_	_	_	_	_
+21	pomieszkanie	pomieszkać	NOUN	ger:sg:acc:n:perf:aff	_	_	_	_	_
+22	opał	opał	NOUN	subst:sg:acc:m3	_	_	_	_	_
 23	–	–	PUNCT	interp	_	_	_	_	_
-24	pastwisko	pastwisko	NOUN	subst:sg:nom:n:ncol	_	_	_	_	_
+24	pastwisko	pastwisko	NOUN	subst:sg:acc:n:ncol	_	_	_	_	_
 25	–	–	PUNCT	interp	_	_	_	_	_
 26	stosownie	stosownie	ADV	adv:pos	_	_	_	_	_
 27	do	do	ADP	prep:gen	_	_	_	_	_
@@ -2451,10 +2452,10 @@
 
 # sent_id = 78
 # text = Mimo tak szczupłey dotacyi uwzględniając taniość życia w one czasy – gdzie funt mięsa kosztował dzisiejszych 4 do 5 centów – korzec owsa cwansigera – czyli 33 centy – korzec żyta dzisiejszych 1 fl – kartofli korzec 10 do 14 centów – mając przytem jakiś procent od poboru podatków i małe ale częste obrywki Panowie ci mieli się nieźle i nieraz lepiey jak dzisiejszy komisarz cyrkularny.
-1	Mimo	mimo	ADP	prep:acc	_	_	_	_	_
+1	Mimo	mimo	ADP	prep:gen	_	_	_	_	_
 2	tak	tak	ADV	adv:pos	_	_	_	_	_
-3	szczupłey	szczupłey	ADJ	subst:sg:nom:f	_	_	_	_	_
-4	dotacyi	dotacyi	NOUN	subst:sg:gen:f	_	_	_	_	_
+3	szczupłey	szczupła	ADJ	adj:sg:gen:f:pos	_	_	_	_	_
+4	dotacyi	dotacya	NOUN	subst:sg:gen:f	_	_	_	_	_
 5	uwzględniając	uwzględniać	VERB	pcon:imperf	_	_	_	_	_
 6	taniość	taniość	NOUN	subst:sg:acc:f	_	_	_	_	_
 7	życia	życie	NOUN	subst:sg:gen:n:ncol	_	_	_	_	_
@@ -2463,38 +2464,38 @@
 10	czasy	czas	NOUN	subst:pl:acc:m3	_	_	_	_	_
 11	–	–	PUNCT	interp	_	_	_	_	_
 12	gdzie	gdzie	ADV	adv	_	_	_	_	_
-13	funt	funt	NOUN	subst:sg:nom:m2	_	_	_	_	_
+13	funt	funt	NOUN	subst:sg:nom:m3	_	_	_	_	_
 14	mięsa	mięso	NOUN	subst:sg:gen:n:ncol	_	_	_	_	_
 15	kosztował	kosztować	VERB	praet:sg:m3:imperf	_	_	_	_	_
-16	dzisiejszych	dzisiejszy	ADJ	adj:pl:acc:m1:pos	_	_	_	_	_
-17	4	4	NUM	dig	_	_	_	_	_
+16	dzisiejszych	dzisiejszy	ADJ	adj:pl:acc:m3:pos	_	_	_	_	_
+17	4	4	NUM	num:pl:acc:m2:rec	_	_	_	_	_
 18	do	do	ADP	prep:gen	_	_	_	_	_
-19	5	5	NUM	dig	_	_	_	_	_
+19	5	5	NUM	num:pl:gen:m2:rec	_	_	_	_	_
 20	centów	cent	NOUN	subst:pl:gen:m2	_	_	_	_	_
 21	–	–	PUNCT	interp	_	_	_	_	_
 22	korzec	korzec	NOUN	subst:sg:nom:m3	_	_	_	_	_
 23	owsa	owies	NOUN	subst:sg:gen:m3	_	_	_	_	_
-24	cwansigera	cwansigera	NOUN	subst:sg:gen:m3	_	_	_	_	_
+24	cwansigera	cwansigera	NOUN	subst:sg:acc:m3	_	_	_	_	_
 25	–	–	PUNCT	interp	_	_	_	_	_
 26	czyli	czyli	CCONJ	conj	_	_	_	_	_
-27	33	33	NUM	dig	_	_	_	_	_
+27	33	33	NUM	num:pl:acc:m2:rec	_	_	_	_	_
 28	centy	cent	NOUN	subst:pl:nom:m2	_	_	_	_	_
 29	–	–	PUNCT	interp	_	_	_	_	_
 30	korzec	korzec	NOUN	subst:sg:nom:m3	_	_	_	_	_
 31	żyta	żyto	NOUN	subst:sg:gen:n:ncol	_	_	_	_	_
-32	dzisiejszych	dzisiejszy	ADJ	adj:pl:gen:m3:pos	_	_	_	_	_
-33	1	1	NUM	dig	_	_	_	_	_
+32	dzisiejszych	dzisiejszy	ADJ	adj:pl:gen:m2:pos	_	_	_	_	_
+33	1	1	NUM	num:sg:acc:m2:rec	_	_	_	_	_
 34	fl	fl	X	brev:npun	_	_	_	_	_
 35	–	–	PUNCT	interp	_	_	_	_	_
 36	kartofli	kartofel	NOUN	subst:pl:gen:m3	_	_	_	_	_
 37	korzec	korzec	NOUN	subst:sg:nom:m3	_	_	_	_	_
-38	10	10	NUM	dig	_	_	_	_	_
+38	10	10	NUM	num:pl:acc:m2:rec	_	_	_	_	_
 39	do	do	ADP	prep:gen	_	_	_	_	_
-40	14	14	NUM	dig	_	_	_	_	_
+40	14	14	NUM	num:pl:gen:m2:rec	_	_	_	_	_
 41	centów	cent	NOUN	subst:pl:gen:m2	_	_	_	_	_
 42	–	–	PUNCT	interp	_	_	_	_	_
-43	mając	maić	VERB	pcon:imperf	_	_	_	_	_
-44	przytem	przytem	PRON	fin:pl:pri:imperf	_	_	_	_	_
+43	mając	mieć	VERB	pcon:imperf	_	_	_	_	_
+44	przytem	przytem	PRON	subst:sg:loc:n:ncol	_	_	_	_	_
 45	jakiś	jakiś	DET	adj:sg:acc:m3:pos	_	_	_	_	_
 46	procent	procent	NOUN	subst:sg:acc:m3	_	_	_	_	_
 47	od	od	ADP	prep:gen:nwok	_	_	_	_	_
@@ -2512,8 +2513,8 @@
 59	nieźle	nieźle	ADV	adv:pos	_	_	_	_	_
 60	i	i	CCONJ	conj	_	_	_	_	_
 61	nieraz	nieraz	ADV	adv	_	_	_	_	_
-62	lepiey	lepiey	ADJ	conj	_	_	_	_	_
-63	jak	jak	SCONJ	adv:pos	_	_	_	_	_
+62	lepiey	dobrze	ADJ	adv:com	_	_	_	_	_
+63	jak	jak	SCONJ	comp	_	_	_	_	_
 64	dzisiejszy	dzisiejszy	ADJ	adj:sg:nom:m1:pos	_	_	_	_	_
 65	komisarz	komisarz	NOUN	subst:sg:nom:m1	_	_	_	_	_
 66	cyrkularny	cyrkularny	ADJ	adj:sg:nom:m1:pos	_	_	_	_	_
@@ -2527,7 +2528,7 @@
 4	i	i	CCONJ	conj	_	_	_	_	_
 5	Panom	pan	NOUN	subst:pl:dat:m1	_	_	_	_	_
 6	Urzędnikom	urzędnik	NOUN	subst:pl:dat:m1	_	_	_	_	_
-7	Cyrkularnym	cyrkularny	ADJ	adj:sg:inst:n:pos	_	_	_	_	_
+7	Cyrkularnym	cyrkularny	ADJ	adj:sg:dat:m1:pos	_	_	_	_	_
 8	–	–	PUNCT	interp	_	_	_	_	_
 9	.	.	PUNCT	interp	_	_	_	_	_
 
@@ -2542,7 +2543,7 @@
 7	komisarz	komisarz	NOUN	subst:sg:nom:m1	_	_	_	_	_
 8	Zebold	Zebold	PROPN	subst:sg:nom:m1	_	_	_	_	_
 9	–	–	PUNCT	interp	_	_	_	_	_
-10	ładąn	ładąn	ADJ	prep:inst:nwok	_	_	_	_	_
+10	ładąn	ładna	ADJ	adj:pl:inst:f:pos	_	_	_	_	_
 11	parą	para	NOUN	subst:sg:inst:f	_	_	_	_	_
 12	siwoszów	siwosz	NOUN	subst:pl:gen:m2	_	_	_	_	_
 13	,	,	PUNCT	interp	_	_	_	_	_
@@ -2558,7 +2559,7 @@
 23	a	a	CCONJ	conj	_	_	_	_	_
 24	brał	brać	VERB	praet:sg:m1:imperf	_	_	_	_	_
 25	pensyi	pensyi	NOUN	part	_	_	_	_	_
-26	600	600	NUM	dig	_	_	_	_	_
+26	600	600	NUM	num:pl:acc:m2:rec	_	_	_	_	_
 27	fl	fl	X	brev:npun	_	_	_	_	_
 28	.	.	PUNCT	interp	_	_	_	_	_
 
