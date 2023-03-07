@@ -38,7 +38,7 @@ Set up:
 + ``export SEED=1``
 
 Run:
-+ ``python3 run_ner.py --data_dir ./data_UPOS/ --task_type POS --labels ./data_UPOS/labels.txt --model_name_or_path $BERT_MODEL --output_dir $OUTPUT_DIR --max_seq_length  $MAX_LENGTH --num_train_epochs $NUM_EPOCHS --per_device_train_batch_size $BATCH_SIZE --save_steps $SAVE_STEPS --seed $SEED --do_train --do_eval --do_predict``
++ ``python3 run_ner.py --data_dir ./data_UPOS/ --labels ./data_UPOS/labels.txt --model_name_or_path $BERT_MODEL --output_dir $OUTPUT_DIR --max_seq_length  $MAX_LENGTH --num_train_epochs $NUM_EPOCHS --per_device_train_batch_size $BATCH_SIZE --save_steps $SAVE_STEPS --seed $SEED --do_train --do_eval --do_predict``
 
 For predicting:
 + ``export MODEL_PATH=./polUPOS-model/``
@@ -47,7 +47,7 @@ For predicting:
 
 Also run:
 + ``export OUTPUT_DIR=polXPOS-model``
-+ ``python3 run_ner.py --data_dir ./data_XPOS/ --task_type POS --labels ./labels.txt --model_name_or_path $BERT_MODEL --output_dir $OUTPUT_DIR --max_seq_length  $MAX_LENGTH --num_train_epochs $NUM_EPOCHS --per_device_train_batch_size $BATCH_SIZE --save_steps $SAVE_STEPS --seed $SEED --do_train --do_eval --do_predict``
++ ``python3 run_ner.py --data_dir ./data_XPOS/ --labels ./data_XPOS/labels.txt --model_name_or_path $BERT_MODEL --output_dir $OUTPUT_DIR --max_seq_length  $MAX_LENGTH --num_train_epochs $NUM_EPOCHS --per_device_train_batch_size $BATCH_SIZE --save_steps $SAVE_STEPS --seed $SEED --do_train --do_eval --do_predict``
 
 Then:
 + ``export MODEL_PATH=./polXPOS-model/``
