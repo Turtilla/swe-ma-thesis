@@ -1,0 +1,16 @@
+{
+  "cls_token": "[CLS]",
+  "do_basic_tokenize": true,
+  "do_lower_case": true,
+  "mask_token": "[MASK]",
+  "model_max_length": 1000000000000000019884624838656,
+  "name_or_path": "dkleczek/bert-base-polish-uncased-v1",
+  "never_split": null,
+  "pad_token": "[PAD]",
+  "sep_token": "[SEP]",
+  "special_tokens_map_file": "/home/turtilla/.cache/huggingface/hub/models--dkleczek--bert-base-polish-uncased-v1/snapshots/62be9821055981deafb23f217b68cc41f38cdb76/special_tokens_map.json",
+  "strip_accents": null,
+  "tokenize_chinese_chars": true,
+  "tokenizer_class": "BertTokenizer",
+  "unk_token": "[UNK]"
+}
