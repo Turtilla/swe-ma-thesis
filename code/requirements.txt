@@ -1,3 +1,10 @@
 morfeusz2
 seqeval
 conllu
+stanza
+torch
+transformers
+nltk
+numpy 
+sklearn
+pandas
