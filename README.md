@@ -10,7 +10,7 @@
 + Review the tagging.
 
 ### TODO taggers:
-+ ~~Decide on a method to use BERT for tagging ([existing architecture?](https://github.com/huggingface/transformers/tree/main/examples/legacy/token-classification)~~ 
++ ~~Decide on a method to use BERT for tagging ([existing architecture?](https://github.com/huggingface/transformers/tree/main/examples/legacy/token-classification))~~ 
 + (Potentially) train Marmot on the desired data.
 + ~~Figure out how to access the UD one.~~
 + ~~Figure out how to use Morfeusz.~~
@@ -18,6 +18,11 @@
 
 ### TODO eval:
 + Run evaluation of all the taggers/lemmatizers.
++ ~~Stanza~~
++ ~~BERT~~ need to process the errors!
++ Marmot
++ UD
++ Morfeusz
 + Extract and review the errors.
 + Annotate errors/find patterns.
 
