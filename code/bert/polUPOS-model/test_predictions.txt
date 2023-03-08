@@ -1379,16 +1379,16 @@ Ojciec NOUN
 – PUNCT
 a CCONJ
 ja PRON
-_ PUNCT
+nieśmiałem PUNCT
 nieśmiał VERB
-aglt:sg:pri:imperf:wok X
+em X
 wypytywać VERB
 . PUNCT
 
 Wreszcie PART
-_ PUNCT
+niebyłem PUNCT
 niebył VERB
-_ PUNCT
+em PUNCT
 nigdy ADV
 dłuższy ADJ
 czas NOUN
@@ -1979,7 +1979,7 @@ do ADP
 dworu NOUN
 . PUNCT
 
-_ PUNCT
+Zdawałoby PUNCT
 Zdawało VERB
 by AUX
 się PRON
@@ -2025,10 +2025,10 @@ Bludniki NOUN
 Zarszyn PROPN
 – PUNCT
 i CCONJ
-_ NOUN
-_ NOUN
-_ NOUN
-_ PUNCT
+t NOUN
+. NOUN
+p NOUN
+. PUNCT
 
 Nieszlachcic VERB
 niemógł VERB
@@ -3393,3 +3393,4 @@ Lesniowic PROPN
 przyległe ADJ
 Mosty NOUN
 . PUNCT
+
