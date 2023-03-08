@@ -1,1 +1,16 @@
-{"do_lower_case": true, "do_basic_tokenize": true, "never_split": null, "unk_token": "[UNK]", "sep_token": "[SEP]", "pad_token": "[PAD]", "cls_token": "[CLS]", "mask_token": "[MASK]", "tokenize_chinese_chars": true, "strip_accents": null, "special_tokens_map_file": "/home/turtilla/.cache/huggingface/transformers/a0f30ab89ab95e8ea1bfa8300d5d83d9ae4819d090bee0dd8adb7e16c30a39d0.dd8bd9bfd3664b530ea4e645105f557769387b3da9f79bdb55ed556bdd80611d", "name_or_path": "dkleczek/bert-base-polish-uncased-v1", "tokenizer_class": "BertTokenizer"}
+{
+  "cls_token": "[CLS]",
+  "do_basic_tokenize": true,
+  "do_lower_case": true,
+  "mask_token": "[MASK]",
+  "model_max_length": 1000000000000000019884624838656,
+  "name_or_path": "dkleczek/bert-base-polish-uncased-v1",
+  "never_split": null,
+  "pad_token": "[PAD]",
+  "sep_token": "[SEP]",
+  "special_tokens_map_file": "/home/turtilla/.cache/huggingface/hub/models--dkleczek--bert-base-polish-uncased-v1/snapshots/62be9821055981deafb23f217b68cc41f38cdb76/special_tokens_map.json",
+  "strip_accents": null,
+  "tokenize_chinese_chars": true,
+  "tokenizer_class": "BertTokenizer",
+  "unk_token": "[UNK]"
+}
