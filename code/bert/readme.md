@@ -52,4 +52,4 @@ Also run:
 Then:
 + ``export MODEL_PATH=./polXPOS-model/``
 + ``export CONFIG=./polXPOS-model/config.json``
-+ ``python3 run_ner.py --data_dir ./hist_test_XPOS/ --labels ./labels.txt --model_name_or_path $MODEL_PATH --config_name $CONFIG --output_dir $OUTPUT_DIR --max_seq_length  $MAX_LENGTH --num_train_epochs $NUM_EPOCHS --per_device_train_batch_size $BATCH_SIZE --save_steps $SAVE_STEPS --seed $SEED --do_predict``
++ ``python3 run_ner.py --data_dir ./hist_test_XPOS/ --labels ./data_XPOS/labels.txt --model_name_or_path $MODEL_PATH --config_name $CONFIG --output_dir $OUTPUT_DIR --max_seq_length  $MAX_LENGTH --num_train_epochs $NUM_EPOCHS --per_device_train_batch_size $BATCH_SIZE --save_steps $SAVE_STEPS --seed $SEED --do_predict``
