@@ -47,3 +47,4 @@ code/bert/data_XPOS/cached_train_BertTokenizer_128
 code/bert/data_XPOS/cached_train_BertTokenizer_128.lock
 code/bert/hist_test_XPOS/cached_test_BertTokenizer_128
 code/bert/hist_test_XPOS/cached_test_BertTokenizer_128.lock
+code/bert/polXPOS-model/pytorch_model.bin
