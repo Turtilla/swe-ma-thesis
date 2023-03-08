@@ -10,7 +10,7 @@ In order to get the XPOS tags instead of UPOS run:
 + ``cat pl_pdb-ud-test.conllu | grep -v "^#" | cut -f 2,5 | tr '\t' ' ' > test.txt.tmp``
 
 Later also:
-+ ``cat memoirs_3k_corrected.conllu | grep -v "^#" | cut -f 2,4 | tr '\t' ' ' > test.txt.tmp``
++ ``cat memoirs_10k_corrected.conllu | grep -v "^#" | cut -f 2,4 | tr '\t' ' ' > test.txt.tmp``
 + ``cat memoirs_3k_corrected.conllu | grep -v "^#" | cut -f 2,5 | tr '\t' ' ' > test.txt.tmp``
 
 Move the created files into the folder with the code (this one)
@@ -20,9 +20,9 @@ Set:
 + ``export BERT_MODEL=dkleczek/bert-base-polish-uncased-v1``
 
 Run:
-+ ``python3 scripts/preprocess.py train.txt.tmp $BERT_MODEL $MAX_LENGTH > train.txt``
-+ ``python3 scripts/preprocess.py dev.txt.tmp $BERT_MODEL $MAX_LENGTH > dev.txt``
-+ ``python3 scripts/preprocess.py test.txt.tmp $BERT_MODEL $MAX_LENGTH > test.txt``
++ ``python3 ../scripts/preprocess.py train.txt.tmp $BERT_MODEL $MAX_LENGTH > train.txt``
++ ``python3 ../scripts/preprocess.py dev.txt.tmp $BERT_MODEL $MAX_LENGTH > dev.txt``
++ ``python3 ../scripts/preprocess.py test.txt.tmp $BERT_MODEL $MAX_LENGTH > test.txt``
 
 Later also:
 + ``python3 scripts/preprocess.py test.txt.tmp $BERT_MODEL $MAX_LENGTH > test.txt``
