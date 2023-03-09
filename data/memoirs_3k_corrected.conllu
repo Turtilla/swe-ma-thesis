@@ -80,7 +80,7 @@
 # text = A że śp Dziad mój był najmłodszy i piąty z pomiędzy Rodzeństwa – odstąpił swoją część najstarszemu bratu swojemu Mateuszowi komornikowi ziemi Dobrzyńskiej za ośm tysięcy tynfów.
 1	A	a	CCONJ	conj	_	_	_	_	_
 2	że	że	SCONJ	comp	_	_	_	_	_
-3	śp	śp	X	brev:npun	_	_	_	_	_
+3	śp	świętej pamięci	X	brev:npun	_	_	_	_	_
 4	Dziad	dziad	NOUN	subst:sg:nom:m1	_	_	_	_	_
 5	mój	mój	DET	adj:sg:nom:m1:pos	_	_	_	_	_
 6	był	być	AUX	praet:sg:m1:imperf	_	_	_	_	_
@@ -123,10 +123,10 @@
 12	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 4
-# text = Stryjów miał śp.Melchior czterech i jedną ciotkę – Antoniego Wawrzyńca ożenionego z Głuską z niej trzech synów Jakuba, Łukasza i Floyrana.
+# text = Stryjów miał śp. Melchior czterech i jedną ciotkę – Antoniego Wawrzyńca ożenionego z Głuską z niej trzech synów Jakuba, Łukasza i Floyrana.
 1	Stryjów	stryj	NOUN	subst:pl:acc:m1	_	_	_	_	_
 2	miał	mieć	VERB	praet:sg:m1:imperf	_	_	_	_	_
-3	śp	śp	X	brev:pun	_	_	_	_	_
+3	śp	świętej pamięci	X	brev:pun	_	_	_	_	_
 4	.	.	PUNCT	interp	_	_	_	_	_
 5	Melchior	Melchior	PROPN	subst:sg:nom:m1	_	_	_	_	_
 6	czterech	cztery	NUM	num:pl:acc:m1:congr:ncol	_	_	_	_	_
@@ -151,7 +151,7 @@
 25	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 5
-# text = Maciej z Chądzyńską, Floryan z Korytyńską, Wawrzyniec z Muczynowską – mieli syna Ludwika – Ciotka za Rzotoławskim – wszystkich braci stryjecznych śp.Melchiora było 17.
+# text = Maciej z Chądzyńską, Floryan z Korytyńską, Wawrzyniec z Muczynowską – mieli syna Ludwika – Ciotka za Rzotoławskim – wszystkich braci stryjecznych śp. Melchiora było 17.
 1	Maciej	Maciej	PROPN	subst:sg:nom:m1	_	_	_	_	_
 2	z	z	ADP	prep:inst:nwok	_	_	_	_	_
 3	Chądzyńską	Chądzyńska	PROPN	subst:sg:inst:f	_	_	_	_	_
@@ -175,7 +175,7 @@
 21	wszystkich	wszystek	DET	adj:pl:acc:m1:pos	_	_	_	_	_
 22	braci	brat	NOUN	subst:pl:acc:m1	_	_	_	_	_
 23	stryjecznych	stryjeczny	ADJ	adj:pl:acc:m1:pos	_	_	_	_	_
-24	śp	śp	X	brev:pun	_	_	_	_	_
+24	śp	świętej pamięci	X	brev:pun	_	_	_	_	_
 25	.	.	PUNCT	interp	_	_	_	_	_
 26	Melchiora	Melchior	PROPN	subst:sg:gen:m1	_	_	_	_	_
 27	było	być	AUX	praet:sg:n:imperf	_	_	_	_	_
@@ -201,7 +201,7 @@
 
 # sent_id = 7
 # text = Niewiem o ile to prawda – ale mi mówił kuzyn nasz Karol Czermiński – jakoby Dziad jego a stryj Melchiora zaopiekował się młodzieniaszkiem i wziął go do siebie na wychowanie po śmierci Rodziców.
-1	Niewiem	niewiedzieć	VERB	fin:sg:pri:imperf:neg	_	_	_	_	_
+1	Niewiem	niewiedzieć	VERB	fin:sg:pri:imperf	_	_	_	_	neg
 2	o	o	ADP	prep:acc	_	_	_	_	_
 3	ile	ile	ADV	adv	_	_	_	_	_
 4	to	to	AUX	pred	_	_	_	_	_
@@ -244,7 +244,7 @@
 4	,	,	PUNCT	interp	_	_	_	_	_
 5	ale	ale	CCONJ	conj	_	_	_	_	_
 6	jakim	jaki	DET	adj:sg:inst:m1:pos	_	_	_	_	_
-7	niepamiętam	niepamiętać	VERB	fin:sg:pri:imperf:neg	_	_	_	_	_
+7	niepamiętam	niepamiętać	VERB	fin:sg:pri:imperf	_	_	_	_	neg
 8	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 9
@@ -462,7 +462,7 @@
 13	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 17
-# text = Dochód jaki okazał mój Dziad Panu Potockiemu był jak na owe czasy piękny – tak że ujęty tem zaproponował śp.Melchiorowi jakąś znaczną tantiemę z tego przedsiębiorstwa – i to był początek jego fortuny - mogło to być około roku 1767 – jak świętej pamięci Pan Melchior wziął w dzierżawę Czołhany w obwodzie w owe czasy w Halickim, później w Stryjskim cyrkule.
+# text = Dochód jaki okazał mój Dziad Panu Potockiemu był jak na owe czasy piękny – tak że ujęty tem zaproponował śp. Melchiorowi jakąś znaczną tantiemę z tego przedsiębiorstwa – i to był początek jego fortuny - mogło to być około roku 1767 – jak świętej pamięci Pan Melchior wziął w dzierżawę Czołhany w obwodzie w owe czasy w Halickim, później w Stryjskim cyrkule.
 1	Dochód	dochód	NOUN	subst:sg:nom:m3	_	_	_	_	_
 2	jaki	jaki	DET	adj:sg:nom:m3:pos	_	_	_	_	_
 3	okazał	okazać	VERB	praet:sg:m1:perf	_	_	_	_	_
@@ -482,7 +482,7 @@
 17	ujęty	ująć	ADJ	ppas:sg:nom:m1:perf:aff	_	_	_	_	_
 18	tem	to	PRON	subst:sg:inst:n:ncol	_	_	_	_	_
 19	zaproponował	zaproponować	VERB	praet:sg:m1:perf	_	_	_	_	_
-20	śp	śp	X	brev:pun	_	_	_	_	_
+20	śp	świętej pamięci	X	brev:pun	_	_	_	_	_
 21	.	.	PUNCT	interp	_	_	_	_	_
 22	Melchiorowi	Melchior	PROPN	subst:sg:dat:m1	_	_	_	_	_
 23	jakąś	jakiś	DET	adj:sg:acc:f:pos	_	_	_	_	_
@@ -558,12 +558,12 @@
 25	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 19
-# text = Około roku 1784 pojechał śp.Melchior za wołami.
+# text = Około roku 1784 pojechał śp. Melchior za wołami.
 1	Około	około	PART	prep:gen	_	_	_	_	_
 2	roku	rok	NOUN	subst:sg:gen:m3	_	_	_	_	_
 3	1784	1784	ADJ	adj:sg:gen:m3	_	_	_	_	_
 4	pojechał	pojechać	VERB	praet:sg:m1:perf	_	_	_	_	_
-5	śp	śp	X	brev:pun	_	_	_	_	_
+5	śp	świętej pamięci	X	brev:pun	_	_	_	_	_
 6	.	.	PUNCT	interp	_	_	_	_	_
 7	Melchior	Melchior	PROPN	subst:sg:nom:m1	_	_	_	_	_
 8	za	za	ADP	prep:inst	_	_	_	_	_
@@ -634,7 +634,7 @@
 18	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 23
-# text = Zastawiono sute śniadanie z starym winem – rada była gosposia gościowi a śp.Melchior nie namyślając się, gdy mu wdówka wpadła w oko – bez wielu korowodów odezwał się do niej: - „wiesz Asińdźka co? Jesteś wdowa – ja wdowiec – pobierzmy się.” A na to Pani Joanna – „Ja już z zamęścia zrezygnowałam, ale że mi się Waszmość podobałeś, więc jeżeli wola Twoja oddam Ci moją Kleosię”.
+# text = Zastawiono sute śniadanie z starym winem – rada była gosposia gościowi a śp. Melchior nie namyślając się, gdy mu wdówka wpadła w oko – bez wielu korowodów odezwał się do niej: - „wiesz Asińdźka co? Jesteś wdowa – ja wdowiec – pobierzmy się.” A na to Pani Joanna – „Ja już z zamęścia zrezygnowałam, ale że mi się Waszmość podobałeś, więc jeżeli wola Twoja oddam Ci moją Kleosię”.
 1	Zastawiono	zastawić	VERB	imps:perf	_	_	_	_	_
 2	sute	suty	ADJ	adj:sg:acc:n:pos	_	_	_	_	_
 3	śniadanie	śniadanie	NOUN	subst:sg:acc:n:ncol	_	_	_	_	_
@@ -647,7 +647,7 @@
 10	gosposia	gosposia	NOUN	subst:sg:nom:f	_	_	_	_	_
 11	gościowi	gość	NOUN	subst:sg:dat:m1	_	_	_	_	_
 12	a	a	CCONJ	conj	_	_	_	_	_
-13	śp	śp	X	brev:pun	_	_	_	_	_
+13	śp	świętej pamięci	X	brev:pun	_	_	_	_	_
 14	.	.	PUNCT	interp	_	_	_	_	_
 15	Melchior	Melchior	PROPN	subst:sg:nom:m1	_	_	_	_	_
 16	nie	nie	PART	part	_	_	_	_	_
@@ -979,7 +979,7 @@
 11	jakich	jaki	DET	adj:pl:gen:m1:pos	_	_	_	_	_
 12	dziś	dziś	ADV	adv	_	_	_	_	_
 13	się	się	PRON	part	_	_	_	_	_
-14	niespotyka	niespotykać	VERB	fin:sg:ter:imperf:neg	_	_	_	_	_
+14	niespotyka	niespotykać	VERB	fin:sg:ter:imperf	_	_	_	_	neg
 15	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 33
@@ -1238,7 +1238,7 @@
 14	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 42
-# text = Drugi mój wuj Świerzawski kuzyn Polanowskich z Bełzkiego często bywał w Moszkowie z ciotką - tam bywał duszą towarzystwa od Pań oblegany – ale ciotka moja była dziwaczką – opowiadał mi śp.Dziadek móy Ostaszewski że jadąc do Zarszyna w Sanoku parę godzin spędziła na strojeniu się i trefieniu a jadąc już do Zarszyna musiała służąca całą drogę stać na stopniach powozu, żeby się suknia Pani Komornikowej niepomięła – z tego małżeństwa było dwóch synów.
+# text = Drugi mój wuj Świerzawski kuzyn Polanowskich z Bełzkiego często bywał w Moszkowie z ciotką - tam bywał duszą towarzystwa od Pań oblegany – ale ciotka moja była dziwaczką – opowiadał mi śp. Dziadek móy Ostaszewski że jadąc do Zarszyna w Sanoku parę godzin spędziła na strojeniu się i trefieniu a jadąc już do Zarszyna musiała służąca całą drogę stać na stopniach powozu, żeby się suknia Pani Komornikowej niepomięła – z tego małżeństwa było dwóch synów.
 1	Drugi	drugi	ADJ	adj:sg:nom:m1:pos	_	_	_	_	_
 2	mój	mój	DET	adj:sg:nom:m1:pos	_	_	_	_	_
 3	wuj	wuj	NOUN	subst:sg:nom:m1	_	_	_	_	_
@@ -1270,7 +1270,7 @@
 29	–	–	PUNCT	interp	_	_	_	_	_
 30	opowiadał	opowiadać	VERB	praet:sg:m1:imperf	_	_	_	_	_
 31	mi	ja	PRON	ppron12:sg:dat:m1:pri:nakc	_	_	_	_	_
-32	śp	śp	X	brev:pun	_	_	_	_	_
+32	śp	świętej pamięci	X	brev:pun	_	_	_	_	_
 33	.	.	PUNCT	interp	_	_	_	_	_
 34	Dziadek	dziadek	NOUN	subst:sg:nom:m1	_	_	_	_	_
 35	móy	móy	DET	adj:sg:nom:m1:pos	_	_	_	_	_
@@ -1308,7 +1308,7 @@
 67	suknia	suknia	NOUN	subst:sg:nom:f	_	_	_	_	_
 68	Pani	pani	NOUN	subst:sg:gen:f	_	_	_	_	_
 69	Komornikowej	komornikowej	ADJ	subst:sg:gen:f	_	_	_	_	_
-70	niepomięła	niepomięła	VERB	praet:sg:f:perf:neg	_	_	_	_	_
+70	niepomięła	niepomięła	VERB	praet:sg:f:perf	_	_	_	_	neg
 71	–	–	PUNCT	interp	_	_	_	_	_
 72	z	z	ADP	prep:gen:nwok	_	_	_	_	_
 73	tego	ten	DET	adj:sg:gen:n:pos	_	_	_	_	_
@@ -1335,7 +1335,7 @@
 
 # sent_id = 44
 # text = Niewiem jakim sposobem majątek zniszczał – jeden syn ożeniwszy się z cioteczną siostrą Treterówną - żeby rodzinie wstydu nierobił.
-1	Niewiem	niewiem	VERB	fin:sg:pri:imperf:neg	_	_	_	_	_
+1	Niewiem	niewiem	VERB	fin:sg:pri:imperf	_	_	_	_	neg
 2	jakim	jaki	DET	adj:sg:inst:m3:pos	_	_	_	_	_
 3	sposobem	sposób	NOUN	subst:sg:inst:m3	_	_	_	_	_
 4	majątek	majątek	NOUN	subst:sg:nom:m3	_	_	_	_	_
@@ -1353,7 +1353,7 @@
 16	żeby	żeby	SCONJ	comp	_	_	_	_	_
 17	rodzinie	rodzina	NOUN	subst:sg:dat:f	_	_	_	_	_
 18	wstydu	wstyd	NOUN	subst:sg:gen:m3	_	_	_	_	_
-19	nierobił	nierobił	VERB	praet:sg:m1:imperf:neg	_	_	_	_	_
+19	nierobił	nierobił	VERB	praet:sg:m1:imperf	_	_	_	_	neg
 20	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 45
@@ -1477,18 +1477,18 @@
 12	–	–	PUNCT	interp	_	_	_	_	_
 13	a	a	CCONJ	conj	_	_	_	_	_
 14	ja	ja	PRON	ppron12:sg:nom:m1:pri	_	_	_	_	_
-15-16   nieśmiałem  _	_	_	_	_	_	_	_ 
-15	nieśmiał	nieśmieć	VERB	praet:sg:m1:imperf:neg	_	_	_	_	_
-16  em  być AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
+15-16	nieśmiałem	_	_	_	_	_	_	_	_ 
+15	nieśmiał	nieśmieć	VERB	praet:sg:m1:imperf	_	_	_	_	neg
+16	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 17	wypytywać	wypytywać	VERB	inf:imperf	_	_	_	_	_
 18	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 50
 # text = Wreszcie niebyłem nigdy dłuższy czas z Oycem na gawędce.
 1	Wreszcie	wreszcie	PART	part	_	_	_	_	_
-2-3   niebyłem  _	_	_	_	_	_	_	_
+2-3	niebyłem	_	_	_	_	_	_	_	_
 2	niebył	niebyć	VERB	praet:sg:m1:imperf	_	_	_	_	_
-3   em  być AUX aglt:sg:pri:imperf:wok  _	_	_	_	_
+3	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 4	nigdy	nigdy	ADV	adv	_	_	_	_	_
 5	dłuższy	długi	ADJ	adj:sg:acc:m3:com	_	_	_	_	_
 6	czas	czas	NOUN	subst:sg:acc:m3	_	_	_	_	_
@@ -1550,7 +1550,7 @@
 48	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 52
-# text = Zdaje mi się, że służbę wojskową zakończył śp.móy Oyciec około 1808 – albo 1809 – w randze nadporucznika, zatrzymując charakter wojskowego do kończ życia.
+# text = Zdaje mi się, że służbę wojskową zakończył śp. móy Oyciec około 1808 – albo 1809 – w randze nadporucznika, zatrzymując charakter wojskowego do kończ życia.
 1	Zdaje	zdawać	VERB	fin:sg:ter:imperf	_	_	_	_	_
 2	mi	ja	PRON	ppron12:sg:dat:m1:pri:nakc	_	_	_	_	_
 3	się	się	PRON	part	_	_	_	_	_
@@ -1559,7 +1559,7 @@
 6	służbę	służba	NOUN	subst:sg:acc:f	_	_	_	_	_
 7	wojskową	wojskowy	ADJ	adj:sg:acc:f:pos	_	_	_	_	_
 8	zakończył	zakończyć	VERB	praet:sg:m1:perf	_	_	_	_	_
-9	śp	śp	X	brev:pun	_	_	_	_	_
+9	śp	świętej pamięci	X	brev:pun	_	_	_	_	_
 10	.	.	PUNCT	interp	_	_	_	_	_
 11	móy	móy	DET	adj:sg:nom:m1:pos	_	_	_	_	_
 12	Oyciec	oyciec	NOUN	subst:sg:nom:m1	_	_	_	_	_
@@ -1914,14 +1914,14 @@
 24	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 62
-# text = Wieleż to razy słyszałem śp.Dziadka Ostaszewskigo jak się chlubił, że jego kmiecie na Długim najlepsze mają konie z okolicy – ale jeżeli któremu padło bydle robocze – zaraz dawał pieniądze – żeby robota ciągła do dworu nie ustawała.
+# text = Wieleż to razy słyszałem śp. Dziadka Ostaszewskigo jak się chlubił, że jego kmiecie na Długim najlepsze mają konie z okolicy – ale jeżeli któremu padło bydle robocze – zaraz dawał pieniądze – żeby robota ciągła do dworu nie ustawała.
 1	Wieleż	wieleż	DET	num:pl:acc:m3:rec	_	_	_	_	_
 2	to	to	PART	part	_	_	_	_	_
 3	razy	raz	NOUN	subst:pl:acc:m3	_	_	_	_	_
 3-4	słyszałem	_	_	_	_	_	_	_	_
 4	słyszał	słyszeć	VERB	praet:sg:m1:imperf	_	_	_	_	_
 5	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
-6	śp	śp	X	brev:pun	_	_	_	_	_
+6	śp	świętej pamięci	X	brev:pun	_	_	_	_	_
 7	.	.	PUNCT	interp	_	_	_	_	_
 8	Dziadka	dziadek	NOUN	subst:sg:acc:m1	_	_	_	_	_
 9	Ostaszewskigo	Ostaszewskigo	PROPN	subst:sg:acc:m1	_	_	_	_	_
@@ -1961,7 +1961,7 @@
 43	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 63
-# text = A gdy raz Dłużanie żalili się, że niemają dogodnego pastwiska dla koni – Oddzieli śp.Pan Kazimierz 60 morgów suchey łąki podedworem a nayskładniey położone dla kmieci, i oddał w posiadanie.
+# text = A gdy raz Dłużanie żalili się, że niemają dogodnego pastwiska dla koni – Oddzieli śp. Pan Kazimierz 60 morgów suchey łąki podedworem a nayskładniey położone dla kmieci, i oddał w posiadanie.
 1	A	a	CCONJ	conj	_	_	_	_	_
 2	gdy	gdy	ADV	adv	_	_	_	_	_
 3	raz	raz	NOUN	subst:sg:acc:m3	_	_	_	_	_
@@ -1970,14 +1970,14 @@
 6	się	się	PRON	part	_	_	_	_	_
 7	,	,	PUNCT	interp	_	_	_	_	_
 8	że	że	SCONJ	comp	_	_	_	_	_
-9	niemają	niemieć	VERB	fin:pl:ter:imperf:neg	_	_	_	_	_
+9	niemają	niemieć	VERB	fin:pl:ter:imperf	_	_	_	_	neg
 10	dogodnego	dogodny	ADJ	adj:sg:gen:n:pos	_	_	_	_	_
 11	pastwiska	pastwisko	NOUN	subst:sg:gen:n:ncol	_	_	_	_	_
 12	dla	dla	ADP	prep:gen	_	_	_	_	_
 13	koni	koń	NOUN	subst:pl:gen:m2	_	_	_	_	_
 14	–	–	PUNCT	interp	_	_	_	_	_
 15	Oddzieli	oddzielić	VERB	fin:sg:ter:perf	_	_	_	_	_
-16	śp	śp	X	brev:pun	_	_	_	_	_
+16	śp	świętej pamięci	X	brev:pun	_	_	_	_	_
 17	.	.	PUNCT	interp	_	_	_	_	_
 18	Pan	pan	NOUN	subst:sg:nom:m1	_	_	_	_	_
 19	Kazimierz	Kazimierz	PROPN	subst:sg:nom:m1	_	_	_	_	_
@@ -2000,7 +2000,7 @@
 
 # sent_id = 64
 # text = Niebył to obowiązek spełniony ale był ten czyn wypływem poczucia obywatelskiego, życzliwości dla poddanych. Oycowskiey.
-1	Niebył	niebyć	AUX	praet:sg:m3:imperf:neg	_	_	_	_	_
+1	Niebył	niebyć	AUX	praet:sg:m3:imperf	_	_	_	_	neg
 2	to	to	AUX	pred	_	_	_	_	_
 3	obowiązek	obowiązek	NOUN	subst:sg:nom:m3	_	_	_	_	_
 4	spełniony	spełnić	ADJ	ppas:sg:nom:m3:perf:aff	_	_	_	_	_
@@ -2115,7 +2115,7 @@
 
 # sent_id = 68
 # text = Zdawałoby się – że przy takiem obciążeniu gruntu obowiązkami dla dworu – chłop był biedny - jednakże tak nie było – majątki były wyłącznie w ręku szlachty – pieczęć urzędowa jurysdykcyi był Herb Dziedzica – a dokoła napis Dominium Bludniki – Zarszyn – i t.p.
-1-2   Zdawałoby  _	_	_	_	_	_	_	_
+1-2	Zdawałoby	_	_	_	_	_	_	_	_
 1	Zdawało	zdawać	VERB	praet:sg:n:imperf	_	_	_	_	_
 2	by	by	AUX	part	_	_	_	_	_
 3	się	się	PRON	part	_	_	_	_	_
@@ -2161,15 +2161,15 @@
 43	Zarszyn	Zarszyn	PROPN	subst:sg:nom:m3	_	_	_	_	_
 44	–	–	PUNCT	interp	_	_	_	_	_
 45	i	i	CCONJ	conj	_	_	_	_	_
-46  t   t   X   brev:pun    _	_	_	_	_
-47  .   .   PUNCT   interp  _	_	_	_	_
-48  p   p   X   brev:pun    _	_	_	_	_
-49  .   .   PUNCT   interp  _	_	_	_	_
+46	t	tym	X	brev:pun	_	_	_	_	_
+47	.	.	PUNCT	interp	_	_	_	_	_
+48	p	podobne	X	brev:pun	_	_	_	_	_
+49	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 69
 # text = Nieszlachcic niemógł kupować majątku ziemskiego.
 1	Nieszlachcic	nieszlachcic	NOUN	subst:sg:nom:m1	_	_	_	_	_
-2	niemógł	niemóc	VERB	praet:sg:m1:imperf:neg	_	_	_	_	_
+2	niemógł	niemóc	VERB	praet:sg:m1:imperf	_	_	_	_	neg
 3	kupować	kupować	VERB	inf:imperf	_	_	_	_	_
 4	majątku	majątek	NOUN	subst:sg:gen:m3	_	_	_	_	_
 5	ziemskiego	ziemski	ADJ	adj:sg:gen:m3:pos	_	_	_	_	_
@@ -2215,7 +2215,7 @@
 3	władzą	władza	NOUN	subst:sg:inst:f	_	_	_	_	_
 4	opiekuńczą	opiekuńczy	ADJ	adj:sg:inst:f:pos	_	_	_	_	_
 5	–	–	PUNCT	interp	_	_	_	_	_
-6	niemogło	niemóc	VERB	praet:sg:n:imperf:neg	_	_	_	_	_
+6	niemogło	niemóc	VERB	praet:sg:n:imperf	_	_	_	_	neg
 7	się	się	PRON	part	_	_	_	_	_
 8	żadne	żaden	DET	adj:sg:nom:n:pos	_	_	_	_	_
 9	małżeństwo	małżeństwo	NOUN	subst:sg:nom:n:ncol	_	_	_	_	_
@@ -2231,7 +2231,7 @@
 19	dopokąd	dopokąd	SCONJ	comp	_	_	_	_	_
 20	z	z	ADP	prep:gen:nwok	_	_	_	_	_
 21	Dominii	dominia	NOUN	subst:sg:gen:f	_	_	_	_	_
-22	nieprzyniósł	nieprzyniósł	VERB	praet:sg:m1:perf:neg	_	_	_	_	_
+22	nieprzyniósł	nieprzyniósł	VERB	praet:sg:m1:perf	_	_	_	_	neg
 23	kartki	kartka	NOUN	subst:sg:gen:f	_	_	_	_	_
 24	pozwolenia	pozwolenie	NOUN	subst:sg:gen:n:ncol	_	_	_	_	_
 25	.	.	PUNCT	interp	_	_	_	_	_
@@ -2664,7 +2664,7 @@
 96	i	i	CCONJ	conj	_	_	_	_	_
 97	dzban	dzban	NOUN	subst:sg:nom:m3	_	_	_	_	_
 98	–	–	PUNCT	interp	_	_	_	_	_
-99	niewiem	niewiem	VERB	fin:sg:pri:imperf:neg	_	_	_	_	_
+99	niewiem	niewiem	VERB	fin:sg:pri:imperf	_	_	_	_	neg
 100	czy	czy	PART	part	_	_	_	_	_
 101	z	z	ADP	prep:inst:nwok	_	_	_	_	_
 102	nalewką	nalewka	NOUN	subst:sg:inst:f	_	_	_	_	_
@@ -2706,7 +2706,7 @@
 7	na	na	ADP	prep:acc	_	_	_	_	_
 8	to	to	PRON	subst:sg:acc:n:ncol	_	_	_	_	_
 9	mi	ja	PRON	ppron12:sg:dat:m1:pri:nakc	_	_	_	_	_
-10	nieporadzisz	nieporadzić	VERB	fin:sg:sec:perf:neg	_	_	_	_	_
+10	nieporadzisz	nieporadzić	VERB	fin:sg:sec:perf	_	_	_	_	neg
 11	–	–	PUNCT	interp	_	_	_	_	_
 12	a	a	CCONJ	conj	_	_	_	_	_
 13	gdy	gdy	ADV	adv	_	_	_	_	_
@@ -2995,7 +2995,7 @@
 10	która	który	DET	adj:sg:nom:f:pos	_	_	_	_	_
 11	to	to	AUX	comp	_	_	_	_	_
 12	Lipa	Lipa	PROPN	subst:sg:nom:f	_	_	_	_	_
-13	niewinem	niewiedzieć	VERB	fin:sg:pri:imperf:neg	_	_	_	_	_
+13	niewinem	niewiedzieć	VERB	fin:sg:pri:imperf	_	_	_	_	neg
 14	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 94
@@ -3104,7 +3104,7 @@
 4	moich	mój	DET	adj:pl:gen:m1:pos	_	_	_	_	_
 5	Rodziców	rodzic	NOUN	subst:pl:gen:m1	_	_	_	_	_
 6	–	–	PUNCT	interp	_	_	_	_	_
-7	niebył	niebyć	VERB	praet:sg:ter:imperf:neg	_	_	_	_	_
+7	niebył	niebyć	VERB	praet:sg:ter:imperf	_	_	_	_	neg
 8	gospodarzem	gospodarz	NOUN	subst:sg:inst:m1	_	_	_	_	_
 9	więcey	dużo	ADV	adv:com	_	_	_	_	_
 10	fantasta	fantasta	NOUN	subst:sg:nom:m1	_	_	_	_	_
@@ -3171,7 +3171,7 @@
 22	–	–	PUNCT	interp	_	_	_	_	_
 23	ale	ale	CCONJ	conj	_	_	_	_	_
 24	ci	ty	PRON	ppron12:sg:dat:m1:sec:nakc	_	_	_	_	_
-25	niemogli	niemóc	VERB	praet:pl:m1:imperf:neg	_	_	_	_	_
+25	niemogli	niemóc	VERB	praet:pl:m1:imperf	_	_	_	_	neg
 26	długo	długo	ADV	adv:pos	_	_	_	_	_
 27	wytrwać	wytrwać	VERB	inf:perf	_	_	_	_	_
 28	i	i	CCONJ	conj	_	_	_	_	_
@@ -3203,7 +3203,7 @@
 21	kwiku	kwik	NOUN	subst:sg:gen:m3	_	_	_	_	_
 22	na	na	ADP	prep:loc	_	_	_	_	_
 23	obeyściu	obeyście	NOUN	subst:sg:loc:n:ncol	_	_	_	_	_
-24	niemożna	niemóc	VERB	pred:neg	_	_	_	_	_
+24	niemożna	niemóc	VERB	pred	_	_	_	_	neg
 25	było	być	AUX	praet:sg:n:imperf	_	_	_	_	_
 26	wysłuchać	wysłuchać	VERB	inf:perf	_	_	_	_	_
 27	.	.	PUNCT	interp	_	_	_	_	_
@@ -3371,7 +3371,7 @@
 4	moja	mój	DET	adj:sg:nom:f:pos	_	_	_	_	_
 5	jey	jey	PRON	ppron3:sg:gen:m1:ter:nakc:npraep	_	_	_	_	_
 6	znieść	znieść	VERB	inf:perf	_	_	_	_	_
-7	niemogła	niemogła	VERB	praet:sg:f:imperf:neg	_	_	_	_	_
+7	niemogła	niemogła	VERB	praet:sg:f:imperf	_	_	_	_	neg
 8	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 108
@@ -3418,7 +3418,7 @@
 21	życie	życie	NOUN	subst:sg:acc:n:ncol	_	_	_	_	_
 22	,	,	PUNCT	interp	_	_	_	_	_
 23	że	że	SCONJ	comp	_	_	_	_	_
-24	niema	niema	VERB	fin:sg:ter:imperf:neg	_	_	_	_	_
+24	niema	niema	VERB	fin:sg:ter:imperf	_	_	_	_	neg
 25	sukcessorów	sukcessor	NOUN	subst:pl:gen:m1	_	_	_	_	_
 26	,	,	PUNCT	interp	_	_	_	_	_
 27	że	że	SCONJ	comp	_	_	_	_	_
@@ -3437,7 +3437,7 @@
 40	ale	ale	CCONJ	conj	_	_	_	_	_
 41	Panu	pan	NOUN	subst:sg:dat:m1	_	_	_	_	_
 42	Józefowi	Józef	PROPN	subst:sg:dat:m1	_	_	_	_	_
-43	niechciało	niechciało	VERB	praet:sg:n:imperf:neg	_	_	_	_	_
+43	niechciało	niechciało	VERB	praet:sg:n:imperf	_	_	_	_	neg
 44	ruszać	ruszać	VERB	inf:imperf	_	_	_	_	_
 45	się	się	PRON	part	_	_	_	_	_
 46	z	z	ADP	prep:gen:nwok	_	_	_	_	_

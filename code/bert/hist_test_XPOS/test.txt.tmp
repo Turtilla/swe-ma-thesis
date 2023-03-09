@@ -187,7 +187,7 @@ brat subst:sg:nom:m1
 Melchiora subst:sg:gen:m1
 . interp
 
-Niewiem fin:sg:pri:imperf:neg
+Niewiem fin:sg:pri:imperf
 o prep:acc
 ile adv
 to pred
@@ -228,7 +228,7 @@ Starostą subst:sg:inst:m1
 , interp
 ale conj
 jakim adj:sg:inst:m1:pos
-niepamiętam fin:sg:pri:imperf:neg
+niepamiętam fin:sg:pri:imperf
 . interp
 
 Był praet:sg:m1:imperf
@@ -915,7 +915,7 @@ oryginał subst:sg:nom:m1
 jakich adj:pl:gen:m1:pos
 dziś adv
 się part
-niespotyka fin:sg:ter:imperf:neg
+niespotyka fin:sg:ter:imperf
 . interp
 
 Miał praet:sg:m1:imperf
@@ -1224,7 +1224,7 @@ się part
 suknia subst:sg:nom:f
 Pani subst:sg:gen:f
 Komornikowej subst:sg:gen:f
-niepomięła praet:sg:f:perf:neg
+niepomięła praet:sg:f:perf
 – interp
 z prep:gen:nwok
 tego adj:sg:gen:n:pos
@@ -1247,7 +1247,7 @@ w prep:acc:nwok
 ład subst:sg:acc:m3
 . interp
 
-Niewiem fin:sg:pri:imperf:neg
+Niewiem fin:sg:pri:imperf
 jakim adj:sg:inst:m3:pos
 sposobem subst:sg:inst:m3
 majątek subst:sg:nom:m3
@@ -1265,7 +1265,7 @@ Treterówną subst:sg:inst:f
 żeby comp
 rodzinie subst:sg:dat:f
 wstydu subst:sg:gen:m3
-nierobił praet:sg:m1:imperf:neg
+nierobił praet:sg:m1:imperf
 . interp
 
 Syn subst:sg:nom:m1
@@ -1379,16 +1379,16 @@ Ojciec subst:sg:nom:m1
 – interp
 a conj
 ja ppron12:sg:nom:m1:pri
-_ _
-nieśmiał praet:sg:m1:imperf:neg
-aglt:sg:pri:imperf:wok _
+nieśmiałem _
+nieśmiał praet:sg:m1:imperf
+em aglt:sg:pri:imperf:wok
 wypytywać inf:imperf
 . interp
 
 Wreszcie part
-_ _
+niebyłem _
 niebył praet:sg:m1:imperf
-_ _
+em aglt:sg:pri:imperf:wok
 nigdy adv
 dłuższy adj:sg:acc:m3:com
 czas subst:sg:acc:m3
@@ -1844,7 +1844,7 @@ Dłużanie subst:pl:nom:m1
 się part
 , interp
 że comp
-niemają fin:pl:ter:imperf:neg
+niemają fin:pl:ter:imperf
 dogodnego adj:sg:gen:n:pos
 pastwiska subst:sg:gen:n:ncol
 dla prep:gen
@@ -1872,7 +1872,7 @@ w prep:acc:nwok
 posiadanie subst:sg:acc:n:ncol
 . interp
 
-Niebył praet:sg:m3:imperf:neg
+Niebył praet:sg:m3:imperf
 to pred
 obowiązek subst:sg:nom:m3
 spełniony ppas:sg:nom:m3:perf:aff
@@ -1979,7 +1979,7 @@ do prep:gen
 dworu subst:sg:gen:m3
 . interp
 
-_ _
+Zdawałoby _
 Zdawało praet:sg:n:imperf
 by part
 się part
@@ -2025,13 +2025,13 @@ Bludniki subst:pl:nom:n:pt
 Zarszyn subst:sg:nom:m3
 – interp
 i conj
-_ _
-_ _
-_ _
-_ _
+t brev:pun
+. interp
+p brev:pun
+. interp
 
 Nieszlachcic subst:sg:nom:m1
-niemógł praet:sg:m1:imperf:neg
+niemógł praet:sg:m1:imperf
 kupować inf:imperf
 majątku subst:sg:gen:m3
 ziemskiego adj:sg:gen:m3:pos
@@ -2073,7 +2073,7 @@ też part
 władzą subst:sg:inst:f
 opiekuńczą adj:sg:inst:f:pos
 – interp
-niemogło praet:sg:n:imperf:neg
+niemogło praet:sg:n:imperf
 się part
 żadne adj:sg:nom:n:pos
 małżeństwo subst:sg:nom:n:ncol
@@ -2089,7 +2089,7 @@ dał praet:sg:m1:perf
 dopokąd comp
 z prep:gen:nwok
 Dominii subst:sg:gen:f
-nieprzyniósł praet:sg:m1:perf:neg
+nieprzyniósł praet:sg:m1:perf
 kartki subst:sg:gen:f
 pozwolenia subst:sg:gen:n:ncol
 . interp
@@ -2502,7 +2502,7 @@ sól subst:sg:nom:f
 i conj
 dzban subst:sg:nom:m3
 – interp
-niewiem fin:sg:pri:imperf:neg
+niewiem fin:sg:pri:imperf
 czy part
 z prep:inst:nwok
 nalewką subst:sg:inst:f
@@ -2542,7 +2542,7 @@ człowiecze subst:sg:voc:m1
 na prep:acc
 to subst:sg:acc:n:ncol
 mi ppron12:sg:dat:m1:pri:nakc
-nieporadzisz fin:sg:sec:perf:neg
+nieporadzisz fin:sg:sec:perf
 – interp
 a conj
 gdy adv
@@ -2809,7 +2809,7 @@ ale conj
 która adj:sg:nom:f:pos
 to comp
 Lipa subst:sg:nom:f
-niewinem fin:sg:pri:imperf:neg
+niewinem fin:sg:pri:imperf
 . interp
 
 Pan subst:sg:nom:m1
@@ -2908,7 +2908,7 @@ u prep:gen
 moich adj:pl:gen:m1:pos
 Rodziców subst:pl:gen:m1
 – interp
-niebył praet:sg:ter:imperf:neg
+niebył praet:sg:ter:imperf
 gospodarzem subst:sg:inst:m1
 więcey adv:com
 fantasta subst:sg:nom:m1
@@ -2971,7 +2971,7 @@ zakonników subst:pl:acc:m1
 – interp
 ale conj
 ci ppron12:sg:dat:m1:sec:nakc
-niemogli praet:pl:m1:imperf:neg
+niemogli praet:pl:m1:imperf
 długo adv:pos
 wytrwać inf:perf
 i conj
@@ -3001,7 +3001,7 @@ i conj
 kwiku subst:sg:gen:m3
 na prep:loc
 obeyściu subst:sg:loc:n:ncol
-niemożna pred:neg
+niemożna pred
 było praet:sg:n:imperf
 wysłuchać inf:perf
 . interp
@@ -3157,7 +3157,7 @@ Matka subst:sg:nom:f
 moja adj:sg:nom:f:pos
 jey ppron3:sg:gen:m1:ter:nakc:npraep
 znieść inf:perf
-niemogła praet:sg:f:imperf:neg
+niemogła praet:sg:f:imperf
 . interp
 
 Pan subst:sg:nom:m1
@@ -3200,7 +3200,7 @@ wiedzie fin:sg:ter:imperf
 życie subst:sg:acc:n:ncol
 , interp
 że comp
-niema fin:sg:ter:imperf:neg
+niema fin:sg:ter:imperf
 sukcessorów subst:pl:gen:m1
 , interp
 że comp
@@ -3219,7 +3219,7 @@ młodą adj:sg:inst:f:pos
 ale conj
 Panu subst:sg:dat:m1
 Józefowi subst:sg:dat:m1
-niechciało praet:sg:n:imperf:neg
+niechciało praet:sg:n:imperf
 ruszać inf:imperf
 się part
 z prep:gen:nwok
