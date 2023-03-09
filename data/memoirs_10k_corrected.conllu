@@ -696,7 +696,7 @@
 59	już	już	PART	part	_	_	_	_	_
 60	z	z	ADP	prep:gen:nwok	_	_	_	_	_
 61	zamęścia	zamęście	NOUN	subst:sg:gen:n:ncol	_	_	_	_	_
-61-62	zrezygnowałam	_	_	_	_	_	_	_	_
+62-63	zrezygnowałam	_	_	_	_	_	_	_	_
 62	zrezygnowała	zrezygnować	VERB	praet:sg:f:perf	_	_	_	_	_
 63	m	być	AUX	aglt:sg:pri:imperf:nwok	_	_	_	_	_
 64	,	,	PUNCT	interp	_	_	_	_	_
@@ -705,7 +705,7 @@
 67	mi	ja	PRON	ppron12:sg:dat:f:pri:nakc	_	_	_	_	_
 68	się	się	PRON	part	_	_	_	_	_
 69	Waszmość	waszmość	NOUN	subst:sg:nom:m1	_	_	_	_	_
-69-70	podobałeś	_	_	_	_	_	_	_	_
+70-71	podobałeś	_	_	_	_	_	_	_	_
 70	podobał	podobać	VERB	praet:sg:m1:imperf	_	_	_	_	_
 71	eś	być	AUX	aglt:sg:sec:imperf:wok	_	_	_	_	_
 72	,	,	PUNCT	interp	_	_	_	_	_
@@ -1085,7 +1085,7 @@
 17	familii	familia	NOUN	subst:sg:gen:f	_	_	_	_	_
 18	Oyca	oyca	NOUN	subst:sg:nom:f	_	_	_	_	_
 19	się	się	PRON	part	_	_	_	_	_
-19-20	dowiedziałam	_	_	_	_	_	_	_	_
+20-21	dowiedziałam	_	_	_	_	_	_	_	_
 20	dowiedziała	dowiedzieć	VERB	praet:sg:f:perf	_	_	_	_	_
 21	m	być	AUX	aglt:sg:pri:imperf:nwok	_	_	_	_	_
 22	.	.	PUNCT	interp	_	_	_	_	_
@@ -1170,7 +1170,7 @@
 16	przemawia	przemawiać	VERB	fin:sg:ter:imperf	_	_	_	_	_
 17	:	:	PUNCT	interp	_	_	_	_	_
 18	„	„	PUNCT	interp	_	_	_	_	_
-18-19	przeżyłam	_	_	_	_	_	_	_	_
+19-20	przeżyłam	_	_	_	_	_	_	_	_
 19	przeżyła	przeżyć	VERB	praet:sg:f:perf	_	_	_	_	_
 20	m	być	AUX	aglt:sg:pri:imperf:nwok	_	_	_	_	_
 21	z	z	ADP	prep:inst:nwok	_	_	_	_	_
@@ -2611,7 +2611,7 @@
 44	to	to	PART	part	_	_	_	_	_
 45	jego	on	PRON	ppron3:sg:acc:m1:ter:akc:npraep	_	_	_	_	_
 46	samego	sam	ADJ	adj:sg:acc:m1:pos	_	_	_	_	_
-46-47	bośmy	_	_	_	_	_	_	_	_
+47-48	bośmy	_	_	_	_	_	_	_	_
 47	bo	bo	SCONJ	comp	_	_	_	_	_
 48	śmy	być	AUX	aglt:pl:pri:imperf:nwok	_	_	_	_	_
 49	do	do	ADP	prep:gen	_	_	_	_	_
@@ -4344,7 +4344,7 @@
 
 # sent_id = 140
 # text = Opisałem wszystko, bo pamiętam jak mi się to dziecku jeszcze podobało.
-0-1	Opisałem	_	_	_	_	_	_	_	_
+1-2	Opisałem	_	_	_	_	_	_	_	_
 1	Opisał	opisać	VERB	praet:sg:m1:perf	_	_	_	_	_
 2	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 3	wszystko	wszystko	PRON	subst:sg:acc:n:ncol	_	_	_	_	_
@@ -4380,7 +4380,7 @@
 16	sąsiadów	sąsiad	NOUN	subst:pl:gen:m1	_	_	_	_	_
 17	-	-	PUNCT	interp	_	_	_	_	_
 18	tak	tak	ADV	adv:pos	_	_	_	_	_
-18-19	bawiliśmy	_	_	_	_	_	_	_	_
+19-20	bawiliśmy	_	_	_	_	_	_	_	_
 19	bawili	bawić	VERB	praet:pl:m1:imperf	_	_	_	_	_
 20	śmy	być	AUX	aglt:pl:pri:imperf:nwok	_	_	_	_	_
 21	się	się	PRON	part	_	_	_	_	_
@@ -5553,7 +5553,7 @@
 8	Zarszynie	Zarszyn	PROPN	subst:sg:loc:m3	_	_	_	_	_
 9	a	a	CCONJ	conj	_	_	_	_	_
 10	chłopcy	chłopiec	NOUN	subst:pl:nom:m1	_	_	_	_	_
-10-11	mieliśmy	_	_	_	_	_	_	_	_
+11-12	mieliśmy	_	_	_	_	_	_	_	_
 11	mieli	mieć	VERB	praet:pl:m1:imperf	_	_	_	_	_
 12	śmy	być	AUX	aglt:pl:pri:imperf:nwok	_	_	_	_	_
 13	nauczyciela	nauczyciel	NOUN	subst:sg:gen:m1	_	_	_	_	_
@@ -5562,7 +5562,7 @@
 16	i	i	CCONJ	conj	_	_	_	_	_
 17	z	z	ADP	prep:inst:nwok	_	_	_	_	_
 18	nim	on	PRON	ppron3:sg:inst:m1:ter:akc:praep	_	_	_	_	_
-18-19	zdawaliśmy	_	_	_	_	_	_	_	_
+19-20	zdawaliśmy	_	_	_	_	_	_	_	_
 19	zdawali	zdawać	VERB	praet:pl:m1:imperf	_	_	_	_	_
 20	śmy	być	AUX	aglt:pl:pri:imperf:nwok	_	_	_	_	_
 21	Marceli	Marcela	PROPN	subst:sg:dat:f	_	_	_	_	_
@@ -5589,7 +5589,7 @@
 
 # sent_id = 183
 # text = Zostałem sam w domu, Stamisaw urodzony 825 był jeszcze mały.
-0-1	Zostałem	_	_	_	_	_	_	_	_
+1-2	Zostałem	_	_	_	_	_	_	_	_
 1	Został	zostać	VERB	praet:sg:m1:perf	_	_	_	_	_
 2	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 3	sam	sam	ADJ	adj:sg:nom:m1:pos	_	_	_	_	_
@@ -5617,7 +5617,7 @@
 9	bardzo	bardzo	ADV	adv:pos	_	_	_	_	_
 10	nawalna	nawalny	ADJ	adj:sg:nom:f:pos	_	_	_	_	_
 11	i	i	CCONJ	conj	_	_	_	_	_
-11-12	żem	_	_	_	_	_	_	_	_
+12-13	żem	_	_	_	_	_	_	_	_
 12	że	że	SCONJ	part	_	_	_	_	_
 13	m	być	AUX	aglt:sg:pri:imperf:nwok	_	_	_	_	_
 14	ciągle	ciągle	ADV	adv:pos	_	_	_	_	_
@@ -5647,7 +5647,7 @@
 8	28	28	ADJ	dig	_	_	_	_	_
 9	lipca	lipiec	NOUN	subst:sg:gen:m3	_	_	_	_	_
 10	1821	1821	ADJ	dig	_	_	_	_	_
-10-11	byłem	_	_	_	_	_	_	_	_
+11-12	byłem	_	_	_	_	_	_	_	_
 11	był	być	AUX	praet:sg:m1:imperf	_	_	_	_	_
 12	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 13	wątły	wątły	ADJ	adj:sg:nom:m1:pos	_	_	_	_	_
@@ -5657,7 +5657,7 @@
 17	że	że	SCONJ	comp	_	_	_	_	_
 18	niemiano	niemieć	VERB	imps:imperf	_	_	_	_	_
 19	nadzieji	nadzieji	NOUN	subst:sg:dat:f	_	_	_	_	_
-19-20	żebym	_	_	_	_	_	_	_	_
+20-21	żebym	_	_	_	_	_	_	_	_
 20	żeby	żeby	SCONJ	comp	_	_	_	_	_
 21	m	być	AUX	aglt:sg:pri:imperf:nwok	_	_	_	_	_
 22	się	się	PRON	part	_	_	_	_	_
@@ -5686,7 +5686,7 @@
 18	za	za	ADP	prep:acc	_	_	_	_	_
 19	nieżywego	nieżywy	ADJ	adj:sg:acc:m1:pos	_	_	_	_	_
 20	–	–	PUNCT	interp	_	_	_	_	_
-20-21	wpadłem	_	_	_	_	_	_	_	_
+21-22	wpadłem	_	_	_	_	_	_	_	_
 21	wpadł	wpaść	VERB	praet:sg:m1:perf	_	_	_	_	_
 22	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 23	w	w	ADP	prep:acc:nwok	_	_	_	_	_
@@ -5706,7 +5706,7 @@
 37	ze	z	ADP	prep:inst:wok	_	_	_	_	_
 38	serem	ser	NOUN	subst:sg:inst:m3	_	_	_	_	_
 39	–	–	PUNCT	interp	_	_	_	_	_
-39-40	żem	_	_	_	_	_	_	_	_
+40-41	żem	_	_	_	_	_	_	_	_
 40	że	że	SCONJ	comp	_	_	_	_	_
 41	m	być	AUX	aglt:sg:pri:imperf:nwok	_	_	_	_	_
 42	nieraz	nieraz	NOUN	adv	_	_	_	_	_
@@ -5737,7 +5737,7 @@
 67	Matka	matka	NOUN	subst:sg:nom:f	_	_	_	_	_
 68	moja	mój	DET	adj:sg:nom:f:pos	_	_	_	_	_
 69	nim	nim	SCONJ	comp	_	_	_	_	_
-69-70	wyrobiłem	_	_	_	_	_	_	_	_
+70-71	wyrobiłem	_	_	_	_	_	_	_	_
 70	wyrobił	wyrobić	VERB	praet:sg:m1:perf	_	_	_	_	_
 71	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 72	sobie	siebie	PRON	siebie:dat	_	_	_	_	_
@@ -5749,7 +5749,7 @@
 # text = Ale zawsze byłem szczupleyszey i delkatnieyszey kompleksyi od moich braci.
 1	Ale	ale	CCONJ	conj	_	_	_	_	_
 2	zawsze	zawsze	ADV	adv	_	_	_	_	_
-2-3	byłem	_	_	_	_	_	_	_	_
+3-4	byłem	_	_	_	_	_	_	_	_
 3	był	być	AUX	praet:sg:m1:imperf	_	_	_	_	_
 4	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 5	szczupleyszey	szczupleyszey	ADJ	adj:sg:nom:m1:pos	_	_	_	_	_
@@ -5768,7 +5768,7 @@
 3	nas	my	PRON	ppron12:pl:acc:m1:pri	_	_	_	_	_
 4	niekarmiła	niekarmiła	VERB	praet:sg:f:perf	_	_	_	_	_
 5	–	–	PUNCT	interp	_	_	_	_	_
-5-6	mieliśmy	_	_	_	_	_	_	_	_
+6-7	mieliśmy	_	_	_	_	_	_	_	_
 6	mieli	mieć	VERB	praet:pl:m1:imperf	_	_	_	_	_
 7	śmy	być	AUX	aglt:pl:pri:imperf:nwok	_	_	_	_	_
 8	mamki	mamka	NOUN	subst:sg:gen:f	_	_	_	_	_
@@ -5789,7 +5789,7 @@
 11	Tomaszowiec	Tomaszowiec	PROPN	subst:pl:gen:n:pt	_	_	_	_	_
 12	–	–	PUNCT	interp	_	_	_	_	_
 13	zawsze	zawsze	ADV	adv	_	_	_	_	_
-13-14	dostawałem	_	_	_	_	_	_	_	_
+14-15	dostawałem	_	_	_	_	_	_	_	_
 14	dostawał	dostawać	VERB	praet:sg:m1:imperf	_	_	_	_	_
 15	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 16	dwa	dwa	NUM	num:pl:acc:m2:congr:ncol	_	_	_	_	_
@@ -5852,7 +5852,7 @@
 7	drodze	droga	NOUN	subst:sg:loc:f	_	_	_	_	_
 8	do	do	ADP	prep:gen	_	_	_	_	_
 9	Zarszyna	Zarszyn	PROPN	subst:sg:gen:m3	_	_	_	_	_
-9-10	popasałem	_	_	_	_	_	_	_	_
+10-11	popasałem	_	_	_	_	_	_	_	_
 10	popasał	popasać	VERB	praet:sg:m1:imperf	_	_	_	_	_
 11	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 12	we	w	ADP	prep:loc:wok	_	_	_	_	_
@@ -5973,14 +5973,14 @@
 1	Więc	więc	CCONJ	comp	_	_	_	_	_
 2	choć	choć	SCONJ	part	_	_	_	_	_
 3	się	się	PRON	part	_	_	_	_	_
-3-4	oglądałem	_	_	_	_	_	_	_	_
+4-5	oglądałem	_	_	_	_	_	_	_	_
 4	oglądał	oglądać	VERB	praet:sg:m1:imperf	_	_	_	_	_
 5	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 6	czy	czy	PART	part	_	_	_	_	_
 7	mię	ja	PRON	ppron12:sg:acc:m1:pri:nakc	_	_	_	_	_
 8	kto	kto	PRON	subst:sg:nom:m1	_	_	_	_	_
 9	niewidzi	niewidzi	VERB	conj	_	_	_	_	_
-9-10	przywitałem	_	_	_	_	_	_	_	_
+10-11	przywitałem	_	_	_	_	_	_	_	_
 10	przywitał	przywitać	VERB	praet:sg:m1:perf	_	_	_	_	_
 11	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 12	się	się	PRON	part	_	_	_	_	_
@@ -6061,7 +6061,7 @@
 6	śmierci	śmierć	NOUN	subst:sg:loc:f	_	_	_	_	_
 7	matki	matka	NOUN	subst:sg:gen:f	_	_	_	_	_
 8	mojey	mojey	DET	aglt:sg:pri:imperf:nwok	_	_	_	_	_
-8-9	spotkałem	_	_	_	_	_	_	_	_
+9-10	spotkałem	_	_	_	_	_	_	_	_
 9	spotkał	spotkać	VERB	praet:sg:m1:perf	_	_	_	_	_
 10	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 11	się	się	PRON	part	_	_	_	_	_
@@ -6099,7 +6099,7 @@
 43	tak	tak	ADV	adv:pos	_	_	_	_	_
 44	gdzie	gdzie	ADV	adv	_	_	_	_	_
 45	się	się	PRON	part	_	_	_	_	_
-45-46	obróciłem	_	_	_	_	_	_	_	_
+46-47	obróciłem	_	_	_	_	_	_	_	_
 46	obrócił	obrócić	VERB	praet:sg:m1:perf	_	_	_	_	_
 47	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 48	później	późno	ADV	adv:com	_	_	_	_	_
@@ -6357,7 +6357,7 @@
 9	nas	my	PRON	ppron12:pl:acc:m1:pri	_	_	_	_	_
 10	rygor	rygor	NOUN	subst:sg:nom:m3	_	_	_	_	_
 11	jakim	jaki	DET	adj:sg:inst:m3:pos	_	_	_	_	_
-11-12	byliśmy	_	_	_	_	_	_	_	_
+12-13	byliśmy	_	_	_	_	_	_	_	_
 12	byli	być	AUX	praet:pl:m1:imperf	_	_	_	_	_
 13	śmy	być	AUX	aglt:pl:pri:imperf:nwok	_	_	_	_	_
 14	przez	przez	ADP	prep:acc:nwok	_	_	_	_	_
@@ -6439,7 +6439,7 @@
 3	poczciwości	poczciwość	NOUN	subst:sg:gen:f	_	_	_	_	_
 4	człowiek	człowiek	NOUN	subst:sg:nom:m1	_	_	_	_	_
 5	–	–	PUNCT	interp	_	_	_	_	_
-5-6	kochałem	_	_	_	_	_	_	_	_
+6-7	kochałem	_	_	_	_	_	_	_	_
 6	kochał	kochać	VERB	praet:sg:m1:imperf	_	_	_	_	_
 7	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 8	go	on	PRON	ppron3:sg:acc:m1:ter:nakc:npraep	_	_	_	_	_
@@ -6726,7 +6726,7 @@
 20	w	w	ADP	prep:loc:nwok	_	_	_	_	_
 21	traktryerni	traktryerni	NOUN	subst:sg:loc:f	_	_	_	_	_
 22	,	,	PUNCT	interp	_	_	_	_	_
-22-23	gdzieśmy	_	_	_	_	_	_	_	_
+23-24	gdzieśmy	_	_	_	_	_	_	_	_
 23	gdzie	gdzie	ADV	adv	_	_	_	_	_
 24	śmy	być	AUX	aglt:pl:pri:imperf:nwok	_	_	_	_	_
 25	się	się	PRON	part	_	_	_	_	_
@@ -6771,7 +6771,7 @@
 12	pracą	praca	NOUN	subst:sg:inst:f	_	_	_	_	_
 13	i	i	CCONJ	conj	_	_	_	_	_
 14	zarobkiem	zarobek	NOUN	subst:sg:inst:m3	_	_	_	_	_
-14-15	przyszedłem	_	_	_	_	_	_	_	_
+15-16	przyszedłem	_	_	_	_	_	_	_	_
 15	przyszedł	przyjść	VERB	praet:sg:m1:perf	_	_	_	_	_
 16	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 17	do	do	ADP	prep:gen	_	_	_	_	_
@@ -7050,7 +7050,7 @@
 4	ze	z	ADP	part:wok	_	_	_	_	_
 5	dwadzieścia	dwadzieścia	NUM	num:pl:acc:m3:rec:ncol	_	_	_	_	_
 6	jak	jak	ADV	adv:pos	_	_	_	_	_
-6-7	zjechałem	_	_	_	_	_	_	_	_
+7-8	zjechałem	_	_	_	_	_	_	_	_
 7	zjechał	zjechać	VERB	praet:sg:m1:perf	_	_	_	_	_
 8	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 9	się	się	PRON	part	_	_	_	_	_
@@ -7112,7 +7112,7 @@
 8	swojego	swój	DET	adj:sg:acc:m1:pos	_	_	_	_	_
 9	gościa	gość	NOUN	subst:sg:acc:m1	_	_	_	_	_
 10	ja	ja	PRON	ppron12:sg:nom:m1:pri	_	_	_	_	_
-10-11	obserwowałem	_	_	_	_	_	_	_	_
+11-12	obserwowałem	_	_	_	_	_	_	_	_
 11	obserwował	obserwować	VERB	praet:sg:m1:imperf	_	_	_	_	_
 12	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 13	je	on	PRON	ppron3:pl:acc:m3:ter:akc:npraep	_	_	_	_	_
@@ -7140,7 +7140,7 @@
 35	i	i	CCONJ	conj	_	_	_	_	_
 36	rzeczywiście	rzeczywiście	ADV	adv:pos	_	_	_	_	_
 37	nie	nie	PART	part	_	_	_	_	_
-37-38	mogłem	_	_	_	_	_	_	_	_
+38-39	mogłem	_	_	_	_	_	_	_	_
 38	mogł	móc	VERB	praet:sg:m1:imperf:agl	_	_	_	_	_
 39	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 40	je	on	PRON	ppron3:pl:acc:m3:ter:akc:npraep	_	_	_	_	_
@@ -7227,7 +7227,7 @@
 11	zażyłych	zażyły	ADJ	adj:pl:loc:n:pos	_	_	_	_	_
 12	stosunkach	stosunki	NOUN	subst:pl:loc:n:pt	_	_	_	_	_
 13	–	–	PUNCT	interp	_	_	_	_	_
-13-14	chodziliśmy	_	_	_	_	_	_	_	_
+14-15	chodziliśmy	_	_	_	_	_	_	_	_
 14	chodzili	chodzić	VERB	praet:pl:m1:imperf	_	_	_	_	_
 15	śmy	być	AUX	aglt:pl:pri:imperf:nwok	_	_	_	_	_
 16	tam	tam	ADV	adv	_	_	_	_	_
@@ -7611,7 +7611,7 @@
 42	chrzestnym	chrzestny	ADJ	adj:sg:inst:m1:pos	_	_	_	_	_
 43	Oycem	oycem	NOUN	subst:sg:inst:m1	_	_	_	_	_
 44	a	a	CCONJ	conj	_	_	_	_	_
-44-45	gdym	_	_	_	_	_	_	_	_
+45-46	gdym	_	_	_	_	_	_	_	_
 45	gdy	gdy	ADV	adv	_	_	_	_	_
 46	m	być	AUX	aglt:sg:pri:imperf:nwok	_	_	_	_	_
 47	ja	ja	PRON	ppron12:sg:nom:m1:pri	_	_	_	_	_
@@ -8360,7 +8360,7 @@
 17	i	i	CCONJ	conj	_	_	_	_	_
 18	bardzo	bardzo	ADV	adv:pos	_	_	_	_	_
 19	ją	on	PRON	ppron3:sg:acc:f:ter:akc:npraep	_	_	_	_	_
-19-20	lubiłem	_	_	_	_	_	_	_	_
+20-21	lubiłem	_	_	_	_	_	_	_	_
 20	lubił	lubić	VERB	praet:sg:m1:imperf	_	_	_	_	_
 21	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 22	Sabina	Sabin	PROPN	subst:sg:acc:m1	_	_	_	_	_
@@ -8410,7 +8410,7 @@
 35	też	też	PART	part	_	_	_	_	_
 36	pierwszy	pierwszy	ADJ	adj:sg:acc:m3:pos	_	_	_	_	_
 37	raz	raz	NOUN	subst:sg:acc:m3	_	_	_	_	_
-37-38	widziałem	_	_	_	_	_	_	_	_
+38-39	widziałem	_	_	_	_	_	_	_	_
 38	widział	widzieć	VERB	praet:sg:m1:imperf	_	_	_	_	_
 39	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 40	zapałki	zapałka	NOUN	subst:pl:acc:f	_	_	_	_	_
@@ -9201,7 +9201,7 @@
 18	na	na	ADP	prep:acc	_	_	_	_	_
 19	Moskali	Moskal	PROPN	subst:pl:acc:m1	_	_	_	_	_
 20	–	–	PUNCT	interp	_	_	_	_	_
-20-21	miałem	_	_	_	_	_	_	_	_
+21-22	miałem	_	_	_	_	_	_	_	_
 21	miał	mieć	VERB	praet:sg:m1:imperf	_	_	_	_	_
 22	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 23	wówczas	wówczas	ADV	adv	_	_	_	_	_
@@ -9276,7 +9276,7 @@
 31	już	już	PART	part	_	_	_	_	_
 32	młodzieńcem	młodzieniec	NOUN	subst:sg:inst:m1	_	_	_	_	_
 33	będąc	być	AUX	pcon:imperf	_	_	_	_	_
-33-34	pytałem	_	_	_	_	_	_	_	_
+34-35	pytałem	_	_	_	_	_	_	_	_
 34	pytał	pytać	VERB	praet:sg:m1:imperf	_	_	_	_	_
 35	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 36	Oyca	oyca	NOUN	subst:sg:acc:f	_	_	_	_	_
@@ -9286,7 +9286,7 @@
 40	prawdą	prawda	NOUN	subst:sg:inst:f	_	_	_	_	_
 41	–	–	PUNCT	interp	_	_	_	_	_
 42	dopiero	dopiero	PART	part	_	_	_	_	_
-42-43	przyszedłem	_	_	_	_	_	_	_	_
+43-44	przyszedłem	_	_	_	_	_	_	_	_
 43	przyszedł	przyjść	VERB	praet:sg:m1:perf	_	_	_	_	_
 44	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 45	do	do	ADP	prep:gen	_	_	_	_	_
@@ -9384,7 +9384,7 @@
 3	wesoło	wesoło	ADV	adv:pos	_	_	_	_	_
 4	–	–	PUNCT	interp	_	_	_	_	_
 5	tańczono	tańczyć	VERB	imps:imperf	_	_	_	_	_
-5-6	gdyśmy	_	_	_	_	_	_	_	_
+6-7	gdyśmy	_	_	_	_	_	_	_	_
 6	gdy	gdy	ADV	adv	_	_	_	_	_
 7	śmy	być	AUX	aglt:pl:pri:imperf:nwok	_	_	_	_	_
 8	bitwę	bitwa	NOUN	subst:sg:acc:f	_	_	_	_	_
@@ -9581,7 +9581,7 @@
 32	W	w	ADP	prep:loc:nwok	_	_	_	_	_
 33	Roku	rok	NOUN	subst:sg:loc:m3	_	_	_	_	_
 34	830	830	ADJ	dig	_	_	_	_	_
-34-35	byłem	_	_	_	_	_	_	_	_
+35-36	byłem	_	_	_	_	_	_	_	_
 35	był	być	AUX	praet:sg:m1:imperf	_	_	_	_	_
 36	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 37	przewodniczącym	przewodniczący	NOUN	subst:sg:inst:m1	_	_	_	_	_
@@ -9590,7 +9590,7 @@
 40	ruch	ruch	NOUN	subst:sg:nom:m3	_	_	_	_	_
 41	narodowy	narodowy	NOUN	adj:sg:nom:m3:pos	_	_	_	_	_
 42	.	.	PUNCT	interp	_	_	_	_	_
-42-43	Zwołałem	_	_	_	_	_	_	_	_
+43-44	Zwołałem	_	_	_	_	_	_	_	_
 43	Zwołał	zwołać	VERB	praet:sg:m1:perf	_	_	_	_	_
 44	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 45	Zjazd	zjazd	NOUN	subst:sg:acc:m3	_	_	_	_	_
@@ -9618,7 +9618,7 @@
 67	arkuszem	arkusz	NOUN	subst:sg:inst:m3	_	_	_	_	_
 68	na	na	ADP	prep:loc	_	_	_	_	_
 69	stole	stół	NOUN	subst:sg:loc:m3	_	_	_	_	_
-69-70	zapytywałem	_	_	_	_	_	_	_	_
+70-71	zapytywałem	_	_	_	_	_	_	_	_
 70	zapytywał	zapytywać	VERB	praet:sg:m1:imperf	_	_	_	_	_
 71	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 72	koleyno	koleyno	ADV	subst:sg:acc:n:ncol	_	_	_	_	_
@@ -9736,14 +9736,14 @@
 21	ja	ja	PRON	ppron12:sg:nom:m1:pri	_	_	_	_	_
 22	im	on	PRON	ppron3:pl:dat:m1:ter:akc:npraep	_	_	_	_	_
 23	to	to	PRON	subst:sg:acc:n:ncol	_	_	_	_	_
-23-24	opowiedziałem	_	_	_	_	_	_	_	_
+24-25	opowiedziałem	_	_	_	_	_	_	_	_
 24	opowiedział	opowiedzieć	VERB	praet:sg:m1:perf	_	_	_	_	_
 25	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 26	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 313
 # text = Przytoczyłem tu to zdarzenie, żeby mieć wyobrażenie jak znaczny zasiłek z Galicyi wpłyną do Kasy Narodowej.
-0-1	Przytoczyłem	_	_	_	_	_	_	_	_
+1-2	Przytoczyłem	_	_	_	_	_	_	_	_
 1	Przytoczył	przytoczyć	VERB	praet:sg:m1:perf	_	_	_	_	_
 2	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 3	tu	tu	ADV	adv	_	_	_	_	_
@@ -9939,7 +9939,7 @@
 3	829	829	ADJ	dig	_	_	_	_	_
 4	w	w	ADP	prep:loc:nwok	_	_	_	_	_
 5	jesieni	jesień	NOUN	subst:sg:loc:f	_	_	_	_	_
-5-6	dostaliśmy	_	_	_	_	_	_	_	_
+6-7	dostaliśmy	_	_	_	_	_	_	_	_
 6	dostali	dostać	VERB	praet:pl:m1:perf	_	_	_	_	_
 7	śmy	być	AUX	aglt:pl:pri:imperf:nwok	_	_	_	_	_
 8	guwernera	guwerner	NOUN	subst:sg:gen:m1	_	_	_	_	_
@@ -10100,7 +10100,7 @@
 11	z	z	ADP	prep:inst:nwok	_	_	_	_	_
 12	Panem	pan	NOUN	subst:sg:inst:m1	_	_	_	_	_
 13	Kamińskim	Kamiński	PROPN	subst:sg:inst:m1	_	_	_	_	_
-13-14	gdyśmy	_	_	_	_	_	_	_	_
+14-15	gdyśmy	_	_	_	_	_	_	_	_
 14	gdy	gdy	ADV	adv	_	_	_	_	_
 15	śmy	być	AUX	aglt:pl:pri:imperf:nwok	_	_	_	_	_
 16	byli	być	AUX	praet:pl:m1:imperf	_	_	_	_	_
@@ -10114,7 +10114,7 @@
 2	do	do	ADP	prep:gen	_	_	_	_	_
 3	szkolnych	szkolny	ADJ	adj:pl:gen:m3:pos	_	_	_	_	_
 4	przedmiotów	przedmiot	NOUN	subst:pl:gen:m3	_	_	_	_	_
-4-5	uczyliśmy	_	_	_	_	_	_	_	_
+5-6	uczyliśmy	_	_	_	_	_	_	_	_
 5	uczyli	uczyć	VERB	praet:pl:m1:imperf	_	_	_	_	_
 6	śmy	być	AUX	aglt:pl:pri:imperf:nwok	_	_	_	_	_
 7	się	się	PRON	part	_	_	_	_	_
@@ -10183,7 +10183,7 @@
 44	stanąwszy	stanąć	VERB	pant:perf	_	_	_	_	_
 45	w	w	ADP	prep:loc:nwok	_	_	_	_	_
 46	nich	on	PRON	ppron3:pl:loc:m3:ter:akc:praep	_	_	_	_	_
-46-47	musieliśmy	_	_	_	_	_	_	_	_
+47-48	musieliśmy	_	_	_	_	_	_	_	_
 47	musieli	musieć	VERB	praet:pl:m1:imperf	_	_	_	_	_
 48	śmy	być	AUX	aglt:pl:pri:imperf:nwok	_	_	_	_	_
 49	stać	stać	VERB	inf:imperf	_	_	_	_	_
@@ -10227,7 +10227,7 @@
 10	mały	mały	ADJ	adj:sg:nom:m1:pos	_	_	_	_	_
 11	Staś	Staś	PROPN	subst:sg:nom:m1	_	_	_	_	_
 12	razem	razem	ADV	adv	_	_	_	_	_
-12-13	braliśmy	_	_	_	_	_	_	_	_
+13-14	braliśmy	_	_	_	_	_	_	_	_
 13	brali	brać	VERB	praet:pl:m1:imperf	_	_	_	_	_
 14	śmy	być	AUX	aglt:pl:pri:imperf:nwok	_	_	_	_	_
 15	lekcye	lekcye	NOUN	num:pl:nom:m3:rec:ncol	_	_	_	_	_
@@ -10462,7 +10462,7 @@
 
 # sent_id = 335
 # text = Kochaliśmy starszego brata i słuchali.
-0-1	Kochaliśmy	_	_	_	_	_	_	_	_
+1-2	Kochaliśmy	_	_	_	_	_	_	_	_
 1	Kochali	kochać	VERB	praet:pl:m1:imperf	_	_	_	_	_
 2	śmy	być	AUX	aglt:pl:pri:imperf:nwok	_	_	_	_	_
 3	starszego	stary	ADJ	adj:sg:acc:m1:com	_	_	_	_	_
@@ -10519,7 +10519,7 @@
 44	,	,	PUNCT	interp	_	_	_	_	_
 45	a	a	CCONJ	conj	_	_	_	_	_
 46	czasem	czas	NOUN	subst:sg:inst:m3	_	_	_	_	_
-46-47	upinaliśmy	_	_	_	_	_	_	_	_
+47-48	upinaliśmy	_	_	_	_	_	_	_	_
 47	upinali	upinać	VERB	praet:pl:m1:imperf	_	_	_	_	_
 48	śmy	być	AUX	aglt:pl:pri:imperf:nwok	_	_	_	_	_
 49	do	do	ADP	prep:gen	_	_	_	_	_
@@ -10605,7 +10605,7 @@
 7	psoty	psota	NOUN	subst:pl:acc:f	_	_	_	_	_
 8	–	–	PUNCT	interp	_	_	_	_	_
 9	pamiętam	pamiętać	VERB	fin:sg:pri:imperf	_	_	_	_	_
-9-10	gdyśmy	_	_	_	_	_	_	_	_
+10-11	gdyśmy	_	_	_	_	_	_	_	_
 10	gdy	gdy	ADV	adv	_	_	_	_	_
 11	śmy	być	AUX	aglt:pl:pri:imperf:nwok	_	_	_	_	_
 12	raz	raz	NOUN	subst:sg:acc:m3	_	_	_	_	_
@@ -10614,7 +10614,7 @@
 15	przyjechali	przyjechać	VERB	praet:pl:m1:perf	_	_	_	_	_
 16	do	do	ADP	prep:gen	_	_	_	_	_
 17	Babina	Babin	PROPN	subst:sg:gen:m3	_	_	_	_	_
-17-18	oglądaliśmy	_	_	_	_	_	_	_	_
+18-19	oglądaliśmy	_	_	_	_	_	_	_	_
 18	oglądali	oglądać	VERB	praet:pl:m1:imperf	_	_	_	_	_
 19	śmy	być	AUX	aglt:pl:pri:imperf:nwok	_	_	_	_	_
 20	na	na	ADP	prep:loc	_	_	_	_	_
@@ -10734,7 +10734,7 @@
 17	kościoła	kościół	NOUN	subst:sg:gen:m3	_	_	_	_	_
 18	w	w	ADP	prep:loc:nwok	_	_	_	_	_
 19	Woyniłowie	Woyniłowie	PROPN	subst:sg:loc:n:ncol	_	_	_	_	_
-19-20	jechaliśmy	_	_	_	_	_	_	_	_
+20-21	jechaliśmy	_	_	_	_	_	_	_	_
 20	jechali	jechać	VERB	praet:pl:m1:imperf	_	_	_	_	_
 21	śmy	być	AUX	aglt:pl:pri:imperf:nwok	_	_	_	_	_
 22	do	do	ADP	prep:gen	_	_	_	_	_
@@ -10856,7 +10856,7 @@
 7	do	do	ADP	prep:gen	_	_	_	_	_
 8	szkół	szkoła	NOUN	subst:pl:gen:f	_	_	_	_	_
 9	–	–	PUNCT	interp	_	_	_	_	_
-9-10	mieliśmy	_	_	_	_	_	_	_	_
+10-11	mieliśmy	_	_	_	_	_	_	_	_
 10	mieli	mieć	VERB	praet:pl:m1:imperf	_	_	_	_	_
 11	śmy	być	AUX	aglt:pl:pri:imperf:nwok	_	_	_	_	_
 12	kuchtę	kuchta	NOUN	subst:sg:acc:f	_	_	_	_	_
@@ -11115,12 +11115,12 @@
 27	czy	czy	CCONJ	conj	_	_	_	_	_
 28	siostrzyczkę	siostrzyczka	NOUN	subst:sg:acc:f	_	_	_	_	_
 29	–	–	PUNCT	interp	_	_	_	_	_
-28-29	odpowiedziałem	_	_	_	_	_	_	_	_
+30-31	odpowiedziałem	_	_	_	_	_	_	_	_
 30	odpowiedział	odpowiedzieć	VERB	praet:sg:m1:perf	_	_	_	_	_
 31	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 32	braciszka	braciszek	NOUN	subst:sg:acc:m1	_	_	_	_	_
 33	–	–	PUNCT	interp	_	_	_	_	_
-32-33	Obudziłem	_	_	_	_	_	_	_	_
+34-35	Obudziłem	_	_	_	_	_	_	_	_
 34	Obudził	obudzić	VERB	praet:sg:m1:perf	_	_	_	_	_
 35	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 36	się	się	PRON	part	_	_	_	_	_
@@ -11138,7 +11138,7 @@
 1	Drugi	drugi	ADJ	adj:sg:acc:m3:pos	_	_	_	_	_
 2	taki	taki	DET	adj:sg:acc:m3:pos	_	_	_	_	_
 3	sen	sen	NOUN	subst:sg:acc:m3	_	_	_	_	_
-3-4	miałem	_	_	_	_	_	_	_	_
+4-5	miałem	_	_	_	_	_	_	_	_
 4	miał	mieć	VERB	praet:sg:m1:imperf	_	_	_	_	_
 5	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 6	gdy	gdy	ADV	adv	_	_	_	_	_
@@ -11149,7 +11149,7 @@
 11	i	i	CCONJ	conj	_	_	_	_	_
 12	taką	taki	DET	adj:sg:acc:f:pos	_	_	_	_	_
 13	samą	sam	ADJ	adj:sg:acc:f:pos	_	_	_	_	_
-13-14	dałem	_	_	_	_	_	_	_	_
+14-15	dałem	_	_	_	_	_	_	_	_
 14	dał	dać	VERB	praet:sg:m1:perf	_	_	_	_	_
 15	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 16	odpowiedź	odpowiedź	NOUN	subst:sg:acc:f	_	_	_	_	_
@@ -11157,7 +11157,7 @@
 
 # sent_id = 355
 # text = Byłem wówczas we Lwowie z moją Babką Ostaszewską.
-0-1	Byłem	_	_	_	_	_	_	_	_
+1-2	Byłem	_	_	_	_	_	_	_	_
 1	Był	być	AUX	praet:sg:m1:imperf	_	_	_	_	_
 2	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 3	wówczas	wówczas	ADV	adv	_	_	_	_	_
