@@ -49,3 +49,5 @@ code/bert/hist_test_XPOS/cached_test_BertTokenizer_128
 code/bert/hist_test_XPOS/cached_test_BertTokenizer_128.lock
 code/bert/polXPOS-model/pytorch_model.bin
 code/.ipynb_checkpoints/stanza-lemmatizer-evaluation-checkpoint.ipynb
+code/.ipynb_checkpoints/bert-results-evaluation-checkpoint.ipynb
+code/__pycache__/functions.cpython-38.pyc
