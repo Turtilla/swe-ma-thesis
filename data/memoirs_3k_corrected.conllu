@@ -8,7 +8,7 @@
 6	1741	1741	ADJ	adj:sg:gen:m3	_	_	_	_	_
 7	we	w	ADP	prep:loc:wok	_	_	_	_	_
 8	wsi	wieś	NOUN	subst:sg:loc:f	_	_	_	_	_
-9	Godziszewo	Godziszewo	PROPN	subst:sg:nom:n:ncol!	_	_	_	_	_
+9	Godziszewo	Godziszewo	PROPN	subst:sg:nom:n:ncol	_	_	_	_	_
 10	parafii	parafia	NOUN	subst:sg:loc:f	_	_	_	_	_
 11	Rypnin	Rypnin	PROPN	subst:sg:nom:m3	_	_	_	_	_
 12	syn	syn	NOUN	subst:sg:nom:m1	_	_	_	_	_
@@ -208,7 +208,7 @@
 5	prawda	prawda	NOUN	subst:sg:nom:f	_	_	_	_	_
 6	–	–	PUNCT	interp	_	_	_	_	_
 7	ale	ale	CCONJ	conj	_	_	_	_	_
-8	mi	ja	PRON	ppron12:sg:dat:m1:pri:nakc!	_	_	_	_	_
+8	mi	ja	PRON	ppron12:sg:dat:m1:pri:nakc	_	_	_	_	_
 9	mówił	mówić	VERB	praet:sg:m1:imperf	_	_	_	_	_
 10	kuzyn	kuzyn	NOUN	subst:sg:nom:m1	_	_	_	_	_
 11	nasz	nasz	DET	adj:sg:nom:m1:pos	_	_	_	_	_
