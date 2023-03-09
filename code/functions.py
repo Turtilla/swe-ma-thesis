@@ -53,7 +53,7 @@ def extract_conllu_data(filename: str, feature: str, sentences: bool = True):
         
     return tokens, features, data
 
-def get_measures(gold_standard: list, predictions: list, labels: list = []):
+def get_measures(gold_standard: list, predictions: list, labels: list = [], matrix: bool = False):
     '''A function intended for retrieving a selection of evaluation measures for comparing the gold standard and the tagger
     annotations. The measures are printed out and include accuracy, Matthew's Correlation Coefficient, per-class precision 
     and recall, as well as a confusion matrix, which, in addition, get saved locally. These measures are calculated using 
@@ -80,11 +80,13 @@ def get_measures(gold_standard: list, predictions: list, labels: list = []):
     for i in range(0,len(labels)):
         print(f'\t{labels[i]}: {"{:.2%}".format(recall[i])}')
     print()
-    print('Confusion matrix:')
-    cm = sklearn.metrics.confusion_matrix(gold_standard, predictions)
-    matrix = sklearn.metrics.ConfusionMatrixDisplay(cm, display_labels=labels)
-    fig, ax = plt.subplots(figsize=(12,12))
-    matrix.plot(ax=ax)
-    
-    timestr = time.strftime("%Y%m%d-%H%M%S")
-    plt.savefig(timestr + "confusion_matrix.jpg")
+
+    if matrix:
+        print('Confusion matrix:')
+        cm = sklearn.metrics.confusion_matrix(gold_standard, predictions)
+        matrix = sklearn.metrics.ConfusionMatrixDisplay(cm, display_labels=labels)
+        fig, ax = plt.subplots(figsize=(12,12))
+        matrix.plot(ax=ax)
+        
+        timestr = time.strftime("%Y%m%d-%H%M%S")
+        plt.savefig(timestr + "confusion_matrix.jpg")
