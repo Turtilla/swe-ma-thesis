@@ -2862,7 +2862,6 @@ potrafię fin:sg:pri:imperf
 . interp
 
 Nie part
-zdążyłem _
 zdążył praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 . interp
@@ -2878,7 +2877,6 @@ Kiedy adv
 go ppron3:sg:acc:m1:ter:nakc:npraep
 aresztowano imps:perf
 , interp
-uważałem _
 uważał praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 to subst:sg:acc:n:ncol
@@ -2968,7 +2966,6 @@ inicjatywę subst:sg:acc:f
 ? interp
 
 Zawsze adv
-lubiłem _
 lubił praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 oglądać inf:imperf
@@ -3019,12 +3016,10 @@ romansować inf:imperf
 
 Bardzo adv:pos
 się part
-wzruszyłam _
 wzruszyła praet:sg:f:perf
 m aglt:sg:pri:imperf:nwok
 . interp
 
-Przytyłam _
 Przytyła praet:sg:f:perf
 m aglt:sg:pri:imperf:nwok
 do prep:gen
@@ -3218,7 +3213,6 @@ dzierżą fin:pl:ter:imperf
 mężczyźni subst:pl:nom:m1
 . interp
 
-Rozbiłaś _
 Rozbiła praet:sg:f:perf
 ś aglt:sg:sec:imperf:nwok
 mi ppron12:sg:dat:m1:pri:nakc
@@ -3250,7 +3244,6 @@ jak comp
 rosną fin:pl:ter:imperf
 . interp
 
-Zapowiedzieliśmy _
 Zapowiedzieli praet:pl:m1:perf
 śmy aglt:pl:pri:imperf:nwok
 w prep:loc:nwok
@@ -3351,7 +3344,6 @@ sobotę subst:sg:acc:f
 
 Ale conj
 nie part
-wiedziałem _
 wiedział praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 , interp
@@ -3415,7 +3407,6 @@ kobiety subst:sg:gen:f
 ? interp
 
 Dlaczego adv
-miałby _
 miał praet:sg:m1:imperf
 by part
 tego subst:sg:gen:n:ncol
@@ -4290,7 +4281,6 @@ morze subst:sg:acc:n:ncol
 - interp
 Tutaj adv
 nie part
-byłoby _
 było praet:sg:n:imperf
 by part
 tak adv:pos
@@ -4304,7 +4294,6 @@ wiem fin:sg:pri:imperf
 tato subst:sg:voc:m1
 . interp
 
-Widziałbyś _
 Widział praet:sg:m1:imperf
 by part
 ś aglt:sg:sec:imperf:nwok
@@ -4365,7 +4354,6 @@ Minibus subst:sg:nom:m3
 odjeżdża fin:sg:ter:imperf
 . interp
 
-Chciałem _
 Chciał praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 oddać inf:perf
@@ -4373,7 +4361,6 @@ ci ppron12:sg:dat:m1:sec:nakc
 plecak subst:sg:acc:m3
 . interp
 
-Powiedziałem _
 Powiedział praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 mu ppron3:sg:dat:m1:ter:nakc:npraep
@@ -4483,7 +4470,6 @@ Weipert subst:sg:acc:m3
 Tę adj:sg:acc:f:pos
 informację subst:sg:acc:f
 sam adj:sg:nom:m1:pos
-przekazałem _
 przekazał praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 . interp
@@ -4519,7 +4505,6 @@ dane subst:pl:acc:n:pt
 personalne adj:pl:acc:n:pos
 . interp
 
-Wycyganiłaś _
 Wycyganiła praet:sg:f:perf
 ś aglt:sg:sec:imperf:nwok
 pieniądze subst:pl:acc:m3
@@ -4560,7 +4545,6 @@ oknie subst:sg:loc:n:ncol
 . interp
 
 Kiedy adv
-weszłam _
 weszła praet:sg:f:perf
 m aglt:sg:pri:imperf:nwok
 do prep:gen
@@ -4576,7 +4560,6 @@ Drzemał praet:sg:m1:imperf
 . interp
 
 Nagle adv:pos
-uświadomiłam _
 uświadomiła praet:sg:f:perf
 m aglt:sg:pri:imperf:nwok
 sobie siebie:dat
@@ -4625,14 +4608,12 @@ już part
 widno adv:pos
 , interp
 wyraźnie adv:pos
-widziałam _
 widziała praet:sg:f:imperf
 m aglt:sg:pri:imperf:nwok
 znajome adj:pl:acc:m3:pos
 sprzęty subst:pl:acc:m3
 . interp
 
-Zaczęliśmy _
 Zaczęli praet:pl:m1:perf
 śmy aglt:pl:pri:imperf:nwok
 się part
@@ -4640,14 +4621,12 @@ dzielić inf:imperf
 opłatkiem subst:sg:inst:m3
 . interp
 
-Czułam _
 Czuła praet:sg:f:imperf
 m aglt:sg:pri:imperf:nwok
 te adj:pl:acc:f:pos
 ruchome adj:pl:acc:f:pos
 kosteczki subst:pl:acc:f
 i conj
-bałam _
 bała praet:sg:f:imperf
 m aglt:sg:pri:imperf:nwok
 się part
@@ -4660,7 +4639,6 @@ w prep:loc:nwok
 rękach subst:pl:loc:f
 . interp
 
-Oparłam _
 Oparła praet:sg:f:perf
 m aglt:sg:pri:imperf:nwok
 się part
@@ -4687,7 +4665,6 @@ bezgłośny adj:sg:acc:m3:pos
 dialog subst:sg:acc:m3
 . interp
 
-Postawiłam _
 Postawiła praet:sg:f:perf
 m aglt:sg:pri:imperf:nwok
 przed prep:inst:nwok
@@ -4724,7 +4701,6 @@ się part
 odezwał praet:sg:m3:perf
 . interp
 
-Mówiliśmy _
 Mówili praet:pl:m1:imperf
 śmy aglt:pl:pri:imperf:nwok
 już part
@@ -5043,7 +5019,6 @@ roześmiał praet:sg:m1:perf
 
 Dziś adv
 wyjątkowo adv:pos
-przegrałem _
 przegrał praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 . interp
@@ -5147,7 +5122,6 @@ prawda subst:sg:nom:f
 moja adj:sg:nom:f:pos
 siostra subst:sg:nom:f
 nie part
-zniosłaby _
 zniosła praet:sg:f:perf
 by part
 związku subst:sg:gen:m3
@@ -5233,13 +5207,11 @@ rozpryskiwały praet:pl:n:imperf
 błoto subst:sg:acc:n:ncol
 . interp
 
-Stałem _
 Stał praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 obok prep:gen
 ojca subst:sg:gen:m1
 i conj
-przyglądałem _
 przyglądał praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 się part
@@ -5273,7 +5245,6 @@ pewno adv:pos
 Jedzie fin:sg:ter:imperf
 ! interp
 
-Siedzieliśmy _
 Siedzieli praet:pl:m1:imperf
 śmy aglt:pl:pri:imperf:nwok
 w prep:loc:nwok
@@ -5283,11 +5254,9 @@ południową adj:sg:acc:f:pos
 kawę subst:sg:acc:f
 . interp
 
-Wstaliśmy _
 Wstali praet:pl:m1:perf
 śmy aglt:pl:pri:imperf:nwok
 i conj
-wyszliśmy _
 wyszli praet:pl:m1:perf
 śmy aglt:pl:pri:imperf:nwok
 . interp
@@ -5295,7 +5264,6 @@ wyszli praet:pl:m1:perf
 W prep:loc:nwok
 samochodzie subst:sg:loc:m3
 długo adv:pos
-milczeliśmy _
 milczeli praet:pl:m1:imperf
 śmy aglt:pl:pri:imperf:nwok
 . interp
@@ -5338,7 +5306,6 @@ poematu subst:sg:gen:m3
 
 W prep:loc:nwok
 Brzozowskim subst:sg:loc:m1
-odkrywałem _
 odkrywał praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 od prep:gen:nwok
@@ -5428,7 +5395,6 @@ się part
 dzieckiem subst:sg:inst:n:col
 . interp
 
-Popełniłam _
 Popełniła praet:sg:f:perf
 m aglt:sg:pri:imperf:nwok
 jakiś adj:sg:acc:m3:pos
@@ -5474,7 +5440,6 @@ nie part
 dzieje fin:sg:ter:imperf
 . interp
 
-Mieliśmy _
 Mieli praet:pl:m1:imperf
 śmy aglt:pl:pri:imperf:nwok
 dużo num:pl:acc:m3:rec
@@ -5483,7 +5448,6 @@ nieprzewidzianych ppas:pl:gen:m3:perf:neg
 . interp
 
 Potężnie adv:pos
-zapożyczyłem _
 zapożyczył praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 się part
@@ -5615,7 +5579,6 @@ ktoś subst:sg:nom:m1
 z prep:gen:nwok
 państwa subst:pl:gen:m1:pt
 jeszcze part
-chciałby _
 chciał praet:sg:m1:imperf
 by part
 zadać inf:perf
@@ -5643,7 +5606,6 @@ proszę fin:sg:pri:imperf
 . interp
 
 - interp
-Chciałbym _
 Chciał praet:sg:m1:imperf
 by part
 m aglt:sg:pri:imperf:nwok
@@ -5661,7 +5623,6 @@ poprawek subst:pl:gen:f
 . interp
 
 - interp
-Chciałem _
 Chciał praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 zgłosić inf:perf
@@ -5758,7 +5719,6 @@ pośle subst:sg:voc:m1
 Czy part
 ktoś subst:sg:nom:m1
 jeszcze part
-chciałby _
 chciał praet:sg:m1:imperf
 by part
 się part
@@ -5924,7 +5884,6 @@ libacji subst:sg:gen:f
 
 Takie adj:pl:acc:f:pos
 informacje subst:pl:acc:f
-uzyskaliśmy _
 uzyskali praet:pl:m1:perf
 śmy aglt:pl:pri:imperf:nwok
 na prep:acc
@@ -6006,7 +5965,6 @@ Polska subst:sg:nom:f
 . interp
 
 A conj
-musiałem _
 musiał praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 chyba part
@@ -6117,7 +6075,6 @@ bezrobotny subst:sg:nom:m1
 . interp
 
 Nie part
-chciałem _
 chciał praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 , interp
@@ -6156,7 +6113,6 @@ Glempem subst:sg:inst:m1
 - interp
 Dwa num:pl:acc:m3:congr
 lata subst:pl:acc:m3
-pracowałem _
 pracował praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 nad prep:inst:nwok
@@ -6199,7 +6155,6 @@ Czyżby part
 urzędnicy subst:pl:nom:m1
 z prep:gen:nwok
 MSZ subst:sg:gen:m3
-mieliby _
 mieli praet:pl:m1:imperf
 by part
 samodzielnie adv:pos
@@ -6376,7 +6331,6 @@ tym subst:sg:loc:n:ncol
 
 Jeszcze part
 nie part
-pokonałem _
 pokonał praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 Mayfielda subst:sg:gen:m1
@@ -6619,7 +6573,6 @@ stanu subst:sg:gen:m3
 . interp
 
 Tak adv:pos
-spędziliśmy _
 spędzili praet:pl:m1:perf
 śmy aglt:pl:pri:imperf:nwok
 całe adj:sg:acc:n:pos
@@ -6725,7 +6678,6 @@ podłożem subst:sg:inst:n:ncol
 Zupełnie adv:pos
 tak adv:pos
 , interp
-jakbyśmy _
 jakby comp
 śmy aglt:pl:pri:imperf:nwok
 oprowadzani ppas:pl:nom:m1:imperf:aff
@@ -6804,7 +6756,6 @@ Hamasem subst:sg:inst:m3
 . interp
 
 - interp
-Postawiłam _
 Postawiła praet:sg:f:perf
 m aglt:sg:pri:imperf:nwok
 sprawę subst:sg:acc:f
@@ -6823,7 +6774,6 @@ może part
 w prep:loc:nwok
 takim adj:sg:loc:m3:pos
 przypadku subst:sg:loc:m3
-powstałaby _
 powstała praet:sg:f:perf
 by part
 jakaś adj:sg:nom:f:pos
@@ -6865,18 +6815,15 @@ bloków subst:pl:gen:m3
 . interp
 
 Nagle adv:pos
-usłyszałem _
 usłyszał praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 strzał subst:sg:acc:m3
 , interp
-wpadłem _
 wpadł praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 do prep:gen
 warsztatu subst:sg:gen:m3
 i conj
-zastałem _
 zastał praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 trupa subst:sg:acc:m2
@@ -6902,7 +6849,6 @@ roku subst:sg:loc:m3
 W prep:loc:nwok
 mojej adj:sg:loc:f:pos
 praktyce subst:sg:loc:f
-stwierdziłam _
 stwierdziła praet:sg:f:perf
 m aglt:sg:pri:imperf:nwok
 , interp
@@ -7010,7 +6956,6 @@ worku subst:sg:loc:m3
 
 - interp
 Nie part
-widziałam _
 widziała praet:sg:f:imperf
 m aglt:sg:pri:imperf:nwok
 - interp
@@ -7191,7 +7136,6 @@ Po prep:loc
 powrocie subst:sg:loc:m3
 do prep:gen
 domu subst:sg:gen:m3
-stwierdziłem _
 stwierdził praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 , interp
@@ -7322,7 +7266,6 @@ powiada fin:sg:ter:imperf
 , interp
 że comp
 żona subst:sg:nom:f
-mogłaby _
 mogła praet:sg:f:imperf
 by part
 zapobiec inf:perf
@@ -7544,7 +7487,6 @@ rok subst:sg:acc:m3
 . interp
 
 - interp
-Zdałem _
 Zdał praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 maturę subst:sg:acc:f
@@ -7704,7 +7646,6 @@ bardzo adv:pos
 nie part
 chcę fin:sg:pri:imperf
 , interp
-żebyś _
 żeby comp
 ś aglt:sg:sec:imperf:nwok
 odszedł praet:sg:m1:perf
@@ -7716,7 +7657,6 @@ wiem fin:sg:pri:imperf
 musisz fin:sg:sec:imperf
 odejść inf:perf
 - interp
-szepnęłam _
 szepnęła praet:sg:f:perf
 m aglt:sg:pri:imperf:nwok
 . interp
@@ -7776,7 +7716,6 @@ co subst:sg:nom:n:ncol
 się part
 stało praet:sg:n:perf
 , interp
-przestałem _
 przestał praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 odwiedzać inf:imperf
@@ -7790,7 +7729,6 @@ mnie ppron12:sg:acc:m1:pri:akc
 na prep:loc
 parkingu subst:sg:loc:m3
 , interp
-odpowiedziałem _
 odpowiedział praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 jej ppron3:sg:dat:f:ter:akc:npraep
@@ -7824,7 +7762,6 @@ Czuł praet:sg:m1:imperf
 , interp
 że comp
 ojciec subst:sg:nom:m1
-byłby _
 był praet:sg:m1:imperf
 by part
 z prep:gen:nwok
@@ -7918,7 +7855,6 @@ tak adv:pos
 prosta adj:sg:nom:f:pos
 , interp
 iż comp
-dałoby _
 dało praet:sg:n:perf
 by part
 się part
@@ -7952,7 +7888,6 @@ uczy fin:sg:ter:imperf
 historii subst:sg:gen:f
 ? interp
 - interp
-zapytałem _
 zapytał praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 . interp
@@ -8150,7 +8085,6 @@ chwilę subst:sg:acc:f
 jednym adj:sg:inst:n:pos
 szarpnięciem ger:sg:inst:n:perf:aff
 ciała subst:sg:gen:n:ncol
-próbowałem _
 próbował praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 się part
@@ -8475,7 +8409,6 @@ Dlaczego adv
 ona ppron3:sg:nom:f:ter:akc:npraep
 ? interp
 - interp
-zapytałem _
 zapytał praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 . interp
@@ -8554,7 +8487,6 @@ gdy adv
 oszczędność subst:sg:nom:f
 i conj
 wygoda subst:sg:nom:f
-dyktowałyby _
 dyktowały praet:pl:f:imperf
 by part
 co prep:acc
@@ -8615,7 +8547,6 @@ się part
 chciało praet:sg:n:imperf
 , interp
 kiedy adv
-dostałam _
 dostała praet:sg:f:perf
 m aglt:sg:pri:imperf:nwok
 egzemplarze subst:pl:acc:m3
@@ -9062,7 +8993,6 @@ osobami subst:pl:inst:f
 
 Za prep:acc
 nie ppron3:pl:acc:m3:ter:akc:praep
-byłyby _
 były praet:pl:f:imperf
 by part
 nabywane ppas:pl:nom:f:imperf:aff
@@ -9178,7 +9108,6 @@ więcej num:pl:acc:m3:rec
 W prep:loc:nwok
 porządku subst:sg:loc:m3
 - interp
-mruknąłem _
 mruknął praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 upokorzony ppas:sg:nom:m1:perf:aff
@@ -9680,7 +9609,6 @@ Chyżnem subst:sg:loc:n:ncol
 rośnie fin:sg:ter:imperf
 . interp
 
-Informowaliśmy _
 Informowali praet:pl:m1:imperf
 śmy aglt:pl:pri:imperf:nwok
 wczoraj adv
@@ -9900,7 +9828,6 @@ cicho adv:pos
 - interp
 Ja ppron12:sg:nom:m1:pri
 tam adv
-byłem _
 był praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 . interp
@@ -9926,7 +9853,6 @@ je ppron3:pl:acc:m3:ter:akc:npraep
 dłońmi subst:pl:inst:f
 . interp
 
-Przerwałem _
 Przerwał praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 mu ppron3:sg:dat:m1:ter:nakc:npraep
@@ -10123,7 +10049,6 @@ naśladować inf:imperf
 kogokolwiek subst:sg:gen:m1
 - interp
 nie part
-potrafiłby _
 potrafił praet:sg:m1:imperf
 by part
 . interp
@@ -10131,7 +10056,6 @@ by part
 – interp
 Już part
 panu subst:sg:dat:m1
-mówiłem _
 mówił praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 , interp
@@ -10502,7 +10426,6 @@ wyższa adj:sg:nom:f:com
 " interp
 W prep:loc:nwok
 dzieciństwie subst:sg:loc:n:ncol
-byłem _
 był praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 często adv:pos
@@ -10818,7 +10741,6 @@ uczciwe adj:sg:acc:n:pos
 ale conj
 pogodnego adj:sg:gen:n:pos
 życia subst:sg:gen:n:ncol
-dożyłem _
 dożył praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 słowem subst:sg:inst:n:ncol
@@ -10877,7 +10799,6 @@ naprawdę part
 nie part
 kocham fin:sg:pri:imperf
 - interp
-zapewniłam _
 zapewniła praet:sg:f:perf
 m aglt:sg:pri:imperf:nwok
 . interp
@@ -10904,7 +10825,6 @@ od prep:gen:nwok
 kiedy adv
 się part
 tu adv
-zjawiłem _
 zjawił praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 . interp
@@ -11113,7 +11033,6 @@ nie part
 nagrabić inf:perf
 . interp
 
-Wiedziałam _
 Wiedziała praet:sg:f:imperf
 m aglt:sg:pri:imperf:nwok
 , interp
@@ -11341,7 +11260,6 @@ Feliksem subst:sg:inst:m1
 a conj
 ty ppron12:sg:nom:f:sec
 przyzwalająco adv:pos
-skinęłaś _
 skinęła praet:sg:f:perf
 ś aglt:sg:sec:imperf:nwok
 głową subst:sg:inst:f
@@ -11437,7 +11355,6 @@ na prep:loc
 swoim adj:sg:loc:n:pos
 stanowisku subst:sg:loc:n:ncol
 - interp
-westchnąłem _
 westchnął praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 . interp
@@ -11807,7 +11724,6 @@ m.in brev:pun
 . interp
 : interp
 " interp
-Spokorniałem _
 Spokorniał praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 i conj
@@ -11923,7 +11839,6 @@ ziemi subst:sg:loc:f
 I part
 tak adv:pos
 nie part
-mógłbyś _
 mógł praet:sg:m1:imperf:nagl
 by part
 ś aglt:sg:sec:imperf:nwok
@@ -12329,13 +12244,11 @@ formuła subst:sg:nom:f
 . interp
 
 - interp
-Wiedziałeś _
 Wiedział praet:sg:m1:imperf
 eś aglt:sg:sec:imperf:wok
 od prep:gen:nwok
 początku subst:sg:gen:m3
 - interp
-szepnąłem _
 szepnął praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 . interp
@@ -12573,7 +12486,6 @@ w prep:loc:nwok
 całym adj:sg:loc:n:pos
 Brytyjskim adj:sg:loc:n:pos
 Imperium subst:sg:loc:n:ncol
-znalazłby _
 znalazł praet:sg:m1:perf
 by part
 się part
@@ -12583,7 +12495,6 @@ pułkownik subst:sg:nom:m1
 kawalerii subst:sg:gen:f
 , interp
 który adj:sg:nom:m1:pos
-byłby _
 był praet:sg:m1:imperf
 by part
 zdolny adj:sg:nom:m1:pos
@@ -12758,7 +12669,6 @@ jest fin:sg:ter:imperf
 zbyt adv
 silna adj:sg:nom:f:pos
 i conj
-musiałaby _
 musiała praet:sg:f:imperf
 by part
 być inf:imperf
@@ -12785,7 +12695,6 @@ kiedy adv
 będzie bedzie:sg:ter:imperf
 . interp
 
-Byłam _
 Była praet:sg:f:imperf
 m aglt:sg:pri:imperf:nwok
 pewna adj:sg:nom:f:pos
@@ -12980,7 +12889,6 @@ w prep:loc:nwok
 prezydencie subst:sg:loc:m1
 . interp
 
-Widziałem _
 Widział praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 ich ppron3:pl:acc:m1:ter:akc:npraep
@@ -13315,7 +13223,6 @@ młoda adj:sg:nom:f:pos
 kobieta subst:sg:nom:f
 . interp
 
-chciałam _
 chciała praet:sg:f:imperf
 m aglt:sg:pri:imperf:nwok
 zapytać inf:perf
@@ -13399,7 +13306,6 @@ zaraźliwa adj:sg:nom:f:pos
 . interp
 
 Przecież part
-przegraliście _
 przegrali praet:pl:m1:perf
 ście aglt:pl:sec:imperf:nwok
 , interp
@@ -13849,7 +13755,6 @@ dróżką subst:sg:inst:f
 . interp
 
 - interp
-Zrobiliśmy _
 Zrobili praet:pl:m1:perf
 śmy aglt:pl:pri:imperf:nwok
 program subst:sg:acc:m3
@@ -14247,7 +14152,6 @@ niedoczytanej ppas:sg:gen:f:perf:neg
 książki subst:sg:gen:f
 . interp
 
-Poniosłam _
 Poniosła praet:sg:f:perf
 m aglt:sg:pri:imperf:nwok
 taką adj:sg:acc:f:pos
@@ -14271,7 +14175,6 @@ zarabiasz fin:sg:sec:imperf
 na prep:loc
 tym subst:sg:loc:n:ncol
 co subst:sg:acc:n:ncol
-sprzedałeś _
 sprzedał praet:sg:m1:perf
 eś aglt:sg:sec:imperf:wok
 plus conj
@@ -14280,7 +14183,6 @@ z prep:gen:nwok
 zarobków subst:pl:gen:m3
 ludzi subst:pl:gen:m1
 których adj:pl:acc:m1:pos
-zwerbowałeś _
 zwerbował praet:sg:m1:perf
 eś aglt:sg:sec:imperf:wok
 . interp
@@ -14552,7 +14454,6 @@ powierzchni subst:sg:gen:f
 Potem adv
 z prep:gen:nwok
 rachunku subst:sg:gen:m3
-zorientowałem _
 zorientował praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 się part
@@ -15265,7 +15166,6 @@ proszę fin:sg:pri:imperf
 co subst:sg:acc:n:ncol
 z prep:inst:nwok
 nią ppron3:sg:inst:f:ter:akc:praep
-zrobiłaś _
 zrobiła praet:sg:f:perf
 ś aglt:sg:sec:imperf:nwok
 - interp
@@ -15490,7 +15390,6 @@ amatorkę subst:sg:acc:f
 , interp
 a conj
 kiedy adv
-zdecydowałam _
 zdecydowała praet:sg:f:perf
 m aglt:sg:pri:imperf:nwok
 się part
@@ -15504,7 +15403,6 @@ dla prep:gen
 nich ppron3:pl:gen:m1:ter:akc:praep
 teatr subst:sg:nom:m3
 , interp
-zostałam _
 została praet:sg:f:perf
 m aglt:sg:pri:imperf:nwok
 ukarana ppas:sg:nom:f:perf:aff
@@ -15653,7 +15551,6 @@ spodziewam fin:sg:pri:imperf
 się part
 , interp
 że comp
-mógłbyś _
 mógł praet:sg:m1:imperf:nagl
 by part
 ś aglt:sg:sec:imperf:nwok
@@ -15694,7 +15591,6 @@ chichów subst:pl:gen:m3
 Poprzez prep:acc:nwok
 te adj:pl:acc:m3:pos
 programy subst:pl:acc:m3
-chcieliśmy _
 chcieli praet:pl:m1:imperf
 śmy aglt:pl:pri:imperf:nwok
 , interp
@@ -15732,7 +15628,6 @@ nas ppron12:pl:acc:m1:pri
 . interp
 
 - interp
-Widziałam _
 Widziała praet:sg:f:imperf
 m aglt:sg:pri:imperf:nwok
 już part
@@ -16471,7 +16366,6 @@ wybuchnęła praet:sg:f:perf
 
 - interp
 Może part
-słyszałem _
 słyszał praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 , interp
@@ -16557,7 +16451,6 @@ Duch subst:sg:nom:m2
 Boży adj:sg:nom:m2:pos
 mówi fin:sg:ter:imperf
 , interp
-abym _
 aby comp
 m aglt:sg:pri:imperf:nwok
 szedł praet:sg:m1:imperf
@@ -16708,7 +16601,6 @@ i conj
 obowiązującą adj:sg:acc:f:pos
 . interp
 
-Myślałem _
 Myślał praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 , interp
@@ -17103,7 +16995,6 @@ Bardzo adv:pos
 proszę fin:sg:pri:imperf
 . interp
 
-Straciłem _
 Stracił praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 serce subst:sg:acc:n:ncol
@@ -17970,7 +17861,6 @@ na prep:acc
 ulicę subst:sg:acc:f
 . interp
 
-Usłyszałem _
 Usłyszał praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 go ppron3:sg:acc:m3:ter:nakc:npraep
@@ -18272,7 +18162,6 @@ nowych adj:pl:gen:m1:pos
 pracodawców subst:pl:gen:m1
 . interp
 
-Myślałam _
 Myślała praet:sg:f:imperf
 m aglt:sg:pri:imperf:nwok
 też part
@@ -18280,7 +18169,6 @@ o prep:loc
 tym subst:sg:loc:n:ncol
 , interp
 że comp
-poznałam _
 poznała praet:sg:f:perf
 m aglt:sg:pri:imperf:nwok
 go ppron3:sg:acc:m1:ter:nakc:npraep
@@ -18540,7 +18428,6 @@ rozmawiać inf:imperf
 
 A conj
 wtedy adv
-skorzystalibyśmy _
 skorzystali praet:pl:m1:perf
 by part
 śmy aglt:pl:pri:imperf:nwok
@@ -19070,7 +18957,6 @@ prasy subst:sg:gen:f
 " interp
 Na prep:loc
 statku subst:sg:loc:m3
-przegrałem _
 przegrał praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 w prep:acc:nwok
@@ -19197,7 +19083,6 @@ lata subst:pl:acc:m3
 . interp
 
 - interp
-Działaliśmy _
 Działali praet:pl:m1:imperf
 śmy aglt:pl:pri:imperf:nwok
 zgodnie adv:pos
@@ -19274,7 +19159,6 @@ Zdarzało praet:sg:n:imperf
 się part
 , interp
 że comp
-uderzyłem _
 uderzył praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 butnego adj:sg:acc:m1:pos
@@ -19316,7 +19200,6 @@ się part
 w prep:loc:nwok
 głowie subst:sg:loc:f
 i conj
-traciłam _
 traciła praet:sg:f:imperf
 m aglt:sg:pri:imperf:nwok
 kontrolę subst:sg:acc:f
@@ -19421,13 +19304,11 @@ Markowski subst:sg:nom:m1
 . interp
 
 Nie part
-wiedziałem _
 wiedział praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 nawet part
 , interp
 gdzie adv
-pracowałem _
 pracował praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 - interp
@@ -19588,12 +19469,10 @@ większej adj:sg:loc:f:com
 pojemności subst:sg:loc:f
 . interp
 
-Kazałaś _
 Kazała praet:sg:f:perf
 ś aglt:sg:sec:imperf:nwok
 czekać inf:imperf
 - interp
-czekałem _
 czekał praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 . interp
@@ -19690,7 +19569,6 @@ system subst:sg:acc:m3
 edukacji subst:sg:gen:f
 ? interp
 
-Pojechałem _
 Pojechał praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 w prep:loc:nwok
@@ -19699,7 +19577,6 @@ sprawie subst:sg:loc:f
 do prep:gen
 Bieruta subst:sg:gen:m1
 i conj
-tłumaczyłem _
 tłumaczył praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 , interp
@@ -19737,7 +19614,6 @@ profesjonalistów subst:pl:gen:m1
 " interp
 Na prep:acc
 dobre adj:sg:acc:n:pos
-zacząłem _
 zaczął praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 śpiewać inf:imperf
@@ -19973,7 +19849,6 @@ Urzędu subst:sg:gen:m3
 Statystycznego adj:sg:gen:m3:pos
 , interp
 średnio adv:pos
-zarabialiśmy _
 zarabiali praet:pl:m1:imperf
 śmy aglt:pl:pri:imperf:nwok
 więcej num:pl:acc:m3:rec
@@ -19996,7 +19871,6 @@ wino subst:sg:nom:n:ncol
 . interp
 
 - interp
-Rozmawiałem _
 Rozmawiał praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 ze prep:inst:wok
@@ -20670,7 +20544,6 @@ W prep:acc:nwok
 ten adj:sg:acc:m3:pos
 sposób subst:sg:acc:m3
 Sejm subst:sg:nom:m3
-miałby _
 miał praet:sg:m3:imperf
 by part
 szansę subst:sg:acc:f
@@ -21127,7 +21000,6 @@ o prep:acc
 butelkę subst:sg:acc:f
 . interp
 
-Zamieniłem _
 Zamienił praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 się part
@@ -21180,7 +21052,6 @@ urozmaicone ppas:pl:nom:m3:perf:aff
 , interp
 jak comp
 urozmaiconym ppas:sg:inst:n:perf:aff
-pragnęłoby _
 pragnęło praet:sg:n:imperf
 by part
 się part
@@ -21238,7 +21109,6 @@ pysk subst:sg:acc:m3
 - interp
 Prosił praet:sg:m1:imperf
 , interp
-bym _
 by comp
 m aglt:sg:pri:imperf:nwok
 obecne adj:pl:acc:f:pos
@@ -21424,7 +21294,6 @@ miast subst:pl:gen:n:ncol
 
 Taka adj:sg:nom:f:pos
 wersja subst:sg:nom:f
-zadowoliłaby _
 zadowoliła praet:sg:f:perf
 by part
 tych adj:pl:acc:m1:pos
@@ -22086,14 +21955,12 @@ powodzią subst:sg:inst:f
 . interp
 
 - interp
-Mówiliśmy _
 Mówili praet:pl:m1:imperf
 śmy aglt:pl:pri:imperf:nwok
 o prep:loc
 starych adj:pl:loc:n:pos
 dziejach subst:pl:loc:n:pt
 - interp
-oświadczyłem _
 oświadczył praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 . interp
@@ -22115,7 +21982,6 @@ W prep:loc:nwok
 chwili subst:sg:loc:f
 , interp
 gdy adv
-przeprowadzałem _
 przeprowadzał praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 przez prep:acc:nwok
@@ -22282,7 +22148,6 @@ kredytów subst:pl:gen:m3
 . interp
 
 - interp
-Zwariowałem _
 Zwariował praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 , interp
@@ -22315,7 +22180,6 @@ Modecki subst:sg:nom:m1
 , interp
 ale conj
 kiedy adv
-zobaczyłem _
 zobaczył praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 reakcję subst:sg:acc:f
@@ -22323,7 +22187,6 @@ premiera subst:sg:gen:m1
 i conj
 służb subst:pl:gen:f
 , interp
-wiedziałem _
 wiedział praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 , interp
@@ -22449,7 +22312,6 @@ Jako comp
 9 adj:sg:nom:m1:pos
 letni adj:sg:nom:m1:pos
 chłopiec subst:sg:nom:m1
-miałem _
 miał praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 w prep:loc:nwok
@@ -22777,7 +22639,6 @@ kilka num:pl:nom:m3:rec
 milionów subst:pl:gen:m3
 Polaków subst:pl:gen:m1
 , interp
-spowodowałoby _
 spowodowało praet:sg:n:perf
 by part
 , interp
@@ -22785,7 +22646,6 @@ by part
 nasz adj:sg:nom:m3:pos
 system subst:sg:nom:m3
 podatkowy adj:sg:nom:m3:pos
-stałby _
 stał praet:sg:m3:perf
 by part
 się part
@@ -23013,7 +22873,6 @@ CZYLI conj
 JA ppron12:sg:nom:m1:pri
 : interp
 Zawsze adv
-byłem _
 był praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 samotnikiem subst:sg:inst:m1
@@ -23027,13 +22886,11 @@ bez prep:gen:nwok
 życia subst:sg:gen:n:ncol
 osobistego adj:sg:gen:n:pos
 ; interp
-zmarnowałem _
 zmarnował praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 wiele num:pl:acc:f:rec
 możliwości subst:pl:gen:f
 i conj
-zrobiłem _
 zrobił praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 wiele num:pl:acc:f:rec
@@ -23204,7 +23061,6 @@ na prep:loc
 wieży subst:sg:loc:f
 Eiffla subst:sg:gen:m1
 , interp
-zacząłem _
 zaczął praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 nie part
@@ -23252,7 +23108,6 @@ Sokal subst:sg:nom:m3
 . interp
 
 - interp
-Słyszałem _
 Słyszał praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 , interp
@@ -23420,7 +23275,6 @@ przekraczał praet:sg:m3:imperf
 barierę subst:sg:acc:f
 dźwięku subst:sg:gen:m3
 , interp
-patrzyłem _
 patrzył praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 , interp
@@ -23429,7 +23283,6 @@ rozpruwa fin:sg:ter:imperf
 niebo subst:sg:acc:n:ncol
 . interp
 
-Straciłem _
 Stracił praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 serce subst:sg:acc:n:ncol
@@ -23685,7 +23538,6 @@ układ subst:sg:acc:m3
 tabeli subst:sg:gen:f
 . interp
 
-Obijaliśmy _
 Obijali praet:pl:m1:imperf
 śmy aglt:pl:pri:imperf:nwok
 się part
@@ -23780,7 +23632,6 @@ się part
 czuje fin:sg:ter:imperf
 . interp
 
-Miałby _
 Miał praet:sg:m3:imperf
 by part
 on ppron3:sg:nom:m3:ter:akc:npraep
@@ -24137,12 +23988,10 @@ mikołajkowe adj:pl:acc:m3:pos
 . interp
 
 - interp
-Zaryglowałem _
 Zaryglował praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 drzwi subst:pl:acc:n:pt
 i conj
-powiedziałem _
 powiedział praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 , interp
@@ -24193,7 +24042,6 @@ Skoro comp
 przez prep:acc:nwok
 kilka num:pl:acc:m3:rec
 lat subst:pl:gen:m3
-podążałeś _
 podążał praet:sg:m1:imperf
 eś aglt:sg:sec:imperf:wok
 w prep:loc:nwok
@@ -24567,7 +24415,6 @@ szczęście subst:sg:nom:n:ncol
 , interp
 że comp
 wreszcie part
-wróciłeś _
 wrócił praet:sg:m1:perf
 eś aglt:sg:sec:imperf:wok
 , interp
@@ -24844,7 +24691,6 @@ znajome adj:sg:nom:n:pos
 - interp
 Stara subst:sg:voc:f
 , interp
-jakbyś _
 jakby comp
 ś aglt:sg:sec:imperf:nwok
 chodziła praet:sg:f:imperf
@@ -24852,7 +24698,6 @@ do prep:gen
 kościoła subst:sg:gen:m3
 , interp
 to comp
-byś _
 by part
 ś aglt:sg:sec:imperf:nwok
 coś subst:sg:acc:n:ncol
@@ -24867,7 +24712,6 @@ księżulem subst:sg:inst:m1
 , interp
 że comp
 coś subst:sg:acc:n:ncol
-czytałaś _
 czytała praet:sg:f:imperf
 ś aglt:sg:sec:imperf:nwok
 - interp
@@ -25075,7 +24919,6 @@ tarnogórski adj:sg:nom:m1:pos
 I part
 od prep:gen:nwok
 razu subst:sg:gen:m3
-skarciłam _
 skarciła praet:sg:f:perf
 m aglt:sg:pri:imperf:nwok
 się part
@@ -25785,7 +25628,6 @@ sąsiadowi subst:sg:dat:m1
 . interp
 
 Jak adv:pos
-chciałaby _
 chciała praet:sg:f:imperf
 by part
 pani subst:sg:nom:f
@@ -25805,7 +25647,6 @@ myślach subst:pl:loc:f
 - interp
 równie adv:pos
 dobrze adv:pos
-mógłbyś _
 mógł praet:sg:m1:imperf:nagl
 by part
 ś aglt:sg:sec:imperf:nwok
@@ -25815,7 +25656,6 @@ z prep:gen:nwok
 tego subst:sg:gen:n:ncol
 , interp
 co subst:sg:acc:n:ncol
-robiliśmy _
 robili praet:pl:m1:imperf
 śmy aglt:pl:pri:imperf:nwok
 w prep:loc:nwok
@@ -26043,7 +25883,6 @@ na prep:loc
 zmieniło praet:sg:n:perf
 , interp
 zanim comp
-nauczyłem _
 nauczył praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 się part
@@ -26073,7 +25912,6 @@ jednej adj:sg:loc:f:pos
 chwili subst:sg:loc:f
 , interp
 kiedy adv
-zostałem _
 został praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 przykuty ppas:sg:nom:m1:perf:aff
@@ -26098,11 +25936,9 @@ test subst:sg:nom:m3
 wychodził praet:sg:m3:perf
 negatywny adj:sg:nom:m3:pos
 - interp
-smutniałam _
 smutniała praet:sg:f:imperf
 m aglt:sg:pri:imperf:nwok
 i conj
-miałam _
 miała praet:sg:f:imperf
 m aglt:sg:pri:imperf:nwok
 łzy subst:pl:acc:f
@@ -26479,7 +26315,6 @@ kurzu subst:sg:gen:m3
 , interp
 i conj
 nie part
-wiedziałem _
 wiedział praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 , interp
@@ -26575,7 +26410,6 @@ cackał praet:sg:m1:imperf
 " interp
 
 Nie part
-demonizowałbym _
 demonizował praet:sg:m1:imperf
 by part
 m aglt:sg:pri:imperf:nwok
@@ -26690,7 +26524,6 @@ powiedzieć inf:perf
 Spokój subst:sg:nom:m3
 ! interp
 - interp
-wydarłem _
 wydarł praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 się part
@@ -26949,7 +26782,6 @@ się part
 wyrobiły praet:pl:f:perf
 , interp
 że comp
-bałam _
 bała praet:sg:f:imperf
 m aglt:sg:pri:imperf:nwok
 się part
@@ -27274,7 +27106,6 @@ Renesansu subst:sg:gen:m3
 . interp
 
 – interp
-Proponowałbym _
 Proponował praet:sg:m1:imperf
 by part
 m aglt:sg:pri:imperf:nwok
@@ -27404,7 +27235,6 @@ tak adv:pos
 , interp
 jak comp
 sobie siebie:dat
-wyobrażałem _
 wyobrażał praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 : interp
@@ -27595,7 +27425,6 @@ porażeniem subst:sg:inst:n:ncol
 
 Na prep:loc
 Instagramie subst:sg:loc:m2
-chciałem _
 chciał praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 być inf:imperf
@@ -27613,7 +27442,6 @@ przyznam fin:sg:pri:perf
 – interp
 pewnego adj:sg:gen:m3:pos
 razu subst:sg:gen:m3
-kupiłem _
 kupił praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 sobie siebie:dat
@@ -27635,7 +27463,6 @@ to subst:sg:nom:n:ncol
 że comp
 tego subst:sg:gen:n:ncol
 nie part
-rozumiałam _
 rozumiała praet:sg:f:imperf
 m aglt:sg:pri:imperf:nwok
 , interp
@@ -27888,7 +27715,6 @@ kartoteki subst:pl:acc:f
 przestępców subst:pl:gen:m1
 . interp
 
-Posłałem _
 Posłał praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 do prep:gen
@@ -28238,7 +28064,6 @@ zestawy subst:pl:acc:m3
 sztućców subst:pl:gen:m3
 stole subst:sg:loc:m3
 - interp
-powinniśmy _
 powinni winien:pl:m1:imperf
 śmy aglt:pl:pri:imperf:nwok
 stać inf:perf
@@ -28260,7 +28085,6 @@ przybrała praet:sg:f:perf
 barwę subst:sg:acc:f
 dania subst:sg:gen:n:ncol
 - interp
-przypominałyśmy _
 przypominały praet:pl:f:imperf
 śmy aglt:pl:pri:imperf:nwok
 zamaskowanych adj:pl:acc:m1:pos
@@ -29004,7 +28828,6 @@ Tak part
 do prep:gen
 końca subst:sg:gen:m3
 nie part
-byłem _
 był praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 tego subst:sg:gen:n:ncol
@@ -29023,7 +28846,6 @@ ilość subst:sg:acc:f
 energii subst:sg:gen:f
 i conj
 chyba part
-byłyby _
 były praet:pl:f:imperf
 by part
 w prep:loc:nwok
@@ -29043,7 +28865,6 @@ miejscu subst:sg:loc:n:ncol
 pancerz subst:sg:acc:m3
 . interp
 
-Podciągnęłam _
 Podciągnęła praet:sg:f:perf
 m aglt:sg:pri:imperf:nwok
 sztywny adj:sg:acc:m3:pos
@@ -29057,7 +28878,6 @@ na prep:loc
 nierównościach subst:pl:loc:f
 podłogi subst:sg:gen:f
 , interp
-usadziłam _
 usadziła praet:sg:f:perf
 m aglt:sg:pri:imperf:nwok
 ją ppron3:sg:acc:f:ter:akc:npraep
@@ -29220,7 +29040,6 @@ nie part
 powiem fin:sg:pri:perf
 , interp
 co subst:sg:acc:n:ncol
-żeście _
 że part
 ście aglt:pl:sec:imperf:nwok
 kombinowali praet:pl:m1:imperf
@@ -29300,7 +29119,6 @@ Córka subst:sg:nom:f
 zastanawia fin:sg:ter:imperf
 się part
 , interp
-czybym _
 czy part
 by part
 m aglt:sg:pri:imperf:nwok
@@ -29392,7 +29210,6 @@ O interj
 Boże subst:sg:voc:m1
 , interp
 nie part
-znalazłam _
 znalazła praet:sg:f:perf
 m aglt:sg:pri:imperf:nwok
 Williego subst:sg:gen:m1
@@ -29401,7 +29218,6 @@ uświadomiła praet:sg:f:perf
 sobie siebie:dat
 nagle adv:pos
 - interp
-zostawiłam _
 zostawiła praet:sg:f:perf
 m aglt:sg:pri:imperf:nwok
 go ppron3:sg:acc:m1:ter:nakc:npraep
@@ -29553,7 +29369,6 @@ lotniskowych adj:pl:gen:f:pos
 pkt brev:npun
 32 dig
 ) interp
-miałby _
 miał praet:sg:m3:imperf
 by part
 się part
@@ -29667,7 +29482,6 @@ konno adv:pos
 Daj impt:sg:sec:perf
 mi ppron12:sg:dat:m1:pri:nakc
 siłę subst:sg:acc:f
-bym _
 by comp
 m aglt:sg:pri:imperf:nwok
 uratował praet:sg:m1:perf
@@ -29804,7 +29618,6 @@ decyzji subst:sg:gen:f
 A part
 ja ppron12:sg:nom:m1:pri
 nie part
-mogłem _
 mogł praet:sg:m1:imperf:agl
 em aglt:sg:pri:imperf:wok
 się part
@@ -29815,7 +29628,6 @@ Obawiam fin:sg:pri:imperf
 się part
 , interp
 że comp
-zachowywałem _
 zachowywał praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 się part
@@ -29839,7 +29651,6 @@ dobowej adj:sg:gen:f:pos
 dawki subst:sg:gen:f
 . interp
 
-Pomyślałam _
 Pomyślała praet:sg:f:perf
 m aglt:sg:pri:imperf:nwok
 , interp
@@ -29891,7 +29702,6 @@ oraz conj
 
 Zawsze adv
 cię ppron12:sg:acc:m1:sec:nakc
-kochałem _
 kochał praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 i conj
@@ -29904,7 +29714,6 @@ ojca subst:sg:acc:m1
 przeniesiono imps:perf
 i conj
 wtedy adv
-widziałem _
 widział praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 ją ppron3:sg:acc:f:ter:akc:npraep
@@ -29914,7 +29723,6 @@ ostatni adj:sg:acc:m3:pos
 . interp
 
 Ponadto part
-powinniśmy _
 powinni winien:pl:m1:imperf
 śmy aglt:pl:pri:imperf:nwok
 poświęcić inf:perf
@@ -29924,7 +29732,6 @@ izolacji subst:sg:gen:f
 budynków subst:pl:gen:m3
 , interp
 co subst:sg:nom:n:ncol
-miałoby _
 miało praet:sg:n:imperf
 by part
 istotne adj:sg:acc:n:pos
@@ -30208,7 +30015,6 @@ także part
 potwierdza fin:sg:ter:imperf
 , interp
 że comp
-powinniśmy _
 powinni winien:pl:m1:imperf
 śmy aglt:pl:pri:imperf:nwok
 zwiększyć inf:perf
@@ -30474,7 +30280,6 @@ mostu subst:sg:gen:m3
 . interp
 
 Ja ppron12:sg:nom:f:pri
-chciałabym _
 chciała praet:sg:f:imperf
 by part
 m aglt:sg:pri:imperf:nwok
@@ -30551,7 +30356,6 @@ ESA subst:sg:nom:f
 . interp
 
 Nie part
-słyszałam _
 słyszała praet:sg:f:imperf
 m aglt:sg:pri:imperf:nwok
 ich ppron3:pl:gen:m1:ter:akc:npraep
@@ -30945,7 +30749,6 @@ zostać inf:perf
 uiszczone ppas:pl:nom:m3:perf:aff
 . interp
 
-Dotarłem _
 Dotarł praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 tu adv
@@ -30981,7 +30784,6 @@ efektywności subst:sg:gen:f
 funduszu subst:sg:gen:m3
 , interp
 
-Miałem _
 Miał praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 właśnie adv
@@ -31173,7 +30975,6 @@ się part
 modlił praet:sg:m1:imperf
 . interp
 
-Upewniłam _
 Upewniła praet:sg:f:perf
 m aglt:sg:pri:imperf:nwok
 się part
@@ -31253,7 +31054,6 @@ Nawet part
 wtedy adv
 , interp
 nie part
-mogłam _
 mogła praet:sg:f:imperf
 m aglt:sg:pri:imperf:nwok
 pójść inf:perf
@@ -31314,7 +31114,6 @@ następujące adj:pl:acc:f:pos
 zmiany subst:pl:acc:f
 : interp
 
-Powiedziałeś _
 Powiedział praet:sg:m1:perf
 eś aglt:sg:sec:imperf:wok
 Robertowi subst:sg:dat:m1
@@ -31373,7 +31172,6 @@ r brev:pun
 
 Porządny adj:sg:nom:m1:pos
 człowiek subst:sg:nom:m1
-zostawiłby _
 zostawił praet:sg:m1:perf
 by part
 żonę subst:sg:acc:f
@@ -31435,7 +31233,6 @@ o prep:loc
 różnych adj:pl:loc:n:pos
 źródłach subst:pl:loc:n:ncol
 , interp
-chciałabym _
 chciała praet:sg:f:imperf
 by part
 m aglt:sg:pri:imperf:nwok
@@ -31569,7 +31366,6 @@ tego subst:sg:gen:n:ncol
 . interp
 
 Nie part
-powinnaś _
 powinna winien:sg:f:imperf
 ś aglt:sg:sec:imperf:nwok
 tego subst:sg:gen:n:ncol
@@ -31662,7 +31458,6 @@ zostają fin:pl:ter:imperf
 zwolnione ppas:pl:nom:f:perf:aff
 . interp
 
-Posługiwałeś _
 Posługiwał praet:sg:m1:imperf
 eś aglt:sg:sec:imperf:wok
 się part
@@ -31779,7 +31574,6 @@ hematologiczna adj:sg:nom:f:pos
 
 - interp
 Nie part
-byłem _
 był praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 w prep:loc:nwok
@@ -31825,7 +31619,6 @@ oświadczenia subst:sg:gen:n:ncol
 , interp
 pod prep:inst:nwok
 którym adj:sg:inst:n:pos
-mógłby _
 mógł praet:sg:m1:imperf:nagl
 by part
 pan subst:sg:nom:m1
@@ -31876,7 +31669,6 @@ wyborów subst:pl:gen:n:pt
 Szarpnęła praet:sg:f:perf
 głową subst:sg:inst:f
 , interp
-jakbym _
 jakby comp
 m aglt:sg:pri:imperf:nwok
 ją ppron3:sg:acc:f:ter:akc:npraep
@@ -31895,7 +31687,6 @@ napisał praet:sg:m1:perf
 " interp
 Dopóki comp
 nie part
-spotkałem _
 spotkał praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 Mickybo subst:sg:gen:m1
@@ -31974,7 +31765,6 @@ naboju subst:sg:gen:m3
 . interp
 
 Nie part
-mogłam _
 mogła praet:sg:f:imperf
 m aglt:sg:pri:imperf:nwok
 dłużej adv:com
@@ -32048,7 +31838,6 @@ produktów subst:pl:gen:m3
 
 To subst:sg:acc:n:ncol
 właśnie part
-zrobiliśmy _
 zrobili praet:pl:m1:perf
 śmy aglt:pl:pri:imperf:nwok
 i conj
@@ -32320,7 +32109,6 @@ promotorom subst:pl:dat:m1
 Myślę fin:sg:pri:imperf
 , interp
 że comp
-powinniśmy _
 powinni winien:pl:m1:imperf
 śmy aglt:pl:pri:imperf:nwok
 usiąść inf:perf
@@ -32481,7 +32269,6 @@ rozporządzeniu subst:sg:loc:n:ncol
 REACH subst:sg:loc:n:ncol
 . interp
 
-Myślałeś _
 Myślał praet:sg:m1:imperf
 eś aglt:sg:sec:imperf:wok
 o prep:loc
@@ -32590,7 +32377,6 @@ zasadności subst:sg:gen:f
 ” interp
 . interp
 
-Wiedziałam _
 Wiedziała praet:sg:f:imperf
 m aglt:sg:pri:imperf:nwok
 , interp
@@ -32598,7 +32384,6 @@ m aglt:sg:pri:imperf:nwok
 będzie bedzie:sg:ter:imperf
 tłoczno adv:pos
 więc comp
-przyszłam _
 przyszła praet:sg:f:perf
 m aglt:sg:pri:imperf:nwok
 o prep:loc
@@ -32771,7 +32556,6 @@ nie part
 rozwiąże fin:sg:ter:perf
 . interp
 
-Oznaczałoby _
 Oznaczało praet:sg:n:imperf
 by part
 to subst:sg:nom:n:ncol
@@ -32834,7 +32618,6 @@ daty subst:pl:acc:f
 . interp
 
 Nie part
-powinieneś _
 powinien winien:sg:m1:imperf
 eś aglt:sg:sec:imperf:wok
 tak adv:pos
@@ -32857,7 +32640,6 @@ konsumenta subst:sg:acc:m1
 . interp
 
 Więc comp
-powinnaś _
 powinna winien:sg:f:imperf
 ś aglt:sg:sec:imperf:nwok
 zrobić inf:perf
@@ -32872,7 +32654,6 @@ statystyki subst:pl:nom:f
 , interp
 a conj
 my ppron12:pl:nom:m1:pri
-powinniśmy _
 powinni winien:pl:m1:imperf
 śmy aglt:pl:pri:imperf:nwok
 się part
@@ -32942,10 +32723,8 @@ traktat subst:sg:acc:m3
 Ale conj
 zanim comp
 się part
-obejrzałaś _
 obejrzała praet:sg:f:perf
 ś aglt:sg:sec:imperf:nwok
-wróciłaś _
 wróciła praet:sg:f:perf
 ś aglt:sg:sec:imperf:nwok
 do prep:gen
@@ -33433,12 +33212,10 @@ niniejszej adj:sg:gen:f:pos
 opinii subst:sg:gen:f
 . interp
 
-Przyszliśmy _
 Przyszli praet:pl:m1:perf
 śmy aglt:pl:pri:imperf:nwok
 , interp
 bo comp
-martwiliśmy _
 martwili praet:pl:m1:imperf
 śmy aglt:pl:pri:imperf:nwok
 się part
@@ -33512,7 +33289,6 @@ polityki subst:sg:gen:f
 klimatycznej adj:sg:gen:f:pos
 . interp
 
-Sądziłem _
 Sądził praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 , interp
@@ -33716,7 +33492,6 @@ sierści subst:sg:loc:f
 myszy subst:sg:gen:f
 . interp
 
-Przyszłaś _
 Przyszła praet:sg:f:perf
 ś aglt:sg:sec:imperf:nwok
 mi ppron12:sg:dat:m1:pri:nakc
@@ -33726,7 +33501,6 @@ Roberta subst:sg:gen:m1
 Chiltern subst:sg:gen:m1
 . interp
 
-Chciałbym _
 Chciał praet:sg:m1:imperf
 by part
 m aglt:sg:pri:imperf:nwok
@@ -33860,7 +33634,6 @@ operacyjnego adj:sg:gen:n:pos
 . interp
 
 Nie part
-wiedziałem _
 wiedział praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 , interp
@@ -33917,7 +33690,6 @@ to pred
 istotne adj:sg:nom:n:pos
 osiągnięcie subst:sg:nom:n:ncol
 i conj
-wezwałbym _
 wezwał praet:sg:m1:perf
 by part
 m aglt:sg:pri:imperf:nwok
@@ -34004,7 +33776,6 @@ przykład subst:sg:acc:m3
 porozumień subst:pl:gen:n:ncol
 , interp
 które adj:pl:nom:n:pos
-mogłyby _
 mogły praet:pl:n:imperf
 by part
 pośrednio adv:pos
@@ -34094,7 +33865,6 @@ kliprami subst:pl:inst:m3
 tuńczykowymi adj:pl:inst:m3:pos
 . interp
 
-Umówiłam _
 Umówiła praet:sg:f:perf
 m aglt:sg:pri:imperf:nwok
 Cię ppron12:sg:acc:m1:sec:nakc
@@ -34166,7 +33936,6 @@ Boże subst:sg:voc:m1
 jak adv:pos
 ja ppron12:sg:nom:m1:pri
 ją ppron3:sg:acc:f:ter:akc:npraep
-kochałem _
 kochał praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 . interp
@@ -34668,19 +34437,16 @@ organu subst:sg:gen:m3
 . interp
 
 Nie part
-mogłam _
 mogła praet:sg:f:imperf
 m aglt:sg:pri:imperf:nwok
 uwierzyć inf:perf
 , interp
 że comp
-byłam _
 była praet:sg:f:imperf
 m aglt:sg:pri:imperf:nwok
 w prep:loc:nwok
 kościele subst:sg:loc:m3
 , interp
-pożądałam _
 pożądała praet:sg:f:imperf
 m aglt:sg:pri:imperf:nwok
 go ppron3:sg:acc:m1:ter:nakc:npraep
@@ -34692,7 +34458,6 @@ Pamiętasz fin:sg:sec:imperf
 kiedy adv
 pierwszy adj:sg:acc:m3:pos
 raz subst:sg:acc:m3
-wróciłam _
 wróciła praet:sg:f:perf
 m aglt:sg:pri:imperf:nwok
 po prep:loc
@@ -34712,7 +34477,6 @@ entuzjazmu subst:sg:gen:m3
 . interp
 
 Może part
-moglibyśmy _
 mogli praet:pl:m1:imperf
 by part
 śmy aglt:pl:pri:imperf:nwok
@@ -34776,7 +34540,6 @@ Collridge subst:sg:nom:m1
 a conj
 ty ppron12:sg:nom:f:sec
 właśnie adv
-przechodziłaś _
 przechodziła praet:sg:f:imperf
 ś aglt:sg:sec:imperf:nwok
 przez prep:acc:nwok
@@ -34918,7 +34681,6 @@ baz subst:pl:gen:f
 danych subst:pl:gen:n:pt
 . interp
 
-Powiedziałam _
 Powiedziała praet:sg:f:perf
 m aglt:sg:pri:imperf:nwok
 to adj:sg:acc:n:pos
@@ -34943,7 +34705,6 @@ Stanowczo adv:pos
 sądzę fin:sg:pri:imperf
 , interp
 że comp
-powinniśmy _
 powinni winien:pl:m1:imperf
 śmy aglt:pl:pri:imperf:nwok
 dążyć inf:imperf
@@ -34963,7 +34724,6 @@ mi ppron12:sg:dat:m1:pri:nakc
 powiedzieć inf:perf
 , interp
 że comp
-znaleźliśmy _
 znaleźli praet:pl:m1:perf
 śmy aglt:pl:pri:imperf:nwok
 sposób subst:sg:acc:m3
@@ -34976,7 +34736,6 @@ bronić inf:imperf
 Wybacz impt:sg:sec:perf
 metaforę subst:sg:acc:f
 - interp
-wystawiłeś _
 wystawił praet:sg:m1:perf
 eś aglt:sg:sec:imperf:wok
 ją ppron3:sg:acc:f:ter:akc:npraep
@@ -35237,7 +34996,6 @@ odkrycia subst:sg:gen:n:ncol
 wynika fin:sg:ter:imperf
 , interp
 że comp
-należałoby _
 należało praet:sg:n:imperf
 by part
 raczej part
@@ -35374,7 +35132,6 @@ to subst:sg:nom:n:ncol
 mówi fin:sg:ter:imperf
 ? interp
 
-Myślałem _
 Myślał praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 , interp
@@ -35387,7 +35144,6 @@ morzu subst:sg:loc:n:ncol
 . interp
 
 Zawsze adv
-marzyłem _
 marzył praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 by comp
@@ -35407,7 +35163,6 @@ dokonywało praet:sg:n:imperf
 
 Virginio subst:sg:voc:f
 , interp
-mówiłam _
 mówiła praet:sg:f:imperf
 m aglt:sg:pri:imperf:nwok
 Ci ppron12:sg:dat:f:sec:nakc
@@ -35473,7 +35228,6 @@ mojej adj:sg:dat:f:pos
 żonie subst:sg:dat:f
 , interp
 że comp
-byłem _
 był praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 tu adv
@@ -35553,7 +35307,6 @@ z prep:gen:nwok
 Lizbony subst:sg:gen:f
 . interp
 
-Odesłałeś _
 Odesłał praet:sg:m1:perf
 eś aglt:sg:sec:imperf:wok
 go ppron3:sg:acc:m1:ter:nakc:npraep
@@ -35760,7 +35513,6 @@ obmacywał praet:sg:m1:imperf
 moje adj:pl:acc:n:pos
 żebra subst:pl:acc:n:ncol
 , interp
-usiłowałem _
 usiłował praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 zebrać inf:perf
@@ -35921,7 +35673,6 @@ Uważam fin:sg:pri:imperf
 , interp
 że comp
 obecnie adv:pos
-położyliśmy _
 położyli praet:pl:m1:perf
 śmy aglt:pl:pri:imperf:nwok
 pod prep:acc:nwok
@@ -36042,7 +35793,6 @@ szef subst:sg:nom:m1
 rządu subst:sg:gen:m3
 . interp
 
-Chciałbym _
 Chciał praet:sg:m1:imperf
 by part
 m aglt:sg:pri:imperf:nwok

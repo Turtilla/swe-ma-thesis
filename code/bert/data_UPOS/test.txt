@@ -2862,7 +2862,6 @@ potrafię VERB
 . PUNCT
 
 Nie PART
-zdążyłem _
 zdążył VERB
 em AUX
 . PUNCT
@@ -2878,7 +2877,6 @@ Kiedy ADV
 go PRON
 aresztowano VERB
 , PUNCT
-uważałem _
 uważał VERB
 em AUX
 to PRON
@@ -2968,7 +2966,6 @@ inicjatywę NOUN
 ? PUNCT
 
 Zawsze ADV
-lubiłem _
 lubił VERB
 em AUX
 oglądać VERB
@@ -3019,12 +3016,10 @@ romansować VERB
 
 Bardzo ADV
 się PRON
-wzruszyłam _
 wzruszyła VERB
 m AUX
 . PUNCT
 
-Przytyłam _
 Przytyła VERB
 m AUX
 do ADP
@@ -3218,7 +3213,6 @@ dzierżą VERB
 mężczyźni NOUN
 . PUNCT
 
-Rozbiłaś _
 Rozbiła VERB
 ś AUX
 mi PRON
@@ -3250,7 +3244,6 @@ jak SCONJ
 rosną VERB
 . PUNCT
 
-Zapowiedzieliśmy _
 Zapowiedzieli VERB
 śmy AUX
 w ADP
@@ -3351,7 +3344,6 @@ sobotę NOUN
 
 Ale CCONJ
 nie PART
-wiedziałem _
 wiedział VERB
 em AUX
 , PUNCT
@@ -3415,7 +3407,6 @@ kobiety NOUN
 ? PUNCT
 
 Dlaczego ADV
-miałby _
 miał VERB
 by AUX
 tego PRON
@@ -4290,7 +4281,6 @@ morze NOUN
 - PUNCT
 Tutaj ADV
 nie PART
-byłoby _
 było VERB
 by AUX
 tak ADV
@@ -4304,7 +4294,6 @@ wiem VERB
 tato NOUN
 . PUNCT
 
-Widziałbyś _
 Widział VERB
 by AUX
 ś AUX
@@ -4365,7 +4354,6 @@ Minibus NOUN
 odjeżdża VERB
 . PUNCT
 
-Chciałem _
 Chciał VERB
 em AUX
 oddać VERB
@@ -4373,7 +4361,6 @@ ci PRON
 plecak NOUN
 . PUNCT
 
-Powiedziałem _
 Powiedział VERB
 em AUX
 mu PRON
@@ -4483,7 +4470,6 @@ Weipert PROPN
 Tę DET
 informację NOUN
 sam ADJ
-przekazałem _
 przekazał VERB
 em AUX
 . PUNCT
@@ -4519,7 +4505,6 @@ dane NOUN
 personalne ADJ
 . PUNCT
 
-Wycyganiłaś _
 Wycyganiła VERB
 ś AUX
 pieniądze NOUN
@@ -4560,7 +4545,6 @@ oknie NOUN
 . PUNCT
 
 Kiedy ADV
-weszłam _
 weszła VERB
 m AUX
 do ADP
@@ -4576,7 +4560,6 @@ Drzemał VERB
 . PUNCT
 
 Nagle ADV
-uświadomiłam _
 uświadomiła VERB
 m AUX
 sobie PRON
@@ -4625,14 +4608,12 @@ już PART
 widno ADV
 , PUNCT
 wyraźnie ADV
-widziałam _
 widziała VERB
 m AUX
 znajome ADJ
 sprzęty NOUN
 . PUNCT
 
-Zaczęliśmy _
 Zaczęli VERB
 śmy AUX
 się PRON
@@ -4640,14 +4621,12 @@ dzielić VERB
 opłatkiem NOUN
 . PUNCT
 
-Czułam _
 Czuła VERB
 m AUX
 te DET
 ruchome ADJ
 kosteczki NOUN
 i CCONJ
-bałam _
 bała VERB
 m AUX
 się PRON
@@ -4660,7 +4639,6 @@ w ADP
 rękach NOUN
 . PUNCT
 
-Oparłam _
 Oparła VERB
 m AUX
 się PRON
@@ -4687,7 +4665,6 @@ bezgłośny ADJ
 dialog NOUN
 . PUNCT
 
-Postawiłam _
 Postawiła VERB
 m AUX
 przed ADP
@@ -4724,7 +4701,6 @@ się PRON
 odezwał VERB
 . PUNCT
 
-Mówiliśmy _
 Mówili VERB
 śmy AUX
 już PART
@@ -5043,7 +5019,6 @@ roześmiał VERB
 
 Dziś ADV
 wyjątkowo ADV
-przegrałem _
 przegrał VERB
 em AUX
 . PUNCT
@@ -5147,7 +5122,6 @@ prawda NOUN
 moja DET
 siostra NOUN
 nie PART
-zniosłaby _
 zniosła VERB
 by AUX
 związku NOUN
@@ -5233,13 +5207,11 @@ rozpryskiwały VERB
 błoto NOUN
 . PUNCT
 
-Stałem _
 Stał VERB
 em AUX
 obok ADP
 ojca NOUN
 i CCONJ
-przyglądałem _
 przyglądał VERB
 em AUX
 się PRON
@@ -5273,7 +5245,6 @@ pewno ADV
 Jedzie VERB
 ! PUNCT
 
-Siedzieliśmy _
 Siedzieli VERB
 śmy AUX
 w ADP
@@ -5283,11 +5254,9 @@ południową ADJ
 kawę NOUN
 . PUNCT
 
-Wstaliśmy _
 Wstali VERB
 śmy AUX
 i CCONJ
-wyszliśmy _
 wyszli VERB
 śmy AUX
 . PUNCT
@@ -5295,7 +5264,6 @@ wyszli VERB
 W ADP
 samochodzie NOUN
 długo ADV
-milczeliśmy _
 milczeli VERB
 śmy AUX
 . PUNCT
@@ -5338,7 +5306,6 @@ poematu NOUN
 
 W ADP
 Brzozowskim PROPN
-odkrywałem _
 odkrywał VERB
 em AUX
 od ADP
@@ -5428,7 +5395,6 @@ się PRON
 dzieckiem NOUN
 . PUNCT
 
-Popełniłam _
 Popełniła VERB
 m AUX
 jakiś DET
@@ -5474,7 +5440,6 @@ nie PART
 dzieje VERB
 . PUNCT
 
-Mieliśmy _
 Mieli VERB
 śmy AUX
 dużo DET
@@ -5483,7 +5448,6 @@ nieprzewidzianych ADJ
 . PUNCT
 
 Potężnie ADV
-zapożyczyłem _
 zapożyczył VERB
 em AUX
 się PRON
@@ -5615,7 +5579,6 @@ ktoś PRON
 z ADP
 państwa NOUN
 jeszcze PART
-chciałby _
 chciał VERB
 by AUX
 zadać VERB
@@ -5643,7 +5606,6 @@ proszę VERB
 . PUNCT
 
 - PUNCT
-Chciałbym _
 Chciał VERB
 by AUX
 m AUX
@@ -5661,7 +5623,6 @@ poprawek NOUN
 . PUNCT
 
 - PUNCT
-Chciałem _
 Chciał VERB
 em AUX
 zgłosić VERB
@@ -5758,7 +5719,6 @@ pośle NOUN
 Czy PART
 ktoś PRON
 jeszcze PART
-chciałby _
 chciał VERB
 by AUX
 się PRON
@@ -5924,7 +5884,6 @@ libacji NOUN
 
 Takie DET
 informacje NOUN
-uzyskaliśmy _
 uzyskali VERB
 śmy AUX
 na ADP
@@ -6006,7 +5965,6 @@ Polska PROPN
 . PUNCT
 
 A CCONJ
-musiałem _
 musiał VERB
 em AUX
 chyba PART
@@ -6117,7 +6075,6 @@ bezrobotny NOUN
 . PUNCT
 
 Nie PART
-chciałem _
 chciał VERB
 em AUX
 , PUNCT
@@ -6156,7 +6113,6 @@ Glempem PROPN
 - PUNCT
 Dwa NUM
 lata NOUN
-pracowałem _
 pracował VERB
 em AUX
 nad ADP
@@ -6199,7 +6155,6 @@ Czyżby PART
 urzędnicy NOUN
 z ADP
 MSZ PROPN
-mieliby _
 mieli VERB
 by AUX
 samodzielnie ADV
@@ -6376,7 +6331,6 @@ tym PRON
 
 Jeszcze PART
 nie PART
-pokonałem _
 pokonał VERB
 em AUX
 Mayfielda PROPN
@@ -6619,7 +6573,6 @@ stanu NOUN
 . PUNCT
 
 Tak ADV
-spędziliśmy _
 spędzili VERB
 śmy AUX
 całe ADJ
@@ -6725,7 +6678,6 @@ podłożem NOUN
 Zupełnie ADV
 tak ADV
 , PUNCT
-jakbyśmy _
 jakby SCONJ
 śmy AUX
 oprowadzani ADJ
@@ -6804,7 +6756,6 @@ Hamasem PROPN
 . PUNCT
 
 - PUNCT
-Postawiłam _
 Postawiła VERB
 m AUX
 sprawę NOUN
@@ -6823,7 +6774,6 @@ może PART
 w ADP
 takim DET
 przypadku NOUN
-powstałaby _
 powstała VERB
 by AUX
 jakaś DET
@@ -6865,18 +6815,15 @@ bloków NOUN
 . PUNCT
 
 Nagle ADV
-usłyszałem _
 usłyszał VERB
 em AUX
 strzał NOUN
 , PUNCT
-wpadłem _
 wpadł VERB
 em AUX
 do ADP
 warsztatu NOUN
 i CCONJ
-zastałem _
 zastał VERB
 em AUX
 trupa NOUN
@@ -6902,7 +6849,6 @@ roku NOUN
 W ADP
 mojej DET
 praktyce NOUN
-stwierdziłam _
 stwierdziła VERB
 m AUX
 , PUNCT
@@ -7010,7 +6956,6 @@ worku NOUN
 
 - PUNCT
 Nie PART
-widziałam _
 widziała VERB
 m AUX
 - PUNCT
@@ -7191,7 +7136,6 @@ Po ADP
 powrocie NOUN
 do ADP
 domu NOUN
-stwierdziłem _
 stwierdził VERB
 em AUX
 , PUNCT
@@ -7322,7 +7266,6 @@ powiada VERB
 , PUNCT
 że SCONJ
 żona NOUN
-mogłaby _
 mogła VERB
 by AUX
 zapobiec VERB
@@ -7544,7 +7487,6 @@ rok NOUN
 . PUNCT
 
 - PUNCT
-Zdałem _
 Zdał VERB
 em AUX
 maturę NOUN
@@ -7704,7 +7646,6 @@ bardzo ADV
 nie PART
 chcę VERB
 , PUNCT
-żebyś _
 żeby SCONJ
 ś AUX
 odszedł VERB
@@ -7716,7 +7657,6 @@ wiem VERB
 musisz VERB
 odejść VERB
 - PUNCT
-szepnęłam _
 szepnęła VERB
 m AUX
 . PUNCT
@@ -7776,7 +7716,6 @@ co PRON
 się PRON
 stało VERB
 , PUNCT
-przestałem _
 przestał VERB
 em AUX
 odwiedzać VERB
@@ -7790,7 +7729,6 @@ mnie PRON
 na ADP
 parkingu NOUN
 , PUNCT
-odpowiedziałem _
 odpowiedział VERB
 em AUX
 jej PRON
@@ -7824,7 +7762,6 @@ Czuł VERB
 , PUNCT
 że SCONJ
 ojciec NOUN
-byłby _
 był AUX
 by AUX
 z ADP
@@ -7918,7 +7855,6 @@ tak ADV
 prosta ADJ
 , PUNCT
 iż SCONJ
-dałoby _
 dało VERB
 by AUX
 się PRON
@@ -7952,7 +7888,6 @@ uczy VERB
 historii NOUN
 ? PUNCT
 - PUNCT
-zapytałem _
 zapytał VERB
 em AUX
 . PUNCT
@@ -8150,7 +8085,6 @@ chwilę NOUN
 jednym ADJ
 szarpnięciem NOUN
 ciała NOUN
-próbowałem _
 próbował VERB
 em AUX
 się PRON
@@ -8475,7 +8409,6 @@ Dlaczego ADV
 ona PRON
 ? PUNCT
 - PUNCT
-zapytałem _
 zapytał VERB
 em AUX
 . PUNCT
@@ -8554,7 +8487,6 @@ gdy ADV
 oszczędność NOUN
 i CCONJ
 wygoda NOUN
-dyktowałyby _
 dyktowały VERB
 by AUX
 co ADP
@@ -8615,7 +8547,6 @@ się PRON
 chciało VERB
 , PUNCT
 kiedy ADV
-dostałam _
 dostała VERB
 m AUX
 egzemplarze NOUN
@@ -9062,7 +8993,6 @@ osobami NOUN
 
 Za ADP
 nie PRON
-byłyby _
 były AUX
 by AUX
 nabywane ADJ
@@ -9178,7 +9108,6 @@ więcej DET
 W ADP
 porządku NOUN
 - PUNCT
-mruknąłem _
 mruknął VERB
 em AUX
 upokorzony ADJ
@@ -9680,7 +9609,6 @@ Chyżnem PROPN
 rośnie VERB
 . PUNCT
 
-Informowaliśmy _
 Informowali VERB
 śmy AUX
 wczoraj ADV
@@ -9900,7 +9828,6 @@ cicho ADV
 - PUNCT
 Ja PRON
 tam ADV
-byłem _
 był VERB
 em AUX
 . PUNCT
@@ -9926,7 +9853,6 @@ je PRON
 dłońmi NOUN
 . PUNCT
 
-Przerwałem _
 Przerwał VERB
 em AUX
 mu PRON
@@ -10123,7 +10049,6 @@ naśladować VERB
 kogokolwiek PRON
 - PUNCT
 nie PART
-potrafiłby _
 potrafił VERB
 by AUX
 . PUNCT
@@ -10131,7 +10056,6 @@ by AUX
 – PUNCT
 Już PART
 panu NOUN
-mówiłem _
 mówił VERB
 em AUX
 , PUNCT
@@ -10502,7 +10426,6 @@ wyższa ADJ
 " PUNCT
 W ADP
 dzieciństwie NOUN
-byłem _
 był AUX
 em AUX
 często ADV
@@ -10818,7 +10741,6 @@ uczciwe ADJ
 ale CCONJ
 pogodnego ADJ
 życia NOUN
-dożyłem _
 dożył VERB
 em AUX
 słowem NOUN
@@ -10877,7 +10799,6 @@ naprawdę PART
 nie PART
 kocham VERB
 - PUNCT
-zapewniłam _
 zapewniła VERB
 m AUX
 . PUNCT
@@ -10904,7 +10825,6 @@ od ADP
 kiedy ADV
 się PRON
 tu ADV
-zjawiłem _
 zjawił VERB
 em AUX
 . PUNCT
@@ -11113,7 +11033,6 @@ nie PART
 nagrabić VERB
 . PUNCT
 
-Wiedziałam _
 Wiedziała VERB
 m AUX
 , PUNCT
@@ -11341,7 +11260,6 @@ Feliksem PROPN
 a CCONJ
 ty PRON
 przyzwalająco ADV
-skinęłaś _
 skinęła VERB
 ś AUX
 głową NOUN
@@ -11437,7 +11355,6 @@ na ADP
 swoim DET
 stanowisku NOUN
 - PUNCT
-westchnąłem _
 westchnął VERB
 em AUX
 . PUNCT
@@ -11807,7 +11724,6 @@ m.in X
 . PUNCT
 : PUNCT
 " PUNCT
-Spokorniałem _
 Spokorniał VERB
 em AUX
 i CCONJ
@@ -11923,7 +11839,6 @@ ziemi NOUN
 I PART
 tak ADV
 nie PART
-mógłbyś _
 mógł VERB
 by AUX
 ś AUX
@@ -12329,13 +12244,11 @@ formuła NOUN
 . PUNCT
 
 - PUNCT
-Wiedziałeś _
 Wiedział VERB
 eś AUX
 od ADP
 początku NOUN
 - PUNCT
-szepnąłem _
 szepnął VERB
 em AUX
 . PUNCT
@@ -12573,7 +12486,6 @@ w ADP
 całym ADJ
 Brytyjskim ADJ
 Imperium NOUN
-znalazłby _
 znalazł VERB
 by AUX
 się PRON
@@ -12583,7 +12495,6 @@ pułkownik NOUN
 kawalerii NOUN
 , PUNCT
 który DET
-byłby _
 był AUX
 by AUX
 zdolny ADJ
@@ -12758,7 +12669,6 @@ jest AUX
 zbyt ADV
 silna ADJ
 i CCONJ
-musiałaby _
 musiała VERB
 by AUX
 być AUX
@@ -12785,7 +12695,6 @@ kiedy ADV
 będzie VERB
 . PUNCT
 
-Byłam _
 Była AUX
 m AUX
 pewna ADJ
@@ -12980,7 +12889,6 @@ w ADP
 prezydencie NOUN
 . PUNCT
 
-Widziałem _
 Widział VERB
 em AUX
 ich PRON
@@ -13315,7 +13223,6 @@ młoda ADJ
 kobieta NOUN
 . PUNCT
 
-chciałam _
 chciała VERB
 m AUX
 zapytać VERB
@@ -13399,7 +13306,6 @@ zaraźliwa ADJ
 . PUNCT
 
 Przecież PART
-przegraliście _
 przegrali VERB
 ście AUX
 , PUNCT
@@ -13849,7 +13755,6 @@ dróżką NOUN
 . PUNCT
 
 - PUNCT
-Zrobiliśmy _
 Zrobili VERB
 śmy AUX
 program NOUN
@@ -14247,7 +14152,6 @@ niedoczytanej ADJ
 książki NOUN
 . PUNCT
 
-Poniosłam _
 Poniosła VERB
 m AUX
 taką DET
@@ -14271,7 +14175,6 @@ zarabiasz VERB
 na ADP
 tym PRON
 co PRON
-sprzedałeś _
 sprzedał VERB
 eś AUX
 plus CCONJ
@@ -14280,7 +14183,6 @@ z ADP
 zarobków NOUN
 ludzi NOUN
 których DET
-zwerbowałeś _
 zwerbował VERB
 eś AUX
 . PUNCT
@@ -14552,7 +14454,6 @@ powierzchni NOUN
 Potem ADV
 z ADP
 rachunku NOUN
-zorientowałem _
 zorientował VERB
 em AUX
 się PRON
@@ -15265,7 +15166,6 @@ proszę VERB
 co PRON
 z ADP
 nią PRON
-zrobiłaś _
 zrobiła VERB
 ś AUX
 - PUNCT
@@ -15490,7 +15390,6 @@ amatorkę NOUN
 , PUNCT
 a CCONJ
 kiedy ADV
-zdecydowałam _
 zdecydowała VERB
 m AUX
 się PRON
@@ -15504,7 +15403,6 @@ dla ADP
 nich PRON
 teatr NOUN
 , PUNCT
-zostałam _
 została AUX
 m AUX
 ukarana ADJ
@@ -15653,7 +15551,6 @@ spodziewam VERB
 się PRON
 , PUNCT
 że SCONJ
-mógłbyś _
 mógł VERB
 by AUX
 ś AUX
@@ -15694,7 +15591,6 @@ chichów NOUN
 Poprzez ADP
 te DET
 programy NOUN
-chcieliśmy _
 chcieli VERB
 śmy AUX
 , PUNCT
@@ -15732,7 +15628,6 @@ nas PRON
 . PUNCT
 
 - PUNCT
-Widziałam _
 Widziała VERB
 m AUX
 już PART
@@ -16471,7 +16366,6 @@ wybuchnęła VERB
 
 - PUNCT
 Może PART
-słyszałem _
 słyszał VERB
 em AUX
 , PUNCT
@@ -16557,7 +16451,6 @@ Duch NOUN
 Boży ADJ
 mówi VERB
 , PUNCT
-abym _
 aby SCONJ
 m AUX
 szedł VERB
@@ -16708,7 +16601,6 @@ i CCONJ
 obowiązującą ADJ
 . PUNCT
 
-Myślałem _
 Myślał VERB
 em AUX
 , PUNCT
@@ -17103,7 +16995,6 @@ Bardzo ADV
 proszę VERB
 . PUNCT
 
-Straciłem _
 Stracił VERB
 em AUX
 serce NOUN
@@ -17970,7 +17861,6 @@ na ADP
 ulicę NOUN
 . PUNCT
 
-Usłyszałem _
 Usłyszał VERB
 em AUX
 go PRON
@@ -18272,7 +18162,6 @@ nowych ADJ
 pracodawców NOUN
 . PUNCT
 
-Myślałam _
 Myślała VERB
 m AUX
 też PART
@@ -18280,7 +18169,6 @@ o ADP
 tym PRON
 , PUNCT
 że SCONJ
-poznałam _
 poznała VERB
 m AUX
 go PRON
@@ -18540,7 +18428,6 @@ rozmawiać VERB
 
 A CCONJ
 wtedy ADV
-skorzystalibyśmy _
 skorzystali VERB
 by AUX
 śmy AUX
@@ -19070,7 +18957,6 @@ prasy NOUN
 " PUNCT
 Na ADP
 statku NOUN
-przegrałem _
 przegrał VERB
 em AUX
 w ADP
@@ -19197,7 +19083,6 @@ lata NOUN
 . PUNCT
 
 - PUNCT
-Działaliśmy _
 Działali VERB
 śmy AUX
 zgodnie ADV
@@ -19274,7 +19159,6 @@ Zdarzało VERB
 się PRON
 , PUNCT
 że SCONJ
-uderzyłem _
 uderzył VERB
 em AUX
 butnego ADJ
@@ -19316,7 +19200,6 @@ się PRON
 w ADP
 głowie NOUN
 i CCONJ
-traciłam _
 traciła VERB
 m AUX
 kontrolę NOUN
@@ -19421,13 +19304,11 @@ Markowski PROPN
 . PUNCT
 
 Nie PART
-wiedziałem _
 wiedział VERB
 em AUX
 nawet PART
 , PUNCT
 gdzie ADV
-pracowałem _
 pracował VERB
 em AUX
 - PUNCT
@@ -19588,12 +19469,10 @@ większej ADJ
 pojemności NOUN
 . PUNCT
 
-Kazałaś _
 Kazała VERB
 ś AUX
 czekać VERB
 - PUNCT
-czekałem _
 czekał VERB
 em AUX
 . PUNCT
@@ -19690,7 +19569,6 @@ system NOUN
 edukacji NOUN
 ? PUNCT
 
-Pojechałem _
 Pojechał VERB
 em AUX
 w ADP
@@ -19699,7 +19577,6 @@ sprawie NOUN
 do ADP
 Bieruta PROPN
 i CCONJ
-tłumaczyłem _
 tłumaczył VERB
 em AUX
 , PUNCT
@@ -19737,7 +19614,6 @@ profesjonalistów NOUN
 " PUNCT
 Na ADP
 dobre ADJ
-zacząłem _
 zaczął VERB
 em AUX
 śpiewać VERB
@@ -19973,7 +19849,6 @@ Urzędu NOUN
 Statystycznego ADJ
 , PUNCT
 średnio ADV
-zarabialiśmy _
 zarabiali VERB
 śmy AUX
 więcej DET
@@ -19996,7 +19871,6 @@ wino NOUN
 . PUNCT
 
 - PUNCT
-Rozmawiałem _
 Rozmawiał VERB
 em AUX
 ze ADP
@@ -20670,7 +20544,6 @@ W ADP
 ten DET
 sposób NOUN
 Sejm NOUN
-miałby _
 miał VERB
 by AUX
 szansę NOUN
@@ -21127,7 +21000,6 @@ o ADP
 butelkę NOUN
 . PUNCT
 
-Zamieniłem _
 Zamienił VERB
 em AUX
 się PRON
@@ -21180,7 +21052,6 @@ urozmaicone ADJ
 , PUNCT
 jak SCONJ
 urozmaiconym ADJ
-pragnęłoby _
 pragnęło VERB
 by AUX
 się PRON
@@ -21238,7 +21109,6 @@ pysk NOUN
 - PUNCT
 Prosił VERB
 , PUNCT
-bym _
 by SCONJ
 m AUX
 obecne ADJ
@@ -21424,7 +21294,6 @@ miast NOUN
 
 Taka DET
 wersja NOUN
-zadowoliłaby _
 zadowoliła VERB
 by AUX
 tych DET
@@ -22086,14 +21955,12 @@ powodzią NOUN
 . PUNCT
 
 - PUNCT
-Mówiliśmy _
 Mówili VERB
 śmy AUX
 o ADP
 starych ADJ
 dziejach NOUN
 - PUNCT
-oświadczyłem _
 oświadczył VERB
 em AUX
 . PUNCT
@@ -22115,7 +21982,6 @@ W ADP
 chwili NOUN
 , PUNCT
 gdy ADV
-przeprowadzałem _
 przeprowadzał VERB
 em AUX
 przez ADP
@@ -22282,7 +22148,6 @@ kredytów NOUN
 . PUNCT
 
 - PUNCT
-Zwariowałem _
 Zwariował VERB
 em AUX
 , PUNCT
@@ -22315,7 +22180,6 @@ Modecki PROPN
 , PUNCT
 ale CCONJ
 kiedy ADV
-zobaczyłem _
 zobaczył VERB
 em AUX
 reakcję NOUN
@@ -22323,7 +22187,6 @@ premiera NOUN
 i CCONJ
 służb NOUN
 , PUNCT
-wiedziałem _
 wiedział VERB
 em AUX
 , PUNCT
@@ -22449,7 +22312,6 @@ Jako SCONJ
 9 ADJ
 letni ADJ
 chłopiec NOUN
-miałem _
 miał VERB
 em AUX
 w ADP
@@ -22777,7 +22639,6 @@ kilka DET
 milionów NOUN
 Polaków PROPN
 , PUNCT
-spowodowałoby _
 spowodowało VERB
 by AUX
 , PUNCT
@@ -22785,7 +22646,6 @@ by AUX
 nasz DET
 system NOUN
 podatkowy ADJ
-stałby _
 stał VERB
 by AUX
 się PRON
@@ -23013,7 +22873,6 @@ CZYLI CCONJ
 JA PRON
 : PUNCT
 Zawsze ADV
-byłem _
 był AUX
 em AUX
 samotnikiem NOUN
@@ -23027,13 +22886,11 @@ bez ADP
 życia NOUN
 osobistego ADJ
 ; PUNCT
-zmarnowałem _
 zmarnował VERB
 em AUX
 wiele DET
 możliwości NOUN
 i CCONJ
-zrobiłem _
 zrobił VERB
 em AUX
 wiele DET
@@ -23204,7 +23061,6 @@ na ADP
 wieży NOUN
 Eiffla PROPN
 , PUNCT
-zacząłem _
 zaczął VERB
 em AUX
 nie PART
@@ -23252,7 +23108,6 @@ Sokal PROPN
 . PUNCT
 
 - PUNCT
-Słyszałem _
 Słyszał VERB
 em AUX
 , PUNCT
@@ -23420,7 +23275,6 @@ przekraczał VERB
 barierę NOUN
 dźwięku NOUN
 , PUNCT
-patrzyłem _
 patrzył VERB
 em AUX
 , PUNCT
@@ -23429,7 +23283,6 @@ rozpruwa VERB
 niebo NOUN
 . PUNCT
 
-Straciłem _
 Stracił VERB
 em AUX
 serce NOUN
@@ -23685,7 +23538,6 @@ układ NOUN
 tabeli NOUN
 . PUNCT
 
-Obijaliśmy _
 Obijali VERB
 śmy AUX
 się PRON
@@ -23780,7 +23632,6 @@ się PRON
 czuje VERB
 . PUNCT
 
-Miałby _
 Miał VERB
 by AUX
 on PRON
@@ -24137,12 +23988,10 @@ mikołajkowe ADJ
 . PUNCT
 
 - PUNCT
-Zaryglowałem _
 Zaryglował VERB
 em AUX
 drzwi NOUN
 i CCONJ
-powiedziałem _
 powiedział VERB
 em AUX
 , PUNCT
@@ -24193,7 +24042,6 @@ Skoro SCONJ
 przez ADP
 kilka DET
 lat NOUN
-podążałeś _
 podążał VERB
 eś AUX
 w ADP
@@ -24567,7 +24415,6 @@ szczęście NOUN
 , PUNCT
 że SCONJ
 wreszcie PART
-wróciłeś _
 wrócił VERB
 eś AUX
 , PUNCT
@@ -24844,7 +24691,6 @@ znajome ADJ
 - PUNCT
 Stara NOUN
 , PUNCT
-jakbyś _
 jakby SCONJ
 ś AUX
 chodziła VERB
@@ -24852,7 +24698,6 @@ do ADP
 kościoła NOUN
 , PUNCT
 to SCONJ
-byś _
 by AUX
 ś AUX
 coś PRON
@@ -24867,7 +24712,6 @@ księżulem NOUN
 , PUNCT
 że SCONJ
 coś PRON
-czytałaś _
 czytała VERB
 ś AUX
 - PUNCT
@@ -25075,7 +24919,6 @@ tarnogórski ADJ
 I PART
 od ADP
 razu NOUN
-skarciłam _
 skarciła VERB
 m AUX
 się PRON
@@ -25785,7 +25628,6 @@ sąsiadowi NOUN
 . PUNCT
 
 Jak ADV
-chciałaby _
 chciała VERB
 by AUX
 pani NOUN
@@ -25805,7 +25647,6 @@ myślach NOUN
 - PUNCT
 równie ADV
 dobrze ADV
-mógłbyś _
 mógł VERB
 by AUX
 ś AUX
@@ -25815,7 +25656,6 @@ z ADP
 tego PRON
 , PUNCT
 co PRON
-robiliśmy _
 robili VERB
 śmy AUX
 w ADP
@@ -26043,7 +25883,6 @@ na ADP
 zmieniło VERB
 , PUNCT
 zanim SCONJ
-nauczyłem _
 nauczył VERB
 em AUX
 się PRON
@@ -26073,7 +25912,6 @@ jednej ADJ
 chwili NOUN
 , PUNCT
 kiedy ADV
-zostałem _
 został AUX
 em AUX
 przykuty ADJ
@@ -26098,11 +25936,9 @@ test NOUN
 wychodził VERB
 negatywny ADJ
 - PUNCT
-smutniałam _
 smutniała VERB
 m AUX
 i CCONJ
-miałam _
 miała VERB
 m AUX
 łzy NOUN
@@ -26479,7 +26315,6 @@ kurzu NOUN
 , PUNCT
 i CCONJ
 nie PART
-wiedziałem _
 wiedział VERB
 em AUX
 , PUNCT
@@ -26575,7 +26410,6 @@ cackał VERB
 " PUNCT
 
 Nie PART
-demonizowałbym _
 demonizował VERB
 by AUX
 m AUX
@@ -26690,7 +26524,6 @@ powiedzieć VERB
 Spokój NOUN
 ! PUNCT
 - PUNCT
-wydarłem _
 wydarł VERB
 em AUX
 się PRON
@@ -26949,7 +26782,6 @@ się PRON
 wyrobiły VERB
 , PUNCT
 że SCONJ
-bałam _
 bała VERB
 m AUX
 się PRON
@@ -27274,7 +27106,6 @@ Renesansu NOUN
 . PUNCT
 
 – PUNCT
-Proponowałbym _
 Proponował VERB
 by AUX
 m AUX
@@ -27404,7 +27235,6 @@ tak ADV
 , PUNCT
 jak SCONJ
 sobie PRON
-wyobrażałem _
 wyobrażał VERB
 em AUX
 : PUNCT
@@ -27595,7 +27425,6 @@ porażeniem NOUN
 
 Na ADP
 Instagramie PROPN
-chciałem _
 chciał VERB
 em AUX
 być AUX
@@ -27613,7 +27442,6 @@ przyznam VERB
 – PUNCT
 pewnego DET
 razu NOUN
-kupiłem _
 kupił VERB
 em AUX
 sobie PRON
@@ -27635,7 +27463,6 @@ to PRON
 że SCONJ
 tego PRON
 nie PART
-rozumiałam _
 rozumiała VERB
 m AUX
 , PUNCT
@@ -27888,7 +27715,6 @@ kartoteki NOUN
 przestępców NOUN
 . PUNCT
 
-Posłałem _
 Posłał VERB
 em AUX
 do ADP
@@ -28238,7 +28064,6 @@ zestawy NOUN
 sztućców NOUN
 stole NOUN
 - PUNCT
-powinniśmy _
 powinni VERB
 śmy AUX
 stać VERB
@@ -28260,7 +28085,6 @@ przybrała VERB
 barwę NOUN
 dania NOUN
 - PUNCT
-przypominałyśmy _
 przypominały VERB
 śmy AUX
 zamaskowanych ADJ
@@ -29004,7 +28828,6 @@ Tak PART
 do ADP
 końca NOUN
 nie PART
-byłem _
 był AUX
 em AUX
 tego PRON
@@ -29023,7 +28846,6 @@ ilość NOUN
 energii NOUN
 i CCONJ
 chyba PART
-byłyby _
 były VERB
 by AUX
 w ADP
@@ -29043,7 +28865,6 @@ miejscu NOUN
 pancerz NOUN
 . PUNCT
 
-Podciągnęłam _
 Podciągnęła VERB
 m AUX
 sztywny ADJ
@@ -29057,7 +28878,6 @@ na ADP
 nierównościach NOUN
 podłogi NOUN
 , PUNCT
-usadziłam _
 usadziła VERB
 m AUX
 ją PRON
@@ -29220,7 +29040,6 @@ nie PART
 powiem VERB
 , PUNCT
 co PRON
-żeście _
 że PART
 ście AUX
 kombinowali VERB
@@ -29300,7 +29119,6 @@ Córka NOUN
 zastanawia VERB
 się PRON
 , PUNCT
-czybym _
 czy PART
 by AUX
 m AUX
@@ -29392,7 +29210,6 @@ O INTJ
 Boże PROPN
 , PUNCT
 nie PART
-znalazłam _
 znalazła VERB
 m AUX
 Williego PROPN
@@ -29401,7 +29218,6 @@ uświadomiła VERB
 sobie PRON
 nagle ADV
 - PUNCT
-zostawiłam _
 zostawiła VERB
 m AUX
 go PRON
@@ -29553,7 +29369,6 @@ lotniskowych ADJ
 pkt X
 32 X
 ) PUNCT
-miałby _
 miał VERB
 by AUX
 się PRON
@@ -29667,7 +29482,6 @@ konno ADV
 Daj VERB
 mi PRON
 siłę NOUN
-bym _
 by SCONJ
 m AUX
 uratował VERB
@@ -29804,7 +29618,6 @@ decyzji NOUN
 A PART
 ja PRON
 nie PART
-mogłem _
 mogł VERB
 em AUX
 się PRON
@@ -29815,7 +29628,6 @@ Obawiam VERB
 się PRON
 , PUNCT
 że SCONJ
-zachowywałem _
 zachowywał VERB
 em AUX
 się PRON
@@ -29839,7 +29651,6 @@ dobowej ADJ
 dawki NOUN
 . PUNCT
 
-Pomyślałam _
 Pomyślała VERB
 m AUX
 , PUNCT
@@ -29891,7 +29702,6 @@ oraz CCONJ
 
 Zawsze ADV
 cię PRON
-kochałem _
 kochał VERB
 em AUX
 i CCONJ
@@ -29904,7 +29714,6 @@ ojca NOUN
 przeniesiono VERB
 i CCONJ
 wtedy ADV
-widziałem _
 widział VERB
 em AUX
 ją PRON
@@ -29914,7 +29723,6 @@ ostatni ADJ
 . PUNCT
 
 Ponadto PART
-powinniśmy _
 powinni VERB
 śmy AUX
 poświęcić VERB
@@ -29924,7 +29732,6 @@ izolacji NOUN
 budynków NOUN
 , PUNCT
 co PRON
-miałoby _
 miało VERB
 by AUX
 istotne ADJ
@@ -30208,7 +30015,6 @@ także PART
 potwierdza VERB
 , PUNCT
 że SCONJ
-powinniśmy _
 powinni VERB
 śmy AUX
 zwiększyć VERB
@@ -30474,7 +30280,6 @@ mostu NOUN
 . PUNCT
 
 Ja PRON
-chciałabym _
 chciała VERB
 by AUX
 m AUX
@@ -30551,7 +30356,6 @@ ESA PROPN
 . PUNCT
 
 Nie PART
-słyszałam _
 słyszała VERB
 m AUX
 ich PRON
@@ -30945,7 +30749,6 @@ zostać AUX
 uiszczone ADJ
 . PUNCT
 
-Dotarłem _
 Dotarł VERB
 em AUX
 tu ADV
@@ -30981,7 +30784,6 @@ efektywności NOUN
 funduszu NOUN
 , PUNCT
 
-Miałem _
 Miał VERB
 em AUX
 właśnie ADV
@@ -31173,7 +30975,6 @@ się PRON
 modlił VERB
 . PUNCT
 
-Upewniłam _
 Upewniła VERB
 m AUX
 się PRON
@@ -31253,7 +31054,6 @@ Nawet PART
 wtedy ADV
 , PUNCT
 nie PART
-mogłam _
 mogła VERB
 m AUX
 pójść VERB
@@ -31314,7 +31114,6 @@ następujące ADJ
 zmiany NOUN
 : PUNCT
 
-Powiedziałeś _
 Powiedział VERB
 eś AUX
 Robertowi PROPN
@@ -31373,7 +31172,6 @@ r X
 
 Porządny ADJ
 człowiek NOUN
-zostawiłby _
 zostawił VERB
 by AUX
 żonę NOUN
@@ -31435,7 +31233,6 @@ o ADP
 różnych ADJ
 źródłach NOUN
 , PUNCT
-chciałabym _
 chciała VERB
 by AUX
 m AUX
@@ -31569,7 +31366,6 @@ tego PRON
 . PUNCT
 
 Nie PART
-powinnaś _
 powinna VERB
 ś AUX
 tego PRON
@@ -31662,7 +31458,6 @@ zostają AUX
 zwolnione ADJ
 . PUNCT
 
-Posługiwałeś _
 Posługiwał VERB
 eś AUX
 się PRON
@@ -31779,7 +31574,6 @@ hematologiczna ADJ
 
 - PUNCT
 Nie PART
-byłem _
 był VERB
 em AUX
 w ADP
@@ -31825,7 +31619,6 @@ oświadczenia NOUN
 , PUNCT
 pod ADP
 którym DET
-mógłby _
 mógł VERB
 by AUX
 pan NOUN
@@ -31876,7 +31669,6 @@ wyborów NOUN
 Szarpnęła VERB
 głową NOUN
 , PUNCT
-jakbym _
 jakby SCONJ
 m AUX
 ją PRON
@@ -31895,7 +31687,6 @@ napisał VERB
 " PUNCT
 Dopóki SCONJ
 nie PART
-spotkałem _
 spotkał VERB
 em AUX
 Mickybo PROPN
@@ -31974,7 +31765,6 @@ naboju NOUN
 . PUNCT
 
 Nie PART
-mogłam _
 mogła VERB
 m AUX
 dłużej ADV
@@ -32048,7 +31838,6 @@ produktów NOUN
 
 To PRON
 właśnie PART
-zrobiliśmy _
 zrobili VERB
 śmy AUX
 i CCONJ
@@ -32320,7 +32109,6 @@ promotorom NOUN
 Myślę VERB
 , PUNCT
 że SCONJ
-powinniśmy _
 powinni VERB
 śmy AUX
 usiąść VERB
@@ -32481,7 +32269,6 @@ rozporządzeniu NOUN
 REACH PROPN
 . PUNCT
 
-Myślałeś _
 Myślał VERB
 eś AUX
 o ADP
@@ -32590,7 +32377,6 @@ zasadności NOUN
 ” PUNCT
 . PUNCT
 
-Wiedziałam _
 Wiedziała VERB
 m AUX
 , PUNCT
@@ -32598,7 +32384,6 @@ m AUX
 będzie VERB
 tłoczno ADV
 więc SCONJ
-przyszłam _
 przyszła VERB
 m AUX
 o ADP
@@ -32771,7 +32556,6 @@ nie PART
 rozwiąże VERB
 . PUNCT
 
-Oznaczałoby _
 Oznaczało VERB
 by AUX
 to PRON
@@ -32834,7 +32618,6 @@ daty NOUN
 . PUNCT
 
 Nie PART
-powinieneś _
 powinien VERB
 eś AUX
 tak ADV
@@ -32857,7 +32640,6 @@ konsumenta NOUN
 . PUNCT
 
 Więc SCONJ
-powinnaś _
 powinna VERB
 ś AUX
 zrobić VERB
@@ -32872,7 +32654,6 @@ statystyki NOUN
 , PUNCT
 a CCONJ
 my PRON
-powinniśmy _
 powinni VERB
 śmy AUX
 się PRON
@@ -32942,10 +32723,8 @@ traktat NOUN
 Ale CCONJ
 zanim SCONJ
 się PRON
-obejrzałaś _
 obejrzała VERB
 ś AUX
-wróciłaś _
 wróciła VERB
 ś AUX
 do ADP
@@ -33433,12 +33212,10 @@ niniejszej ADJ
 opinii NOUN
 . PUNCT
 
-Przyszliśmy _
 Przyszli VERB
 śmy AUX
 , PUNCT
 bo SCONJ
-martwiliśmy _
 martwili VERB
 śmy AUX
 się PRON
@@ -33512,7 +33289,6 @@ polityki NOUN
 klimatycznej ADJ
 . PUNCT
 
-Sądziłem _
 Sądził VERB
 em AUX
 , PUNCT
@@ -33716,7 +33492,6 @@ sierści NOUN
 myszy NOUN
 . PUNCT
 
-Przyszłaś _
 Przyszła VERB
 ś AUX
 mi PRON
@@ -33726,7 +33501,6 @@ Roberta PROPN
 Chiltern PROPN
 . PUNCT
 
-Chciałbym _
 Chciał VERB
 by AUX
 m AUX
@@ -33860,7 +33634,6 @@ operacyjnego ADJ
 . PUNCT
 
 Nie PART
-wiedziałem _
 wiedział VERB
 em AUX
 , PUNCT
@@ -33917,7 +33690,6 @@ to AUX
 istotne ADJ
 osiągnięcie NOUN
 i CCONJ
-wezwałbym _
 wezwał VERB
 by AUX
 m AUX
@@ -34004,7 +33776,6 @@ przykład NOUN
 porozumień NOUN
 , PUNCT
 które DET
-mogłyby _
 mogły VERB
 by AUX
 pośrednio ADV
@@ -34094,7 +33865,6 @@ kliprami NOUN
 tuńczykowymi ADJ
 . PUNCT
 
-Umówiłam _
 Umówiła VERB
 m AUX
 Cię PRON
@@ -34166,7 +33936,6 @@ Boże NOUN
 jak ADV
 ja PRON
 ją PRON
-kochałem _
 kochał VERB
 em AUX
 . PUNCT
@@ -34668,19 +34437,16 @@ organu NOUN
 . PUNCT
 
 Nie PART
-mogłam _
 mogła VERB
 m AUX
 uwierzyć VERB
 , PUNCT
 że SCONJ
-byłam _
 była VERB
 m AUX
 w ADP
 kościele NOUN
 , PUNCT
-pożądałam _
 pożądała VERB
 m AUX
 go PRON
@@ -34692,7 +34458,6 @@ Pamiętasz VERB
 kiedy ADV
 pierwszy ADJ
 raz NOUN
-wróciłam _
 wróciła VERB
 m AUX
 po ADP
@@ -34712,7 +34477,6 @@ entuzjazmu NOUN
 . PUNCT
 
 Może PART
-moglibyśmy _
 mogli VERB
 by AUX
 śmy AUX
@@ -34776,7 +34540,6 @@ Collridge PROPN
 a CCONJ
 ty PRON
 właśnie ADV
-przechodziłaś _
 przechodziła VERB
 ś AUX
 przez ADP
@@ -34918,7 +34681,6 @@ baz NOUN
 danych NOUN
 . PUNCT
 
-Powiedziałam _
 Powiedziała VERB
 m AUX
 to DET
@@ -34943,7 +34705,6 @@ Stanowczo ADV
 sądzę VERB
 , PUNCT
 że SCONJ
-powinniśmy _
 powinni VERB
 śmy AUX
 dążyć VERB
@@ -34963,7 +34724,6 @@ mi PRON
 powiedzieć VERB
 , PUNCT
 że SCONJ
-znaleźliśmy _
 znaleźli VERB
 śmy AUX
 sposób NOUN
@@ -34976,7 +34736,6 @@ bronić VERB
 Wybacz VERB
 metaforę NOUN
 - PUNCT
-wystawiłeś _
 wystawił VERB
 eś AUX
 ją PRON
@@ -35237,7 +34996,6 @@ odkrycia NOUN
 wynika VERB
 , PUNCT
 że SCONJ
-należałoby _
 należało VERB
 by AUX
 raczej PART
@@ -35374,7 +35132,6 @@ to PRON
 mówi VERB
 ? PUNCT
 
-Myślałem _
 Myślał VERB
 em AUX
 , PUNCT
@@ -35387,7 +35144,6 @@ morzu NOUN
 . PUNCT
 
 Zawsze ADV
-marzyłem _
 marzył VERB
 em AUX
 by SCONJ
@@ -35407,7 +35163,6 @@ dokonywało VERB
 
 Virginio PROPN
 , PUNCT
-mówiłam _
 mówiła VERB
 m AUX
 Ci PRON
@@ -35473,7 +35228,6 @@ mojej DET
 żonie NOUN
 , PUNCT
 że SCONJ
-byłem _
 był VERB
 em AUX
 tu ADV
@@ -35553,7 +35307,6 @@ z ADP
 Lizbony PROPN
 . PUNCT
 
-Odesłałeś _
 Odesłał VERB
 eś AUX
 go PRON
@@ -35760,7 +35513,6 @@ obmacywał VERB
 moje DET
 żebra NOUN
 , PUNCT
-usiłowałem _
 usiłował VERB
 em AUX
 zebrać VERB
@@ -35921,7 +35673,6 @@ Uważam VERB
 , PUNCT
 że SCONJ
 obecnie ADV
-położyliśmy _
 położyli VERB
 śmy AUX
 pod ADP
@@ -36042,7 +35793,6 @@ szef NOUN
 rządu NOUN
 . PUNCT
 
-Chciałbym _
 Chciał VERB
 by AUX
 m AUX

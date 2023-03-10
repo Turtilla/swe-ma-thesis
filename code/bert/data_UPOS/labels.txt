@@ -16,4 +16,3 @@ SCONJ
 SYM
 VERB
 X
-_

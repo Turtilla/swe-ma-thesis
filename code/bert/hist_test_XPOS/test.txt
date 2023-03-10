@@ -650,7 +650,6 @@ Ja ppron12:sg:nom:f:pri
 już part
 z prep:gen:nwok
 zamęścia subst:sg:gen:n:ncol
-zrezygnowałam _
 zrezygnowała praet:sg:f:perf
 m aglt:sg:pri:imperf:nwok
 , interp
@@ -659,7 +658,6 @@ ale conj
 mi ppron12:sg:dat:f:pri:nakc
 się part
 Waszmość subst:sg:nom:m1
-podobałeś _
 podobał praet:sg:m1:imperf
 eś aglt:sg:sec:imperf:wok
 , interp
@@ -1013,7 +1011,6 @@ tyczących pact:pl:gen:m3:imperf:aff
 familii subst:sg:gen:f
 Oyca subst:sg:nom:f
 się part
-dowiedziałam _
 dowiedziała praet:sg:f:perf
 m aglt:sg:pri:imperf:nwok
 . interp
@@ -1090,7 +1087,6 @@ nieboszczyka subst:sg:gen:m1
 przemawia fin:sg:ter:imperf
 : interp
 „ interp
-przeżyłam _
 przeżyła praet:sg:f:perf
 m aglt:sg:pri:imperf:nwok
 z prep:inst:nwok
@@ -1379,14 +1375,12 @@ Ojciec subst:sg:nom:m1
 – interp
 a conj
 ja ppron12:sg:nom:m1:pri
-nieśmiałem _
 nieśmiał praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 wypytywać inf:imperf
 . interp
 
 Wreszcie part
-niebyłem _
 niebył praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 nigdy adv
@@ -1794,7 +1788,6 @@ inwentarzem subst:sg:inst:m3
 Wieleż num:pl:acc:m3:rec
 to part
 razy subst:pl:acc:m3
-słyszałem _
 słyszał praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 śp brev:pun
@@ -1979,7 +1972,6 @@ do prep:gen
 dworu subst:sg:gen:m3
 . interp
 
-Zdawałoby _
 Zdawało praet:sg:n:imperf
 by part
 się part
@@ -2449,7 +2441,6 @@ może part
 to part
 jego ppron3:sg:acc:m1:ter:akc:npraep
 samego adj:sg:acc:m1:pos
-bośmy _
 bo comp
 śmy aglt:pl:pri:imperf:nwok
 do prep:gen

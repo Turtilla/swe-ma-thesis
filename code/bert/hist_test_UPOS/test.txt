@@ -650,7 +650,6 @@ Ja PRON
 już PART
 z ADP
 zamęścia NOUN
-zrezygnowałam _
 zrezygnowała VERB
 m AUX
 , PUNCT
@@ -659,7 +658,6 @@ ale CCONJ
 mi PRON
 się PRON
 Waszmość NOUN
-podobałeś _
 podobał VERB
 eś AUX
 , PUNCT
@@ -1013,7 +1011,6 @@ tyczących ADJ
 familii NOUN
 Oyca NOUN
 się PRON
-dowiedziałam _
 dowiedziała VERB
 m AUX
 . PUNCT
@@ -1090,7 +1087,6 @@ nieboszczyka NOUN
 przemawia VERB
 : PUNCT
 „ PUNCT
-przeżyłam _
 przeżyła VERB
 m AUX
 z ADP
@@ -1379,14 +1375,12 @@ Ojciec NOUN
 – PUNCT
 a CCONJ
 ja PRON
-nieśmiałem _
 nieśmiał VERB
 em AUX
 wypytywać VERB
 . PUNCT
 
 Wreszcie PART
-niebyłem _
 niebył VERB
 em AUX
 nigdy ADV
@@ -1794,7 +1788,6 @@ inwentarzem NOUN
 Wieleż DET
 to PART
 razy NOUN
-słyszałem _
 słyszał VERB
 em AUX
 śp X
@@ -1979,7 +1972,6 @@ do ADP
 dworu NOUN
 . PUNCT
 
-Zdawałoby _
 Zdawało VERB
 by AUX
 się PRON
@@ -2449,7 +2441,6 @@ może PART
 to PART
 jego PRON
 samego ADJ
-bośmy _
 bo SCONJ
 śmy AUX
 do ADP
@@ -4066,7 +4057,6 @@ po ADP
 dziś NOUN
 . PUNCT
 
-Opisałem _
 Opisał VERB
 em AUX
 wszystko PRON
@@ -4100,7 +4090,6 @@ naszych DET
 sąsiadów NOUN
 - PUNCT
 tak ADV
-bawiliśmy _
 bawili VERB
 śmy AUX
 się PRON
@@ -5191,7 +5180,6 @@ w ADP
 Zarszynie PROPN
 a CCONJ
 chłopcy NOUN
-mieliśmy _
 mieli VERB
 śmy AUX
 nauczyciela NOUN
@@ -5200,7 +5188,6 @@ Wincentego PROPN
 i CCONJ
 z ADP
 nim PRON
-zdawaliśmy _
 zdawali VERB
 śmy AUX
 Marceli PROPN
@@ -5225,7 +5212,6 @@ profesora NOUN
 Leśniewicza PROPN
 . PUNCT
 
-Zostałem _
 Został VERB
 em AUX
 sam ADJ
@@ -5251,7 +5237,6 @@ była AUX
 bardzo ADV
 nawalna ADJ
 i CCONJ
-żem _
 że SCONJ
 m AUX
 ciągle ADV
@@ -5279,7 +5264,6 @@ od ADP
 28 ADJ
 lipca NOUN
 1821 ADJ
-byłem _
 był AUX
 em AUX
 wątły ADJ
@@ -5289,7 +5273,6 @@ dalece ADV
 że SCONJ
 niemiano VERB
 nadzieji NOUN
-żebym _
 żeby SCONJ
 m AUX
 się PRON
@@ -5316,7 +5299,6 @@ już PART
 za ADP
 nieżywego ADJ
 – PUNCT
-wpadłem _
 wpadł VERB
 em AUX
 w ADP
@@ -5336,7 +5318,6 @@ pierogach NOUN
 ze ADP
 serem NOUN
 – PUNCT
-żem _
 że SCONJ
 m AUX
 nieraz NOUN
@@ -5367,7 +5348,6 @@ i CCONJ
 Matka NOUN
 moja DET
 nim SCONJ
-wyrobiłem _
 wyrobił VERB
 em AUX
 sobie PRON
@@ -5377,7 +5357,6 @@ wymowę NOUN
 
 Ale CCONJ
 zawsze ADV
-byłem _
 był AUX
 em AUX
 szczupleyszey ADJ
@@ -5394,7 +5373,6 @@ sama ADJ
 nas PRON
 niekarmiła VERB
 – PUNCT
-mieliśmy _
 mieli VERB
 śmy AUX
 mamki NOUN
@@ -5413,7 +5391,6 @@ z ADP
 Tomaszowiec PROPN
 – PUNCT
 zawsze ADV
-dostawałem _
 dostawał VERB
 em AUX
 dwa NUM
@@ -5461,7 +5438,6 @@ wzorzysta ADJ
 . PUNCT
 
 Już PART
-byłem _
 był AUX
 em AUX
 młodzieniaszkiem NOUN
@@ -5470,7 +5446,6 @@ po ADP
 drodze NOUN
 do ADP
 Zarszyna PROPN
-popasałem _
 popasał VERB
 em AUX
 we ADP
@@ -5583,14 +5558,12 @@ wykarmiła VERB
 Więc CCONJ
 choć SCONJ
 się PRON
-oglądałem _
 oglądał VERB
 em AUX
 czy PART
 mię PRON
 kto PRON
 niewidzi VERB
-przywitałem _
 przywitał VERB
 em AUX
 się PRON
@@ -5663,7 +5636,6 @@ po ADP
 śmierci NOUN
 matki NOUN
 mojey DET
-spotkałem _
 spotkał VERB
 em AUX
 się PRON
@@ -5701,7 +5673,6 @@ i CCONJ
 tak ADV
 gdzie ADV
 się PRON
-obróciłem _
 obrócił VERB
 em AUX
 później ADV
@@ -5941,7 +5912,6 @@ chronił VERB
 nas PRON
 rygor NOUN
 jakim DET
-byliśmy _
 byli AUX
 śmy AUX
 przez ADP
@@ -6015,7 +5985,6 @@ Jan PROPN
 poczciwości NOUN
 człowiek NOUN
 – PUNCT
-kochałem _
 kochał VERB
 em AUX
 go PRON
@@ -6288,7 +6257,6 @@ się PRON
 w ADP
 traktryerni NOUN
 , PUNCT
-gdzieśmy _
 gdzie ADV
 śmy AUX
 się PRON
@@ -6331,7 +6299,6 @@ własną ADJ
 pracą NOUN
 i CCONJ
 zarobkiem NOUN
-przyszedłem _
 przyszedł VERB
 em AUX
 do ADP
@@ -6592,7 +6559,6 @@ lat NOUN
 ze ADP
 dwadzieścia NUM
 jak ADV
-zjechałem _
 zjechał VERB
 em AUX
 się PRON
@@ -6652,7 +6618,6 @@ bawiła VERB
 swojego DET
 gościa NOUN
 ja PRON
-obserwowałem _
 obserwował VERB
 em AUX
 je PRON
@@ -6680,7 +6645,6 @@ drugey ADJ
 i CCONJ
 rzeczywiście ADV
 nie PART
-mogłem _
 mogł VERB
 em AUX
 je PRON
@@ -6761,7 +6725,6 @@ bardzo ADV
 zażyłych ADJ
 stosunkach NOUN
 – PUNCT
-chodziliśmy _
 chodzili VERB
 śmy AUX
 tam ADV
@@ -7122,7 +7085,6 @@ moim DET
 chrzestnym ADJ
 Oycem NOUN
 a CCONJ
-gdym _
 gdy ADV
 m AUX
 ja PRON
@@ -7817,7 +7779,6 @@ malcami NOUN
 i CCONJ
 bardzo ADV
 ją PRON
-lubiłem _
 lubił VERB
 em AUX
 Sabina PROPN
@@ -7865,7 +7826,6 @@ tam ADV
 też PART
 pierwszy ADJ
 raz NOUN
-widziałem _
 widział VERB
 em AUX
 zapałki NOUN
@@ -8604,7 +8564,6 @@ się PRON
 na ADP
 Moskali PROPN
 – PUNCT
-miałem _
 miał VERB
 em AUX
 wówczas ADV
@@ -8673,7 +8632,6 @@ sen NOUN
 już PART
 młodzieńcem NOUN
 będąc AUX
-pytałem _
 pytał VERB
 em AUX
 Oyca NOUN
@@ -8683,7 +8641,6 @@ było AUX
 prawdą NOUN
 – PUNCT
 dopiero PART
-przyszedłem _
 przyszedł VERB
 em AUX
 do ADP
@@ -8775,7 +8732,6 @@ się PRON
 wesoło ADV
 – PUNCT
 tańczono VERB
-gdyśmy _
 gdy ADV
 śmy AUX
 bitwę NOUN
@@ -8962,7 +8918,6 @@ słowa NOUN
 W ADP
 Roku NOUN
 830 ADJ
-byłem _
 był AUX
 em AUX
 przewodniczącym NOUN
@@ -8971,7 +8926,6 @@ wspierającego ADJ
 ruch NOUN
 narodowy NOUN
 . PUNCT
-Zwołałem _
 Zwołał VERB
 em AUX
 Zjazd NOUN
@@ -8999,7 +8953,6 @@ Z ADP
 arkuszem NOUN
 na ADP
 stole NOUN
-zapytywałem _
 zapytywał VERB
 em AUX
 koleyno ADV
@@ -9116,12 +9069,10 @@ dopiero PART
 ja PRON
 im PRON
 to PRON
-opowiedziałem _
 opowiedział VERB
 em AUX
 . PUNCT
 
-Przytoczyłem _
 Przytoczył VERB
 em AUX
 tu ADV
@@ -9305,7 +9256,6 @@ roku NOUN
 829 ADJ
 w ADP
 jesieni NOUN
-dostaliśmy _
 dostali VERB
 śmy AUX
 guwernera NOUN
@@ -9459,7 +9409,6 @@ wyprawiał VERB
 z ADP
 Panem NOUN
 Kamińskim PROPN
-gdyśmy _
 gdy ADV
 śmy AUX
 byli AUX
@@ -9471,7 +9420,6 @@ Dodatkowo ADV
 do ADP
 szkolnych ADJ
 przedmiotów NOUN
-uczyliśmy _
 uczyli VERB
 śmy AUX
 się PRON
@@ -9536,7 +9484,6 @@ pozycyi NOUN
 stanąwszy VERB
 w ADP
 nich PRON
-musieliśmy _
 musieli VERB
 śmy AUX
 stać VERB
@@ -9578,7 +9525,6 @@ i CCONJ
 mały ADJ
 Staś PROPN
 razem ADV
-braliśmy _
 brali VERB
 śmy AUX
 lekcye NOUN
@@ -9797,7 +9743,6 @@ harmonii NOUN
 niepsuło VERB
 . PUNCT
 
-Kochaliśmy _
 Kochali VERB
 śmy AUX
 starszego ADJ
@@ -9852,7 +9797,6 @@ koni NOUN
 , PUNCT
 a CCONJ
 czasem NOUN
-upinaliśmy _
 upinali VERB
 śmy AUX
 do ADP
@@ -9932,7 +9876,6 @@ i CCONJ
 psoty NOUN
 – PUNCT
 pamiętam VERB
-gdyśmy _
 gdy ADV
 śmy AUX
 raz NOUN
@@ -9941,7 +9884,6 @@ Adelą PROPN
 przyjechali VERB
 do ADP
 Babina PROPN
-oglądaliśmy _
 oglądali VERB
 śmy AUX
 na ADP
@@ -10060,7 +10002,6 @@ parafialnego ADJ
 kościoła NOUN
 w ADP
 Woyniłowie PROPN
-jechaliśmy _
 jechali VERB
 śmy AUX
 do ADP
@@ -10172,7 +10113,6 @@ Stanisławowa PROPN
 do ADP
 szkół NOUN
 – PUNCT
-mieliśmy _
 mieli VERB
 śmy AUX
 kuchtę NOUN
@@ -10415,12 +10355,10 @@ braciszka NOUN
 czy CCONJ
 siostrzyczkę NOUN
 – PUNCT
-odpowiedziałem _
 odpowiedział VERB
 em AUX
 braciszka NOUN
 – PUNCT
-Obudziłem _
 Obudził VERB
 em AUX
 się PRON
@@ -10436,7 +10374,6 @@ braciszek NOUN
 Drugi ADJ
 taki DET
 sen NOUN
-miałem _
 miał VERB
 em AUX
 gdy ADV
@@ -10447,13 +10384,11 @@ Niezabitoski PROPN
 i CCONJ
 taką DET
 samą ADJ
-dałem _
 dał VERB
 em AUX
 odpowiedź NOUN
 . PUNCT
 
-Byłem _
 Był AUX
 em AUX
 wówczas ADV
