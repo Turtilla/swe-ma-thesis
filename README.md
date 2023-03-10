@@ -20,7 +20,7 @@
 ### TODO eval:
 + Run evaluation of all the taggers/lemmatizers.
 + ~~Stanza~~
-+ ~~BERT~~ need to process the errors!
++ ~~BERT~~ ~~need to process the errors!~~
 + Marmot
 + UD
 + Morfeusz
