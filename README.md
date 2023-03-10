@@ -7,7 +7,7 @@
 + ~~Pre-tag with the above.~~
 + ~~Fix issues with reconstructing and spaces after t.p..~~
 + ~~Finish advanced tagging.~~
-+ Make sure that the ranges are correct.
++ ~~Make sure that the ranges are correct.~~
 + Review the tagging.
 
 ### TODO taggers:
