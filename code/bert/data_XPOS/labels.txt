@@ -37,6 +37,7 @@ adj:pl:gen:m3:sup
 adj:pl:gen:n:com
 adj:pl:gen:n:pos
 adj:pl:gen:n:sup
+adj:pl:inst:f
 adj:pl:inst:f:com
 adj:pl:inst:f:pos
 adj:pl:inst:f:sup
@@ -95,6 +96,7 @@ adj:sg:dat:f:com
 adj:sg:dat:f:pos
 adj:sg:dat:f:sup
 adj:sg:dat:m1:pos
+adj:sg:dat:m1:sup
 adj:sg:dat:m2:pos
 adj:sg:dat:m3:com
 adj:sg:dat:m3:pos
@@ -125,6 +127,7 @@ adj:sg:inst:m2:pos
 adj:sg:inst:m3:com
 adj:sg:inst:m3:pos
 adj:sg:inst:m3:sup
+adj:sg:inst:n
 adj:sg:inst:n:com
 adj:sg:inst:n:pos
 adj:sg:inst:n:sup
@@ -135,6 +138,7 @@ adj:sg:loc:m1:com
 adj:sg:loc:m1:pos
 adj:sg:loc:m2:com
 adj:sg:loc:m2:pos
+adj:sg:loc:m3
 adj:sg:loc:m3:com
 adj:sg:loc:m3:pos
 adj:sg:loc:m3:sup
@@ -252,6 +256,7 @@ num:pl:acc:f:congr:ncol
 num:pl:acc:f:rec
 num:pl:acc:f:rec:ncol
 num:pl:acc:m1:congr
+num:pl:acc:m1:congr:ncol
 num:pl:acc:m1:rec
 num:pl:acc:m1:rec:col
 num:pl:acc:m1:rec:ncol
@@ -306,6 +311,7 @@ num:pl:loc:f:congr:ncol
 num:pl:loc:f:rec
 num:pl:loc:m1:congr
 num:pl:loc:m1:congr:col
+num:pl:loc:m1:congr:ncol
 num:pl:loc:m3:congr
 num:pl:loc:m3:congr:ncol
 num:pl:loc:m3:rec
@@ -331,6 +337,7 @@ num:pl:nom:n:rec
 num:pl:nom:n:rec:col
 num:pl:nom:n:rec:ncol
 num:sg:acc:f:rec
+num:sg:acc:m2:rec
 num:sg:acc:m3
 num:sg:acc:m3:rec
 num:sg:acc:n:rec
@@ -493,6 +500,7 @@ ppas:sg:acc:m3:perf:neg
 ppas:sg:acc:n:imperf:aff
 ppas:sg:acc:n:perf:aff
 ppas:sg:acc:n:perf:neg
+ppas:sg:dat:f:imperf:aff
 ppas:sg:dat:f:perf:aff
 ppas:sg:dat:m1:imperf:aff
 ppas:sg:dat:m1:perf:aff
@@ -573,6 +581,7 @@ ppron12:sg:acc:f:sec:akc
 ppron12:sg:acc:f:sec:nakc
 ppron12:sg:acc:m1:pri
 ppron12:sg:acc:m1:pri:akc
+ppron12:sg:acc:m1:pri:nakc
 ppron12:sg:acc:m1:sec:akc
 ppron12:sg:acc:m1:sec:nakc
 ppron12:sg:acc:m2:pri:akc
@@ -714,6 +723,7 @@ ppron3:sg:inst:m3:ter:akc:praep
 ppron3:sg:inst:n:ter:akc:npraep
 ppron3:sg:inst:n:ter:akc:praep
 ppron3:sg:loc:f:ter:akc:praep
+ppron3:sg:loc:m1:ter:akc:npraep
 ppron3:sg:loc:m1:ter:akc:praep
 ppron3:sg:loc:m2:ter:akc:praep
 ppron3:sg:loc:m3:ter:akc:npraep
@@ -754,6 +764,7 @@ praet:sg:m3:perf
 praet:sg:m3:perf:nagl
 praet:sg:n:imperf
 praet:sg:n:perf
+praet:sg:ter:imperf
 pred
 prep:acc
 prep:acc:nwok
@@ -830,6 +841,7 @@ subst:pl:voc:n:ncol
 subst:pl:voc:n:pt
 subst:sg:acc:f
 subst:sg:acc:m1
+subst:sg:acc:m1:ncol
 subst:sg:acc:m2
 subst:sg:acc:m3
 subst:sg:acc:n:col
