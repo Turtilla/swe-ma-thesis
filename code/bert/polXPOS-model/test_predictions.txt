@@ -42,7 +42,7 @@ myłka subst:sg:nom:f
 , interp
 która adj:sg:nom:f:pos
 później adv:com
-wdokumentach subst:pl:dat:m1
+wdokumentach adj:pl:nom:m1:pos
 się part
 powtarza fin:sg:ter:imperf
 ) interp
@@ -55,23 +55,23 @@ właścicieli subst:pl:gen:m1
 Dóbr subst:pl:gen:n:pt
 Strużewo subst:sg:nom:n:ncol
 z prep:inst:nwok
-adlinencjami subst:pl:inst:f
+adlinencjami subst:pl:inst:n:ncol
 Puszczanki subst:sg:gen:f
 , interp
 Dąbrowy subst:sg:gen:f
 części subst:sg:gen:f
 , interp
-Ronantowizna subst:sg:nom:f
+Ronantowizna subst:sg:gen:n:ncol
 , interp
-Żółtowizna subst:sg:nom:f
+Żółtowizna subst:sg:inst:f
 , interp
-Będowszczyazna subst:sg:nom:f
+Będowszczyazna subst:sg:gen:n:ncol
 , interp
-Kmińszczyzna subst:sg:nom:f
+Kmińszczyzna subst:sg:gen:n:ncol
 , interp
-Bęklowizna subst:sg:inst:f
+Bęklowizna subst:sg:gen:n:ncol
 , interp
-Ruszkowizna subst:sg:gen:m3
+Ruszkowizna subst:sg:gen:n:ncol
 . interp
 
 A conj
@@ -275,7 +275,7 @@ więc comp
 zapytał praet:sg:m1:perf
 Pan subst:sg:nom:m1
 Potocki subst:sg:nom:m1
-co comp
+co subst:sg:nom:n:ncol
 to pred
 za part
 jeden adj:sg:nom:m1:pos
@@ -336,9 +336,9 @@ raz subst:sg:acc:m3
 do prep:gen
 dóbr subst:pl:gen:n:pt
 swoich adj:pl:gen:n:pos
-Brzeżany subst:pl:gen:n:ncol
+Brzeżany subst:sg:acc:m3
 i conj
-Skolego subst:sg:gen:m1
+Skolego subst:sg:acc:m1
 wziął praet:sg:m1:perf
 go ppron3:sg:acc:m1:ter:nakc:npraep
 sobie siebie:dat
@@ -360,7 +360,7 @@ w prep:loc:nwok
 górach subst:pl:loc:f
 i conj
 lasach subst:pl:loc:m3
-ogromnych adj:pl:loc:m3:pos
+ogromnych adj:pl:loc:f:pos
 żadnej adj:sg:gen:f:pos
 nie part
 czynią fin:pl:ter:imperf
@@ -390,7 +390,7 @@ taki adj:sg:acc:m3:pos
 uzyskać inf:perf
 dochód subst:sg:acc:m3
 zaprowadzić inf:perf
-potażarnię subst:sg:acc:f
+potażarnię adv:pos
 . interp
 
 Myśl subst:sg:nom:f
@@ -431,7 +431,7 @@ jego ppron3:sg:gen:m1:ter:akc:npraep
 
 Dochód subst:sg:nom:m3
 jaki adj:sg:acc:m3:pos
-okazał praet:sg:m3:perf
+okazał praet:sg:m1:perf
 mój adj:sg:nom:m1:pos
 Dziad subst:sg:nom:m1
 Panu subst:sg:dat:m1
@@ -446,7 +446,7 @@ piękny adj:sg:nom:m3:pos
 tak adv:pos
 że comp
 ujęty ppas:sg:nom:m3:perf:aff
-tem subst:sg:nom:m1
+tem adj:sg:nom:m1:pos
 zaproponował praet:sg:m1:perf
 śp brev:pun
 . interp
@@ -500,7 +500,7 @@ się part
 ożenił praet:sg:m1:perf
 z prep:inst:nwok
 Panną subst:sg:inst:f
-Kobylską subst:sg:inst:f
+Kobylską adj:sg:inst:f:pos
 , interp
 zacnego adj:sg:gen:m3:pos
 rodu subst:sg:gen:m3
@@ -613,7 +613,7 @@ mu ppron3:sg:dat:m1:ter:nakc:npraep
 wdówka subst:sg:nom:f
 wpadła praet:sg:f:perf
 w prep:acc:nwok
-oko subst:sg:acc:n:ncol
+oko subst:sg:acc:n:col
 – interp
 bez prep:gen:nwok
 wielu num:pl:gen:m3:congr
@@ -627,7 +627,7 @@ niej ppron3:sg:gen:f:ter:akc:praep
 „ interp
 wiesz fin:sg:sec:imperf
 Asińdźka subst:sg:nom:f
-co subst:sg:nom:n:ncol
+co subst:sg:acc:n:ncol
 ? interp
 Jesteś fin:sg:sec:imperf
 wdowa subst:sg:inst:f
@@ -650,7 +650,6 @@ Ja ppron12:sg:nom:m1:pri
 już part
 z prep:gen:nwok
 zamęścia subst:sg:gen:n:ncol
-zrezygnowałam _
 zrezygnowała praet:sg:f:perf
 m aglt:sg:pri:imperf:nwok
 , interp
@@ -659,14 +658,13 @@ ale conj
 mi ppron12:sg:dat:m1:pri:nakc
 się part
 Waszmość subst:sg:nom:m1
-podobałeś _
 podobał praet:sg:m1:imperf
 eś aglt:sg:sec:imperf:wok
 , interp
 więc comp
 jeżeli comp
 wola subst:sg:nom:f
-Twoja adj:sg:nom:f:pos
+Twoja adj:sg:inst:f:pos
 oddam fin:sg:pri:perf
 Ci ppron12:sg:dat:m1:sec:nakc
 moją adj:sg:acc:f:pos
@@ -684,7 +682,7 @@ rozmowę subst:sg:acc:f
 można pred
 sobie siebie:dat
 wyobrazić inf:perf
-co subst:sg:nom:n:ncol
+co subst:sg:acc:n:ncol
 działo praet:sg:n:imperf
 się part
 z prep:inst:nwok
@@ -878,7 +876,7 @@ napisem subst:sg:inst:m3
 nad prep:inst:nwok
 drzwiami subst:pl:inst:n:pt
 Abbum subst:sg:nom:m3
-Treterianum subst:sg:gen:m3
+Treterianum subst:sg:nom:m3
 . interp
 
 Przy prep:loc
@@ -891,7 +889,7 @@ cała adj:sg:nom:f:pos
 akademia subst:sg:nom:f
 w prep:loc:nwok
 została praet:sg:f:perf
-w prep:loc:nwok
+w prep:acc:nwok
 perzynę subst:sg:loc:f
 obrucona ppas:sg:nom:f:perf:aff
 – interp
@@ -927,14 +925,14 @@ po prep:loc
 ciotce subst:sg:loc:f
 mojej adj:sg:loc:f:pos
 wziął praet:sg:m1:perf
-100000 num:pl:acc:m3:rec
+100000 num:pl:acc:m2:rec
 zł brev:npun
 . interp
 polskich adj:pl:gen:m1:pos
 w prep:loc:nwok
 posagu subst:sg:loc:m3
 , interp
-to comp
+to part
 zarządzał praet:sg:m1:imperf
 jako comp
 plenipotent subst:sg:nom:m1
@@ -966,11 +964,11 @@ gitarą subst:sg:inst:f
 w prep:loc:nwok
 ręku subst:pl:loc:f
 wyśpiewywał praet:sg:m1:imperf
-różne adj:pl:acc:f:pos
-arye subst:pl:acc:f
-krakowiaki subst:pl:acc:f
+różne adj:pl:acc:m3:pos
+arye subst:pl:acc:m3
+krakowiaki subst:pl:acc:m2
 i conj
-kołomyjki subst:pl:acc:f
+kołomyjki subst:sg:gen:f
 . interp
 
 Straciwszy pant:perf
@@ -979,8 +977,8 @@ całe adj:sg:acc:n:pos
 jeździł praet:sg:m1:imperf
 na prep:loc
 koniu subst:sg:loc:m2
-po prep:acc
-znajomych subst:pl:acc:m1
+po prep:loc
+znajomych subst:pl:loc:m1
 a conj
 zawsze adv
 z prep:inst:nwok
@@ -1003,7 +1001,7 @@ bawiła praet:sg:f:imperf
 w prep:loc:nwok
 domu subst:sg:loc:m3
 mojego adj:sg:gen:m3:pos
-Oyca subst:sg:gen:m3
+Oyca subst:sg:gen:m1
 – interp
 od prep:gen:nwok
 niej ppron3:sg:gen:f:ter:akc:praep
@@ -1013,7 +1011,6 @@ tyczących pact:pl:gen:m3:imperf:aff
 familii subst:sg:gen:f
 Oyca subst:sg:gen:m1
 się part
-dowiedziałam _
 dowiedziała praet:sg:f:perf
 m aglt:sg:pri:imperf:nwok
 . interp
@@ -1023,9 +1020,9 @@ mi ppron12:sg:dat:m1:pri:nakc
 też part
 zabawny adj:sg:acc:m3:pos
 epizod subst:sg:acc:m3
-z prep:inst:nwok
-pożycia ger:sg:gen:n:perf:aff
-moich adj:pl:gen:m1:pos
+z prep:gen:nwok
+pożycia subst:sg:inst:f
+moich adj:pl:gen:n:pos
 wujostwa subst:sg:gen:n:ncol
 . interp
 
@@ -1057,7 +1054,7 @@ na prep:loc
 wstępie subst:sg:loc:m3
 opowiedziała praet:sg:f:perf
 jej ppron3:sg:dat:f:ter:akc:npraep
-czeladź subst:sg:acc:m3
+czeladź subst:sg:nom:m1
 , interp
 że comp
 Pan subst:sg:nom:m1
@@ -1090,11 +1087,10 @@ nieboszczyka subst:sg:gen:m1
 przemawia fin:sg:ter:imperf
 : interp
 „ interp
-przeżyłam _
 przeżyła praet:sg:f:perf
 m aglt:sg:pri:imperf:nwok
 z prep:inst:nwok
-Tobą ppron12:sg:inst:m1:sec
+Tobą ppron12:sg:inst:f:sec
 Stasiu subst:sg:voc:m1
 tyle num:pl:acc:m3:rec
 a conj
@@ -1115,7 +1111,7 @@ chleba subst:sg:gen:m3
 w prep:loc:nwok
 domu subst:sg:loc:m3
 – interp
-zato fin:sg:sec:imperf
+zato interj
 , interp
 ażeby comp
 Ci ppron12:sg:dat:m1:sec:nakc
@@ -1162,7 +1158,7 @@ wuj subst:sg:nom:m1
 kuzyn subst:sg:nom:m1
 Polanowskich subst:pl:gen:m1
 z prep:gen:nwok
-Bełzkiego subst:sg:gen:n:ncol
+Bełzkiego adj:sg:gen:m3:pos
 często adv:pos
 bywał praet:sg:m1:imperf
 w prep:loc:nwok
@@ -1189,7 +1185,7 @@ mi ppron12:sg:dat:m1:pri:nakc
 śp brev:pun
 . interp
 Dziadek subst:sg:nom:m1
-móy subst:sg:gen:m1
+móy subst:sg:nom:m1
 Ostaszewski subst:sg:nom:m1
 że comp
 jadąc pcon:imperf
@@ -1211,7 +1207,7 @@ już part
 do prep:gen
 Zarszyna subst:sg:gen:m3
 musiała praet:sg:f:imperf
-służąca subst:sg:inst:f
+służąca subst:sg:nom:f
 całą adj:sg:acc:f:pos
 drogę subst:sg:acc:f
 stać inf:imperf
@@ -1224,7 +1220,7 @@ się part
 suknia subst:sg:nom:f
 Pani subst:sg:gen:f
 Komornikowej subst:sg:gen:f
-niepomięła praet:sg:f:imperf
+niepomięła praet:sg:f:perf
 – interp
 z prep:gen:nwok
 tego adj:sg:gen:n:pos
@@ -1234,9 +1230,9 @@ dwóch num:pl:nom:m1:rec
 synów subst:pl:gen:m1
 . interp
 
-Jeden adj:sg:nom:m3:pos
+Jeden adj:sg:nom:m1:pos
 i conj
-drugi adj:sg:nom:m3:pos
+drugi adj:sg:nom:m1:pos
 pokończyli praet:pl:m1:perf
 nauki subst:pl:acc:f
 ale conj
@@ -1247,7 +1243,7 @@ w prep:acc:nwok
 ład subst:sg:acc:m3
 . interp
 
-Niewiem _
+Niewiem adv
 jakim adj:sg:inst:m3:pos
 sposobem subst:sg:inst:m3
 majątek subst:sg:acc:m3
@@ -1291,7 +1287,7 @@ dziwak subst:sg:nom:m1
 napastował praet:sg:m1:imperf
 ludzi subst:pl:acc:m1
 , interp
-aż comp
+aż part
 się part
 nim ppron3:sg:inst:m1:ter:akc:praep
 Pan subst:sg:nom:m1
@@ -1310,7 +1306,7 @@ nierobił praet:sg:m1:imperf
 . interp
 
 Ojciec subst:sg:nom:m1
-móy subst:sg:gen:m1
+móy subst:sg:gen:f
 sierota subst:sg:inst:f
 oddany ppas:sg:nom:m1:perf:aff
 do prep:gen
@@ -1379,22 +1375,20 @@ Ojciec subst:sg:nom:m1
 – interp
 a conj
 ja ppron12:sg:nom:m1:pri
-nieśmiałem _
 nieśmiał praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 wypytywać inf:imperf
 . interp
 
 Wreszcie part
-niebyłem _
 niebył praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 nigdy adv
-dłuższy adj:sg:acc:m3:com
-czas subst:sg:nom:m3
+dłuższy adj:sg:nom:m3:com
+czas subst:sg:acc:m3
 z prep:inst:nwok
 Oycem subst:sg:inst:m1
-na prep:acc
+na prep:loc
 gawędce subst:sg:loc:f
 . interp
 
@@ -1434,7 +1428,7 @@ szkół subst:pl:gen:f
 a conj
 Oyciec subst:sg:nom:m1
 ciągle adv:pos
-zajęty ppas:sg:nom:m1:perf:aff
+zajęty ppas:sg:nom:m3:perf:aff
 gospodarstwem subst:sg:inst:n:ncol
 , interp
 także part
@@ -1471,7 +1465,7 @@ nadporucznika subst:sg:gen:m3
 , interp
 zatrzymując pcon:imperf
 charakter subst:sg:acc:m3
-wojskowego adj:sg:gen:n:pos
+wojskowego adj:sg:gen:m3:pos
 do prep:gen
 kończ subst:sg:gen:m3
 życia subst:sg:gen:n:ncol
@@ -1485,13 +1479,13 @@ bitwach subst:pl:loc:f
 – interp
 a conj
 pod prep:inst:nwok
-Iglan subst:sg:inst:m1
+Iglan subst:sg:inst:m3
 był praet:sg:m1:imperf
 ranny adj:sg:nom:m1:pos
 w prep:acc:nwok
 rękę subst:sg:acc:f
 a conj
-pod prep:acc:nwok
+pod prep:inst:nwok
 Wagram subst:sg:acc:m3
 stojąc pcon:imperf
 w prep:loc:nwok
@@ -1510,14 +1504,14 @@ nieżywy adj:sg:nom:m3:pos
 – interp
 cały adj:sg:nom:m3:pos
 pułk subst:sg:nom:m3
-pieszy subst:pl:gen:m2
+pieszy adj:sg:nom:m3:pos
 Francuzów subst:pl:gen:m1
 przemaszerował praet:sg:m3:perf
 po prep:loc
 nim ppron3:sg:loc:m1:ter:akc:praep
 , interp
 kłując pcon:imperf
-bagnetami subst:pl:inst:m3
+bagnetami subst:pl:inst:f
 lub conj
 szpadą subst:sg:inst:f
 w prep:acc:nwok
@@ -1572,10 +1566,10 @@ jak comp
 powiadano imps:imperf
 za prep:acc
 indyki subst:pl:acc:m2
-których adj:pl:gen:m2:pos
+których adj:pl:gen:m1:pos
 po prep:acc
 parę num:pl:acc:m3:rec
-set subst:pl:gen:f
+set subst:pl:gen:m3
 sztuk subst:pl:gen:f
 do prep:gen
 Lwowa subst:sg:gen:m3
@@ -1658,7 +1652,7 @@ majątku subst:sg:gen:m3
 z prep:inst:nwok
 prawami subst:pl:inst:n:ncol
 pańszczyźnianymi adj:pl:inst:n:pos
-osypami subst:pl:inst:f
+osypami subst:pl:inst:m3
 daninami subst:pl:inst:f
 od prep:gen:nwok
 poddanych subst:pl:gen:m1
@@ -1674,7 +1668,7 @@ sądową adj:sg:acc:f:pos
 polityczną adj:sg:acc:f:pos
 i conj
 policyjną adj:sg:acc:f:pos
-pierwszey subst:sg:acc:f
+pierwszey subst:pl:acc:f
 instantacyi subst:sg:gen:f
 . interp
 
@@ -1732,7 +1726,7 @@ jakąś adj:sg:acc:f:pos
 ilość subst:sg:acc:f
 owsa subst:sg:gen:m3
 – interp
-korzec subst:sg:nom:m3
+korzec subst:sg:acc:m3
 albo conj
 dwa num:pl:acc:m3:congr
 korce subst:pl:acc:m3
@@ -1747,7 +1741,7 @@ i conj
 zagrodnicy subst:pl:nom:m1
 dawali praet:pl:m1:imperf
 tak adv:pos
-zwane adj:pl:acc:f:pos
+zwane ppas:pl:acc:f:perf:aff
 spaśne adj:pl:acc:f:pos
 - interp
 kury subst:pl:acc:f
@@ -1767,13 +1761,13 @@ gromadzkiego adj:sg:gen:n:pos
 . interp
 
 Także part
-obowiązane ppas:pl:nom:f:imperf:aff
+obowiązane adj:pl:nom:f:pos
 były praet:pl:f:imperf
 chałupy subst:pl:nom:f
 pewną adj:sg:acc:f:pos
-ilość subst:sg:nom:f
+ilość subst:sg:acc:f
 motków subst:pl:gen:m3
-uprząść inf:perf
+uprząść subst:sg:acc:f
 – interp
 za prep:acc
 to subst:sg:acc:n:ncol
@@ -1794,12 +1788,11 @@ inwentarzem subst:sg:inst:m3
 Wieleż num:pl:acc:m3:rec
 to part
 razy subst:pl:gen:m3
-słyszałem _
 słyszał praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 śp brev:pun
 . interp
-Dziadka subst:sg:gen:m1
+Dziadka subst:sg:acc:m1
 Ostaszewskigo subst:sg:gen:m1
 jak comp
 się part
@@ -1810,9 +1803,9 @@ jego ppron3:sg:gen:m1:ter:akc:npraep
 kmiecie subst:pl:nom:m2
 na prep:loc
 Długim adj:sg:loc:n:pos
-najlepsze adj:sg:nom:n:sup
+najlepsze adv:sup
 mają fin:pl:ter:imperf
-konie subst:pl:nom:m2
+konie subst:pl:acc:m2
 z prep:gen:nwok
 okolicy subst:sg:gen:f
 – interp
@@ -1857,14 +1850,14 @@ Pan subst:sg:nom:m1
 Kazimierz subst:sg:nom:m1
 60 num:pl:acc:m3:rec
 morgów subst:pl:gen:m3
-suchey adj:pl:nom:f:pos
+suchey adj:pl:acc:f:pos
 łąki subst:pl:nom:f
 podedworem subst:sg:inst:m3
 a conj
-nayskładniey subst:pl:nom:m3
-położone ppas:pl:acc:f:perf:aff
+nayskładniey prep:acc
+położone ppas:pl:nom:f:perf:aff
 dla prep:gen
-kmieci subst:pl:gen:m2
+kmieci subst:pl:gen:m1
 , interp
 i conj
 oddał praet:sg:m1:perf
@@ -1914,7 +1907,7 @@ rybołówstwa subst:sg:gen:n:ncol
 posiadania ger:sg:gen:n:imperf:aff
 lasu subst:sg:gen:m3
 i conj
-polowania subst:sg:gen:n:ncol
+polowania ger:sg:gen:n:imperf:aff
 na prep:loc
 całym adj:sg:loc:m3:pos
 obszarze subst:sg:loc:m3
@@ -1922,7 +1915,7 @@ tak adv:pos
 dworskim adj:sg:loc:m3:pos
 jak conj
 i conj
-gromadzkim adj:sg:loc:m3:pos
+gromadzkim subst:sg:inst:m3
 . interp
 
 Jeżeli comp
@@ -1951,7 +1944,7 @@ wianki subst:pl:acc:m3
 suszonych ppas:pl:gen:m3:perf:aff
 grzybów subst:pl:gen:m3
 – interp
-miarkmi brev:npun
+miarkmi subst:pl:nom:f
 wianki subst:pl:nom:m3
 powinny winien:pl:m3:imperf
 były praet:pl:m3:imperf
@@ -1971,7 +1964,7 @@ z prep:gen:nwok
 niego ppron3:sg:gen:m1:ter:akc:praep
 dziesięcinę subst:sg:acc:f
 , interp
-to comp
+to pred
 jest fin:sg:ter:imperf
 dziesiąty adj:sg:nom:m3:pos
 pniak subst:sg:nom:m3
@@ -1979,7 +1972,6 @@ do prep:gen
 dworu subst:sg:gen:m3
 . interp
 
-Zdawałoby _
 Zdawało praet:sg:n:imperf
 by part
 się part
@@ -2031,7 +2023,7 @@ p brev:pun
 . interp
 
 Nieszlachcic inf:perf
-niemógł praet:sg:m1:imperf:nagl
+niemógł pred
 kupować inf:imperf
 majątku subst:sg:gen:m3
 ziemskiego adj:sg:gen:m3:pos
@@ -2075,7 +2067,7 @@ opiekuńczą adj:sg:inst:f:pos
 – interp
 niemogło praet:sg:n:imperf
 się part
-żadne adj:sg:nom:n:pos
+żadne adj:sg:acc:n:pos
 małżeństwo subst:sg:acc:n:ncol
 skojarzyć inf:perf
 we prep:loc:wok
@@ -2088,8 +2080,8 @@ dał praet:sg:m1:perf
 – interp
 dopokąd comp
 z prep:gen:nwok
-Dominii subst:sg:gen:f
-nieprzyniósł praet:sg:m1:perf:nagl
+Dominii subst:sg:gen:n:ncol
+nieprzyniósł praet:sg:m1:perf
 kartki subst:pl:acc:f
 pozwolenia subst:sg:gen:n:ncol
 . interp
@@ -2163,7 +2155,7 @@ w prep:loc:nwok
 domu subst:sg:loc:m3
 P brev:pun
 . interp
-T brev:pun
+T brev:npun
 Dziadek subst:sg:nom:m1
 móy subst:sg:nom:m1
 mawiał praet:sg:m1:imperf
@@ -2182,12 +2174,12 @@ domu subst:sg:gen:m3
 
 Mandatariaty subst:pl:nom:m3
 po prep:loc
-większej adj:sg:loc:f:com
+większej adj:sg:gen:f:com
 części subst:sg:loc:f
 obsadzane ppas:pl:nom:m3:imperf:aff
 były praet:pl:m3:imperf
 szlachtą subst:sg:inst:f
-zagonową adj:sg:nom:f:pos
+zagonową adj:sg:inst:f:pos
 – interp
 cząstkową adj:sg:nom:f:pos
 – interp
@@ -2202,7 +2194,7 @@ normalnych adj:pl:loc:f:pos
 – interp
 dziś adv
 ludowemi adj:pl:inst:f:pos
-zwanych ppas:pl:gen:f:imperf:aff
+zwanych ppas:pl:gen:f:perf:aff
 czytać inf:imperf
 , interp
 pisać inf:imperf
@@ -2229,26 +2221,26 @@ się part
 trochę adv
 prawa subst:sg:gen:n:ncol
 – interp
-manipulacyi subst:sg:dat:f
-urzędowey adj:pl:acc:m3:pos
+manipulacyi subst:sg:gen:f
+urzędowey adj:pl:acc:f:pos
 – interp
 zdawał praet:sg:m1:imperf
 egzamin subst:sg:acc:m3
 w prep:loc:nwok
 Starostwie subst:sg:loc:n:ncol
 w prep:loc:nwok
-Cyrkule subst:sg:loc:n:ncol
+Cyrkule subst:sg:loc:m3
 i conj
 dostawał praet:sg:m1:imperf
 dekret subst:sg:acc:m3
 na prep:acc
 reprezentanta subst:sg:acc:m1
-Domnikalnego adj:sg:acc:m1:pos
+Domnikalnego adj:sg:gen:m1:pos
 czyli conj
 Mandataryusza subst:sg:acc:m1
 . interp
 
-Mandatyrusza subst:sg:nom:m1
+Mandatyrusza subst:pl:acc:m3
 przyjmował praet:sg:m1:imperf
 Dziedzic subst:sg:nom:m1
 na prep:acc
@@ -2277,13 +2269,13 @@ fl brev:npun
 20 dig
 do prep:gen
 50 num:pl:gen:m3:congr
-korcy subst:sg:gen:f
+korcy subst:sg:gen:m3
 ordynaryi subst:sg:gen:f
 – interp
 ogród subst:sg:acc:m3
 , interp
 pomieszkanie ger:sg:acc:n:perf:aff
-opał subst:sg:nom:m3
+opał subst:sg:acc:m3
 – interp
 pastwisko subst:sg:nom:n:ncol
 – interp
@@ -2298,7 +2290,7 @@ Dziedzica subst:sg:acc:m1
 
 Mimo prep:acc
 tak adv:pos
-szczupłey subst:sg:gen:f
+szczupłey adj:pl:acc:f:pos
 dotacyi pcon:imperf
 uwzględniając pcon:imperf
 taniość subst:sg:acc:f
@@ -2318,14 +2310,14 @@ do prep:gen
 centów subst:pl:gen:m3
 – interp
 korzec subst:sg:nom:m3
-owsa subst:sg:gen:m2
+owsa subst:sg:gen:m3
 cwansigera subst:sg:gen:m1
 – interp
 czyli conj
 33 num:pl:acc:m3:congr
 centy subst:pl:acc:m3
 – interp
-korzec subst:sg:nom:m3
+korzec subst:sg:acc:f
 żyta subst:sg:gen:n:ncol
 dzisiejszych adj:pl:gen:m3:pos
 1 num:pl:gen:m3:congr
@@ -2333,7 +2325,7 @@ fl brev:npun
 – interp
 kartofli subst:pl:gen:m3
 korzec subst:sg:nom:m3
-10 num:pl:gen:m3:congr
+10 num:pl:acc:m3:rec
 do prep:gen
 14 num:pl:gen:m3:congr
 centów subst:pl:gen:m3
@@ -2417,7 +2409,7 @@ w prep:loc:nwok
 Bludnikach subst:pl:loc:m3
 – interp
 do prep:gen
-Bludnik subst:sg:gen:m3
+Bludnik subst:pl:gen:n:pt
 należały praet:pl:n:imperf
 Pokasowce subst:pl:nom:f
 i conj
@@ -2431,7 +2423,7 @@ Dziedzica subst:sg:gen:m1
 jeden adj:sg:nom:m1:pos
 z prep:gen:nwok
 gromady subst:sg:gen:f
-najbliższy adj:sg:nom:m1:com
+najbliższy adj:sg:nom:m1:sup
 sąsiad subst:sg:nom:m1
 dworu subst:sg:gen:m3
 nazywał praet:sg:m1:imperf
@@ -2449,7 +2441,6 @@ może part
 to part
 jego ppron3:sg:gen:m1:ter:akc:npraep
 samego adj:sg:gen:m1:pos
-bośmy _
 bo comp
 śmy aglt:pl:pri:imperf:nwok
 do prep:gen
@@ -2488,7 +2479,7 @@ końcach subst:pl:loc:m3
 czerwoną adj:sg:nom:f:pos
 przędzą subst:sg:nom:f
 i conj
-frędzlą subst:sg:inst:f
+frędzlą subst:sg:nom:f
 białą adj:sg:nom:f:pos
 
 zkończone ppas:sg:nom:n:perf:aff
@@ -2512,9 +2503,9 @@ czy conj
 z prep:inst:nwok
 wodą subst:sg:inst:f
 – interp
-gotowe adj:pl:nom:m3:pos
+gotowe adj:pl:nom:f:pos
 każdej adj:sg:gen:f:pos
-chwili subst:sg:gen:f
+chwili subst:sg:dat:f
 do prep:gen
 przyjęcia ger:sg:gen:n:perf:aff
 gości subst:pl:gen:m1
@@ -2587,7 +2578,7 @@ przyniesie fin:sg:ter:perf
 i conj
 na prep:loc
 poczekaniu subst:sg:loc:n:ncol
-przyniósł praet:sg:m1:perf
+przyniósł praet:sg:m1:perf:nagl
 i conj
 wyliczył praet:sg:m1:perf
 2000 num:pl:acc:f:rec
@@ -2595,7 +2586,7 @@ sztuk subst:pl:gen:f
 złota subst:sg:gen:n:ncol
 . interp
 
-Takich adj:pl:acc:m1:pos
+Takich adj:pl:gen:m1:pos
 gospodarzy subst:pl:gen:m1
 jeszcze part
 za prep:acc
@@ -2604,7 +2595,7 @@ pamięci subst:sg:gen:f
 liczono imps:imperf
 sześciu num:pl:acc:m1:rec
 w prep:loc:nwok
-Bludnikach subst:pl:loc:n:pt
+Bludnikach subst:pl:loc:m3
 . interp
 
 Mandatariuszem subst:sg:inst:m1
@@ -2616,7 +2607,7 @@ Pan subst:sg:nom:m1
 Witwicki subst:sg:nom:m1
 i conj
 był praet:sg:m1:imperf
-jaszcze subst:sg:nom:m1
+jaszcze adv
 tam adv
 za prep:gen
 mojej adj:sg:gen:f:pos
@@ -2661,8 +2652,8 @@ tak adv:pos
 późney subst:sg:nom:m1
 dokupił praet:sg:m1:perf
 Dziad subst:sg:nom:m1
-móy subst:sg:gen:m1
-Dorchów subst:pl:gen:m1
+móy subst:sg:nom:m1
+Dorchów subst:pl:acc:m1
 i conj
 Kurypów subst:pl:gen:m1
 – interp
@@ -2683,13 +2674,13 @@ w prep:loc:nwok
 ruskim adj:sg:loc:m3:pos
 języku subst:sg:loc:m3
 – interp
-Toje subst:sg:acc:n:ncol
-diło subst:sg:nom:m1
-daruju subst:sg:dat:m3
+Toje fin:sg:ter:imperf
+diło subst:sg:nom:n:ncol
+daruju subst:sg:dat:m1
 ukochanomu adj:sg:dat:m1:pos
 Synu subst:sg:voc:m1
 mojomu subst:sg:dat:m1
-Mychayłowu subst:sg:voc:m1
+Mychayłowu subst:sg:dat:m1
 . interp
 
 Bludniki subst:sg:nom:m1
@@ -2726,15 +2717,15 @@ się part
 mojego adj:sg:gen:m1:pos
 Oyca subst:sg:gen:m1
 pono part
-1813 dig
+1813 adj:sg:gen:m3:pos
 albo conj
-1814 dig
+1814 adj:sg:gen:m3:pos
 – interp
 Pana subst:sg:acc:m1
 Józefa subst:sg:acc:m1
 wziął praet:sg:m1:perf
 Dziadek subst:sg:nom:m1
-móy subst:sg:gen:m1
+móy subst:sg:acc:m1
 do prep:gen
 Siebie siebie:gen
 do prep:gen
@@ -2743,7 +2734,7 @@ Siemginowa subst:sg:gen:m3
 i conj
 aż part
 dośmierci fin:sg:ter:perf
-Oyca subst:sg:gen:m1
+Oyca subst:sg:acc:m1
 przy prep:loc
 Nim ppron3:sg:loc:m1:ter:akc:praep
 zostawał praet:sg:m1:imperf
@@ -2802,9 +2793,9 @@ Osiadł praet:sg:m1:perf
 on ppron3:sg:nom:m1:ter:akc:npraep
 w prep:loc:nwok
 końcu subst:sg:loc:m3
-pono subst:sg:gen:n:ncol
+pono subst:sg:acc:m3
 w prep:loc:nwok
-Lipie subst:sg:loc:m3
+Lipie subst:sg:loc:f
 – interp
 ale conj
 która adj:sg:nom:f:pos
@@ -2816,7 +2807,7 @@ niewinem subst:sg:inst:m3
 Pan subst:sg:nom:m1
 Michał subst:sg:nom:m1
 był praet:sg:m1:imperf
-najstarszy adj:sg:nom:m1:com
+najstarszy adj:sg:nom:m1:sup
 w prep:loc:nwok
 rodzinie subst:sg:loc:f
 sąsiadował praet:sg:m1:imperf
@@ -2828,9 +2819,9 @@ miedzę subst:sg:loc:f
 
 Ożeniony ppas:sg:nom:m1:perf:aff
 ze prep:gen:wok
-Zabilską subst:sg:inst:f
+Zabilską subst:sg:gen:m1
 z prep:inst:nwok
-Temerowiec subst:sg:inst:m1
+Temerowiec subst:sg:inst:f
 , interp
 siostra subst:sg:inst:f
 Teodora subst:sg:gen:m1
@@ -2841,7 +2832,7 @@ Zabilskich subst:pl:gen:m1
 miał praet:sg:m1:imperf
 Syna subst:sg:acc:m1
 jedynaka subst:sg:acc:m1
-Sabina subst:sg:gen:m1
+Sabina subst:sg:acc:m1
 . interp
 
 Wcześnie adv:pos
@@ -2888,7 +2879,7 @@ pono part
 z prep:inst:nwok
 Jordanówną subst:sg:inst:f
 z prep:gen:nwok
-Bełzkiego subst:sg:gen:m3
+Bełzkiego subst:sg:gen:n:ncol
 , interp
 ten adj:sg:nom:m1:pos
 zostawił praet:sg:m1:perf
@@ -2909,10 +2900,10 @@ u prep:gen
 moich adj:pl:gen:m1:pos
 Rodziców subst:pl:gen:m1
 – interp
-niebył praet:sg:m1:imperf
+niebył praet:sg:m1:perf
 gospodarzem subst:sg:inst:m1
 więcey subst:sg:gen:m3
-fantasta subst:sg:gen:m1
+fantasta subst:sg:nom:m1
 – interp
 pamiętam fin:sg:pri:imperf
 , interp
@@ -2932,8 +2923,8 @@ Tadeusza subst:sg:gen:m1
 ” interp
 , interp
 skupował praet:sg:m1:imperf
-masami subst:pl:inst:m3
-poziomki subst:pl:acc:m3
+masami subst:pl:inst:f
+poziomki subst:pl:acc:f
 i conj
 częstował praet:sg:m1:imperf
 cały adj:sg:acc:m3:pos
@@ -2954,7 +2945,7 @@ post subst:sg:nom:m3
 – interp
 ligał praet:sg:m1:imperf
 na prep:loc
-gołey subst:sg:loc:f
+gołey subst:pl:acc:m3
 podłodze subst:sg:loc:f
 obok prep:gen
 łóżka subst:sg:gen:n:ncol
@@ -2964,7 +2955,7 @@ ciało subst:sg:acc:n:ncol
 – interp
 Zapraszał praet:sg:m1:imperf
 do prep:gen
-tey adj:sg:gen:f:pos
+tey subst:sg:gen:f
 praktyki subst:sg:gen:f
 do prep:gen
 siebie siebie:gen
@@ -2992,7 +2983,7 @@ bydło subst:sg:nom:n:ncol
 musiało praet:sg:n:imperf
 suszyć inf:imperf
 więc comp
-sądny subst:sg:nom:m3
+sądny subst:sg:acc:m3
 to pred
 był praet:sg:m3:imperf
 dzień subst:sg:nom:m3
@@ -3002,7 +2993,7 @@ i conj
 kwiku subst:sg:gen:m3
 na prep:loc
 obeyściu ger:sg:loc:n:perf:aff
-niemożna adj:sg:nom:f:pos
+niemożna adj:sg:inst:f:pos
 było praet:sg:n:imperf
 wysłuchać inf:perf
 . interp
@@ -3015,11 +3006,11 @@ bardzo adv:pos
 był praet:sg:m1:imperf
 oczytany ppas:sg:nom:m1:perf:aff
 – interp
-poczciwy adj:sg:nom:m2:pos
+poczciwy adj:sg:nom:m1:pos
 – interp
-zacny adj:sg:nom:m2:pos
+zacny adj:sg:nom:m1:pos
 tylko part
-raptus subst:sg:nom:m2
+raptus subst:sg:nom:m3
 . interp
 
 Zastała praet:sg:f:perf
@@ -3030,7 +3021,7 @@ klęczącym pact:sg:inst:m1:imperf:aff
 ze prep:inst:wok
 złożonymi ppas:pl:inst:f:perf:aff
 rękoma subst:pl:inst:f
-nieżywym adj:sg:inst:m1:pos
+nieżywym adj:pl:inst:n:pos
 . interp
 
 Sukcesya subst:sg:nom:f
@@ -3042,16 +3033,16 @@ część subst:sg:nom:f
 i conj
 na prep:acc
 mojego adj:sg:acc:m1:pos
-Oyca subst:sg:acc:m2
+Oyca subst:sg:acc:m1
 spadała praet:sg:f:imperf
 odstąpił praet:sg:m1:perf
 On ppron3:sg:nom:m1:ter:akc:npraep
 Siostrom subst:pl:dat:f
 swoim adj:pl:dat:m1:pos
-rodzonym adj:pl:dat:f:pos
+rodzonym adj:pl:dat:m1:pos
 Treterowej subst:sg:gen:f
 i conj
-Swieżaskiey subst:sg:gen:f
+Swieżaskiey adj:pl:acc:f:pos
 . interp
 
 Pan subst:sg:nom:m1
@@ -3077,7 +3068,7 @@ wsi subst:sg:gen:f
 w prep:loc:nwok
 Stryiskim subst:sg:loc:n:ncol
 w prep:loc:nwok
-górach subst:pl:loc:n:pt
+górach subst:pl:loc:f
 czy conj
 Kruszelnicę subst:pl:acc:f
 – interp
@@ -3093,7 +3084,7 @@ na prep:loc
 jednem adj:sg:loc:n:pos
 obeyściu ger:sg:loc:n:perf:aff
 było praet:sg:n:imperf
-dwa num:pl:nom:m3:congr
+dwa num:pl:acc:m3:congr
 dwory subst:pl:nom:m3
 - interp
 2 num:pl:nom:f:congr
@@ -3114,10 +3105,10 @@ brzydka adj:sg:nom:f:pos
 – interp
 druga adj:sg:nom:f:pos
 bardzo adv:pos
-przystoyna subst:sg:nom:f
+przystoyna fin:sg:ter:imperf
 ( interp
 obie num:pl:nom:f:congr
-nauczycielkami subst:pl:inst:m1
+nauczycielkami subst:pl:inst:f
 ) interp
 ale conj
 – interp
@@ -3134,15 +3125,15 @@ Bludnik subst:sg:gen:m3
 do prep:gen
 Martynowa subst:sg:gen:m3
 do prep:gen
-Państwa subst:pl:gen:n:ncol
-Rudzkich subst:pl:gen:m1
+Państwa subst:sg:gen:n:ncol
+Rudzkich subst:pl:gen:f
 gdzie adv
 były praet:pl:f:imperf
 dwie num:pl:nom:f:congr
 panienki subst:pl:nom:f
 – interp
 z prep:gen:nwok
-tąd subst:sg:gen:m3
+tąd subst:sg:inst:m3
 bywała praet:sg:f:imperf
 z prep:inst:nwok
 tym adj:sg:inst:m3:pos
@@ -3156,14 +3147,14 @@ Jakby part
 instynktownie adv:pos
 Matka subst:sg:nom:f
 moja adj:sg:nom:f:pos
-jey fin:sg:ter:imperf
+jey subst:sg:acc:f
 znieść inf:perf
 niemogła adj:sg:acc:f:pos
 . interp
 
 Pan subst:sg:nom:m1
 Józef subst:sg:nom:m1
-osiadły praet:pl:f:perf
+osiadły ppas:sg:nom:m1:perf:aff
 na prep:loc
 Siemiginowie subst:sg:loc:m1
 już part
@@ -3201,7 +3192,7 @@ wiedzie fin:sg:ter:imperf
 życie subst:sg:acc:n:ncol
 , interp
 że comp
-niema num:pl:nom:m1:rec
+niema fin:sg:ter:imperf
 sukcessorów subst:pl:gen:m1
 , interp
 że comp
@@ -3215,7 +3206,7 @@ swoją adj:sg:acc:f:pos
 odmłodził praet:sg:m1:perf
 piękną adj:sg:inst:f:pos
 młodą adj:sg:inst:f:pos
-żoneczką subst:sg:nom:f
+żoneczką subst:sg:inst:f
 – interp
 ale conj
 Panu subst:sg:dat:m1
@@ -3248,7 +3239,7 @@ Kruszelnicy subst:sg:gen:f
 o prep:acc
 kilka num:pl:acc:f:rec
 mil subst:pl:gen:f
-odległey adj:pl:nom:f:pos
+odległey adj:pl:acc:f:pos
 od prep:gen:nwok
 Siemignowa subst:sg:gen:m3
 – interp
@@ -3265,7 +3256,7 @@ Panna subst:sg:nom:f
 Julia subst:sg:nom:f
 i conj
 wyswatano imps:perf
-Jegomości subst:sg:acc:m1
+Jegomości subst:sg:dat:m1
 już part
 bardzo adv:pos
 niemłodego subst:sg:acc:m1
@@ -3285,7 +3276,7 @@ małżeństwa subst:sg:gen:n:ncol
 tego adj:sg:gen:n:pos
 była praet:sg:f:imperf
 jedyna adj:sg:inst:f:pos
-córka subst:sg:inst:f
+córka subst:sg:nom:f
 Sabina subst:sg:gen:m1
 , interp
 jedyna adj:sg:inst:f:pos
@@ -3327,7 +3318,7 @@ niemłodej adj:sg:gen:f:pos
 już part
 , interp
 ale conj
-ciepłey adj:pl:nom:f:pos
+ciepłey praet:pl:f:perf
 wdowy subst:pl:nom:f
 . interp
 
@@ -3339,7 +3330,7 @@ wybrała praet:sg:f:perf
 pana subst:sg:acc:m1
 Szołayskiego subst:sg:acc:m1
 młodzika subst:sg:acc:m1
-około prep:gen
+około part
 24 num:pl:gen:m3:congr
 lat subst:pl:gen:m3
 liczącego pact:sg:gen:m1:imperf:aff
@@ -3363,7 +3354,7 @@ secundo subst:sg:nom:f
 voto subst:sg:nom:f
 Szołayska subst:sg:nom:f
 lubiła praet:sg:f:imperf
-procesa subst:sg:acc:m3
+procesa subst:sg:acc:m2
 – interp
 miała praet:sg:f:imperf
 ich ppron3:pl:gen:f:ter:akc:npraep
