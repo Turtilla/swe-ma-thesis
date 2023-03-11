@@ -51,3 +51,9 @@ code/bert/polXPOS-model/pytorch_model.bin
 code/.ipynb_checkpoints/stanza-lemmatizer-evaluation-checkpoint.ipynb
 code/.ipynb_checkpoints/bert-results-evaluation-checkpoint.ipynb
 code/__pycache__/functions.cpython-38.pyc
+code/bert/data_UPOS/cached_dev_BertTokenizer_128
+code/bert/data_UPOS/cached_dev_BertTokenizer_128.lock
+code/bert/data_UPOS/cached_test_BertTokenizer_128
+code/bert/data_UPOS/cached_test_BertTokenizer_128.lock
+code/bert/data_UPOS/cached_train_BertTokenizer_128
+code/bert/data_UPOS/cached_train_BertTokenizer_128.lock
