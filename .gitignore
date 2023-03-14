@@ -59,3 +59,4 @@ code/bert/data_UPOS/cached_train_BertTokenizer_128
 code/bert/data_UPOS/cached_train_BertTokenizer_128.lock
 code/marmot/pl_custom.marmot
 code/marmot/pretrained_models/pl.marmot
+code/.ipynb_checkpoints/marmot-results-evaluation-checkpoint.ipynb
