@@ -3,8 +3,9 @@ import stanza
 import sklearn.metrics
 import matplotlib.pyplot as plt
 import time
+import pandas as pd
 
-def extract_conllu_data(filename: str, feature: str, sentences: bool = True, combined: bool = False):
+def extract_conllu_data(filename: str, feature: str, sentences: bool = True, combined: bool = False, fulltext: bool = True):
     '''A function that allows for the extraction of the desired data from a conllu file, structured into sentences or not.
     
     Args:
@@ -38,7 +39,8 @@ def extract_conllu_data(filename: str, feature: str, sentences: bool = True, com
     
     # selecting the relevant data and adding it to relevant lists
     for sentence in sents:
-        data.append(sentence.metadata['text'])
+        if fulltext:
+            data.append(sentence.metadata['text'])
         sent_tokens_features = []
         sent_tokens = []
         sent_features = []
@@ -67,9 +69,15 @@ def extract_conllu_data(filename: str, feature: str, sentences: bool = True, com
             tokens_features = [x for sentence in tokens_features for x in sentence]
             
     if combined:
-        return tokens_features, data
-    else:        
-        return tokens, features, data
+        if fulltext:
+            return tokens_features, data
+        else:
+            return tokens_features
+    else:
+        if fulltext:        
+            return tokens, features, data
+        else:
+            return tokens, features
 
 def get_measures(gold_standard: list, predictions: list, labels: list = [], matrix: bool = False):
     '''A function intended for retrieving a selection of evaluation measures for comparing the gold standard and the tagger
@@ -90,6 +98,9 @@ def get_measures(gold_standard: list, predictions: list, labels: list = [], matr
     # printing out the measures
     print('MEASURES:')
     print(f'Accuracy: {"{:.2%}".format(sklearn.metrics.accuracy_score(gold_standard, predictions))}')
+    print(f'Precision (weighted): {"{:.2%}".format(sklearn.metrics.precision_score(gold_standard, predictions, average="weighted", zero_division=0))}')
+    print(f'Recall (weighted): {"{:.2%}".format(sklearn.metrics.recall_score(gold_standard, predictions, average="weighted", zero_division=0))}')
+    print(f'F1 (weighted): {"{:.2%}".format(sklearn.metrics.f1_score(gold_standard, predictions, average="weighted", zero_division=0))}')
     print(f'Matthew\'s Correlation Coefficient: {"{:.2%}".format(sklearn.metrics.matthews_corrcoef(gold_standard, predictions))}')
     print()
     print('MEASURES PER CLASS:')
@@ -113,3 +124,23 @@ def get_measures(gold_standard: list, predictions: list, labels: list = [], matr
         
         timestr = time.strftime("%Y%m%d-%H%M%S")
         plt.savefig(timestr + "confusion_matrix.jpg")
+
+def get_comparison(standard: list, predictions: list, tokens: list):
+    '''A function that calculates and prints out the accuracy of the lemmatization.
+    
+    Args:
+        standard (list): A list of lists of gold standard lemmas.
+        predictions (list): A list of lists of predicted lemmas.
+    
+    Returns:
+        A Pandas dataframe containing the mismatched lemmas.
+    '''
+    
+    problematic = []
+    for i, ann in enumerate(predictions):
+        if standard[i] != ann:
+            problematic.append((tokens[i], standard[i], predictions[i]))
+            
+    problematic_frame = pd.DataFrame(problematic, columns=['Token', 'Gold Standard', 'Prediction'])
+    
+    return problematic_frame
