@@ -12,7 +12,7 @@
 
 ### TODO taggers:
 + ~~Decide on a method to use BERT for tagging ([existing architecture?](https://github.com/huggingface/transformers/tree/main/examples/legacy/token-classification))~~ 
-+ (Potentially) train Marmot on the desired data.
++ ~~(Potentially) train Marmot on the desired data.~~
 + ~~Figure out how to access the UD one.~~
 + ~~Figure out how to use Morfeusz.~~
 + ~~Figure out how to use the lemmatizer.~~
