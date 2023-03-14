@@ -1085,7 +1085,7 @@
 17	familii	familia	NOUN	subst:sg:gen:f	_	_	_	_	_
 18	Oyca	oyca	NOUN	subst:sg:nom:f	_	_	_	_	_
 19	się	się	PRON	part	_	_	_	_	_
-19-20	dowiedziałam	_	_	_	_	_	_	_	_
+20-21	dowiedziałam	_	_	_	_	_	_	_	_
 20	dowiedziała	dowiedzieć	VERB	praet:sg:f:perf	_	_	_	_	_
 21	m	być	AUX	aglt:sg:pri:imperf:nwok	_	_	_	_	_
 22	.	.	PUNCT	interp	_	_	_	_	_
@@ -1477,7 +1477,7 @@
 12	–	–	PUNCT	interp	_	_	_	_	_
 13	a	a	CCONJ	conj	_	_	_	_	_
 14	ja	ja	PRON	ppron12:sg:nom:m1:pri	_	_	_	_	_
-15-16	nieśmiałem	_	_	_	_	_	_	_	_ 
+15-16	nieśmiałem	_	_	_	_	_	_	_	_
 15	nieśmiał	nieśmieć	VERB	praet:sg:m1:imperf	_	_	_	_	neg
 16	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 17	wypytywać	wypytywać	VERB	inf:imperf	_	_	_	_	_

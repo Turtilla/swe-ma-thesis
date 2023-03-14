@@ -1918,7 +1918,7 @@
 1	Wieleż	wieleż	DET	num:pl:acc:m3:rec	_	_	_	_	_
 2	to	to	PART	part	_	_	_	_	_
 3	razy	raz	NOUN	subst:pl:acc:m3	_	_	_	_	_
-3-4	słyszałem	_	_	_	_	_	_	_	_
+4-5	słyszałem	_	_	_	_	_	_	_	_
 4	słyszał	słyszeć	VERB	praet:sg:m1:imperf	_	_	_	_	_
 5	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
 6	śp	świętej pamięci	X	brev:pun	_	_	_	_	_
