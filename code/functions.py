@@ -79,7 +79,7 @@ def extract_conllu_data(filename: str, feature: str, sentences: bool = True, com
         else:
             return tokens, features
 
-def get_measures(gold_standard: list, predictions: list, labels: list = [], matrix: bool = False):
+def get_measures(gold_standard: list, predictions: list, labels: list = [], matrix: bool = False, details: bool = False):
     '''A function intended for retrieving a selection of evaluation measures for comparing the gold standard and the tagger
     annotations. The measures are printed out and include accuracy, Matthew's Correlation Coefficient, per-class precision 
     and recall, as well as a confusion matrix, which, in addition, get saved locally. These measures are calculated using 
@@ -102,17 +102,18 @@ def get_measures(gold_standard: list, predictions: list, labels: list = [], matr
     print(f'Recall (weighted): {"{:.2%}".format(sklearn.metrics.recall_score(gold_standard, predictions, average="weighted", zero_division=0))}')
     print(f'F1 (weighted): {"{:.2%}".format(sklearn.metrics.f1_score(gold_standard, predictions, average="weighted", zero_division=0))}')
     print(f'Matthew\'s Correlation Coefficient: {"{:.2%}".format(sklearn.metrics.matthews_corrcoef(gold_standard, predictions))}')
-    print()
-    print('MEASURES PER CLASS:')
-    precision = sklearn.metrics.precision_score(gold_standard, predictions, average=None, labels=labels)
-    print('Precision:')
-    for i in range(0,len(labels)):
-        print(f'\t{labels[i]}: {"{:.2%}".format(precision[i])}')
-    recall = sklearn.metrics.recall_score(gold_standard, predictions, average=None, labels=labels)
-    print('Recall:')
-    for i in range(0,len(labels)):
-        print(f'\t{labels[i]}: {"{:.2%}".format(recall[i])}')
-    print()
+    if details:
+        print()
+        print('MEASURES PER CLASS:')
+        precision = sklearn.metrics.precision_score(gold_standard, predictions, average=None, labels=labels)
+        print('Precision:')
+        for i in range(0,len(labels)):
+            print(f'\t{labels[i]}: {"{:.2%}".format(precision[i])}')
+        recall = sklearn.metrics.recall_score(gold_standard, predictions, average=None, labels=labels)
+        print('Recall:')
+        for i in range(0,len(labels)):
+            print(f'\t{labels[i]}: {"{:.2%}".format(recall[i])}')
+        print()
     
     # printing out and saving the confusion matrix
     if matrix:
