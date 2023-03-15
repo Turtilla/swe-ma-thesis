@@ -60,3 +60,5 @@ code/bert/data_UPOS/cached_train_BertTokenizer_128.lock
 code/marmot/pl_custom.marmot
 code/marmot/pretrained_models/pl.marmot
 code/.ipynb_checkpoints/marmot-results-evaluation-checkpoint.ipynb
+code/.ipynb_checkpoints/ud-annotation-evaluation-checkpoint.ipynb
+code/__pycache__/preproc_bert.cpython-38.pyc
