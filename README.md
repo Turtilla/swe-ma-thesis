@@ -21,7 +21,7 @@
 + Run evaluation of all the taggers/lemmatizers.
 + ~~Stanza~~
 + ~~BERT~~ ~~need to process the errors!~~
-+ Marmot
++ ~~Marmot~~
 + UD
 + Morfeusz
 + Extract and review the errors.
