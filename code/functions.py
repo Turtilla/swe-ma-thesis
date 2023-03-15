@@ -13,6 +13,7 @@ def extract_conllu_data(filename: str, feature: str, sentences: bool = True, com
         feature (str): The name of the desired conllu format feature.
         sentences (bool): Whether or not the output should be a list of lists of strings representing words in separate sentences.
         combined (bool): Whether or not the tokens and tags should be returned in one list of space-separated elements.
+        fulltext (bool): Whether or not to extract and return the metadata sentences.
         
     Returns:
         A list of the original tokens (tokenized sentences), a list of the corresponding features, and a list of full original 
@@ -105,11 +106,11 @@ def get_measures(gold_standard: list, predictions: list, labels: list = [], matr
     if details:
         print()
         print('MEASURES PER CLASS:')
-        precision = sklearn.metrics.precision_score(gold_standard, predictions, average=None, labels=labels)
+        precision = sklearn.metrics.precision_score(gold_standard, predictions, average=None, labels=labels, zero_division=0)
         print('Precision:')
         for i in range(0,len(labels)):
             print(f'\t{labels[i]}: {"{:.2%}".format(precision[i])}')
-        recall = sklearn.metrics.recall_score(gold_standard, predictions, average=None, labels=labels)
+        recall = sklearn.metrics.recall_score(gold_standard, predictions, average=None, labels=labels, zero_division=0)
         print('Recall:')
         for i in range(0,len(labels)):
             print(f'\t{labels[i]}: {"{:.2%}".format(recall[i])}')
@@ -127,21 +128,67 @@ def get_measures(gold_standard: list, predictions: list, labels: list = [], matr
         plt.savefig(timestr + "confusion_matrix.jpg")
 
 def get_comparison(standard: list, predictions: list, tokens: list):
-    '''A function that calculates and prints out the accuracy of the lemmatization.
+    '''A function that returns a comparison of where mistakes were made during annotation.
     
     Args:
-        standard (list): A list of lists of gold standard lemmas.
-        predictions (list): A list of lists of predicted lemmas.
+        standard (list): A list of lists of gold standard annotations.
+        predictions (list): A list of lists of predicted annotations.
+        tokens (list): A list of original tokens corresponding to the tags.
     
     Returns:
-        A Pandas dataframe containing the mismatched lemmas.
+        A Pandas dataframe containing the mismatched annotations, their context and tokens.
     '''
     
     problematic = []
     for i, ann in enumerate(predictions):
         if standard[i] != ann:
-            problematic.append((tokens[i], standard[i], predictions[i]))
+            if i != 0:
+                preceding = tokens[i-1]
+            else:
+                preceding = ''
+                
+            if i != len(tokens)-1:
+                succeeding = tokens[i+1]
+            else:
+                succeeding = ''
+
+            problematic.append((tokens[i], ' '.join([preceding, tokens[i], succeeding]), standard[i], predictions[i]))
             
-    problematic_frame = pd.DataFrame(problematic, columns=['Token', 'Gold Standard', 'Prediction'])
+    problematic_frame = pd.DataFrame(problematic, columns=['Token', 'Context', 'Gold Standard', 'Prediction'])
     
     return problematic_frame
+
+def get_confidence_comparison(problematic_frame: pd.DataFrame, processed_annotations: list):
+    '''A function intended for enrichening of a regular comparison frame with confidences returned by the tagger.
+    
+    Args:
+        problematic_frame (pd.DataFrame): An existing dataframe containing information about tokens, context, standard, and 
+        predictions.
+        processed_annotations (list[list]): A list of lists where every element represents information about the annotation as
+            obtained from the tagger.
+        
+    Returns:
+        A DataFrame containing the original token, context, gold standard, prediction, and the confidence of that prediction 
+        for every mismatched prediction and gold standard.
+    '''
+    confidences = []
+    for i, ann in enumerate(processed_annotations):
+        confidences.append(ann[2])
+            
+    problematic_frame['Confidence'] = confidences
+    
+    return problematic_frame
+
+def split_tags_and_tokens(tags: list):
+    '''A function that splits every entry in a list by whitespace and into two separate lists.
+    
+    Args:
+        tags (list): A list where every entry is a string containing whitespace.
+        
+    Returns:
+        Two lists, containing the first and the second element of every entry from the original list.
+    '''
+    tokens = [x.strip().split()[0] for x in tags if len(x.strip()) > 0]
+    tags = [x.strip().split()[1] for x in tags if len(x.strip()) > 0]
+
+    return tokens, tags
