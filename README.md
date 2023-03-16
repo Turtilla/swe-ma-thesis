@@ -23,7 +23,7 @@
 + ~~BERT~~ ~~need to process the errors!~~
 + ~~Marmot~~
 + UD
-+ Morfeusz
++ ~~Morfeusz~~
 + Extract and review the errors.
 + Annotate errors/find patterns.
 
