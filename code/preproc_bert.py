@@ -16,7 +16,7 @@ def remove_ranges(tokens: list):
     Returns:
         A list of token-tag pairs with the elements without a tag (with "_" instead of it) are excluded.
     '''
-    tokens = [x for x in tokens if '_' not in x]
+    tokens = [x for x in tokens if ' _' not in x]
     return tokens
 
 def remove_ranges_from_file(filename: str, newfile: str):
@@ -35,4 +35,4 @@ def remove_ranges_from_file(filename: str, newfile: str):
         f.writelines(lines)
 
 if __name__ == "__main__":
-    remove_ranges_from_file(data, data)
+    remove_ranges_from_file(data, new_data)
