@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import time
 import pandas as pd
 from tqdm import tqdm
+from preproc_bert import remove_ranges
 
 def extract_conllu_data(filename: str, feature: str, sentences: bool = True, combined: bool = False, fulltext: bool = True):
     '''A function that allows for the extraction of the desired data from a conllu file, structured into sentences or not.
@@ -166,27 +167,6 @@ def get_comparison(standard: list, predictions: list, tokens: list, confidence=[
     
     return problematic_frame
 
-def get_confidence_comparison(problematic_frame: pd.DataFrame, processed_annotations: list):
-    '''A function intended for enrichening of a regular comparison frame with confidences returned by the tagger.
-    
-    Args:
-        problematic_frame (pd.DataFrame): An existing dataframe containing information about tokens, context, standard, and 
-        predictions.
-        processed_annotations (list[list]): A list of lists where every element represents information about the annotation as
-            obtained from the tagger.
-        
-    Returns:
-        A DataFrame containing the original token, context, gold standard, prediction, and the confidence of that prediction 
-        for every mismatched prediction and gold standard.
-    '''
-    confidences = []
-    for i, ann in enumerate(processed_annotations):
-        confidences.append(ann[2])
-            
-    problematic_frame['Confidence'] = confidences
-    
-    return problematic_frame
-
 def split_tags_and_tokens(tags: list):
     '''A function that splits every entry in a list by whitespace and into two separate lists.
     
@@ -266,3 +246,20 @@ def get_lemma_comparison(standard: list, predictions: list, tokens: list, lowerc
     problematic_frame = get_comparison(standard, predictions, tokens)
     
     return problematic_frame
+
+def make_tagger_friendly(tokens_tags):
+    '''A function allowing for the use of split_tags_and_tokens and remove_ranges on nested lists.
+    
+    Arguments:
+        token_tags (list[list]): A list of lists representing sentences with annotations.
+        
+    Returns:
+        Two separate lists of lists representing sentences and their annotations respectively.'''
+    tokens = []
+    tags = []
+    for element in tokens_tags:
+        mini_tokens, mini_tags = split_tags_and_tokens(remove_ranges(element))
+        tokens.append(mini_tokens)
+        tags.append(mini_tags)
+        
+    return tokens, tags
