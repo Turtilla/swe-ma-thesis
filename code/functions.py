@@ -130,7 +130,7 @@ def get_measures(gold_standard: list, predictions: list, labels: list = [], matr
         timestr = time.strftime("%Y%m%d-%H%M%S")
         plt.savefig(timestr + "confusion_matrix.jpg")
 
-def get_comparison(standard: list, predictions: list, tokens: list):
+def get_comparison(standard: list, predictions: list, tokens: list, confidence=[]):
     '''A function that returns a comparison of where mistakes were made during annotation.
     
     Args:
@@ -154,10 +154,15 @@ def get_comparison(standard: list, predictions: list, tokens: list):
                 succeeding = tokens[i+1]
             else:
                 succeeding = ''
-
-            problematic.append((tokens[i], ' '.join([preceding, tokens[i], succeeding]), standard[i], predictions[i]))
             
-    problematic_frame = pd.DataFrame(problematic, columns=['Token', 'Context', 'Gold Standard', 'Prediction'])
+            if not confidence:
+                problematic.append((tokens[i], ' '.join([preceding, tokens[i], succeeding]), standard[i], predictions[i]))
+            else:
+                problematic.append((tokens[i], ' '.join([preceding, tokens[i], succeeding]), standard[i], predictions[i], confidence[i]))
+    if not confidence:        
+        problematic_frame = pd.DataFrame(problematic, columns=['Token', 'Context', 'Gold Standard', 'Prediction'])
+    else:
+        problematic_frame = pd.DataFrame(problematic, columns=['Token', 'Context', 'Gold Standard', 'Prediction', 'Confidence'])
     
     return problematic_frame
 
@@ -222,280 +227,6 @@ def best_interpretation(dag_disamb: list):
             
     return best_inter
 
-class ConlluWord():
-    '''A class intended to represent a line in a conll file (1 word, respectively).
-    
-    Attributes:
-        ID (str): The index number of the word.
-        FORM (str): The word as it appears in the sentence.
-        LEMMA (str): The lemma of the word.
-        UPOS (str): Universal Dependencies' universal part of speach tag.
-        XPOS (str): Language-specific part of speech tag.
-        FEATS (str): Features. Empty by default.
-        HEAD (str): Signifies which word is the head of this one. Empty by default.
-        DEPREL (str): Represents the dependency relations. Empty by default.
-        DEPS (str): The dependencies of this word. Empty by default.
-        MISC (str): Miscellaneous information. Empty by default.
-        
-    '''
-    def __init__(
-        self, ID: str, FORM: str, LEMMA: str, UPOS: str, XPOS: str, FEATS: str = '_', 
-        HEAD: str = '_', DEPREL: str = '_', DEPS: str = '_', MISC: str = '_'
-    ):
-        '''The __init__ method of the class. Assigns the values to the ConLLu tags.
-        
-        Args:
-            ID (str): The index number of the word.
-            FORM (str): The word as it appears in the sentence.
-            LEMMA (str): The lemma of the word.
-            UPOS (str): Universal Dependencies' universal part of speach tag.
-            XPOS (str): Language-specific part of speech tag.
-            FEATS (str): Features. Empty by default.
-            HEAD (str): Signifies which word is the head of this one. Empty by default.
-            DEPREL (str): Represents the dependency relations. Empty by default.
-            DEPS (str): The dependencies of this word. Empty by default.
-            MISC (str): Miscellaneous information. Empty by default.
-        '''
-        self.ID = ID
-        self.FORM = FORM
-        self.LEMMA = LEMMA
-        self.UPOS = UPOS
-        self.XPOS = XPOS
-        self.FEATS = FEATS
-        self.HEAD = HEAD
-        self.DEPREL = DEPREL
-        self.DEPS = DEPS
-        self.MISC = MISC
-        
-    def return_line(self):
-        '''A method of the class that returns all the tags in the form of a tab-separated string, as per the ConLLu format.
-        '''
-        elements = [
-            self.ID, self.FORM, self.LEMMA, self.UPOS, self.XPOS, self.FEATS, self.HEAD, 
-            self.DEPREL, self.DEPS, self.MISC]
-        line = "\t".join(elements)
-        return line
-    
-class ConlluSentence():
-    '''A class intended to represent a sentence entry in a conll file.
-    
-    Attributes:
-        sent_id (str): The ID of the sentence.
-        sent (str): The sentence itself.
-        words (list[ConlluWord]): A list of ConlluWord objects representing constituent words and their annotation.
-    '''
-    def __init__(self, sent_id: str, sent: str, words: list):
-        '''The __init__ method of the class. Assigns the arguments to internal attributes.
-        Args:
-            sent_id (str): The ID of the sentence.
-            sent (str): The sentence itself.
-            words (list[ConlluWord]): A list of ConlluWord objects representing constituent words and their annotation.
-        ''' 
-        self.sent_id = sent_id
-        self.sent = sent
-        self.words = words
-        
-    def return_sent(self):
-        '''A method of the class that returns a sentence entry.
-        '''
-        whole_sent = '\n'.join([self.sent_id, self.sent] + [x.return_line() for x in self.words])
-        return whole_sent
-    
-    def __len__(self):
-        '''The __len__ magic method of the class.
-            
-        Returns:
-            The length of all the elements in all sentences.
-        '''
-        return len(self.words)
-    
-    def __getitem__(self, index: int):
-        '''The __getitem__ magic method of the class.
-            
-        Args:
-            index (int): The index signifying the desired element.
-            
-        Returns:
-            The ConlluWord object at the desired index.
-        '''
-                    
-        return self.words[index]
-    
-class ConlluFormatter():
-    '''A class intended to create a representation of the input text in ConLLu format using pre-annotated tags as well as
-    annotation from Morfeusz and Concraft.
-    
-    Attributes:
-        all_conll_sents (list[list]): A list of lists representing the sentences with their annotation stored.        
-    '''
-    def __init__(
-        self, 
-        annotations, 
-        morfeusz, 
-        concraft
-    ):
-        '''The __init__ method of the class.
-        Creates a list for every sentence in the input that contains annotations for every word using the ConlluWord class.
-        
-        Args:
-            sents (list[str]): A list of sentences as strings.
-            tokenized (list[list[str]]): A list of tokenized sentences (in the same order as in sents).
-            anns (list[list[str]]): A list of annotations corresponding to the words in tokenized.
-            morfeusz (Morfeusz): a Morfeusz object that will be used for morphological analysis of the sentences.
-            concraft (Concraft): a Concraft object that will be used for morphological disambiguation and annotation.
-        '''
-        self.all_conll_sents = []
-        
-        # retrieving the data sentence by sentence
-        for i, sent in enumerate(tqdm(annotations.sentences)):
-            conll_sent = []
-            # getting the Morfeusz + Concraft info
-            dag = morfeusz.analyse(sent)
-            dag_disamb = concraft.disamb(dag)
-            best_inter = best_interpretation(dag_disamb)
-            # retrieving the manual annotations as well as tokens corresponding to the annotation
-            ann = annotations.simple_gold_standard_tokenized[i]
-            tokens = annotations.simple_sentences_tokenized[i]
-            # setting up the offset that will be used for situations where tokens that were split in manual annotation were
-            # not split in the machine one
-            offset = 0
-            j_offset = 0
-            
-            # retrieving the data word by word
-            for j, inter in enumerate(best_inter):
-                # defining the index, retrieving the word as detected by Morfeusz
-                idx = str(j + j_offset + 1)
-                form = inter[2][0]
-                # excluding mistakenly detected ś tokens (that were not even split from the preceding word)    
-                if form == "ś":
-                    if best_inter[j-1][2][0].endswith('ś'):
-                        offset += -1
-                        j_offset += -1
-                        continue
-                # retrieving the lemma
-                if len(inter[2][1]) > 1:
-                    lemma = inter[2][1].split(':')[0]
-                else:  # for when the lemma is just ':'
-                    lemma = inter[2][1]
-                # retrieving the UPOS tag for the word from the manual annotation, updating the offset accordingly
-                try:
-                    if tokens[j+offset] == form:
-                        upos = ann[j+offset]      
-                    elif tokens[j+offset] + tokens[j+offset+1] == form:
-                        upos = ann[j+offset]
-                        offset += 1
-                    elif tokens[j+offset] + tokens[j+offset+1] + tokens[j+offset+2] == form:
-                        upos = ann[j+offset]
-                        offset += 2
-                    else:    
-                        upos = '_'
-                except IndexError:
-                    continue
-                
-                # retrieving the XPOS tag
-                xpos = inter[2][2]
-                
-                # lowercasing the lemmas to match the UD standard
-                if upos != 'PROPN':
-                    lemma = lemma.lower()
-                
-                # creating a ConlluWord object to store the retrieved information, appending it to a temporary sentence list
-                word = ConlluWord(idx, form, lemma, upos, xpos)
-                conll_sent.append(word)
-            
-            # handling of compounded elements (only the ones marked with 'aglt' in XPOS are displayed this way by UD)
-            tracker = []
-            for j, word in enumerate(conll_sent):
-                if word.XPOS.startswith('aglt') and word.UPOS == 'AUX':
-                    if conll_sent[j+1].XPOS.startswith('aglt') and word.UPOS == 'AUX':
-                        tracker.append(
-                            (j-1, 
-                             str(j)+'-'+str(j+2), 
-                             conll_sent[j-1].FORM+word.FORM+conll_sent[j+1].FORM)
-                        ) 
-                    else:  # only 2 words connected
-                        tracker.append((j-1, str(j)+'-'+str(j+1), conll_sent[j-1].FORM+word.FORM))
-            # adding the additional entries
-            for j, entry in reversed(list(enumerate(tracker))):
-                word = ConlluWord(entry[1], entry[2], '_', '_', '_')
-                conll_sent.insert(entry[0], word)
-            
-            # creating a ConlluSentence object, appending it to the internal list of all sentences
-            full_sent = ConlluSentence('# sent_id = ' + str(i+1), '# text = ' + sent, conll_sent)
-            self.all_conll_sents.append(full_sent)
-            
-    def __len__(self):
-        '''A method of the class that returns the length of the internal storage of ConLLu sentences.
-        '''
-        return len(self.all_conll_sents)
-    
-    def __getitem__(self, index: int):
-        '''A method of the class that returns the transformed sentence at a given index.
-        
-        Args:
-            index (int): The index of the desired element.
-        '''
-        return self.all_conll_sents[index]
-    
-    def print_item(self, index: int):
-        '''A method of the class that prints out the sentence at a given index.
-        
-        Args:
-            index (int): The index of the desired element.
-        '''
-        print(self.all_conll_sents[index].return_sent())
-    
-    def print_conllu(self):
-        '''A method of the class indended for printing out all of the annotation in the ConLLu format.
-        '''
-        for sentence in self.all_conll_sents:
-            print(sentence.return_sent())
-            print('\n')
-        
-    def write_conllu_2_file(self, filename: str):
-        '''A method of the class indended for displaying saving all of the annotation in the ConLLu format.
-        
-        Args:
-            filename (str): The name of the file the data should be saved to.
-        '''      
-        with open(filename, 'w') as f:
-            for sentence in self.all_conll_sents:
-                f.write(sentence.return_sent() + '\n\n')
-
-    def retrieve_anns(self, feature):
-        '''A method of the class indended for retrieving lists of annotations of a specific category (lemma, upos, or xpos).
-        
-        Args:
-            feature (str): The name of the desired feature.
-        '''    
-        possible_features = ['lemma', 'upos', 'xpos']
-        if feature not in possible_features:
-            print('Please specify a valid feature type (lemma, upos, xpos).')
-            return
-        
-        anns = []
-        forms = []
-        
-        for i, sent in enumerate(self.all_conll_sents):
-            ann = []
-            form = []
-            for j, word in enumerate(sent):
-                if '-' in word.ID:
-                    continue
-                elif feature == 'lemma':
-                    ann.append(word.LEMMA)
-                    form.append(word.FORM)
-                elif feature == 'upos':
-                    ann.append(word.UPOS)
-                    form.append(word.FORM)
-                elif feature == 'xpos':
-                    ann.append(word.XPOS)
-                    form.append(word.FORM)
-            anns.append(ann)
-            forms.append(form)
-
-        return anns, forms       
-    
 def get_lemma_measures(standard: list, predictions: list, lowercase: bool = False):
     '''A function that calculates and prints out the accuracy of the lemmatization.
     
