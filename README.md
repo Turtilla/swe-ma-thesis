@@ -1,7 +1,24 @@
 # ma-thesis-swe
 [LTR project](https://github.com/Turtilla/ltr-project)
 
-### TODO tagging:
+## REPOSITORY STRUCTURE:
+* `code`: Contains all the code (and some of the data) for the project. Large models are not included.
+  * `bert`: Contains the parameters trained models for [BERT](https://github.com/huggingface/transformers/tree/main/examples/legacy/token-classification) as well as their training, testing, eval data and some other related scripts from the aforementioned link.
+  * `marmot`: Contains data needed for training, evaluating, and testing a [Marmot](https://github.com/muelletm/cistern/blob/wiki/marmotTraining.md) model.  
+  * `preproc_bert.py`: A script used for preprocessing files for BERT to remove unnecessary tokens (that describe the range of agglutinations of tokens).
+  * `functions.py`: A Python file containing functions that are reused across multiple Jupyter Notebooks (also for the sake of keeping the notebooks shorter).
+  * `requirements.txt`: A list of necessary libraries/modules (not complete).
+  * `morfeusz_concraft_preannotation.ipynb`: A notebook that was used to generate the CoNLL-U files with lemma, UPOS, XPOS information for manual annotation.
+  * **`*.ipynb`: Other notebooks detailing the evaluation of different taggers and lemmatizers.**
+* `data`: Contains the majority of the data used in the project.
+  * `mistakes`: Contains the outputs of the Jupyter Notebooks with mistakes made by specific taggers or lemmatizers.
+  * *`ud-treebanks`: Contains the UD treebanks out of which PDB is used - not included in this repository due to size.*
+  * `memoirs.txt`: The text of the memoir, with 1 line corresponding to 1 paragraph.
+  * `memoirs_annotated*.txt`: Different files containing different stages and/or amounts of annotation. Refer to `memoirs_annotated_10k.txt` for the most recent version of UPOS annotation in that format.
+  * `memoirs*.conllu`: Different files containing preannotation or annotation in a CoNLL-U format. Refer to `memoirs_3k_corrected.conllu` for the fully corrected version (UPOS, XPOS, lemma), and `memoirs_10k_corrected.conllu` for a version with 10k tokens with manual UPOS annotation, but not all XPOS and lemma annotation has been reviewed in that file.
+* `thesis-plan`: Contains different versions of the thesis plan and its presentation.
+
+#### TODO tagging:
 + ~~Tag 10k tokens with basic tags.~~
 + ~~Decide how many tokens to tag with advanced tags + lemmas.~~
 + ~~Pre-tag with the above.~~
@@ -10,34 +27,34 @@
 + ~~Make sure that the ranges are correct.~~
 + Review the tagging.
 
-### TODO taggers:
+#### TODO taggers:
 + ~~Decide on a method to use BERT for tagging ([existing architecture?](https://github.com/huggingface/transformers/tree/main/examples/legacy/token-classification))~~ 
 + ~~(Potentially) train Marmot on the desired data.~~
 + ~~Figure out how to access the UD one.~~
 + ~~Figure out how to use Morfeusz.~~
 + ~~Figure out how to use the lemmatizer.~~
 
-### TODO eval:
+#### TODO eval:
 + Run evaluation of all the taggers/lemmatizers.
 + ~~Stanza~~
 + ~~BERT~~ ~~need to process the errors!~~
 + ~~Marmot~~
 + UD
-+ Morfeusz
++ ~~Morfeusz~~
 + Extract and review the errors.
 + Annotate errors/find patterns.
 
-### TODO syntax:
+#### TODO syntax:
 + Get bigram & trigram stats for corpora and the text for different kinds of annotation.
 + Compare differences.
 
-### TODO NKJP:
+#### TODO NKJP:
 + Figure out the pipeline for retrieving items.
 + Decide on potential search conditions.
 + Test by lemma+**.
 + Test by token.
 
-### TODO writing
+#### TODO writing
 + Set up the template, fix potential issues.
 + Set up references.
 + Abstract.
