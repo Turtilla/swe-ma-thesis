@@ -97,8 +97,16 @@ def get_measures(gold_standard: list, predictions: list, labels: list = [], matr
         matrix (bool): Whether or not to produce a confusion matrix.
     '''
     
+    if isinstance(gold_standard[0], list):
+        gold_standard = [x for sentence in gold_standard for x in sentence]
+    if isinstance(predictions[0], list):
+        predictions = [x for sentence in predictions for x in sentence]
+
     if labels == []:  # setting up a list of labels based on the training data
         labels = sorted(list(set(gold_standard)))
+    else:
+        if isinstance(labels[0], list):
+            labels = [x for sentence in labels for x in sentence]
 
     # printing out the measures
     print('MEASURES:')
@@ -135,13 +143,20 @@ def get_comparison(standard: list, predictions: list, tokens: list, confidence=[
     '''A function that returns a comparison of where mistakes were made during annotation.
     
     Args:
-        standard (list): A list of lists of gold standard annotations.
-        predictions (list): A list of lists of predicted annotations.
+        standard (list): A list of gold standard annotations.
+        predictions (list): A list of predicted annotations.
         tokens (list): A list of original tokens corresponding to the tags.
     
     Returns:
         A Pandas dataframe containing the mismatched annotations, their context and tokens.
     '''
+
+    if isinstance(standard[0], list):
+        standard = [x for sentence in standard for x in sentence]
+    if isinstance(predictions[0], list):
+        predictions = [x for sentence in predictions for x in sentence]
+    if isinstance(tokens[0], list):
+        tokens = [x for sentence in tokens for x in sentence]
     
     problematic = []
     for i, ann in enumerate(predictions):
@@ -159,6 +174,8 @@ def get_comparison(standard: list, predictions: list, tokens: list, confidence=[
             if not confidence:
                 problematic.append((tokens[i], ' '.join([preceding, tokens[i], succeeding]), standard[i], predictions[i]))
             else:
+                if isinstance(confidence[0], list):
+                    confidence = [x for sentence in confidence for x in sentence]
                 problematic.append((tokens[i], ' '.join([preceding, tokens[i], succeeding]), standard[i], predictions[i], confidence[i]))
     if not confidence:        
         problematic_frame = pd.DataFrame(problematic, columns=['Token', 'Context', 'Gold Standard', 'Prediction'])
@@ -207,41 +224,31 @@ def best_interpretation(dag_disamb: list):
             
     return best_inter
 
-def get_lemma_measures(standard: list, predictions: list, lowercase: bool = False):
+def get_lemma_measures(standard: list, predictions: list):
     '''A function that calculates and prints out the accuracy of the lemmatization.
     
     Args:
         standard (list): A list of lists of gold standard lemmas.
         predictions (list): A list of lists of predicted lemmas.
-        lowercase (bool): Whether or not the data should be lowercased for comparison.
     '''
-    if lowercase:
-        standard = [x.lower() for sentence in standard for x in sentence]
-        predictions = [x.lower() for sentence in predictions for x in sentence]
-    else:
-        standard = [x for sentence in standard for x in sentence]
-        predictions = [x for sentence in predictions for x in sentence]
+    standard = [x for sentence in standard for x in sentence]
+    predictions = [x for sentence in predictions for x in sentence]
     print(f'Accuracy: {"{:.2%}".format(sklearn.metrics.accuracy_score(standard, predictions))}')
 
-def get_lemma_comparison(standard: list, predictions: list, tokens: list, lowercase: bool = False):
+def get_lemma_comparison(standard: list, predictions: list, tokens: list):
     '''A function that calculates and prints out the accuracy of the lemmatization.
     
     Args:
         standard (list): A list of lists of gold standard lemmas.
         predictions (list): A list of lists of predicted lemmas.
-        lowercase (bool): Whether or not the data should be lowercased for comparison.
     
     Returns:
         A Pandas dataframe containing the mismatched lemmas.
     '''
-    tokens = [x.lower() for sentence in tokens for x in sentence]
-    
-    if lowercase:
-        standard = [x.lower() for sentence in standard for x in sentence]
-        predictions = [x.lower() for sentence in predictions for x in sentence]
-    else:
-        standard = [x for sentence in standard for x in sentence]
-        predictions = [x for sentence in predictions for x in sentence]
+    tokens = [x for sentence in tokens for x in sentence]
+
+    standard = [x for sentence in standard for x in sentence]
+    predictions = [x for sentence in predictions for x in sentence]
             
     problematic_frame = get_comparison(standard, predictions, tokens)
     
