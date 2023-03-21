@@ -39,10 +39,12 @@
 + ~~Stanza~~
 + ~~BERT~~ ~~need to process the errors!~~
 + ~~Marmot~~
-+ UD
++ ~~UD~~
 + ~~Morfeusz~~
-+ Extract and review the errors.
-+ Annotate errors/find patterns.
++ ~~Extract and review the errors.~~
++ Annotate errors.
++ Display errors, get error statistics.
++ Find patterns.
 
 #### TODO syntax:
 + Get bigram & trigram stats for corpora and the text for different kinds of annotation.
