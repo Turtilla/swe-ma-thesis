@@ -193,8 +193,8 @@ def split_tags_and_tokens(tags: list):
     Returns:
         Two lists, containing the first and the second element of every entry from the original list.
     '''
-    tokens = [x.strip().split()[0] for x in tags if len(x.strip()) > 0]
-    tags = [x.strip().split()[1] for x in tags if len(x.strip()) > 0]
+    tokens = [x.strip().split()[0] for x in tags if len(x.strip()) > 1]
+    tags = [x.strip().split()[1] for x in tags if len(x.strip()) > 1]
 
     return tokens, tags
 
