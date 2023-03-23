@@ -35,7 +35,7 @@
 + ~~Figure out how to use the lemmatizer.~~
 
 #### TODO eval:
-+ Run evaluation of all the taggers/lemmatizers.
++ ~~Run evaluation of all the taggers/lemmatizers.~~
 + ~~Stanza~~
 + ~~BERT~~ ~~need to process the errors!~~
 + ~~Marmot~~
@@ -47,14 +47,14 @@
 + Find patterns.
 
 #### TODO syntax:
-+ Get bigram & trigram stats for corpora and the text for different kinds of annotation.
++ ~~Get bigram & trigram stats for corpora and the text for different kinds of annotation.~~
 + Compare differences.
 
 #### TODO NKJP:
-+ Figure out the pipeline for retrieving items.
-+ Decide on potential search conditions.
-+ Test by lemma+**.
-+ Test by token.
++ ~~Figure out the pipeline for retrieving items.~~
++ ~~Decide on potential search conditions.~~
++ ~~Test by lemma+**.~~
++ ~~Test by token.~~
 
 #### TODO writing
 + Set up the template, fix potential issues.
