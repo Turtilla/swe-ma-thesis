@@ -867,7 +867,7 @@
 49	ziemskiego	ziemski	ADJ	adj:sg:acc:m1:pos	_	_	_	_	_
 50	i	i	CCONJ	conj	_	_	_	_	_
 51	właściciela	właściciel	NOUN	subst:sg:acc:m1	_	_	_	_	_
-52	Maksymowic	Maksymowic	PROPN	subst:sg:gen:m3	_	_	_	_	_
+52	Maksymowic	Maksymowice	PROPN	subst:sg:gen:m3	_	_	_	_	_
 53	w	w	ADP	prep:loc:nwok	_	_	_	_	_
 54	Cyrkule	cyrkuł	NOUN	subst:sg:loc:m3	_	_	_	_	_
 55	Samborskim	samborski	PROPN	adj:sg:loc:m3:pos	_	_	_	_	_
@@ -1307,8 +1307,8 @@
 66	się	się	PRON	part	_	_	_	_	_
 67	suknia	suknia	NOUN	subst:sg:nom:f	_	_	_	_	_
 68	Pani	pani	NOUN	subst:sg:gen:f	_	_	_	_	_
-69	Komornikowej	komornikowej	ADJ	subst:sg:gen:f	_	_	_	_	_
-70	niepomięła	niepomięła	VERB	praet:sg:f:perf	_	_	_	_	neg
+69	Komornikowej	komornikowa	ADJ	subst:sg:gen:f	_	_	_	_	_
+70	niepomięła	niepomiąć	VERB	praet:sg:f:perf	_	_	_	_	neg
 71	–	–	PUNCT	interp	_	_	_	_	_
 72	z	z	ADP	prep:gen:nwok	_	_	_	_	_
 73	tego	ten	DET	adj:sg:gen:n:pos	_	_	_	_	_
@@ -1348,7 +1348,7 @@
 11	z	z	ADP	prep:inst:nwok	_	_	_	_	_
 12	cioteczną	cioteczny	ADJ	adj:sg:inst:f:pos	_	_	_	_	_
 13	siostrą	siostra	NOUN	subst:sg:inst:f	_	_	_	_	_
-14	Treterówną	Treterówną	PROPN	subst:sg:inst:f	_	_	_	_	_
+14	Treterówną	Treterówna	PROPN	subst:sg:inst:f	_	_	_	_	_
 15	-	-	PUNCT	interp	_	_	_	_	_
 16	żeby	żeby	SCONJ	comp	_	_	_	_	_
 17	rodzinie	rodzina	NOUN	subst:sg:dat:f	_	_	_	_	_
@@ -1924,7 +1924,7 @@
 6	śp	świętej pamięci	X	brev:pun	_	_	_	_	_
 7	.	.	PUNCT	interp	_	_	_	_	_
 8	Dziadka	dziadek	NOUN	subst:sg:acc:m1	_	_	_	_	_
-9	Ostaszewskigo	Ostaszewskigo	PROPN	subst:sg:acc:m1	_	_	_	_	_
+9	Ostaszewskigo	Ostaszewski	PROPN	subst:sg:acc:m1	_	_	_	_	_
 10	jak	jak	SCONJ	adv:pos	_	_	_	_	_
 11	się	się	PRON	part	_	_	_	_	_
 12	chlubił	chlubić	VERB	praet:sg:m1:imperf	_	_	_	_	_
@@ -2231,7 +2231,7 @@
 19	dopokąd	dopokąd	SCONJ	comp	_	_	_	_	_
 20	z	z	ADP	prep:gen:nwok	_	_	_	_	_
 21	Dominii	dominia	NOUN	subst:sg:gen:f	_	_	_	_	_
-22	nieprzyniósł	nieprzyniósł	VERB	praet:sg:m1:perf	_	_	_	_	neg
+22	nieprzyniósł	nieprzynieść	VERB	praet:sg:m1:perf	_	_	_	_	neg
 23	kartki	kartka	NOUN	subst:sg:gen:f	_	_	_	_	_
 24	pozwolenia	pozwolenie	NOUN	subst:sg:gen:n:ncol	_	_	_	_	_
 25	.	.	PUNCT	interp	_	_	_	_	_
@@ -2372,7 +2372,7 @@
 40	na	na	ADP	prep:acc	_	_	_	_	_
 41	pisarza	pisarz	NOUN	subst:sg:acc:m1	_	_	_	_	_
 42	do	do	ADP	prep:gen	_	_	_	_	_
-43	mandataryusza	mandataryusza	NOUN	subst:sg:gen:m1	_	_	_	_	_
+43	mandataryusza	mandataryusz	NOUN	subst:sg:gen:m1	_	_	_	_	_
 44	–	–	PUNCT	interp	_	_	_	_	_
 45	poduczywszy	poduczyć	VERB	pant:perf	_	_	_	_	_
 46	się	się	PRON	part	_	_	_	_	_
@@ -2395,12 +2395,12 @@
 63	reprezentanta	reprezentant	NOUN	subst:sg:acc:m1	_	_	_	_	_
 64	Domnikalnego	domnikalny	ADJ	adj:sg:acc:m1:pos	_	_	_	_	_
 65	czyli	czyli	CCONJ	conj	_	_	_	_	_
-66	Mandataryusza	mandataryusza	NOUN	subst:sg:acc:m1	_	_	_	_	_
+66	Mandataryusza	mandataryusz	NOUN	subst:sg:acc:m1	_	_	_	_	_
 67	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 76
 # text = Mandatyrusza przyjmował Dziedzic na swoją odpowiedzialność ręcząc za podatki i depozyta starościńskie.
-1	Mandatyrusza	mandatyrusza	NOUN	subst:sg:acc:f	_	_	_	_	_
+1	Mandatyrusza	mandatyrusz	NOUN	subst:sg:acc:f	_	_	_	_	_
 2	przyjmował	przyjmować	VERB	praet:sg:m1:imperf	_	_	_	_	_
 3	Dziedzic	dziedzic	NOUN	subst:sg:nom:f	_	_	_	_	_
 4	na	na	ADP	prep:acc	_	_	_	_	_
@@ -2475,7 +2475,7 @@
 21	–	–	PUNCT	interp	_	_	_	_	_
 22	korzec	korzec	NOUN	subst:sg:nom:m3	_	_	_	_	_
 23	owsa	owies	NOUN	subst:sg:gen:m3	_	_	_	_	_
-24	cwansigera	cwansigera	NOUN	subst:sg:acc:m3	_	_	_	_	_
+24	cwansigera	cwansiger	NOUN	subst:sg:acc:m3	_	_	_	_	_
 25	–	–	PUNCT	interp	_	_	_	_	_
 26	czyli	czyli	CCONJ	conj	_	_	_	_	_
 27	33	33	NUM	num:pl:acc:m2:rec	_	_	_	_	_
@@ -2638,7 +2638,7 @@
 70	stół	stół	NOUN	subst:sg:nom:m3	_	_	_	_	_
 71	nakryty	nakryć	ADJ	ppas:sg:nom:m3:perf:aff	_	_	_	_	_
 72	długim	długi	ADJ	adj:sg:inst:m3:pos	_	_	_	_	_
-73	rantuchem	rantuchem	NOUN	subst:sg:inst:m3	_	_	_	_	_
+73	rantuchem	rantuch	NOUN	subst:sg:inst:m3	_	_	_	_	_
 74	–	–	PUNCT	interp	_	_	_	_	_
 75	(	(	PUNCT	interp	_	_	_	_	_
 76	płótno	płótno	NOUN	subst:sg:nom:n:ncol	_	_	_	_	_
@@ -3284,7 +3284,7 @@
 19	wsi	wieś	NOUN	subst:sg:gen:f	_	_	_	_	_
 20	Łukowiec	Łukowiec	PROPN	subst:sg:nom:m3	_	_	_	_	_
 21	w	w	ADP	prep:loc:nwok	_	_	_	_	_
-22	Stryiskim	Stryiskim	PROPN	adj:sg:loc:m3:pos	_	_	_	_	_
+22	Stryiskim	Stryiskie	PROPN	adj:sg:loc:m3:pos	_	_	_	_	_
 23	w	w	ADP	prep:loc:nwok	_	_	_	_	_
 24	górach	góra	NOUN	subst:pl:loc:f	_	_	_	_	_
 25	czy	czy	CCONJ	part	_	_	_	_	_
@@ -3297,10 +3297,10 @@
 32	siedziało	siedzieć	VERB	praet:sg:n:imperf	_	_	_	_	_
 33	razem	razem	ADV	adv	_	_	_	_	_
 34	kilka	kilka	DET	num:pl:nom:f:rec:ncol	_	_	_	_	_
-35	generacyi	generacyi	NOUN	subst:pl:gen:f	_	_	_	_	_
+35	generacyi	generacya	NOUN	subst:pl:gen:f	_	_	_	_	_
 36	na	na	ADP	prep:loc	_	_	_	_	_
 37	jednem	jednem	NUM	adj:sg:loc:m3:pos	_	_	_	_	_
-38	obeyściu	obeyściu	NOUN	subst:sg:loc:m3	_	_	_	_	_
+38	obeyściu	obeyście	NOUN	subst:sg:loc:m3	_	_	_	_	_
 39	było	być	VERB	praet:sg:n:imperf	_	_	_	_	_
 40	dwa	dwa	NUM	num:pl:nom:m3:congr:ncol	_	_	_	_	_
 41	dwory	dwór	NOUN	subst:pl:nom:m3	_	_	_	_	_
