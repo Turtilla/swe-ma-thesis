@@ -72,3 +72,5 @@ code/ud-annotation-evaluation-backup.ipynb
 code/.ipynb_checkpoints/stanza-lemmatizer-and-tagger-evaluation-checkpoint.ipynb
 code/.ipynb_checkpoints/bigram-and-trigram-statistics-checkpoint.ipynb
 code/.ipynb_checkpoints/NKJP-vocabulary-check-checkpoint.ipynb
+code/.ipynb_checkpoints/korba_data_extraction-checkpoint.ipynb
+*.xml
