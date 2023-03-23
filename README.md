@@ -13,6 +13,7 @@
 * `data`: Contains the majority of the data used in the project.
   * `mistakes`: Contains the outputs of the Jupyter Notebooks with mistakes made by specific taggers or lemmatizers.
   * *`ud-treebanks`: Contains the UD treebanks out of which PDB is used - not included in this repository due to size.*
+  * *`korba_corpus`: Contains the [Korba Corpus](https://korba.edu.pl/download), a corpus of 17th and 16th century Polish. Not included in the repository due to size.*
   * `memoirs.txt`: The text of the memoir, with 1 line corresponding to 1 paragraph.
   * `memoirs_annotated*.txt`: Different files containing different stages and/or amounts of annotation. Refer to `memoirs_annotated_10k.txt` for the most recent version of UPOS annotation in that format.
   * `memoirs*.conllu`: Different files containing preannotation or annotation in a CoNLL-U format. Refer to `memoirs_3k_corrected.conllu` for the fully corrected version (UPOS, XPOS, lemma), and `memoirs_10k_corrected.conllu` for a version with 10k tokens with manual UPOS annotation, but not all XPOS and lemma annotation has been reviewed in that file.
