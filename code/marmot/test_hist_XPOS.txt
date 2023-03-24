@@ -100,7 +100,7 @@ Dobrzyńskiej PROPN adj:sg:gen:f:pos
 za ADP prep:acc
 ośm NUM num:pl:acc:m3:rec:ncol
 tysięcy NOUN subst:pl:gen:m3
-tynfów NOUN subst:pl:gen:m3
+tynfów NOUN subst:pl:gen:m2
 . PUNCT interp
 
 Byli VERB praet:pl:m1:imperf
