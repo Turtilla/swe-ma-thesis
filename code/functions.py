@@ -270,3 +270,41 @@ def make_tagger_friendly(tokens_tags):
         tags.append(mini_tags)
         
     return tokens, tags
+
+def get_korba_data(filename: str):
+    '''A function used for retrieving of the preprocessed Korba tags and annotations.
+    
+    Arguments:
+        filename (str): The name of the file that the annotations should be retrieved from.
+        
+    Returns:
+        Three lists of lists representing the tokens, lemmas, and xpos tag per original corpus file.'''
+    with open(filename) as f:
+        lines = f.readlines()
+    
+    tokens_list = []
+    lemmas_list = []
+    xpos_list = []
+
+    tokens = []
+    lemmas = []
+    xpos = []
+    for line in tqdm([x.strip() for x in lines], desc='Processing the annotations...'):
+        if len(tokens) != 0 and len(line) == 0:
+            tokens_list.append(tokens)
+            lemmas_list.append(lemmas)
+            xpos_list.append(xpos)
+            tokens = []
+            lemmas = []
+            xpos = []
+
+        elif len(line) > 0:
+            tokens.append(line.split()[0])
+            lemmas.append(line.split()[1])
+            xpos.append(line.split()[2])
+            
+    tokens_list.append(tokens)
+    lemmas_list.append(lemmas)
+    xpos_list.append(xpos) 
+            
+    return tokens_list, lemmas_list, xpos_list
