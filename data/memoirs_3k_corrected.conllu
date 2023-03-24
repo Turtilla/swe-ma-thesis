@@ -104,7 +104,7 @@
 24	za	za	ADP	prep:acc	_	_	_	_	_
 25	ośm	osiem	NUM	num:pl:acc:m3:rec:ncol	_	_	_	_	_
 26	tysięcy	tysiąc	NOUN	subst:pl:gen:m3	_	_	_	_	_
-27	tynfów	tynf	NOUN	subst:pl:gen:m3	_	_	_	_	_
+27	tynfów	tynf	NOUN	subst:pl:gen:m2	_	_	_	_	_
 28	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 3
