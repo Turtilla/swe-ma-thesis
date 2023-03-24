@@ -3,10 +3,10 @@ mój adj:sg:nom:m1:pos
 Melchior subst:sg:nom:m1
 urodzony adj:sg:nom:m1:pos
 roku subst:sg:gen:m3
-1741 adj:sg:gen:m3
+1741 adj:sg:gen:m3:pos
 we prep:loc:wok
 wsi subst:sg:loc:f
-Godziszewo subst:sg:nom:n:ncol!
+Godziszewo subst:sg:nom:n:ncol
 parafii subst:sg:loc:f
 Rypnin subst:sg:nom:m3
 syn subst:sg:nom:m1
@@ -100,7 +100,7 @@ Dobrzyńskiej adj:sg:gen:f:pos
 za prep:acc
 ośm num:pl:acc:m3:rec:ncol
 tysięcy subst:pl:gen:m3
-tynfów subst:pl:gen:m3
+tynfów subst:pl:gen:m2
 . interp
 
 Byli praet:pl:m1:imperf
@@ -194,7 +194,7 @@ to pred
 prawda subst:sg:nom:f
 – interp
 ale conj
-mi ppron12:sg:dat:m1:pri:nakc!
+mi ppron12:sg:dat:m1:pri:nakc
 mówił praet:sg:m1:imperf
 kuzyn subst:sg:nom:m1
 nasz adj:sg:nom:m1:pos
@@ -470,7 +470,7 @@ to pred
 być inf:imperf
 około prep:gen
 roku subst:sg:gen:m3
-1767 adj:sg:gen:m3
+1767 adj:sg:gen:m3:pos
 – interp
 jak adv:pos
 świętej adj:sg:gen:f:pos
@@ -523,7 +523,7 @@ owdowiał praet:sg:m1:perf
 
 Około prep:gen
 roku subst:sg:gen:m3
-1784 adj:sg:gen:m3
+1784 adj:sg:gen:m3:pos
 pojechał praet:sg:m1:perf
 śp brev:pun
 . interp
@@ -757,7 +757,7 @@ urodzony ppas:sg:nom:m1:perf:aff
 w prep:loc:nwok
 Czołhanach subst:pl:loc:n:pt
 roku subst:sg:gen:m3
-1786 adj:sg:gen:m3
+1786 adj:sg:gen:m3:pos
 . interp
 
 Starsi adj:pl:nom:m1:com
@@ -885,7 +885,7 @@ Przy prep:loc
 bombardowaniu subst:sg:loc:n:ncol
 Lwowa subst:sg:gen:m3
 roku subst:sg:gen:m3
-1848 adj:sg:gen:m3
+1848 adj:sg:gen:m3:pos
 - interp
 cała adj:sg:nom:f:pos
 akademia subst:sg:nom:f
@@ -1333,7 +1333,7 @@ Mogło praet:sg:n:imperf
 to pred
 być inf:imperf
 około part
-1801 adj:sg:gen:m3
+1801 adj:sg:gen:m3:pos
 roku subst:sg:gen:m3
 – interp
 podpodczas prep:gen
@@ -1460,10 +1460,10 @@ zakończył praet:sg:m1:perf
 móy adj:sg:nom:m1:pos
 Oyciec subst:sg:nom:m1
 około part
-1808 adj:sg:gen:m3
+1808 adj:sg:gen:m3:pos
 – interp
 albo conj
-1809 adj:sg:gen:m3
+1809 adj:sg:gen:m3:pos
 – interp
 w prep:loc:nwok
 randze subst:sg:loc:f
@@ -2725,9 +2725,9 @@ się part
 mojego adj:sg:gen:m1:pos
 Oyca subst:sg:gen:m1
 pono part
-1813 adj:sg:gen:m3
+1813 adj:sg:gen:m3:pos
 albo conj
-1814 adj:sg:gen:m3
+1814 adj:sg:gen:m3:pos
 – interp
 Pana subst:sg:acc:m1
 Józefa subst:sg:acc:m1
@@ -2774,7 +2774,7 @@ ile adv
 sobie siebie:dat
 przypominam fin:sg:pri:imperf
 około part
-1826 adj:sg:gen:m3
+1826 adj:sg:gen:m3:pos
 . interp
 
 Dziadek subst:sg:nom:m1
@@ -3273,9 +3273,9 @@ niemłodego adj:sg:acc:m1:pos
 Było praet:sg:n:imperf
 to pred
 około prep:gen
-1829 adj:sg:gen:m3
+1829 adj:sg:gen:m3:pos
 albo conj
-1830 adj:sg:gen:m3
+1830 adj:sg:gen:m3:pos
 roku subst:sg:gen:m3
 . interp
 
@@ -3309,7 +3309,7 @@ tam adv
 życie subst:sg:nom:n:ncol
 zakończył praet:sg:m1:perf
 roku subst:sg:gen:m3
-1845 adj:sg:gen:m3
+1845 adj:sg:gen:m3:pos
 . interp
 
 Ledwie comp

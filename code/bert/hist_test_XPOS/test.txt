@@ -100,7 +100,7 @@ Dobrzyńskiej adj:sg:gen:f:pos
 za prep:acc
 ośm num:pl:acc:m3:rec:ncol
 tysięcy subst:pl:gen:m3
-tynfów subst:pl:gen:m3
+tynfów subst:pl:gen:m2
 . interp
 
 Byli praet:pl:m1:imperf
