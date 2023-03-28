@@ -870,7 +870,7 @@
 52	Maksymowic	Maksymowic	PROPN	subst:sg:gen:m3	_	_	_	_	_
 53	w	w	ADP	prep:loc:nwok	_	_	_	_	_
 54	Cyrkule	cyrkuł	NOUN	subst:sg:loc:m3	_	_	_	_	_
-55	Samborskim	samborski	PROPN	adj:sg:loc:m3:pos	_	_	_	_	_
+55	Samborskim	samborski	ADJ	adj:sg:loc:m3:pos	_	_	_	_	_
 56	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 29
@@ -3792,7 +3792,7 @@
 22	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 124
-# text = Na przyjęcie Pani dom odświeżono malowidłem al fresco – w jednym bawialnym pokoju widoki Bludnik i okolicy – Skała na niey Sokołów wieś dołem Łomnica – widok Ś-tegoStanisława klasztoru koło Halicza od wschodu położonego na skale nad Łomnicą wpadającą w tym miejscu do Dniestru, to znowu Ruiny zamku Halickiego opodal – to znowu widok na Bołszowice za Dniestrem od północy wreszcie droga z miejscowego dworu a przy niey kaplica nayjświętszey Panny Niepokalanego Poczęcia – daley jak droga w bok do Halicza wiodła – kaplica Swiętego Jana.
+# text = Na przyjęcie Pani dom odświeżono malowidłem al fresco – w jednym bawialnym pokoju widoki Bludnik i okolicy – Skała na niey Sokołów wieś dołem Łomnica – widok Ś-tego Stanisława klasztoru koło Halicza od wschodu położonego na skale nad Łomnicą wpadającą w tym miejscu do Dniestru, to znowu Ruiny zamku Halickiego opodal – to znowu widok na Bołszowice za Dniestrem od północy wreszcie droga z miejscowego dworu a przy niey kaplica nayjświętszey Panny Niepokalanego Poczęcia – daley jak droga w bok do Halicza wiodła – kaplica Swiętego Jana.
 1	Na	na	ADP	prep:acc	_	_	_	_	_
 2	przyjęcie	przyjąć	NOUN	ger:sg:acc:n:perf:aff	_	_	_	_	_
 3	Pani	pani	NOUN	subst:sg:gen:f	_	_	_	_	_
@@ -3820,69 +3820,68 @@
 25	Łomnica	Łomnica	PROPN	subst:sg:nom:f	_	_	_	_	_
 26	–	–	PUNCT	interp	_	_	_	_	_
 27	widok	widok	NOUN	subst:sg:acc:m3	_	_	_	_	_
-28	Ś	ś	X	aglt:sg:sec:imperf:nwok	_	_	_	_	_
-29	-	-	PUNCT	interp	_	_	_	_	_
-30	tegoStanisława	tegostanisława	X	xxs:nom	_	_	_	_	_
-31	klasztoru	klasztor	NOUN	subst:sg:gen:m3	_	_	_	_	_
-32	koło	koło	ADP	prep:gen	_	_	_	_	_
-33	Halicza	Halicza	PROPN	subst:sg:gen:m1	_	_	_	_	_
-34	od	od	ADP	prep:gen:nwok	_	_	_	_	_
-35	wschodu	wschód	NOUN	subst:sg:gen:m3	_	_	_	_	_
-36	położonego	położony	ADJ	adj:sg:gen:m3:pos	_	_	_	_	_
-37	na	na	ADP	prep:loc	_	_	_	_	_
-38	skale	skała	NOUN	subst:sg:loc:f	_	_	_	_	_
-39	nad	nad	ADP	prep:inst:nwok	_	_	_	_	_
-40	Łomnicą	Łomnica	PROPN	subst:sg:inst:f	_	_	_	_	_
-41	wpadającą	wpadać	ADJ	pact:sg:inst:f:imperf:aff	_	_	_	_	_
-42	w	w	ADP	prep:loc:nwok	_	_	_	_	_
-43	tym	ten	DET	adj:sg:loc:n:pos	_	_	_	_	_
-44	miejscu	miejsce	NOUN	subst:sg:loc:n:ncol	_	_	_	_	_
-45	do	do	ADP	prep:gen	_	_	_	_	_
-46	Dniestru	Dniestr	PROPN	subst:sg:gen:m3	_	_	_	_	_
-47	,	,	PUNCT	interp	_	_	_	_	_
-48	to	to	AUX	comp	_	_	_	_	_
-49	znowu	znowu	PART	part	_	_	_	_	_
-50	Ruiny	ruina	NOUN	subst:pl:nom:f	_	_	_	_	_
-51	zamku	zamek	NOUN	subst:sg:gen:m3	_	_	_	_	_
-52	Halickiego	halicki	PROPN	adj:sg:gen:m3:pos	_	_	_	_	_
-53	opodal	opodal	ADP	prep:gen	_	_	_	_	_
-54	–	–	PUNCT	interp	_	_	_	_	_
-55	to	to	AUX	pred	_	_	_	_	_
-56	znowu	znowu	PART	part	_	_	_	_	_
-57	widok	widok	NOUN	subst:sg:nom:m3	_	_	_	_	_
-58	na	na	ADP	prep:loc	_	_	_	_	_
-59	Bołszowice	Bołszowice	PROPN	subst:sg:loc:f	_	_	_	_	_
-60	za	za	ADP	prep:inst	_	_	_	_	_
-61	Dniestrem	Dniestr	PROPN	subst:sg:inst:m3	_	_	_	_	_
-62	od	od	ADP	prep:gen:nwok	_	_	_	_	_
-63	północy	północ	NOUN	subst:sg:gen:f	_	_	_	_	_
-64	wreszcie	wreszcie	PART	part	_	_	_	_	_
-65	droga	drogi	NOUN	adj:sg:nom:f:pos	_	_	_	_	_
-66	z	z	ADP	prep:gen:nwok	_	_	_	_	_
-67	miejscowego	miejscowy	ADJ	adj:sg:gen:m3:pos	_	_	_	_	_
-68	dworu	dwór	NOUN	subst:sg:gen:m3	_	_	_	_	_
-69	a	a	CCONJ	conj	_	_	_	_	_
-70	przy	przy	ADP	prep:loc	_	_	_	_	_
-71	niey	niey	PRON	subst:sg:loc:n:ncol	_	_	_	_	_
-72	kaplica	kaplica	NOUN	subst:sg:nom:f	_	_	_	_	_
-73	nayjświętszey	nayjświętszey	ADJ	prep:gen	_	_	_	_	_
-74	Panny	panna	NOUN	subst:pl:nom:f	_	_	_	_	_
-75	Niepokalanego	niepokalany	ADJ	adj:sg:gen:n:pos	_	_	_	_	_
-76	Poczęcia	poczęcie	NOUN	subst:sg:gen:n:ncol	_	_	_	_	_
-77	–	–	PUNCT	interp	_	_	_	_	_
-78	daley	daley	ADV	subst:sg:nom:n:ncol	_	_	_	_	_
-79	jak	jak	ADV	conj	_	_	_	_	_
-80	droga	droga	NOUN	subst:sg:nom:f	_	_	_	_	_
-81	w	w	ADP	prep:acc:nwok	_	_	_	_	_
-82	bok	bok	NOUN	subst:sg:acc:m3	_	_	_	_	_
-83	do	do	ADP	prep:gen	_	_	_	_	_
-84	Halicza	Halicza	PROPN	subst:sg:gen:m1	_	_	_	_	_
-85	wiodła	wieść	VERB	praet:sg:f:imperf	_	_	_	_	_
-86	–	–	PUNCT	interp	_	_	_	_	_
-87	kaplica	kaplica	NOUN	subst:sg:nom:f	_	_	_	_	_
-88	Swiętego	swiętego	ADJ	subst:sg:gen:m1	_	_	_	_	_
-89	Jana	Jan	PROPN	subst:sg:gen:m1	_	_	_	_	_
-90	.	.	PUNCT	interp	_	_	_	_	_
+28	Ś-tego	ś-tego	X	brev:punct	_	_	_	_	_
+29	Stanisława	Stanisław	X	subst:sg:gen:m1	_	_	_	_	_
+30	klasztoru	klasztor	NOUN	subst:sg:gen:m3	_	_	_	_	_
+31	koło	koło	ADP	prep:gen	_	_	_	_	_
+32	Halicza	Halicza	PROPN	subst:sg:gen:m1	_	_	_	_	_
+33	od	od	ADP	prep:gen:nwok	_	_	_	_	_
+34	wschodu	wschód	NOUN	subst:sg:gen:m3	_	_	_	_	_
+35	położonego	położony	ADJ	adj:sg:gen:m3:pos	_	_	_	_	_
+36	na	na	ADP	prep:loc	_	_	_	_	_
+37	skale	skała	NOUN	subst:sg:loc:f	_	_	_	_	_
+38	nad	nad	ADP	prep:inst:nwok	_	_	_	_	_
+39	Łomnicą	Łomnica	PROPN	subst:sg:inst:f	_	_	_	_	_
+40	wpadającą	wpadać	ADJ	pact:sg:inst:f:imperf:aff	_	_	_	_	_
+41	w	w	ADP	prep:loc:nwok	_	_	_	_	_
+42	tym	ten	DET	adj:sg:loc:n:pos	_	_	_	_	_
+43	miejscu	miejsce	NOUN	subst:sg:loc:n:ncol	_	_	_	_	_
+44	do	do	ADP	prep:gen	_	_	_	_	_
+45	Dniestru	Dniestr	PROPN	subst:sg:gen:m3	_	_	_	_	_
+46	,	,	PUNCT	interp	_	_	_	_	_
+47	to	to	AUX	comp	_	_	_	_	_
+48	znowu	znowu	PART	part	_	_	_	_	_
+49	Ruiny	ruina	NOUN	subst:pl:nom:f	_	_	_	_	_
+50	zamku	zamek	NOUN	subst:sg:gen:m3	_	_	_	_	_
+51	Halickiego	halicki	ADJ	adj:sg:gen:m3:pos	_	_	_	_	_
+52	opodal	opodal	ADP	prep:gen	_	_	_	_	_
+53	–	–	PUNCT	interp	_	_	_	_	_
+54	to	to	AUX	pred	_	_	_	_	_
+55	znowu	znowu	PART	part	_	_	_	_	_
+56	widok	widok	NOUN	subst:sg:nom:m3	_	_	_	_	_
+57	na	na	ADP	prep:loc	_	_	_	_	_
+58	Bołszowice	Bołszowice	PROPN	subst:sg:loc:f	_	_	_	_	_
+59	za	za	ADP	prep:inst	_	_	_	_	_
+60	Dniestrem	Dniestr	PROPN	subst:sg:inst:m3	_	_	_	_	_
+61	od	od	ADP	prep:gen:nwok	_	_	_	_	_
+62	północy	północ	NOUN	subst:sg:gen:f	_	_	_	_	_
+63	wreszcie	wreszcie	PART	part	_	_	_	_	_
+64	droga	drogi	NOUN	adj:sg:nom:f:pos	_	_	_	_	_
+65	z	z	ADP	prep:gen:nwok	_	_	_	_	_
+66	miejscowego	miejscowy	ADJ	adj:sg:gen:m3:pos	_	_	_	_	_
+67	dworu	dwór	NOUN	subst:sg:gen:m3	_	_	_	_	_
+68	a	a	CCONJ	conj	_	_	_	_	_
+69	przy	przy	ADP	prep:loc	_	_	_	_	_
+70	niey	niey	PRON	subst:sg:loc:n:ncol	_	_	_	_	_
+71	kaplica	kaplica	NOUN	subst:sg:nom:f	_	_	_	_	_
+72	nayjświętszey	nayjświętszey	ADJ	prep:gen	_	_	_	_	_
+73	Panny	panna	NOUN	subst:pl:nom:f	_	_	_	_	_
+74	Niepokalanego	niepokalany	ADJ	adj:sg:gen:n:pos	_	_	_	_	_
+75	Poczęcia	poczęcie	NOUN	subst:sg:gen:n:ncol	_	_	_	_	_
+76	–	–	PUNCT	interp	_	_	_	_	_
+77	daley	daley	ADV	subst:sg:nom:n:ncol	_	_	_	_	_
+78	jak	jak	ADV	conj	_	_	_	_	_
+79	droga	droga	NOUN	subst:sg:nom:f	_	_	_	_	_
+80	w	w	ADP	prep:acc:nwok	_	_	_	_	_
+81	bok	bok	NOUN	subst:sg:acc:m3	_	_	_	_	_
+82	do	do	ADP	prep:gen	_	_	_	_	_
+83	Halicza	Halicza	PROPN	subst:sg:gen:m1	_	_	_	_	_
+84	wiodła	wieść	VERB	praet:sg:f:imperf	_	_	_	_	_
+85	–	–	PUNCT	interp	_	_	_	_	_
+86	kaplica	kaplica	NOUN	subst:sg:nom:f	_	_	_	_	_
+87	Swiętego	swiętego	ADJ	subst:sg:gen:m1	_	_	_	_	_
+88	Jana	Jan	PROPN	subst:sg:gen:m1	_	_	_	_	_
+89	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 125
 # text = Wszystko to tak żywo i dokładnie a udatnie malowane że ja dziś nigdzie się z czemś podobnem niespotkałem nawet w pałacu Łańcuckim nierobiły salony takie takiego wspaniałego wrażenia jak wówczas pokoje nasze.
@@ -3907,7 +3906,7 @@
 19	nawet	nawet	PART	part	_	_	_	_	_
 20	w	w	ADP	prep:loc:nwok	_	_	_	_	_
 21	pałacu	pałac	NOUN	subst:sg:loc:m3	_	_	_	_	_
-22	Łańcuckim	łańcucki	PROPN	adj:sg:loc:m3:pos	_	_	_	_	_
+22	Łańcuckim	łańcucki	ADJ	adj:sg:loc:m3:pos	_	_	_	_	_
 23	nierobiły	nierobiły	VERB	prep:nom	_	_	_	_	_
 24	salony	salon	NOUN	subst:pl:nom:m3	_	_	_	_	_
 25	takie	taki	DET	adj:sg:nom:n:pos	_	_	_	_	_
@@ -4225,7 +4224,7 @@
 
 # sent_id = 136
 # text = Wracając do opisu malowanych pokoi był drugi pokój obszerny bawialny ciemno szafirowy gładki, tylko od sufitu były malowane festony bronzowego koloru szale podtrzymywane orłami takoż bronzowemi meble czarne z żółtemi prążkami, obicie z żółtej jedwabney materyi.
-1	Wracając	wracać	NOUN	pcon:imperf	_	_	_	_	_
+1	Wracając	wracać	VERB	pcon:imperf	_	_	_	_	_
 2	do	do	ADP	prep:gen	_	_	_	_	_
 3	opisu	opis	NOUN	subst:sg:gen:m3	_	_	_	_	_
 4	malowanych	malować	ADJ	ppas:pl:gen:m3:imperf:aff	_	_	_	_	_
@@ -4926,10 +4925,10 @@
 # text = A niebyło prawie domu w Sanockiem który by bliżej czy dalej niebył skoligacony z domem Kazimierzów Ostaszewskich.
 1	A	a	CCONJ	interj	_	_	_	_	_
 2	niebyło	niebyła	VERB	subst:sg:voc:f	_	_	_	_	_
-3	prawie	prawie	ADV	part	_	_	_	_	_
+3	prawie	prawie	PART	part	_	_	_	_	_
 4	domu	dom	NOUN	subst:sg:gen:m3	_	_	_	_	_
 5	w	w	ADP	prep:loc:nwok	_	_	_	_	_
-6	Sanockiem	Sanockie	PROPN	subst:sg:loc:n:ncol	_	_	_	_	_
+6	Sanockiem	Sanockie	ADJ	subst:sg:loc:n:ncol	_	_	_	_	_
 7	który	który	DET	adj:sg:nom:m3:pos	_	_	_	_	_
 8	by	by	AUX	comp	_	_	_	_	_
 9	bliżej	blisko	ADV	adv:com	_	_	_	_	_
@@ -5315,7 +5314,7 @@
 14	przyszedł	przyjść	VERB	praet:sg:m1:perf	_	_	_	_	_
 15	Marceli	Marceli	PROPN	subst:sg:nom:m1	_	_	_	_	_
 16	,	,	PUNCT	interp	_	_	_	_	_
-17	ten	ten	PRON	adj:sg:nom:m1:pos	_	_	_	_	_
+17	ten	ten	DET	adj:sg:nom:m1:pos	_	_	_	_	_
 18	małym	mały	ADJ	adj:sg:inst:m1:pos	_	_	_	_	_
 19	chłopcem	chłopiec	NOUN	subst:sg:inst:m1	_	_	_	_	_
 20	poszedł	pójść	VERB	praet:sg:m1:perf	_	_	_	_	_
@@ -5420,7 +5419,7 @@
 32	w	w	ADP	prep:loc:nwok	_	_	_	_	_
 33	Karpatach	Karpaty	PROPN	subst:pl:loc:n:pt	_	_	_	_	_
 34	–	–	PUNCT	interp	_	_	_	_	_
-35	tak	tak	PART	part	_	_	_	_	_
+35	tak	tak	ADV	part	_	_	_	_	_
 36	nagle	nagle	ADV	adv:pos	_	_	_	_	_
 37	wystąpiła	wystąpić	VERB	praet:sg:f:perf	_	_	_	_	_
 38	z	z	ADP	prep:gen:nwok	_	_	_	_	_
@@ -5460,7 +5459,7 @@
 72	–	–	PUNCT	interp	_	_	_	_	_
 73	cała	cały	ADJ	adj:sg:nom:f:pos	_	_	_	_	_
 74	płaszczyzna	płaszczyzna	NOUN	subst:sg:nom:f	_	_	_	_	_
-75	została	zostać	VERB	praet:sg:f:perf	_	_	_	_	_
+75	została	zostać	AUX	praet:sg:f:perf	_	_	_	_	_
 76	zalana	zalać	ADJ	ppas:sg:nom:f:perf:aff	_	_	_	_	_
 77	,	,	PUNCT	interp	_	_	_	_	_
 78	szkoda	szkoda	NOUN	pred	_	_	_	_	_
@@ -5676,74 +5675,76 @@
 8	wielka	wielki	ADJ	adj:sg:nom:f:pos	_	_	_	_	_
 9	,	,	PUNCT	interp	_	_	_	_	_
 10	raz	raz	NOUN	subst:sg:acc:m3	_	_	_	_	_
-11	zatrętwiałem	zatrętwiałem	VERB	subst:sg:inst:m3	_	_	_	_	_
-12	tak	tak	ADV	adv:pos	_	_	_	_	_
-13	,	,	PUNCT	interp	_	_	_	_	_
-14	że	że	SCONJ	comp	_	_	_	_	_
-15	miano	miano	VERB	subst:sg:nom:n:ncol	_	_	_	_	_
-16	mnie	ja	PRON	ppron12:sg:acc:m1:pri:akc	_	_	_	_	_
-17	już	już	PART	part	_	_	_	_	_
-18	za	za	ADP	prep:acc	_	_	_	_	_
-19	nieżywego	nieżywy	ADJ	adj:sg:acc:m1:pos	_	_	_	_	_
-20	–	–	PUNCT	interp	_	_	_	_	_
-21-22	wpadłem	_	_	_	_	_	_	_	_
-21	wpadł	wpaść	VERB	praet:sg:m1:perf	_	_	_	_	_
-22	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
-23	w	w	ADP	prep:acc:nwok	_	_	_	_	_
-24	suchoty	suchoty	NOUN	subst:pl:acc:n:pt	_	_	_	_	_
-25	dziecięce	dziecięcy	ADJ	adj:pl:acc:n:pos	_	_	_	_	_
-26	–	–	PUNCT	interp	_	_	_	_	_
-27	opowiadała	opowiadać	VERB	praet:sg:f:imperf	_	_	_	_	_
-28	mi	ja	PRON	ppron12:sg:dat:f:pri:nakc	_	_	_	_	_
-29	moja	mój	DET	adj:sg:nom:f:pos	_	_	_	_	_
-30	piastunka	piastunka	NOUN	subst:sg:nom:f	_	_	_	_	_
-31	że	że	SCONJ	comp	_	_	_	_	_
-32	mię	ja	PRON	ppron12:sg:acc:f:pri:nakc	_	_	_	_	_
-33	kompano	kompano	VERB	subst:sg:nom:n:ncol	_	_	_	_	_
-34	w	w	ADP	prep:loc:nwok	_	_	_	_	_
-35	suczonych	suczonych	ADJ	adj:pl:loc:m3:pos	_	_	_	_	_
-36	pierogach	pierog	NOUN	subst:pl:loc:m3	_	_	_	_	_
-37	ze	z	ADP	prep:inst:wok	_	_	_	_	_
-38	serem	ser	NOUN	subst:sg:inst:m3	_	_	_	_	_
-39	–	–	PUNCT	interp	_	_	_	_	_
-40-41	żem	_	_	_	_	_	_	_	_
-40	że	że	SCONJ	comp	_	_	_	_	_
-41	m	być	AUX	aglt:sg:pri:imperf:nwok	_	_	_	_	_
-42	nieraz	nieraz	NOUN	adv	_	_	_	_	_
-43	złapał	złapać	VERB	praet:sg:m1:perf	_	_	_	_	_
-44	piroga	piróg	NOUN	subst:sg:gen:m3	_	_	_	_	_
-45	i	i	CCONJ	conj	_	_	_	_	_
-46	zjadał	zjadać	VERB	praet:sg:m3:imperf	_	_	_	_	_
-47	–	–	PUNCT	interp	_	_	_	_	_
-48	powoli	powoli	ADV	adv	_	_	_	_	_
-49	odchuchano	odchuchać	VERB	imps:perf	_	_	_	_	_
-50	mię	ja	PRON	ppron12:sg:acc:m1:pri:nakc	_	_	_	_	_
-51	–	–	PUNCT	interp	_	_	_	_	_
-52	została	zostać	VERB	praet:sg:f:perf	_	_	_	_	_
-53	tylko	tylko	PART	part	_	_	_	_	_
-54	niewyraźna	niewyraźny	ADJ	adj:sg:nom:f:pos	_	_	_	_	_
-55	mowa	mowa	NOUN	subst:sg:nom:f	_	_	_	_	_
-56	przez	przez	ADP	prep:acc:nwok	_	_	_	_	_
-57	nos	nos	NOUN	subst:sg:acc:m3	_	_	_	_	_
-58	i	i	CCONJ	conj	_	_	_	_	_
-59	tempy	temp	ADJ	subst:pl:acc:m3	_	_	_	_	_
-60	słuch	słuch	NOUN	subst:sg:acc:m3	_	_	_	_	_
-61	–	–	PUNCT	interp	_	_	_	_	_
-62	dużo	dużo	ADV	adv:pos	_	_	_	_	_
-63	się	się	PRON	part	_	_	_	_	_
-64	namozolili	namozolić	VERB	praet:pl:m1:perf	_	_	_	_	_
-65	Żórawski	Żórawski	PROPN	subst:sg:nom:m1	_	_	_	_	_
-66	i	i	CCONJ	conj	_	_	_	_	_
-67	Matka	matka	NOUN	subst:sg:nom:f	_	_	_	_	_
-68	moja	mój	DET	adj:sg:nom:f:pos	_	_	_	_	_
-69	nim	nim	SCONJ	comp	_	_	_	_	_
-70-71	wyrobiłem	_	_	_	_	_	_	_	_
-70	wyrobił	wyrobić	VERB	praet:sg:m1:perf	_	_	_	_	_
-71	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
-72	sobie	siebie	PRON	siebie:dat	_	_	_	_	_
-73	dobrą	dobry	ADJ	adj:sg:acc:f:pos	_	_	_	_	_
-74	wymowę	wymowa	NOUN	subst:sg:acc:f	_	_	_	_	_
-75	.	.	PUNCT	interp	_	_	_	_	_
+10-11	zatrętwiałem	_	_	_	_	_	_	_	_
+11	zatrętwiał	zatrętwiał	VERB	subst:sg:inst:m3	_	_	_	_	_
+12	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
+13	tak	tak	ADV	adv:pos	_	_	_	_	_
+14	,	,	PUNCT	interp	_	_	_	_	_
+15	że	że	SCONJ	comp	_	_	_	_	_
+16	miano	miano	VERB	subst:sg:nom:n:ncol	_	_	_	_	_
+17	mnie	ja	PRON	ppron12:sg:acc:m1:pri:akc	_	_	_	_	_
+18	już	już	PART	part	_	_	_	_	_
+19	za	za	ADP	prep:acc	_	_	_	_	_
+20	nieżywego	nieżywy	ADJ	adj:sg:acc:m1:pos	_	_	_	_	_
+21	–	–	PUNCT	interp	_	_	_	_	_
+22-23	wpadłem	_	_	_	_	_	_	_	_
+22	wpadł	wpaść	VERB	praet:sg:m1:perf	_	_	_	_	_
+23	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
+24	w	w	ADP	prep:acc:nwok	_	_	_	_	_
+25	suchoty	suchoty	NOUN	subst:pl:acc:n:pt	_	_	_	_	_
+26	dziecięce	dziecięcy	ADJ	adj:pl:acc:n:pos	_	_	_	_	_
+27	–	–	PUNCT	interp	_	_	_	_	_
+28	opowiadała	opowiadać	VERB	praet:sg:f:imperf	_	_	_	_	_
+29	mi	ja	PRON	ppron12:sg:dat:f:pri:nakc	_	_	_	_	_
+30	moja	mój	DET	adj:sg:nom:f:pos	_	_	_	_	_
+31	piastunka	piastunka	NOUN	subst:sg:nom:f	_	_	_	_	_
+32	że	że	SCONJ	comp	_	_	_	_	_
+33	mię	ja	PRON	ppron12:sg:acc:f:pri:nakc	_	_	_	_	_
+34	kompano	kompano	VERB	subst:sg:nom:n:ncol	_	_	_	_	_
+35	w	w	ADP	prep:loc:nwok	_	_	_	_	_
+36	suczonych	suczonych	ADJ	adj:pl:loc:m3:pos	_	_	_	_	_
+37	pierogach	pierog	NOUN	subst:pl:loc:m3	_	_	_	_	_
+38	ze	z	ADP	prep:inst:wok	_	_	_	_	_
+39	serem	ser	NOUN	subst:sg:inst:m3	_	_	_	_	_
+40	–	–	PUNCT	interp	_	_	_	_	_
+41-42	żem	_	_	_	_	_	_	_	_
+41	że	że	SCONJ	comp	_	_	_	_	_
+42	m	być	AUX	aglt:sg:pri:imperf:nwok	_	_	_	_	_
+43	nieraz	nieraz	ADV	adv	_	_	_	_	_
+44	złapał	złapać	VERB	praet:sg:m1:perf	_	_	_	_	_
+45	piroga	piróg	NOUN	subst:sg:gen:m3	_	_	_	_	_
+46	i	i	CCONJ	conj	_	_	_	_	_
+47	zjadał	zjadać	VERB	praet:sg:m3:imperf	_	_	_	_	_
+48	–	–	PUNCT	interp	_	_	_	_	_
+49	powoli	powoli	ADV	adv	_	_	_	_	_
+50	odchuchano	odchuchać	VERB	imps:perf	_	_	_	_	_
+51	mię	ja	PRON	ppron12:sg:acc:m1:pri:nakc	_	_	_	_	_
+52	–	–	PUNCT	interp	_	_	_	_	_
+53	została	zostać	VERB	praet:sg:f:perf	_	_	_	_	_
+54	tylko	tylko	PART	part	_	_	_	_	_
+55	niewyraźna	niewyraźny	ADJ	adj:sg:nom:f:pos	_	_	_	_	_
+56	mowa	mowa	NOUN	subst:sg:nom:f	_	_	_	_	_
+57	przez	przez	ADP	prep:acc:nwok	_	_	_	_	_
+58	nos	nos	NOUN	subst:sg:acc:m3	_	_	_	_	_
+59	i	i	CCONJ	conj	_	_	_	_	_
+60	tempy	temp	ADJ	subst:pl:acc:m3	_	_	_	_	_
+61	słuch	słuch	NOUN	subst:sg:acc:m3	_	_	_	_	_
+62	–	–	PUNCT	interp	_	_	_	_	_
+63	dużo	dużo	ADV	adv:pos	_	_	_	_	_
+64	się	się	PRON	part	_	_	_	_	_
+65	namozolili	namozolić	VERB	praet:pl:m1:perf	_	_	_	_	_
+66	Żórawski	Żórawski	PROPN	subst:sg:nom:m1	_	_	_	_	_
+67	i	i	CCONJ	conj	_	_	_	_	_
+68	Matka	matka	NOUN	subst:sg:nom:f	_	_	_	_	_
+69	moja	mój	DET	adj:sg:nom:f:pos	_	_	_	_	_
+70	nim	nim	SCONJ	comp	_	_	_	_	_
+71-72	wyrobiłem	_	_	_	_	_	_	_	_
+71	wyrobił	wyrobić	VERB	praet:sg:m1:perf	_	_	_	_	_
+72	em	być	AUX	aglt:sg:pri:imperf:wok	_	_	_	_	_
+73	sobie	siebie	PRON	siebie:dat	_	_	_	_	_
+74	dobrą	dobry	ADJ	adj:sg:acc:f:pos	_	_	_	_	_
+75	wymowę	wymowa	NOUN	subst:sg:acc:f	_	_	_	_	_
+76	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 187
 # text = Ale zawsze byłem szczupleyszey i delkatnieyszey kompleksyi od moich braci.
@@ -6036,7 +6037,7 @@
 
 # sent_id = 199
 # text = Była. przystoyna usposobienia towarzyskiego jednająca sobie serca wszystkich - szacunek i uwielbienie.
-1	Była	być	NOUN	praet:sg:f:imperf	_	_	_	_	_
+1	Była	być	VERB	praet:sg:f:imperf	_	_	_	_	_
 2	.	.	PUNCT	interp	_	_	_	_	_
 3	przystoyna	przystoyna	ADJ	subst:sg:gen:n:ncol	_	_	_	_	_
 4	usposobienia	usposobienie	NOUN	subst:sg:gen:n:ncol	_	_	_	_	_
@@ -6406,7 +6407,7 @@
 5	ożenił	ożenić	VERB	praet:sg:m1:perf	_	_	_	_	_
 6	się	się	PRON	part	_	_	_	_	_
 7	z	z	ADP	prep:inst:nwok	_	_	_	_	_
-8	Łosiówną	łosiówną	VERB	subst:sg:inst:f	_	_	_	_	_
+8	Łosiówną	łosiówną	PROPN	subst:sg:inst:f	_	_	_	_	_
 9	–	–	PUNCT	interp	_	_	_	_	_
 10	umarł	umrzeć	VERB	praet:sg:m1:perf	_	_	_	_	_
 11	w	w	ADP	prep:loc:nwok	_	_	_	_	_
@@ -6923,7 +6924,7 @@
 
 # sent_id = 226
 # text = Zabawne było z gośćmi a najzabawney z konkurentem – bo nieraz z figlów jedna zostawała u siebie druga bawiła gości wybiegała i za chwilę przychodziła druga, kontynuując dyskurs z tamtą zaczęty.
-1	Zabawne	zabawny	ADV	adj:sg:nom:n:pos	_	_	_	_	_
+1	Zabawne	zabawny	ADJ	adj:sg:nom:n:pos	_	_	_	_	_
 2	było	być	VERB	praet:sg:n:imperf	_	_	_	_	_
 3	z	z	ADP	prep:inst:nwok	_	_	_	_	_
 4	gośćmi	gość	NOUN	subst:pl:inst:m1	_	_	_	_	_
@@ -6982,7 +6983,7 @@
 22	oświadczać	oświadczać	VERB	inf:imperf	_	_	_	_	_
 23	kiedy	kiedy	ADV	adv	_	_	_	_	_
 24	niewie	niewie	VERB	part	_	_	_	_	_
-25	która	który	PRON	adj:sg:nom:f:pos	_	_	_	_	_
+25	która	który	DET	adj:sg:nom:f:pos	_	_	_	_	_
 26	to	to	PART	subst:sg:acc:n:ncol	_	_	_	_	_
 27	ma	mieć	VERB	fin:sg:ter:imperf	_	_	_	_	_
 28	większe	duży	ADJ	adj:sg:acc:n:com	_	_	_	_	_
@@ -7132,7 +7133,7 @@
 27	całey	całey	ADJ	subst:pl:nom:f	_	_	_	_	_
 28	osoby	osoba	NOUN	subst:pl:nom:f	_	_	_	_	_
 29	były	być	AUX	praet:pl:f:imperf	_	_	_	_	_
-30	jakby	jakby	SCONJ	part	_	_	_	_	_
+30	jakby	jakby	PART	part	_	_	_	_	_
 31	odzwierciedleniem	odzwierciedlenie	NOUN	subst:sg:inst:n:ncol	_	_	_	_	_
 32	jedney	jedney	ADJ	adj:sg:inst:n:pos	_	_	_	_	_
 33	i	i	CCONJ	conj	_	_	_	_	_
@@ -7215,7 +7216,7 @@
 # sent_id = 234
 # text = A jednak był to dom zostający z nami w bardzo zażyłych stosunkach – chodziliśmy tam z koszyczkami z małemi wiktuałami piechotą na spacery.
 1	A	a	CCONJ	conj	_	_	_	_	_
-2	jednak	jednak	CCONJ	conj	_	_	_	_	_
+2	jednak	jednak	PART	conj	_	_	_	_	_
 3	był	być	AUX	praet:sg:m3:imperf	_	_	_	_	_
 4	to	to	AUX	pred	_	_	_	_	_
 5	dom	dom	NOUN	subst:sg:nom:m3	_	_	_	_	_
@@ -7392,7 +7393,7 @@
 27	na	na	ADP	prep:loc	_	_	_	_	_
 28	gościńcu	gościniec	NOUN	subst:sg:loc:m3	_	_	_	_	_
 29	spotykają	spotykać	VERB	fin:pl:ter:imperf	_	_	_	_	_
-30	cygankę	cyganka	NOUN	subst:sg:acc:f	_	_	_	_	_
+30	cygankę	cyganka	PROPN	subst:sg:acc:f	_	_	_	_	_
 31	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 241
@@ -7410,7 +7411,7 @@
 
 # sent_id = 242
 # text = Cyganka popatrzyła każdemu na dłoń i wyrokowała – do dwóch trzech lat żaden z was żyć niebędzie.
-1	Cyganka	cyganka	NOUN	subst:sg:nom:f	_	_	_	_	_
+1	Cyganka	cyganka	PROPN	subst:sg:nom:f	_	_	_	_	_
 2	popatrzyła	popatrzyć	VERB	praet:sg:f:perf	_	_	_	_	_
 3	każdemu	każdy	DET	adj:sg:dat:n:pos	_	_	_	_	_
 4	na	na	ADP	prep:acc	_	_	_	_	_
@@ -7512,7 +7513,7 @@
 48	niegospodarną	niegospodarny	ADJ	adj:sg:acc:f:pos	_	_	_	_	_
 49	dzieci	dziecko	NOUN	subst:pl:nom:n:col	_	_	_	_	_
 50	było	być	VERB	praet:sg:n:imperf	_	_	_	_	_
-51	dużo	dużo	ADV	num:pl:acc:m3:rec	_	_	_	_	_
+51	dużo	dużo	DET	num:pl:acc:m3:rec	_	_	_	_	_
 52	,	,	PUNCT	interp	_	_	_	_	_
 53	ale	ale	CCONJ	conj	_	_	_	_	_
 54	naywięcej	naywięcej	ADV	adj:pl:gen:f:pos	_	_	_	_	_
@@ -7550,7 +7551,7 @@
 86	wiem	wiedzieć	VERB	fin:sg:pri:imperf	_	_	_	_	_
 87	jak	jak	ADV	adv:pos	_	_	_	_	_
 88	się	się	PRON	part	_	_	_	_	_
-89	wszystkie	wszystek	PRON	adj:pl:nom:m3:pos	_	_	_	_	_
+89	wszystkie	wszystek	DET	adj:pl:nom:m3:pos	_	_	_	_	_
 90	obruciły	obruciły	VERB	subst:pl:nom:m3	_	_	_	_	_
 91	–	–	PUNCT	interp	_	_	_	_	_
 92	wiem	wiedzieć	VERB	fin:sg:pri:imperf	_	_	_	_	_
@@ -7847,7 +7848,7 @@
 9	Pana	pan	NOUN	subst:sg:gen:m1	_	_	_	_	_
 10	Wiktora	Wiktor	PROPN	subst:sg:gen:m1	_	_	_	_	_
 11	wystawił	wystawić	VERB	praet:sg:m1:perf	_	_	_	_	_
-12	opodal	opodal	ADP	adv	_	_	_	_	_
+12	opodal	opodal	ADV	adv	_	_	_	_	_
 13	ode	od	ADP	prep:gen:wok	_	_	_	_	_
 14	dworu	dwór	NOUN	subst:sg:gen:m3	_	_	_	_	_
 15	krzyż	krzyż	NOUN	subst:sg:acc:m3	_	_	_	_	_
@@ -7906,7 +7907,7 @@
 17	powiedziała	powiedzieć	VERB	praet:sg:f:perf	_	_	_	_	_
 18	,	,	PUNCT	interp	_	_	_	_	_
 19	żeby	żeby	SCONJ	comp	_	_	_	_	_
-20	ten	ten	PRON	adj:sg:nom:m1:pos	_	_	_	_	_
+20	ten	ten	DET	adj:sg:nom:m1:pos	_	_	_	_	_
 21	dał	dać	VERB	praet:sg:m1:perf	_	_	_	_	_
 22	na	na	ADP	prep:acc	_	_	_	_	_
 23	mszę	msza	NOUN	subst:sg:acc:f	_	_	_	_	_
@@ -7951,7 +7952,7 @@
 27	polecenie	polecenie	NOUN	subst:sg:acc:n:ncol	_	_	_	_	_
 28	–	–	PUNCT	interp	_	_	_	_	_
 29	i	i	CCONJ	conj	_	_	_	_	_
-30	jakby	jakby	SCONJ	part	_	_	_	_	_
+30	jakby	jakby	PART	part	_	_	_	_	_
 31	przewidziała	przewidzieć	VERB	praet:sg:f:perf	_	_	_	_	_
 32	na	na	ADP	prep:acc	_	_	_	_	_
 33	tę	ten	DET	adj:sg:acc:f:pos	_	_	_	_	_
@@ -8268,7 +8269,7 @@
 17	–	–	PUNCT	interp	_	_	_	_	_
 18	indory	indor	NOUN	subst:pl:nom:m2	_	_	_	_	_
 19	na	na	ADP	prep:acc	_	_	_	_	_
-20	piękne	piękny	ADV	adj:pl:acc:m2:pos	_	_	_	_	_
+20	piękne	piękny	ADJ	adj:pl:acc:m2:pos	_	_	_	_	_
 21	dobrały	dobrać	VERB	praet:pl:f:perf	_	_	_	_	_
 22	się	się	PRON	part	_	_	_	_	_
 23	do	do	ADP	prep:gen	_	_	_	_	_
@@ -8986,7 +8987,7 @@
 3	a	a	CCONJ	conj	_	_	_	_	_
 4	może	może	PART	part	_	_	_	_	_
 5	i	i	CCONJ	conj	_	_	_	_	_
-6	powinowaci	powinowaty	ADJ	subst:pl:nom:m1	_	_	_	_	_
+6	powinowaci	powinowaty	NOUN	subst:pl:nom:m1	_	_	_	_	_
 7	z	z	ADP	prep:inst:nwok	_	_	_	_	_
 8	Golejowskimi	Golejowskimi	PROPN	subst:pl:inst:m1	_	_	_	_	_
 9	w	w	ADP	prep:loc:nwok	_	_	_	_	_
@@ -9588,7 +9589,7 @@
 38	Komitetu	komitet	NOUN	subst:sg:gen:m3	_	_	_	_	_
 39	wspierającego	wspierający	ADJ	adj:sg:gen:m3:pos	_	_	_	_	_
 40	ruch	ruch	NOUN	subst:sg:nom:m3	_	_	_	_	_
-41	narodowy	narodowy	NOUN	adj:sg:nom:m3:pos	_	_	_	_	_
+41	narodowy	narodowy	ADJ	adj:sg:nom:m3:pos	_	_	_	_	_
 42	.	.	PUNCT	interp	_	_	_	_	_
 43-44	Zwołałem	_	_	_	_	_	_	_	_
 43	Zwołał	zwołać	VERB	praet:sg:m1:perf	_	_	_	_	_
@@ -9650,7 +9651,7 @@
 98	Dawidzie	Dawid	PROPN	subst:sg:loc:m1	_	_	_	_	_
 99	–	–	PUNCT	interp	_	_	_	_	_
 100	a	a	CCONJ	conj	_	_	_	_	_
-101	ten	ten	PRON	adj:sg:nom:m1:pos	_	_	_	_	_
+101	ten	ten	DET	adj:sg:nom:m1:pos	_	_	_	_	_
 102	kładzie	kłaść	VERB	fin:sg:ter:imperf	_	_	_	_	_
 103	na	na	ADP	prep:acc	_	_	_	_	_
 104	stół	stół	NOUN	subst:sg:acc:m3	_	_	_	_	_
@@ -9660,56 +9661,55 @@
 108	powiada	powiadać	VERB	fin:sg:ter:imperf	_	_	_	_	_
 109	–	–	PUNCT	interp	_	_	_	_	_
 110	Mam	mieć	VERB	fin:sg:pri:imperf	_	_	_	_	_
-111	5	5	X	dig	_	_	_	_	_
-112	-	-	PUNCT	interp	_	_	_	_	_
-113	ciorodzieci	ciorodzieci	X	subst:pl:nom:m1	_	_	_	_	_
-114	–	–	PUNCT	interp	_	_	_	_	_
-115	jako	jako	SCONJ	conj	_	_	_	_	_
-116	szóstą	szósty	ADJ	adj:sg:acc:f:pos	_	_	_	_	_
-117	schedę	scheda	NOUN	subst:sg:acc:f	_	_	_	_	_
-118	uważam	uważać	VERB	fin:sg:pri:imperf	_	_	_	_	_
-119	datek	datek	NOUN	subst:sg:acc:m3	_	_	_	_	_
-120	na	na	ADP	prep:acc	_	_	_	_	_
-121	sprawę	sprawa	NOUN	subst:sg:acc:f	_	_	_	_	_
-122	Oyczyzny	oyczyzny	NOUN	subst:sg:gen:f	_	_	_	_	_
-123	–	–	PUNCT	interp	_	_	_	_	_
-124	dam	dać	VERB	fin:sg:pri:perf	_	_	_	_	_
-125	więc	więc	SCONJ	comp	_	_	_	_	_
-126	za	za	ADP	prep:acc	_	_	_	_	_
-127	dwa	dwa	NUM	num:pl:acc:m3:congr:ncol	_	_	_	_	_
-128	miesiące	miesiąc	NOUN	subst:pl:acc:m3	_	_	_	_	_
-129	drugie	drugi	ADJ	adj:pl:acc:m3:pos	_	_	_	_	_
-130	2000	2000	NUM	dig	_	_	_	_	_
-131	Dukatów	dukat	NOUN	subst:pl:gen:m1	_	_	_	_	_
-132	,	,	PUNCT	interp	_	_	_	_	_
-133	a	a	CCONJ	conj	_	_	_	_	_
-134	do	do	ADP	prep:gen	_	_	_	_	_
-135	pół	pół	NUM	num:sg:gen:m3:rec	_	_	_	_	_
-136	roku	rok	NOUN	subst:sg:gen:m3	_	_	_	_	_
-137	reszta	reszta	NOUN	subst:sg:nom:f	_	_	_	_	_
-138	uzupełnię	uzupełnić	VERB	fin:sg:pri:perf	_	_	_	_	_
-139	całą	cały	ADJ	adj:sg:acc:f:pos	_	_	_	_	_
-140	schedę	scheda	NOUN	subst:sg:acc:f	_	_	_	_	_
-141	6000	6000	NUM	dig	_	_	_	_	_
-142	Dukatów	dukat	NOUN	subst:pl:gen:m1	_	_	_	_	_
-143	.	.	PUNCT	interp	_	_	_	_	_
-144	Pan	pan	NOUN	subst:sg:nom:m1	_	_	_	_	_
-145	Jędrzejowicz	Jędrzejowicz	PROPN	subst:sg:nom:m1	_	_	_	_	_
-146	dał	dać	VERB	praet:sg:m1:perf	_	_	_	_	_
-147	dowody	dowód	NOUN	subst:pl:acc:m3	_	_	_	_	_
-148	serca	serce	NOUN	subst:sg:gen:n:ncol	_	_	_	_	_
-149	dla	dla	ADP	prep:gen	_	_	_	_	_
-150	Polski	Polska	PROPN	subst:sg:gen:f	_	_	_	_	_
-151	i	i	CCONJ	conj	_	_	_	_	_
-152	poświęcenia	poświęcenie	NOUN	subst:sg:gen:n:ncol	_	_	_	_	_
-153	jakiem	jak	DET	subst:sg:inst:m2	_	_	_	_	_
-154	niewielu	niewiele	DET	num:pl:nom:m1:rec	_	_	_	_	_
-155	z	z	ADP	prep:gen:nwok	_	_	_	_	_
-156	nas	my	PRON	ppron12:pl:gen:m1:pri	_	_	_	_	_
-157	poszczycić	poszczycić	VERB	inf:perf	_	_	_	_	_
-158	się	się	PRON	part	_	_	_	_	_
-159	może	móc	VERB	fin:sg:ter:imperf	_	_	_	_	_
-160	”	”	PUNCT	interp	_	_	_	_	_
+111	5-cioro	5-cioro	NUM	num:pl:nom:n:rec:col	_	_	_	_	_
+112	dzieci	dzieci	NOUN	subst:pl:nom:n:col	_	_	_	_	_
+113	–	–	PUNCT	interp	_	_	_	_	_
+114	jako	jako	SCONJ	conj	_	_	_	_	_
+115	szóstą	szósty	ADJ	adj:sg:acc:f:pos	_	_	_	_	_
+116	schedę	scheda	NOUN	subst:sg:acc:f	_	_	_	_	_
+117	uważam	uważać	VERB	fin:sg:pri:imperf	_	_	_	_	_
+118	datek	datek	NOUN	subst:sg:acc:m3	_	_	_	_	_
+119	na	na	ADP	prep:acc	_	_	_	_	_
+120	sprawę	sprawa	NOUN	subst:sg:acc:f	_	_	_	_	_
+121	Oyczyzny	oyczyzny	NOUN	subst:sg:gen:f	_	_	_	_	_
+122	–	–	PUNCT	interp	_	_	_	_	_
+123	dam	dać	VERB	fin:sg:pri:perf	_	_	_	_	_
+124	więc	więc	SCONJ	comp	_	_	_	_	_
+125	za	za	ADP	prep:acc	_	_	_	_	_
+126	dwa	dwa	NUM	num:pl:acc:m3:congr:ncol	_	_	_	_	_
+127	miesiące	miesiąc	NOUN	subst:pl:acc:m3	_	_	_	_	_
+128	drugie	drugi	ADJ	adj:pl:acc:m3:pos	_	_	_	_	_
+129	2000	2000	NUM	dig	_	_	_	_	_
+130	Dukatów	dukat	NOUN	subst:pl:gen:m1	_	_	_	_	_
+131	,	,	PUNCT	interp	_	_	_	_	_
+132	a	a	CCONJ	conj	_	_	_	_	_
+133	do	do	ADP	prep:gen	_	_	_	_	_
+134	pół	pół	NUM	num:sg:gen:m3:rec	_	_	_	_	_
+135	roku	rok	NOUN	subst:sg:gen:m3	_	_	_	_	_
+136	reszta	reszta	NOUN	subst:sg:nom:f	_	_	_	_	_
+137	uzupełnię	uzupełnić	VERB	fin:sg:pri:perf	_	_	_	_	_
+138	całą	cały	ADJ	adj:sg:acc:f:pos	_	_	_	_	_
+139	schedę	scheda	NOUN	subst:sg:acc:f	_	_	_	_	_
+140	6000	6000	NUM	dig	_	_	_	_	_
+141	Dukatów	dukat	NOUN	subst:pl:gen:m1	_	_	_	_	_
+142	.	.	PUNCT	interp	_	_	_	_	_
+143	Pan	pan	NOUN	subst:sg:nom:m1	_	_	_	_	_
+144	Jędrzejowicz	Jędrzejowicz	PROPN	subst:sg:nom:m1	_	_	_	_	_
+145	dał	dać	VERB	praet:sg:m1:perf	_	_	_	_	_
+146	dowody	dowód	NOUN	subst:pl:acc:m3	_	_	_	_	_
+147	serca	serce	NOUN	subst:sg:gen:n:ncol	_	_	_	_	_
+148	dla	dla	ADP	prep:gen	_	_	_	_	_
+149	Polski	Polska	PROPN	subst:sg:gen:f	_	_	_	_	_
+150	i	i	CCONJ	conj	_	_	_	_	_
+151	poświęcenia	poświęcenie	NOUN	subst:sg:gen:n:ncol	_	_	_	_	_
+152	jakiem	jak	DET	subst:sg:inst:m2	_	_	_	_	_
+153	niewielu	niewiele	DET	num:pl:nom:m1:rec	_	_	_	_	_
+154	z	z	ADP	prep:gen:nwok	_	_	_	_	_
+155	nas	my	PRON	ppron12:pl:gen:m1:pri	_	_	_	_	_
+156	poszczycić	poszczycić	VERB	inf:perf	_	_	_	_	_
+157	się	się	PRON	part	_	_	_	_	_
+158	może	móc	VERB	fin:sg:ter:imperf	_	_	_	_	_
+159	”	”	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 312
 # text = Wiedziało o tem Obywatelstwo ale żona ani dzieci ani żaden z krewnych o tey ofiarności Pana Dawida niewiedział, dopiero ja im to opowiedziałem.
@@ -9848,10 +9848,11 @@
 44	i	i	CCONJ	conj	_	_	_	_	_
 45	subtelna	subtelny	ADJ	adj:sg:nom:f:pos	_	_	_	_	_
 46	kompleksya	kompleksya	NOUN	subst:sg:nom:f	_	_	_	_	_
-47	niewytrzymałyby	niewytrzymałyby	VERB	part	_	_	_	_	_
-48	trudów	trud	NOUN	subst:pl:gen:m3	_	_	_	_	_
-49	wojennych	wojenny	ADJ	adj:pl:gen:m3:pos	_	_	_	_	_
-50	.	.	PUNCT	interp	_	_	_	_	_
+47	niewytrzymały	niewytrzymały	VERB	praet:pl:f:perf	_	_	_	_	_
+48	by	by	AUX	part	_	_	_	_	_
+49	trudów	trud	NOUN	subst:pl:gen:m3	_	_	_	_	_
+50	wojennych	wojenny	ADJ	adj:pl:gen:m3:pos	_	_	_	_	_
+51	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 316
 # text = Także przykład jakiem uczuciem pałało nasze obywatelstwo starzy i młodzież ówczesna.
@@ -9988,7 +9989,7 @@
 32	do	do	ADP	prep:gen	_	_	_	_	_
 33	Czaszyna	Czaszyn	PROPN	subst:sg:gen:m3	_	_	_	_	_
 34	później	późno	ADV	adv:com	_	_	_	_	_
-35	Ludwisię	ludwisia	ADP	subst:sg:acc:f	_	_	_	_	_
+35	Ludwisię	ludwisia	PROPN	subst:sg:acc:f	_	_	_	_	_
 36	siostrę	siostra	NOUN	subst:sg:acc:f	_	_	_	_	_
 37	Matki	matka	NOUN	subst:sg:gen:f	_	_	_	_	_
 38	,	,	PUNCT	interp	_	_	_	_	_
@@ -10895,7 +10896,7 @@
 16	do	do	ADP	prep:gen	_	_	_	_	_
 17	Knihinicz	Knihinicz	PROPN	subst:sg:gen:m1	_	_	_	_	_
 18	–	–	PUNCT	interp	_	_	_	_	_
-19	prawie	prawie	ADV	part	_	_	_	_	_
+19	prawie	prawie	PART	part	_	_	_	_	_
 20	na	na	ADP	prep:loc	_	_	_	_	_
 21	przedmieściu	przedmieście	NOUN	subst:sg:loc:n:ncol	_	_	_	_	_
 22	Stanisławowa	Stanisławowo	PROPN	subst:sg:gen:n:ncol	_	_	_	_	_
@@ -10968,7 +10969,7 @@
 3	doskonale	doskonale	ADV	adv:pos	_	_	_	_	_
 4	–	–	PUNCT	interp	_	_	_	_	_
 5	w	w	ADP	prep:acc:nwok	_	_	_	_	_
-6	ten	ten	PRON	adj:sg:acc:m3:pos	_	_	_	_	_
+6	ten	ten	DET	adj:sg:acc:m3:pos	_	_	_	_	_
 7	jakby	jakby	SCONJ	comp	_	_	_	_	_
 8	z	z	ADP	prep:gen:nwok	_	_	_	_	_
 9	Nieba	niebo	NOUN	subst:sg:gen:n:ncol	_	_	_	_	_
@@ -11076,7 +11077,7 @@
 8	kilku	kilka	DET	num:pl:gen:m3:congr:ncol	_	_	_	_	_
 9	lat	rok	NOUN	subst:pl:gen:m3	_	_	_	_	_
 10	od	od	ADP	prep:gen:nwok	_	_	_	_	_
-11	ognia	ogień	VERB	subst:sg:gen:m3	_	_	_	_	_
+11	ognia	ogień	NOUN	subst:sg:gen:m3	_	_	_	_	_
 12	w	w	ADP	prep:loc:nwok	_	_	_	_	_
 13	Bludnikach	Bludnik	PROPN	subst:pl:loc:m1	_	_	_	_	_
 14	aż	aż	PART	part	_	_	_	_	_
@@ -11323,7 +11324,7 @@
 33	Lwowa	Lwów	PROPN	subst:sg:gen:m3	_	_	_	_	_
 34	skoro	skoro	SCONJ	comp	_	_	_	_	_
 35	Wuy	wuy	NOUN	subst:sg:nom:m1	_	_	_	_	_
-36	został	zostać	VERB	praet:sg:m1:perf	_	_	_	_	_
+36	został	zostać	AUX	praet:sg:m1:perf	_	_	_	_	_
 37	Deputatem	deputat	NOUN	subst:sg:inst:m3	_	_	_	_	_
 38	Stanów	stany	NOUN	subst:pl:gen:n:pt	_	_	_	_	_
 39	.	.	PUNCT	interp	_	_	_	_	_

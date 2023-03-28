@@ -870,7 +870,7 @@
 52	Maksymowic	Maksymowice	PROPN	subst:sg:gen:m3	_	_	_	_	_
 53	w	w	ADP	prep:loc:nwok	_	_	_	_	_
 54	Cyrkule	cyrkuł	NOUN	subst:sg:loc:m3	_	_	_	_	_
-55	Samborskim	samborski	PROPN	adj:sg:loc:m3:pos	_	_	_	_	_
+55	Samborskim	samborski	ADJ	adj:sg:loc:m3:pos	_	_	_	_	_
 56	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 29
