@@ -295,7 +295,7 @@
 24	zapytał	zapytać	VERB	praet:sg:m1:perf	_	_	_	_	_
 25	Pan	pan	NOUN	subst:sg:nom:m1	_	_	_	_	_
 26	Potocki	Potocki	PROPN	subst:sg:nom:m1	_	_	_	_	_
-27	co	co	PRON	subst:sg:nom:m1:ncol	_	_	_	_	_
+27	co	co	PRON	subst:sg:nom:n:ncol	_	_	_	_	_
 28	to	to	PRON	pred	_	_	_	_	_
 29	za	za	PART	part	_	_	_	_	_
 30	jeden	jeden	NUM	adj:sg:nom:m1:pos	_	_	_	_	_
