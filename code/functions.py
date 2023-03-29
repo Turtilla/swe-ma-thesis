@@ -194,7 +194,7 @@ def split_tags_and_tokens(tags: list):
         Two lists, containing the first and the second element of every entry from the original list.
     '''
     tokens = [x.strip().split()[0] for x in tags if len(x.strip()) > 1]
-    tags = [x.strip().split()[1] for x in tags if len(x.strip()) > 1]
+    tags = [(' ').join(x.strip().split()[1:]) for x in tags if len(x.strip()) > 1]
 
     return tokens, tags
 
@@ -308,3 +308,47 @@ def get_korba_data(filename: str):
     xpos_list.append(xpos) 
             
     return tokens_list, lemmas_list, xpos_list
+
+def get_full_table(standard: list, predictions: list, tokens: list, confidence=[]):
+    '''A function that returns a list of all the tokens with their predictions, gold standard, and context.
+    
+    Args:
+        standard (list): A list of gold standard annotations.
+        predictions (list): A list of predicted annotations.
+        tokens (list): A list of original tokens corresponding to the tags.
+    
+    Returns:
+        A Pandas dataframe containing the mismatched annotations, their context and tokens.
+    '''
+
+    if isinstance(standard[0], list):
+        standard = [x for sentence in standard for x in sentence]
+    if isinstance(predictions[0], list):
+        predictions = [x for sentence in predictions for x in sentence]
+    if isinstance(tokens[0], list):
+        tokens = [x for sentence in tokens for x in sentence]
+    
+    all_entries = []
+    for i, ann in enumerate(predictions):
+        if i != 0:
+            preceding = tokens[i-1]
+        else:
+            preceding = ''
+                
+        if i != len(tokens)-1:
+            succeeding = tokens[i+1]
+        else:
+            succeeding = ''
+            
+        if not confidence:
+            all_entries.append((tokens[i], ' '.join([preceding, tokens[i], succeeding]), standard[i], predictions[i]))
+        else:
+            if isinstance(confidence[0], list):
+                confidence = [x for sentence in confidence for x in sentence]
+            all_entries.append((tokens[i], ' '.join([preceding, tokens[i], succeeding]), standard[i], predictions[i], confidence[i]))
+    if not confidence:        
+        problematic_frame = pd.DataFrame(all_entries, columns=['Token', 'Context', 'Gold Standard', 'Prediction'])
+    else:
+        problematic_frame = pd.DataFrame(all_entries, columns=['Token', 'Context', 'Gold Standard', 'Prediction', 'Confidence'])
+    
+    return problematic_frame
