@@ -37,7 +37,6 @@ adj:pl:gen:m3:sup
 adj:pl:gen:n:com
 adj:pl:gen:n:pos
 adj:pl:gen:n:sup
-adj:pl:inst:f
 adj:pl:inst:f:com
 adj:pl:inst:f:pos
 adj:pl:inst:f:sup
@@ -127,7 +126,6 @@ adj:sg:inst:m2:pos
 adj:sg:inst:m3:com
 adj:sg:inst:m3:pos
 adj:sg:inst:m3:sup
-adj:sg:inst:n
 adj:sg:inst:n:com
 adj:sg:inst:n:pos
 adj:sg:inst:n:sup
@@ -138,7 +136,6 @@ adj:sg:loc:m1:com
 adj:sg:loc:m1:pos
 adj:sg:loc:m2:com
 adj:sg:loc:m2:pos
-adj:sg:loc:m3
 adj:sg:loc:m3:com
 adj:sg:loc:m3:pos
 adj:sg:loc:m3:sup
@@ -256,7 +253,6 @@ num:pl:acc:f:congr:ncol
 num:pl:acc:f:rec
 num:pl:acc:f:rec:ncol
 num:pl:acc:m1:congr
-num:pl:acc:m1:congr:ncol
 num:pl:acc:m1:rec
 num:pl:acc:m1:rec:col
 num:pl:acc:m1:rec:ncol
@@ -311,7 +307,6 @@ num:pl:loc:f:congr:ncol
 num:pl:loc:f:rec
 num:pl:loc:m1:congr
 num:pl:loc:m1:congr:col
-num:pl:loc:m1:congr:ncol
 num:pl:loc:m3:congr
 num:pl:loc:m3:congr:ncol
 num:pl:loc:m3:rec
@@ -337,7 +332,6 @@ num:pl:nom:n:rec
 num:pl:nom:n:rec:col
 num:pl:nom:n:rec:ncol
 num:sg:acc:f:rec
-num:sg:acc:m2:rec
 num:sg:acc:m3
 num:sg:acc:m3:rec
 num:sg:acc:n:rec
@@ -351,6 +345,7 @@ num:sg:gen:n:rec:ncol
 num:sg:loc:f:rec
 num:sg:loc:m3:rec
 num:sg:nom:f:rec
+num:sg:nom:m2:congr
 num:sg:nom:m3:congr
 num:sg:nom:m3:rec
 num:sg:nom:n:rec
@@ -527,6 +522,7 @@ ppas:sg:inst:f:imperf:aff
 ppas:sg:inst:f:imperf:neg
 ppas:sg:inst:f:perf:aff
 ppas:sg:inst:f:perf:neg
+ppas:sg:inst:f:pos
 ppas:sg:inst:m1:imperf:aff
 ppas:sg:inst:m1:imperf:neg
 ppas:sg:inst:m1:perf:aff
@@ -577,11 +573,11 @@ ppron12:pl:loc:m1:pri
 ppron12:pl:nom:m1:pri
 ppron12:pl:nom:m1:sec
 ppron12:sg:acc:f:pri:akc
+ppron12:sg:acc:f:pri:nakc
 ppron12:sg:acc:f:sec:akc
 ppron12:sg:acc:f:sec:nakc
 ppron12:sg:acc:m1:pri
 ppron12:sg:acc:m1:pri:akc
-ppron12:sg:acc:m1:pri:nakc
 ppron12:sg:acc:m1:sec:akc
 ppron12:sg:acc:m1:sec:nakc
 ppron12:sg:acc:m2:pri:akc
@@ -841,7 +837,6 @@ subst:pl:voc:n:ncol
 subst:pl:voc:n:pt
 subst:sg:acc:f
 subst:sg:acc:m1
-subst:sg:acc:m1:ncol
 subst:sg:acc:m2
 subst:sg:acc:m3
 subst:sg:acc:n:col
