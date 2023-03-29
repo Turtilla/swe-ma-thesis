@@ -306,7 +306,7 @@ ze ADP
 sobą PRON
 . PUNCT
 
-Puchacz NOUN
+Puchacz PROPN
 leci VERB
 z ADP
 wyciągniętymi ADJ
@@ -457,7 +457,7 @@ zdjęcie NOUN
 Pięcioro NUM
 dzieci NOUN
 siedzi VERB
-jedno NOUN
+jedno ADJ
 obok ADP
 drugiego ADJ
 na ADP
@@ -1567,7 +1567,7 @@ czarna ADJ
 krowa NOUN
 . PUNCT
 
-Ptak NOUN
+Ptak PROPN
 z ADP
 długim ADJ
 dziobem NOUN
@@ -2855,7 +2855,7 @@ mojej DET
 antyfrancuskości NOUN
 . PUNCT
 
-A PART
+A CCONJ
 odróżnić VERB
 nie PART
 potrafię VERB
@@ -2988,7 +2988,7 @@ tenisiści NOUN
 
 Podrywał VERB
 cię PRON
-Domogarow NOUN
+Domogarow PROPN
 ? PUNCT
 
 Na ADP
@@ -3274,7 +3274,7 @@ Radomska PROPN
 
 Czterech NUM
 braci NOUN
-Gąsienniców NOUN
+Gąsienniców PROPN
 wezwano VERB
 na ADP
 komisję NOUN
@@ -3378,7 +3378,7 @@ spalono VERB
 na ADP
 stosie NOUN
 Joannę PROPN
-D'Arc PROPN
+D'Arc X
 . PUNCT
 
 Biodra NOUN
@@ -3892,7 +3892,7 @@ W ADP
 drzwiach NOUN
 ukazała VERB
 się PRON
-lisia PROPN
+lisia ADJ
 twarz NOUN
 pana NOUN
 Hawełko PROPN
@@ -3989,7 +3989,7 @@ do ADP
 domu NOUN
 , PUNCT
 każę VERB
-samowar PROPN
+samowar NOUN
 zapalić VERB
 . PUNCT
 
@@ -4046,7 +4046,7 @@ ubrania NOUN
 . PUNCT
 
 Poszedł VERB
-Dratewka NOUN
+Dratewka PROPN
 nad ADP
 stawy NOUN
 . PUNCT
@@ -4125,7 +4125,7 @@ Buba PROPN
 trzyma VERB
 opał NOUN
 , PUNCT
-karbid PROPN
+karbid NOUN
 w ADP
 piwnicy NOUN
 . PUNCT
@@ -4603,7 +4603,7 @@ mnie PRON
 odezwał VERB
 . PUNCT
 
-Było AUX
+Było VERB
 już PART
 widno ADV
 , PUNCT
@@ -4841,14 +4841,14 @@ konwersacji NOUN
 . PUNCT
 
 – PUNCT
-Ale CCONJ
+Ale PART
 tam ADV
 jest VERB
 paw NOUN
 ! PUNCT
 
 – PUNCT
-Ale CCONJ
+Ale PART
 tam ADV
 jest VERB
 za PART
@@ -5067,7 +5067,7 @@ mego DET
 Ojca NOUN
 . PUNCT
 
-Była AUX
+Była VERB
 u ADP
 nas PRON
 ogromna ADJ
@@ -5410,7 +5410,7 @@ pranie NOUN
 " PUNCT
 Poczekaj VERB
 , PUNCT
-tylko SCONJ
+tylko CCONJ
 wstawię VERB
 pranie NOUN
 " PUNCT
@@ -5819,7 +5819,7 @@ Do ADP
 sklepu NOUN
 wrócili VERB
 po ADP
-około PART
+około ADP
 dwóch NUM
 godzinach NOUN
 . PUNCT
@@ -6411,7 +6411,7 @@ co PRON
 łgać VERB
 o ADP
 nowej ADJ
-wiktorii PROPN
+wiktorii NOUN
 w ADP
 Wiedniu PROPN
 ? PUNCT
@@ -6420,7 +6420,7 @@ W ADP
 tym DET
 targu NOUN
 ktoś PRON
-widocznie PART
+widocznie ADV
 chciał VERB
 zapłacić VERB
 fałszywymi ADJ
@@ -6648,7 +6648,7 @@ Nie PART
 dotarł VERB
 . PUNCT
 
-Pierwsze ADJ
+Pierwsze NOUN
 powstają VERB
 podczas ADP
 nasuwania NOUN
@@ -6769,7 +6769,7 @@ burmistrz NOUN
 . PUNCT
 
 Być VERB
-może PART
+może VERB
 , PUNCT
 w ADP
 takim DET
@@ -6901,7 +6901,7 @@ Na ADP
 wsch X
 . PUNCT
 od ADP
-Szczytnej ADJ
+Szczytnej PROPN
 wzniesienie NOUN
 Szczytnik PROPN
 ( PUNCT
@@ -6968,7 +6968,7 @@ mój DET
 debiut NOUN
 w ADP
 kierowaniu NOUN
-kropidłem PROPN
+kropidłem NOUN
 . PUNCT
 
 Związkowcom NOUN
@@ -7186,7 +7186,7 @@ i CCONJ
 dramatyczny ADJ
 skok NOUN
 owego DET
-Rodaka NOUN
+Rodaka PROPN
 w ADP
 Amerykę PROPN
 . PUNCT
@@ -7253,7 +7253,7 @@ wartości NOUN
 prawdy NOUN
 , PUNCT
 miłości NOUN
-Bliźniego NOUN
+Bliźniego PROPN
 i CCONJ
 odrzuceniu NOUN
 zła NOUN
@@ -7376,7 +7376,7 @@ nie PART
 gasnącą ADJ
 nadzieją NOUN
 staropruska ADJ
-baba PROPN
+baba NOUN
 , PUNCT
 pogański ADJ
 idol NOUN
@@ -7466,7 +7466,7 @@ Polska PROPN
 stała VERB
 się PRON
 współorganizatorem NOUN
-Euro NOUN
+Euro PROPN
 2012 ADJ
 . PUNCT
 
@@ -7737,25 +7737,25 @@ opryskliwie ADV
 . PUNCT
 
 Tendencje NOUN
-jin PROPN
+jin NOUN
 zostały AUX
 oznaczone ADJ
 znakiem NOUN
 " PUNCT
-- PUNCT
+- NOUN
 " PUNCT
 , PUNCT
 a CCONJ
 jego PRON
 wielokrotność NOUN
 ( PUNCT
-- PUNCT
-- PUNCT
+- NOUN
+- NOUN
 ) PUNCT
 wyraża VERB
 nasilenie NOUN
 tendencji NOUN
-jin PROPN
+jin NOUN
 . PUNCT
 
 Czuł VERB
@@ -7844,7 +7844,7 @@ nogi NOUN
 Kiedy ADV
 doszedł VERB
 do ADP
-300 X
+300 NUM
 , PUNCT
 stwierdził VERB
 , PUNCT
@@ -8177,7 +8177,7 @@ zrobił VERB
 Krajowa ADJ
 Rada NOUN
 nie PART
-była AUX
+była VERB
 zbyt ADV
 długo ADV
 bez ADP
@@ -8220,7 +8220,7 @@ a CCONJ
 jej PRON
 kierownictwo NOUN
 - PUNCT
-owszem INTJ
+owszem PART
 . PUNCT
 
 Zamiast SCONJ
@@ -8312,7 +8312,7 @@ ze ADP
 
 Stylistyka NOUN
 Opla NOUN
-Astry NOUN
+Astry PROPN
 wkrótce ADV
 po ADP
 jego PRON
@@ -8858,7 +8858,7 @@ ligi NOUN
 łódzko ADJ
 - PUNCT
 świętokrzyskiej ADJ
-Start NOUN
+Start PROPN
 Brzezina PROPN
 . PUNCT
 
@@ -8992,7 +8992,7 @@ osobami NOUN
 . PUNCT
 
 Za ADP
-nie PRON
+nie PART
 były AUX
 by AUX
 nabywane ADJ
@@ -9330,7 +9330,7 @@ utrzymanie NOUN
 ojca NOUN
 . PUNCT
 
-Agenor PROPN
+Agenor NOUN
 Gawrzyał PROPN
 powiedział VERB
 na ADP
@@ -9402,7 +9402,7 @@ na ADP
 przodzie NOUN
 deskorolka NOUN
 pozwala VERB
-jeżdżącemu NOUN
+jeżdżącemu ADJ
 - PUNCT
 poprzez ADP
 odpowiednie ADJ
@@ -9415,7 +9415,7 @@ nogami NOUN
 to ADP
 jej PRON
 przodu NOUN
-to AUX
+to ADP
 tyłu NOUN
 - PUNCT
 na ADP
@@ -9466,7 +9466,7 @@ konstruktorem NOUN
 zegarów NOUN
 , PUNCT
 a CCONJ
-młody ADJ
+młody NOUN
 - PUNCT
 rzeźbiarzem NOUN
 i CCONJ
@@ -9563,7 +9563,7 @@ nowoczesny ADJ
 komfort NOUN
 . PUNCT
 
-Tak ADV
+Tak PART
 oto PART
 dwie NUM
 mapy NOUN
@@ -9785,7 +9785,7 @@ spełnić VERB
 przewidywania NOUN
 powieści NOUN
 science ADJ
-fiction ADJ
+fiction NOUN
 i CCONJ
 że SCONJ
 w ADP
@@ -9819,7 +9819,7 @@ trochę ADV
 się PRON
 napił VERB
 , PUNCT
-aż SCONJ
+aż PART
 na ADP
 koniec NOUN
 powiedział VERB
@@ -9915,7 +9915,7 @@ auta NOUN
 : PUNCT
 volvo NOUN
 , PUNCT
-bmw PROPN
+bmw NOUN
 czy CCONJ
 audi NOUN
 . PUNCT
@@ -9943,7 +9943,7 @@ chwili NOUN
 " PUNCT
 Dziś ADV
 o ADP
-5 NOUN
+5 ADJ
 czekam VERB
 na ADP
 pana NOUN
@@ -10030,7 +10030,7 @@ tylko CCONJ
 bogaty ADJ
 , PUNCT
 ale CCONJ
-co PRON
+co PART
 ważniejsze ADJ
 - PUNCT
 dobry ADJ
@@ -10096,7 +10096,7 @@ włanczać VERB
 sobie PRON
 , PUNCT
 a CCONJ
-nie PART
+nie CCONJ
 se PRON
 . PUNCT
 
@@ -10199,7 +10199,7 @@ drodze NOUN
 na ADP
 Węgry PROPN
 srebrny ADJ
-Mercedes NOUN
+Mercedes PROPN
 Vito PROPN
 traci VERB
 orientację NOUN
@@ -10250,7 +10250,7 @@ radości NOUN
 " PUNCT
 kończącej ADJ
 IX ADJ
-Symfonię NOUN
+Symfonię PROPN
 : PUNCT
 " PUNCT
 Wszyscy DET
@@ -10438,7 +10438,7 @@ Pamiętaj VERB
 tylko PART
 , PUNCT
 że SCONJ
-to PART
+to AUX
 Matka NOUN
 nasza DET
 " PUNCT
@@ -10519,7 +10519,7 @@ W ADP
 greckim ADJ
 przekładzie NOUN
 Starego ADJ
-Testamentu PROPN
+Testamentu NOUN
 księgi NOUN
 proroków NOUN
 mniejszych ADJ
@@ -10804,7 +10804,7 @@ m AUX
 . PUNCT
 
 Bułgar PROPN
-Stoiczkow NOUN
+Stoiczkow PROPN
 , PUNCT
 z ADP
 którym DET
@@ -10956,7 +10956,7 @@ przyjaźni NOUN
 z ADP
 Teresą PROPN
 także PART
-będą AUX
+będą VERB
 nici NOUN
 . PUNCT
 
@@ -11303,7 +11303,7 @@ wierszu NOUN
 jako SCONJ
 takim DET
 - PUNCT
-to AUX
+to PART
 tak ADV
 , PUNCT
 jakby SCONJ
@@ -11664,9 +11664,9 @@ tym PRON
 specjalnie ADV
 , PUNCT
 bo SCONJ
-tyle DET
+tyle ADV
 się PRON
-zawistni NOUN
+zawistni ADJ
 nagadali VERB
 , PUNCT
 że SCONJ
@@ -11740,7 +11740,7 @@ głowy NOUN
 Nie PART
 bez ADP
 znaczenia NOUN
-jest VERB
+jest AUX
 również PART
 fakt NOUN
 , PUNCT
@@ -11837,7 +11837,7 @@ ziemi NOUN
 
 - PUNCT
 I PART
-tak PART
+tak ADV
 nie PART
 mógł VERB
 by AUX
@@ -11871,7 +11871,7 @@ mężem NOUN
 przechodziła VERB
 przez ADP
 Małą ADJ
-Fatrę NOUN
+Fatrę PROPN
 w ADP
 rejonie NOUN
 Niskich ADJ
@@ -12180,7 +12180,7 @@ Zgłaszaj VERB
 sugestie NOUN
 , PUNCT
 a CCONJ
-nie CCONJ
+nie PART
 " PUNCT
 uderzaj VERB
 " PUNCT
@@ -12433,7 +12433,7 @@ Ja PRON
 - PUNCT
 zdziwił VERB
 się PRON
-Nowy ADJ
+Nowy PROPN
 . PUNCT
 
 W ADP
@@ -12758,11 +12758,11 @@ używanych ADJ
 w ADP
 drukarni NOUN
 : PUNCT
-Cyjan NOUN
+Cyjan PROPN
 , PUNCT
-Magenta NOUN
+Magenta PROPN
 , PUNCT
-Yellow NOUN
+Yellow PROPN
 i CCONJ
 blacK NOUN
 . PUNCT
@@ -12818,7 +12818,7 @@ zwariował VERB
 a CCONJ
 na ADP
 to PRON
-właśnie ADV
+właśnie PART
 wyglądało VERB
 - PUNCT
 potrzebny ADJ
@@ -13044,7 +13044,7 @@ rzek NOUN
 lód NOUN
 brzegowy ADJ
 i CCONJ
-śryż PROPN
+śryż NOUN
 ( PUNCT
 lód NOUN
 prądowy ADJ
@@ -13106,7 +13106,7 @@ mocni ADJ
 powiedział VERB
 o ADP
 organizatorach NOUN
-były AUX
+były ADJ
 kenijski ADJ
 biegacz NOUN
 Kipchoge PROPN
@@ -13191,7 +13191,7 @@ przeze ADP
 mnie PRON
 : PUNCT
 " PUNCT
-Oto PART
+Oto VERB
 ja PRON
 służebnica NOUN
 Pańska ADJ
@@ -13244,7 +13244,7 @@ tak ADV
 wysoka ADJ
 ? PUNCT
 
-Patyk NOUN
+Patyk PROPN
 roześmiał VERB
 się PRON
 i CCONJ
@@ -13260,7 +13260,7 @@ do ADP
 wciąż ADV
 stojącej ADJ
 obok ADV
-Kaszki NOUN
+Kaszki PROPN
 . PUNCT
 
 W ADP
@@ -13657,7 +13657,7 @@ Słowenię PROPN
 : PUNCT
 0 X
 ( PUNCT
-1 NUM
+1 X
 : PUNCT
 0 X
 ) PUNCT
@@ -14146,7 +14146,7 @@ sarabandę NOUN
 Angleberta PROPN
 , PUNCT
 wiatr NOUN
-szeleści VERB
+szeleści ADJ
 stronicami NOUN
 niedoczytanej ADJ
 książki NOUN
@@ -14177,7 +14177,7 @@ tym PRON
 co PRON
 sprzedał VERB
 eś AUX
-plus X
+plus CCONJ
 procent NOUN
 z ADP
 zarobków NOUN
@@ -14227,7 +14227,7 @@ A X
 W X
 . PUNCT
 : PUNCT
-Tak ADV
+Tak PART
 , PUNCT
 chociaż SCONJ
 zdecydowanie ADV
@@ -14367,7 +14367,7 @@ twarzy NOUN
 
 Pisząc VERB
 " PUNCT
-dobry NOUN
+dobry ADJ
 " PUNCT
 odwołuję VERB
 sie PRON
@@ -14698,7 +14698,7 @@ neurochirurgii NOUN
 - PUNCT
 1542 NUM
 zł X
-brutto ADV
+brutto ADJ
 . PUNCT
 
 - PUNCT
@@ -14808,7 +14808,7 @@ placówek NOUN
 Od ADP
 rozpoczęcia NOUN
 eksploatacji NOUN
-concordy PROPN
+concordy NOUN
 British PROPN
 Airways PROPN
 przebyły VERB
@@ -14863,7 +14863,7 @@ Grzegorz PROPN
 Turnau PROPN
 zrobił VERB
 " PUNCT
-Kutno NOUN
+Kutno PROPN
 " PUNCT
 w ADP
 takiej DET
@@ -14889,7 +14889,7 @@ PRL PROPN
 Andrzej PROPN
 Braun PROPN
 został VERB
-zrazu NOUN
+zrazu ADV
 wiceprezesem NOUN
 , PUNCT
 a CCONJ
@@ -15059,7 +15059,7 @@ zielonym ADJ
 prowadzącym ADJ
 obok ADP
 Końskich ADJ
-Łbów NOUN
+Łbów PROPN
 w ADP
 dół NOUN
 ku ADP
@@ -15073,7 +15073,7 @@ lasu NOUN
 1250 NUM
 m X
 ) PUNCT
-Hali NOUN
+Hali PROPN
 Szrenickiej ADJ
 . PUNCT
 
@@ -15167,7 +15167,7 @@ co PRON
 z ADP
 nią PRON
 zrobiła VERB
-ś AUX
+ś PUNCT
 - PUNCT
 Joanna PROPN
 używała VERB
@@ -15179,7 +15179,7 @@ nadzieją NOUN
 że SCONJ
 obecność NOUN
 drugiej ADJ
-liszki PROPN
+liszki NOUN
 nie PART
 została AUX
 odkryta ADJ
@@ -15221,7 +15221,7 @@ naprawdę PART
 był AUX
 rabinem NOUN
 , PUNCT
-jak ADV
+jak SCONJ
 zapewniał VERB
 Fangora PROPN
 i CCONJ
@@ -15502,7 +15502,7 @@ pewno ADV
 problem NOUN
 tych DET
 " PUNCT
-onych ADJ
+onych PRON
 " PUNCT
 został AUX
 rozwiązany ADJ
@@ -15581,10 +15581,10 @@ program NOUN
 Półkole NOUN
 słuchało VERB
 jednak CCONJ
-Badacza NOUN
+Badacza PROPN
 bez ADP
 śmichów NOUN
-chichów PROPN
+chichów NOUN
 . PUNCT
 
 - PUNCT
@@ -15804,7 +15804,7 @@ ludzi NOUN
 zdrowych ADJ
 , PUNCT
 są AUX
-tylko PART
+tylko CCONJ
 źle ADV
 zdiagnozowani ADJ
 . PUNCT
@@ -16080,7 +16080,7 @@ Konstanty PROPN
 – PUNCT
 znaczy VERB
 się PRON
-Łódź NOUN
+Łódź PROPN
 jest AUX
 o ADP
 tyle ADV
@@ -16090,7 +16090,7 @@ jest AUX
 taka DET
 przestronna ADJ
 
-Karma NOUN
+Karma PROPN
 wypracowana ADJ
 ma VERB
 wpływ NOUN
@@ -16181,7 +16181,7 @@ C PROPN
 " PUNCT
 ) PUNCT
 sędziowie NOUN
-główni ADV
+główni ADJ
 pobierać VERB
 będą AUX
 opłatę NOUN
@@ -16244,7 +16244,7 @@ rozerwał VERB
 - PUNCT
 opowiada VERB
 Jerzy PROPN
-Żołnierzak NOUN
+Żołnierzak PROPN
 ; PUNCT
 jego PRON
 mama NOUN
@@ -16306,7 +16306,7 @@ rozmawia VERB
 z ADP
 policją NOUN
 i CCONJ
-tupacamaros PROPN
+tupacamaros NOUN
 , PUNCT
 by SCONJ
 mogły VERB
@@ -16352,7 +16352,7 @@ Trudno ADV
 rzekł VERB
 - PUNCT
 chodzić VERB
-samopas NOUN
+samopas ADV
 . PUNCT
 
 - PUNCT
@@ -16405,7 +16405,7 @@ znajdzie VERB
 się PRON
 Słońce PROPN
 i CCONJ
-Księżyc NOUN
+Księżyc PROPN
 . PUNCT
 
 - PUNCT
@@ -16419,7 +16419,7 @@ ma VERB
 mowy NOUN
 ! PUNCT
 
-Bazyliszka NOUN
+Bazyliszka PROPN
 nie PART
 sposób VERB
 wprawdzie PART
@@ -16689,16 +16689,16 @@ Bujaka PROPN
 . PUNCT
 
 - PUNCT
-To PART
+To PRON
 biorę VERB
 - PUNCT
 ucieszyła VERB
 się PRON
-babina PROPN
+babina NOUN
 , PUNCT
 wysupłała VERB
 z ADP
-zawiniątka PROPN
+zawiniątka NOUN
 odpowiednią ADJ
 sumę NOUN
 i CCONJ
@@ -16731,7 +16731,7 @@ złote NOUN
 Trzeba VERB
 przede ADP
 wszystkim PRON
-dużo DET
+dużo ADV
 inwestować VERB
 w ADP
 nowoczesny ADJ
@@ -16750,7 +16750,7 @@ roku NOUN
 uchodzący ADJ
 za ADP
 niezwyciężonego ADJ
-Żelazny NOUN
+Żelazny PROPN
 Mike PROPN
 padł VERB
 na ADP
@@ -16845,7 +16845,7 @@ Sposób NOUN
 postępowania NOUN
 - PUNCT
 jak SCONJ
-to PART
+to PRON
 zwykle ADV
 z ADP
 myszą NOUN
@@ -16861,7 +16861,7 @@ faza NOUN
 występuje VERB
 wówczas ADV
 , PUNCT
-gdy SCONJ
+gdy ADV
 sieć NOUN
 cieków NOUN
 ( PUNCT
@@ -16937,7 +16937,7 @@ można VERB
 by AUX
 nią PRON
 nakarmić VERB
-niejedno DET
+niejedno ADJ
 ministerstwo NOUN
 z ADP
 wiecznie ADV
@@ -17136,7 +17136,7 @@ sapał VERB
 
 – PUNCT
 A PART
-co PART
+co PRON
 , PUNCT
 ktoś PRON
 się PRON
@@ -17546,7 +17546,7 @@ jak SCONJ
 się PRON
 jeszcze PART
 do ADP
-niedawna ADJ
+niedawna NOUN
 mówiło VERB
 - PUNCT
 " PUNCT
@@ -17645,7 +17645,7 @@ Otwiera VERB
 drzwi NOUN
 i CCONJ
 po ADP
-ciemku ADJ
+ciemku NOUN
 znajduje VERB
 napoczętą ADJ
 butelkę NOUN
@@ -17680,7 +17680,7 @@ benzyną NOUN
 
 Tymczasem ADV
 do ADP
-sieni PROPN
+sieni NOUN
 wsadził VERB
 głowę NOUN
 Kropa PROPN
@@ -18056,7 +18056,7 @@ tydzień NOUN
 w ADP
 kościołach NOUN
 chrześcijańskich ADJ
-Poznania NOUN
+Poznania PROPN
 różnych ADJ
 wyznań NOUN
 modlono VERB
@@ -18149,7 +18149,7 @@ wiadomym ADJ
 było AUX
 , PUNCT
 że SCONJ
-Stal PROPN
+Stal NOUN
 ma VERB
 teoretyczne ADJ
 szanse NOUN
@@ -18347,7 +18347,7 @@ wyższym ADJ
 wymiarze NOUN
 każda DET
 dusza NOUN
-zostacie VERB
+zostacie AUX
 napojona ADJ
 wiedzą NOUN
 minimalną ADJ
@@ -18793,7 +18793,7 @@ spółek NOUN
 – PUNCT
 Nie PART
 , PUNCT
-to AUX
+to PART
 Czerwiński PROPN
 – PUNCT
 zgorszył VERB
@@ -18805,7 +18805,7 @@ Prącz PROPN
 Nazywają VERB
 ją PRON
 „ PUNCT
-kuru PROPN
+kuru NOUN
 ” PUNCT
 albo CCONJ
 „ PUNCT
@@ -18883,7 +18883,7 @@ wszystkie DET
 sprawy NOUN
 " PUNCT
 , PUNCT
-jak CCONJ
+jak SCONJ
 poinformował VERB
 nas PRON
 pracownik NOUN
@@ -18943,7 +18943,7 @@ Grzegorz PROPN
 Paluch PROPN
 nie PART
 chcieli VERB
-jednak CCONJ
+jednak PART
 wypowiadać VERB
 się PRON
 o ADP
@@ -18961,7 +18961,7 @@ przegrał VERB
 em AUX
 w ADP
 " PUNCT
-Bingo NOUN
+Bingo PROPN
 " PUNCT
 ( PUNCT
 b X
@@ -19427,7 +19427,7 @@ imienia NOUN
 , PUNCT
 Feliksie PROPN
 , PUNCT
-inaczej SCONJ
+inaczej ADV
 mnie PRON
 nie PART
 poznają VERB
@@ -19794,7 +19794,7 @@ powinien VERB
 być AUX
 bodźcem NOUN
 dla ADP
-rządzących ADJ
+rządzących NOUN
 do ADP
 ochrony NOUN
 rodziny NOUN
@@ -19832,9 +19832,9 @@ bytowym ADJ
 . PUNCT
 
 koło ADP
-tesko PROPN
+tesko NOUN
 jest VERB
-tektilandia PROPN
+tektilandia NOUN
 i CCONJ
 tam ADV
 też PART
@@ -20240,7 +20240,7 @@ mowa NOUN
 w ADP
 ust X
 . PUNCT
-1 X
+1 ADJ
 pkt X
 3 X
 , PUNCT
@@ -20256,7 +20256,7 @@ nazwisko NOUN
 adres NOUN
 , PUNCT
 numer NOUN
-PESEL NOUN
+PESEL PROPN
 - PUNCT
 w ADP
 stosunku NOUN
@@ -20374,7 +20374,7 @@ denerwuj VERB
 się PRON
 ! PUNCT
 
-Jednak CCONJ
+Jednak PART
 , PUNCT
 dokonując VERB
 wyboru NOUN
@@ -20460,7 +20460,7 @@ meczu NOUN
 częstowali VERB
 nawet PART
 widzów NOUN
-grochówką PROPN
+grochówką NOUN
 . PUNCT
 
 Tadzio PROPN
@@ -20660,7 +20660,7 @@ racjonalnego ADJ
 egoizmu NOUN
 ? PUNCT
 
-Tak ADV
+Tak PART
 jakby PART
 ludzie NOUN
 z ADP
@@ -20676,7 +20676,7 @@ nieczyste ADJ
 sumienie NOUN
 , PUNCT
 chcieli VERB
-jednak CCONJ
+jednak PART
 go PRON
 wysłuchać VERB
 , PUNCT
@@ -20726,7 +20726,7 @@ Wyczekał VERB
 aż SCONJ
 prorok NOUN
 – PUNCT
-a CCONJ
+a PART
 wyglądał VERB
 dzisiaj ADV
 zgoła PART
@@ -20806,7 +20806,7 @@ gratis ADV
 , PUNCT
 sypie VERB
 trzech NUM
-Rosjan NOUN
+Rosjan PROPN
 szpiegujących ADJ
 w ADP
 Ameryce PROPN
@@ -20832,7 +20832,7 @@ korka NOUN
 , PUNCT
 wydarł VERB
 się PRON
-wniebogłosy ADJ
+wniebogłosy NOUN
 . PUNCT
 
 Model NOUN
@@ -20890,7 +20890,7 @@ mi PRON
 prawo NOUN
 . PUNCT
 
-Jak ADV
+Jak SCONJ
 udało VERB
 się PRON
 nam PRON
@@ -21050,7 +21050,7 @@ zarośli NOUN
 tak ADV
 urozmaicone ADJ
 , PUNCT
-jak CCONJ
+jak SCONJ
 urozmaiconym ADJ
 pragnęło VERB
 by AUX
@@ -21125,7 +21125,7 @@ Laskownicy PROPN
 . PUNCT
 
 " PUNCT
-Biblia NOUN
+Biblia PROPN
 dla ADP
 dzieci NOUN
 w ADP
@@ -21146,13 +21146,13 @@ oprawy NOUN
 
 Po ADP
 chwili NOUN
-zagrzmiała ADJ
+zagrzmiała VERB
 gitara NOUN
 basowa ADJ
 , PUNCT
 rozdarł VERB
 się PRON
-puzon PROPN
+puzon NOUN
 , PUNCT
 beztrosko ADV
 zadźwięczał VERB
@@ -21252,7 +21252,7 @@ teza NOUN
 istnieje VERB
 ego NOUN
 ( PUNCT
-Ja PRON
+Ja NOUN
 , PUNCT
 niekonscjentywne ADJ
 ) PUNCT
@@ -21342,12 +21342,12 @@ wstrętem NOUN
 
 Chleb NOUN
 ( PUNCT
-BREAD NOUN
+BREAD X
 ) PUNCT
 i CCONJ
 wodę NOUN
 ( PUNCT
-MUG NOUN
+MUG X
 ) PUNCT
 przenosimy VERB
 tylko PART
@@ -21430,7 +21430,7 @@ bilans NOUN
 cieplny ADJ
 powierzchni NOUN
 , PUNCT
-dna PROPN
+dna NOUN
 i CCONJ
 jego PRON
 wnętrza NOUN
@@ -21566,7 +21566,7 @@ ciepłych ADJ
 gnieżdżą VERB
 się PRON
 mrówki NOUN
-faraona PROPN
+faraona NOUN
 , PUNCT
 prusaki NOUN
 , PUNCT
@@ -21585,7 +21585,7 @@ kim PRON
 się PRON
 staniesz VERB
 , PUNCT
-gdy SCONJ
+gdy ADV
 nie PART
 pojmiesz VERB
 ich PRON
@@ -21741,7 +21741,7 @@ tego DET
 roku NOUN
 . PUNCT
 
-Oto PART
+Oto VERB
 na ADP
 czym PRON
 nasza DET
@@ -21756,7 +21756,7 @@ portretów NOUN
 ( PUNCT
 ponumerowanych ADJ
 od ADP
-1 NUM
+1 NOUN
 - PUNCT
 10 NUM
 ) PUNCT
@@ -22217,7 +22217,7 @@ tonu NOUN
 . PUNCT
 
 - PUNCT
-I PART
+I CCONJ
 co PRON
 z ADP
 tego PRON
@@ -22292,7 +22292,7 @@ teatralny ADJ
 " PUNCT
 Wdzięczna ADJ
 pani NOUN
-Strumyk NOUN
+Strumyk PROPN
 " PUNCT
 czy CCONJ
 " PUNCT
@@ -22319,7 +22319,7 @@ ręce NOUN
 kostkę NOUN
 takiego DET
 mydła NOUN
-jak CCONJ
+jak SCONJ
 i CCONJ
 kawałek NOUN
 wyprawionej ADJ
@@ -22869,7 +22869,7 @@ chwyty NOUN
 
 GIEDROYC PROPN
 , PUNCT
-CZYLI CCONJ
+CZYLI PART
 JA PRON
 : PUNCT
 Zawsze ADV
@@ -23112,7 +23112,7 @@ Słyszał VERB
 em AUX
 , PUNCT
 że SCONJ
-szejk PROPN
+szejk NOUN
 jest AUX
 pana NOUN
 przyjacielem NOUN
@@ -23209,7 +23209,7 @@ regionalnego ADJ
 sekretariatu NOUN
 nauczycielskiej ADJ
 " PUNCT
-S PROPN
+S X
 " PUNCT
 , PUNCT
 zwołał VERB
@@ -23237,8 +23237,8 @@ obyczajów NOUN
 . PUNCT
 
 Grzmiał VERB
-to PRON
-swoje NOUN
+to DET
+swoje DET
 " PUNCT
 wiem VERB
 , PUNCT
@@ -23307,7 +23307,7 @@ domku NOUN
 , PUNCT
 prokuratura NOUN
 doszła VERB
-jednak PART
+jednak CCONJ
 do ADP
 wniosku NOUN
 , PUNCT
@@ -23496,9 +23496,9 @@ je PRON
 jednym ADJ
 spojrzeniem NOUN
 i CCONJ
-jak ADV
-ubogie ADV
-zawiniątko ADV
+jak SCONJ
+ubogie ADJ
+zawiniątko NOUN
 poniósł VERB
 ze ADP
 sobą PRON
@@ -23783,7 +23783,7 @@ i CCONJ
 inflacja NOUN
 , PUNCT
 a CCONJ
-zatem CCONJ
+zatem SCONJ
 spadną VERB
 realne ADJ
 dochody NOUN
@@ -24151,7 +24151,7 @@ zawierała VERB
 następującą ADJ
 wiadomość NOUN
 : PUNCT
-PRZYKRO ADV
+PRZYKRO VERB
 MI PRON
 PANU NOUN
 DONIEŚĆ VERB
@@ -24163,14 +24163,14 @@ S X
 . PUNCT
 S X
 . PUNCT
-KOŚCIUSZKO PROPN
+KOŚCIUSZKO ADV
 W ADP
-TEJ DET
+TEJ ADJ
 PODRÓŻY NOUN
 PRZYWIÓZŁ VERB
 Z ADP
-NOWEGO ADJ
-JORKU PROPN
+NOWEGO NOUN
+JORKU NOUN
 PASAŻERÓW NOUN
 NA ADP
 GAPĘ NOUN
@@ -24378,7 +24378,7 @@ letniskowych ADJ
 jak SCONJ
 : PUNCT
 Stary ADJ
-Folwark NOUN
+Folwark PROPN
 , PUNCT
 Gawrych PROPN
 Ruda PROPN
@@ -24405,7 +24405,7 @@ piknik NOUN
 przybyło VERB
 kilka DET
 tysięcy NOUN
-opolan PROPN
+opolan NOUN
 . PUNCT
 
 I PART
@@ -24423,7 +24423,7 @@ eś AUX
 . PUNCT
 
 W ADP
-Strzelcach NOUN
+Strzelcach PROPN
 pomnikowa ADJ
 wdzięczność NOUN
 była AUX
@@ -24503,7 +24503,7 @@ regularny ADJ
 rytm NOUN
 i CCONJ
 po ADP
-swojemu ADJ
+swojemu NOUN
 drobi VERB
 w ADP
 stronę NOUN
@@ -24729,7 +24729,7 @@ podwórko NOUN
 wynudź VERB
 się PRON
 w ADP
-Minecrafcie NOUN
+Minecrafcie PROPN
 , PUNCT
 obejrzyj VERB
 lajwika NOUN
@@ -24740,7 +24740,7 @@ headshota NOUN
 ucharakteryzuj VERB
 się PRON
 na ADP
-zombie PROPN
+zombie NOUN
 , PUNCT
 pogadaj VERB
 z ADP
@@ -25094,7 +25094,7 @@ się PRON
 , PUNCT
 że SCONJ
 najfajniej ADV
-jest VERB
+jest AUX
 dostać VERB
 możliwie ADV
 najbardziej ADV
@@ -25106,7 +25106,7 @@ należy VERB
 krzyczeć VERB
 : PUNCT
 „ PUNCT
-Co AUX
+Co PRON
 za PART
 obrzydliwość NOUN
 , PUNCT
@@ -25297,7 +25297,7 @@ się PRON
 przed ADP
 znajomymi NOUN
 ile DET
-to PART
+to DET
 razy NOUN
 udało VERB
 im PRON
@@ -25600,7 +25600,7 @@ Dwudziestu NUM
 sześciu NUM
 obywateli NOUN
 Francji PROPN
-zostało AUX
+zostało VERB
 rannych ADJ
 w ADP
 czwartkowym ADJ
@@ -25638,7 +25638,7 @@ zapamiętany ADJ
 ? PUNCT
 
 - PUNCT
-Durniu NOUN
+Durniu PROPN
 - PUNCT
 karcił VERB
 się PRON
@@ -25741,7 +25741,7 @@ dziadkiem NOUN
 Aleka PROPN
 . PUNCT
 
-Notabene PART
+Notabene ADV
 temu ADP
 , PUNCT
 który DET
@@ -25986,7 +25986,7 @@ kalabryjskiej ADJ
 która DET
 jak SCONJ
 być AUX
-może VERB
+może PART
 wiecie VERB
 , PUNCT
 uważana ADJ
@@ -26068,7 +26068,7 @@ przyspieszyć VERB
 " PUNCT
 Dlaczego ADV
 , PUNCT
-jak ADV
+jak SCONJ
 chcę VERB
 kupić VERB
 coś PRON
@@ -26081,7 +26081,7 @@ przelewem NOUN
 jestem AUX
 zmuszony ADJ
 przez ADP
-mBank PROPN
+mBank NOUN
 do ADP
 ujawnienia NOUN
 sklepikarzowi NOUN
@@ -26419,7 +26419,7 @@ to AUX
 tylko PART
 problem NOUN
 Nowej ADJ
-Huty NOUN
+Huty PROPN
 , PUNCT
 to AUX
 problem NOUN
@@ -26567,7 +26567,7 @@ ołowianą ADJ
 kulę NOUN
 , PUNCT
 a CCONJ
-nie PART
+nie CCONJ
 bukiet NOUN
 kwiatów NOUN
 z ADP
@@ -26812,14 +26812,14 @@ sześć NUM
 osób NOUN
 z ADP
 rodziny NOUN
-Ruśniaków NOUN
+Ruśniaków PROPN
 służy VERB
 w ADP
 OSP PROPN
 . PUNCT
 
 Działacze NOUN
-Startu NOUN
+Startu PROPN
 mocno ADV
 przebudowali VERB
 zespół NOUN
@@ -26852,7 +26852,7 @@ każdej DET
 wizyty NOUN
 ? PUNCT
 
-Followers PROPN
+Followers NOUN
 to AUX
 taki DET
 użytkownik NOUN
@@ -26877,7 +26877,7 @@ twórczość NOUN
 i CCONJ
 nie CCONJ
 tylko CCONJ
-klika NOUN
+klika VERB
 , PUNCT
 lecz CCONJ
 zaczyna VERB
@@ -27134,7 +27134,7 @@ alkoholu NOUN
 
 Czyli CCONJ
 na ADP
-dwoje NOUN
+dwoje NUM
 babcia NOUN
 wróżyła VERB
 . PUNCT
@@ -27171,7 +27171,7 @@ na ADP
 mandat NOUN
 . PUNCT
 
-Koza NOUN
+Koza PROPN
 beknęła VERB
 przeciągle ADV
 , PUNCT
@@ -27219,7 +27219,7 @@ które DET
 powstaną VERB
 w ADP
 internacie NOUN
-Browarnika NOUN
+Browarnika PROPN
 ( PUNCT
 Zespół NOUN
 Szkół NOUN
@@ -27274,7 +27274,7 @@ uargumentować VERB
 to PRON
 Pismem NOUN
 , PUNCT
-co PRON
+co PART
 więcej ADV
 czujesz VERB
 pewność NOUN
@@ -27299,7 +27299,7 @@ docierają VERB
 do ADP
 rąk NOUN
 bezpośrednio ADV
-zainteresowanych ADJ
+zainteresowanych NOUN
 . PUNCT
 
 Przedstawiają VERB
@@ -27347,19 +27347,19 @@ ok PART
 obiadków NOUN
 ( PUNCT
 3 NUM
-x X
+x PUNCT
 rosołek NOUN
 z ADP
 kluseczkami NOUN
 , PUNCT
 3 NUM
-x NOUN
+x PUNCT
 pomidorowa ADJ
 z ADP
 mięsem NOUN
 , PUNCT
 3 NUM
-x X
+x SYM
 sos NOUN
 koperkowy ADJ
 z ADP
@@ -27403,7 +27403,7 @@ rówieśniczka NOUN
 Paulina PROPN
 Wróblewska PROPN
 z ADP
-Szamotuł VERB
+Szamotuł PROPN
 z ADP
 porażeniem NOUN
 mózgowym ADJ
@@ -27424,7 +27424,7 @@ porażeniem NOUN
 . PUNCT
 
 Na ADP
-Instagramie NOUN
+Instagramie PROPN
 chciał VERB
 em AUX
 być AUX
@@ -27433,7 +27433,7 @@ tak ADV
 bardzo ADV
 , PUNCT
 że SCONJ
-wstyd ADV
+wstyd VERB
 to PRON
 przyznać VERB
 , PUNCT
@@ -27559,7 +27559,7 @@ który DET
 doradza VERB
 mu PRON
 znaleźć VERB
-stałą NOUN
+stałą ADJ
 dla ADP
 obu NUM
 światów NOUN
@@ -27656,7 +27656,7 @@ spódnicy NOUN
 Nie PART
 przeszkodziło VERB
 im PRON
-ani CCONJ
+ani PART
 to PRON
 , PUNCT
 że SCONJ
@@ -27719,7 +27719,7 @@ Posłał VERB
 em AUX
 do ADP
 Arasyba PROPN
-Wagurę NOUN
+Wagurę PROPN
 z ADP
 prośbą NOUN
 , PUNCT
@@ -27732,7 +27732,7 @@ bezustannie ADV
 i CCONJ
 głuszył VERB
 bicie NOUN
-Akawojów NOUN
+Akawojów PROPN
 . PUNCT
 
 Człowiek NOUN
@@ -27836,17 +27836,17 @@ sezonie NOUN
 zimowym ADJ
 w ADP
 Szczyrbskim ADJ
-Jeziorze NOUN
+Jeziorze PROPN
 , PUNCT
 na ADP
-Siodełku NOUN
+Siodełku PROPN
 , PUNCT
 przy ADP
 Łomnickim ADJ
-Stawie NOUN
+Stawie PROPN
 w ADP
 Ździarze PROPN
-Średnicy NOUN
+Średnicy PROPN
 . PUNCT
 
 Ale CCONJ
@@ -27855,8 +27855,8 @@ mocno ADV
 jej PRON
 doskwierała VERB
 , PUNCT
-jak CCONJ
-i CCONJ
+jak SCONJ
+i PART
 to PRON
 , PUNCT
 że SCONJ
@@ -27956,7 +27956,7 @@ rzecznym ADJ
 , PUNCT
 tzw X
 . PUNCT
-Flisem NOUN
+Flisem PROPN
 , PUNCT
 kolejno ADV
 w ADP
@@ -27977,7 +27977,7 @@ sensie NOUN
 artystycznym ADJ
 robimy VERB
 to PRON
-co PRON
+co PART
 na ADP
 co ADP
 dzień NOUN
@@ -28271,7 +28271,7 @@ lub CCONJ
 pocisków NOUN
 . PUNCT
 
-Szczepan PROPN
+Szczepan NOUN
 sam ADJ
 na ADP
 ogół NOUN
@@ -28418,7 +28418,7 @@ ukos NOUN
 Piłsudski PROPN
 dobrotliwie ADV
 , PUNCT
-Wieniawa VERB
+Wieniawa PROPN
 z ADP
 lekkim ADJ
 grymasem NOUN
@@ -28824,7 +28824,7 @@ LU PROPN
 Polska PROPN
 . PUNCT
 
-Tak ADV
+Tak PART
 do ADP
 końca NOUN
 nie PART
@@ -29150,7 +29150,7 @@ charczał VERB
 Maks PROPN
 , PUNCT
 siadając VERB
-okrakiem NOUN
+okrakiem ADV
 na ADP
 jego PRON
 brzuchu NOUN
@@ -29201,13 +29201,13 @@ przepraszam NOUN
 , PUNCT
 co PRON
 pobudziło VERB
-czabanów PROPN
+czabanów NOUN
 do ADP
 wesołości NOUN
 . PUNCT
 
 O INTJ
-Boże INTJ
+Boże NOUN
 , PUNCT
 nie PART
 znalazła VERB
@@ -29226,7 +29226,7 @@ wiadomo VERB
 gdzie ADV
 . PUNCT
 
-Polszczyzna NOUN
+Polszczyzna PROPN
 ubożeje VERB
 tak ADV
 , PUNCT
@@ -29596,19 +29596,19 @@ PCS PROPN
 oraz CCONJ
 średnie ADJ
 ceny NOUN
-netto ADV
+netto ADJ
 zmieniały VERB
 się PRON
 równolegle ADV
 ( PUNCT
 motywy NOUN
-77 X
+77 NUM
 , PUNCT
-84 X
+84 NUM
 , PUNCT
-91 X
+91 NUM
 , PUNCT
-98 X
+98 NUM
 i CCONJ
 105 NUM
 decyzji NOUN
@@ -30107,7 +30107,7 @@ i CCONJ
 handel NOUN
 międzynarodowy ADJ
 są AUX
-co SCONJ
+co ADP
 do ADP
 zasady NOUN
 zjawiskami NOUN
@@ -30387,7 +30387,7 @@ Major NOUN
 Bachman PROPN
 z ADP
 biura NOUN
-śledczego NOUN
+śledczego ADJ
 stanu NOUN
 Tennessee PROPN
 . PUNCT
@@ -30828,7 +30828,7 @@ wszyscy PRON
 interpretują VERB
 art X
 . PUNCT
-179 X
+179 ADJ
 inaczej ADV
 . PUNCT
 
@@ -31470,12 +31470,12 @@ mistrzowsku ADJ
 Tym DET
 razem NOUN
 , PUNCT
-to DET
+to AUX
 wszystko PRON
 z ADP
 miłości NOUN
 , PUNCT
-Sir NOUN
+Sir X
 James PROPN
 . PUNCT
 
@@ -31505,7 +31505,7 @@ C X
 1770 X
 ) PUNCT
 
-Dobra INTJ
+Dobra ADJ
 ludzie NOUN
 , PUNCT
 teraz ADV
@@ -31794,7 +31794,7 @@ księżyc NOUN
 Saturna PROPN
 . PUNCT
 
-fm PROPN
+fm NOUN
 jest AUX
 parametrem NOUN
 charakterystycznym ADJ
@@ -31837,7 +31837,7 @@ produktów NOUN
 . PUNCT
 
 To PRON
-właśnie ADV
+właśnie PART
 zrobili VERB
 śmy AUX
 i CCONJ
@@ -32017,8 +32017,8 @@ my PRON
 . PUNCT
 
 Pędy NOUN
-Asparagus NOUN
-sprengeri PROPN
+Asparagus PROPN
+sprengeri NOUN
 tworzące ADJ
 pęczek NOUN
 muszą VERB
@@ -32053,12 +32053,12 @@ płciowych ADJ
 , PUNCT
 co PRON
 już PART
-samo ADJ
+samo ADV
 przez ADP
 się PRON
 świadczyło VERB
 , PUNCT
-jak ADV
+jak SCONJ
 daleki ADJ
 był AUX
 Bowman PROPN
@@ -32381,7 +32381,7 @@ Wiedziała VERB
 m AUX
 , PUNCT
 że SCONJ
-będzie VERB
+będzie AUX
 tłoczno ADV
 więc SCONJ
 przyszła VERB
@@ -32754,7 +32754,7 @@ kwestię NOUN
 w ADP
 strategii NOUN
 UE PROPN
-2020 ADJ
+2020 X
 i CCONJ
 dlatego ADV
 podchodzimy VERB
@@ -32826,7 +32826,7 @@ stwierdzenie NOUN
 w ADP
 podsumowaniu NOUN
 : PUNCT
-nie CCONJ
+nie PART
 jest AUX
 to AUX
 tylko CCONJ
@@ -33010,7 +33010,7 @@ kraju NOUN
 ( PUNCT
 Fragment NOUN
 z ADP
-Nag X
+Nag PROPN
 Hammadi PROPN
 6,2 X
 ) PUNCT
@@ -33256,7 +33256,7 @@ wdrożenia NOUN
 decyzji NOUN
 wydawanych ADJ
 in X
-absentia PROPN
+absentia NOUN
 . PUNCT
 
 - PUNCT
@@ -33567,7 +33567,7 @@ wysrać VERB
 - PUNCT
 O INTJ
 , PUNCT
-Senor NOUN
+Senor PROPN
 Sanchez PROPN
 . PUNCT
 . PUNCT
@@ -33799,7 +33799,7 @@ W ADP
 ten DET
 sposób NOUN
 , PUNCT
-kiedy SCONJ
+kiedy ADV
 idioci NOUN
 , PUNCT
 którzy DET
@@ -33981,7 +33981,7 @@ się PRON
 na ADP
 półpiętro NOUN
 nad ADP
-hallem PROPN
+hallem NOUN
 . PUNCT
 
 W ADP
@@ -34021,7 +34021,7 @@ dorosłymi NOUN
 
 Skrypt NOUN
 w ADP
-Pythonie NOUN
+Pythonie PROPN
 demonstrujący ADJ
 tworzenie NOUN
 list NOUN
@@ -34038,7 +34038,7 @@ zachód NOUN
 . PUNCT
 . PUNCT
 
-Cozaar PROPN
+Cozaar NOUN
 12,5 NUM
 mg X
 , PUNCT
@@ -34381,7 +34381,7 @@ i CCONJ
 koszty NOUN
 pochodne ADJ
 
-Pewnie PART
+Pewnie ADV
 jesteś AUX
 ciągle ADV
 zmęczony ADJ
@@ -34525,7 +34525,7 @@ metod NOUN
 analitycznych ADJ
 w ADP
 przypadku NOUN
-benzo[a]pirenu NOUN
+benzo[a]pirenu ADJ
 
 Hodowcy NOUN
 bydła NOUN
@@ -34712,7 +34712,7 @@ do ADP
 wzmocnienia NOUN
 pozycji NOUN
 znaku NOUN
-CE NOUN
+CE PROPN
 i CCONJ
 obowiązku NOUN
 jego PRON
@@ -34766,7 +34766,7 @@ punkt NOUN
 wyjściowy ADJ
 , PUNCT
 a CCONJ
-nie PART
+nie CCONJ
 przyznanie NOUN
 rynkowi NOUN
 ważniejszej ADJ
@@ -34829,7 +34829,7 @@ i CCONJ
 C PROPN
 oraz CCONJ
 pole NOUN
-11 ADJ
+11 X
 zaświadczenia NOUN
 . PUNCT
 
@@ -34962,7 +34962,7 @@ FMR1 PROPN
 łamliwy ADJ
 gen NOUN
 chromosomu NOUN
-X PROPN
+X ADJ
 ) PUNCT
 był AUX
 aktywny ADJ
@@ -34971,7 +34971,7 @@ komórkach NOUN
 ES PROPN
 , PUNCT
 ale CCONJ
-nie PART
+nie CCONJ
 w ADP
 komórkach NOUN
 iPS PROPN
@@ -35021,7 +35021,7 @@ oraz CCONJ
 dwie NUM
 zaawansowane ADJ
 techniki NOUN
-bio-obrazowania ADJ
+bio-obrazowania NOUN
 : PUNCT
 mikroskopię NOUN
 krio-elektronową ADJ
@@ -35149,7 +35149,7 @@ em AUX
 by SCONJ
 zostać VERB
 tancerzem NOUN
-flamenco PROPN
+flamenco NOUN
 . PUNCT
 
 W ADP
@@ -35282,9 +35282,9 @@ aktywności NOUN
 enzymów NOUN
 wątrobowych ADJ
 ( PUNCT
-AspAT NOUN
+AspAT PROPN
 , PUNCT
-AlAT NOUN
+AlAT PROPN
 , PUNCT
 fosfataza NOUN
 zasadowa ADJ
@@ -35304,7 +35304,7 @@ przedsiębiorstw NOUN
 wbrew ADP
 celom NOUN
 z ADP
-Lizbony NOUN
+Lizbony PROPN
 . PUNCT
 
 Odesłał VERB
@@ -35523,7 +35523,7 @@ Podczas ADP
 zwiedzania NOUN
 odpowiednie ADJ
 informacje NOUN
-będą VERB
+będą AUX
 . PUNCT
 . PUNCT
 . PUNCT

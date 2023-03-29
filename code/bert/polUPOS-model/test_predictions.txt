@@ -1,6 +1,6 @@
 Dziad NOUN
 mój DET
-Melchior NOUN
+Melchior PROPN
 urodzony ADJ
 roku NOUN
 1741 ADJ
@@ -13,12 +13,12 @@ syn NOUN
 komornika NOUN
 ziemskiego ADJ
 Jana PROPN
-Komornika NOUN
+Komornika PROPN
 ziemi NOUN
 Dobrrzyńskiej ADJ
 ( PUNCT
 a CCONJ
-nie CCONJ
+nie PART
 Antoniego PROPN
 – PUNCT
 Antoni PROPN
@@ -42,7 +42,7 @@ myłka NOUN
 , PUNCT
 która DET
 później ADV
-wdokumentach ADV
+wdokumentach NOUN
 się PRON
 powtarza VERB
 ) PUNCT
@@ -61,13 +61,13 @@ Puszczanki PROPN
 Dąbrowy PROPN
 części NOUN
 , PUNCT
-Ronantowizna NOUN
+Ronantowizna PROPN
 , PUNCT
-Żółtowizna NOUN
+Żółtowizna PROPN
 , PUNCT
 Będowszczyazna PROPN
 , PUNCT
-Kmińszczyzna NOUN
+Kmińszczyzna PROPN
 , PUNCT
 Bęklowizna PROPN
 , PUNCT
@@ -98,7 +98,7 @@ komornikowi NOUN
 ziemi NOUN
 Dobrzyńskiej ADJ
 za ADP
-ośm NUM
+ośm X
 tysięcy NOUN
 tynfów NOUN
 . PUNCT
@@ -158,7 +158,7 @@ mieli VERB
 syna NOUN
 Ludwika PROPN
 – PUNCT
-Ciotka NOUN
+Ciotka PROPN
 za ADP
 Rzotoławskim PROPN
 – PUNCT
@@ -187,13 +187,13 @@ brat NOUN
 Melchiora PROPN
 . PUNCT
 
-Niewiem NOUN
+Niewiem INTJ
 o ADP
 ile ADV
 to AUX
 prawda NOUN
 – PUNCT
-ale CCONJ
+ale PART
 mi PRON
 mówił VERB
 kuzyn NOUN
@@ -250,12 +250,12 @@ Stryjskim PROPN
 . PUNCT
 
 Gdy ADV
-zaś CCONJ
+zaś PART
 Pan NOUN
 Potocki PROPN
 odwiedzał VERB
 Pana NOUN
-Starostę NOUN
+Starostę PROPN
 , PUNCT
 znając VERB
 dobrze ADV
@@ -265,7 +265,7 @@ rodzinę NOUN
 – PUNCT
 spostrzegł VERB
 młodego ADJ
-Melchiora NOUN
+Melchiora PROPN
 – PUNCT
 ładny ADJ
 to AUX
@@ -284,7 +284,7 @@ jeden ADJ
 Odpowiedział VERB
 mu PRON
 Pan NOUN
-Starosta NOUN
+Starosta PROPN
 całą ADJ
 rzecz NOUN
 – PUNCT
@@ -327,7 +327,7 @@ sobie PRON
 zjednać VERB
 zaufanie NOUN
 swojego DET
-Patrona NOUN
+Patrona PROPN
 , PUNCT
 że SCONJ
 ten DET
@@ -336,7 +336,7 @@ raz NOUN
 do ADP
 dóbr NOUN
 swoich DET
-Brzeżany NOUN
+Brzeżany PROPN
 i CCONJ
 Skolego PROPN
 wziął VERB
@@ -390,7 +390,7 @@ taki DET
 uzyskać VERB
 dochód NOUN
 zaprowadzić VERB
-potażarnię ADV
+potażarnię NOUN
 . PUNCT
 
 Myśl NOUN
@@ -420,7 +420,7 @@ była AUX
 to AUX
 chwila NOUN
 dla ADP
-Dziada NOUN
+Dziada PROPN
 mojego DET
 i CCONJ
 stanowiąca ADJ
@@ -434,7 +434,7 @@ jaki DET
 okazał VERB
 mój DET
 Dziad NOUN
-Panu NOUN
+Panu PROPN
 Potockiemu PROPN
 był AUX
 jak SCONJ
@@ -446,7 +446,7 @@ piękny ADJ
 tak ADV
 że SCONJ
 ujęty ADJ
-tem DET
+tem PART
 zaproponował VERB
 śp X
 . PUNCT
@@ -480,14 +480,14 @@ Melchior PROPN
 wziął VERB
 w ADP
 dzierżawę NOUN
-Czołhany NOUN
+Czołhany PROPN
 w ADP
 obwodzie NOUN
 w ADP
 owe DET
 czasy NOUN
 w ADP
-Halickim PROPN
+Halickim ADJ
 , PUNCT
 później ADV
 w ADP
@@ -499,7 +499,7 @@ Tam ADV
 się PRON
 ożenił VERB
 z ADP
-Panną NOUN
+Panną PROPN
 Kobylską PROPN
 , PUNCT
 zacnego ADJ
@@ -535,7 +535,7 @@ wołami NOUN
 W ADP
 drodze NOUN
 na ADP
-Posadzie NOUN
+Posadzie PROPN
 Chyrowskiey PROPN
 zapędziły VERB
 się PRON
@@ -554,7 +554,7 @@ Właścicielką NOUN
 była AUX
 z ADP
 domu NOUN
-Dzianott NOUN
+Dzianott PROPN
 wdowa NOUN
 po ADP
 dwóch NUM
@@ -562,7 +562,7 @@ mężach NOUN
 – PUNCT
 z ADP
 pierwszym ADJ
-Pierściorowskim ADJ
+Pierściorowskim PROPN
 miała VERB
 córkę NOUN
 Maryę PROPN
@@ -590,7 +590,7 @@ mowy NOUN
 . PUNCT
 
 Zastawiono VERB
-sute NOUN
+sute ADJ
 śniadanie NOUN
 z ADP
 starym ADJ
@@ -627,7 +627,7 @@ niej PRON
 „ PUNCT
 wiesz VERB
 Asińdźka PROPN
-co PART
+co PRON
 ? PUNCT
 Jesteś AUX
 wdowa NOUN
@@ -657,7 +657,7 @@ ale CCONJ
 że SCONJ
 mi PRON
 się PRON
-Waszmość NOUN
+Waszmość PROPN
 podobał VERB
 eś AUX
 , PUNCT
@@ -668,12 +668,12 @@ Twoja DET
 oddam VERB
 Ci PRON
 moją DET
-Kleosię NOUN
+Kleosię PROPN
 ” PUNCT
 . PUNCT
 
 W ADP
-alkierzyku PROPN
+alkierzyku NOUN
 słyszała VERB
 Kleosia PROPN
 całą ADJ
@@ -716,7 +716,7 @@ objecał VERB
 z ADP
 powrotem NOUN
 wstąpi VERB
-Pannie NOUN
+Pannie PROPN
 się PRON
 submittować VERB
 . PUNCT
@@ -764,7 +764,7 @@ mojego DET
 Ojca NOUN
 pokończywszy VERB
 nauki NOUN
-osiedli VERB
+osiedli NOUN
 na ADP
 wsi NOUN
 , PUNCT
@@ -776,7 +776,7 @@ czas NOUN
 po ADP
 śmierci NOUN
 mojej DET
-Babki NOUN
+Babki PROPN
 , PUNCT
 która DET
 pono PART
@@ -804,14 +804,14 @@ szambelanica NOUN
 , PUNCT
 druga ADJ
 za ADP
-Świeżawskiego ADJ
+Świeżawskiego PROPN
 komornika NOUN
 ziemskiego ADJ
 i CCONJ
 właściciela NOUN
 Maksymowic PROPN
 w ADP
-Cyrkule NOUN
+Cyrkule PROPN
 Samborskim ADJ
 . PUNCT
 
@@ -834,7 +834,7 @@ literat NOUN
 
 Pamiętam VERB
 go PRON
-jak ADV
+jak SCONJ
 mieszkał VERB
 staruszek NOUN
 u ADP
@@ -890,7 +890,7 @@ akademia NOUN
 w ADP
 została AUX
 w ADP
-perzynę PROPN
+perzynę NOUN
 obrucona ADJ
 – PUNCT
 więc SCONJ
@@ -928,7 +928,7 @@ wziął VERB
 100000 NUM
 zł X
 . PUNCT
-polskich PROPN
+polskich ADJ
 w ADP
 posagu NOUN
 , PUNCT
@@ -939,7 +939,7 @@ plenipotent NOUN
 wielkimi ADJ
 dobrami NOUN
 , PUNCT
-to PART
+to CCONJ
 dzierżawił VERB
 – PUNCT
 ale CCONJ
@@ -1001,7 +1001,7 @@ bawiła VERB
 w ADP
 domu NOUN
 mojego DET
-Oyca PROPN
+Oyca NOUN
 – PUNCT
 od ADP
 niej PRON
@@ -1045,11 +1045,11 @@ a CCONJ
 na ADP
 nim PRON
 leży VERB
-Pan NOUN
+Pan PROPN
 Stanisław PROPN
 . PUNCT
 
-Zaraz ADV
+Zaraz PART
 na ADP
 wstępie NOUN
 opowiedziała VERB
@@ -1111,11 +1111,11 @@ chleba NOUN
 w ADP
 domu NOUN
 – PUNCT
-zato VERB
+zato INTJ
 , PUNCT
 ażeby SCONJ
 Ci PRON
-Bóg NOUN
+Bóg PROPN
 na ADP
 tamtym DET
 świecie NOUN
@@ -1127,7 +1127,7 @@ odpokutować VERB
 ” PUNCT
 i CCONJ
 nuż PART
-harapem NOUN
+harapem ADV
 okładać VERB
 nieboszczyka NOUN
 – PUNCT
@@ -1154,7 +1154,7 @@ rodziny NOUN
 Drugi ADJ
 mój DET
 wuj NOUN
-Świerzawski ADJ
+Świerzawski PROPN
 kuzyn NOUN
 Polanowskich PROPN
 z ADP
@@ -1171,7 +1171,7 @@ bywał VERB
 duszą NOUN
 towarzystwa NOUN
 od ADP
-Pań NOUN
+Pań PROPN
 oblegany ADJ
 – PUNCT
 ale CCONJ
@@ -1219,7 +1219,7 @@ powozu NOUN
 się PRON
 suknia NOUN
 Pani NOUN
-Komornikowej ADJ
+Komornikowej PROPN
 niepomięła VERB
 – PUNCT
 z ADP
@@ -1243,7 +1243,7 @@ w ADP
 ład NOUN
 . PUNCT
 
-Niewiem NOUN
+Niewiem X
 jakim DET
 sposobem NOUN
 majątek NOUN
@@ -1287,7 +1287,7 @@ dziwak NOUN
 napastował VERB
 ludzi NOUN
 , PUNCT
-aż SCONJ
+aż PART
 się PRON
 nim PRON
 Pan NOUN
@@ -1306,7 +1306,7 @@ nierobił VERB
 . PUNCT
 
 Ojciec NOUN
-móy PROPN
+móy ADJ
 sierota NOUN
 oddany ADJ
 do ADP
@@ -1340,7 +1340,7 @@ się PRON
 do ADP
 Sachsen PROPN
 Cobary PROPN
-Ułanów NOUN
+Ułanów PUNCT
 mając VERB
 lat NOUN
 14 NUM
@@ -1348,7 +1348,7 @@ lat NOUN
 
 Kupił VERB
 Ojciec NOUN
-kadectwo PROPN
+kadectwo NOUN
 , PUNCT
 dał VERB
 konia NOUN
@@ -1416,7 +1416,7 @@ podróże NOUN
 i CCONJ
 pobyt NOUN
 u ADP
-Dziaduniów NOUN
+Dziaduniów PROPN
 w ADP
 Zarszynie PROPN
 i CCONJ
@@ -1451,8 +1451,8 @@ wojskową ADJ
 zakończył VERB
 śp X
 . PUNCT
-móy PROPN
-Oyciec PROPN
+móy NOUN
+Oyciec NOUN
 około ADP
 1808 X
 – PUNCT
@@ -1486,10 +1486,10 @@ w ADP
 rękę NOUN
 a CCONJ
 pod ADP
-Wagram NOUN
+Wagram PROPN
 stojąc VERB
 w ADP
-assekuracyi PROPN
+assekuracyi NOUN
 armat NOUN
 utracił VERB
 konia NOUN
@@ -1504,7 +1504,7 @@ nieżywy ADJ
 – PUNCT
 cały ADJ
 pułk NOUN
-pieszy NOUN
+pieszy ADJ
 Francuzów PROPN
 przemaszerował VERB
 po ADP
@@ -1561,7 +1561,7 @@ w ADP
 Stryjskim PROPN
 - PUNCT
 po ADP
-tem PRON
+tem X
 jak SCONJ
 powiadano VERB
 za ADP
@@ -1579,12 +1579,12 @@ karnawału NOUN
 odesłał VERB
 , PUNCT
 kupił VERB
-Bludniki NOUN
+Bludniki PROPN
 za ADP
 które DET
 wyliczył VERB
 Pani NOUN
-Rozwadowskiej ADJ
+Rozwadowskiej PROPN
 10000 NUM
 dukatów NOUN
 . PUNCT
@@ -1639,7 +1639,7 @@ nazwane ADJ
 posłuszeństwo NOUN
 – PUNCT
 Nowy ADJ
-Dziedzic NOUN
+Dziedzic PROPN
 wchodził VERB
 w ADP
 ten DET
@@ -1669,7 +1669,7 @@ polityczną ADJ
 i CCONJ
 policyjną ADJ
 pierwszey NOUN
-instantacyi PROPN
+instantacyi NOUN
 . PUNCT
 
 Zaś CCONJ
@@ -1677,18 +1677,18 @@ daniny NOUN
 w ADP
 robocie NOUN
 odbywali VERB
-poddani ADJ
+poddani NOUN
 wedle ADP
 ilości NOUN
 posiadanych ADJ
 morgów NOUN
 - PUNCT
-byli AUX
+byli VERB
 więc SCONJ
 całorolni ADJ
 gospodarze NOUN
 albo CCONJ
-półrolni NOUN
+półrolni ADJ
 – PUNCT
 ci DET
 winni ADJ
@@ -1721,7 +1721,7 @@ całych ADJ
 i CCONJ
 półgruntów NOUN
 oddawali VERB
-poddani ADJ
+poddani NOUN
 jakąś DET
 ilość NOUN
 owsa NOUN
@@ -1767,7 +1767,7 @@ chałupy NOUN
 pewną DET
 ilość NOUN
 motków NOUN
-uprząść VERB
+uprząść NOUN
 – PUNCT
 za ADP
 to PRON
@@ -1792,7 +1792,7 @@ słyszał VERB
 em AUX
 śp X
 . PUNCT
-Dziadka NOUN
+Dziadka PROPN
 Ostaszewskigo PROPN
 jak SCONJ
 się PRON
@@ -1802,7 +1802,7 @@ chlubił VERB
 jego PRON
 kmiecie NOUN
 na ADP
-Długim NOUN
+Długim PROPN
 najlepsze ADJ
 mają VERB
 konie NOUN
@@ -1832,7 +1832,7 @@ ustawała VERB
 A CCONJ
 gdy ADV
 raz NOUN
-Dłużanie NOUN
+Dłużanie PROPN
 żalili VERB
 się PRON
 , PUNCT
@@ -1852,7 +1852,7 @@ Kazimierz PROPN
 morgów NOUN
 suchey ADJ
 łąki NOUN
-podedworem PROPN
+podedworem NOUN
 a CCONJ
 nayskładniey NOUN
 położone ADJ
@@ -1866,7 +1866,7 @@ posiadanie NOUN
 . PUNCT
 
 Niebył VERB
-to AUX
+to PRON
 obowiązek NOUN
 spełniony ADJ
 ale CCONJ
@@ -1944,7 +1944,7 @@ wianki NOUN
 suszonych ADJ
 grzybów NOUN
 – PUNCT
-miarkmi X
+miarkmi ADJ
 wianki NOUN
 powinny VERB
 były AUX
@@ -1996,14 +1996,14 @@ było VERB
 – PUNCT
 majątki NOUN
 były AUX
-wyłącznie ADV
+wyłącznie PART
 w ADP
 ręku NOUN
 szlachty NOUN
 – PUNCT
 pieczęć NOUN
 urzędowa ADJ
-jurysdykcyi NOUN
+jurysdykcyi ADJ
 był AUX
 Herb NOUN
 Dziedzica NOUN
@@ -2022,7 +2022,7 @@ t X
 p X
 . PUNCT
 
-Nieszlachcic VERB
+Nieszlachcic NOUN
 niemógł VERB
 kupować VERB
 majątku NOUN
@@ -2032,9 +2032,9 @@ ziemskiego ADJ
 Dziedzic NOUN
 postanawiał VERB
 na ADP
-swojem NOUN
-mieycus PROPN
-Mandatariusza NOUN
+swojem DET
+mieycus NOUN
+Mandatariusza PROPN
 - PUNCT
 który DET
 obliczał VERB
@@ -2140,7 +2140,7 @@ z ADP
 Podola PROPN
 szlachcic NOUN
 w ADP
-Sanockie ADJ
+Sanockie PROPN
 – PUNCT
 słynny ADJ
 ze ADP
@@ -2157,13 +2157,13 @@ P X
 . PUNCT
 T X
 Dziadek NOUN
-móy PROPN
+móy AUX
 mawiał VERB
 – PUNCT
 niech AUX
 noga NOUN
 Pana NOUN
-tego DET
+tego PRON
 nie PART
 powstanie VERB
 na ADP
@@ -2193,7 +2193,7 @@ szkołach NOUN
 normalnych ADJ
 – PUNCT
 dziś ADV
-ludowemi NOUN
+ludowemi ADJ
 zwanych ADJ
 czytać VERB
 , PUNCT
@@ -2214,14 +2214,14 @@ praktykę NOUN
 na ADP
 pisarza NOUN
 do ADP
-mandataryusza PROPN
+mandataryusza NOUN
 – PUNCT
 poduczywszy VERB
 się PRON
-trochę ADV
+trochę DET
 prawa NOUN
 – PUNCT
-manipulacyi VERB
+manipulacyi NOUN
 urzędowey ADJ
 – PUNCT
 zdawał VERB
@@ -2229,7 +2229,7 @@ egzamin NOUN
 w ADP
 Starostwie NOUN
 w ADP
-Cyrkule NOUN
+Cyrkule PROPN
 i CCONJ
 dostawał VERB
 dekret NOUN
@@ -2240,9 +2240,9 @@ czyli CCONJ
 Mandataryusza PROPN
 . PUNCT
 
-Mandatyrusza PROPN
+Mandatyrusza NOUN
 przyjmował VERB
-Dziedzic NOUN
+Dziedzic PROPN
 na ADP
 swoją DET
 odpowiedzialność NOUN
@@ -2285,13 +2285,13 @@ majątku NOUN
 w ADP
 jakim DET
 zastępował VERB
-Dziedzica NOUN
+Dziedzica PROPN
 . PUNCT
 
 Mimo ADP
 tak ADV
 szczupłey ADJ
-dotacyi VERB
+dotacyi ADV
 uwzględniając VERB
 taniość NOUN
 życia NOUN
@@ -2311,7 +2311,7 @@ centów NOUN
 – PUNCT
 korzec NOUN
 owsa NOUN
-cwansigera PROPN
+cwansigera NOUN
 – PUNCT
 czyli CCONJ
 33 NUM
@@ -2324,14 +2324,14 @@ dzisiejszych ADJ
 fl X
 – PUNCT
 kartofli NOUN
-korzec VERB
+korzec NOUN
 10 NUM
 do ADP
 14 NUM
 centów NOUN
 – PUNCT
 mając VERB
-przytem NOUN
+przytem X
 jakiś DET
 procent NOUN
 od ADP
@@ -2349,7 +2349,7 @@ się PRON
 nieźle ADV
 i CCONJ
 nieraz ADV
-lepiey ADV
+lepiey VERB
 jak SCONJ
 dzisiejszy ADJ
 komisarz NOUN
@@ -2375,7 +2375,7 @@ nas PRON
 komisarz NOUN
 Zebold PROPN
 – PUNCT
-ładąn PROPN
+ładąn NOUN
 parą NOUN
 siwoszów NOUN
 , PUNCT
@@ -2401,7 +2401,7 @@ się PRON
 do ADP
 chwili NOUN
 gdy ADV
-móy VERB
+móy ADJ
 Dziad NOUN
 podbierając VERB
 posłuszeństwo NOUN
@@ -2411,9 +2411,9 @@ Bludnikach PROPN
 do ADP
 Bludnik PROPN
 należały VERB
-Pokasowce NOUN
+Pokasowce PROPN
 i CCONJ
-Siedliska NOUN
+Siedliska PROPN
 – PUNCT
 wobec ADP
 zakłopotania NOUN
@@ -2481,11 +2481,11 @@ przędzą NOUN
 i CCONJ
 frędzlą NOUN
 białą ADJ
-
 zkończone ADJ
 ) PUNCT
 na ADP
 nim PRON
+
 bochenek NOUN
 chleba NOUN
 i CCONJ
@@ -2494,7 +2494,7 @@ sól NOUN
 i CCONJ
 dzban NOUN
 – PUNCT
-niewiem NOUN
+niewiem VERB
 czy PART
 z ADP
 nalewką NOUN
@@ -2503,7 +2503,7 @@ czy CCONJ
 z ADP
 wodą NOUN
 – PUNCT
-gotowe ADP
+gotowe ADJ
 każdej DET
 chwili NOUN
 do ADP
@@ -2521,12 +2521,12 @@ pyta VERB
 o ADP
 co PRON
 Panu NOUN
-Dziedzicowi NOUN
+Dziedzicowi PROPN
 chodzi VERB
 . PUNCT
 
 Dziadek NOUN
-móy PROPN
+móy NOUN
 odpowiedział VERB
 mu PRON
 Ty PRON
@@ -2538,7 +2538,7 @@ nieporadzisz VERB
 – PUNCT
 a CCONJ
 gdy ADV
-chłopisko NOUN
+chłopisko ADV
 zaczął VERB
 nalegać VERB
 powiedział VERB
@@ -2561,7 +2561,7 @@ wówczas ADV
 Notiak PROPN
 prosił VERB
 żeby SCONJ
-Dziedzic NOUN
+Dziedzic PROPN
 przyjął VERB
 jego PRON
 pomoc NOUN
@@ -2590,7 +2590,7 @@ Takich DET
 gospodarzy NOUN
 jeszcze PART
 za ADP
-mojey NOUN
+mojey DET
 pamięci NOUN
 liczono VERB
 sześciu NUM
@@ -2607,7 +2607,7 @@ Pan NOUN
 Witwicki PROPN
 i CCONJ
 był VERB
-jaszcze VERB
+jaszcze ADV
 tam ADV
 za ADP
 mojej DET
@@ -2638,8 +2638,8 @@ przeszedł VERB
 w ADP
 Lubelskie PROPN
 jako SCONJ
-pop PROPN
-szyzmatycki PROPN
+pop NOUN
+szyzmatycki ADJ
 jako SCONJ
 renegat NOUN
 tam ADV
@@ -2647,12 +2647,12 @@ się PRON
 wsławił VERB
 . PUNCT
 
-I PART
+I CCONJ
 tak ADV
-późney PROPN
+późney NOUN
 dokupił VERB
 Dziad NOUN
-móy PROPN
+móy NOUN
 Dorchów PROPN
 i CCONJ
 Kurypów PROPN
@@ -2674,20 +2674,20 @@ w ADP
 ruskim ADJ
 języku NOUN
 – PUNCT
-Toje PART
+Toje NOUN
 diło NOUN
-daruju PROPN
+daruju NOUN
 ukochanomu NOUN
 Synu NOUN
-mojomu PROPN
+mojomu NOUN
 Mychayłowu PROPN
 . PUNCT
 
-Bludniki PROPN
+Bludniki NOUN
 oddał VERB
 Panu NOUN
 Józefowi PROPN
-iOycu PROPN
+iOycu NOUN
 mojemu DET
 . PUNCT
 
@@ -2700,8 +2700,8 @@ gospodarstwa NOUN
 i CCONJ
 ogrodów NOUN
 – PUNCT
-Oyciec PROPN
-móy PROPN
+Oyciec NOUN
+móy NOUN
 objął VERB
 gospodarstwo NOUN
 rolne ADJ
@@ -2715,8 +2715,8 @@ roku NOUN
 ożenienia NOUN
 się PRON
 mojego DET
-Oyca PROPN
-pono ADP
+Oyca NOUN
+pono PUNCT
 1813 X
 albo CCONJ
 1814 X
@@ -2725,15 +2725,15 @@ Pana NOUN
 Józefa PROPN
 wziął VERB
 Dziadek NOUN
-móy PROPN
+móy NOUN
 do ADP
-Siebie PRON
+Siebie PROPN
 do ADP
 Siemginowa PROPN
 – PUNCT
 i CCONJ
 aż PART
-dośmierci ADJ
+dośmierci NOUN
 Oyca PROPN
 przy ADP
 Nim PRON
@@ -2742,7 +2742,7 @@ zostawał VERB
 gospodarując VERB
 bo SCONJ
 Dziadek NOUN
-móy PROPN
+móy VERB
 ku ADP
 końcowi NOUN
 swojego DET
@@ -2784,7 +2784,7 @@ Semiginów PROPN
 Panu NOUN
 Kazimierzowi PROPN
 wydzielił VERB
-Oyciec VERB
+Oyciec PROPN
 schedę NOUN
 kapitałem NOUN
 . PUNCT
@@ -2793,15 +2793,15 @@ Osiadł VERB
 on PRON
 w ADP
 końcu NOUN
-pono PROPN
+pono NOUN
 w ADP
 Lipie PROPN
 – PUNCT
 ale CCONJ
 która DET
-to PART
-Lipa NOUN
-niewinem VERB
+to AUX
+Lipa PROPN
+niewinem NOUN
 . PUNCT
 
 Pan NOUN
@@ -2812,7 +2812,7 @@ w ADP
 rodzinie NOUN
 sąsiadował VERB
 z ADP
-Bludnikami NOUN
+Bludnikami PROPN
 o ADP
 miedzę NOUN
 . PUNCT
@@ -2837,7 +2837,7 @@ Sabina PROPN
 
 Wcześnie ADV
 go PRON
-Oyciec VERB
+Oyciec PROPN
 odumarł VERB
 ale CCONJ
 i PART
@@ -2848,7 +2848,7 @@ za ADP
 Oycem PROPN
 doszedłszy VERB
 lat NOUN
-około ADP
+około PART
 24 NUM
 na ADP
 tyfus NOUN
@@ -2859,7 +2859,7 @@ umarł VERB
 
 Majątek NOUN
 prawem NOUN
-sukcessyi PROPN
+sukcessyi NOUN
 przeszedł VERB
 po ADP
 synie NOUN
@@ -2869,13 +2869,13 @@ Matkę NOUN
 a CCONJ
 ta DET
 zapisała VERB
-Dorchów NOUN
+Dorchów PROPN
 bratu NOUN
 swojemu DET
 Teodorowi PROPN
 żona NOUN
 temu DET
-pono PART
+pono NOUN
 z ADP
 Jordanówną PROPN
 z ADP
@@ -2883,7 +2883,7 @@ Bełzkiego PROPN
 , PUNCT
 ten DET
 zostawił VERB
-Dorchów NOUN
+Dorchów PROPN
 swojemu DET
 synowi NOUN
 . PUNCT
@@ -2900,10 +2900,10 @@ u ADP
 moich DET
 Rodziców NOUN
 – PUNCT
-niebył AUX
+niebył VERB
 gospodarzem NOUN
-więcey PROPN
-fantasta PROPN
+więcey SCONJ
+fantasta NOUN
 – PUNCT
 pamiętam VERB
 , PUNCT
@@ -2941,7 +2941,7 @@ excentryczności NOUN
 
 Gdy ADV
 przyszedł VERB
-post PROPN
+post NOUN
 – PUNCT
 ligał VERB
 na ADP
@@ -2955,7 +2955,7 @@ ciało NOUN
 – PUNCT
 Zapraszał VERB
 do ADP
-tey PROPN
+tey DET
 praktyki NOUN
 do ADP
 siebie PRON
@@ -2975,15 +2975,15 @@ przyszedł VERB
 wielki ADJ
 piątek NOUN
 – PUNCT
-nietylko PART
+nietylko ADV
 czeladź NOUN
 ale CCONJ
-i PART
+i CCONJ
 bydło NOUN
 musiało VERB
 suszyć VERB
 więc SCONJ
-sądny NOUN
+sądny ADJ
 to AUX
 był AUX
 dzień NOUN
@@ -3024,9 +3024,9 @@ rękoma NOUN
 nieżywym ADJ
 . PUNCT
 
-Sukcesya PROPN
+Sukcesya NOUN
 po ADP
-mim PROPN
+mim NOUN
 , PUNCT
 której DET
 część NOUN
@@ -3042,7 +3042,7 @@ swoim DET
 rodzonym ADJ
 Treterowej PROPN
 i CCONJ
-Swieżaskiey ADJ
+Swieżaskiey PROPN
 . PUNCT
 
 Pan NOUN
@@ -3053,7 +3053,7 @@ po ADP
 śmierci NOUN
 Oyca PROPN
 z ADP
-Panną NOUN
+Panną PROPN
 Julią PROPN
 Świeżyńską PROPN
 urodzoną ADJ
@@ -3070,7 +3070,7 @@ Stryiskim PROPN
 w ADP
 górach NOUN
 czy CCONJ
-Kruszelnicę NOUN
+Kruszelnicę PROPN
 – PUNCT
 liczne ADJ
 było AUX
@@ -3105,14 +3105,14 @@ brzydka ADJ
 – PUNCT
 druga ADJ
 bardzo ADV
-przystoyna VERB
+przystoyna ADJ
 ( PUNCT
 obie NUM
 nauczycielkami NOUN
 ) PUNCT
 ale CCONJ
 – PUNCT
-jakby SCONJ
+jakby PART
 jakieś DET
 fatum NOUN
 Panna NOUN
@@ -3133,7 +3133,7 @@ dwie NUM
 panienki NOUN
 – PUNCT
 z ADP
-tąd PROPN
+tąd DET
 bywała VERB
 z ADP
 tym DET
@@ -3143,18 +3143,18 @@ moich DET
 rodziców NOUN
 . PUNCT
 
-Jakby SCONJ
+Jakby PART
 instynktownie ADV
 Matka NOUN
 moja DET
-jey PROPN
+jey VERB
 znieść VERB
-niemogła VERB
+niemogła NOUN
 . PUNCT
 
 Pan NOUN
 Józef PROPN
-osiadły VERB
+osiadły ADJ
 na ADP
 Siemiginowie PROPN
 już PART
@@ -3235,11 +3235,11 @@ pieniądze NOUN
 Wreszcie PART
 zaproszono VERB
 do ADP
-Kruszelnicy NOUN
+Kruszelnicy PROPN
 o ADP
 kilka DET
 mil NOUN
-odległey PROPN
+odległey ADJ
 od ADP
 Siemignowa PROPN
 – PUNCT
@@ -3249,20 +3249,20 @@ ukartowana ADJ
 – PUNCT
 pojawiła VERB
 się PRON
-hoża PROPN
+hoża ADV
 jak SCONJ
-łania ADJ
+łania NOUN
 Panna NOUN
 Julia PROPN
 i CCONJ
 wyswatano VERB
-Jegomości NOUN
+Jegomości PROPN
 już PART
 bardzo ADV
 niemłodego ADJ
 . PUNCT
 
-Było AUX
+Było VERB
 to PRON
 około ADP
 1829 ADJ
@@ -3274,7 +3274,7 @@ roku NOUN
 Z ADP
 małżeństwa NOUN
 tego DET
-była AUX
+była VERB
 jedyna ADJ
 córka NOUN
 Sabina PROPN
@@ -3286,7 +3286,7 @@ Siemiginowa PROPN
 dla ADP
 żony NOUN
 kupił VERB
-Pan NOUN
+Pan PROPN
 Józef PROPN
 miejscowość NOUN
 Leśniowice PROPN
@@ -3304,7 +3304,7 @@ roku NOUN
 1845 ADJ
 . PUNCT
 
-Ledwie SCONJ
+Ledwie ADV
 się PRON
 żałoba NOUN
 skończyła VERB
@@ -3314,28 +3314,28 @@ się PRON
 konkurenci NOUN
 o ADP
 rękę NOUN
-niemłodej PROPN
+niemłodej ADJ
 już PART
 , PUNCT
 ale CCONJ
-ciepłey VERB
+ciepłey ADJ
 wdowy NOUN
 . PUNCT
 
-Bałamuciła PROPN
+Bałamuciła NOUN
 przebierała VERB
 – PUNCT
 wreszcie PART
 wybrała VERB
 pana NOUN
-Szołayskiego ADJ
+Szołayskiego PROPN
 młodzika NOUN
-około PART
+około ADP
 24 NUM
 lat NOUN
 liczącego ADJ
 – PUNCT
-sybarytę ADJ
+sybarytę NOUN
 próżniaka NOUN
 toteż SCONJ
 po ADP
@@ -3345,16 +3345,16 @@ nim PRON
 pożyciu NOUN
 – PUNCT
 nastąpiła VERB
-Separacya NOUN
+Separacya PROPN
 . PUNCT
 
 Pani NOUN
 Julia PROPN
-secundo PROPN
-voto PROPN
+secundo NOUN
+voto X
 Szołayska PROPN
 lubiła VERB
-procesa PROPN
+procesa NOUN
 – PUNCT
 miała VERB
 ich PRON
@@ -3378,7 +3378,7 @@ tego PRON
 wywikłała VERB
 – PUNCT
 dokupiła VERB
-i CCONJ
+i PART
 do ADP
 Lesniowic PROPN
 przyległe ADJ
@@ -3407,8 +3407,8 @@ Ale CCONJ
 jak ADV
 się PRON
 dowiedział VERB
-móy PROPN
-Oyciec PROPN
+móy NOUN
+Oyciec NOUN
 , PUNCT
 że SCONJ
 w ADP
@@ -3418,7 +3418,7 @@ o ADP
 niego PRON
 i CCONJ
 o ADP
-Bludniki NOUN
+Bludniki PROPN
 służbę NOUN
 z ADP
 którą DET
@@ -3433,21 +3433,21 @@ niepokazał VERB
 
 Po ADP
 Matce NOUN
-wuy PROPN
+wuy NOUN
 Oyca PROPN
-Pieścioroski ADJ
+Pieścioroski PROPN
 właściciel NOUN
 wioski NOUN
 w ADP
 Sanockiem PROPN
 zaproponował VERB
 Mu PRON
-Pannę NOUN
+Pannę PROPN
 Franciszkę PROPN
 Ostaszewską PROPN
 córkę NOUN
 Chorążego NOUN
-Kawaleryi PROPN
+Kawaleryi NOUN
 Narodowey PROPN
 i CCONJ
 Dziedzica NOUN
@@ -3455,7 +3455,7 @@ Zarszyna PROPN
 z ADP
 Posadą PROPN
 i CCONJ
-Długiem NOUN
+Długiem PROPN
 i CCONJ
 Heleny PROPN
 ze ADP
@@ -3468,13 +3468,13 @@ się PRON
 Oycu PROPN
 . PUNCT
 
-Jakoż PART
+Jakoż SCONJ
 zaprezentował VERB
 Go PRON
 Państwu NOUN
-Ostaszewskim ADJ
+Ostaszewskim PROPN
 Pan NOUN
-Pieściorowski ADJ
+Pieściorowski PROPN
 – PUNCT
 Byłemu ADJ
 wojażerowi NOUN
@@ -3491,13 +3491,13 @@ Panna NOUN
 i CCONJ
 dom NOUN
 staropolski ADJ
-Jey VERB
+Jey PROPN
 Rodziców NOUN
 . PUNCT
 
 Zamiast ADP
-etykietalney NOUN
-pierwszey NOUN
+etykietalney ADJ
+pierwszey ADJ
 wizyty NOUN
 – PUNCT
 został AUX
@@ -3507,14 +3507,14 @@ dwa NUM
 tygodnie NOUN
 . PUNCT
 
-Veni PROPN
+Veni NOUN
 – PUNCT
-vidi PROPN
+vidi NOUN
 – PUNCT
-vici PROPN
+vici NOUN
 . PUNCT
 
-Niewiem NOUN
+Niewiem INTJ
 czy PART
 już PART
 za ADP
@@ -3543,8 +3543,8 @@ Pani NOUN
 dom NOUN
 odświeżono VERB
 malowidłem NOUN
-al X
-fresco X
+al NOUN
+fresco NOUN
 – PUNCT
 w ADP
 jednym ADJ
@@ -3555,18 +3555,17 @@ Bludnik PROPN
 i CCONJ
 okolicy NOUN
 – PUNCT
-Skała NOUN
+Skała VERB
 na ADP
-niey PROPN
+niey NOUN
 Sokołów PROPN
 wieś NOUN
-dołem PROPN
+dołem NOUN
 Łomnica PROPN
 – PUNCT
 widok NOUN
-Ś ADJ
-- PUNCT
-tegoStanisława NOUN
+Ś-tego PROPN
+Stanisława PROPN
 klasztoru NOUN
 koło ADP
 Halicza PROPN
@@ -3607,25 +3606,24 @@ miejscowego ADJ
 dworu NOUN
 a CCONJ
 przy ADP
-niey PROPN
+niey NOUN
 kaplica NOUN
-nayjświętszey ADJ
+nayjświętszey NOUN
 Panny NOUN
 Niepokalanego ADJ
 Poczęcia NOUN
 – PUNCT
-daley VERB
+daley ADJ
 jak SCONJ
 droga NOUN
 w ADP
 bok NOUN
 do ADP
 Halicza PROPN
-
 wiodła VERB
 – PUNCT
 kaplica NOUN
-Swiętego ADJ
+Swiętego PROPN
 Jana PROPN
 . PUNCT
 
@@ -3644,8 +3642,8 @@ dziś ADV
 nigdzie ADV
 się PRON
 z ADP
-czemś PROPN
-podobnem NOUN
+czemś PRON
+podobnem ADJ
 niespotkałem VERB
 nawet PART
 w ADP
@@ -3683,7 +3681,7 @@ okolica NOUN
 Z ADP
 dwóch NUM
 stron NOUN
-Łomnica NOUN
+Łomnica PROPN
 łamiąca ADJ
 się PRON
 w ADP
@@ -3723,7 +3721,7 @@ gwarem NOUN
 
 Łęgi NOUN
 na ADP
-Bludnickey ADJ
+Bludnickey PROPN
 stronie NOUN
 z ADP
 mnóstwem NOUN
@@ -3788,7 +3786,7 @@ gruszy NOUN
 – PUNCT
 plebania NOUN
 i CCONJ
-Cerkiew NOUN
+Cerkiew PROPN
 i CCONJ
 gospoda NOUN
 niedaleko ADV
@@ -3812,7 +3810,7 @@ wjeżdżasz VERB
 w ADP
 bramę NOUN
 po ADP
-prawey NOUN
+prawey ADJ
 ciągną VERB
 się PRON
 gumna ADJ
@@ -3828,7 +3826,7 @@ drogi NOUN
 ogród NOUN
 angielski ADJ
 przez ADP
-Taszera NOUN
+Taszera PROPN
 założony ADJ
 . PUNCT
 
@@ -3872,7 +3870,7 @@ o ADP
 łamanych ADJ
 dachach NOUN
 a CCONJ
-pośrodku ADP
+pośrodku ADV
 front NOUN
 domu NOUN
 z ADP
@@ -3902,7 +3900,7 @@ tego DET
 domu NOUN
 domurowanego ADJ
 w ADP
-tey PROPN
+tey NOUN
 proporcyi NOUN
 jak SCONJ
 środek NOUN
@@ -3932,7 +3930,7 @@ prawdopodobnie ADV
 . PUNCT
 p X
 . PUNCT
-Dziad NOUN
+Dziad PROPN
 murować VERB
 bo SCONJ
 i CCONJ
@@ -3958,7 +3956,7 @@ obszerny ADJ
 bawialny ADJ
 ciemno ADV
 szafirowy ADJ
-gładki NOUN
+gładki ADJ
 , PUNCT
 tylko CCONJ
 od ADP
@@ -3971,7 +3969,7 @@ koloru NOUN
 szale NOUN
 podtrzymywane ADJ
 orłami NOUN
-takoż ADV
+takoż PART
 bronzowemi ADJ
 meble NOUN
 czarne ADJ
@@ -4063,7 +4061,7 @@ wszystko PRON
 , PUNCT
 bo SCONJ
 pamiętam VERB
-jak ADV
+jak SCONJ
 mi PRON
 się PRON
 to PRON
@@ -4148,12 +4146,12 @@ kępy NOUN
 była AUX
 szeroka ADJ
 fosa NOUN
-zarosła ADJ
+zarosła VERB
 szuwarem NOUN
 i CCONJ
 trzciną NOUN
 – PUNCT
-widocznie PART
+widocznie ADV
 miejsce NOUN
 to DET
 było AUX
@@ -4199,7 +4197,7 @@ z ADP
 kamienia NOUN
 naturalnego ADJ
 bryłami NOUN
-nieciosanemi ADJ
+nieciosanemi NOUN
 ułożona ADJ
 i CCONJ
 sklepiona ADJ
@@ -4240,7 +4238,7 @@ wrażenie NOUN
 
 Ale CCONJ
 broda NOUN
-Swiętego NOUN
+Swiętego PROPN
 była AUX
 w ADP
 jednem ADJ
@@ -4254,7 +4252,7 @@ jakiegoś DET
 chłopca NOUN
 . PUNCT
 
-Jakoż PART
+Jakoż SCONJ
 pamiętam VERB
 o ADP
 tem PRON
@@ -4276,7 +4274,7 @@ miał VERB
 się PRON
 dopuścić VERB
 tey DET
-zuchwałey ADJ
+zuchwałey NOUN
 rozpusty NOUN
 . PUNCT
 
@@ -4303,7 +4301,7 @@ serca NOUN
 że SCONJ
 wpadł VERB
 w ADP
-malignę PROPN
+malignę NOUN
 i CCONJ
 w ADP
 kilka DET
@@ -4332,7 +4330,7 @@ zwodzony ADJ
 
 Dopiero PART
 Oyciec PROPN
-móy PROPN
+móy ADV
 go PRON
 murował VERB
 . PUNCT
@@ -4361,9 +4359,9 @@ cegły NOUN
 na ADP
 dole NOUN
 , PUNCT
-czy CCONJ
+czy PART
 któryś DET
-Treter NOUN
+Treter PROPN
 czy CCONJ
 Swieżaski PROPN
 wybrał VERB
@@ -4463,7 +4461,7 @@ mostem NOUN
 pieszo ADV
 i CCONJ
 tu ADV
-Lipy NOUN
+Lipy PROPN
 przy ADP
 ganku NOUN
 z ADP
@@ -4474,7 +4472,7 @@ ale CCONJ
 dokoła ADV
 staw NOUN
 i CCONJ
-czółno NOUN
+czółno ADV
 przyjemna ADJ
 rozrywka NOUN
 i CCONJ
@@ -4491,7 +4489,7 @@ chętnie ADV
 rozpowiadający ADJ
 o ADP
 pobycie NOUN
-swojim PROPN
+swojim ADJ
 na ADP
 Ukrainie PROPN
 na ADP
@@ -4505,7 +4503,7 @@ znaku NOUN
 pancernego ADJ
 Pana NOUN
 Krasickiego PROPN
-oczem PROPN
+oczem NOUN
 w ADP
 Mohorocie PROPN
 Wincenty PROPN
@@ -4524,8 +4522,8 @@ miła ADJ
 , PUNCT
 pełna ADJ
 dystynkcy NOUN
-obywatelskiey VERB
-Matrona NOUN
+obywatelskiey ADJ
+Matrona PROPN
 – PUNCT
 nadobna ADJ
 urocza ADJ
@@ -4538,9 +4536,9 @@ Ludwisia PROPN
 . PUNCT
 
 Dom NOUN
-był VERB
+był AUX
 w ADP
-całem PROPN
+całem ADJ
 Sanockiem PROPN
 we ADP
 wielkim ADJ
@@ -4549,7 +4547,7 @@ poszanowaniu NOUN
 tak PART
 z ADP
 powodu NOUN
-cnut PROPN
+cnut NOUN
 obywatelskich ADJ
 i CCONJ
 domowych ADJ
@@ -4557,7 +4555,7 @@ jako SCONJ
 też PART
 stanowiskiem NOUN
 sługa NOUN
-Reczy NOUN
+Reczy PROPN
 pospolitey ADJ
 i CCONJ
 majątkiem NOUN
@@ -4566,7 +4564,7 @@ gospodarstwem NOUN
 na ADP
 owe DET
 czasy NOUN
-wzorowem NOUN
+wzorowem ADJ
 . PUNCT
 
 Dom NOUN
@@ -4596,7 +4594,7 @@ by AUX
 bliżej ADV
 czy CCONJ
 dalej ADV
-niebył VERB
+niebył AUX
 skoligacony ADJ
 z ADP
 domem NOUN
@@ -4697,14 +4695,14 @@ prawnucząt NOUN
 
 Do ADP
 tego DET
-to DET
+to PART
 domu NOUN
 w ADP
 niedługim ADJ
 czasie NOUN
 przyjechał VERB
-móy PROPN
-Oyciec VERB
+móy NOUN
+Oyciec NOUN
 do ADP
 Swojey PROPN
 Frani PROPN
@@ -4718,8 +4716,8 @@ całe ADJ
 połączyć VERB
 . PUNCT
 
-Oyciec PROPN
-móy PROPN
+Oyciec NOUN
+móy NOUN
 wystąpił VERB
 z ADP
 całą ADJ
@@ -4746,7 +4744,7 @@ rosłych ADJ
 gniadych ADJ
 ze ADP
 stada NOUN
-Simiginowskiego ADJ
+Simiginowskiego PROPN
 wartości NOUN
 6000 NUM
 fl X
@@ -4778,12 +4776,12 @@ niesłychana ADJ
 – PUNCT
 Na ADP
 przodzie NOUN
-foryszyc VERB
+foryszyc NOUN
 – PUNCT
 na ADP
-koźle PROPN
+koźle NOUN
 wysokim ADJ
-stangret PROPN
+stangret NOUN
 – PUNCT
 za ADP
 powozem NOUN
@@ -4829,7 +4827,7 @@ Komornikostwa NOUN
 Kopestyńskich PROPN
 – PUNCT
 Ona PRON
-Karsznicka ADJ
+Karsznicka PROPN
 z ADP
 domu NOUN
 . PUNCT
@@ -4906,7 +4904,7 @@ a CCONJ
 z ADP
 niemi NOUN
 nieodzownie ADV
-troski NOUN
+troski VERB
 obawy NOUN
 i CCONJ
 kłopoty NOUN
@@ -4948,7 +4946,7 @@ małem ADJ
 dzieckiem NOUN
 – PUNCT
 po ADP
-niey PROPN
+niey NOUN
 przyszedł VERB
 Marceli PROPN
 , PUNCT
@@ -4971,7 +4969,7 @@ drugi ADJ
 Marceli PROPN
 trzymany ADJ
 do ADP
-Chrztu NOUN
+Chrztu PROPN
 Świętego ADJ
 przez ADP
 mieyscowych ADJ
@@ -5000,20 +4998,20 @@ Ludwik PROPN
 . PUNCT
 
 Ale CCONJ
-nietylko PART
+nietylko ADV
 niepowodzenie NOUN
 z ADP
-troygiem PROPN
+troygiem NOUN
 naystarszych ADJ
 dziećmi NOUN
-pomarłemi PROPN
+pomarłemi ADJ
 okrywały VERB
 żałobą NOUN
 serca NOUN
 moich DET
 Rodziców NOUN
 – PUNCT
-były AUX
+były VERB
 też PART
 klęski NOUN
 gospodarskie ADJ
@@ -5022,10 +5020,10 @@ gospodarskie ADJ
 Wkrótce ADV
 po ADP
 ożenieniu NOUN
-pono PART
-1815 PROPN
+pono ADP
+1815 ADJ
 wyjechał VERB
-Oyciec VERB
+Oyciec PROPN
 konno ADV
 rano ADV
 wśród ADP
@@ -5040,7 +5038,7 @@ słońce NOUN
 aż PART
 tu ADV
 naraz ADV
-przyszła VERB
+przyszła ADJ
 woda NOUN
 na ADP
 Łomnicy PROPN
@@ -5065,18 +5063,18 @@ stron NOUN
 a CCONJ
 z ADP
 trzeciey ADJ
-Dniestr NOUN
-sparty PROPN
+Dniestr PROPN
+sparty ADJ
 napływem NOUN
 wody NOUN
 Łomnickiey PROPN
 że SCONJ
-nim PRON
-Oyciec VERB
+nim SCONJ
+Oyciec PROPN
 się PRON
 spostrzegł VERB
 już PART
-był AUX
+był VERB
 we ADP
 wodzie NOUN
 i CCONJ
@@ -5120,7 +5118,7 @@ i CCONJ
 znaczną ADJ
 część NOUN
 inwentarza NOUN
-szkoda VERB
+szkoda NOUN
 na ADP
 20000 NUM
 fl X
@@ -5129,7 +5127,7 @@ W ADP
 zł X
 . PUNCT
 na ADP
-teraźnieysze ADJ
+teraźnieysze NOUN
 pieniądze NOUN
 8000 NUM
 fl X
@@ -5139,7 +5137,7 @@ jak SCONJ
 na ADP
 owe DET
 czasy NOUN
-summa PROPN
+summa NOUN
 znaczna ADJ
 bo SCONJ
 piątą ADJ
@@ -5183,7 +5181,7 @@ chłopcy NOUN
 mieli VERB
 śmy AUX
 nauczyciela NOUN
-Zórawskiego ADJ
+Zórawskiego PROPN
 Wincentego PROPN
 i CCONJ
 z ADP
@@ -5193,7 +5191,7 @@ zdawali VERB
 Marceli PROPN
 i CCONJ
 ja PRON
-egzamina NOUN
+egzamina VERB
 w ADP
 Stanisławowie PROPN
 – PUNCT
@@ -5206,7 +5204,7 @@ do ADP
 szkół NOUN
 publicznych ADJ
 na ADP
-stancyę PROPN
+stancyę NOUN
 do ADP
 profesora NOUN
 Leśniewicza PROPN
@@ -5220,7 +5218,7 @@ domu NOUN
 , PUNCT
 Stamisaw PROPN
 urodzony ADJ
-825 X
+825 ADJ
 był AUX
 jeszcze PART
 mały ADJ
@@ -5243,7 +5241,7 @@ ciągle ADV
 chorował VERB
 – PUNCT
 febra NOUN
-mię NOUN
+mię PRON
 męczyła VERB
 kilka DET
 lat NOUN
@@ -5258,8 +5256,8 @@ Już PART
 to PART
 od ADP
 urodzenia NOUN
-to PRON
-jest VERB
+to PART
+jest AUX
 od ADP
 28 ADJ
 lipca NOUN
@@ -5289,14 +5287,15 @@ była AUX
 wielka ADJ
 , PUNCT
 raz NOUN
-zatrętwiałem VERB
+zatrętwiał VERB
+em AUX
 tak ADV
 , PUNCT
 że SCONJ
-miano NOUN
+miano VERB
 mnie PRON
 już PART
-za PART
+za ADP
 nieżywego ADJ
 – PUNCT
 wpadł VERB
@@ -5309,9 +5308,9 @@ opowiadała VERB
 mi PRON
 moja DET
 piastunka NOUN
-że ADP
-mię NOUN
-kompano NOUN
+że SCONJ
+mię PRON
+kompano VERB
 w ADP
 suczonych ADJ
 pierogach NOUN
@@ -5327,7 +5326,7 @@ i CCONJ
 zjadał VERB
 – PUNCT
 powoli ADV
-odchuchano ADV
+odchuchano VERB
 mię PRON
 – PUNCT
 została VERB
@@ -5340,7 +5339,7 @@ i CCONJ
 tempy ADJ
 słuch NOUN
 – PUNCT
-dużo ADV
+dużo DET
 się PRON
 namozolili VERB
 Żórawski PROPN
@@ -5359,9 +5358,9 @@ Ale CCONJ
 zawsze ADV
 był AUX
 em AUX
-szczupleyszey PROPN
+szczupleyszey ADJ
 i CCONJ
-delkatnieyszey PROPN
+delkatnieyszey VERB
 kompleksyi NOUN
 od ADP
 moich DET
@@ -5410,7 +5409,7 @@ czyste ADJ
 i CCONJ
 ogromne ADJ
 jak SCONJ
-kupsze ADJ
+kupsze NOUN
 . PUNCT
 
 Biało ADV
@@ -5432,7 +5431,7 @@ na ADP
 głowie NOUN
 jakaś DET
 jak SCONJ
-zawoy ADJ
+zawoy VERB
 turecki ADJ
 wzorzysta NOUN
 . PUNCT
@@ -5460,16 +5459,16 @@ druga ADJ
 po ADP
 prawej ADJ
 od ADP
-tey NOUN
+tey DET
 która DET
 prowadzi VERB
 od ADP
 rynku NOUN
 do ADP
-Gubernium PROPN
+Gubernium NOUN
 – PUNCT
 w ADP
-teme PROPN
+teme NOUN
 słyszę VERB
 za ADP
 sobą PRON
@@ -5482,7 +5481,7 @@ Julciu PROPN
 
 Oglądam VERB
 się PRON
-niekontent NOUN
+niekontent ADV
 że SCONJ
 mię PRON
 tak ADV
@@ -5508,7 +5507,7 @@ stoliku NOUN
 a CCONJ
 na ADP
 nim PRON
-dukaty NOUN
+dukaty ADJ
 talary NOUN
 cwancygiery NOUN
 . PUNCT
@@ -5521,24 +5520,24 @@ na ADP
 których DET
 było VERB
 30 NUM
-x NOUN
+x X
 i CCONJ
 15 NUM
-a NOUN
+a X
 - PUNCT
 w ADP
 rzeczywistości NOUN
 były VERB
 6 NUM
-x NOUN
+x X
 i CCONJ
 3 NUM
-x NOUN
+x X
 – PUNCT
 pamiątka NOUN
 po ADP
 redukcyi NOUN
-pono ADP
+pono X
 1811 X
 . PUNCT
 
@@ -5547,7 +5546,7 @@ A PART
 niepoznajesz VERB
 mię PRON
 , PUNCT
-taże DET
+taże SCONJ
 ja PRON
 cię PRON
 moją DET
@@ -5560,7 +5559,7 @@ choć SCONJ
 się PRON
 oglądał VERB
 em AUX
-czy PART
+czy CCONJ
 mię PRON
 kto PRON
 niewidzi VERB
@@ -5583,7 +5582,7 @@ takich DET
 wekslarek NOUN
 , PUNCT
 które DET
-za ADP
+za PART
 mały ADJ
 procent NOUN
 mieniały VERB
@@ -5606,16 +5605,16 @@ włosów NOUN
 kobiecina NOUN
 zdrowa ADJ
 o ADP
-roumianey PROPN
+roumianey NOUN
 owalney ADJ
 twarzy NOUN
 cery NOUN
-śniadey PROPN
+śniadey NOUN
 . PUNCT
 
-Była VERB
+Była AUX
 . PUNCT
-przystoyna NOUN
+przystoyna ADJ
 usposobienia NOUN
 towarzyskiego ADJ
 jednająca ADJ
@@ -5635,14 +5634,14 @@ lat NOUN
 po ADP
 śmierci NOUN
 matki NOUN
-mojey PROPN
+mojey DET
 spotkał VERB
 em AUX
 się PRON
 w ADP
 Janowie PROPN
 na ADP
-popasie PROPN
+popasie NOUN
 z ADP
 Panem NOUN
 Józefem PROPN
@@ -5699,7 +5698,7 @@ Rodzice NOUN
 mieli VERB
 wielkie ADJ
 zachowanie NOUN
-nietylko PART
+nietylko ADV
 w ADP
 sąsiedztwie NOUN
 ale CCONJ
@@ -5724,7 +5723,7 @@ z ADP
 Babina PROPN
 – PUNCT
 ale CCONJ
-nietyle PART
+nietyle ADV
 z ADP
 Panem NOUN
 Julianem PROPN
@@ -5738,13 +5737,13 @@ Różą PROPN
 z ADP
 Czarnomskich PROPN
 Golejowską PROPN
-były VERB
+były AUX
 w ADP
 naywiększey NOUN
 przyjaźni NOUN
 – PUNCT
 którą DET
-i PART
+i CCONJ
 dla ADP
 nas PRON
 do ADP
@@ -5773,17 +5772,17 @@ Marcelego PROPN
 Emil PROPN
 po ADP
 Ciotce NOUN
-swojey NOUN
+swojey PROPN
 Pani NOUN
 Bienkowskey PROPN
 oddziedziczył VERB
-Studziankę NOUN
+Studziankę PROPN
 – PUNCT
 w ADP
 sąsiedztwie NOUN
 Babina PROPN
 – PUNCT
-był VERB
+był AUX
 jakiś DET
 szkrofuliczny ADJ
 – PUNCT
@@ -5792,14 +5791,14 @@ późniey ADJ
 bezżenny ADJ
 zostawiając VERB
 majątek NOUN
-swóy PROPN
+swóy NOUN
 Antoniemu PROPN
 . PUNCT
 
 Antoni PROPN
 , PUNCT
 ale CCONJ
-i CCONJ
+i PART
 Emil PROPN
 były AUX
 to AUX
@@ -5841,7 +5840,7 @@ obadwa NOUN
 że SCONJ
 o ADP
 mało ADV
-nieprzyszło VERB
+nieprzyszło ADV
 do ADP
 exkluzyi NOUN
 z ADP
@@ -5872,7 +5871,7 @@ i PART
 konkurent NOUN
 do ADP
 wdowy NOUN
-Pan NOUN
+Pan PROPN
 Jan PROPN
 Golejowski PROPN
 z ADP
@@ -5881,7 +5880,7 @@ w ADP
 Czortkowskim PROPN
 , PUNCT
 brat NOUN
-pono PART
+pono ADJ
 stryjeczny ADJ
 nieboszczyka NOUN
 i CCONJ
@@ -5969,8 +5968,8 @@ stryju NOUN
 Chlebów NOUN
 poszła VERB
 za ADP
-Szczęsnego ADJ
-Koziobrodzkiego ADJ
+Szczęsnego PROPN
+Koziobrodzkiego PROPN
 . PUNCT
 
 Oboje NUM
@@ -5982,7 +5981,7 @@ dzień NOUN
 
 Pan NOUN
 Jan PROPN
-poczciwości VERB
+poczciwości ADJ
 człowiek NOUN
 – PUNCT
 kochał VERB
@@ -6056,7 +6055,7 @@ młodo ADV
 trzecia ADJ
 Marynia PROPN
 milutka ADJ
-powiena PROPN
+powiena ADJ
 – PUNCT
 wyszła VERB
 za ADP
@@ -6064,7 +6063,7 @@ Rozwadowskiego PROPN
 . PUNCT
 
 Pan NOUN
-Szypowski ADJ
+Szypowski PROPN
 koniaż NOUN
 zawsze ADV
 w ADP
@@ -6098,16 +6097,16 @@ niecenione ADJ
 – PUNCT
 w ADP
 Martynowie PROPN
-pono PROPN
+pono PUNCT
 Janiccy PROPN
 – PUNCT
 ale CCONJ
 ci DET
-jakoteż ADV
+jakoteż NOUN
 z ADP
 drugiego ADJ
 Martynowa PROPN
-Rudzcy NOUN
+Rudzcy PROPN
 u ADP
 których DET
 nauczycielką NOUN
@@ -6128,10 +6127,10 @@ Do ADP
 rzadszych ADJ
 odwiedzin NOUN
 należał VERB
-Woyniłów PROPN
+Woyniłów NOUN
 Kopystyńskich PROPN
 , PUNCT
-Żelibory PROPN
+Żelibory NOUN
 Kunaszowskich PROPN
 gdzie ADV
 były VERB
@@ -6195,8 +6194,8 @@ prużnował VERB
 – PUNCT
 Widząc VERB
 to PRON
-móy VERB
-Oyciec VERB
+móy NOUN
+Oyciec NOUN
 zgorszony ADJ
 Panem NOUN
 Władysławem PROPN
@@ -6241,7 +6240,7 @@ chwilę NOUN
 trafiło VERB
 to DET
 przemówienie NOUN
-mojeg PROPN
+mojeg NOUN
 Oyca PROPN
 – PUNCT
 Może PART
@@ -6315,7 +6314,7 @@ Sałacki PROPN
 , PUNCT
 który DET
 miał VERB
-nayznacznieyszą ADP
+nayznacznieyszą ADJ
 część NOUN
 Tomaszowic PROPN
 kollokacyi NOUN
@@ -6329,7 +6328,7 @@ kawaler NOUN
 zasiedziały ADJ
 domator NOUN
 , PUNCT
-zżadka PROPN
+zżadka NOUN
 bywał VERB
 u ADP
 moich DET
@@ -6341,7 +6340,7 @@ Woyniłowskich ADJ
 jarmarków NOUN
 sławnych ADJ
 na ADP
-woły PROPN
+woły NOUN
 – PUNCT
 osobliwie ADV
 na ADP
@@ -6360,7 +6359,7 @@ zjeżdżali VERB
 w ADP
 Bodzowcu PROPN
 byli AUX
-Babiccy ADJ
+Babiccy PROPN
 przypominam VERB
 sobie PRON
 z ADP
@@ -6409,7 +6408,7 @@ Pana NOUN
 Krzeczunowicza PROPN
 dla ADP
 samych ADJ
-ormian PROPN
+ormian NOUN
 . PUNCT
 
 Te DET
@@ -6425,7 +6424,7 @@ siebie PRON
 matka NOUN
 je PRON
 rozpoznać VERB
-niemogła VERB
+niemogła ADV
 i CCONJ
 przypinała VERB
 im PRON
@@ -6445,7 +6444,7 @@ było AUX
 z ADP
 gośćmi NOUN
 a CCONJ
-najzabawney ADJ
+najzabawney PROPN
 z ADP
 konkurentem NOUN
 – PUNCT
@@ -6458,7 +6457,7 @@ zostawała VERB
 u ADP
 siebie PRON
 druga ADJ
-bawiła NOUN
+bawiła VERB
 gości NOUN
 wybiegała VERB
 i CCONJ
@@ -6471,7 +6470,7 @@ kontynuując VERB
 dyskurs NOUN
 z ADP
 tamtą DET
-zaczęty NOUN
+zaczęty ADJ
 . PUNCT
 
 Ale CCONJ
@@ -6496,7 +6495,7 @@ się PRON
 tu ADV
 oświadczać VERB
 kiedy ADV
-niewie AUX
+niewie VERB
 która DET
 to PART
 ma VERB
@@ -6517,7 +6516,7 @@ konkurenta NOUN
 Władysław PROPN
 brat NOUN
 tych DET
-Pań NOUN
+Pań PROPN
 mówi VERB
 raz NOUN
 – PUNCT
@@ -6556,7 +6555,7 @@ wyleciał VERB
 Będzie VERB
 temu ADP
 lat NOUN
-ze ADP
+ze PART
 dwadzieścia NUM
 jak SCONJ
 zjechał VERB
@@ -6581,23 +6580,23 @@ roku NOUN
 1831 ADJ
 ozdobionego ADJ
 krzyżem NOUN
-Virtuti NOUN
-Militari NOUN
+Virtuti PROPN
+Militari PROPN
 a CCONJ
 siostra NOUN
 Rzeźbiarza NOUN
 ) PUNCT
 Siedziały VERB
-obedwie NOUN
+obedwie ADV
 razem ADV
 na ADP
 ławie NOUN
 w ADP
 ogrodzie NOUN
 koło ADP
-jedney NOUN
+jedney ADJ
 siadł VERB
-móy NOUN
+móy ADJ
 brat NOUN
 Stanisław PROPN
 a CCONJ
@@ -6634,7 +6633,7 @@ ale CCONJ
 ruchy NOUN
 rąk NOUN
 i CCONJ
-całey NOUN
+całey ADJ
 osoby NOUN
 były AUX
 jakby PART
@@ -6655,11 +6654,11 @@ Naybliższe ADJ
 nasze DET
 sąsiedztwo NOUN
 był AUX
-Ostrów PROPN
+Ostrów ADJ
 siedziba NOUN
 Państwa NOUN
 Ludwików PROPN
-Rylskich PROPN
+Rylskich ADJ
 Pani NOUN
 Ludwikowa PROPN
 Siekierzyńska PROPN
@@ -6681,7 +6680,7 @@ weszło VERB
 ostatni ADJ
 z ADP
 domu NOUN
-Siekierzyńskich ADJ
+Siekierzyńskich PROPN
 – PUNCT
 jeżeli SCONJ
 kto PRON
@@ -6760,7 +6759,7 @@ córkę NOUN
 Henryk PROPN
 osiadł VERB
 na ADP
-Dłużniowie NOUN
+Dłużniowie PROPN
 w ADP
 Bełzkiem PROPN
 , PUNCT
@@ -6770,8 +6769,8 @@ Ostrowie PROPN
 ożenił VERB
 się PRON
 z ADP
-Panną NOUN
-Hoszowską ADJ
+Panną PROPN
+Hoszowską PROPN
 – PUNCT
 a CCONJ
 córka NOUN
@@ -6786,7 +6785,7 @@ Horodzyńskiego PROPN
 przesiedliła VERB
 się PRON
 do ADP
-Pielni NOUN
+Pielni PROPN
 w ADP
 Sanockiem PROPN
 . PUNCT
@@ -6807,7 +6806,7 @@ kapitały NOUN
 – PUNCT
 wreszcie PART
 przed ADP
-piętnastulaty NOUN
+piętnastulaty NUM
 i CCONJ
 Matka NOUN
 odumarła VERB
@@ -6857,7 +6856,7 @@ objął VERB
 Eustachy PROPN
 w ADP
 spadku NOUN
-Dłużniów NOUN
+Dłużniów PROPN
 , PUNCT
 otóż PART
 syn NOUN
@@ -6865,9 +6864,9 @@ jego PRON
 z ADP
 obywatelską ADJ
 młodzieżą NOUN
-Obertyńskim ADJ
+Obertyńskim PROPN
 , PUNCT
-Szamanowskim ADJ
+Szamanowskim PROPN
 i CCONJ
 Rozwadowskim PROPN
 jechali VERB
@@ -6880,12 +6879,12 @@ spotykają VERB
 cygankę NOUN
 . PUNCT
 
-Stoy PROPN
+Stoy INTJ
 , PUNCT
-stoy PROPN
+stoy INTJ
 ! PUNCT
 Wołają VERB
-wywruż VERB
+wywruż ADV
 nam PRON
 dostaniesz VERB
 jałmużnę NOUN
@@ -6907,7 +6906,7 @@ lat NOUN
 z ADP
 was PRON
 żyć VERB
-niebędzie PART
+niebędzie VERB
 . PUNCT
 
 Żartowano VERB
@@ -6979,18 +6978,18 @@ zawołany ADJ
 – PUNCT
 żonaty ADJ
 z ADP
-Janicką ADJ
+Janicką PROPN
 osobą NOUN
 cichą ADJ
 apatyczną ADJ
 także PART
 niegospodarną ADJ
 dzieci NOUN
-było VERB
+było AUX
 dużo DET
 , PUNCT
 ale CCONJ
-naywięcej ADP
+naywięcej ADV
 córek NOUN
 – PUNCT
 jedna ADJ
@@ -7000,7 +6999,7 @@ wyszła VERB
 za ADP
 Alfonsa PROPN
 Dziduszyckiego PROPN
-oryginała PROPN
+oryginała NOUN
 – PUNCT
 druga ADJ
 za ADP
@@ -7031,11 +7030,11 @@ obruciły VERB
 – PUNCT
 wiem VERB
 że SCONJ
-naystarsza PROPN
-była VERB
+naystarsza ADJ
+była AUX
 przy ADP
-starey PROPN
-Pannie NOUN
+starey NOUN
+Pannie PROPN
 Puzyniance PROPN
 we ADP
 Lwowie PROPN
@@ -7067,23 +7066,23 @@ i CCONJ
 Damazy PROPN
 – PUNCT
 rówieśnik NOUN
-mojey ADJ
+mojey DET
 siostry NOUN
 i CCONJ
 kolega NOUN
-móy PROPN
+móy NOUN
 szkolny ADJ
 – PUNCT
 towarzysz NOUN
 lat NOUN
 młodzieńczych ADJ
 – PUNCT
-Oyciec PROPN
+Oyciec NOUN
 jego PRON
 był AUX
 moim DET
 chrzestnym ADJ
-Oycem PROPN
+Oycem NOUN
 a CCONJ
 gdy ADV
 m AUX
@@ -7114,7 +7113,7 @@ jego PRON
 
 Mieszkał VERB
 w ADP
-Perekozach NOUN
+Perekozach PROPN
 majątku NOUN
 zapisanym ADJ
 mu PRON
@@ -7156,7 +7155,7 @@ Ród NOUN
 Kunaszowskich PROPN
 starodawny ADJ
 zasłużony ADJ
-Oyczyźnie ADV
+Oyczyźnie PROPN
 – PUNCT
 Dziad NOUN
 Pana NOUN
@@ -7169,7 +7168,7 @@ Wiedniem PROPN
 ale CCONJ
 , PUNCT
 i CCONJ
-pierwey PROPN
+pierwey ADV
 i CCONJ
 po ADP
 nim PRON
@@ -7199,7 +7198,7 @@ obszernego ADJ
 
 Było VERB
 tam ADV
-z ADP
+z PART
 dziewięć NUM
 albo CCONJ
 i PART
@@ -7217,13 +7216,13 @@ karmazynach NOUN
 albo CCONJ
 w ADP
 stali NOUN
-okuci NOUN
+okuci ADJ
 a CCONJ
 przy ADP
 każdym DET
 portrecie NOUN
 albo CCONJ
-karabela PROPN
+karabela NOUN
 albo CCONJ
 cała ADJ
 zbroja NOUN
@@ -7243,7 +7242,7 @@ z ADP
 tak ADV
 pięknemi ADJ
 pamiątkami NOUN
-familiinemi NOUN
+familiinemi ADJ
 . PUNCT
 
 Nieopatrzne ADJ
@@ -7253,7 +7252,7 @@ z ADP
 lekkomyślnością NOUN
 graniczące ADJ
 wyrzuciło VERB
-Dziedzica NOUN
+Dziedzica PROPN
 za ADP
 życia NOUN
 jeszcze PART
@@ -7266,7 +7265,7 @@ i CCONJ
 zbroje NOUN
 zakupił VERB
 jakiś DET
-niemiec PROPN
+niemiec NOUN
 i CCONJ
 potaszczył VERB
 do ADP
@@ -7277,14 +7276,14 @@ Na ADP
 stare ADJ
 lata NOUN
 osiadł VERB
-Pan NOUN
+Pan PROPN
 Wiktor PROPN
 na ADP
 części NOUN
 Tomaszowic PROPN
 należącey ADJ
 wraz ADV
-Perkozami NOUN
+Perkozami PROPN
 do ADP
 Damazego PROPN
 . PUNCT
@@ -7341,19 +7340,19 @@ Dobrodzieja NOUN
 Raz NOUN
 śni VERB
 się PRON
-jey PROPN
+jey NOUN
 , PUNCT
 że SCONJ
 nieboszczyk NOUN
 Pan NOUN
 przychodzi VERB
 do ADP
-niey PROPN
+niey NOUN
 i CCONJ
 żąda VERB
 – PUNCT
 żeby SCONJ
-Paniczowi NOUN
+Paniczowi PROPN
 powiedziała VERB
 , PUNCT
 żeby SCONJ
@@ -7423,15 +7422,15 @@ natarczywie ADV
 upomina VERB
 się PRON
 o ADP
-Mszę NOUN
-Swiętą ADJ
+Mszę PROPN
+Swiętą PROPN
 – PUNCT
 a CCONJ
 na ADP
 znak NOUN
 – PUNCT
 żeby SCONJ
-jey PROPN
+jey SCONJ
 wierzono VERB
 , PUNCT
 uderza VERB
@@ -7453,8 +7452,8 @@ prawdy NOUN
 i CCONJ
 dodaje VERB
 – PUNCT
-niechay PART
-świec NOUN
+niechay SCONJ
+świec VERB
 przy ADP
 ołtarzu NOUN
 niezapalają VERB
@@ -7556,7 +7555,7 @@ Leboskich PROPN
 Między ADP
 wielu DET
 gośćmi NOUN
-był AUX
+był VERB
 Pan NOUN
 Zub PROPN
 . PUNCT
@@ -7572,11 +7571,11 @@ sobie PRON
 przypominam VERB
 niewielkiego ADJ
 wzrostu NOUN
-krępy NOUN
+krępy ADJ
 o ADP
 dużey ADJ
 twarzy NOUN
-dziubaty ADJ
+dziubaty NOUN
 i CCONJ
 ogolony ADJ
 . PUNCT
@@ -7603,7 +7602,7 @@ po ADP
 objedzie NOUN
 w ADP
 ogrodzie NOUN
-Pan NOUN
+Pan PROPN
 Zub PROPN
 oddalił VERB
 się PRON
@@ -7620,7 +7619,7 @@ się PRON
 tam ADV
 przed ADP
 skwarem NOUN
-słońca PROPN
+słońca NOUN
 skryło VERB
 . PUNCT
 
@@ -7658,7 +7657,7 @@ czerwoną ADJ
 ale CCONJ
 tego PRON
 tylko PART
-było AUX
+było VERB
 potrzeba NOUN
 – PUNCT
 rzuciły VERB
@@ -7684,7 +7683,7 @@ plackiem NOUN
 na ADP
 ziemię NOUN
 – PUNCT
-niepomogło ADV
+niepomogło VERB
 oganianie VERB
 się PRON
 protestowanie NOUN
@@ -7699,7 +7698,7 @@ się PRON
 do ADP
 skury NOUN
 i CCONJ
-drapią NOUN
+drapią VERB
 i CCONJ
 dziobią VERB
 – PUNCT
@@ -7760,14 +7759,14 @@ po ADP
 tygodniu NOUN
 . PUNCT
 
-Niewiem NOUN
+Niewiem INTJ
 jak ADV
 starszey ADJ
 było AUX
 na ADP
 imię NOUN
 , PUNCT
-pono PART
+pono SCONJ
 Pelagia PROPN
 , PUNCT
 ale CCONJ
@@ -7796,7 +7795,7 @@ koło ADP
 Stanisławowa PROPN
 Pani NOUN
 Rafałoska PROPN
-pono PART
+pono PUNCT
 bezdzietna ADJ
 wdowa NOUN
 we ADP
@@ -7808,7 +7807,7 @@ Rodziców NOUN
 moich DET
 , PUNCT
 Sopohów PROPN
-pono PART
+pono PUNCT
 Michałoskich PROPN
 dom NOUN
 pamiętam VERB
@@ -7856,8 +7855,8 @@ siarką NOUN
 i CCONJ
 czerwone ADJ
 główki NOUN
-jak CCONJ
-i CCONJ
+jak SCONJ
+i PART
 po ADP
 dziś NOUN
 dzień NOUN
@@ -7878,7 +7877,7 @@ fosforem NOUN
 
 Ale CCONJ
 zwykle ADV
-cięto ADV
+cięto VERB
 trójgraniaste ADJ
 papierki NOUN
 , PUNCT
@@ -7920,7 +7919,7 @@ hubki NOUN
 Przez ADP
 stosunki NOUN
 z ADP
-Golejowskiemi PROPN
+Golejowskiemi ADJ
 zawiązała VERB
 się PRON
 znajomość NOUN
@@ -7941,7 +7940,7 @@ pokrewieństwem NOUN
 . PUNCT
 
 Państwo NOUN
-Przebysławscy ADJ
+Przebysławscy PROPN
 mieszkali VERB
 w ADP
 Dźurkowie PROPN
@@ -7967,7 +7966,7 @@ Helenką PROPN
 która DET
 poszła VERB
 za ADP
-Kuzyna NOUN
+Kuzyna PROPN
 swojego DET
 Antoniego PROPN
 Golejowskiego PROPN
@@ -8018,7 +8017,7 @@ we ADP
 Woyniłowie PROPN
 Sadogurze PROPN
 , PUNCT
-Ułaszkowcach NOUN
+Ułaszkowcach PROPN
 i CCONJ
 albo CCONJ
 je PRON
@@ -8100,14 +8099,14 @@ kretesem NOUN
 a CCONJ
 był VERB
 Babin PROPN
-Studzianka NOUN
+Studzianka PROPN
 Dołputów PROPN
 i CCONJ
-Harasymów NOUN
+Harasymów PROPN
 – PUNCT
 Na ADP
 starość NOUN
-całem NOUN
+całem ADJ
 utrzymaniem NOUN
 Państwa NOUN
 Antoniów PROPN
@@ -8150,7 +8149,7 @@ wesoły ADJ
 w ADP
 towarzystwie NOUN
 i CCONJ
-to PRON
+to PART
 mu PRON
 jednało VERB
 wzięcie NOUN
@@ -8165,7 +8164,7 @@ posłem NOUN
 wybierano VERB
 – PUNCT
 do ADP
-piura PROPN
+piura NOUN
 niebył VERB
 tęgi ADJ
 – PUNCT
@@ -8179,14 +8178,14 @@ ale CCONJ
 rozum NOUN
 macierzysty ADJ
 – PUNCT
-czy CCONJ
+czy PART
 jak ADV
 go PRON
 nazywają VERB
 chłopski ADJ
 doskonały ADJ
 – PUNCT
-przytem PROPN
+przytem ADV
 sprytny ADJ
 przytomny ADJ
 i CCONJ
@@ -8201,8 +8200,8 @@ osobistością NOUN
 a CCONJ
 przy ADP
 tem PRON
-dużo DET
-cywilney NOUN
+dużo ADV
+cywilney ADJ
 odwagi NOUN
 a CCONJ
 cięty ADJ
@@ -8251,7 +8250,7 @@ rozeszli VERB
 Humorystyczny ADJ
 kalendarz NOUN
 „ PUNCT
-Szczutka PROPN
+Szczutka NOUN
 ” PUNCT
 przedstawiający ADJ
 ze ADP
@@ -8285,8 +8284,8 @@ Zakończył VERB
 jako SCONJ
 poseł NOUN
 na ADP
-Seym PROPN
-Krajowy PROPN
+Seym NOUN
+Krajowy ADJ
 i CCONJ
 Dyrektor NOUN
 
@@ -8296,7 +8295,7 @@ Aleksandra PROPN
 żyje VERB
 z ADP
 mężem NOUN
-Koziebrodzkim ADJ
+Koziebrodzkim PROPN
 w ADP
 Chlebowie PROPN
 , PUNCT
@@ -8348,7 +8347,7 @@ z ADP
 Wysuczki PROPN
 . PUNCT
 
-Obadwa VERB
+Obadwa NOUN
 Ci DET
 bracie NOUN
 byli VERB
@@ -8358,7 +8357,7 @@ powstaniu NOUN
 roku NOUN
 . PUNCT
 
-Blizcey ADV
+Blizcey PROPN
 sąsiedzi NOUN
 a CCONJ
 może PART
@@ -8367,7 +8366,7 @@ powinowaci NOUN
 z ADP
 Golejowskimi PROPN
 w ADP
-Gwoźdzu NOUN
+Gwoźdzu PROPN
 byli AUX
 Puzynowie PROPN
 ( PUNCT
@@ -8414,7 +8413,7 @@ ożenił VERB
 się PRON
 później ADV
 z ADP
-Kuzyną NOUN
+Kuzyną PROPN
 naszą DET
 Jenerałówną PROPN
 Drewnicką PROPN
@@ -8428,7 +8427,7 @@ Galecyi PROPN
 , PUNCT
 Pani NOUN
 Jenerałowa PROPN
-Rożniecka NOUN
+Rożniecka PROPN
 z ADP
 domu NOUN
 z ADP
@@ -8450,7 +8449,7 @@ Jenerał PROPN
 oparł VERB
 się PRON
 o ADP
-Sanockie ADJ
+Sanockie PROPN
 u ADP
 familii NOUN
 . PUNCT
@@ -8461,7 +8460,7 @@ Drewnicki PROPN
 ze ADP
 Załęskiey PROPN
 urodzony ADJ
-a CCONJ
+a PART
 banka NOUN
 moja DET
 Pani NOUN
@@ -8482,7 +8481,7 @@ Matki NOUN
 . PUNCT
 
 Pamiętam VERB
-będąc VERB
+będąc AUX
 w ADP
 Stanisławowie PROPN
 w ADP
@@ -8505,7 +8504,7 @@ wkońcu ADV
 pod ADP
 asystencyą NOUN
 austryackiego ADJ
-woyska PROPN
+woyska NOUN
 nasi DET
 bezbronni ADJ
 bohaterowie NOUN
@@ -8515,8 +8514,8 @@ Ostrołęki PROPN
 i CCONJ
 Grochowa PROPN
 – PUNCT
-wynędzniali ADJ
-czarni ADJ
+wynędzniali VERB
+czarni NOUN
 od ADP
 spieki NOUN
 prochu NOUN
@@ -8531,7 +8530,7 @@ zuchwało ADV
 – PUNCT
 
 Boże PROPN
-móy PROPN
+móy INTJ
 Boże PROPN
 ! PUNCT
 
@@ -8558,7 +8557,7 @@ bagnety NOUN
 – PUNCT
 i CCONJ
 z ADP
-uwolnionymi NOUN
+uwolnionymi ADJ
 porwać VERB
 się PRON
 na ADP
@@ -8619,7 +8618,7 @@ się PRON
 to PART
 Oyca NOUN
 mojego DET
-zbuje VERB
+zbuje NOUN
 napadli VERB
 , PUNCT
 a CCONJ
@@ -8636,7 +8635,7 @@ pytał VERB
 em AUX
 Oyca PROPN
 czy PART
-to AUX
+to PRON
 było AUX
 prawdą NOUN
 – PUNCT
@@ -8653,7 +8652,7 @@ sen NOUN
 
 Obudziła VERB
 się PRON
-Galicya NOUN
+Galicya PROPN
 z ADP
 letargu NOUN
 , PUNCT
@@ -8661,7 +8660,7 @@ napływ NOUN
 emigracyi NOUN
 ogromny ADJ
 – PUNCT
-niebyło VERB
+niebyło NOUN
 domu NOUN
 obywatelskiego ADJ
 bez ADP
@@ -8723,8 +8722,8 @@ polskim ADJ
 Do ADP
 komitetu NOUN
 należał VERB
-móy PROPN
-Ocyciec PROPN
+móy NOUN
+Ocyciec NOUN
 . PUNCT
 
 Bawiono VERB
@@ -8793,7 +8792,7 @@ zjazdu NOUN
 obywatelskiego ADJ
 Towarzystwa NOUN
 Gospodarskiego ADJ
-był AUX
+był VERB
 objad NOUN
 składkowy ADJ
 100 NUM
@@ -8810,9 +8809,9 @@ Towarzystwa NOUN
 – PUNCT
 ktoś PRON
 postawił VERB
-Chomińskiego ADJ
+Chomińskiego PROPN
 direktora NOUN
-policyu PROPN
+policyu NOUN
 Kandydaturę NOUN
 na ADP
 członka NOUN
@@ -8828,14 +8827,14 @@ Artur PROPN
 Gołuchowski PROPN
 oburzyli VERB
 się PRON
-tem PRON
+tem AUX
 i CCONJ
 chciano VERB
 dojść VERB
 kto PRON
 był AUX
 inicjatorem NOUN
-tey DET
+tey NOUN
 propozycyi NOUN
 – PUNCT
 ktoś PRON
@@ -8862,14 +8861,14 @@ Pan NOUN
 Dawid PROPN
 Jędrżejowicz PROPN
 z ADP
-Czapel NOUN
+Czapel PROPN
 w ADP
 Samborskim PROPN
 – PUNCT
 ale CCONJ
 Pan NOUN
 Dawid PROPN
-właśnie PART
+właśnie ADV
 w ADP
 ten DET
 czas NOUN
@@ -8897,8 +8896,8 @@ ją PRON
 oszczerstwem NOUN
 i CCONJ
 przy ADP
-tey NOUN
-okazyi NOUN
+tey DET
+okazyi VERB
 w ADP
 dowód NOUN
 jakich DET
@@ -8943,7 +8942,7 @@ obywateli NOUN
 Obok ADP
 mnie PRON
 po ADP
-prawey NOUN
+prawey ADJ
 siedział VERB
 Pan NOUN
 Dawid PROPN
@@ -8995,9 +8994,8 @@ i CCONJ
 powiada VERB
 – PUNCT
 Mam VERB
-5 NOUN
-- PUNCT
-ciorodzieci NUM
+5-cioro NUM
+dzieci NOUN
 – PUNCT
 jako SCONJ
 szóstą ADJ
@@ -9063,7 +9061,7 @@ tey NOUN
 ofiarności NOUN
 Pana NOUN
 Dawida PROPN
-niewiedział NOUN
+niewiedział VERB
 , PUNCT
 dopiero PART
 ja PRON
@@ -9139,7 +9137,7 @@ Stanisława PROPN
 – PUNCT
 o ADP
 drugim ADJ
-niepomnę PROPN
+niepomnę NOUN
 – PUNCT
 i CCONJ
 Artura PROPN
@@ -9173,7 +9171,8 @@ wiek NOUN
 i CCONJ
 subtelna ADJ
 kompleksya NOUN
-niewytrzymałyby VERB
+niewytrzymały VERB
+by AUX
 trudów NOUN
 wojennych ADJ
 . PUNCT
@@ -9198,7 +9197,7 @@ rok NOUN
 – PUNCT
 w ADP
 który DET
-niemców PROPN
+niemców NOUN
 wypłoszono VERB
 , PUNCT
 a CCONJ
@@ -9238,7 +9237,7 @@ policyi NOUN
 we ADP
 Lwowie PROPN
 i CCONJ
-tak PART
+tak ADV
 każdy DET
 z ADP
 wybitniejszych ADJ
@@ -9277,7 +9276,7 @@ moja DET
 Adela PROPN
 z ADP
 nauczycielką NOUN
-Panną NOUN
+Panną PROPN
 Barańską PROPN
 – PUNCT
 która DET
@@ -9287,7 +9286,7 @@ moją DET
 z ADP
 siostrą NOUN
 młodszą ADJ
-Babki NOUN
+Babki PROPN
 Pani NOUN
 Ostaszeskiey PROPN
 – PUNCT
@@ -9297,12 +9296,12 @@ Załęską PROPN
 która DET
 wyszła VERB
 za ADP
-Łepkowskiego ADJ
+Łepkowskiego PROPN
 Wincentego PROPN
 do ADP
 Czaszyna PROPN
 później ADV
-Ludwisię PROPN
+Ludwisię VERB
 siostrę NOUN
 Matki NOUN
 , PUNCT
@@ -9332,7 +9331,7 @@ dla ADP
 jej PRON
 kompanii NOUN
 Marynia PROPN
-Łepkowska ADJ
+Łepkowska PROPN
 córka NOUN
 Pani NOUN
 Wincentowey PROPN
@@ -9352,9 +9351,9 @@ domu NOUN
 wychowywała VERB
 i CCONJ
 w ADP
-
 Zarszynie PROPN
 życie NOUN
+
 zakończyła VERB
 . PUNCT
 
@@ -9384,7 +9383,7 @@ a CCONJ
 ja PRON
 do ADP
 1 ADJ
-normalney PROPN
+normalney NOUN
 – PUNCT
 Moim DET
 Dyrektorem NOUN
@@ -9402,7 +9401,7 @@ jeszcze PART
 dzieciakiem NOUN
 uczył VERB
 się PRON
-abecadła NOUN
+abecadła ADV
 i CCONJ
 kozły NOUN
 wyprawiał VERB
@@ -9448,12 +9447,12 @@ z ADP
 córką NOUN
 , PUNCT
 czterema NUM
-karemi NOUN
+karemi ADJ
 końmi NOUN
 , PUNCT
-lokay PROPN
+lokay NOUN
 i CCONJ
-furman PROPN
+furman NOUN
 – PUNCT
 Pani NOUN
 ta DET
@@ -9470,9 +9469,9 @@ sporządzono VERB
 dyby NOUN
 – PUNCT
 to PRON
-jest VERB
+jest AUX
 w ADP
-grubey NOUN
+grubey ADJ
 deszczułce NOUN
 wyżłobiono VERB
 formę NOUN
@@ -9534,15 +9533,15 @@ tańców NOUN
 Więc SCONJ
 polonez NOUN
 , PUNCT
-mazur PROPN
+mazur NOUN
 , PUNCT
-anglez PROPN
+anglez NOUN
 , PUNCT
 walce NOUN
 , PUNCT
 kozak NOUN
 , PUNCT
-gawot PROPN
+gawot NOUN
 , PUNCT
 menuet NOUN
 , PUNCT
@@ -9553,9 +9552,9 @@ tych DET
 tańców NOUN
 szal NOUN
 – PUNCT
-tamborino PROPN
+tamborino NOUN
 i CCONJ
-żele PROPN
+żele NOUN
 . PUNCT
 
 Męczyła VERB
@@ -9599,13 +9598,13 @@ w ADP
 . PUNCT
 
 Marceli PROPN
-sławnie PROPN
+sławnie ADV
 trzaskał VERB
 z ADP
 bicza NOUN
 – PUNCT
 w ADP
-czem PRON
+czem NOUN
 świcząc VERB
 się PRON
 we ADP
@@ -9615,7 +9614,7 @@ nauk NOUN
 godzinach NOUN
 doprowadził VERB
 do ADP
-takiey NOUN
+takiey DET
 doskonałości NOUN
 że SCONJ
 był VERB
@@ -9673,7 +9672,7 @@ leyce NOUN
 ze ADP
 sznurków NOUN
 i CCONJ
-tak PART
+tak ADV
 wziąwszy VERB
 to PRON
 w ADP
@@ -9731,14 +9730,14 @@ koński ADJ
 niepozwalał VERB
 płakać VERB
 – PUNCT
-była AUX
+była VERB
 wtem ADV
 ambicya NOUN
 . PUNCT
 
 Nic PRON
 nam PRON
-to PRON
+to DET
 harmonii NOUN
 niepsuło VERB
 . PUNCT
@@ -9817,12 +9816,12 @@ Czy PART
 też PART
 przypomina VERB
 sobie PRON
-kiedy ADV
+kiedy SCONJ
 Pani NOUN
 na ADP
-Pielni NOUN
+Pielni PROPN
 Jędruszkowcach PROPN
-jak ADV
+jak SCONJ
 brała VERB
 cięgi NOUN
 batem NOUN
@@ -9863,7 +9862,7 @@ z ADP
 Adelą PROPN
 chodziły VERB
 w ADP
-lica PROPN
+lica NOUN
 uprzężone ADJ
 . PUNCT
 
@@ -9945,15 +9944,15 @@ i CCONJ
 Antoniego PROPN
 pytają VERB
 czemu ADV
-
-nieidzie PART
+nieidzie VERB
 biegać VERB
 z ADP
+
 nami PRON
 – PUNCT
 „ PUNCT
 a CCONJ
-bo PART
+bo SCONJ
 ja PRON
 siedzę VERB
 na ADP
@@ -9987,7 +9986,7 @@ Siostra NOUN
 moja DET
 nielubiła VERB
 później ADV
-by SCONJ
+by AUX
 jey PRON
 to PRON
 przypominano VERB
@@ -10122,7 +10121,7 @@ gospodarstwo NOUN
 , PUNCT
 spiżarnię NOUN
 zaopatrzoną ADJ
-dostatnią NOUN
+dostatnią ADJ
 – PUNCT
 bo SCONJ
 i PART
@@ -10206,7 +10205,7 @@ Antonim PROPN
 Golejowskim PROPN
 – PUNCT
 i CCONJ
-nuż PART
+nuż VERB
 trupa NOUN
 obliwać VERB
 . PUNCT
@@ -10309,7 +10308,7 @@ Stanisławowie PROPN
 . PUNCT
 
 Dat NOUN
-niepamętam NOUN
+niepamętam ADV
 więc SCONJ
 opisuję VERB
 zdarzenia NOUN
@@ -10320,7 +10319,7 @@ lat NOUN
 od ADP
 ognia NOUN
 w ADP
-Bludnikach NOUN
+Bludnikach PROPN
 aż PART
 do ADP
 roku NOUN
@@ -10333,7 +10332,7 @@ roku NOUN
 przyszedł VERB
 naymłodzy ADJ
 brat NOUN
-móy PROPN
+móy ADJ
 Ludwik PROPN
 – PUNCT
 pamiętam VERB
@@ -10380,7 +10379,7 @@ gdy ADV
 przyjść VERB
 miał VERB
 Włodzio PROPN
-Niezabitoski ADJ
+Niezabitoski PROPN
 i CCONJ
 taką DET
 samą ADJ
@@ -10396,7 +10395,7 @@ we ADP
 Lwowie PROPN
 z ADP
 moją DET
-Babką NOUN
+Babką PROPN
 Ostaszewską PROPN
 . PUNCT
 
@@ -10407,7 +10406,7 @@ Matki NOUN
 wyszła VERB
 za ADP
 mąż NOUN
-Jey ADJ
+Jey PROPN
 Siostra NOUN
 w ADP
 parę DET
@@ -10434,7 +10433,7 @@ dokupił VERB
 od ADP
 rodziny NOUN
 Uherce PROPN
-Niezabitowskie ADJ
+Niezabitowskie PROPN
 koło ADP
 Gródka PROPN
 – PUNCT
@@ -10493,10 +10492,10 @@ Fredrowie PROPN
 Jabłonoscy PROPN
 , PUNCT
 hrabstwo NOUN
-Rozwadowscy ADJ
+Rozwadowscy PROPN
 z ADP
 Czermińskich PROPN
-urodzony ADJ
+urodzony NOUN
 – PUNCT
 Skarbkowie PROPN
 , PUNCT
@@ -10504,13 +10503,13 @@ Krasiccy PROPN
 , PUNCT
 Borkoscy PROPN
 – PUNCT
-Rusoccy ADJ
+Rusoccy PROPN
 – PUNCT
 Siemińscy PROPN
 , PUNCT
-Lewiccy ADJ
+Lewiccy PROPN
 , PUNCT
-Tarnoscy ADJ
+Tarnoscy PROPN
 . PUNCT
 
 Niewspominam VERB
@@ -10524,7 +10523,7 @@ woyskowych ADJ
 – PUNCT
 bo SCONJ
 niebrakowało VERB
-i CCONJ
+i PART
 Arcyksięcia NOUN
 i CCONJ
 Arcybiskupów NOUN
@@ -10550,7 +10549,7 @@ skoro SCONJ
 Wuy PROPN
 został VERB
 Deputatem NOUN
-Stanów NOUN
+Stanów PROPN
 . PUNCT
 
 Była VERB
@@ -10591,22 +10590,22 @@ rozwody NOUN
 separacje NOUN
 częste ADJ
 – PUNCT
-to PRON
+to AUX
 też PART
 i PART
 pożycie NOUN
 moich DET
 Wujostwa NOUN
-niebyło VERB
+niebyło ADV
 nayszczęśliwsze ADJ
 – PUNCT
-Lubo ADV
+Lubo PROPN
 niebyło ADV
 zdaje VERB
 mi PRON
 się PRON
 sądowey ADJ
-seperacyi ADJ
+seperacyi NOUN
 wujostwo NOUN
 nieżyli VERB
 razem ADV
@@ -10618,12 +10617,12 @@ lat NOUN
 chował VERB
 się PRON
 przy ADP
-Matce NOUN
+Matce PROPN
 , PUNCT
 później ADV
 zabrał VERB
 go PRON
-Oyciec VERB
+Oyciec PROPN
 pod ADP
 swoją DET
 opiekę NOUN

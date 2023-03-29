@@ -1,5 +1,5 @@
 {
-  "_name_or_path": "dkleczek/bert-base-polish-uncased-v1",
+  "_name_or_path": "dkleczek/bert-base-polish-cased-v1",
   "architectures": [
     "BertForTokenClassification"
   ],
@@ -61,7 +61,7 @@
   "pad_token_id": 0,
   "position_embedding_type": "absolute",
   "torch_dtype": "float32",
-  "transformers_version": "4.26.1",
+  "transformers_version": "4.19.2",
   "type_vocab_size": 2,
   "use_cache": true,
   "vocab_size": 60000
