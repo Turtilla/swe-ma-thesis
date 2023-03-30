@@ -160,7 +160,7 @@ ciele subst:sg:loc:n:ncol
 odbija fin:sg:ter:imperf
 piłkę subst:sg:acc:f
 obok prep:gen
-niższego adj:sg:acc:m1:pos
+niższego adj:sg:nom:m1:com
 od prep:gen:nwok
 siebie siebie:gen
 koszykarza subst:sg:gen:m1
@@ -169,7 +169,7 @@ koszykarza subst:sg:gen:m1
 Uśmiechnięty adj:sg:nom:m1:pos
 mężczyzna subst:sg:nom:m1
 z prep:inst:nwok
-wąsami subst:pl:inst:n:pt
+wąsami subst:pl:inst:m3
 czyści fin:sg:ter:imperf
 dużą adj:sg:acc:f:pos
 szybę subst:sg:acc:f
@@ -222,7 +222,7 @@ stoi fin:sg:ter:imperf
 w prep:loc:nwok
 basenie subst:sg:loc:m3
 z prep:inst:nwok
-kolorowymi adj:pl:inst:m3:pos
+kolorowymi adj:pl:inst:f:pos
 kulami subst:pl:inst:f
 . interp
 
@@ -254,7 +254,7 @@ sznurkiem subst:sg:inst:m3
 Mały adj:sg:nom:m1:pos
 chłopiec subst:sg:nom:m1
 w prep:loc:nwok
-ubrudzonych ppas:pl:loc:m3:perf:aff
+ubrudzonych adj:pl:loc:n:pos
 spodniach subst:pl:loc:n:pt
 siedzi fin:sg:ter:imperf
 na prep:loc
@@ -306,7 +306,7 @@ ze prep:inst:wok
 sobą siebie:inst
 . interp
 
-Puchacz subst:sg:nom:m1
+Puchacz subst:sg:nom:m2
 leci fin:sg:ter:imperf
 z prep:inst:nwok
 wyciągniętymi ppas:pl:inst:n:perf:aff
@@ -372,7 +372,7 @@ dziobem subst:sg:inst:m3
 frunie fin:sg:ter:imperf
 nisko adv:pos
 nad prep:inst:nwok
-podobnymi adj:pl:inst:m1:pos
+podobnymi adj:pl:inst:n:pos
 ptakami subst:pl:inst:m2
 nad prep:inst:nwok
 brzegiem subst:sg:inst:m3
@@ -544,8 +544,8 @@ znajduje fin:sg:ter:imperf
 się part
 zagroda subst:sg:nom:f
 z prep:inst:nwok
-czarnymi adj:pl:inst:m3:pos
-końmi subst:pl:inst:m3
+czarnymi adj:pl:inst:m1:pos
+końmi subst:pl:inst:m2
 . interp
 
 Osoba subst:sg:nom:f
@@ -605,7 +605,7 @@ parkiecie subst:sg:loc:m3
 w prep:loc:nwok
 sali subst:sg:loc:f
 z prep:inst:nwok
-lustrem subst:sg:inst:n:ncol
+lustrem subst:sg:inst:m3
 . interp
 
 Dwa num:pl:nom:m2:congr
@@ -615,7 +615,7 @@ wystawiają fin:pl:ter:imperf
 do prep:gen
 siebie siebie:gen
 szeroko adv:pos
-otwarte ppas:pl:acc:m3:perf:aff
+otwarte adj:pl:acc:m3:pos
 pyski subst:pl:acc:m3
 . interp
 
@@ -646,7 +646,7 @@ w prep:acc:nwok
 bok subst:sg:acc:m3
 po prep:loc
 ściągnięciu ger:sg:loc:n:perf:aff
-okularów subst:pl:gen:n:pt
+okularów subst:pl:gen:n:ncol
 . interp
 
 Mężczyźni subst:pl:nom:m1
@@ -681,7 +681,7 @@ się part
 w prep:loc:nwok
 pomieszczeniu subst:sg:loc:n:ncol
 ze prep:inst:wok
-zwierzętami subst:pl:inst:n:ncol
+zwierzętami subst:pl:inst:n:col
 . interp
 
 Kobieta subst:sg:nom:f
@@ -770,8 +770,8 @@ na prep:loc
 skrzypcach subst:pl:loc:n:pt
 razem adv
 z prep:inst:nwok
-muzykami subst:pl:inst:f
-grającymi pact:pl:inst:f:imperf:aff
+muzykami subst:pl:inst:m1
+grającymi pact:pl:inst:m1:imperf:aff
 na prep:loc
 innych adj:pl:loc:m3:pos
 instrumentach subst:pl:loc:m3
@@ -1092,7 +1092,7 @@ a conj
 duży adj:sg:nom:m2:pos
 pies subst:sg:nom:m2
 stoi fin:sg:ter:imperf
-zanurzony ppas:sg:nom:m1:perf:aff
+zanurzony ppas:sg:nom:m2:perf:aff
 do prep:gen
 połowy subst:sg:gen:f
 w prep:loc:nwok
@@ -1153,8 +1153,8 @@ które adj:sg:nom:n:pos
 ubrane ppas:sg:nom:n:perf:aff
 jest fin:sg:ter:imperf
 w prep:acc:nwok
-pomarańczowe adj:pl:acc:m3:pos
-rękawki subst:pl:acc:m3
+pomarańczowe adj:pl:acc:f:pos
+rękawki subst:pl:acc:f
 do prep:gen
 pływania ger:sg:gen:n:imperf:aff
 . interp
@@ -1458,7 +1458,7 @@ jadący pact:sg:nom:m1:imperf:aff
 na prep:loc
 koniu subst:sg:loc:m2
 wymachuje fin:sg:ter:imperf
-lassem subst:sg:inst:m3
+lassem subst:sg:inst:m2
 . interp
 
 Kobieta subst:sg:nom:f
@@ -1561,7 +1561,7 @@ do prep:gen
 budynku subst:sg:gen:m3
 , interp
 pod prep:inst:nwok
-którym adj:sg:inst:n:pos
+którym adj:sg:inst:m3:pos
 stoi fin:sg:ter:imperf
 czarna adj:sg:nom:f:pos
 krowa subst:sg:nom:f
@@ -1575,7 +1575,7 @@ ląduje fin:sg:ter:imperf
 wśród prep:gen
 innych adj:pl:gen:m2:pos
 ptaków subst:pl:gen:m2
-spacerujących pact:pl:gen:n:imperf:aff
+spacerujących pact:pl:gen:m1:imperf:aff
 po prep:loc
 piasku subst:sg:loc:m3
 . interp
@@ -1650,7 +1650,7 @@ i conj
 sam adj:sg:nom:m1:pos
 też part
 jest fin:sg:ter:imperf
-polewany ppas:sg:nom:m1:imperf:aff
+polewany ppas:sg:nom:m3:imperf:aff
 wodą subst:sg:inst:f
 . interp
 
@@ -1697,7 +1697,7 @@ stoi fin:sg:ter:imperf
 w prep:loc:nwok
 rozkroku subst:sg:loc:m3
 na prep:loc
-torach subst:pl:loc:n:pt
+torach subst:pl:loc:m3
 obok prep:gen
 stacji subst:sg:gen:f
 kolejowej adj:sg:gen:f:pos
@@ -1794,7 +1794,7 @@ na prep:loc
 gitarze subst:sg:loc:f
 z prep:inst:nwok
 otwartymi adj:pl:inst:n:pos
-ustami subst:pl:inst:n:pt
+ustami subst:pl:inst:n:ncol
 . interp
 
 Ludzie subst:pl:nom:m1
@@ -1971,7 +1971,7 @@ dużych adj:pl:loc:m3:pos
 czarnych adj:pl:loc:m3:pos
 fotelach subst:pl:loc:m3
 sterowanych ppas:pl:loc:m3:perf:aff
-pilotem subst:sg:inst:m3
+pilotem subst:sg:inst:m1
 . interp
 
 Czerwono adja
@@ -2081,7 +2081,7 @@ na prep:loc
 ścianie subst:sg:loc:f
 . interp
 
-Ciepło adv:pos
+Ciepło adj:sg:nom:n:pos
 ubrane ppas:sg:nom:n:perf:aff
 dziecko subst:sg:nom:n:col
 stoi fin:sg:ter:imperf
@@ -2273,7 +2273,7 @@ trawiastym adj:sg:loc:n:pos
 zboczu subst:sg:loc:n:ncol
 , interp
 trzymając pcon:imperf
-martwe adj:pl:acc:m3:pos
+martwe adj:pl:acc:n:pos
 pingwiny subst:pl:acc:m2
 . interp
 
@@ -2357,7 +2357,7 @@ czarnym adj:sg:loc:m3:pos
 stroju subst:sg:loc:m3
 stoi fin:sg:ter:imperf
 przed prep:inst:nwok
-siedzącymi adj:pl:inst:m1:pos
+siedzącymi pact:pl:inst:m1:imperf:aff
 w prep:loc:nwok
 rzędach subst:pl:loc:m3
 ludźmi subst:pl:inst:m1
@@ -2382,7 +2382,7 @@ kąpielowym adj:sg:loc:m3:pos
 czepku subst:sg:loc:m3
 i conj
 dmuchanych ppas:pl:loc:m3:perf:aff
-rękawkach subst:pl:loc:f
+rękawkach subst:pl:loc:m3
 skacze fin:sg:ter:imperf
 do prep:gen
 basenu subst:sg:gen:m3
@@ -2855,7 +2855,7 @@ mojej adj:sg:gen:f:pos
 antyfrancuskości subst:sg:gen:f
 . interp
 
-A conj
+A part
 odróżnić inf:perf
 nie part
 potrafię fin:sg:pri:imperf
@@ -2915,7 +2915,7 @@ areszcie subst:sg:loc:m3
 . interp
 
 W prep:loc:nwok
-ruinach subst:pl:loc:m3
+ruinach subst:pl:loc:f
 mieszkania subst:sg:gen:n:ncol
 Zuli subst:sg:gen:f
 słuchamy fin:pl:pri:imperf
@@ -2988,7 +2988,7 @@ tenisiści subst:pl:nom:m1
 
 Podrywał praet:sg:m1:imperf
 cię ppron12:sg:acc:m1:sec:nakc
-Domogarow subst:pl:acc:m1
+Domogarow subst:sg:nom:m1
 ? interp
 
 Na prep:loc
@@ -3041,7 +3041,7 @@ Mówi fin:sg:ter:imperf
 dobrze adv:pos
 się part
 na prep:loc
-nich ppron3:pl:loc:m3:ter:akc:praep
+nich ppron3:pl:acc:m1:ter:akc:praep
 bawi fin:sg:ter:imperf
 . interp
 
@@ -3100,7 +3100,7 @@ talenty subst:pl:acc:m3
 
 Umiem fin:sg:pri:imperf
 piec inf:imperf
-ciasta subst:sg:gen:n:ncol
+ciasta subst:pl:acc:n:ncol
 . interp
 
 Będzie bedzie:sg:ter:imperf
@@ -3142,7 +3142,7 @@ Godzinami subst:pl:inst:f
 może fin:sg:ter:imperf
 perorować inf:imperf
 o prep:loc
-szachach subst:pl:loc:m3
+szachach subst:pl:loc:m1
 . interp
 
 Wracam fin:sg:pri:imperf
@@ -3207,7 +3207,7 @@ udźwignie fin:sg:ter:perf
 Na prep:acc
 wszelki adj:sg:acc:m3:pos
 wypadek subst:sg:acc:m3
-władze subst:sg:acc:f
+władze subst:pl:nom:f
 twardo adv:pos
 dzierżą fin:pl:ter:imperf
 mężczyźni subst:pl:nom:m1
@@ -3269,7 +3269,7 @@ Rady subst:sg:gen:f
 Nie part
 zareagował praet:sg:m1:perf
 prezydent subst:sg:nom:m1
-Radomska subst:sg:gen:n:ncol
+Radomska subst:sg:nom:f
 . interp
 
 Czterech num:pl:acc:m1:rec
@@ -3381,7 +3381,7 @@ Joannę subst:sg:acc:f
 D'Arc subst:sg:acc:f
 . interp
 
-Biodra subst:pl:nom:n:ncol
+Biodra subst:pl:nom:n:pt
 powinny winien:pl:m3:imperf
 być inf:imperf
 odchylone ppas:pl:nom:n:perf:aff
@@ -3392,17 +3392,17 @@ tyłu subst:sg:gen:m3
 Należy fin:sg:ter:imperf
 pamiętać inf:imperf
 o prep:loc
-zachowaniu ger:sg:loc:n:perf:aff
+zachowaniu subst:sg:loc:n:ncol
 krzywizny subst:sg:gen:f
 kręgosłupa subst:sg:gen:m3
 . interp
 
 Dlaczego adv
 czuję fin:sg:pri:imperf
-miętę subst:pl:acc:f
+miętę subst:sg:acc:f
 do prep:gen
 tej adj:sg:gen:f:pos
-starszej adj:sg:gen:f:pos
+starszej adj:sg:gen:f:com
 kobiety subst:sg:gen:f
 ? interp
 
@@ -3440,7 +3440,7 @@ sprawą subst:sg:inst:f
 po prep:loc
 tym subst:sg:loc:n:ncol
 , interp
-jak adv:pos
+jak comp
 otrzymali praet:pl:m1:perf
 anonimową adj:sg:acc:f:pos
 informację subst:sg:acc:f
@@ -3451,15 +3451,15 @@ hodowli subst:sg:loc:f
 
 OPS subst:sg:nom:m3
 zarejestrował praet:sg:m3:perf
-ich ppron3:pl:gen:f:ter:akc:npraep
+ich ppron3:pl:acc:m1:ter:akc:npraep
 ponad part
-260 num:pl:acc:m1:rec
+260 num:pl:acc:m3:rec
 . interp
 
 Toruńska adj:sg:nom:f:pos
 policja subst:sg:nom:f
 poszukuje fin:sg:ter:imperf
-przebierańca subst:sg:acc:m1
+przebierańca subst:sg:gen:m1
 , interp
 który adj:sg:nom:m1:pos
 podaje fin:sg:ter:imperf
@@ -3476,7 +3476,7 @@ się part
 Nie part
 będziesz bedzie:sg:sec:imperf
 wówczas adv
-podjadać inf:perf
+podjadać inf:imperf
 w prep:loc:nwok
 czasie subst:sg:loc:m3
 różnych adj:pl:gen:f:pos
@@ -3566,12 +3566,12 @@ poszkodowanych subst:pl:gen:m1
 powinien winien:sg:m1:imperf
 dostać inf:perf
 1500 num:pl:acc:m3:rec
-franków subst:pl:gen:m3
+franków subst:pl:gen:m2
 szwajcarskich adj:pl:gen:m3:pos
 , interp
 czyli conj
 ponad part
-3800 num:pl:acc:m3:rec
+3800 num:pl:acc:m2:rec
 zł brev:npun
 . interp
 
@@ -3604,10 +3604,10 @@ mężczyzn subst:pl:gen:m1
 u prep:gen
 których adj:pl:gen:m1:pos
 znaleziono imps:perf
-starodruki subst:pl:acc:m3
+starodruki subst:pl:acc:n:pt
 . interp
 
-Ich ppron3:pl:gen:m1:ter:akc:npraep
+Ich ppron3:pl:gen:f:ter:akc:npraep
 wyniki subst:pl:acc:m3
 poznamy fin:pl:pri:perf
 w prep:loc:nwok
@@ -3617,7 +3617,7 @@ tygodniu subst:sg:loc:m3
 
 Postępowanie subst:sg:acc:n:ncol
 prowadzi fin:sg:ter:imperf
-KP subst:sg:nom:f
+KP subst:sg:nom:m3
 w prep:loc:nwok
 Długołęce subst:sg:loc:f
 . interp
@@ -3645,7 +3645,7 @@ klasyfikacji subst:sg:loc:f
 drużynowej adj:sg:loc:f:pos
 zwyciężyli praet:pl:m1:perf
 komentatorzy subst:pl:nom:m1
-sportowi subst:sg:dat:m3
+sportowi adj:pl:nom:m1:pos
 Eurosportu subst:sg:gen:m3
 . interp
 
@@ -3669,7 +3669,7 @@ nieszczęsnego adj:sg:gen:n:pos
 zdarzenia subst:sg:gen:n:ncol
 doszło praet:sg:n:perf
 w prep:loc:nwok
-Sowinie subst:sg:loc:n:ncol
+Sowinie subst:sg:loc:f
 koło prep:gen
 Jasła subst:sg:gen:n:ncol
 . interp
@@ -3745,7 +3745,7 @@ Tychach subst:pl:loc:n:pt
 Łódź subst:sg:nom:f
 stanęła praet:sg:f:perf
 w prep:loc:nwok
-płomieniach subst:pl:loc:n:pt
+płomieniach subst:pl:loc:n:ncol
 nagle adv:pos
 . interp
 
@@ -3774,7 +3774,7 @@ domu subst:sg:gen:m3
 . interp
 
 O prep:loc
-włamaniu ger:sg:loc:n:perf:aff
+włamaniu subst:sg:loc:n:ncol
 do prep:gen
 kościoła subst:sg:gen:m3
 zawiadomił praet:sg:m1:perf
@@ -3827,11 +3827,11 @@ Wytwarza fin:sg:ter:imperf
 je ppron3:pl:acc:m3:ter:akc:npraep
 krajowy adj:sg:nom:m3:pos
 przemysł subst:sg:nom:m3
-farmaceutyczny adj:sg:nom:m3:pos
+farmaceutyczny adj:sg:acc:m3:pos
 i conj
 nie part
 mają fin:pl:ter:imperf
-tańszych adj:pl:gen:m3:com
+tańszych adj:pl:gen:m3:sup
 zamienników subst:pl:gen:m3
 . interp
 
@@ -3862,7 +3862,7 @@ poczekalni subst:sg:loc:f
 gawędząc pcon:imperf
 . interp
 
-Wystukują fin:pl:ter:imperf
+Wystukują fin:pl:ter:perf
 rytm subst:sg:acc:m3
 dłońmi subst:pl:inst:f
 i conj
@@ -3892,7 +3892,7 @@ W prep:loc:nwok
 drzwiach subst:pl:loc:n:pt
 ukazała praet:sg:f:perf
 się part
-lisia subst:sg:gen:m1
+lisia adj:sg:nom:f:pos
 twarz subst:sg:nom:f
 pana subst:sg:gen:m1
 Hawełko subst:sg:gen:m1
@@ -3975,7 +3975,7 @@ korciło praet:sg:n:imperf
 żeby comp
 wyrządzać inf:imperf
 jej ppron3:sg:dat:f:ter:akc:npraep
-przykrości subst:sg:gen:f
+przykrości subst:sg:dat:f
 i conj
 wystawiać inf:imperf
 ją ppron3:sg:acc:f:ter:akc:npraep
@@ -3988,7 +3988,7 @@ Wejdź impt:sg:sec:perf
 do prep:gen
 domu subst:sg:gen:m3
 , interp
-każę fin:sg:ter:imperf
+każę fin:sg:pri:perf
 samowar subst:sg:acc:m3
 zapalić inf:perf
 . interp
@@ -4026,7 +4026,7 @@ piorąc pcon:imperf
 bieliznę subst:sg:acc:f
 , interp
 wyławiała praet:sg:f:imperf
-lady subst:pl:acc:f
+lady subst:sg:nom:f
 i conj
 następował praet:sg:m3:imperf
 szczęśliwy adj:sg:nom:m3:pos
@@ -4040,19 +4040,19 @@ trzeba pred
 było praet:sg:n:imperf
 płacić inf:imperf
 za prep:acc
-ich ppron3:pl:gen:f:ter:akc:npraep
+ich ppron3:pl:gen:m1:ter:akc:npraep
 porozrywane ppas:pl:acc:n:perf:aff
 ubrania subst:pl:acc:n:ncol
 . interp
 
 Poszedł praet:sg:m1:perf
-Dratewka subst:sg:inst:f
+Dratewka subst:sg:acc:m1
 nad prep:acc:nwok
-stawy subst:pl:acc:n:pt
+stawy subst:pl:acc:m3
 . interp
 
 W prep:loc:nwok
-którym adj:sg:loc:m3:pos
+którym adj:sg:loc:n:pos
 stawie subst:sg:loc:m3
 się part
 kąpała praet:sg:f:imperf
@@ -4061,8 +4061,8 @@ kąpała praet:sg:f:imperf
 Nic subst:sg:gen:n:ncol
 nie part
 robi fin:sg:ter:imperf
-cały adj:sg:acc:m3:pos
-dzień subst:sg:acc:m3
+cały adj:sg:nom:m3:pos
+dzień subst:sg:nom:m3
 . interp
 
 Ja ppron12:sg:nom:m1:pri
@@ -4114,18 +4114,18 @@ dłonią subst:sg:inst:f
 , interp
 jakby comp
 gasiła praet:sg:f:imperf
-świecę subst:pl:nom:f
+świecę subst:sg:acc:f
 . interp
 
-Stęka fin:sg:ter:imperf
+Stęka subst:sg:nom:n:ncol
 . interp
 
 - interp
-Buba subst:sg:nom:m1
+Buba subst:sg:nom:f
 trzyma fin:sg:ter:imperf
 opał subst:sg:acc:m3
 , interp
-karbid subst:sg:nom:m1
+karbid subst:sg:acc:m3
 w prep:loc:nwok
 piwnicy subst:sg:loc:f
 . interp
@@ -4167,7 +4167,7 @@ Milczeli praet:pl:m1:imperf
 . interp
 
 W prep:loc:nwok
-gasnącym pact:sg:loc:m3:imperf:aff
+gasnącym ppas:sg:loc:n:perf:aff
 świetle subst:sg:loc:n:ncol
 rakiety subst:pl:nom:f
 uniosły praet:pl:f:perf
@@ -4182,7 +4182,7 @@ Jehuda subst:sg:nom:f
 ? interp
 
 Wuj subst:sg:nom:m1
-Jehuda subst:sg:gen:m1
+Jehuda subst:sg:nom:m1
 milczał praet:sg:m1:imperf
 . interp
 
@@ -4191,10 +4191,10 @@ Przełykali praet:pl:m1:imperf
 . interp
 
 I conj
-urwał praet:sg:m1:perf
+urwał praet:sg:m3:perf
 . interp
 
-Zabiegł praet:sg:m1:perf
+Zabiegł praet:sg:m1:imperf
 mu ppron3:sg:dat:m1:ter:nakc:npraep
 drogę subst:sg:acc:f
 i conj
@@ -4239,7 +4239,7 @@ czapkę subst:sg:acc:f
 
 Sztywne adj:pl:nom:m3:pos
 od prep:gen:nwok
-wapna subst:sg:gen:n:ncol
+wapna subst:sg:gen:m3
 włosy subst:pl:nom:m3
 rozmierzwiły praet:pl:m3:perf
 mu ppron3:sg:dat:m1:ter:nakc:npraep
@@ -4273,7 +4273,7 @@ wracają fin:pl:ter:imperf
 
 Potem adv
 znowu part
-wyrusza fin:pl:ter:perf
+wyrusza fin:sg:ter:imperf
 za prep:acc
 morze subst:sg:acc:n:ncol
 . interp
@@ -4405,11 +4405,11 @@ bruderszaft subst:sg:acc:m3
 
 W prep:loc:nwok
 pokoju subst:sg:loc:m3
-pociemniało praet:sg:n:perf
+pociemniało praet:sg:n:imperf
 , interp
 witraże subst:pl:nom:m3
 w prep:loc:nwok
-suficie subst:sg:loc:n:ncol
+suficie subst:sg:loc:m3
 zgasły praet:pl:m3:perf
 . interp
 
@@ -4464,7 +4464,7 @@ prześliźnie fin:sg:ter:perf
 się part
 przez prep:acc:nwok
 las subst:sg:acc:m3
-Weipert subst:sg:nom:m3
+Weipert subst:sg:nom:m1
 . interp
 
 Tę adj:sg:acc:f:pos
@@ -4518,7 +4518,7 @@ wyprosić inf:perf
 darmochy subst:sg:gen:f
 ? interp
 
-Czort subst:sg:nom:m2
+Czort subst:sg:nom:m1
 go ppron3:sg:acc:m1:ter:nakc:npraep
 wie fin:sg:ter:imperf
 . interp
@@ -4540,7 +4540,7 @@ Prawnik subst:sg:nom:m1
 zamyślił praet:sg:m1:perf
 się part
 przy prep:loc
-otwartym ppas:sg:loc:n:perf:aff
+otwartym adj:sg:loc:n:pos
 oknie subst:sg:loc:n:ncol
 . interp
 
@@ -4645,7 +4645,7 @@ się part
 plecami subst:pl:inst:n:pt
 o prep:acc
 jej ppron3:sg:gen:f:ter:akc:npraep
-pień subst:sg:acc:f
+pień subst:sg:acc:m3
 i conj
 opanowało praet:sg:n:perf
 mnie ppron12:sg:acc:m1:pri:akc
@@ -4688,7 +4688,7 @@ niespodzianek subst:pl:gen:f
 . interp
 
 Kelner subst:sg:nom:m1
-przyniósł praet:sg:m1:perf:nagl
+przyniósł praet:sg:m1:perf
 jej ppron3:sg:dat:f:ter:akc:npraep
 zamówione ppas:sg:acc:n:perf:aff
 capuccino subst:sg:acc:n:ncol
@@ -4709,7 +4709,7 @@ tym subst:sg:loc:n:ncol
 . interp
 
 Stan subst:sg:nom:m3
-Saszki subst:sg:gen:f
+Saszki subst:sg:gen:m1
 się part
 pogarszał praet:sg:m3:imperf
 . interp
@@ -4736,7 +4736,7 @@ przyjemność subst:sg:acc:f
 
 Wśród prep:gen
 marynarzy subst:pl:gen:m1
-znów adv
+znów part
 wrzało praet:sg:n:imperf
 . interp
 
@@ -4819,7 +4819,7 @@ strach subst:sg:acc:m3
 Nieoczekiwanie adv:pos
 wziął praet:sg:m1:perf
 je ppron3:pl:acc:m3:ter:akc:npraep
-na prep:loc
+na prep:acc
 ręce subst:pl:acc:f
 . interp
 
@@ -4835,13 +4835,13 @@ Marta subst:sg:nom:f
 postanowiła praet:sg:f:perf
 położyć inf:perf
 kres subst:sg:acc:m3
-tej adj:sg:gen:f:pos
-rozkosznej adj:sg:gen:f:pos
-konwersacji subst:sg:gen:f
+tej adj:sg:dat:f:pos
+rozkosznej adj:sg:dat:f:pos
+konwersacji subst:sg:dat:f
 . interp
 
 – interp
-Ale conj
+Ale part
 tam adv
 jest fin:sg:ter:imperf
 paw subst:sg:nom:m2
@@ -4938,12 +4938,12 @@ się part
 ! interp
 
 – interp
-Odpierdolcie impt:pl:sec:perf
+Odpierdolcie impt:pl:sec:imperf
 się part
 ode prep:gen:wok
 mnie ppron12:sg:gen:m1:pri:akc
 , interp
-ścierwa subst:pl:nom:m2
+ścierwa impt:pl:sec:imperf
 ! interp
 
 Nie part
@@ -4970,7 +4970,7 @@ ucichło praet:sg:n:perf
 
 Nawet part
 ptaki subst:pl:nom:m2
-przestały praet:pl:m3:perf
+przestały praet:pl:n:perf
 śpiewać inf:imperf
 . interp
 
@@ -5000,7 +5000,7 @@ dłoniach subst:pl:loc:f
 – interp
 Przepraszam fin:sg:pri:imperf
 , interp
-Oleg subst:sg:nom:m1
+Oleg subst:sg:voc:m1
 , interp
 mam fin:sg:pri:imperf
 paskudny adj:sg:acc:m3:pos
@@ -5033,7 +5033,7 @@ historie subst:pl:acc:f
 Oleg subst:sg:nom:m1
 . interp
 
-Kuzniecow subst:pl:acc:m1
+Kuzniecow subst:sg:nom:m1
 wzruszył praet:sg:m1:perf
 ramionami subst:pl:inst:n:ncol
 . interp
@@ -5100,7 +5100,7 @@ niewoli subst:sg:gen:f
 Urodzajność subst:sg:acc:f
 swoją adj:sg:acc:f:pos
 zawdzięcza fin:sg:ter:imperf
-Podole subst:sg:dat:n:ncol
+Podole subst:sg:dat:f
 czarnoziemnej adj:sg:dat:f:pos
 glebie subst:sg:dat:f
 . interp
@@ -5113,7 +5113,7 @@ odebrał praet:sg:m1:perf
 telefon subst:sg:acc:m3
 z prep:gen:nwok
 zakładów subst:pl:gen:m3
-PZInż subst:sg:gen:m3
+PZInż subst:sg:nom:m3
 . interp
 
 Co prep:nom
@@ -5164,7 +5164,7 @@ Kryśka subst:sg:nom:f
 beczy fin:sg:ter:imperf
 ? interp
 
-Przepędźcie impt:pl:sec:perf
+Przepędźcie impt:pl:sec:imperf
 baby subst:pl:acc:f
 ! interp
 
@@ -5189,7 +5189,7 @@ ojca subst:sg:gen:m1
 Z prep:gen:nwok
 oddali subst:sg:gen:f
 doleciały praet:pl:m3:perf
-urywane ppas:pl:nom:m3:perf:aff
+urywane ppas:pl:nom:m3:imperf:aff
 dźwięki subst:pl:nom:m3
 strażackiej adj:sg:gen:f:pos
 trąbki subst:sg:gen:f
@@ -5202,9 +5202,9 @@ na prep:acc
 ludzi subst:pl:acc:m1
 . interp
 
-Kopyta subst:pl:nom:n:ncol
+Kopyta subst:pl:nom:n:pt
 rozpryskiwały praet:pl:n:imperf
-błoto subst:sg:acc:n:ncol
+błoto subst:sg:nom:n:ncol
 . interp
 
 Stał praet:sg:m1:imperf
@@ -5273,7 +5273,7 @@ mąż subst:sg:nom:m1
 je ppron3:pl:acc:m3:ter:akc:npraep
 bagatelizował praet:sg:m1:imperf
 , interp
-mnie ppron12:sg:gen:m1:pri:akc
+mnie ppron12:sg:acc:m1:pri:akc
 było praet:sg:n:imperf
 strasznie adv:pos
 przykro adv:pos
@@ -5298,7 +5298,7 @@ Chopinem subst:sg:inst:m1
 . interp
 . interp
 
-Rozumiał praet:sg:m1:imperf
+Rozumiał praet:sg:m1:perf
 wagę subst:sg:acc:f
 tego adj:sg:gen:m3:pos
 poematu subst:sg:gen:m3
@@ -5410,7 +5410,7 @@ pranie subst:sg:acc:n:ncol
 " interp
 Poczekaj impt:sg:sec:perf
 , interp
-tylko part
+tylko conj
 wstawię fin:sg:pri:perf
 pranie subst:sg:acc:n:ncol
 " interp
@@ -5496,7 +5496,7 @@ Na prep:loc
 razie subst:sg:loc:m3
 odszkodowań subst:pl:gen:n:ncol
 nie part
-wypłaca fin:pl:ter:perf
+wypłaca fin:sg:ter:imperf
 , interp
 z prep:gen:nwok
 wiadomych adj:pl:gen:m3:pos
@@ -5558,7 +5558,7 @@ ustawy subst:sg:gen:f
 Wysoki adj:sg:nom:m3:pos
 Senat subst:sg:nom:m3
 poprawkę subst:sg:acc:f
-szesnastą adj:sg:nom:f:pos
+szesnastą adj:sg:acc:f:pos
 odrzucił praet:sg:m3:perf
 . interp
 
@@ -5840,7 +5840,7 @@ zrobić inf:perf
 , interp
 aby comp
 uniknąć inf:perf
-czyhającego pact:sg:gen:m3:imperf:aff
+czyhającego adj:sg:gen:n:pos
 na prep:loc
 lodzie subst:sg:loc:m3
 zagrożenia subst:sg:gen:n:ncol
@@ -5874,7 +5874,7 @@ Starogardu subst:sg:gen:m3
 Według prep:gen
 mieszkańców subst:pl:gen:m1
 ogień subst:sg:acc:m3
-zaprószył praet:sg:m1:perf
+zaprószył praet:sg:m3:perf
 jeden adj:sg:nom:m1:pos
 z prep:gen:nwok
 uczestników subst:pl:gen:m1
@@ -5893,7 +5893,7 @@ gorąco adv:pos
 Sprawcę subst:sg:acc:m1
 osadzono imps:perf
 w prep:loc:nwok
-PDOZ subst:sg:loc:n:ncol
+PDOZ subst:sg:loc:m3
 . interp
 
 - interp
@@ -5908,7 +5908,7 @@ granicą subst:sg:inst:f
 
 Jak adv:pos
 uzasadnia fin:sg:ter:imperf
-wybór subst:sg:nom:m3
+wybór subst:sg:acc:m3
 ? interp
 
 Dziwnie adv:pos
@@ -6025,7 +6025,7 @@ Jakie adj:pl:nom:m3:pos
 napoje subst:pl:nom:m3
 towarzyszą fin:pl:ter:imperf
 najczęściej adv:sup
-naszym adj:pl:dat:f:pos
+naszym adj:pl:dat:m3:pos
 posiłkom subst:pl:dat:m3
 ? interp
 
@@ -6131,7 +6131,7 @@ szklanki subst:sg:gen:f
 . interp
 
 Już part
-pije fin:sg:pri:imperf
+pije fin:sg:ter:imperf
 . interp
 
 Zastanawia fin:sg:ter:imperf
@@ -6236,29 +6236,29 @@ także part
 zamilkła praet:sg:f:perf
 . interp
 
-Zapadał praet:sg:m3:imperf
+Zapadał praet:sg:m3:perf
 zmierzch subst:sg:nom:m3
 . interp
 
 Prof brev:pun
 . interp
-Di frag
+Di subst:sg:nom:m1
 Pazma subst:sg:nom:m1
 narzucił praet:sg:m1:perf
 nam ppron12:pl:dat:m1:pri
 straszliwe adj:sg:acc:n:pos
 tempo subst:sg:acc:n:ncol
-zwiedzania subst:sg:gen:m3
+zwiedzania subst:sg:gen:n:ncol
 . interp
 
 Także part
 Żydzi subst:pl:nom:m1
 stanowią fin:pl:ter:imperf
-zamkniętą adj:sg:acc:f:pos
+zamkniętą ppas:sg:acc:f:perf:aff
 kastę subst:sg:acc:f
 . interp
 
-Co subst:sg:nom:n:ncol
+Co subst:sg:acc:n:ncol
 się part
 na prep:acc
 tę adj:sg:acc:f:pos
@@ -6382,7 +6382,7 @@ hasła subst:pl:acc:n:ncol
 
 W prep:loc:nwok
 rezultacie subst:sg:loc:m3
-rodzimi subst:pl:inst:f
+rodzimi adj:pl:nom:m1:pos
 arabscy adj:pl:nom:m1:pos
 mieszkańcy subst:pl:nom:m1
 obawiają fin:pl:ter:imperf
@@ -6403,7 +6403,7 @@ Mińsku subst:sg:loc:m3
 
 Lepiej adv:com
 nie part
-ry(d)zykować fin:sg:ter:imperf
+ry(d)zykować inf:imperf
 . interp
 
 Po prep:acc
@@ -6478,15 +6478,15 @@ odwołał praet:sg:m1:perf
 wczoraj adv
 ze prep:gen:wok
 stanowiska subst:sg:gen:n:ncol
-wiceministra subst:sg:gen:m1
+wiceministra subst:sg:acc:m1
 rolnictwa subst:sg:gen:n:ncol
-Lecha subst:sg:gen:m1
-Różańskiego subst:sg:gen:m1
+Lecha subst:sg:acc:m1
+Różańskiego subst:sg:acc:m1
 . interp
 
 Obecnie adv:pos
 Jan subst:sg:nom:m1
-Maria subst:sg:nom:m1
+Maria subst:sg:nom:f
 Rokita subst:sg:nom:m1
 w prep:loc:nwok
 telewizji subst:sg:loc:f
@@ -6601,7 +6601,7 @@ wierzchołki subst:pl:acc:m3
 drzew subst:pl:gen:n:ncol
 . interp
 
-Podpisuję fin:sg:ter:imperf
+Podpisuję fin:sg:pri:imperf
 się part
 pod prep:inst:nwok
 tym subst:sg:inst:n:ncol
@@ -6638,7 +6638,7 @@ czwartek subst:sg:acc:m3
 prom subst:sg:nom:m3
 wypłynął praet:sg:m3:perf
 z prep:gen:nwok
-Duby subst:sg:gen:f
+Duby subst:sg:gen:n:ncol
 w prep:loc:nwok
 Arabii subst:sg:loc:f
 Saudyjskiej adj:sg:loc:f:pos
@@ -6663,7 +6663,7 @@ a conj
 chmury subst:pl:nom:f
 St brev:npun
 i conj
-Sc subst:sg:gen:n:ncol
+Sc brev:npun
 powstają fin:pl:ter:imperf
 , interp
 gdy adv
@@ -6680,7 +6680,7 @@ tak adv:pos
 , interp
 jakby comp
 śmy aglt:pl:pri:imperf:nwok
-oprowadzani ppas:pl:nom:m1:imperf:aff
+oprowadzani ppas:pl:nom:m1:perf:aff
 przez prep:acc:nwok
 przewodnika subst:sg:acc:m1
 w prep:loc:nwok
@@ -6752,7 +6752,7 @@ palestyńscy adj:pl:nom:m1:pos
 politycy subst:pl:nom:m1
 związani ppas:pl:nom:m1:perf:aff
 z prep:inst:nwok
-Hamasem subst:sg:inst:m1
+Hamasem subst:sg:inst:m3
 . interp
 
 - interp
@@ -6797,7 +6797,7 @@ będą bedzie:pl:ter:imperf
 więc comp
 pistacje subst:pl:nom:f
 , interp
-seledyny subst:pl:nom:m3
+seledyny subst:pl:nom:f
 i conj
 tonacje subst:pl:nom:f
 mięty subst:sg:gen:f
@@ -6826,11 +6826,11 @@ warsztatu subst:sg:gen:m3
 i conj
 zastał praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
-trupa subst:sg:acc:m2
+trupa subst:sg:acc:m1
 . interp
 
 Podobno part
-były praet:pl:m3:imperf
+były praet:pl:f:imperf
 nawet part
 pokazywane ppas:pl:nom:m3:imperf:aff
 na prep:loc
@@ -6873,15 +6873,15 @@ katar subst:sg:acc:m3
 napady subst:pl:acc:m3
 duszności subst:sg:gen:f
 , interp
-afty subst:pl:acc:f
+afty subst:pl:acc:m3
 , interp
 bóle subst:pl:acc:m3
 brzucha subst:sg:gen:m3
 , interp
-zapalenie subst:sg:nom:n:ncol
+zapalenie subst:sg:acc:n:ncol
 ucha subst:sg:gen:n:ncol
 czy conj
-napady subst:pl:nom:m3
+napady subst:pl:acc:m3
 migreny subst:sg:gen:f
 . interp
 
@@ -6897,11 +6897,11 @@ Nowym adj:sg:loc:m3:pos
 Jorku subst:sg:loc:m3
 . interp
 
-Na prep:loc
+Na prep:acc
 wsch brev:pun
 . interp
 od prep:gen:nwok
-Szczytnej adj:sg:gen:f:pos
+Szczytnej subst:sg:gen:f
 wzniesienie subst:sg:nom:n:ncol
 Szczytnik subst:sg:nom:m3
 ( interp
@@ -6968,7 +6968,7 @@ mój adj:sg:nom:m3:pos
 debiut subst:sg:nom:m3
 w prep:loc:nwok
 kierowaniu ger:sg:loc:n:imperf:aff
-kropidłem subst:sg:inst:n:ncol
+kropidłem subst:sg:inst:m3
 . interp
 
 Związkowcom subst:pl:dat:m1
@@ -7041,7 +7041,7 @@ według prep:gen
 ustalonych ppas:pl:gen:f:perf:aff
 reguł subst:pl:gen:f
 i conj
-prawideł subst:pl:gen:n:ncol
+prawideł subst:pl:gen:m3
 , interp
 tak adv:pos
 proces subst:sg:nom:m3
@@ -7105,7 +7105,7 @@ punktów subst:pl:gen:m3
 Nie part
 siedź impt:sg:sec:imperf
 do prep:gen
-późna subst:sg:gen:m3
+późna adjp
 - interp
 rzekł praet:sg:m1:perf
 . interp
@@ -7129,7 +7129,7 @@ inżynierskie adj:pl:acc:n:pos
 w prep:loc:nwok
 Lozannie subst:sg:loc:f
 i conj
-Liege subst:sg:loc:f
+Liege subst:sg:loc:n:ncol
 . interp
 
 Po prep:loc
@@ -7155,7 +7155,7 @@ tylko conj
 twórcą subst:sg:inst:m1
 widzenia subst:sg:gen:n:ncol
 ( interp
-poznania subst:sg:gen:m3
+poznania subst:sg:gen:n:ncol
 ) interp
 , interp
 ale conj
@@ -7167,7 +7167,7 @@ tego subst:sg:gen:n:ncol
 aby comp
 być inf:imperf
 jego ppron3:sg:gen:m1:ter:akc:npraep
-rozumiejącym pact:sg:inst:m1:imperf:aff
+rozumiejącym adj:sg:inst:m1:pos
 uczestnikiem subst:sg:inst:m1
 . interp
 
@@ -7183,8 +7183,8 @@ antycypował praet:sg:m3:imperf
 bowiem comp
 rychły adj:sg:acc:m3:pos
 i conj
-dramatyczny adj:sg:nom:m3:pos
-skok subst:sg:nom:m3
+dramatyczny adj:sg:acc:m3:pos
+skok subst:sg:acc:m3
 owego adj:sg:gen:m1:pos
 Rodaka subst:sg:gen:m1
 w prep:acc:nwok
@@ -7212,7 +7212,7 @@ jej ppron3:sg:gen:f:ter:akc:npraep
 liście subst:pl:acc:m3
 , interp
 od prep:gen:nwok
-których adj:pl:gen:m3:pos
+których adj:pl:gen:f:pos
 oddzielamy fin:pl:pri:imperf
 części subst:pl:acc:f
 zepsute ppas:pl:acc:f:perf:aff
@@ -7252,7 +7252,7 @@ wartości subst:pl:gen:f
 : interp
 prawdy subst:sg:gen:f
 , interp
-miłości subst:sg:gen:f
+miłości subst:sg:loc:f
 Bliźniego subst:sg:gen:m1
 i conj
 odrzuceniu ger:sg:loc:n:perf:aff
@@ -7279,7 +7279,7 @@ Do prep:gen
 tak adv:pos
 drastycznej adj:sg:gen:f:pos
 decyzji subst:sg:gen:f
-szefostwo subst:sg:nom:n:ncol
+szefostwo subst:sg:acc:n:ncol
 holdingu subst:sg:gen:m3
 zmusiła praet:sg:f:perf
 sytuacja subst:sg:nom:f
@@ -7326,7 +7326,7 @@ sakwy subst:pl:nom:f
 całe adj:pl:nom:f:pos
 zapełnione ppas:pl:nom:f:perf:aff
 są fin:pl:ter:imperf
-czereśniami subst:pl:inst:m3
+czereśniami subst:pl:inst:f
 - interp
 palce subst:pl:acc:m3
 lizać inf:imperf
@@ -7349,7 +7349,7 @@ kamieni subst:pl:gen:m3
 usypany ppas:sg:acc:m3:perf:aff
 na prep:loc
 pograniczu subst:sg:loc:n:ncol
-pól subst:pl:gen:f
+pól subst:pl:gen:n:ncol
 , interp
 gdy adv
 zapatrzeni ppas:pl:nom:m1:perf:aff
@@ -7367,13 +7367,13 @@ na prep:acc
 swego adj:sg:acc:m1:pos
 odkrywcę subst:sg:acc:m1
 od prep:gen:nwok
-stuleci subst:pl:gen:f
+stuleci subst:pl:gen:m3
 wyczekuje fin:sg:ter:imperf
 niecierpliwie adv:pos
 i conj
 z prep:inst:nwok
 nie part
-gasnącą adj:sg:inst:f:pos
+gasnącą pact:sg:inst:f:imperf:aff
 nadzieją subst:sg:inst:f
 staropruska adj:sg:nom:f:pos
 baba subst:sg:nom:f
@@ -7382,8 +7382,8 @@ pogański adj:sg:nom:m1:pos
 idol subst:sg:nom:m1
 , interp
 który adj:sg:nom:m1:pos
-tak adv:pos
-wiele num:pl:acc:m3:rec
+tak part
+wiele num:pl:acc:n:rec:ncol
 ma fin:sg:ter:imperf
 nam ppron12:pl:dat:m1:pri
 do prep:gen
@@ -7413,7 +7413,7 @@ Stań impt:sg:sec:perf
 nie part
 tak adv:pos
 , interp
-ręka subst:sg:inst:f
+ręka subst:sg:nom:f
 niżej adv:com
 , interp
 bądź impt:sg:sec:imperf
@@ -7476,8 +7476,8 @@ sesji subst:sg:gen:f
 , interp
 na prep:loc
 której adj:sg:loc:f:pos
-lampką subst:sg:nom:f
-szampana subst:sg:gen:m2
+lampką subst:sg:inst:f
+szampana subst:sg:gen:m3
 radni subst:pl:nom:m1
 i conj
 sołtysi subst:pl:nom:m1
@@ -7500,7 +7500,7 @@ Katowicach subst:pl:loc:n:pt
 . interp
 . interp
 
-Zakończenie subst:sg:nom:n:ncol
+Zakończenie ger:sg:nom:n:perf:aff
 pięknej adj:sg:gen:f:pos
 piłkarskiej adj:sg:gen:f:pos
 kariery subst:sg:gen:f
@@ -7594,7 +7594,7 @@ jedynie part
 , interp
 że comp
 zwierzak subst:sg:nom:m2
-był praet:sg:m3:imperf
+był praet:sg:m1:imperf
 wielki adj:sg:nom:m2:pos
 . interp
 
@@ -7670,16 +7670,16 @@ atrakcyjną adj:sg:acc:f:pos
 . interp
 
 Jako comp
-jedyny adj:sg:nom:m1:pos
+jedyny adj:sg:nom:m3:pos
 w prep:loc:nwok
 województwie subst:sg:loc:n:ncol
 wykonuje fin:sg:ter:imperf
-operacje subst:sg:acc:f
+operacje subst:pl:acc:f
 nowotworów subst:pl:gen:m3
 płuc subst:pl:gen:n:ncol
 oraz conj
 urazów subst:pl:gen:m3
-kręgosłupa subst:sg:gen:m3
+kręgosłupa subst:sg:gen:n:ncol
 . interp
 
 Szczegółowe adj:pl:nom:m3:pos
@@ -7709,7 +7709,7 @@ wolny adj:sg:acc:m3:pos
 czas subst:sg:acc:m3
 ? interp
 
-Wstrząśnięty adj:sg:nom:m1:pos
+Wstrząśnięty ppas:sg:nom:m1:perf:aff
 wszystkim subst:sg:inst:n:ncol
 , interp
 co subst:sg:nom:n:ncol
@@ -7737,7 +7737,7 @@ opryskliwie adv:pos
 . interp
 
 Tendencje subst:pl:nom:f
-jin subst:sg:gen:m1
+jin subst:sg:gen:n:ncol
 zostały praet:pl:f:perf
 oznaczone ppas:pl:nom:f:perf:aff
 znakiem subst:sg:inst:m3
@@ -7749,13 +7749,13 @@ a conj
 jego ppron3:sg:gen:m3:ter:akc:npraep
 wielokrotność subst:sg:nom:f
 ( interp
-- interp
+- subst:sg:nom:m3
 - interp
 ) interp
 wyraża fin:sg:ter:imperf
 nasilenie subst:sg:acc:n:ncol
 tendencji subst:pl:gen:f
-jin subst:sg:gen:f
+jin adj:pl:gen:f:pos
 . interp
 
 Czuł praet:sg:m1:imperf
@@ -7844,7 +7844,7 @@ nogi subst:sg:gen:f
 Kiedy adv
 doszedł praet:sg:m1:perf
 do prep:gen
-300 num:pl:gen:f:congr
+300 num:pl:gen:m3:congr
 , interp
 stwierdził praet:sg:m1:perf
 , interp
@@ -7867,8 +7867,8 @@ laboratorium subst:sg:loc:n:ncol
 . interp
 
 W prep:loc:nwok
-wielu num:pl:loc:n:congr:ncol
-województwach subst:pl:loc:n:ncol
+wielu num:pl:loc:m3:congr
+województwach subst:pl:loc:m3
 finalizowane ppas:pl:nom:f:imperf:aff
 są fin:pl:ter:imperf
 już part
@@ -7937,10 +7937,10 @@ NRD subst:sg:gen:f
 " interp
 . interp
 
-Które adj:pl:nom:f:pos
+Które adj:pl:nom:n:pos
 są fin:pl:ter:imperf
 najbardziej adv:sup
-bulwersujące adj:pl:nom:f:pos
+bulwersujące adj:pl:nom:n:pos
 ? interp
 
 Trzeba pred
@@ -7968,7 +7968,7 @@ i conj
 podawane ppas:pl:nom:f:imperf:aff
 wprost adv
 z prep:gen:nwok
-rondla subst:sg:gen:n:ncol
+rondla subst:sg:gen:m3
 bierze fin:sg:ter:imperf
 się part
 na prep:acc
@@ -8014,7 +8014,7 @@ osób subst:pl:gen:f
 . interp
 
 Połowa subst:sg:nom:f
-ankietowanych subst:pl:gen:m1
+ankietowanych adj:pl:gen:m1:pos
 ( interp
 52 num:pl:nom:m3:congr
 proc brev:pun
@@ -8053,8 +8053,8 @@ też part
 powiedzieć inf:perf
 , interp
 że comp
-tę adj:pl:acc:f:pos
-opinię subst:pl:acc:f
+tę adj:sg:acc:f:pos
+opinię subst:sg:acc:f
 wspierają fin:pl:ter:imperf
 analizy subst:pl:nom:f
 ekspertów subst:pl:gen:m1
@@ -8067,7 +8067,7 @@ i conj
 Owsiaka subst:sg:gen:m1
 . interp
 
-Fotki subst:pl:acc:f
+Fotki subst:pl:acc:m2
 rozesłali praet:pl:m1:perf
 do prep:gen
 znajomych subst:pl:gen:m1
@@ -8107,7 +8107,7 @@ kampanii subst:sg:gen:f
 informacyjnej adj:sg:gen:f:pos
 , interp
 a conj
-nie conj
+nie part
 promocyjnej adj:sg:gen:f:pos
 jak comp
 podkreślano imps:imperf
@@ -8282,7 +8282,7 @@ I conj
 nawet part
 zaczęło praet:sg:n:perf
 mi ppron12:sg:dat:m1:pri:nakc
-ich ppron3:pl:gen:f:ter:akc:npraep
+ich ppron3:pl:gen:m1:ter:akc:npraep
 brakować inf:imperf
 . interp
 
@@ -8311,11 +8311,11 @@ ze prep:inst:wok
 . interp
 
 Stylistyka subst:sg:nom:f
-Opla subst:sg:gen:m1
-Astry subst:sg:gen:f
+Opla subst:sg:gen:m2
+Astry subst:sg:gen:m2
 wkrótce adv
 po prep:loc
-jego ppron3:sg:gen:m1:ter:akc:npraep
+jego ppron3:sg:gen:m3:ter:akc:npraep
 prezentacji subst:sg:loc:f
 była praet:sg:f:imperf
 dość part
@@ -8357,7 +8357,7 @@ Dziś adv
 zdecydowana adj:sg:nom:f:pos
 większość subst:sg:nom:f
 spółek subst:pl:gen:f
-notowanych ppas:pl:gen:f:perf:aff
+notowanych ppas:pl:gen:f:imperf:aff
 na prep:loc
 giełdzie subst:sg:loc:f
 chce fin:sg:ter:imperf
@@ -8368,7 +8368,7 @@ kapitał subst:sg:acc:m3
 
 Ciepła adj:sg:nom:f:pos
 woda subst:sg:nom:f
-obmywała praet:sg:f:imperf
+obmywała praet:sg:f:perf
 go ppron3:sg:acc:m1:ter:nakc:npraep
 przyjemnie adv:pos
 , interp
@@ -8429,7 +8429,7 @@ Bielaka subst:sg:gen:m3
 Na prep:acc
 wsze adj:pl:acc:m3:pos
 czasy subst:pl:acc:m3
-rozstajemy fin:pl:pri:perf
+rozstajemy fin:pl:pri:imperf
 się part
 z prep:inst:nwok
 silną adj:sg:inst:f:pos
@@ -8445,11 +8445,11 @@ na prep:loc
 , interp
 który adj:sg:nom:m3:pos
 będzie bedzie:sg:ter:imperf
-skory adj:sg:nom:m1:pos
+skory adj:sg:nom:m3:pos
 do prep:gen
 zwrócenia ger:sg:gen:n:perf:aff
 choćby part
-cząstki subst:pl:acc:f
+cząstki subst:sg:gen:f
 władzy subst:sg:gen:f
 prezydentowi subst:sg:dat:m1
 - interp
@@ -8468,26 +8468,26 @@ do prep:gen
 poziomu subst:sg:gen:m3
 6 num:pl:gen:m3:congr
 - interp
-6,5 num:pl:gen:m3:congr
+6,5 num:pl:nom:m3:rec
 proc brev:pun
 . interp
 
 W prep:loc:nwok
-PKS subst:sg:loc:f
+PKS subst:sg:loc:m3
 dominują fin:pl:ter:imperf
-małe adj:pl:nom:m2:pos
+małe adj:pl:nom:n:pos
 i conj
-średnie adj:pl:nom:m2:pos
+średnie adj:pl:nom:n:pos
 jelcze subst:pl:nom:m2
 i conj
-autosany subst:pl:nom:m3
+autosany subst:pl:nom:m2
 , interp
 podczas prep:gen
 gdy adv
 oszczędność subst:sg:nom:f
 i conj
 wygoda subst:sg:nom:f
-dyktowały praet:pl:m3:imperf
+dyktowały praet:pl:f:imperf
 by part
 co part
 najmniej adv:sup
@@ -8511,7 +8511,7 @@ Sienkiewicz subst:sg:nom:m1
 Lwia adj:sg:nom:f:pos
 część subst:sg:nom:f
 pieniędzy subst:pl:gen:m3
-Caritas subst:sg:nom:f
+Caritas subst:sg:nom:m3
 została praet:sg:f:perf
 przeznaczona ppas:sg:nom:f:perf:aff
 na prep:acc
@@ -8563,8 +8563,8 @@ robaczki subst:pl:nom:m2
 Wysiadł praet:sg:m1:perf
 więc comp
 i conj
-piknął praet:sg:m1:perf
-pilotem subst:sg:inst:m2
+piknął praet:sg:m1:imperf
+pilotem subst:sg:inst:m1
 , interp
 blokując pcon:imperf
 centralny adj:sg:acc:m3:pos
@@ -8578,11 +8578,11 @@ trzysta num:pl:acc:m3:rec
 lat subst:pl:gen:m3
 później adv:com
 , interp
-naiwną adj:sg:nom:f:pos
-imitacją subst:sg:nom:f
+naiwną adj:sg:inst:f:pos
+imitacją subst:sg:inst:f
 - interp
 w prep:loc:nwok
-najlepszym adj:sg:loc:m3:sup
+najlepszym adj:sg:loc:n:pos
 znaczeniu subst:sg:loc:n:ncol
 tego adj:sg:gen:n:pos
 słowa subst:sg:gen:n:ncol
@@ -8594,7 +8594,7 @@ Tadeusza subst:sg:gen:m1
 Makowskiego subst:sg:gen:m1
 , interp
 także part
-urodzonego adj:sg:gen:m1:pos
+urodzonego ppas:sg:acc:m1:perf:aff
 w prep:loc:nwok
 Oświęcimiu subst:sg:loc:m3
 . interp
@@ -8615,8 +8615,8 @@ organizmem subst:sg:inst:m3
 mającym pact:sg:inst:m3:imperf:aff
 rozległe adj:pl:acc:m3:pos
 , interp
-nie part
-tylko part
+nie conj
+tylko conj
 duchowe adj:pl:acc:m3:pos
 interesy subst:pl:acc:m3
 i conj
@@ -8703,7 +8703,7 @@ wykładów subst:pl:gen:m3
 , interp
 ćwiczeń subst:pl:gen:n:ncol
 oraz conj
-innymi adj:pl:inst:m3:pos
+innymi adj:pl:inst:f:pos
 metodami subst:pl:inst:f
 aktywizującymi pact:pl:inst:f:imperf:aff
 uczestników subst:pl:acc:m1
@@ -8745,7 +8745,7 @@ bierności subst:sg:gen:f
 , interp
 marazmu subst:sg:gen:m3
 , interp
-kiśnięcia ger:sg:gen:n:imperf:aff
+kiśnięcia subst:sg:gen:n:ncol
 . interp
 
 Jedzie fin:sg:ter:imperf
@@ -8777,7 +8777,7 @@ na prep:loc
 scenie subst:sg:loc:f
 zagości fin:sg:ter:perf
 zespół subst:sg:nom:m3
-Dwa num:pl:nom:m2:congr
+Dwa num:pl:nom:m3:congr
 Kamraty subst:pl:nom:m3
 , interp
 znany adj:sg:nom:m3:pos
@@ -8789,22 +8789,22 @@ radiowych adj:pl:gen:f:pos
 
 - interp
 Pan subst:sg:nom:m1
-to part
+to pred
 w prep:loc:nwok
 ogóle subst:sg:loc:m3
-cały adj:sg:acc:m3:pos
+cały adj:sg:nom:m3:pos
 dzień subst:sg:nom:m3
 tylko part
 by part
 spał praet:sg:m1:imperf
 - interp
 dodaje fin:sg:ter:imperf
-inny adj:sg:nom:m3:pos
+inny adj:sg:nom:m1:pos
 . interp
 
 Mogą fin:pl:ter:imperf
 jednak conj
-interweniować inf:perf
+interweniować inf:imperf
 , interp
 gdy adv
 mają fin:pl:ter:imperf
@@ -8815,7 +8815,7 @@ działalności subst:sg:gen:f
 
 Ratownicy subst:pl:nom:m1
 z prep:inst:nwok
-psami subst:pl:inst:n:col
+psami subst:pl:inst:m2
 są fin:pl:ter:imperf
 na prep:loc
 miejscu subst:sg:loc:n:ncol
@@ -8823,8 +8823,8 @@ osunięcia ger:sg:gen:n:perf:aff
 lawiny subst:sg:gen:f
 . interp
 
-Barwy subst:pl:nom:f
-te adj:pl:nom:f:pos
+Barwy subst:pl:nom:m3
+te adj:pl:nom:m3:pos
 składają fin:pl:ter:imperf
 się part
 na prep:acc
@@ -8835,9 +8835,9 @@ barw subst:pl:gen:f
 
 Tenisiści subst:pl:nom:m1
 stołowi adj:pl:nom:m1:pos
-Energetyka subst:sg:nom:f
+Energetyka subst:sg:gen:m1
 Opoki subst:sg:gen:f
-Trzebinia subst:sg:gen:n:ncol
+Trzebinia subst:sg:gen:f
 znają fin:pl:ter:imperf
 już part
 terminy subst:pl:acc:m3
@@ -8852,14 +8852,14 @@ których adj:pl:loc:m3:pos
 ich ppron3:pl:gen:m1:ter:akc:npraep
 rywalem subst:sg:inst:m1
 będzie bedzie:sg:ter:imperf
-zwycięzca subst:sg:inst:m1
+zwycięzca subst:sg:nom:m1
 II adj:sg:gen:f:pos
 ligi subst:sg:gen:f
 łódzko adja
 - interp
 świętokrzyskiej adj:sg:gen:f:pos
 Start subst:sg:nom:m3
-Brzezina subst:sg:gen:m3
+Brzezina subst:sg:gen:n:ncol
 . interp
 
 Anglikom subst:pl:dat:m1
@@ -8868,7 +8868,7 @@ przyszło praet:sg:n:perf
 pozbyć inf:perf
 się part
 tradycyjnych adj:pl:gen:n:pos
-okularów subst:pl:gen:n:pt
+okularów subst:pl:gen:n:ncol
 w prep:loc:nwok
 stosunku subst:sg:loc:m3
 do prep:gen
@@ -8976,10 +8976,10 @@ skłonność subst:sg:acc:f
 do prep:gen
 gerontofilii subst:sg:gen:f
 - interp
-cierpiący pact:sg:nom:m1:imperf:aff
+cierpiący pact:pl:nom:m1:imperf:aff
 na prep:acc
-tę adj:pl:acc:f:pos
-dewiację subst:pl:acc:f
+tę adj:sg:acc:f:pos
+dewiację subst:sg:acc:f
 czują fin:pl:ter:imperf
 zadowolenie subst:sg:acc:n:ncol
 seksualne adj:sg:acc:n:pos
@@ -8992,7 +8992,7 @@ osobami subst:pl:inst:f
 . interp
 
 Za prep:acc
-nie ppron3:pl:acc:m3:ter:akc:praep
+nie part
 były praet:pl:f:imperf
 by part
 nabywane ppas:pl:nom:f:imperf:aff
@@ -9023,7 +9023,7 @@ wczoraj adv
 w prep:loc:nwok
 Paryżu subst:sg:loc:m3
 kongresie subst:sg:loc:m3
-FPK subst:sg:gen:m3
+FPK subst:sg:gen:f
 przyjęto imps:perf
 1080 num:pl:inst:m3:congr
 głosami subst:pl:inst:m3
@@ -9101,7 +9101,7 @@ trwa fin:sg:ter:imperf
 nauka subst:sg:nom:f
 - interp
 ale conj
-więcej adv:com
+więcej num:pl:acc:m3:rec
 . interp
 
 - interp
@@ -9185,7 +9185,7 @@ kilku num:pl:gen:m3:congr
 lat subst:pl:gen:m3
 wizytę subst:sg:acc:f
 w prep:loc:nwok
-Ludwinowie subst:sg:loc:m3
+Ludwinowie subst:sg:loc:f
 w prep:loc:nwok
 1860 adj:sg:loc:m3:pos
 roku subst:sg:loc:m3
@@ -9194,7 +9194,7 @@ zabawił praet:sg:m1:perf
 kilka num:pl:acc:m3:rec
 dni subst:pl:gen:m3
 , interp
-zburzył praet:sg:m1:perf
+zburzył praet:sg:m3:perf
 spokój subst:sg:acc:m3
 samotniczki subst:sg:gen:f
 . interp
@@ -9240,7 +9240,7 @@ str brev:pun
 . interp
 1 dig
 " interp
-Trybuny subst:pl:acc:f
+Trybuny subst:sg:gen:f
 Ludu subst:sg:gen:m3
 " interp
 zamieszczamy fin:pl:pri:imperf
@@ -9251,7 +9251,7 @@ wynikach subst:pl:loc:m3
 prac subst:pl:gen:f
 prof brev:pun
 . interp
-Joliot subst:sg:gen:m1
+Joliot subst:sg:gen:f
 - interp
 Curie subst:sg:gen:f
 w prep:loc:nwok
@@ -9291,7 +9291,7 @@ po prep:loc
 policzkach subst:pl:loc:m3
 , interp
 z prep:inst:nwok
-lśniącym pact:sg:inst:m3:imperf:aff
+lśniącym adj:sg:inst:m3:pos
 długim adj:sg:inst:m3:pos
 warkoczem subst:sg:inst:m3
 , interp
@@ -9326,7 +9326,7 @@ tego adj:sg:gen:m1:pos
 pana subst:sg:gen:m1
 zostawia fin:sg:ter:imperf
 na prep:acc
-utrzymanie ger:sg:acc:n:perf:aff
+utrzymanie subst:sg:acc:n:ncol
 ojca subst:sg:gen:m1
 . interp
 
@@ -9343,7 +9343,7 @@ ocenia fin:sg:ter:imperf
 , interp
 iż comp
 środki subst:pl:nom:n:pt
-potrzebne adj:pl:nom:m3:pos
+potrzebne adj:pl:nom:n:pos
 do prep:gen
 sanacji subst:sg:gen:f
 portfela subst:sg:gen:m3
@@ -9402,7 +9402,7 @@ na prep:loc
 przodzie subst:sg:loc:m3
 deskorolka subst:sg:nom:f
 pozwala fin:sg:ter:imperf
-jeżdżącemu subst:sg:dat:m1
+jeżdżącemu subst:sg:dat:m3
 - interp
 poprzez prep:acc:nwok
 odpowiednie adj:sg:acc:n:pos
@@ -9412,10 +9412,10 @@ ciała subst:sg:gen:n:ncol
 i conj
 naciskanie ger:sg:acc:n:imperf:aff
 nogami subst:pl:inst:f
-to comp
+to part
 jej ppron3:sg:gen:f:ter:akc:npraep
 przodu subst:sg:gen:m3
-to part
+to pred
 tyłu subst:sg:gen:m3
 - interp
 na prep:acc
@@ -9445,7 +9445,7 @@ konie subst:pl:nom:m2
 . interp
 
 Standardowo adv:pos
-wypadły praet:pl:f:perf
+wypadły praet:pl:n:perf
 natomiast conj
 badania subst:pl:nom:n:ncol
 udawania ger:sg:gen:n:imperf:aff
@@ -9532,13 +9532,13 @@ półdystansie subst:sg:loc:m3
 Większość subst:sg:nom:f
 bezwzględna adj:sg:nom:f:pos
 wynosi fin:sg:ter:imperf
-194 num:pl:acc:m2:rec
+194 num:pl:acc:m3:congr
 . interp
 
 Goście subst:pl:nom:m1
 prezentujący pact:pl:nom:m1:imperf:aff
 znacznie adv:pos
-słabsze adj:pl:nom:f:com
+słabsze adj:pl:acc:f:sup
 umiejętności subst:pl:acc:f
 piłkarskie adj:pl:acc:f:pos
 nie part
@@ -9563,16 +9563,16 @@ nowoczesny adj:sg:nom:m3:pos
 komfort subst:sg:nom:m3
 . interp
 
-Tak adv:pos
+Tak part
 oto part
 dwie num:pl:nom:f:congr
 mapy subst:pl:nom:f
 kształtują fin:pl:ter:imperf
 od prep:gen:nwok
 pokoleń subst:pl:gen:n:ncol
-dwie num:pl:nom:f:congr
-różne adj:pl:nom:f:pos
-wizje subst:pl:nom:f
+dwie num:pl:acc:f:congr
+różne adj:pl:acc:f:pos
+wizje subst:pl:acc:f
 świata subst:sg:gen:m3
 . interp
 
@@ -9605,7 +9605,7 @@ na prep:loc
 przejściu subst:sg:loc:n:ncol
 granicznym adj:sg:loc:n:pos
 w prep:loc:nwok
-Chyżnem subst:sg:loc:m3
+Chyżnem subst:sg:loc:n:ncol
 rośnie fin:sg:ter:imperf
 . interp
 
@@ -9623,7 +9623,7 @@ Michała subst:sg:gen:m1
 H brev:pun
 . interp
 , interp
-którego adj:sg:acc:m1:pos
+którego adj:sg:gen:m1:pos
 policjanci subst:pl:nom:m1
 schwytali praet:pl:m1:perf
 podczas prep:gen
@@ -9643,7 +9643,7 @@ jest fin:sg:ter:imperf
 w prep:loc:nwok
 nim ppron3:sg:loc:m3:ter:akc:praep
 tyle num:pl:nom:f:rec
-finezji subst:pl:gen:f
+finezji subst:sg:gen:f
 , interp
 ciepła subst:sg:gen:n:ncol
 , interp
@@ -9724,7 +9724,7 @@ intelektu subst:sg:gen:m3
 , interp
 " interp
 pierwszą adj:sg:inst:f:pos
-lepszą adj:sg:nom:f:com
+lepszą adj:sg:inst:f:sup
 " interp
 myślą subst:sg:inst:f
 , interp
@@ -9782,17 +9782,17 @@ się part
 mogą fin:pl:ter:imperf
 się part
 spełnić inf:perf
-przewidywania ger:sg:gen:n:imperf:aff
+przewidywania subst:pl:acc:n:ncol
 powieści subst:sg:gen:f
-science adj:sg:gen:f:pos
-fiction adj:sg:gen:f:pos
+science subst:sg:gen:n:ncol
+fiction subst:sg:gen:n:ncol
 i conj
 że comp
 w prep:loc:nwok
 mózgu subst:sg:loc:m3
 można pred
 będzie bedzie:sg:ter:imperf
-implantować inf:imperf
+implantować inf:perf
 dowolne adj:pl:acc:n:pos
 wspomnienia subst:pl:acc:n:ncol
 , interp
@@ -9871,8 +9871,8 @@ idzie fin:sg:ter:imperf
 , interp
 by comp
 zejść inf:perf
-na prep:loc
-manowce subst:sg:loc:f
+na prep:acc
+manowce subst:pl:acc:m3
 ? interp
 
 - interp
@@ -9994,7 +9994,7 @@ w prep:loc:nwok
 innych adj:pl:loc:f:pos
 formach subst:pl:loc:f
 niż comp
-europejskie adj:sg:nom:n:pos
+europejskie adj:pl:nom:f:pos
 . interp
 
 - interp
@@ -10158,7 +10158,7 @@ wiernych subst:pl:gen:m1
 Fakt subst:sg:nom:m3
 , interp
 że comp
-uznawany ppas:sg:nom:m1:imperf:aff
+uznawany ppas:sg:nom:m3:imperf:aff
 za prep:acc
 symbol subst:sg:acc:m3
 niemieckiej adj:sg:gen:f:pos
@@ -10185,7 +10185,7 @@ przeróżne adj:pl:acc:m3:pos
 surowce subst:pl:acc:m3
 jak conj
 i conj
-wyczerpywaniem ger:sg:inst:n:perf:aff
+wyczerpywaniem ger:sg:inst:n:imperf:aff
 się part
 zasobów subst:pl:gen:m3
 mineralnych adj:pl:gen:m3:pos
@@ -10197,7 +10197,7 @@ Gdy adv
 po prep:loc
 drodze subst:sg:loc:f
 na prep:acc
-Węgry subst:pl:acc:m3
+Węgry subst:pl:acc:n:pt
 srebrny adj:sg:nom:m2:pos
 Mercedes subst:sg:nom:m2
 Vito subst:sg:nom:m1
@@ -10290,23 +10290,23 @@ Cristiani subst:sg:loc:f
 prezenterce subst:sg:loc:f
 telewizyjnej adj:sg:loc:f:pos
 , interp
-której adj:sg:gen:f:pos
+której adj:sg:dat:f:pos
 popęd subst:sg:nom:m3
 seksualny adj:sg:nom:m3:pos
 kontrolowany ppas:sg:nom:m3:imperf:aff
 jest fin:sg:ter:imperf
 przez prep:acc:nwok
 urządzenie subst:sg:acc:n:ncol
-zwane ppas:sg:nom:n:imperf:aff
+zwane ppas:sg:acc:n:perf:aff
 " interp
 Klik subst:sg:nom:m3
 " interp
 . interp
 
 Po prep:loc
-krótkich adj:pl:loc:m3:pos
-bojach subst:pl:loc:m3
-prawnych adj:pl:loc:m3:pos
+krótkich adj:pl:loc:f:pos
+bojach subst:pl:loc:f
+prawnych adj:pl:loc:f:pos
 do prep:gen
 tamtejszych adj:pl:gen:m3:pos
 sklepów subst:pl:gen:m3
@@ -10372,7 +10372,7 @@ tym subst:sg:loc:n:ncol
 jeżdżąc pcon:imperf
 po prep:loc
 świecie subst:sg:loc:m3
-Wałęsa subst:sg:inst:m1
+Wałęsa subst:sg:nom:m1
 będzie bedzie:sg:ter:imperf
 szukać inf:imperf
 pomocy subst:sg:gen:f
@@ -10399,7 +10399,7 @@ sposobami subst:pl:inst:m3
 chemicznymi adj:pl:inst:m3:pos
 . interp
 
-Szacuję fin:sg:ter:imperf
+Szacuję fin:sg:pri:imperf
 wartość subst:sg:acc:f
 floty subst:sg:gen:f
 kołobrzeskiego adj:sg:gen:m1:pos
@@ -10429,7 +10429,7 @@ dzieciństwie subst:sg:loc:n:ncol
 był praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 często adv:pos
-zagubiony ppas:sg:nom:m1:perf:aff
+zagubiony adj:sg:nom:m1:pos
 " interp
 . interp
 
@@ -10460,7 +10460,7 @@ do prep:gen
 krótkiego adj:sg:gen:m3:pos
 dialogu subst:sg:gen:m3
 pomiędzy prep:inst
-śniącym subst:sg:inst:m1
+śniącym pact:sg:inst:m1:imperf:aff
 , interp
 a conj
 małym adj:sg:inst:m1:pos
@@ -10474,7 +10474,7 @@ robisz fin:sg:sec:imperf
 ? interp
 - interp
 pyta fin:sg:ter:imperf
-śniący subst:sg:nom:m1
+śniący pact:sg:nom:m1:imperf:aff
 . interp
 
 - interp
@@ -10554,7 +10554,7 @@ Malachiasz subst:sg:nom:m1
 . interp
 
 Do prep:gen
-spa subst:sg:gen:m3
+spa subst:sg:gen:n:ncol
 udają fin:pl:ter:imperf
 się part
 osoby subst:pl:nom:f
@@ -10575,8 +10575,8 @@ co part
 udawać inf:imperf
 - interp
 akurat part
-polską adj:sg:nom:f:pos
-prawicą subst:sg:nom:f
+polską adj:sg:inst:f:pos
+prawicą subst:sg:inst:f
 gardził praet:sg:m1:imperf
 wyjątkowo adv:pos
 . interp
@@ -10600,7 +10600,7 @@ tylko conj
 dlatego adv
 , interp
 że comp
-Złotego adj:sg:acc:m2:pos
+Złotego adj:sg:acc:m1:pos
 Lwa subst:sg:acc:m2
 na prep:acc
 początek subst:sg:acc:m3
@@ -10627,8 +10627,8 @@ Wenecji subst:sg:gen:f
 przyjadą fin:pl:ter:perf
 m.in brev:pun
 . interp
-Meryl subst:sg:nom:f
-Streep subst:sg:nom:f
+Meryl subst:sg:nom:m1
+Streep subst:sg:nom:m1
 , interp
 Sting subst:sg:nom:m1
 oraz conj
@@ -10703,8 +10703,8 @@ tylko conj
 niszczą fin:pl:ter:imperf
 opakowania subst:pl:acc:n:ncol
 i conj
-artykuły subst:pl:nom:m3
-spożywcze adj:pl:nom:m3:pos
+artykuły subst:pl:acc:m3
+spożywcze adj:pl:acc:m3:pos
 , interp
 ale conj
 również part
@@ -10725,7 +10725,7 @@ nad prep:inst:nwok
 sensem subst:sg:inst:m3
 życia subst:sg:gen:n:ncol
 i conj
-słowa subst:sg:gen:n:ncol
+słowa subst:pl:acc:n:ncol
 ojca subst:sg:gen:m1
 : interp
 " interp
@@ -10804,7 +10804,7 @@ m aglt:sg:pri:imperf:nwok
 . interp
 
 Bułgar subst:sg:nom:m1
-Stoiczkow subst:pl:gen:m1
+Stoiczkow subst:sg:nom:m1
 , interp
 z prep:inst:nwok
 którym adj:sg:inst:m1:pos
@@ -10889,15 +10889,15 @@ olej subst:sg:acc:m3
 ustabilizowane ppas:pl:nom:f:perf:aff
 na prep:loc
 poziomie subst:sg:loc:m3
-20000 num:pl:gen:m3:congr
+20000 num:pl:gen:m2:congr
 - interp
-30000 num:pl:gen:m3:congr
+30000 num:pl:gen:m2:congr
 zł brev:npun
 . interp
 
-Odkrycie ger:sg:nom:n:perf:aff
+Odkrycie subst:sg:nom:n:ncol
 , interp
-którego adj:sg:gen:m3:pos
+którego adj:sg:gen:n:pos
 dokonała praet:sg:f:perf
 , interp
 nie part
@@ -10927,8 +10927,8 @@ zapada fin:sg:ter:imperf
 że comp
 do prep:gen
 jej ppron3:sg:gen:f:ter:akc:npraep
-wszystkich adj:pl:gen:m3:pos
-ciężarów subst:pl:gen:m3
+wszystkich adj:pl:gen:f:pos
+ciężarów subst:pl:gen:f
 na prep:loc
 sercu subst:sg:loc:n:ncol
 dokłada fin:sg:ter:imperf
@@ -10984,8 +10984,8 @@ wysłał praet:sg:m3:perf
 do prep:gen
 nich ppron3:pl:gen:m1:ter:akc:praep
 delegację subst:sg:acc:f
-pod prep:acc:nwok
-wodzą subst:sg:acc:m1
+pod prep:inst:nwok
+wodzą subst:pl:inst:n:pt
 siostry subst:sg:gen:f
 Gizeli subst:sg:gen:f
 . interp
@@ -11016,7 +11016,7 @@ nie part
 uważał praet:sg:m1:imperf
 się part
 za prep:acc
-ułomka subst:sg:acc:m1
+ułomka subst:sg:acc:m2
 . interp
 
 Mogę fin:sg:pri:imperf
@@ -11096,7 +11096,7 @@ będziemy bedzie:pl:pri:imperf
 patrzeć inf:imperf
 na prep:acc
 to subst:sg:acc:n:ncol
-czy part
+czy conj
 dostaniemy fin:pl:pri:perf
 zezwolenie subst:sg:acc:n:ncol
 , interp
@@ -11133,7 +11133,7 @@ i conj
 leczenie ger:sg:acc:n:imperf:aff
 zaburzeń subst:pl:gen:n:ncol
 wzwodu subst:sg:gen:m3
-prącia subst:sg:gen:m1
+prącia subst:sg:gen:m3
 " interp
 . interp
 
@@ -11171,9 +11171,9 @@ Pałacu subst:sg:gen:m3
 od prep:gen:nwok
 strony subst:sg:gen:f
 parku subst:sg:gen:m3
-powstaną fin:pl:ter:imperf
-apartamenty subst:pl:nom:m3
-gościnne adj:pl:nom:m3:pos
+powstaną fin:pl:ter:perf
+apartamenty subst:pl:nom:n:pt
+gościnne adj:pl:nom:n:pos
 z prep:inst:nwok
 trzema num:pl:inst:f:congr
 sypialniami subst:pl:inst:f
@@ -11194,7 +11194,7 @@ potrafi fin:sg:ter:imperf
 sprecyzować inf:perf
 i conj
 skonkretyzować inf:perf
-konotacji subst:pl:gen:f
+konotacji subst:sg:gen:f
 , interp
 jakie adj:pl:acc:f:pos
 wzbudza fin:sg:ter:imperf
@@ -11237,7 +11237,7 @@ nie part
 potrwa fin:sg:ter:perf
 długo adv:pos
 , interp
-kochanie subst:sg:voc:m1
+kochanie subst:sg:voc:f
 - interp
 uspokajał praet:sg:m1:imperf
 cię ppron12:sg:acc:m1:sec:nakc
@@ -11296,7 +11296,7 @@ potrafię fin:sg:pri:imperf
 skupić inf:perf
 się part
 w prep:loc:nwok
-tych adj:pl:loc:n:pos
+tych adj:pl:loc:m3:pos
 warunkach subst:pl:loc:n:pt
 na prep:loc
 wierszu subst:sg:loc:m3
@@ -11359,8 +11359,8 @@ westchnął praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 . interp
 
-Choroby subst:pl:nom:f
-alergiczne adj:pl:nom:f:pos
+Choroby subst:pl:nom:n:pt
+alergiczne adj:pl:nom:n:pos
 powstają fin:pl:ter:imperf
 z prep:gen:nwok
 winy subst:sg:gen:f
@@ -11436,7 +11436,7 @@ W prep:loc:nwok
 specyficznej adj:sg:loc:f:pos
 atmosferze subst:sg:loc:f
 " interp
-gotowości subst:sg:loc:f
+gotowości subst:sg:gen:f
 do prep:gen
 boju subst:sg:gen:m3
 " interp
@@ -11456,10 +11456,10 @@ potęgę subst:sg:acc:f
 i conj
 bezsilność subst:sg:acc:f
 władzy subst:sg:gen:f
-rozpoczynały praet:pl:m3:imperf
+rozpoczynały praet:pl:n:imperf
 się part
 pamiętne adj:pl:nom:n:pos
-obrady subst:pl:nom:m3
+obrady subst:pl:nom:n:pt
 . interp
 
 We prep:loc:wok
@@ -11484,7 +11484,7 @@ zimy subst:sg:gen:f
 - interp
 Biznesplan subst:sg:nom:m3
 na prep:acc
-2001 adj:sg:acc:m3:pos
+2001 adj:sg:loc:m3:pos
 r brev:pun
 . interp
 nie part
@@ -11571,7 +11571,7 @@ ratach subst:pl:loc:f
 - interp
 co prep:gen
 roku subst:sg:gen:m3
-5 num:pl:acc:m3:rec
+5 num:pl:nom:m3:rec
 proc brev:pun
 . interp
 
@@ -11584,7 +11584,7 @@ by comp
 zobaczyć inf:perf
 , interp
 jak adv:pos
-wiele num:pl:nom:m3:rec
+wiele num:pl:acc:m3:rec
 trudu subst:sg:gen:m3
 wymaga fin:sg:ter:imperf
 praca subst:sg:nom:f
@@ -11623,13 +11623,13 @@ mogą fin:pl:ter:imperf
 posługiwać inf:imperf
 się part
 dokumentami subst:pl:inst:m3
-uniemożliwiającymi pact:pl:inst:f:imperf:aff
+uniemożliwiającymi pact:pl:inst:m3:imperf:aff
 ustalenie ger:sg:acc:n:perf:aff
 danych subst:pl:gen:n:pt
-identyfikujących pact:pl:gen:m3:imperf:aff
+identyfikujących pact:pl:gen:n:imperf:aff
 żołnierza subst:sg:acc:m1
 oraz conj
-środków subst:pl:gen:m3
+środków subst:pl:gen:n:pt
 , interp
 którymi adj:pl:inst:m3:pos
 posługuje fin:sg:ter:imperf
@@ -11667,7 +11667,7 @@ bo comp
 tyle adv
 się part
 zawistni adj:pl:nom:m1:pos
-nagadali praet:pl:m1:perf
+nagadali praet:pl:m1:imperf
 , interp
 że comp
 sobie siebie:dat
@@ -11680,7 +11680,7 @@ piórka subst:pl:acc:n:ncol
 i conj
 pycha subst:sg:nom:f
 go ppron3:sg:acc:m1:ter:nakc:npraep
-wzdęła praet:sg:f:perf
+wzdęła adj:sg:nom:f:pos
 . interp
 
 W prep:loc:nwok
@@ -11729,7 +11729,7 @@ em aglt:sg:pri:imperf:wok
 i conj
 nie part
 męczy fin:sg:ter:imperf
-mnie ppron12:sg:gen:m1:pri:akc
+mnie ppron12:sg:acc:m1:pri:akc
 głód subst:sg:nom:m3
 awangardowego adj:sg:gen:n:pos
 zawracania ger:sg:gen:n:imperf:aff
@@ -11785,10 +11785,10 @@ Stefana subst:sg:gen:m1
 Stuligrosza subst:sg:gen:m1
 , interp
 sopranistką subst:sg:inst:f
-Teresą subst:sg:nom:f
-Żylis subst:sg:nom:f
+Teresą subst:sg:inst:f
+Żylis subst:sg:inst:f
 - interp
-Garą subst:sg:nom:f
+Garą subst:sg:inst:f
 czy conj
 wirtuozem subst:sg:inst:m1
 skrzypiec subst:pl:gen:n:pt
@@ -11875,7 +11875,7 @@ Fatrę subst:sg:acc:f
 w prep:loc:nwok
 rejonie subst:sg:loc:m3
 Niskich adj:pl:gen:n:pos
-Tatr subst:pl:gen:n:ncol
+Tatr subst:pl:gen:n:pt
 . interp
 
 Kanclerz subst:sg:nom:m1
@@ -11888,12 +11888,12 @@ jego ppron3:sg:gen:m1:ter:akc:npraep
 rząd subst:sg:nom:m3
 uzależnia fin:sg:ter:imperf
 przystąpienie ger:sg:acc:n:perf:aff
-NRF brev:npun
+NRF subst:sg:gen:m3
 do prep:gen
 układu subst:sg:gen:m3
 od prep:gen:nwok
 szeregu subst:sg:gen:m3
-warunków subst:pl:gen:n:pt
+warunków subst:pl:gen:m3
 i conj
 w prep:loc:nwok
 ogóle subst:sg:loc:m3
@@ -11959,7 +11959,7 @@ kochacie fin:pl:sec:imperf
 Wasze adj:pl:acc:m3:pos
 koty subst:pl:acc:m2
 , interp
-zadajcie impt:pl:sec:imperf
+zadajcie impt:pl:sec:perf
 sobie siebie:dat
 trochę num:sg:acc:m3:rec
 trudu subst:sg:gen:m3
@@ -11979,7 +11979,7 @@ na prep:acc
 cierpienie subst:sg:acc:n:ncol
 , interp
 lub conj
-rozpaczać pcon:imperf
+rozpaczać inf:imperf
 po prep:loc
 stracie subst:sg:loc:f
 . interp
@@ -12042,7 +12042,7 @@ to comp
 identycznie adv:pos
 musi fin:sg:ter:imperf
 za prep:inst
-określoną ppas:sg:inst:f:perf:aff
+określoną adj:sg:inst:f:pos
 opłatą subst:sg:inst:f
 udostępnić inf:perf
 wszystkie adj:pl:acc:m3:pos
@@ -12050,7 +12050,7 @@ zasoby subst:pl:acc:m3
 sieci subst:sg:gen:f
 , interp
 obojętnie adv:pos
-czy part
+czy conj
 podoba fin:sg:ter:imperf
 się part
 to subst:sg:nom:n:ncol
@@ -12071,8 +12071,8 @@ sport subst:sg:nom:m3
 , interp
 jak conj
 i conj
-inne adj:pl:acc:f:pos
-formy subst:pl:acc:f
+inne adj:pl:nom:f:pos
+formy subst:pl:nom:f
 terapii subst:sg:gen:f
 : interp
 bajkoterapia subst:sg:nom:f
@@ -12109,7 +12109,7 @@ wszystko subst:sg:acc:n:ncol
 
 Według prep:gen
 pani subst:sg:gen:f
-konsul subst:sg:gen:f
+konsul subst:sg:nom:m1
 , interp
 która adj:sg:nom:f:pos
 była praet:sg:f:imperf
@@ -12180,15 +12180,15 @@ Zgłaszaj impt:sg:sec:imperf
 sugestie subst:pl:acc:f
 , interp
 a conj
-nie conj
+nie part
 " interp
 uderzaj impt:sg:sec:imperf
 " interp
 w prep:acc:nwok
-innych subst:pl:acc:m1
+innych adj:pl:acc:m1:pos
 . interp
 
-Pieniędzy subst:pl:gen:m3
+Pieniędzy subst:sg:gen:f
 , interp
 około part
 2 num:pl:gen:m3:congr
@@ -12205,7 +12205,7 @@ podkarpackiego adj:sg:gen:n:pos
 . interp
 
 Formalnie adv:pos
-był praet:sg:m1:imperf
+był praet:sg:m3:imperf
 wspólną adj:sg:inst:f:pos
 własnością subst:sg:inst:f
 ambasadora subst:sg:gen:m1
@@ -12414,7 +12414,7 @@ Norwida subst:sg:gen:m1
 uwzględnić inf:perf
 również part
 marszandów subst:pl:acc:m1
-wizjonerów subst:pl:acc:m1
+wizjonerów subst:pl:gen:m1
 , interp
 to comp
 Starmach subst:sg:nom:m1
@@ -12433,7 +12433,7 @@ Ja ppron12:sg:nom:m1:pri
 - interp
 zdziwił praet:sg:m1:perf
 się part
-Nowy adj:sg:nom:m1:pos
+Nowy subst:sg:nom:m1
 . interp
 
 W prep:loc:nwok
@@ -12455,7 +12455,7 @@ Radosław subst:sg:nom:m1
 Ignatiew subst:sg:nom:m1
 . interp
 
-Chesterton subst:sg:nom:m3
+Chesterton subst:sg:nom:m1
 w prep:loc:nwok
 swych adj:pl:loc:n:pos
 wydanych ppas:pl:loc:m3:perf:aff
@@ -12541,7 +12541,7 @@ Hiszpanii subst:sg:loc:f
 Wielkim adj:sg:inst:n:pos
 przeżyciem subst:sg:inst:n:ncol
 dla prep:gen
-obojga subst:pl:gen:m1:pt
+obojga subst:sg:gen:m1
 , interp
 dla prep:gen
 generała subst:sg:gen:m1
@@ -12708,7 +12708,7 @@ słysząc pcon:imperf
 , interp
 że comp
 to pred
-sobowtór subst:sg:nom:m1
+sobowtór subst:sg:nom:m3
 . interp
 
 Jeśli comp
@@ -12754,15 +12754,15 @@ angielskich adj:pl:gen:f:pos
 nazw subst:pl:gen:f
 podstawowych adj:pl:gen:f:pos
 farb subst:pl:gen:f
-używanych ppas:pl:gen:f:perf:aff
+używanych ppas:pl:gen:f:imperf:aff
 w prep:loc:nwok
 drukarni subst:sg:loc:f
 : interp
-Cyjan subst:sg:nom:m3
+Cyjan subst:sg:nom:m2
 , interp
-Magenta subst:sg:nom:f
+Magenta subst:sg:nom:m1
 , interp
-Yellow subst:sg:nom:n:ncol
+Yellow subst:sg:nom:m3
 i conj
 blacK subst:sg:nom:m3
 . interp
@@ -12785,7 +12785,7 @@ gdy adv
 mają fin:pl:ter:imperf
 się part
 rozpocząć inf:perf
-rozmowy subst:pl:nom:f
+rozmowy subst:pl:acc:f
 z prep:inst:nwok
 rządem subst:sg:inst:m3
 , interp
@@ -12857,7 +12857,7 @@ wtedy adv
 po prep:loc
 korytarzu subst:sg:loc:m3
 zatupotały praet:pl:m3:perf
-klapciatowate ppas:pl:acc:m3:perf:aff
+klapciatowate ppas:pl:nom:m3:perf:aff
 kroki subst:pl:nom:m3
 i conj
 do prep:gen
@@ -12908,7 +12908,7 @@ wysadzili praet:pl:m1:perf
 w prep:acc:nwok
 powietrze subst:sg:acc:n:ncol
 pawilon subst:sg:acc:m3
-warzywno adv:pos
+warzywno adja
 - interp
 owocowy adj:sg:acc:m3:pos
 na prep:loc
@@ -12938,13 +12938,13 @@ się part
 kolegowali praet:pl:m1:imperf
 , interp
 bo comp
-Jaśka subst:sg:acc:m1
+Jaśka subst:sg:nom:m1
 interesowały praet:pl:f:imperf
 zupełnie adv:pos
 inne adj:pl:nom:f:pos
 rzeczy subst:pl:nom:f
 niż comp
-Franka subst:sg:acc:m1
+Franka subst:sg:gen:m1
 , interp
 ale conj
 postanowił praet:sg:m1:perf
@@ -12989,7 +12989,7 @@ informacji subst:sg:gen:f
 przekazanej ppas:sg:gen:f:perf:aff
 przez prep:acc:nwok
 dyrektora subst:sg:acc:m1
-OSiR subst:sg:gen:f
+OSiR subst:sg:gen:m3
 , interp
 osoba subst:sg:nom:f
 dzierżawiąca pact:sg:nom:f:imperf:aff
@@ -13007,7 +13007,7 @@ sprzedaż subst:sg:acc:f
 gorącej adj:sg:gen:f:pos
 czekolady subst:sg:gen:f
 oraz conj
-grzanego adj:sg:gen:n:pos
+grzanego ppas:sg:gen:n:imperf:aff
 wina subst:sg:gen:n:ncol
 dla prep:gen
 osób subst:pl:gen:f
@@ -13038,15 +13038,15 @@ wyróżniamy fin:pl:pri:imperf
 dwie num:pl:acc:f:congr
 inne adj:pl:acc:f:pos
 formy subst:pl:acc:f
-zlodzenia ger:sg:gen:n:perf:aff
+zlodzenia subst:sg:gen:n:ncol
 rzek subst:pl:gen:f
 : interp
-lód subst:sg:nom:m3
+lód subst:sg:acc:m3
 brzegowy adj:sg:nom:m3:pos
 i conj
-śryż subst:sg:nom:m3
+śryż subst:sg:acc:m3
 ( interp
-lód subst:sg:nom:m3
+lód subst:sg:acc:m3
 prądowy adj:sg:nom:m3:pos
 ) interp
 . interp
@@ -13150,10 +13150,10 @@ przez prep:acc:nwok
 co subst:sg:acc:n:ncol
 tkanki subst:pl:nom:f
 otrzymują fin:pl:ter:imperf
-mniej num:sg:acc:m3:rec
+mniej num:pl:acc:m3:rec
 tlenu subst:sg:gen:m3
-dostarczanego ppas:sg:gen:m3:perf:aff
-im ppron3:pl:dat:m1:ter:akc:npraep
+dostarczanego ppas:sg:gen:m3:imperf:aff
+im comp
 przez prep:acc:nwok
 krew subst:sg:acc:f
 . interp
@@ -13191,8 +13191,8 @@ przeze prep:acc:wok
 mnie ppron12:sg:acc:m1:pri:akc
 : interp
 " interp
-Oto pred
-ja ppron12:sg:nom:f:pri
+Oto part
+ja ppron12:sg:nom:m1:pri
 służebnica subst:sg:nom:f
 Pańska adj:sg:nom:f:pos
 , interp
@@ -13244,11 +13244,11 @@ tak adv:pos
 wysoka adj:sg:nom:f:pos
 ? interp
 
-Patyk subst:sg:nom:m3
-roześmiał praet:sg:m3:perf
+Patyk subst:sg:nom:m1
+roześmiał praet:sg:m1:perf
 się part
 i conj
-pognał praet:sg:m3:perf
+pognał praet:sg:m1:perf
 obcałowywać inf:imperf
 kolejne adj:pl:acc:f:pos
 panny subst:pl:acc:f
@@ -13271,7 +13271,7 @@ wychowankowie subst:pl:nom:m1
 słynnego adj:sg:gen:m1:pos
 w prep:loc:nwok
 czasach subst:pl:loc:m3
-PRL subst:sg:gen:f
+PRL subst:sg:gen:m3
 bandyty subst:sg:gen:m1
 Barabasza subst:sg:gen:m1
 . interp
@@ -13317,7 +13317,7 @@ nikogo subst:sg:gen:m1
 
 Z prep:gen:nwok
 leżącej pact:sg:gen:f:imperf:aff
-niedaleko prep:gen
+niedaleko adv:pos
 miejscowości subst:sg:gen:f
 Borki subst:pl:nom:n:pt
 wywodziła praet:sg:f:imperf
@@ -13351,7 +13351,7 @@ nachyla fin:sg:ter:imperf
 się part
 ku prep:dat
 lampie subst:sg:dat:f
-stojącej pact:sg:gen:f:imperf:aff
+stojącej pact:sg:loc:f:imperf:aff
 na prep:loc
 stole subst:sg:loc:m3
 . interp
@@ -13402,7 +13402,7 @@ policjanci subst:pl:nom:m1
 powinni winien:pl:m1:imperf
 ścigać inf:imperf
 złodzieja subst:sg:acc:m1
-przyłapanego adj:sg:acc:m1:pos
+przyłapanego ppas:sg:acc:m1:perf:aff
 na prep:loc
 gorącym adj:sg:loc:m3:pos
 uczynku subst:sg:loc:m3
@@ -13432,7 +13432,7 @@ organizację subst:sg:acc:f
 pracy subst:sg:gen:f
 można pred
 zdziałać inf:perf
-dużo adv:pos
+dużo num:pl:acc:m3:rec
 . interp
 
 Oskarżona subst:sg:nom:f
@@ -13447,7 +13447,7 @@ podjęła praet:sg:f:perf
 z prep:gen:nwok
 cudzego adj:sg:gen:n:pos
 konta subst:sg:gen:n:ncol
-3 num:pl:acc:m3:congr
+3 num:pl:acc:m3:rec
 tys brev:pun
 . interp
 dolarów subst:pl:gen:m2
@@ -13563,26 +13563,26 @@ interesujące adj:sg:nom:n:pos
 ze prep:gen:wok
 względu subst:sg:gen:m3
 na prep:acc
-przebywających pact:pl:gen:m1:imperf:aff
+przebywających pact:pl:acc:m1:imperf:aff
 tam adv
 grzeszników subst:pl:acc:m1
 niż comp
 na prep:acc
 " interp
-urzędujących pact:pl:gen:m1:imperf:aff
+urzędujących pact:pl:acc:m1:imperf:aff
 " interp
 stróżów subst:pl:acc:m1
 . interp
 
 Żaden adj:sg:nom:m1:pos
 z prep:gen:nwok
-nich ppron3:pl:gen:m1:ter:akc:praep
+nich ppron3:pl:gen:f:ter:akc:praep
 do prep:gen
 późnego adj:sg:gen:m3:pos
 wieczora subst:sg:gen:m3
 nie part
 uzyskał praet:sg:m1:perf
-potwierdzenia ger:sg:gen:n:perf:aff
+potwierdzenia subst:sg:gen:n:ncol
 doniesień subst:pl:gen:n:ncol
 Echa subst:sg:gen:n:ncol
 Moskwy subst:sg:gen:f
@@ -13642,7 +13642,7 @@ dni subst:pl:gen:m3
 
 Na prep:loc
 stadionie subst:sg:loc:m3
-WP subst:sg:gen:m3
+WP subst:sg:gen:f
 w prep:loc:nwok
 Warszawie subst:sg:loc:f
 w prep:loc:nwok
@@ -13659,7 +13659,7 @@ Słowenię subst:sg:acc:f
 ( interp
 1 dig
 : interp
-0 num:pl:nom:m3:rec
+0 dig
 ) interp
 . interp
 
@@ -13840,7 +13840,7 @@ Tadżykistanie subst:sg:loc:m3
 Są fin:pl:ter:imperf
 chryzantemy subst:pl:nom:m3
 w prep:loc:nwok
-najróżniejszych adj:pl:gen:m3:sup
+najróżniejszych adj:pl:loc:m3:pos
 kolorach subst:pl:loc:m3
 : interp
 białym adj:sg:loc:m3:pos
@@ -13902,9 +13902,9 @@ ma fin:sg:ter:imperf
 stanąć inf:perf
 na prep:loc
 miejscu subst:sg:loc:n:ncol
-starego adj:sg:gen:m3:pos
+starego adj:sg:gen:m1:pos
 " interp
-Różyca subst:sg:gen:m3
+Różyca subst:sg:gen:m1
 " interp
 . interp
 
@@ -14021,18 +14021,18 @@ męża subst:sg:acc:m1
 " interp
 była praet:sg:f:imperf
 znacznie adv:pos
-częstsza adj:sg:nom:f:pos
+częstsza adj:sg:nom:f:com
 wśród prep:gen
 młodzieży subst:sg:gen:f
 z prep:gen:nwok
-zawodówek subst:pl:gen:f
+zawodówek subst:pl:gen:m3
 ( interp
 61 num:pl:nom:m3:rec
 proc brev:pun
 . interp
 ) interp
 niż comp
-techników subst:pl:acc:m1
+techników subst:pl:gen:m1
 ( interp
 46 num:pl:nom:m3:rec
 proc brev:pun
@@ -14047,7 +14047,7 @@ proc brev:pun
 ) interp
 . interp
 
-Korumpowania ger:sg:gen:n:imperf:aff
+Korumpowania subst:sg:gen:n:ncol
 środowiska subst:sg:gen:n:ncol
 dziennikarskiego adj:sg:gen:n:pos
 , interp
@@ -14078,7 +14078,7 @@ Wiadomości subst:pl:nom:f
 . interp
 
 To subst:sg:nom:n:ncol
-jednak part
+jednak conj
 nie part
 wystarcza fin:sg:ter:imperf
 do prep:gen
@@ -14097,7 +14097,7 @@ gry subst:sg:gen:f
 - interp
 stwierdził praet:sg:m1:perf
 trener subst:sg:nom:m1
-Czarnych adj:pl:gen:m1:pos
+Czarnych subst:pl:gen:m1
 Kazimierz subst:sg:nom:m1
 Dembiński subst:sg:nom:m1
 . interp
@@ -14141,14 +14141,14 @@ piętrze subst:sg:loc:n:ncol
 ktoś subst:sg:nom:m1
 ćwiczy fin:sg:ter:imperf
 na prep:loc
-klawesynie subst:sg:loc:m3
+klawesynie subst:sg:loc:f
 sarabandę subst:sg:acc:f
 Angleberta subst:sg:gen:m1
 , interp
 wiatr subst:sg:nom:m3
-szeleści fin:sg:ter:imperf
+szeleści fin:pl:ter:imperf
 stronicami subst:pl:inst:f
-niedoczytanej adj:sg:gen:f:pos
+niedoczytanej ppas:sg:gen:f:perf:aff
 książki subst:sg:gen:f
 . interp
 
@@ -14189,7 +14189,7 @@ eś aglt:sg:sec:imperf:wok
 
 Rok subst:sg:nom:m3
 funkcjonowania ger:sg:gen:n:imperf:aff
-wyższych adj:pl:gen:m3:com
+wyższych adj:pl:gen:m3:sup
 szczebli subst:pl:gen:m3
 samorządów subst:pl:gen:m3
 nie part
@@ -14210,7 +14210,7 @@ znaleziono imps:perf
 wczoraj adv
 rano adv:pos
 w prep:loc:nwok
-ruinach subst:pl:loc:m3
+ruinach subst:pl:loc:f
 World subst:sg:gen:n:ncol
 Trade subst:sg:gen:n:ncol
 Center subst:sg:gen:n:ncol
@@ -14259,7 +14259,7 @@ pomyślał praet:sg:m1:perf
 Tabliczki subst:pl:acc:f
 , interp
 niczym comp
-groby subst:pl:acc:m3
+groby subst:pl:nom:m3
 , interp
 będą bedzie:pl:ter:imperf
 usiłowali praet:pl:m1:imperf
@@ -14283,30 +14283,30 @@ słyszał praet:sg:m1:imperf
 i part
 tak adv:pos
 : interp
-myśli fin:sg:ter:imperf
+myśli subst:pl:acc:f
 , interp
-dźwięki subst:pl:nom:m3
+dźwięki subst:pl:acc:m3
 odtwarzane ppas:pl:nom:m3:imperf:aff
 przez prep:acc:nwok
 pamięć subst:sg:acc:f
 , interp
 no part
 i conj
-te adj:pl:nom:m3:pos
-przykre adj:pl:nom:m3:pos
-fantomy subst:pl:nom:m3
+te adj:pl:acc:m3:pos
+przykre adj:pl:acc:m3:pos
+fantomy subst:pl:acc:f
 hałasów subst:pl:gen:m3
 , interp
-piski subst:pl:nom:m3
+piski subst:pl:acc:m3
 w prep:loc:nwok
 mózgu subst:sg:loc:m3
-uciążliwe adj:pl:nom:n:pos
+uciążliwe adj:pl:nom:m3:pos
 , interp
 choć comp
-nieistniejące pact:pl:nom:m3:imperf:aff
+nieistniejące pact:pl:acc:m3:imperf:aff
 , interp
 a conj
-przybierające pact:pl:nom:m3:imperf:aff
+przybierające pact:pl:acc:m3:imperf:aff
 na prep:loc
 sile subst:sg:loc:f
 tym adv
@@ -14351,7 +14351,7 @@ Musisz fin:sg:sec:imperf
 cofnąć inf:perf
 się part
 o prep:acc
-2 num:pl:acc:m3:congr
+2 num:pl:acc:n:congr:ncol
 pola subst:pl:acc:n:ncol
 do prep:gen
 tyłu subst:sg:gen:m3
@@ -14369,7 +14369,7 @@ Pisząc pcon:imperf
 " interp
 dobry adj:sg:nom:m1:pos
 " interp
-odwołuję fin:sg:ter:imperf
+odwołuję fin:sg:pri:imperf
 sie part
 do prep:gen
 moralności subst:sg:gen:f
@@ -14407,7 +14407,7 @@ Przebaczamy fin:pl:pri:imperf
 i conj
 prosimy fin:pl:pri:imperf
 o prep:acc
-przebaczenie ger:sg:acc:n:perf:aff
+przebaczenie subst:sg:acc:n:ncol
 " interp
 było praet:sg:n:imperf
 wspaniałe adj:sg:nom:n:pos
@@ -14515,9 +14515,9 @@ większości subst:sg:gen:f
 lokatorów subst:pl:gen:m1
 do prep:gen
 kotów subst:pl:gen:m2
-żyjących pact:pl:gen:m3:imperf:aff
+żyjących pact:pl:gen:m1:imperf:aff
 w prep:loc:nwok
-piwnicach subst:pl:loc:f
+piwnicach subst:pl:loc:n:ncol
 uzasadniana ppas:sg:nom:f:imperf:aff
 jest fin:sg:ter:imperf
 zazwyczaj adv
@@ -14542,7 +14542,7 @@ USA subst:pl:loc:n:pt
 w prep:loc:nwok
 stanie subst:sg:loc:m3
 New frag
-Jersey subst:sg:gen:n:ncol
+Jersey subst:sg:nom:n:ncol
 , interp
 na prep:loc
 półwyspie subst:sg:loc:m3
@@ -14551,7 +14551,7 @@ ujściami subst:pl:inst:n:ncol
 rzek subst:pl:gen:f
 Hudson subst:sg:nom:m3
 i conj
-Hackensack subst:sg:gen:n:ncol
+Hackensack subst:sg:nom:m3
 do prep:gen
 Oceanu subst:sg:gen:m3
 Atlantyckiego adj:sg:gen:m3:pos
@@ -14583,7 +14583,7 @@ na prep:loc
 podstawie subst:sg:loc:f
 ustawy subst:sg:gen:f
 , interp
-przebywającym pact:sg:inst:m1:imperf:aff
+przebywającym pact:sg:loc:n:imperf:aff
 na prep:acc
 stałe adj:sg:acc:n:pos
 za prep:inst
@@ -14624,7 +14624,7 @@ planował praet:sg:m1:imperf
 a conj
 inaczej adv
 się part
-potoczyło praet:sg:n:imperf
+potoczyło praet:sg:n:perf
 . interp
 
 – interp
@@ -14662,9 +14662,9 @@ W prep:loc:nwok
 szpitalu subst:sg:loc:m3
 specjalistycznym adj:sg:loc:m3:pos
 - interp
-dysponuję fin:sg:ter:imperf
-takimi adj:pl:inst:m3:pos
-danymi subst:pl:inst:n:ncol
+dysponuję fin:sg:pri:imperf
+takimi adj:pl:inst:n:pos
+danymi subst:pl:inst:f
 - interp
 średnia adj:sg:nom:f:pos
 pensja subst:sg:nom:f
@@ -14696,7 +14696,7 @@ na prep:loc
 oddziale subst:sg:loc:m3
 neurochirurgii subst:sg:gen:f
 - interp
-1542 num:pl:acc:m3:rec
+1542 num:pl:acc:m2:rec
 zł brev:npun
 brutto adv:pos
 . interp
@@ -14713,7 +14713,7 @@ spotkania subst:sg:gen:n:ncol
 z prep:inst:nwok
 panią subst:sg:inst:f
 minister subst:sg:nom:m1
-Wnuk subst:sg:nom:m1
+Wnuk subst:sg:inst:f
 - interp
 Nazarową subst:sg:inst:f
 - interp
@@ -14771,10 +14771,10 @@ niezależności subst:sg:gen:f
 Kościoła subst:sg:gen:m3
 i conj
 państwa subst:sg:gen:n:ncol
-równoznaczną adj:sg:inst:f:pos
+równoznaczną adj:sg:acc:f:pos
 z prep:inst:nwok
 zasadą subst:sg:inst:f
-ich ppron3:pl:gen:m3:ter:akc:npraep
+ich ppron3:pl:gen:f:ter:akc:npraep
 rozdzielności subst:sg:gen:f
 . interp
 
@@ -14808,10 +14808,10 @@ placówek subst:pl:gen:f
 Od prep:gen:nwok
 rozpoczęcia ger:sg:gen:n:perf:aff
 eksploatacji subst:sg:gen:f
-concordy subst:sg:gen:f
+concordy subst:pl:nom:m3
 British subst:sg:nom:m3
-Airways subst:sg:nom:m3
-przebyły praet:pl:f:perf
+Airways subst:pl:nom:m3
+przebyły praet:pl:m3:perf
 ponad part
 177 num:pl:acc:m3:rec
 mln brev:npun
@@ -14863,7 +14863,7 @@ Grzegorz subst:sg:nom:m1
 Turnau subst:sg:nom:m1
 zrobił praet:sg:m1:perf
 " interp
-Kutno subst:sg:acc:n:ncol
+Kutno subst:sg:nom:n:ncol
 " interp
 w prep:loc:nwok
 takiej adj:sg:loc:f:pos
@@ -14872,7 +14872,7 @@ aranżacji subst:sg:loc:f
 jakby comp
 na prep:acc
 nowo adv:pos
-oszlifował praet:sg:m1:perf
+oszlifował praet:sg:m3:perf
 diament subst:sg:acc:m3
 . interp
 
@@ -14881,15 +14881,15 @@ dziesięć num:pl:acc:m3:rec
 lat subst:pl:gen:m3
 później adv:com
 , interp
-w prep:acc:nwok
-przeddzień subst:sg:acc:m3
+w prep:loc:nwok
+przeddzień subst:sg:loc:m3
 upadku subst:sg:gen:m3
-PRL subst:sg:gen:f
+PRL subst:sg:gen:m3
 , interp
 Andrzej subst:sg:nom:m1
 Braun subst:sg:nom:m1
 został praet:sg:m1:perf
-zrazu subst:sg:gen:m3
+zrazu adv
 wiceprezesem subst:sg:inst:m1
 , interp
 a conj
@@ -14903,7 +14903,7 @@ Stowarzyszenia subst:sg:gen:n:ncol
 Pisarzy subst:pl:gen:m1
 Polskich adj:pl:gen:m1:pos
 , interp
-powstałego adj:sg:gen:n:pos
+powstałego ppas:sg:gen:n:perf:aff
 w prep:loc:nwok
 proteście subst:sg:loc:m3
 przeciw prep:dat
@@ -14920,7 +14920,7 @@ odwieszonym ppas:sg:loc:m3:perf:aff
 po prep:loc
 stanie subst:sg:loc:m3
 wojennym adj:sg:loc:m3:pos
-Związku subst:sg:gen:m3
+Związku subst:sg:loc:m3
 Literatów subst:pl:gen:m1
 , interp
 noszącym pact:sg:loc:m3:imperf:aff
@@ -14930,12 +14930,12 @@ dawną adj:sg:acc:f:pos
 nazwę subst:sg:acc:f
 o prep:loc
 skrócie subst:sg:loc:m3
-ZLP subst:sg:gen:m3
+ZLP subst:sg:nom:n:ncol
 , interp
 ale conj
 przez prep:acc:nwok
 pisarzy subst:pl:acc:m1
-określanym ppas:sg:loc:m3:perf:aff
+określanym ppas:sg:loc:m3:imperf:aff
 jako comp
 " interp
 neo subst:sg:nom:m3
@@ -14948,7 +14948,7 @@ którego adj:sg:gen:m3:pos
 ogół subst:sg:nom:m3
 opozycyjnych adj:pl:gen:m1:pos
 wobec prep:gen
-PRL subst:sg:gen:f
+PRL subst:sg:gen:m3
 autorów subst:pl:gen:m1
 się part
 odżegnał praet:sg:m3:perf
@@ -14979,9 +14979,9 @@ nieżyjącego adj:sg:gen:m1:pos
 już part
 taty subst:sg:gen:m1
 , interp
-artysty subst:sg:acc:m1
-Romana subst:sg:acc:m1
-Waszko subst:sg:acc:m1
+artysty subst:sg:gen:m1
+Romana subst:sg:gen:m1
+Waszko subst:sg:gen:m1
 - interp
 zachęca fin:sg:ter:imperf
 plastyk subst:sg:nom:m1
@@ -15020,7 +15020,7 @@ przyczyny subst:pl:nom:f
 ich ppron3:pl:gen:f:ter:akc:npraep
 kultywowania ger:sg:gen:n:imperf:aff
 są fin:pl:ter:imperf
-zgoła adv:pos
+zgoła part
 odmienne adj:pl:nom:f:pos
 . interp
 
@@ -15058,12 +15058,12 @@ zielonym adj:sg:inst:m3:pos
 , interp
 prowadzącym pact:sg:inst:m3:imperf:aff
 obok prep:gen
-Końskich adj:pl:gen:m3:pos
+Końskich adj:pl:gen:n:pos
 Łbów subst:pl:gen:n:ncol
 w prep:acc:nwok
 dół subst:sg:acc:m3
 ku prep:dat
-położonej ppas:sg:loc:f:perf:aff
+położonej adj:sg:dat:f:pos
 na prep:loc
 granicy subst:sg:loc:f
 lasu subst:sg:gen:m3
@@ -15074,7 +15074,7 @@ lasu subst:sg:gen:m3
 m brev:npun
 ) interp
 Hali subst:sg:dat:f
-Szrenickiej adj:sg:gen:f:pos
+Szrenickiej adj:sg:dat:f:pos
 . interp
 
 Skarżył praet:sg:m1:imperf
@@ -15086,11 +15086,11 @@ przecież part
 w prep:loc:nwok
 kieracie subst:sg:loc:m3
 prozaicznych adj:pl:gen:n:pos
-zajęć subst:pl:gen:n:ncol
+zajęć subst:pl:gen:n:pt
 , interp
 wśród prep:gen
 ludzi subst:pl:gen:m1
-zajętych ppas:pl:gen:f:perf:aff
+zajętych ppas:pl:gen:m1:perf:aff
 tylko part
 sprawami subst:pl:inst:f
 chleba subst:sg:gen:m3
@@ -15104,14 +15104,14 @@ poważne adj:pl:acc:m3:pos
 tematy subst:pl:acc:m3
 . interp
 
-2.000 num:pl:acc:m3:rec
+2.000 num:pl:nom:m3:congr
 litów subst:pl:gen:m3
 paliwa subst:sg:gen:n:ncol
 mają fin:pl:ter:imperf
 na prep:acc
 przejechanie ger:sg:acc:n:perf:aff
 4 num:pl:gen:m3:congr
-tys brev:npun
+tys brev:pun
 km brev:npun
 . interp
 
@@ -15138,10 +15138,10 @@ krajowego adj:sg:gen:m3:pos
 brutto adj:sg:gen:m3:pos
 , interp
 a conj
-grudniowy adj:sg:acc:m3:pos
-deficyt subst:sg:acc:m3
+grudniowy adj:sg:nom:m3:pos
+deficyt subst:sg:nom:m3
 ( interp
-1,64 num:pl:acc:m3:rec
+1,64 num:pl:nom:m3:rec
 mld brev:npun
 dolarów subst:pl:gen:m2
 ) interp
@@ -15202,7 +15202,7 @@ służąca subst:sg:nom:f
 dawno adv:pos
 wzięła praet:sg:f:perf
 i conj
-nożyczkami subst:pl:inst:m3
+nożyczkami subst:pl:inst:f
 wydrapała praet:sg:f:perf
 oczy subst:pl:acc:n:col
 . interp
@@ -15221,9 +15221,9 @@ naprawdę part
 był praet:sg:m1:imperf
 rabinem subst:sg:inst:m1
 , interp
-jak adv:pos
+jak comp
 zapewniał praet:sg:m1:imperf
-Fangora subst:sg:acc:m1
+Fangora subst:sg:nom:m1
 i conj
 inne adj:pl:acc:f:pos
 osoby subst:pl:acc:f
@@ -15250,8 +15250,8 @@ od prep:gen:nwok
 do prep:gen
 14.00 adj:sg:gen:f:pos
 : interp
-warsztaty subst:pl:nom:n:pt
-malarskie adj:pl:nom:n:pos
+warsztaty subst:pl:nom:m3
+malarskie adj:pl:acc:n:pos
 dla prep:gen
 młodzieży subst:sg:gen:f
 gimnazjalnej adj:sg:gen:f:pos
@@ -15276,7 +15276,7 @@ Dane subst:pl:nom:n:pt
 są fin:pl:ter:imperf
 jednoznaczne adj:pl:nom:n:pos
 : interp
-aborcją subst:sg:nom:f
+aborcją subst:sg:inst:f
 kończy fin:sg:ter:imperf
 się part
 20 num:pl:nom:m3:rec
@@ -15303,17 +15303,17 @@ przepisów subst:pl:gen:m3
 
 - interp
 Jest fin:sg:ter:imperf
-gotówka subst:sg:inst:f
+gotówka subst:sg:nom:f
 - interp
 niechętnie adv:pos
 wyjmował praet:sg:m1:imperf
 z prep:gen:nwok
-kieszeni subst:pl:gen:f
-szerokich adj:pl:gen:f:pos
-spodni subst:pl:gen:f
+kieszeni subst:sg:gen:f
+szerokich adj:pl:gen:n:pos
+spodni subst:pl:gen:n:ncol
 , interp
-wymiętych ppas:pl:gen:f:perf:aff
-szarawarów subst:pl:gen:m2
+wymiętych ppas:pl:gen:m3:perf:aff
+szarawarów subst:pl:gen:m3
 grubą adj:sg:acc:f:pos
 kopertę subst:sg:acc:f
 . interp
@@ -15397,7 +15397,7 @@ wystąpić inf:perf
 w prep:loc:nwok
 świątyni subst:sg:loc:f
 , interp
-jaką adj:sg:nom:f:pos
+jaką adj:sg:inst:f:pos
 jest fin:sg:ter:imperf
 dla prep:gen
 nich ppron3:pl:gen:m1:ter:akc:praep
@@ -15500,9 +15500,9 @@ Czy part
 na prep:acc
 pewno adv:pos
 problem subst:sg:nom:m3
-tych adj:pl:gen:f:pos
+tych adj:pl:gen:m1:pos
 " interp
-onych adj:pl:gen:f:pos
+onych adj:pl:gen:m1:pos
 " interp
 został praet:sg:m3:perf
 rozwiązany ppas:sg:nom:m3:perf:aff
@@ -15525,7 +15525,7 @@ ukryć inf:perf
 swoje adj:sg:acc:n:pos
 schorzenie subst:sg:acc:n:ncol
 przed prep:inst:nwok
-najbliższym adj:sg:inst:m3:sup
+najbliższym adj:sg:inst:n:pos
 środowiskiem subst:sg:inst:n:ncol
 . interp
 
@@ -15646,10 +15646,10 @@ kręci fin:sg:ter:imperf
 z prep:inst:nwok
 niedowierzaniem subst:sg:inst:n:ncol
 głową subst:sg:inst:f
-Stefania subst:sg:nom:f
-Pielka subst:sg:nom:f
+Stefania subst:sg:gen:m1
+Pielka subst:sg:gen:m1
 ( interp
-73 num:pl:nom:m3:rec
+73 num:pl:nom:m3:congr
 l brev:pun
 . interp
 ) interp
@@ -15660,12 +15660,12 @@ M brev:pun
 . interp
 
 Podkreślam fin:sg:pri:imperf
-jednak conj
+jednak part
 : interp
 chodzi fin:sg:ter:imperf
 o prep:acc
 korektę subst:sg:acc:f
-obowiązującego adj:sg:gen:m3:pos
+obowiązującego pact:sg:gen:m3:imperf:aff
 wzoru subst:sg:gen:m3
 , interp
 nie conj
@@ -15684,7 +15684,7 @@ przed prep:inst:nwok
 kasjerką subst:sg:inst:f
 : interp
 - interp
-No part
+No interj
 , interp
 wie fin:sg:ter:imperf
 pani subst:sg:nom:f
@@ -15693,7 +15693,7 @@ oszalał praet:sg:m1:perf
 . interp
 
 Do prep:gen
-niedawna subst:sg:gen:n:ncol
+niedawna adjp
 twierdziła praet:sg:f:imperf
 , interp
 że comp
@@ -15734,7 +15734,7 @@ jest fin:sg:ter:imperf
 przyjęta ppas:sg:nom:f:perf:aff
 , interp
 a conj
-podpiszę fin:sg:ter:perf
+podpiszę fin:sg:pri:perf
 ją ppron3:sg:acc:f:ter:akc:npraep
 po prep:loc
 powrocie subst:sg:loc:m3
@@ -15774,7 +15774,7 @@ nie part
 zostanie fin:sg:ter:perf
 przedłużony ppas:sg:nom:m3:perf:aff
 , interp
-zatwierdzenie ger:sg:acc:n:perf:aff
+zatwierdzenie subst:sg:acc:n:ncol
 typu subst:sg:gen:m3
 uznaje fin:sg:ter:imperf
 się part
@@ -15823,12 +15823,12 @@ nasze adj:sg:nom:n:pos
 
 Szukał praet:sg:m1:imperf
 słów subst:pl:gen:n:ncol
-najwłaściwszych adj:pl:gen:m3:sup
+najwłaściwszych adj:pl:gen:n:sup
 , interp
-najprostszych adj:pl:gen:m3:sup
+najprostszych adj:pl:gen:n:sup
 . interp
 
-Wymarł praet:sg:m3:perf
+Wymarł praet:sg:m1:perf
 75 num:pl:acc:m3:rec
 milionów subst:pl:gen:m3
 lat subst:pl:gen:m3
@@ -15913,7 +15913,7 @@ oczyszczając pcon:imperf
 nasze adj:sg:acc:n:pos
 otoczenie subst:sg:acc:n:ncol
 z prep:gen:nwok
-gryzoni subst:pl:gen:m2
+gryzoni subst:pl:gen:n:pt
 . interp
 
 W prep:acc:nwok
@@ -16001,7 +16001,7 @@ pływa fin:sg:ter:imperf
 po prep:loc
 wodzie subst:sg:loc:f
 jak comp
-najlepsza adj:sg:nom:f:sup
+najlepsza adj:sg:nom:f:com
 motorówka subst:sg:nom:f
 , interp
 też part
@@ -16042,7 +16042,7 @@ kryzys subst:sg:nom:m3
 jest fin:sg:ter:imperf
 jak adv:pos
 najbardziej adv:sup
-uzasadniony adj:sg:nom:m3:pos
+uzasadniony ppas:sg:nom:m3:perf:aff
 i conj
 wróży fin:sg:ter:imperf
 , interp
@@ -16122,7 +16122,7 @@ decyduje fin:sg:ter:imperf
 o prep:loc
 piętrze subst:sg:loc:n:ncol
 Świata subst:sg:gen:m3
-Nieprzejawionego ppas:sg:gen:m3:perf:aff
+Nieprzejawionego adj:sg:gen:m3:pos
 , interp
 na prep:loc
 którym adj:sg:loc:m3:pos
@@ -16189,7 +16189,7 @@ opłatę subst:sg:acc:f
 zł brev:npun
 i conj
 po prep:acc
-40 num:pl:acc:m3:rec
+40 num:pl:acc:m2:rec
 zł brev:npun
 sędziowie subst:pl:nom:m1
 liniowi adj:pl:nom:m1:pos
@@ -16217,7 +16217,7 @@ pierwszy adj:sg:acc:m3:pos
 Grela subst:sg:nom:m1
 flirtował praet:sg:m1:imperf
 z prep:inst:nwok
-dziewczętami subst:pl:inst:n:ncol
+dziewczętami subst:pl:inst:n:col
 w prep:loc:nwok
 umywalni subst:sg:loc:f
 . interp
@@ -16236,7 +16236,7 @@ pocisk subst:sg:acc:m3
 moździerzowy adj:sg:acc:m3:pos
 , interp
 podpalili praet:pl:m1:perf
-go ppron3:sg:acc:m1:ter:nakc:npraep
+go ppron3:sg:acc:m3:ter:nakc:npraep
 , interp
 pocisk subst:sg:nom:m3
 się part
@@ -16285,7 +16285,7 @@ hitlerowskiej adj:sg:gen:f:pos
 Polacy subst:pl:nom:m1
 płacili praet:pl:m1:imperf
 dwukrotnie adv:pos
-niższe adj:pl:acc:m3:pos
+niższe adj:pl:acc:m3:com
 podatki subst:pl:acc:m3
 niż comp
 obecnie adv:pos
@@ -16306,7 +16306,7 @@ rozmawia fin:sg:ter:imperf
 z prep:inst:nwok
 policją subst:sg:inst:f
 i conj
-tupacamaros subst:sg:inst:m1
+tupacamaros subst:sg:inst:m3
 , interp
 by comp
 mogły praet:pl:f:imperf
@@ -16352,7 +16352,7 @@ Trudno adv:pos
 rzekł praet:sg:m1:perf
 - interp
 chodzić inf:imperf
-samopas subst:sg:acc:m3
+samopas adv
 . interp
 
 - interp
@@ -16419,7 +16419,7 @@ ma fin:sg:ter:imperf
 mowy subst:sg:gen:f
 ! interp
 
-Bazyliszka subst:sg:gen:m2
+Bazyliszka subst:sg:acc:m1
 nie part
 sposób pred
 wprawdzie part
@@ -16436,7 +16436,7 @@ lusterka subst:sg:gen:n:ncol
 . interp
 
 Sex subst:sg:acc:m3
-Pistols subst:pl:nom:m1
+Pistols subst:pl:acc:m2
 gramy fin:pl:pri:imperf
 od prep:gen:nwok
 paru num:pl:gen:m3:congr
@@ -16573,11 +16573,11 @@ arszenik subst:sg:acc:m3
 - interp
 oczywiście adv:pos
 w prep:loc:nwok
-określonych ppas:pl:loc:f:perf:aff
+określonych adj:pl:loc:f:pos
 dawkach subst:pl:loc:f
 - interp
 na prep:loc
-10 num:pl:loc:m3:congr
+10 num:pl:acc:m1:rec
 pacjentach subst:pl:loc:m1
 cierpiących pact:pl:gen:m1:imperf:aff
 na prep:acc
@@ -16619,7 +16619,7 @@ sama adj:sg:nom:f:pos
 dziewczyna subst:sg:nom:f
 , interp
 słuchając pcon:imperf
-opowiadania subst:sg:gen:n:ncol
+opowiadania ger:sg:gen:n:imperf:aff
 mojej adj:sg:gen:f:pos
 żony subst:sg:gen:f
 , interp
@@ -16670,10 +16670,10 @@ Oprócz prep:gen
 tysięcy subst:pl:gen:m3
 traktorów subst:pl:gen:m3
 " interp
-Ursus subst:sg:nom:m1
+Ursus subst:sg:nom:m3
 " interp
 " interp
-wyprodukował praet:sg:m1:perf
+wyprodukował praet:sg:m3:perf
 " interp
 dwie num:pl:acc:f:congr
 istotne adj:pl:acc:f:pos
@@ -16725,7 +16725,7 @@ sprzedawać inf:imperf
 za prep:inst
 granicą subst:sg:inst:f
 za prep:acc
-złote subst:pl:acc:m3
+złote subst:pl:acc:m2
 . interp
 
 Trzeba pred
@@ -16750,7 +16750,7 @@ roku subst:sg:loc:m3
 uchodzący pact:sg:nom:m1:imperf:aff
 za prep:acc
 niezwyciężonego adj:sg:acc:m1:pos
-Żelazny adj:sg:nom:m1:pos
+Żelazny subst:sg:nom:m1
 Mike subst:sg:nom:m1
 padł praet:sg:m1:perf
 na prep:acc
@@ -16779,7 +16779,7 @@ utylitarysta subst:sg:nom:m1
 Wikipedia subst:sg:nom:f
 to pred
 nie part
-Wikinews subst:sg:nom:n:ncol
+Wikinews subst:sg:nom:m3
 - interp
 tutaj adv
 opisujemy fin:pl:pri:imperf
@@ -16788,7 +16788,7 @@ i conj
 zjawiska subst:pl:acc:n:ncol
 , interp
 ktore adj:pl:nom:n:pos
-zaistniały praet:pl:n:perf
+zaistniały praet:pl:m3:perf
 , interp
 a conj
 nie conj
@@ -16822,7 +16822,7 @@ gdy adv
 to subst:sg:acc:n:ncol
 samo adj:sg:acc:n:pos
 robią fin:pl:ter:imperf
-stróże subst:pl:nom:m3
+stróże subst:pl:nom:m1
 porządku subst:sg:gen:m3
 . interp
 
@@ -16911,7 +16911,7 @@ znajdą fin:pl:ter:perf
 się part
 za prep:inst
 bramą subst:sg:inst:f
-ZNTK subst:sg:gen:n:ncol
+ZNTK subst:sg:gen:m3
 już part
 pod prep:acc:nwok
 koniec subst:sg:acc:m3
@@ -16924,7 +16924,7 @@ do prep:gen
 polskiego adj:sg:gen:m3:pos
 kontrwywiadu subst:sg:gen:m3
 , interp
-który adj:sg:nom:m1:pos
+który adj:sg:nom:m3:pos
 na prep:loc
 warszawskiej adj:sg:loc:f:pos
 giełdzie subst:sg:loc:f
@@ -16948,7 +16948,7 @@ przyległościami subst:pl:inst:f
 Opuszczając pcon:imperf
 pod prep:inst:nwok
 strażą subst:sg:inst:f
-Neuschwanstein subst:sg:gen:m3
+Neuschwanstein subst:sg:nom:m1
 Ludwik subst:sg:nom:m1
 miał praet:sg:m1:imperf
 powiedzieć inf:perf
@@ -16982,7 +16982,7 @@ za prep:gen
 jego ppron3:sg:gen:m1:ter:akc:npraep
 życia subst:sg:gen:n:ncol
 dwie num:pl:nom:f:congr
-trzecie adj:pl:nom:n:pos
+trzecie subst:pl:nom:f
 pomieszczeń subst:pl:gen:n:ncol
 nie part
 zostało praet:sg:n:perf
@@ -17096,7 +17096,7 @@ zagrożenia subst:sg:gen:n:ncol
 niepokoju subst:sg:gen:m3
 dla prep:gen
 obywateli subst:pl:gen:m1
-ubezpieczonych subst:pl:gen:m1
+ubezpieczonych adj:pl:gen:m1:pos
 w prep:loc:nwok
 PZU subst:sg:loc:m3
 ? interp
@@ -17118,7 +17118,7 @@ kredytu subst:sg:gen:m3
 , interp
 a conj
 wartość subst:sg:nom:f
-jego ppron3:sg:gen:m1:ter:akc:npraep
+jego ppron3:sg:gen:m3:ter:akc:npraep
 majątku subst:sg:gen:m3
 jest fin:sg:ter:imperf
 mniejsza adj:sg:nom:f:com
@@ -17143,7 +17143,7 @@ się part
 kręci fin:sg:ter:imperf
 ? interp
 
-Skrzypce subst:pl:nom:m2
+Skrzypce subst:pl:nom:f
 to pred
 diabelski adj:sg:nom:m3:pos
 wymysł subst:sg:nom:m3
@@ -17189,7 +17189,7 @@ PIETRZAK subst:sg:nom:m1
 , interp
 zasłużony adj:sg:nom:m1:pos
 kabareciarz subst:sg:nom:m1
-PRL subst:sg:gen:f
+PRL subst:sg:gen:m3
 , interp
 za prep:acc
 to subst:sg:acc:n:ncol
@@ -17239,7 +17239,7 @@ właścicielami subst:pl:inst:m1
 gospodarstwa subst:sg:gen:n:ncol
 rolnego adj:sg:gen:n:pos
 , interp
-liczącego pact:sg:gen:m3:imperf:aff
+liczącego pact:sg:gen:n:imperf:aff
 około part
 7 num:pl:acc:m3:rec
 ha brev:npun
@@ -17291,7 +17291,7 @@ i conj
 intelektualnej adj:sg:gen:f:pos
 , interp
 następnie adv
-poród subst:sg:nom:m3
+poród subst:sg:acc:m3
 ze prep:inst:wok
 swymi adj:pl:inst:m3:pos
 straszliwymi adj:pl:inst:m3:pos
@@ -17340,7 +17340,7 @@ Wienandem subst:sg:inst:m1
 Nie part
 bez prep:gen:nwok
 powodu subst:sg:gen:m3
-niektórzy subst:pl:nom:m1
+niektórzy adj:pl:nom:m1:pos
 mówią fin:pl:ter:imperf
 : interp
 " interp
@@ -17369,12 +17369,12 @@ w prep:loc:nwok
 ciele subst:sg:loc:n:ncol
 energetycznym adj:sg:loc:n:pos
 ; interp
-sposób subst:sg:nom:m3
+sposób subst:sg:acc:m3
 , interp
 w prep:acc:nwok
 jaki adj:sg:acc:m3:pos
 usiłujemy fin:pl:pri:imperf
-zatamować inf:perf
+zatamować inf:imperf
 własne adj:pl:acc:f:pos
 emocje subst:pl:acc:f
 ( interp
@@ -17418,7 +17418,7 @@ kolei subst:sg:gen:f
 Joanna subst:sg:nom:f
 Jurewicz subst:sg:nom:f
 , interp
-laryngolog subst:sg:nom:m1
+laryngolog subst:sg:nom:m2
 , interp
 do prep:gen
 której adj:sg:gen:f:pos
@@ -17437,8 +17437,8 @@ transferu subst:sg:gen:m3
 naukowej adj:sg:gen:f:pos
 wiedzy subst:sg:gen:f
 psychologicznej adj:sg:gen:f:pos
-z prep:gen:nwok
-laboratorium subst:sg:gen:n:ncol
+z prep:inst:nwok
+laboratorium subst:sg:inst:n:ncol
 badacza subst:sg:gen:m1
 do prep:gen
 sali subst:sg:gen:f
@@ -17470,7 +17470,7 @@ mężczyzny subst:sg:gen:m1
 . interp
 
 Kiedy adv
-jeden adj:sg:nom:m3:pos
+jeden adj:sg:nom:m1:pos
 opowiada fin:sg:ter:imperf
 dowcip subst:sg:acc:m3
 , interp
@@ -17496,7 +17496,7 @@ dowcip subst:sg:acc:m3
 Dziękuję fin:sg:pri:imperf
 , interp
 Pani subst:sg:voc:f
-Marszałek subst:sg:nom:m1
+Marszałek subst:sg:voc:f
 . interp
 
 – interp
@@ -17542,7 +17542,7 @@ bliższa adj:sg:nom:f:com
 , interp
 niż comp
 - interp
-jak adv:pos
+jak comp
 się part
 jeszcze part
 do prep:gen
@@ -17550,7 +17550,7 @@ niedawna subst:sg:gen:n:ncol
 mówiło praet:sg:n:imperf
 - interp
 " interp
-niezaangażowana ppas:sg:nom:f:imperf:aff
+niezaangażowana adj:sg:nom:f:pos
 " interp
 , interp
 choć comp
@@ -17583,13 +17583,13 @@ moralnej adj:sg:gen:f:pos
 " interp
 . interp
 
-Przytyka fin:sg:ter:perf
+Przytyka fin:sg:ter:imperf
 Studentowi subst:sg:dat:m1
 kieliszek subst:sg:acc:m3
 do prep:gen
 ust subst:pl:gen:n:pt
 i conj
-poi fin:sg:ter:imperf
+poi fin:sg:ter:perf
 go ppron3:sg:acc:m3:ter:nakc:npraep
 szampanem subst:sg:inst:m3
 . interp
@@ -17689,8 +17689,8 @@ dzwonił praet:sg:m1:imperf
 natarczywie adv:pos
 . interp
 
-Tuti subst:sg:nom:m1
-Yusupova subst:sg:nom:m1
+Tuti subst:sg:nom:f
+Yusupova subst:sg:nom:f
 ( interp
 ur brev:pun
 . interp
@@ -17701,9 +17701,9 @@ ur brev:pun
 według prep:gen
 niepotwierdzonych adj:pl:gen:f:pos
 informacji subst:pl:gen:f
-najstarsza adj:sg:inst:f:sup
+najstarsza adj:sg:nom:f:com
 żyjąca pact:sg:nom:f:imperf:aff
-kobieta subst:sg:inst:f
+kobieta subst:sg:nom:f
 świata subst:sg:gen:m3
 . interp
 
@@ -17765,12 +17765,12 @@ bronić inf:imperf
 zwierząt subst:pl:gen:n:ncol
 histerycznie adv:pos
 , interp
-szlachetne adj:pl:nom:f:pos
-intencje subst:pl:nom:f
-popsuły praet:pl:f:perf
+szlachetne adj:pl:nom:n:pos
+intencje subst:pl:nom:n:pt
+popsuły praet:pl:n:perf
 się part
 i conj
-pogniły praet:pl:f:perf
+pogniły praet:pl:n:perf
 jak comp
 robaczywe adj:pl:nom:n:pos
 jabłka subst:pl:nom:n:ncol
@@ -17821,7 +17821,7 @@ Andrzejem subst:sg:inst:m1
 Boberem subst:sg:inst:m1
 L brev:pun
 . interp
-Wałęsa subst:sg:inst:m1
+Wałęsa subst:sg:nom:m1
 powiedział praet:sg:m1:perf
 , interp
 że comp
@@ -17830,15 +17830,15 @@ ta adj:sg:nom:f:pos
 wzbudziła praet:sg:f:perf
 jego ppron3:sg:gen:m1:ter:akc:npraep
 " interp
-zastanowienie subst:sg:acc:n:ncol
+zastanowienie ger:sg:acc:n:perf:aff
 " interp
 i conj
 " interp
-wątpliwości subst:pl:gen:f
+wątpliwości subst:pl:acc:f
 " interp
 . interp
 
-Czynszowi subst:pl:nom:m1
+Czynszowi adj:pl:nom:m1:pos
 dłużnicy subst:pl:nom:m1
 mogą fin:pl:ter:imperf
 na prep:loc
@@ -17858,7 +17858,7 @@ wolno pred
 eksmitować inf:perf
 ich ppron3:pl:gen:m1:ter:akc:npraep
 na prep:acc
-ulicę subst:pl:acc:f
+ulicę subst:sg:acc:f
 . interp
 
 Usłyszał praet:sg:m1:perf
@@ -17954,8 +17954,8 @@ rannych adj:pl:gen:m1:pos
 
 W prep:loc:nwok
 2004 adj:sg:loc:m3:pos
-Jabil subst:sg:nom:m1
-wszedł praet:sg:m1:perf
+Jabil subst:sg:nom:m2
+wszedł praet:sg:m3:perf
 w prep:acc:nwok
 posiadanie ger:sg:acc:n:imperf:aff
 fabryki subst:sg:gen:f
@@ -18056,7 +18056,7 @@ tydzień subst:sg:acc:m3
 w prep:loc:nwok
 kościołach subst:pl:loc:m3
 chrześcijańskich adj:pl:loc:m3:pos
-Poznania ger:sg:gen:n:perf:aff
+Poznania subst:sg:gen:m3
 różnych adj:pl:gen:n:pos
 wyznań subst:pl:gen:n:ncol
 modlono imps:imperf
@@ -18107,8 +18107,8 @@ sytuacja subst:sg:nom:f
 . interp
 
 Adasia subst:sg:nom:f
-ogarnął praet:sg:m1:perf
-niepokój subst:sg:acc:m3
+ogarnął praet:sg:m3:perf
+niepokój subst:sg:nom:m3
 . interp
 
 Byli praet:pl:m1:imperf
@@ -18269,7 +18269,7 @@ Granic subst:pl:gen:f
 Niepowodzenia subst:pl:nom:n:ncol
 nie part
 zrażają fin:pl:ter:imperf
-mnie ppron12:sg:gen:m1:pri:akc
+mnie ppron12:sg:acc:m1:pri:akc
 łatwo adv:pos
 , interp
 nie part
@@ -18319,7 +18319,7 @@ bedzie bedzie:sg:ter:imperf
 raczej part
 klasyfikacjia subst:sg:nom:f
 na prep:acc
-kasty subst:pl:acc:f
+kasty subst:pl:acc:m3
 , interp
 im comp
 bedziesz bedzie:sg:sec:imperf
@@ -18333,7 +18333,7 @@ trafisz fin:sg:sec:perf
 . interp
 choć comp
 nie part
-wykluczone ppas:sg:nom:n:perf:aff
+wykluczone ppas:pl:nom:n:perf:aff
 ( interp
 a conj
 raczej part
@@ -18347,7 +18347,7 @@ wyższym adj:sg:loc:m3:com
 wymiarze subst:sg:loc:m3
 każda adj:sg:nom:f:pos
 dusza subst:sg:nom:f
-zostacie fin:sg:ter:perf
+zostacie fin:sg:sec:perf
 napojona ppas:sg:nom:f:perf:aff
 wiedzą subst:sg:inst:f
 minimalną adj:sg:inst:f:pos
@@ -18368,7 +18368,7 @@ VAT subst:sg:nom:m3
 i conj
 subwencje subst:pl:nom:f
 dostawały praet:pl:f:imperf
-zakłady subst:pl:acc:m3
+zakłady subst:pl:nom:m3
 pracy subst:sg:gen:f
 chronionej adj:sg:gen:f:pos
 , interp
@@ -18395,7 +18395,7 @@ Dzieci subst:pl:nom:n:col
 wypełniały praet:pl:n:imperf
 ankiety subst:pl:acc:f
 z prep:inst:nwok
-pytaniami subst:pl:inst:n:pt
+pytaniami subst:pl:inst:m3
 dotyczącymi pact:pl:inst:f:imperf:aff
 bezpiecznego adj:sg:gen:n:pos
 korzystania ger:sg:gen:n:imperf:aff
@@ -18450,7 +18450,7 @@ warunki subst:pl:nom:n:pt
 atmosferyczne adj:pl:nom:n:pos
 nie part
 były praet:pl:n:imperf
-najgorsze adj:sg:nom:n:sup
+najgorsze adj:pl:nom:n:pos
 : interp
 temperatura subst:sg:nom:f
 trochę adv
@@ -18593,7 +18593,7 @@ wojna subst:sg:nom:f
 Banki subst:pl:nom:m3
 mogą fin:pl:ter:imperf
 żądać inf:imperf
-prowizji subst:pl:gen:f
+prowizji subst:sg:gen:f
 od prep:gen:nwok
 kredytu subst:sg:gen:m3
 . interp
@@ -18602,11 +18602,11 @@ Pytanie subst:sg:acc:n:ncol
 podejmują fin:pl:ter:imperf
 tłumy subst:pl:nom:m3
 , interp
-wołanie subst:sg:nom:n:ncol
-przemienia fin:pl:ter:perf
+wołanie ger:sg:nom:n:imperf:aff
+przemienia fin:sg:ter:imperf
 się part
 w prep:acc:nwok
-skandowany ppas:sg:acc:m3:perf:aff
+skandowany ppas:sg:acc:m3:imperf:aff
 grzmot subst:sg:acc:m3
 : interp
 „ interp
@@ -18639,7 +18639,7 @@ pisma subst:sg:gen:n:ncol
 ale conj
 - interp
 o prep:acc
-dziwo adv
+dziwo subst:sg:acc:n:ncol
 - interp
 dawało praet:sg:n:imperf
 efekt subst:sg:acc:m3
@@ -18648,7 +18648,7 @@ sprzedaży subst:sg:gen:f
 . interp
 
 A part
-tak adv:pos
+tak part
 już part
 nigdy adv
 jej ppron3:sg:gen:f:ter:akc:npraep
@@ -18743,7 +18743,7 @@ niedowierzaniem subst:sg:inst:n:ncol
 Bogusława subst:sg:nom:f
 Sztorc subst:sg:nom:f
 ze prep:gen:wok
-Świebodzic subst:sg:gen:n:ncol
+Świebodzic subst:pl:gen:n:pt
 wróciła praet:sg:f:perf
 z prep:gen:nwok
 pracy subst:sg:gen:f
@@ -18770,13 +18770,13 @@ akcjach subst:pl:loc:f
 niemieckiego adj:sg:gen:m3:pos
 indeksu subst:sg:gen:m3
 giełdowego adj:sg:gen:m3:pos
-DAX subst:sg:gen:m3
+DAX subst:sg:nom:m3
 30 dig
 , interp
 i conj
 dał praet:sg:m1:perf
 do prep:gen
-zrozumienia ger:sg:gen:n:perf:aff
+zrozumienia subst:sg:gen:n:ncol
 , interp
 że comp
 grupa subst:sg:nom:f
@@ -18805,7 +18805,7 @@ Prącz subst:sg:nom:m1
 Nazywają fin:pl:ter:imperf
 ją ppron3:sg:acc:f:ter:akc:npraep
 „ interp
-kuru subst:sg:nom:f
+kuru subst:sg:nom:n:ncol
 ” interp
 albo conj
 „ interp
@@ -18911,19 +18911,19 @@ czasem subst:sg:inst:m3
 wręcz part
 przestała praet:sg:f:perf
 być inf:imperf
-zauważana ppas:sg:nom:f:perf:aff
+zauważana ppas:sg:nom:f:imperf:aff
 , interp
 z prep:gen:nwok
 przypadłości subst:sg:gen:f
 stała praet:sg:f:perf
 się part
-cechą subst:sg:nom:f
+cechą subst:sg:inst:f
 - interp
-wyróżniającą pact:sg:nom:f:imperf:aff
+wyróżniającą pact:sg:inst:f:imperf:aff
 , interp
 lecz conj
 nie part
-zubażającą pact:sg:nom:f:imperf:aff
+zubażającą pact:sg:inst:f:imperf:aff
 . interp
 
 Myślę fin:sg:pri:imperf
@@ -18959,9 +18959,9 @@ Na prep:loc
 statku subst:sg:loc:m3
 przegrał praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
-w prep:acc:nwok
+w prep:loc:nwok
 " interp
-Bingo subst:sg:acc:n:ncol
+Bingo subst:sg:loc:n:ncol
 " interp
 ( interp
 b brev:pun
@@ -18971,7 +18971,7 @@ gra subst:sg:nom:f
 hazardowa adj:sg:nom:f:pos
 ) interp
 2 num:pl:acc:m3:congr
-dolary subst:pl:nom:m3
+dolary subst:pl:acc:m3
 i conj
 w prep:loc:nwok
 tej adj:sg:loc:f:pos
@@ -18989,7 +18989,7 @@ zaliczkę subst:sg:acc:f
 - interp
 informował praet:sg:m1:imperf
 Wacek subst:sg:nom:m1
-rodziców subst:pl:acc:m1
+rodziców subst:pl:gen:m1
 . interp
 
 Szanujące pact:pl:nom:f:imperf:aff
@@ -19016,7 +19016,7 @@ się part
 wariant subst:sg:acc:m3
 badań subst:pl:gen:n:ncol
 ( interp
-metody subst:pl:nom:f
+metody subst:pl:acc:f
 I subst:sg:nom:n:ncol
 - interp
 IV dig
@@ -19027,7 +19027,7 @@ od prep:gen:nwok
 warunków subst:pl:gen:n:pt
 , interp
 w prep:loc:nwok
-jakich adj:pl:loc:n:pos
+jakich adj:pl:loc:m3:pos
 grunt subst:sg:nom:m3
 będzie bedzie:sg:ter:imperf
 pracował praet:sg:m3:imperf
@@ -19106,7 +19106,7 @@ podejmie fin:sg:ter:perf
 prokuratura subst:sg:nom:f
 - interp
 mówi fin:sg:ter:imperf
-podkom brev:npun
+podkom brev:pun
 . interp
 Tadeusz subst:sg:nom:m1
 Kaczmarek subst:sg:nom:m1
@@ -19246,7 +19246,7 @@ przekonanie subst:sg:acc:n:ncol
 , interp
 że comp
 przyczyną subst:sg:inst:f
-zatrucia ger:sg:gen:n:perf:aff
+zatrucia subst:sg:gen:n:ncol
 wód subst:pl:gen:f
 Cisy subst:sg:gen:f
 nie part
@@ -19326,7 +19326,7 @@ mu ppron3:sg:dat:m1:ter:nakc:npraep
 do prep:gen
 patrzenia ger:sg:gen:n:imperf:aff
 na prep:acc
-dalsze adj:pl:nom:f:com
+dalsze adj:pl:acc:f:com
 odległości subst:pl:acc:f
 , interp
 i conj
@@ -19336,7 +19336,7 @@ napięcie subst:sg:acc:n:ncol
 dramatyczne adj:sg:acc:n:pos
 , interp
 zamienił praet:sg:m1:perf
-je ppron3:pl:acc:m3:ter:akc:npraep
+je ppron3:pl:acc:f:ter:akc:npraep
 w prep:loc:nwok
 futerale subst:sg:loc:n:ncol
 z prep:inst:nwok
@@ -19380,7 +19380,7 @@ odratował praet:sg:m1:perf
 
 Należą fin:pl:ter:imperf
 do prep:gen
-nich ppron3:pl:gen:m1:ter:akc:praep
+nich ppron3:pl:gen:f:ter:akc:praep
 : interp
 aspartam subst:sg:nom:m3
 , interp
@@ -19410,7 +19410,7 @@ się part
 z prep:inst:nwok
 przyjacielem subst:sg:inst:m1
 na prep:acc
-określoną ppas:sg:acc:f:perf:aff
+określoną adj:sg:acc:f:pos
 godzinę subst:sg:acc:f
 i conj
 rozmawiaj impt:sg:sec:imperf
@@ -19427,10 +19427,10 @@ imienia subst:sg:gen:n:ncol
 , interp
 Feliksie subst:sg:voc:m1
 , interp
-inaczej comp
+inaczej adv
 mnie ppron12:sg:gen:m1:pri:akc
 nie part
-poznają fin:pl:ter:imperf
+poznają fin:pl:ter:perf
 . interp
 
 Owa adj:sg:nom:f:pos
@@ -19460,7 +19460,7 @@ otrzyma fin:sg:ter:perf
 PKS subst:sg:nom:m3
 , interp
 zaledwie part
-600 num:pl:nom:m3:congr
+600 num:pl:nom:m3:rec
 będą bedzie:pl:ter:imperf
 to pred
 wozy subst:pl:nom:m3
@@ -19484,7 +19484,7 @@ jest fin:sg:ter:imperf
 potrzebne adj:sg:nom:n:pos
 . interp
 
-Trzynastu adj:pl:dat:m1:pos
+Trzynastu num:pl:dat:m1:congr
 Polakom subst:pl:dat:m1
 prokurator subst:sg:nom:m1
 przedstawił praet:sg:m1:perf
@@ -19528,7 +19528,7 @@ dwa num:pl:acc:m3:congr
 razy subst:pl:acc:m3
 większy adj:sg:nom:m3:com
 niż comp
-rok subst:sg:nom:m3
+rok subst:sg:acc:m3
 wcześniej adv:com
 . interp
 
@@ -19545,11 +19545,11 @@ Rozumiem fin:sg:pri:imperf
 Sępy subst:pl:nom:m2
 łomocząc pcon:imperf
 skrzydłami subst:pl:inst:n:ncol
-zeskakiwały praet:pl:f:imperf
+zeskakiwały praet:pl:m3:imperf
 na prep:acc
 ziemię subst:sg:acc:f
 , interp
-szły praet:pl:f:imperf
+szły praet:pl:m3:imperf
 kiwając pcon:imperf
 długimi adj:pl:inst:f:pos
 szyjami subst:pl:inst:f
@@ -19563,7 +19563,7 @@ dłuższym adj:sg:loc:m3:com
 efekcie subst:sg:loc:m3
 ta adj:sg:nom:f:pos
 ingerencja subst:sg:nom:f
-prawicy subst:sg:gen:f
+prawicy subst:sg:dat:f
 w prep:acc:nwok
 system subst:sg:acc:m3
 edukacji subst:sg:gen:f
@@ -19666,7 +19666,7 @@ grzeszności subst:sg:gen:f
 są fin:pl:ter:imperf
 dla prep:gen
 ciebie ppron12:sg:gen:m1:sec:akc
-najważniejsze adj:pl:nom:f:pos
+najważniejsze adj:pl:nom:f:com
 ? interp
 
 W prep:loc:nwok
@@ -19706,7 +19706,7 @@ są fin:pl:ter:imperf
 dwa num:pl:nom:m3:congr
 światopoglądy subst:pl:nom:m3
 : interp
-epicki adj:pl:nom:m3:pos
+epicki adj:sg:nom:m3:pos
 i conj
 tragiczny adj:sg:nom:m3:pos
 . interp
@@ -19723,7 +19723,7 @@ Drogę subst:sg:acc:f
 rozliczenia ger:sg:gen:n:perf:aff
 ze prep:inst:wok
 zbrodniami subst:pl:inst:f
-PRL subst:sg:gen:f
+PRL subst:sg:gen:m3
 pokonujemy fin:pl:pri:imperf
 od prep:gen:nwok
 tyłu subst:sg:gen:m3
@@ -19747,11 +19747,11 @@ już part
 nie part
 było praet:sg:n:imperf
 ; interp
-najwidoczniej adv:pos
+najwidoczniej adv:sup
 nie part
 mogąc pcon:imperf
 się part
-go ppron3:sg:acc:m3:ter:nakc:npraep
+go ppron3:sg:gen:m1:ter:nakc:npraep
 doczekać inf:perf
 udali praet:pl:m1:perf
 się part
@@ -19765,7 +19765,7 @@ I conj
 pod prep:inst:nwok
 wzdętymi adj:pl:inst:m3:pos
 żaglami subst:pl:inst:m3
-pieśni subst:sg:gen:f
+pieśni subst:pl:nom:f
 masy subst:pl:nom:f
 drgnęły praet:pl:f:perf
 , interp
@@ -19775,16 +19775,16 @@ okręty subst:pl:nom:m3
 , interp
 trzeszcząc pcon:imperf
 w prep:loc:nwok
-spojeniach subst:pl:loc:n:ncol
+spojeniach subst:pl:loc:m3
 , interp
 zakołysały praet:pl:m3:perf
 się part
 na prep:loc
-mieliznach subst:pl:loc:f
+mieliznach subst:pl:loc:m3
 jezdni subst:sg:gen:f
 i conj
 ciężko adv:pos
-ruszyły praet:pl:m3:perf
+ruszyły praet:pl:f:perf
 . interp
 
 Taki adj:sg:nom:m3:pos
@@ -19794,7 +19794,7 @@ powinien winien:sg:m3:imperf
 być inf:imperf
 bodźcem subst:sg:inst:m3
 dla prep:gen
-rządzących pact:pl:gen:m1:imperf:aff
+rządzących subst:pl:gen:m1
 do prep:gen
 ochrony subst:sg:gen:f
 rodziny subst:sg:gen:f
@@ -19834,7 +19834,7 @@ bytowym adj:sg:loc:m3:pos
 koło prep:gen
 tesko subst:sg:gen:n:ncol
 jest fin:sg:ter:imperf
-tektilandia subst:sg:inst:f
+tektilandia subst:sg:nom:f
 i conj
 tam adv
 też part
@@ -19909,7 +19909,7 @@ drzwi subst:pl:acc:n:pt
 i conj
 zawieszał praet:sg:m1:imperf
 na prep:loc
-nich ppron3:pl:loc:m3:ter:akc:praep
+nich ppron3:pl:loc:f:ter:akc:praep
 kłódkę subst:sg:acc:f
 . interp
 
@@ -19925,7 +19925,7 @@ zastrzegał praet:sg:m1:imperf
 że comp
 nie part
 jest fin:sg:ter:imperf
-przekonany adj:sg:nom:m1:pos
+przekonany ppas:sg:nom:m1:perf:aff
 , interp
 czy part
 " interp
@@ -19957,7 +19957,7 @@ obowiązkową adj:sg:inst:f:pos
 Przychodzą fin:pl:ter:imperf
 na prep:acc
 świat subst:sg:acc:m3
-pokryte ppas:pl:nom:n:perf:aff
+pokryte ppas:pl:nom:m3:perf:aff
 sierścią subst:sg:inst:f
 , interp
 po prep:loc
@@ -19993,7 +19993,7 @@ w prep:loc:nwok
 Puerto subst:sg:loc:n:ncol
 Cabello subst:sg:loc:n:ncol
 , interp
-200 num:pl:nom:m3:rec
+200 num:pl:acc:m3:rec
 km brev:npun
 na prep:acc
 zachód subst:sg:acc:m3
@@ -20013,7 +20013,7 @@ Tak adv:pos
 było praet:sg:n:imperf
 w prep:loc:nwok
 czasach subst:pl:loc:m3
-odrodzenia ger:sg:gen:n:perf:aff
+odrodzenia subst:sg:gen:n:ncol
 , interp
 kiedy adv
 to part
@@ -20035,7 +20035,7 @@ Florencji subst:sg:gen:f
 rzucać inf:imperf
 na prep:acc
 stos subst:sg:acc:m3
-rześby subst:pl:gen:f
+rześby subst:pl:acc:f
 i conj
 malowidła subst:pl:acc:n:ncol
 , interp
@@ -20078,12 +20078,12 @@ nieoficjalnie adv:pos
 w prep:loc:nwok
 Głównym adj:sg:loc:m3:pos
 Urzędzie subst:sg:loc:m3
-Ceł subst:pl:gen:n:pt
+Ceł subst:pl:gen:f
 wskazują fin:pl:ter:imperf
 , interp
 iż comp
 równie adv:pos
-powszechne adj:pl:nom:f:pos
+powszechne adj:sg:nom:n:pos
 , interp
 jak comp
 import subst:sg:nom:m3
@@ -20093,7 +20093,7 @@ jako comp
 opałowego adj:sg:gen:m3:pos
 , interp
 jest fin:sg:ter:imperf
-działanie subst:sg:nom:n:ncol
+działanie ger:sg:nom:n:imperf:aff
 wprost adv
 przeciwne adj:sg:nom:n:pos
 , interp
@@ -20158,7 +20158,7 @@ to subst:sg:acc:n:ncol
 aby comp
 izolować inf:imperf
 w prep:loc:nwok
-nich ppron3:pl:loc:m3:ter:akc:praep
+nich ppron3:pl:loc:f:ter:akc:praep
 zatrzymanych subst:pl:acc:m1
 , interp
 ale conj
@@ -20212,7 +20212,7 @@ znaczy fin:sg:ter:imperf
 zwrot subst:sg:nom:m3
 " interp
 przestępstwa subst:pl:nom:n:ncol
-popełnione ppas:pl:nom:n:perf:aff
+popełnione ppas:sg:nom:n:perf:aff
 z prep:gen:nwok
 winy subst:sg:gen:f
 umyślnej adj:sg:gen:f:pos
@@ -20232,10 +20232,10 @@ siebie siebie:gen
 2 dig
 . interp
 W prep:loc:nwok
-rejestrach subst:pl:loc:f
+rejestrach subst:pl:loc:m3
 , interp
 o prep:loc
-których adj:pl:loc:f:pos
+których adj:pl:loc:m3:pos
 mowa subst:sg:nom:f
 w prep:loc:nwok
 ust brev:pun
@@ -20251,12 +20251,12 @@ szczególności subst:sg:loc:f
 : interp
 imiona subst:pl:acc:n:ncol
 i conj
-nazwisko subst:sg:acc:n:ncol
+nazwisko subst:sg:nom:n:ncol
 , interp
-adres subst:sg:nom:m3
+adres subst:sg:acc:m3
 , interp
 numer subst:sg:acc:m3
-PESEL subst:pl:gen:f
+PESEL subst:sg:nom:m3
 - interp
 w prep:loc:nwok
 stosunku subst:sg:loc:m3
@@ -20285,9 +20285,9 @@ polskiego adj:sg:gen:n:pos
 , interp
 a conj
 także part
-informację subst:pl:acc:f
+informację subst:sg:acc:f
 o prep:loc
-wykształceniu subst:sg:loc:n:ncol
+wykształceniu ger:sg:loc:n:perf:aff
 i conj
 tytułach subst:pl:loc:m3
 naukowych adj:pl:loc:m3:pos
@@ -20297,8 +20297,8 @@ Spadek subst:sg:acc:m3
 bezrobocia subst:sg:gen:n:ncol
 odnotowano imps:perf
 we prep:loc:wok
-wszystkich adj:pl:loc:n:pos
-województwach subst:pl:loc:n:ncol
+wszystkich adj:pl:loc:m3:pos
+województwach subst:pl:loc:m3
 . interp
 
 Kolejną adj:sg:acc:f:pos
@@ -20306,7 +20306,7 @@ aferę subst:sg:acc:f
 w prep:loc:nwok
 zakładach subst:pl:loc:m3
 pracy subst:sg:gen:f
-chronionej ppas:sg:gen:f:perf:aff
+chronionej ppas:sg:gen:f:imperf:aff
 ujawnili praet:pl:m1:perf
 policjanci subst:pl:nom:m1
 z prep:gen:nwok
@@ -20342,7 +20342,7 @@ po prep:loc
 otwarciu ger:sg:loc:n:perf:aff
 pliku subst:sg:gen:m3
 typu subst:sg:gen:m3
-ASCII subst:sg:gen:m3
+ASCII subst:sg:nom:m3
 na prep:loc
 ekranie subst:sg:loc:m3
 zamiast prep:gen
@@ -20360,14 +20360,14 @@ pijanego adj:sg:gen:m1:pos
 telegrafisty subst:sg:gen:m1
 piszącego pact:sg:gen:m1:imperf:aff
 alfabetem subst:sg:inst:m3
-Braile'a subst:sg:acc:m1
+Braile'a subst:sg:gen:m1
 , interp
 na prep:acc
 dodatek subst:sg:acc:m3
 potężnie adv:pos
 popstrzony ppas:sg:acc:m3:perf:aff
 przez prep:acc:nwok
-muchy subst:pl:acc:m2
+muchy subst:pl:acc:f
 - interp
 nie part
 denerwuj impt:sg:sec:imperf
@@ -20434,12 +20434,12 @@ tutaj adv
 przywołać inf:perf
 jeszcze part
 jedną adj:sg:acc:f:pos
-parę num:pl:acc:n:rec:ncol
+parę num:pl:acc:f:rec
 imion subst:pl:gen:n:ncol
 , interp
 a conj
 mianowicie conj
-Szczepana subst:sg:acc:m1
+Szczepana subst:sg:gen:m1
 i conj
 Stefana subst:sg:gen:m1
 . interp
@@ -20478,7 +20478,7 @@ Faktycznie adv:pos
 powiedz impt:sg:sec:perf
 mi ppron12:sg:dat:m1:pri:nakc
 , interp
-co subst:sg:acc:n:ncol
+co subst:sg:nom:n:ncol
 to subst:sg:nom:n:ncol
 się part
 robi fin:sg:ter:imperf
@@ -20564,14 +20564,14 @@ czegoś subst:sg:gen:n:ncol
 dowiedzieć inf:perf
 . interp
 
-Zwłoki subst:pl:nom:n:pt
+Zwłoki subst:pl:nom:f
 psa subst:sg:gen:m2
-trafiły praet:pl:n:perf
+trafiły praet:pl:f:perf
 do prep:gen
 wrocławskiego adj:sg:gen:n:pos
 schroniska subst:sg:gen:n:ncol
 dla prep:gen
-zwierząt subst:pl:gen:n:col
+zwierząt subst:pl:gen:n:ncol
 . interp
 
 W prep:loc:nwok
@@ -20596,7 +20596,7 @@ bramkę subst:sg:acc:f
 
 Z prep:inst:nwok
 chwilą subst:sg:inst:f
-urodzenia ger:sg:gen:n:perf:aff
+urodzenia subst:sg:gen:n:ncol
 dziecko subst:sg:nom:n:col
 może fin:sg:ter:imperf
 żądać inf:imperf
@@ -20604,10 +20604,10 @@ naprawienia ger:sg:gen:n:perf:aff
 szkód subst:pl:gen:f
 doznanych ppas:pl:gen:f:perf:aff
 przed prep:inst:nwok
-urodzeniem ger:sg:inst:n:perf:aff
+urodzeniem subst:sg:inst:n:ncol
 . interp
 
-Kampanie subst:sg:acc:f
+Kampanie subst:pl:acc:n:pt
 będzie bedzie:sg:ter:imperf
 można pred
 prowadzić inf:imperf
@@ -20645,7 +20645,7 @@ tę adj:sg:acc:f:pos
 postać subst:sg:acc:f
 liberalizmu subst:sg:gen:m3
 , interp
-którą adj:sg:nom:f:pos
+którą adj:sg:acc:f:pos
 głosiła praet:sg:f:imperf
 np brev:pun
 . interp
@@ -20660,7 +20660,7 @@ racjonalnego adj:sg:gen:m3:pos
 egoizmu subst:sg:gen:m3
 ? interp
 
-Tak adv:pos
+Tak part
 jakby comp
 ludzie subst:pl:nom:m1
 z prep:gen:nwok
@@ -20676,7 +20676,7 @@ nieczyste adj:sg:acc:n:pos
 sumienie subst:sg:acc:n:ncol
 , interp
 chcieli praet:pl:m1:imperf
-jednak conj
+jednak part
 go ppron3:sg:acc:m1:ter:nakc:npraep
 wysłuchać inf:perf
 , interp
@@ -20717,11 +20717,11 @@ ilość subst:sg:nom:f
 - interp
 tylko part
 w prep:loc:nwok
-arytmetycznym adj:sg:loc:m3:pos
+arytmetycznym adj:sg:loc:n:pos
 ) interp
 ? interp
 
-Wyczekał praet:sg:m1:imperf
+Wyczekał praet:sg:m1:perf
 , interp
 aż comp
 prorok subst:sg:nom:m1
@@ -20729,16 +20729,16 @@ prorok subst:sg:nom:m1
 a conj
 wyglądał praet:sg:m1:imperf
 dzisiaj adv
-zgoła adv:pos
+zgoła part
 po prep:acc
 pańsku adjp
 , interp
 niczym comp
-karmazynowy adj:sg:nom:m2:pos
+karmazynowy adj:sg:nom:m3:pos
 kogucik subst:sg:nom:m2
 w prep:loc:nwok
-srebrzystym adj:sg:loc:m3:pos
-żupanie subst:sg:loc:m3
+srebrzystym adj:sg:loc:n:pos
+żupanie subst:sg:loc:n:ncol
 , interp
 purpurowym adj:sg:loc:m3:pos
 kontusiku subst:sg:loc:m3
@@ -20758,9 +20758,9 @@ da fin:sg:ter:perf
 znak subst:sg:acc:m3
 . interp
 
-Poduszkowiec subst:sg:nom:m3
+Poduszkowiec subst:sg:nom:m2
 , interp
-który adj:sg:nom:m3:pos
+który adj:sg:nom:m2:pos
 unosi fin:sg:ter:imperf
 się part
 25 num:pl:acc:m3:rec
@@ -20802,7 +20802,7 @@ dobry adj:sg:acc:m3:pos
 początek subst:sg:acc:m3
 , interp
 zupełnie adv:pos
-gratis adv
+gratis adv:pos
 , interp
 sypie fin:sg:ter:imperf
 trzech num:pl:nom:m1:rec
@@ -20830,9 +20830,9 @@ od prep:gen:nwok
 gąsiorowego adj:sg:gen:m3:pos
 korka subst:sg:gen:m3
 , interp
-wydarł praet:sg:m1:perf
+wydarł praet:sg:m3:perf
 się part
-wniebogłosy subst:sg:nom:m1
+wniebogłosy subst:pl:nom:m3
 . interp
 
 Model subst:sg:nom:m3
@@ -20841,7 +20841,7 @@ akcentuje fin:sg:ter:imperf
 fazy subst:pl:acc:f
 transformacji subst:sg:gen:f
 , interp
-jaka adj:sg:acc:f:pos
+jaka adj:sg:nom:f:pos
 dokonuje fin:sg:ter:imperf
 się part
 w prep:loc:nwok
@@ -20869,7 +20869,7 @@ postrzega fin:sg:ter:imperf
 obiektywną adj:sg:acc:f:pos
 rzeczywistość subst:sg:acc:f
 ( interp
-fakt subst:sg:nom:m3
+fakt subst:sg:acc:m3
 ) interp
 . interp
 
@@ -20890,7 +20890,7 @@ mi ppron12:sg:dat:m1:pri:nakc
 prawo subst:sg:nom:n:ncol
 . interp
 
-Jak adv:pos
+Jak comp
 udało praet:sg:n:perf
 się part
 nam ppron12:pl:dat:m1:pri
@@ -20920,7 +20920,7 @@ na prep:acc
 fortepian subst:sg:acc:m3
 lub conj
 dla prep:gen
-solisty subst:sg:gen:f
+solisty subst:sg:gen:m1
 z prep:inst:nwok
 akompaniamentem subst:sg:inst:m3
 fortepianu subst:sg:gen:m3
@@ -21016,7 +21016,7 @@ gladiatorów subst:pl:gen:m1
 Rozpierała praet:sg:f:imperf
 go ppron3:sg:acc:m1:ter:nakc:npraep
 potrzeba subst:sg:nom:f
-działania ger:sg:gen:n:imperf:aff
+działania subst:sg:gen:n:ncol
 . interp
 
 Jego ppron3:sg:gen:m3:ter:akc:npraep
@@ -21045,13 +21045,13 @@ ciepła adj:sg:nom:f:pos
 , interp
 a conj
 widoki subst:pl:nom:m3
-różnobarwnych adj:pl:gen:n:pos
-zarośli subst:pl:gen:n:ncol
+różnobarwnych adj:pl:gen:m3:pos
+zarośli subst:pl:gen:m3
 tak adv:pos
 urozmaicone ppas:pl:nom:m3:perf:aff
 , interp
-jak conj
-urozmaiconym adj:sg:inst:n:pos
+jak comp
+urozmaiconym ppas:sg:inst:n:perf:aff
 pragnęło praet:sg:n:imperf
 by part
 się part
@@ -21062,8 +21062,8 @@ swe adj:sg:acc:n:pos
 
 - interp
 Kobieta subst:sg:nom:f
-pełna adj:sg:inst:f:pos
-ciepła adj:sg:inst:f:pos
+pełna adj:sg:nom:f:pos
+ciepła adj:sg:nom:f:pos
 , interp
 z prep:inst:nwok
 łatwością subst:sg:inst:f
@@ -21094,7 +21094,7 @@ a conj
 ja ppron12:sg:nom:m1:pri
 , interp
 jako comp
-bezbożnica subst:sg:nom:m1
+bezbożnica subst:sg:nom:f
 , interp
 zostanę fin:sg:pri:perf
 zelżona ppas:sg:nom:f:perf:aff
@@ -21116,7 +21116,7 @@ trudności subst:pl:acc:f
 usiłowała praet:sg:f:imperf
 przezwyciężyć inf:perf
 w prep:loc:nwok
-duchu subst:sg:loc:n:ncol
+duchu subst:sg:loc:m3
 Ewangelii subst:sg:gen:f
 - interp
 mówi fin:sg:ter:imperf
@@ -21146,16 +21146,16 @@ oprawy subst:sg:gen:f
 
 Po prep:loc
 chwili subst:sg:loc:f
-zagrzmiała ppas:sg:nom:f:perf:aff
+zagrzmiała praet:sg:f:perf
 gitara subst:sg:nom:f
 basowa adj:sg:nom:f:pos
 , interp
-rozdarł praet:sg:m1:perf
+rozdarł praet:sg:m3:perf
 się part
-puzon subst:sg:nom:m1
+puzon subst:sg:nom:m3
 , interp
 beztrosko adv:pos
-zadźwięczał praet:sg:m1:perf
+zadźwięczał praet:sg:m3:perf
 keyboard subst:sg:acc:m3
 , interp
 po prep:loc
@@ -21166,7 +21166,7 @@ wypadła praet:sg:f:perf
 ważąca pact:sg:nom:f:imperf:aff
 sto num:pl:acc:m3:rec
 trzy num:pl:acc:m3:congr
-kilo subst:pl:gen:n:ncol
+kilo subst:pl:acc:m3
 Laura subst:sg:nom:f
 Wasąg subst:sg:nom:f
 i conj
@@ -21206,7 +21206,7 @@ wieku subst:sg:gen:m3
 , interp
 jedno adj:sg:nom:n:pos
 z prep:gen:nwok
-nich ppron3:pl:gen:n:ter:akc:praep
+nich ppron3:pl:gen:f:ter:akc:praep
 to pred
 " interp
 Ostatnia adj:sg:nom:f:pos
@@ -21215,8 +21215,8 @@ Wieczerza subst:sg:nom:f
 . interp
 
 Oddając pcon:imperf
-zużyte adj:pl:acc:f:pos
-elektrolity subst:pl:acc:f
+zużyte adj:pl:acc:m3:pos
+elektrolity subst:pl:acc:m3
 , interp
 które adj:pl:nom:m3:pos
 tam adv
@@ -21252,7 +21252,7 @@ teza subst:sg:nom:f
 istnieje fin:sg:ter:imperf
 ego subst:sg:nom:n:ncol
 ( interp
-Ja ppron12:sg:nom:m1:pri
+Ja subst:sg:nom:n:ncol
 , interp
 niekonscjentywne adj:sg:nom:n:pos
 ) interp
@@ -21277,7 +21277,7 @@ od prep:gen:nwok
 przyszłego adj:sg:gen:m3:pos
 roku subst:sg:gen:m3
 nowemu adj:sg:dat:m1:pos
-wojewodzie subst:sg:dat:m3
+wojewodzie subst:sg:dat:m1
 , interp
 inni adj:pl:nom:m1:pos
 marszałkom subst:pl:dat:m1
@@ -21305,14 +21305,14 @@ i conj
 śmierć subst:sg:nom:f
 wydają fin:pl:ter:imperf
 się part
-najlepszym adj:sg:inst:m3:sup
+najlepszym adj:sg:inst:n:pos
 rozwiązaniem subst:sg:inst:n:ncol
 zarówno conj
 romansu subst:sg:gen:m3
 , interp
 jak conj
 i conj
-tragedii subst:pl:gen:f
+tragedii subst:sg:gen:f
 . interp
 
 To pred
@@ -21407,14 +21407,14 @@ to subst:sg:acc:n:ncol
 co subst:sg:acc:n:ncol
 lubi fin:sg:ter:imperf
 i conj
-co subst:sg:acc:n:ncol
+co subst:sg:nom:n:ncol
 będzie bedzie:sg:ter:imperf
 sprawiać inf:imperf
 jej ppron3:sg:dat:f:ter:akc:npraep
 przyjemność subst:sg:acc:f
 . interp
 
-Rozformowanie subst:sg:nom:n:ncol
+Rozformowanie ger:sg:nom:n:perf:aff
 ma fin:sg:ter:imperf
 być inf:imperf
 zakończone ppas:sg:nom:n:perf:aff
@@ -21453,7 +21453,7 @@ sprzedaży subst:sg:gen:f
 akcji subst:pl:gen:f
 firm subst:pl:gen:f
 , interp
-którym adj:pl:dat:f:pos
+którym adj:pl:dat:m1:pos
 szefują fin:pl:ter:imperf
 . interp
 
@@ -21468,7 +21468,7 @@ zestawu subst:sg:gen:m3
 . interp
 
 - interp
-Wiele num:pl:nom:m3:rec
+Wiele num:pl:nom:f:rec
 tysięcy subst:pl:gen:m3
 osób subst:pl:gen:f
 w prep:loc:nwok
@@ -21521,7 +21521,7 @@ błąd subst:sg:acc:m3
 przepisując pcon:imperf
 słowo subst:sg:acc:n:ncol
 " interp
-płuc subst:sg:nom:n:ncol
+płuc subst:pl:gen:n:ncol
 " interp
 może part
 również part
@@ -21545,11 +21545,11 @@ tutaj adv
 wskazuje fin:sg:ter:imperf
 końcem subst:sg:inst:m3
 długopisu subst:sg:gen:m3
-podnóże subst:sg:acc:n:ncol
+podnóże subst:pl:gen:f
 góry subst:sg:gen:f
 . interp
 
-Wprost part
+Wprost adv
 przeciwnie adv:pos
 , interp
 zapewniają fin:pl:ter:imperf
@@ -21570,7 +21570,7 @@ faraona subst:sg:gen:m1
 , interp
 prusaki subst:pl:nom:m2
 , interp
-karaczany subst:pl:nom:m3
+karaczany subst:pl:nom:m2
 itp brev:pun
 . interp
 
@@ -21600,7 +21600,7 @@ gestów subst:pl:gen:m3
 Pojawia fin:sg:ter:imperf
 się part
 bowiem comp
-coraz adv
+coraz part
 więcej num:pl:nom:f:rec
 prac subst:pl:gen:f
 dowodzących pact:pl:gen:f:imperf:aff
@@ -21610,7 +21610,7 @@ wygląd subst:sg:nom:m3
 skóry subst:sg:gen:f
 aż part
 w prep:loc:nwok
-90 num:pl:acc:m3:rec
+90 num:pl:loc:m3:congr
 proc brev:pun
 . interp
 zależy fin:sg:ter:imperf
@@ -21662,7 +21662,7 @@ zainteresowała praet:sg:f:perf
 go ppron3:sg:acc:m1:ter:nakc:npraep
 bardziej adv:com
 niż comp
-inne adj:pl:nom:f:pos
+inne adj:pl:nom:m3:pos
 . interp
 
 Forum subst:sg:nom:n:ncol
@@ -21675,7 +21675,7 @@ realne adj:sg:acc:n:pos
 . interp
 
 Odpowiednio adv:pos
-umocowane ppas:pl:nom:m3:perf:aff
+umocowane ppas:pl:nom:n:perf:aff
 na prep:loc
 ścianie subst:sg:loc:f
 czy conj
@@ -21699,7 +21699,7 @@ skutek subst:sg:acc:m3
 tych adj:pl:gen:m3:pos
 wszystkich adj:pl:gen:m3:pos
 zabiegów subst:pl:gen:m3
-najlepsze adj:sg:nom:m3:sup
+najlepsze adj:pl:nom:m3:com
 wiersze subst:pl:nom:m3
 Anatola subst:sg:gen:m1
 Sterna subst:sg:gen:m1
@@ -21707,13 +21707,13 @@ otrzymują fin:pl:ter:imperf
 ruch subst:sg:acc:m3
 wyobrażeń subst:pl:gen:n:ncol
 , interp
-ich ppron3:pl:gen:m3:ter:akc:npraep
+ich ppron3:pl:gen:f:ter:akc:npraep
 płynne adj:sg:acc:n:pos
 następstwo subst:sg:acc:n:ncol
 i conj
 przenikanie ger:sg:acc:n:imperf:aff
 - interp
-podobne adj:pl:nom:n:pos
+podobne adj:sg:acc:n:pos
 do prep:gen
 kompozycji subst:sg:gen:f
 bezfabularnej adj:sg:gen:f:pos
@@ -21727,9 +21727,9 @@ w prep:acc:nwok
 życie subst:sg:acc:n:ncol
 , interp
 jeśli comp
-F-16 subst:sg:nom:m3
+F-16 subst:sg:nom:n:ncol
 wygra fin:sg:ter:perf
-przetarg subst:sg:acc:m3
+przetarg subst:sg:nom:m3
 , interp
 który adj:sg:nom:m3:pos
 powinien winien:sg:m3:imperf
@@ -21772,12 +21772,12 @@ potężną adj:sg:acc:f:pos
 falę subst:sg:acc:f
 protestów subst:pl:gen:m3
 przeciw prep:dat
-odwołaniu subst:sg:dat:n:ncol
+odwołaniu ger:sg:dat:n:perf:aff
 prof brev:pun
 . interp
-Joliot subst:sg:gen:m1
+Joliot subst:sg:gen:f
 - interp
-Curie subst:sg:gen:m1
+Curie subst:sg:gen:f
 i conj
 wzywa fin:sg:ter:imperf
 Francuzów subst:pl:acc:m1
@@ -21853,17 +21853,17 @@ były praet:pl:n:imperf
 stolicami subst:pl:inst:f
 powiatów subst:pl:gen:m3
 przed prep:inst:nwok
-1975 adj:sg:gen:m3:pos
+1975 adj:sg:inst:m3:pos
 r brev:pun
 . interp
 oraz conj
-silne adj:pl:acc:f:pos
+silne adj:pl:nom:f:pos
 więzi subst:pl:nom:f
-społeczne adj:pl:acc:f:pos
+społeczne adj:pl:nom:f:pos
 , interp
-kulturowe adj:pl:acc:f:pos
+kulturowe adj:pl:nom:f:pos
 i conj
-geograficzne adj:pl:acc:f:pos
+geograficzne adj:pl:nom:f:pos
 . interp
 
 Ich ppron3:pl:gen:m1:ter:akc:npraep
@@ -21908,7 +21908,7 @@ jednostek subst:pl:gen:f
 , interp
 jak conj
 i conj
-najrozmaitszych adj:pl:gen:f:sup
+najrozmaitszych adj:pl:gen:f:pos
 grup subst:pl:gen:f
 społecznych adj:pl:gen:f:pos
 . interp
@@ -21919,19 +21919,19 @@ M brev:pun
 . interp
 : interp
 W prep:loc:nwok
-dalszych adj:pl:loc:m3:pos
+dalszych ppas:pl:loc:m3:perf:aff
 odcinkach subst:pl:loc:m3
 będzie bedzie:sg:ter:imperf
 znacznie adv:pos
 więcej num:pl:nom:m3:rec
-humoru subst:sg:gen:m3
+humoru subst:sg:gen:n:ncol
 , interp
 przecież part
 to pred
 także part
 jest fin:sg:ter:imperf
 immanentna adj:sg:nom:f:pos
-cecha subst:sg:inst:f
+cecha subst:sg:nom:f
 wojska subst:sg:gen:n:ncol
 . interp
 
@@ -21959,7 +21959,7 @@ Mówili praet:pl:m1:imperf
 śmy aglt:pl:pri:imperf:nwok
 o prep:loc
 starych adj:pl:loc:n:pos
-dziejach subst:pl:loc:n:pt
+dziejach subst:pl:loc:m3
 - interp
 oświadczył praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
@@ -22100,7 +22100,7 @@ ofiar subst:pl:gen:f
 niż comp
 malaria subst:sg:nom:f
 i conj
-AIDS subst:sg:nom:m3
+AIDS subst:sg:inst:n:ncol
 łącznie adv:pos
 . interp
 
@@ -22158,7 +22158,7 @@ mruknął praet:sg:m1:perf
 kierowca subst:sg:nom:m1
 . interp
 
-Największy adj:sg:nom:m3:sup
+Największy adj:sg:nom:m1:sup
 chłopczyk subst:sg:nom:m1
 waży fin:sg:ter:imperf
 prawie part
@@ -22285,14 +22285,14 @@ Andrzejewskiego subst:sg:gen:m1
 , interp
 oparty ppas:sg:acc:m3:perf:aff
 na prep:loc
-chińskich adj:pl:loc:m3:pos
-motywach subst:pl:loc:m3
-spektakl subst:sg:nom:m3
+chińskich adj:pl:loc:f:pos
+motywach subst:pl:loc:f
+spektakl subst:sg:acc:m3
 teatralny adj:sg:nom:m3:pos
 " interp
 Wdzięczna adj:sg:nom:f:pos
 pani subst:sg:nom:f
-Strumyk subst:sg:nom:m3
+Strumyk subst:sg:nom:f
 " interp
 czy conj
 " interp
@@ -22319,7 +22319,7 @@ ręce subst:sg:loc:f
 kostkę subst:sg:acc:f
 takiego adj:sg:gen:n:pos
 mydła subst:sg:gen:n:ncol
-jak comp
+jak conj
 i conj
 kawałek subst:sg:acc:m3
 wyprawionej ppas:sg:gen:f:perf:aff
@@ -22410,7 +22410,7 @@ pewne adj:sg:nom:n:pos
 . interp
 
 Są fin:pl:ter:imperf
-one ppron3:pl:nom:f:ter:akc:npraep
+one ppron3:pl:nom:m3:ter:akc:npraep
 dość part
 skutecznym adj:sg:inst:m3:pos
 elementarnym adj:sg:inst:m3:pos
@@ -22436,14 +22436,14 @@ głosowania subst:sg:gen:n:ncol
 . interp
 
 Wśród prep:gen
-trzech num:pl:gen:m3:congr
+trzech num:pl:gen:n:congr:ncol
 pozostałych adj:pl:gen:m3:pos
-młodych adj:pl:gen:m3:pos
+młodych adj:pl:gen:m2:pos
 rysi subst:pl:gen:m2
 śledzonych ppas:pl:gen:m3:imperf:aff
 telemetrycznie adv:pos
 , interp
-które adj:pl:nom:m3:pos
+które adj:pl:nom:n:pos
 osiedliły praet:pl:f:perf
 się part
 w prep:loc:nwok
@@ -22488,10 +22488,10 @@ składników subst:pl:gen:m3
 pokarmowych adj:pl:gen:m3:pos
 i conj
 poprawiającej pact:sg:gen:f:imperf:aff
-stosunki subst:pl:acc:m3
+stosunki subst:pl:acc:n:pt
 wodno adja
 - interp
-powietrzne adj:pl:acc:m3:pos
+powietrzne adj:pl:acc:n:pos
 . interp
 
 Aresztowana ppas:sg:nom:f:perf:aff
@@ -22527,7 +22527,7 @@ ukrywania ger:sg:gen:n:imperf:aff
 się part
 przed prep:inst:nwok
 organami subst:pl:inst:m3
-ścigania ger:sg:gen:n:imperf:aff
+ścigania subst:sg:gen:n:ncol
 . interp
 
 Borowski subst:sg:nom:m1
@@ -22578,7 +22578,7 @@ Murman subst:sg:nom:m1
 nie part
 zawsze adv
 zatrzymywał praet:sg:m1:imperf
-swego adj:sg:gen:m1:pos
+swego adj:sg:gen:m2:pos
 łaza subst:sg:gen:m2
 przy prep:loc
 przydrożnych adj:pl:loc:f:pos
@@ -22725,11 +22725,11 @@ wieku subst:sg:gen:m3
 gdy adv
 naśladownictwa subst:pl:nom:n:ncol
 ustąpiły praet:pl:n:perf
-nowym adj:pl:dat:f:pos
+nowym adj:pl:dat:m3:pos
 tematom subst:pl:dat:m3
 i conj
 formom subst:pl:dat:f
-wypracowanym ppas:pl:inst:f:perf:aff
+wypracowanym adj:pl:dat:f:pos
 przez prep:acc:nwok
 miejscowych adj:pl:acc:m1:pos
 poetów subst:pl:acc:m1
@@ -22814,7 +22814,7 @@ na prep:acc
 olimpiady subst:pl:acc:f
 sportowe adj:pl:acc:f:pos
 , interp
-wakacje subst:pl:nom:m3
+wakacje subst:pl:nom:n:pt
 w prep:loc:nwok
 ośrodkach subst:pl:loc:m3
 rozrywkowych adj:pl:loc:m3:pos
@@ -22839,7 +22839,7 @@ itp brev:pun
 . interp
 
 W prep:loc:nwok
-Birkenau subst:sg:loc:f
+Birkenau subst:sg:loc:m3
 osadzono imps:perf
 ich ppron3:pl:acc:m1:ter:akc:npraep
 oddzielnie adv:pos
@@ -22867,9 +22867,9 @@ makiaweliczne adj:pl:nom:m3:pos
 chwyty subst:pl:nom:m3
 . interp
 
-GIEDROYC subst:sg:nom:m1
+GIEDROYC adj:pl:nom:n:pos
 , interp
-CZYLI conj
+CZYLI part
 JA ppron12:sg:nom:m1:pri
 : interp
 Zawsze adv
@@ -22877,7 +22877,7 @@ był praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 samotnikiem subst:sg:inst:m1
 , interp
-podszytym adj:sg:inst:m1:pos
+podszytym ppas:sg:inst:m3:perf:aff
 chyba part
 wielkim adj:sg:inst:m3:pos
 egoizmem subst:sg:inst:m3
@@ -22902,7 +22902,7 @@ jacy adj:pl:nom:m1:pos
 byli praet:pl:m1:imperf
 do prep:gen
 mnie ppron12:sg:gen:m1:pri:akc
-jednak part
+jednak conj
 tak adv:pos
 czy conj
 inaczej adv
@@ -22949,11 +22949,11 @@ Jeszcze part
 bardziej adv:com
 testy subst:pl:acc:m3
 skomplikuje fin:sg:ter:perf
-stosowanie ger:sg:acc:n:imperf:aff
+stosowanie ger:sg:nom:n:imperf:aff
 różnych adj:pl:gen:m3:pos
 manekinów subst:pl:gen:m3
 : interp
-amerykański adj:sg:nom:m3:pos
+amerykański adj:sg:nom:m2:pos
 manekin subst:sg:nom:m3
 mierzy fin:sg:ter:imperf
 skalę subst:sg:acc:f
@@ -23135,7 +23135,7 @@ tutaj adv
 nierozłączki subst:pl:nom:f
 - interp
 występują fin:pl:ter:imperf
-one ppron3:pl:nom:m3:ter:akc:npraep
+one ppron3:pl:nom:f:ter:akc:npraep
 w prep:loc:nwok
 kilkunastu num:pl:loc:m3:congr
 gatunkach subst:pl:loc:m3
@@ -23145,11 +23145,11 @@ obok prep:gen
 papużek subst:pl:gen:f
 falistych adj:pl:gen:f:pos
 najmniej adv:sup
-kłopotliwymi adj:pl:inst:m1:pos
+kłopotliwymi adj:pl:inst:m3:pos
 ptakami subst:pl:inst:m2
 w prep:loc:nwok
 chowie subst:sg:loc:m3
-domowym adj:sg:loc:m3:pos
+domowym adj:sg:loc:n:pos
 . interp
 
 - interp
@@ -23170,7 +23170,7 @@ niemiecki adj:sg:nom:m1:pos
 adwokat subst:sg:nom:m1
 reprezentujący pact:sg:nom:m1:imperf:aff
 rodziny subst:pl:acc:f
-pomordowanych ppas:pl:gen:m1:perf:aff
+pomordowanych adj:pl:gen:m1:pos
 pocztowców subst:pl:gen:m1
 . interp
 
@@ -23193,7 +23193,7 @@ jego ppron3:sg:gen:m1:ter:akc:npraep
 trąba subst:sg:nom:f
 pokryła praet:sg:f:perf
 się part
-gęsią subst:sg:inst:f
+gęsią adj:sg:inst:f:pos
 skórką subst:sg:inst:f
 . interp
 
@@ -23224,7 +23224,7 @@ oświadczono imps:perf
 atakowi subst:sg:dat:m3
 na prep:acc
 nauczycielki subst:pl:acc:f
-winne adj:pl:nom:f:pos
+winne ppas:pl:nom:f:imperf:aff
 są fin:pl:ter:imperf
 : interp
 liberalizacja subst:sg:nom:f
@@ -23236,8 +23236,8 @@ rozwiązłość subst:sg:nom:f
 obyczajów subst:pl:gen:m3
 . interp
 
-Grzmiał praet:sg:m1:imperf
-to subst:sg:acc:n:ncol
+Grzmiał praet:sg:m1:perf
+to adj:sg:acc:n:pos
 swoje adj:sg:acc:n:pos
 " interp
 wiem fin:sg:pri:imperf
@@ -23256,7 +23256,7 @@ ma fin:sg:ter:imperf
 na prep:acc
 nią ppron3:sg:acc:f:ter:akc:praep
 żadnego adj:sg:gen:n:pos
-ale subst:sg:gen:n:ncol
+ale conj
 " interp
 - interp
 z prep:gen:nwok
@@ -23265,22 +23265,22 @@ podobnej adj:sg:gen:f:pos
 do prep:gen
 wyjedzonej ppas:sg:gen:f:perf:aff
 przez prep:acc:nwok
-mole subst:sg:acc:m2
+mole subst:pl:acc:m2
 . interp
 
-Odrzutowiec subst:sg:nom:m3
+Odrzutowiec subst:sg:nom:m1
 z prep:inst:nwok
 hukiem subst:sg:inst:m3
-przekraczał praet:sg:m3:imperf
+przekraczał praet:sg:m1:imperf
 barierę subst:sg:acc:f
 dźwięku subst:sg:gen:m3
 , interp
-patrzył praet:sg:m3:imperf
+patrzył praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
 , interp
-jak adv:pos
+jak comp
 rozpruwa fin:sg:ter:imperf
-niebo subst:sg:acc:n:ncol
+niebo subst:sg:nom:n:ncol
 . interp
 
 Stracił praet:sg:m1:perf
@@ -23307,7 +23307,7 @@ domku subst:sg:loc:m3
 , interp
 prokuratura subst:sg:nom:f
 doszła praet:sg:f:perf
-jednak part
+jednak conj
 do prep:gen
 wniosku subst:sg:gen:m3
 , interp
@@ -23365,7 +23365,7 @@ po prep:acc
 prostu adjp
 budzik subst:sg:nom:m3
 , interp
-siedział praet:sg:m3:imperf
+siedział praet:sg:m1:imperf
 dalej adv:com
 spokojnie adv:pos
 , interp
@@ -23375,7 +23375,7 @@ niż comp
 gołębie subst:pl:nom:m2
 i conj
 wróble subst:pl:nom:m2
-krążące pact:pl:nom:f:imperf:aff
+krążące pact:pl:nom:m3:imperf:aff
 bez prep:gen:nwok
 potrzeby subst:sg:gen:f
 między prep:inst
@@ -23434,7 +23434,7 @@ bliskie adj:pl:acc:m3:pos
 kontakty subst:pl:acc:m3
 z prep:inst:nwok
 czterokrotnie adv:pos
-mniejszą adj:sg:inst:f:pos
+mniejszą adj:sg:inst:f:sup
 liczbą subst:sg:inst:f
 przyjaciół subst:pl:gen:m1
 niż comp
@@ -23483,7 +23483,7 @@ wskazują fin:pl:ter:imperf
 że comp
 została praet:sg:f:perf
 zarażona ppas:sg:nom:f:perf:aff
-wścieklizną subst:sg:nom:f
+wścieklizną subst:sg:inst:f
 - interp
 mówi fin:sg:ter:imperf
 Wojciech subst:sg:nom:m1
@@ -23513,7 +23513,7 @@ po prep:loc
 miesiącu subst:sg:loc:m3
 mieszkania subst:sg:gen:n:ncol
 zmieniła praet:sg:f:perf
-jej ppron3:sg:gen:f:ter:akc:npraep
+jej ppron3:sg:dat:f:ter:akc:npraep
 życie subst:sg:acc:n:ncol
 w prep:acc:nwok
 koszmar subst:sg:acc:m3
@@ -23547,7 +23547,7 @@ na prep:loc
 każdym adj:sg:loc:m3:pos
 kroku subst:sg:loc:m3
 , interp
-jakże part
+jakże adv
 więc comp
 nie part
 miało praet:sg:n:imperf
@@ -23568,7 +23568,7 @@ ponosi fin:sg:ter:imperf
 winy subst:sg:gen:f
 za prep:acc
 utratę subst:sg:acc:f
-Eurydyki subst:sg:gen:m1
+Eurydyki subst:sg:gen:f
 . interp
 
 - interp
@@ -23601,7 +23601,7 @@ Michał subst:sg:nom:m1
 Zieliński subst:sg:nom:m1
 uważa fin:sg:ter:imperf
 za prep:acc
-halucynację subst:pl:acc:f
+halucynację subst:sg:acc:f
 , interp
 pozostaje fin:sg:ter:imperf
 mi ppron12:sg:dat:m1:pri:nakc
@@ -23721,8 +23721,8 @@ Kościelniaka subst:sg:gen:m1
 Przystupa subst:sg:nom:f
 odstawiła praet:sg:f:perf
 szklankę subst:sg:acc:f
-po prep:loc
-whisky subst:sg:loc:f
+po prep:acc
+whisky subst:sg:acc:f
 i conj
 skuliła praet:sg:f:perf
 się part
@@ -23743,7 +23743,7 @@ obudził praet:sg:m1:perf
 Będziemy bedzie:pl:pri:imperf
 występować inf:imperf
 do prep:gen
-kolegiów subst:pl:gen:m1
+kolegiów subst:pl:gen:m3
 ds brev:pun
 . interp
 wykroczeń subst:pl:gen:n:ncol
@@ -23783,7 +23783,7 @@ i conj
 inflacja subst:sg:nom:f
 , interp
 a conj
-zatem conj
+zatem comp
 spadną fin:pl:ter:perf
 realne adj:pl:nom:m3:pos
 dochody subst:pl:nom:m3
@@ -23825,7 +23825,7 @@ dostawców subst:pl:gen:m1
 żywności subst:sg:gen:f
 , interp
 którzy adj:pl:nom:m1:pos
-pozakładali praet:pl:m1:perf
+pozakładali praet:pl:m1:imperf
 własne adj:pl:acc:f:pos
 , interp
 komercyjne adj:pl:acc:f:pos
@@ -23859,7 +23859,7 @@ jonów subst:pl:gen:m3
 , interp
 jak comp
 : interp
-ogniskowanie ger:sg:nom:n:imperf:aff
+ogniskowanie subst:sg:nom:n:ncol
 , interp
 mała adj:sg:nom:f:pos
 rozbieżność subst:sg:nom:f
@@ -23913,12 +23913,12 @@ algierskiej adj:sg:gen:f:pos
 1 dig
 . interp
 Podmiot subst:sg:nom:m3
-świadczący pact:sg:nom:m3:imperf:aff
+świadczący pact:sg:nom:m1:imperf:aff
 usługi subst:pl:acc:f
 certyfikacyjne adj:pl:acc:f:pos
 , interp
 z prep:inst:nwok
-zastrzeżeniem ger:sg:inst:n:perf:aff
+zastrzeżeniem subst:sg:inst:n:ncol
 ust brev:pun
 . interp
 5 dig
@@ -23963,7 +23963,7 @@ dzieci subst:pl:nom:n:col
 liczą fin:pl:ter:imperf
 na prep:loc
 sobie siebie:loc
-falbanki subst:pl:acc:f
+falbanki subst:pl:acc:m3
 , interp
 zamiast comp
 skupić inf:perf
@@ -24003,7 +24003,7 @@ opowiada fin:sg:ter:imperf
 Andrzej subst:sg:nom:m1
 Michaluk subst:sg:nom:m1
 ( interp
-54 num:pl:nom:m3:rec
+54 num:pl:nom:m3:congr
 l brev:pun
 . interp
 ) interp
@@ -24017,16 +24017,16 @@ Wydawało praet:sg:n:imperf
 się part
 , interp
 że comp
-fiskus subst:sg:nom:m2
+fiskus subst:sg:nom:m3
 nie part
 będzie bedzie:sg:ter:imperf
 dłużej adv:com
-gnębił praet:sg:m1:imperf
-Waldemara subst:sg:acc:m1
-Gronowskiego subst:sg:acc:m1
+gnębił praet:sg:m3:imperf
+Waldemara subst:sg:gen:m1
+Gronowskiego subst:sg:gen:m1
 , interp
-legnickiego adj:sg:acc:m1:pos
-piekarza subst:sg:acc:m1
+legnickiego adj:sg:gen:m1:pos
+piekarza subst:sg:gen:m1
 , interp
 który adj:sg:nom:m1:pos
 przez prep:acc:nwok
@@ -24035,7 +24035,7 @@ ponad part
 lat subst:pl:gen:m3
 rozdawał praet:sg:m1:imperf
 pieczywo subst:sg:acc:n:ncol
-najuboższym adv:sup
+najuboższym adj:sg:inst:m3:sup
 . interp
 
 Skoro comp
@@ -24104,7 +24104,7 @@ A brev:pun
 Milne'a subst:sg:gen:m1
 " interp
 Kubuś subst:sg:nom:m1
-Puchatek subst:sg:nom:m1
+Puchatek subst:sg:nom:m2
 " interp
 i conj
 " interp
@@ -24115,7 +24115,7 @@ Puchatka subst:sg:gen:m1
 
 W prep:loc:nwok
 Burkina subst:sg:loc:n:ncol
-Faso subst:sg:loc:m3
+Faso subst:sg:loc:n:ncol
 dominują fin:pl:ter:imperf
 muzułmanie subst:pl:nom:m1
 . interp
@@ -24127,7 +24127,7 @@ drugi adj:sg:acc:m3:pos
 dom subst:sg:acc:m3
 – interp
 jak comp
-przystało pred
+przystało praet:sg:n:perf
 na prep:acc
 obywateli subst:pl:acc:m1
 posługujących pact:pl:gen:m1:imperf:aff
@@ -24151,9 +24151,9 @@ zawierała praet:sg:f:imperf
 następującą adj:sg:acc:f:pos
 wiadomość subst:sg:acc:f
 : interp
-PRZYKRO adv:pos
+PRZYKRO fin:sg:ter:perf
 MI ppron12:sg:dat:m1:pri:nakc
-PANU subst:sg:dat:m1
+PANU subst:sg:dat:m3
 DONIEŚĆ inf:perf
 , interp
 ŻE comp
@@ -24163,7 +24163,7 @@ S brev:pun
 . interp
 S brev:pun
 . interp
-KOŚCIUSZKO subst:sg:nom:m1
+KOŚCIUSZKO subst:sg:nom:n:ncol
 W prep:loc:nwok
 TEJ adj:sg:loc:f:pos
 PODRÓŻY subst:sg:loc:f
@@ -24171,7 +24171,7 @@ PRZYWIÓZŁ praet:sg:m1:perf
 Z prep:gen:nwok
 NOWEGO adj:sg:gen:m3:pos
 JORKU subst:sg:gen:m3
-PASAŻERÓW subst:pl:acc:m1
+PASAŻERÓW subst:pl:gen:m3
 NA prep:acc
 GAPĘ subst:sg:acc:f
 . interp
@@ -24209,7 +24209,7 @@ jako comp
 pierwszy adj:sg:acc:m3:pos
 . interp
 
-Największe adj:pl:nom:f:sup
+Największe adj:pl:nom:f:com
 dziury subst:pl:nom:f
 zostaną fin:pl:ter:perf
 załatane ppas:pl:nom:f:perf:aff
@@ -24258,7 +24258,7 @@ szkół subst:pl:gen:f
 w prep:loc:nwok
 gminie subst:sg:loc:f
 przeznaczono imps:perf
-100.000 num:pl:acc:m3:rec
+100.000 num:pl:acc:m2:rec
 zł brev:npun
 ; interp
 na prep:acc
@@ -24266,14 +24266,14 @@ budowę subst:sg:acc:f
 sali subst:sg:gen:f
 sportowej adj:sg:gen:f:pos
 w prep:loc:nwok
-Zielinie subst:sg:loc:n:ncol
-200.000 num:pl:acc:m2:rec
+Zielinie subst:sg:loc:f
+200.000 num:pl:acc:m3:rec
 zł brev:npun
 . interp
 
 Do prep:gen
 budowy subst:sg:gen:f
-nowego adj:sg:gen:m3:pos
+nowego adj:sg:gen:n:pos
 gmina subst:sg:nom:f
 podchodziła praet:sg:f:imperf
 kilkakrotnie adv:pos
@@ -24322,7 +24322,7 @@ i conj
 grzbiet subst:sg:nom:m3
 szczupaka subst:sg:gen:m2
 , interp
-co subst:sg:nom:n:ncol
+co subst:sg:acc:n:ncol
 bujną adj:sg:acc:f:pos
 bryłę subst:sg:acc:f
 zielonej adj:sg:gen:f:pos
@@ -24339,7 +24339,7 @@ Na prep:loc
 trasie subst:sg:loc:f
 pn brev:pun
 . interp
-skrawki subst:pl:nom:m3
+skrawki subst:pl:acc:m3
 Puszczy subst:sg:gen:f
 Augustowskiej adj:sg:gen:f:pos
 , interp
@@ -24355,10 +24355,10 @@ drugie adj:sg:acc:n:pos
 co comp
 do prep:gen
 głębokości subst:sg:gen:f
-jezioro subst:sg:nom:n:ncol
+jezioro subst:sg:acc:n:ncol
 Suwalszczyzny subst:sg:gen:f
 – interp
-Wigry subst:pl:nom:m3
+Wigry subst:pl:nom:n:pt
 , interp
 zespół subst:sg:nom:m3
 klasztorny adj:sg:nom:m3:pos
@@ -24380,7 +24380,7 @@ jak comp
 Stary adj:sg:nom:m3:pos
 Folwark subst:sg:nom:m3
 , interp
-Gawrych subst:sg:nom:m3
+Gawrych subst:sg:nom:n:ncol
 Ruda subst:sg:nom:f
 i conj
 Bryzgiel subst:sg:nom:m3
@@ -24405,7 +24405,7 @@ piknik subst:sg:acc:m3
 przybyło praet:sg:n:perf
 kilka num:pl:nom:m3:rec
 tysięcy subst:pl:gen:m3
-opolan subst:pl:gen:n:ncol
+opolan subst:pl:gen:m1
 . interp
 
 I part
@@ -24423,13 +24423,13 @@ eś aglt:sg:sec:imperf:wok
 . interp
 
 W prep:loc:nwok
-Strzelcach subst:pl:loc:m1
+Strzelcach subst:pl:loc:n:pt
 pomnikowa adj:sg:nom:f:pos
 wdzięczność subst:sg:nom:f
 była praet:sg:f:imperf
 chyba part
 najbardziej adv:sup
-uzasadniona ppas:sg:nom:f:perf:aff
+uzasadniona adj:sg:nom:f:pos
 , interp
 bo comp
 Armia subst:sg:nom:f
@@ -24482,7 +24482,7 @@ z prep:inst:nwok
 forsowali praet:pl:m1:imperf
 je ppron3:pl:acc:m3:ter:akc:npraep
 " interp
-górą subst:sg:nom:f
+górą subst:sg:inst:f
 " interp
 i conj
 nadal adv
@@ -24513,7 +24513,7 @@ trzeciej adj:sg:gen:f:pos
 leśnej adj:sg:gen:f:pos
 drogi subst:sg:gen:f
 , interp
-którą adj:sg:inst:f:pos
+którą adj:sg:acc:f:pos
 wjeżdżamy fin:pl:pri:imperf
 w prep:acc:nwok
 las subst:sg:acc:m3
@@ -24593,7 +24593,7 @@ przed prep:inst:nwok
 jego ppron3:sg:gen:m1:ter:akc:npraep
 spojrzeniem subst:sg:inst:n:ncol
 , interp
-wycelowanym ppas:sg:inst:n:perf:aff
+wycelowanym ppas:sg:inst:m3:perf:aff
 precyzyjnie adv:pos
 w prep:acc:nwok
 jej ppron3:sg:gen:f:ter:akc:npraep
@@ -24640,7 +24640,7 @@ fortecę subst:sg:acc:f
 albo conj
 więzienie subst:sg:acc:n:ncol
 niż comp
-uczelnię subst:pl:acc:f
+uczelnię subst:sg:acc:f
 dla prep:gen
 wybrańców subst:pl:gen:m1
 . interp
@@ -24672,7 +24672,7 @@ głowie subst:sg:loc:f
 , interp
 uchwycił praet:sg:m1:perf
 się part
-jej ppron3:sg:gen:f:ter:akc:npraep
+jej ppron3:sg:dat:f:ter:akc:npraep
 kurczowo adv:pos
 , interp
 albowiem comp
@@ -24732,15 +24732,15 @@ w prep:loc:nwok
 Minecrafcie subst:sg:loc:m3
 , interp
 obejrzyj impt:sg:sec:perf
-lajwika subst:sg:acc:m1
+lajwika subst:sg:acc:m2
 , interp
 strzel impt:sg:sec:perf
-headshota subst:sg:acc:m1
+headshota subst:sg:acc:m2
 , interp
 ucharakteryzuj impt:sg:sec:perf
 się part
 na prep:acc
-zombie subst:sg:acc:m1
+zombie subst:pl:acc:m2
 , interp
 pogadaj impt:sg:sec:perf
 z prep:inst:nwok
@@ -24755,7 +24755,7 @@ wieczorem subst:sg:inst:m3
 , interp
 czy part
 za prep:inst
-tobą ppron12:sg:inst:f:sec
+tobą ppron12:sg:inst:m1:sec
 nie part
 czai fin:sg:ter:imperf
 się part
@@ -24765,7 +24765,7 @@ o prep:loc
 białej adj:sg:loc:f:pos
 twarzy subst:sg:loc:f
 ( interp
-pamiętaj impt:sg:sec:perf
+pamiętaj impt:sg:sec:imperf
 , interp
 że comp
 nawet part
@@ -24868,7 +24868,7 @@ naprawdę part
 umorzył praet:sg:m1:perf
 wójt subst:sg:nom:m1
 gminy subst:sg:gen:f
-Śliwice subst:sg:nom:n:ncol
+Śliwice subst:pl:nom:n:pt
 Jerzy subst:sg:nom:m1
 Bogusławski subst:sg:nom:m1
 ? interp
@@ -24919,7 +24919,7 @@ tarnogórski adj:sg:nom:m1:pos
 I conj
 od prep:gen:nwok
 razu subst:sg:gen:m3
-skarciła praet:sg:f:imperf
+skarciła praet:sg:f:perf
 m aglt:sg:pri:imperf:nwok
 się part
 za prep:acc
@@ -25001,7 +25001,7 @@ w prep:loc:nwok
 Dzienniku subst:sg:loc:m3
 Łódzkim adj:sg:loc:m3:pos
 ” interp
-listy subst:pl:nom:m3
+listy subst:sg:gen:f
 wójtów subst:pl:gen:m1
 , interp
 którym adj:pl:dat:m1:pos
@@ -25010,7 +25010,7 @@ się part
 wysoki adj:sg:nom:m3:pos
 ekwiwalent subst:sg:nom:m3
 za prep:acc
-niewykorzystany adj:sg:acc:m3:pos
+niewykorzystany ppas:sg:acc:m3:perf:aff
 urlop subst:sg:acc:m3
 . interp
 
@@ -25020,7 +25020,7 @@ beznadzieja subst:sg:nom:f
 kawałki subst:pl:nom:m3
 plastiku subst:sg:gen:m3
 nerwowo adv:pos
-wyłamywane ppas:pl:nom:m3:perf:aff
+wyłamywane ppas:pl:nom:m3:imperf:aff
 spod prep:gen:nwok
 blatów subst:pl:gen:m3
 . interp
@@ -25065,21 +25065,21 @@ wiem fin:sg:pri:imperf
 , interp
 że comp
 w prep:loc:nwok
-Arizonie subst:sg:loc:f
+Arizonie subst:sg:loc:m3
 jest fin:sg:ter:imperf
 ferma subst:sg:nom:f
 produkująca pact:sg:nom:f:imperf:aff
-chrząszcze subst:pl:acc:m3
+chrząszcze subst:pl:acc:m2
 , interp
 larwy subst:pl:acc:f
 , interp
 skorpiony subst:pl:acc:m2
 i conj
-mnóstwo subst:sg:nom:n:ncol
+mnóstwo num:pl:nom:m3:rec
 innych adj:pl:gen:m3:pos
 owadów subst:pl:gen:m2
 , interp
-które adj:pl:nom:m3:pos
+które adj:pl:acc:n:pos
 oblewa fin:sg:ter:imperf
 się part
 czekoladą subst:sg:inst:f
@@ -25106,7 +25106,7 @@ należy fin:sg:ter:imperf
 krzyczeć inf:imperf
 : interp
 „ interp
-Co pred
+Co part
 za part
 obrzydliwość subst:sg:nom:f
 , interp
@@ -25114,7 +25114,7 @@ chyba part
 się part
 porzygam fin:sg:pri:perf
 , interp
-to subst:sg:nom:n:ncol
+to comp
 smakuje fin:sg:ter:imperf
 jak comp
 kupa subst:sg:nom:f
@@ -25123,7 +25123,7 @@ kupa subst:sg:nom:f
 – interp
 a conj
 publiczność subst:sg:nom:f
-wyje fin:sg:ter:imperf
+wyje fin:sg:ter:perf
 ze prep:gen:wok
 śmiechu subst:sg:gen:m3
 i conj
@@ -25161,8 +25161,8 @@ tych adj:pl:gen:n:pos
 źródeł subst:pl:gen:n:ncol
 , interp
 Japończycy subst:pl:nom:m1
-metodami subst:pl:inst:f
-chałupniczymi adj:pl:inst:f:pos
+metodami subst:pl:inst:m3
+chałupniczymi adj:pl:inst:m3:pos
 destylowali praet:pl:m1:imperf
 benzynę subst:sg:acc:f
 lotniczą adj:sg:acc:f:pos
@@ -25177,7 +25177,7 @@ jak adv:pos
 dramatycznej adj:sg:loc:f:pos
 sytuacji subst:sg:loc:f
 stawiało praet:sg:n:imperf
-ich ppron3:pl:acc:m1:ter:akc:npraep
+ich ppron3:pl:gen:f:ter:akc:npraep
 pozbawienie ger:sg:acc:n:perf:aff
 materiałów subst:pl:gen:m3
 pędnych adj:pl:gen:m3:pos
@@ -25209,12 +25209,12 @@ rozpoznanie ger:sg:nom:n:perf:aff
 struktury subst:sg:gen:f
 i conj
 dynamiki subst:sg:gen:f
-drzewostanów subst:pl:gen:m3
+drzewostanów subst:pl:gen:n:ncol
 limbowo adja
 - interp
 modrzewiowo adja
 - interp
-jodłowych adj:pl:gen:m3:pos
+jodłowych adj:pl:gen:n:pos
 , interp
 określenie ger:sg:nom:n:perf:aff
 możliwości subst:sg:gen:f
@@ -25283,7 +25283,7 @@ nieopłacalna adj:sg:nom:f:pos
 
 - interp
 Celowo adv:pos
-go ppron3:sg:acc:m3:ter:nakc:npraep
+go ppron3:sg:gen:m1:ter:nakc:npraep
 nie part
 kasują fin:pl:ter:imperf
 bądź conj
@@ -25317,13 +25317,13 @@ obecnie adv:pos
 warunki subst:pl:nom:n:pt
 zbliżone adj:pl:nom:n:pos
 do prep:gen
-tych adj:pl:gen:m3:pos
+tych adj:pl:gen:n:pos
 , interp
 jakie adj:pl:nom:n:pos
 przed prep:inst:nwok
 miliardami subst:pl:inst:m3
 lat subst:pl:gen:m3
-istniały praet:pl:n:imperf
+istniały praet:pl:m3:imperf
 na prep:loc
 Ziemi subst:sg:loc:f
 , interp
@@ -25366,7 +25366,7 @@ im ppron3:pl:dat:m1:ter:akc:npraep
 samym adj:sg:inst:m3:pos
 z prep:inst:nwok
 coraz adv
-większym adj:sg:inst:m3:pos
+większym adj:sg:inst:m3:com
 trudem subst:sg:inst:m3
 przychodzi fin:sg:ter:imperf
 wykosztować inf:perf
@@ -25380,8 +25380,8 @@ rosołem subst:sg:inst:m3
 , interp
 roladą subst:sg:inst:f
 i conj
-ziemniaczanymi adj:pl:inst:m3:pos
-kluskami subst:pl:inst:m3
+ziemniaczanymi adj:pl:inst:n:pos
+kluskami subst:pl:inst:n:ncol
 . interp
 
 Warto pred
@@ -25418,7 +25418,7 @@ jest fin:sg:ter:imperf
 , interp
 że comp
 ten adj:sg:nom:m1:pos
-cymes subst:sg:nom:m2
+cymes subst:sg:nom:m1
 ma fin:sg:ter:imperf
 taką adj:sg:acc:f:pos
 urodę subst:sg:acc:f
@@ -25487,7 +25487,7 @@ mając pcon:imperf
 sprzętu subst:sg:gen:m3
 a conj
 tylko part
-trochę adv
+trochę num:pl:acc:f:rec
 wyobraźni subst:sg:gen:f
 można pred
 po prep:acc
@@ -25582,7 +25582,7 @@ lista subst:sg:nom:f
 proponowanych ppas:pl:gen:n:perf:aff
 cięć subst:pl:gen:n:ncol
 w prep:loc:nwok
-subwencjach subst:pl:loc:f
+subwencjach subst:pl:loc:m3
 i conj
 przywilejach subst:pl:loc:m3
 uprzytamnia fin:sg:ter:imperf
@@ -25638,7 +25638,7 @@ zapamiętany ppas:sg:nom:m1:perf:aff
 ? interp
 
 - interp
-Durniu subst:sg:voc:m1
+Durniu subst:sg:nom:m1
 - interp
 karcił praet:sg:m1:imperf
 się part
@@ -25733,7 +25733,7 @@ obawiać inf:imperf
 było praet:sg:n:imperf
 ewentualne adj:sg:nom:n:pos
 spotkanie subst:sg:nom:n:ncol
-oko subst:sg:nom:n:ncol
+oko subst:sg:nom:n:col
 w prep:acc:nwok
 oko subst:sg:acc:n:col
 z prep:inst:nwok
@@ -25742,7 +25742,7 @@ Aleka subst:sg:gen:m1
 . interp
 
 Notabene adv
-temu adj:sg:dat:m1:pos
+temu prep:acc
 , interp
 który adj:sg:nom:m1:pos
 przed prep:inst:nwok
@@ -25756,7 +25756,7 @@ w prep:loc:nwok
 Resovii subst:sg:loc:f
 . interp
 
-Głównie part
+Głównie adv:pos
 chodzi fin:sg:ter:imperf
 o prep:acc
 wybryki subst:pl:acc:m3
@@ -25795,7 +25795,7 @@ podejście subst:sg:nom:n:ncol
 do prep:gen
 cierpienia subst:sg:gen:n:ncol
 , interp
-przemijania ger:sg:gen:n:imperf:aff
+przemijania subst:sg:gen:n:ncol
 , interp
 śmierci subst:sg:gen:f
 , interp
@@ -25805,10 +25805,10 @@ wszechświata subst:sg:gen:m3
 . interp
 
 A conj
-Grześ subst:sg:nom:m1
-XVI adj:sg:nom:m1:pos
+Grześ subst:sg:nom:m3
+XVI adj:sg:nom:m2:pos
 , interp
-ganiący pact:sg:nom:m1:imperf:aff
+ganiący pact:sg:nom:m3:imperf:aff
 wolność subst:sg:acc:f
 sumienia subst:sg:gen:n:ncol
 jako comp
@@ -25853,10 +25853,10 @@ w prep:acc:nwok
 rok subst:sg:acc:m3
 później adv:com
 anektował praet:sg:m3:perf
-ustawą subst:sg:nom:f
+ustawą subst:sg:inst:f
 Knesetu subst:sg:gen:m3
 , interp
-która adj:sg:acc:f:pos
+która adj:sg:nom:f:pos
 głosi fin:sg:ter:imperf
 , interp
 że comp
@@ -25876,7 +25876,7 @@ Dużo num:pl:nom:m3:rec
 czasu subst:sg:gen:m3
 minęło praet:sg:n:perf
 i conj
-wiele num:pl:nom:m3:rec
+wiele num:pl:acc:n:rec:ncol
 się part
 na prep:loc
 świecie subst:sg:loc:m3
@@ -25925,7 +25925,7 @@ tortury subst:pl:nom:f
 
 Bestia subst:sg:nom:f
 chrobocze fin:sg:ter:imperf
-szponami subst:pl:inst:m3
+szponami subst:pl:inst:f
 po prep:loc
 metalowym adj:sg:loc:m3:pos
 parapecie subst:sg:loc:m3
@@ -25954,8 +25954,8 @@ jednocześnie adv:pos
 jakiś adj:sg:nom:m2:pos
 chochlik subst:sg:nom:m2
 we prep:loc:wok
-mnie ppron12:sg:loc:m1:pri
-świergotał praet:sg:m3:imperf
+mnie ppron12:sg:acc:m1:pri:akc
+świergotał praet:sg:m1:imperf
 , interp
 że comp
 dobrze adv:pos
@@ -25986,7 +25986,7 @@ kalabryjskiej adj:sg:gen:f:pos
 która adj:sg:nom:f:pos
 jak comp
 być inf:imperf
-może fin:sg:ter:imperf
+może part
 wiecie fin:pl:sec:imperf
 , interp
 uważana ppas:sg:nom:f:imperf:aff
@@ -26009,7 +26009,7 @@ zwłaszcza part
 po prep:loc
 tym subst:sg:loc:n:ncol
 , interp
-jak comp
+jak adv:pos
 mafia subst:sg:nom:f
 sycylijska adj:sg:nom:f:pos
 została praet:sg:f:perf
@@ -26060,7 +26060,7 @@ osłabienie ger:sg:nom:n:perf:aff
 kursu subst:sg:gen:m3
 może fin:sg:ter:imperf
 niewątpliwie adv:pos
-ten adj:sg:nom:m3:pos
+ten adj:sg:acc:m3:pos
 wzrost subst:sg:acc:m3
 przyspieszyć inf:perf
 . interp
@@ -26087,7 +26087,7 @@ ujawnienia ger:sg:gen:n:perf:aff
 sklepikarzowi subst:sg:dat:m1
 mojego adj:sg:gen:m3:pos
 adresu subst:sg:gen:m3
-zameldowania ger:sg:gen:n:perf:aff
+zameldowania subst:sg:gen:n:ncol
 " interp
 - interp
 mówi fin:sg:ter:imperf
@@ -26098,20 +26098,20 @@ banku subst:sg:gen:m3
 w prep:loc:nwok
 wywiadzie subst:sg:loc:m3
 dla prep:gen
-PAP subst:sg:gen:m3
+PAP subst:sg:gen:f
 . interp
 
-Zjadacz subst:sg:nom:m2
+Zjadacz subst:sg:nom:m1
 Krwi subst:sg:gen:f
 łapał praet:sg:m1:imperf
 się part
 rozdygotanymi ppas:pl:inst:f:perf:aff
 dłońmi subst:pl:inst:f
-za prep:inst
+za prep:acc
 poszarpane ppas:pl:acc:n:perf:aff
 szczękami subst:pl:inst:f
-Potwora subst:sg:gen:m2
-gardło subst:sg:acc:n:ncol
+Potwora subst:sg:gen:m1
+gardło subst:sg:nom:n:ncol
 , interp
 ciemna adj:sg:nom:f:pos
 ciecz subst:sg:nom:f
@@ -26120,7 +26120,7 @@ mu ppron3:sg:dat:m1:ter:nakc:npraep
 pomiędzy prep:inst
 palcami subst:pl:inst:m3
 , interp
-wytrzeszczał praet:sg:m1:imperf
+wytrzeszczał praet:sg:m1:perf
 oczy subst:pl:acc:n:col
 na prep:acc
 Cayugę subst:sg:acc:f
@@ -26166,7 +26166,7 @@ siły subst:pl:acc:f
 i conj
 walczyć inf:imperf
 o prep:acc
-swoje subst:sg:acc:n:ncol
+swoje adj:sg:acc:n:pos
 . interp
 
 Właściciele subst:pl:nom:m1
@@ -26179,7 +26179,7 @@ nocnego adj:sg:gen:n:pos
 dyżurowania ger:sg:gen:n:imperf:aff
 - interp
 tłumaczył praet:sg:m1:imperf
-radnym subst:sg:inst:m1
+radnym subst:sg:dat:m1
 Mówiński subst:sg:nom:m1
 , interp
 po prep:loc
@@ -26200,7 +26200,7 @@ całodobowej adj:sg:gen:f:pos
 służby subst:sg:gen:f
 . interp
 
-Proponowane ppas:sg:nom:n:imperf:aff
+Proponowane ppas:sg:nom:n:perf:aff
 sformułowanie subst:sg:nom:n:ncol
 dodatkowo adv:pos
 dyskredytuje fin:sg:ter:imperf
@@ -26239,7 +26239,7 @@ Skoro comp
 sama adj:sg:nom:f:pos
 dynamika subst:sg:nom:f
 lodu subst:sg:gen:m3
-wprawianego ppas:sg:gen:m3:imperf:aff
+wprawianego ppas:sg:gen:m3:perf:aff
 w prep:acc:nwok
 ruch subst:sg:acc:m3
 przez prep:acc:nwok
@@ -26266,7 +26266,7 @@ skurczy fin:sg:ter:perf
 się part
 Antarktyda subst:sg:nom:f
 , interp
-to subst:sg:nom:n:ncol
+to comp
 znaczy fin:sg:ter:imperf
 , interp
 że comp
@@ -26275,7 +26275,7 @@ zdolność subst:sg:nom:f
 przewidywania ger:sg:gen:n:imperf:aff
 przyszłości subst:sg:gen:f
 jest fin:sg:ter:imperf
-ograniczona ppas:sg:nom:f:perf:aff
+ograniczona adj:sg:nom:f:pos
 , interp
 ponieważ comp
 o prep:loc
@@ -26300,15 +26300,15 @@ piekielnie adv:pos
 wietrzny adj:sg:nom:m3:pos
 : interp
 wicher subst:sg:nom:m3
-dął praet:sg:m3:perf
+dął praet:sg:m3:imperf
 od prep:gen:nwok
 Kanału subst:sg:gen:m3
 Mozambickiego adj:sg:gen:m3:pos
 tak adv:pos
-gwałtowny adj:sg:acc:m3:pos
+gwałtowny adj:sg:nom:m3:pos
 , interp
 że comp
-wzniecał praet:sg:m1:imperf
+wzniecał praet:sg:m3:imperf
 straszne adj:pl:acc:m3:pos
 tumany subst:pl:acc:m3
 kurzu subst:sg:gen:m3
@@ -26463,8 +26463,8 @@ pieniędzmi subst:pl:inst:m3
 zrobić inf:perf
 i conj
 jak adv:pos
-je ppron3:pl:acc:m3:ter:akc:npraep
-spożytkować inf:perf
+je ppron3:pl:acc:f:ter:akc:npraep
+spożytkować inf:imperf
 . interp
 
 Książę subst:sg:nom:m1
@@ -26546,7 +26546,7 @@ grosz subst:sg:acc:m3
 
 Dlatego adv
 też part
-wlokły praet:pl:f:imperf
+wlokły praet:pl:f:perf
 się part
 zazwyczaj adv
 po prep:loc
@@ -26561,13 +26561,13 @@ nogą subst:sg:inst:f
 jakby comp
 każda adj:sg:nom:f:pos
 z prep:gen:nwok
-nich ppron3:pl:gen:m1:ter:akc:praep
+nich ppron3:pl:gen:f:ter:akc:praep
 dźwigała praet:sg:f:imperf
 ołowianą adj:sg:acc:f:pos
 kulę subst:sg:acc:f
 , interp
 a conj
-nie part
+nie conj
 bukiet subst:sg:acc:m3
 kwiatów subst:pl:gen:m3
 z prep:gen:nwok
@@ -26590,7 +26590,7 @@ na prep:loc
 tym subst:sg:loc:n:ncol
 , interp
 że comp
-mieszkania subst:pl:acc:n:ncol
+mieszkania subst:pl:nom:n:ncol
 zakładowe adj:pl:acc:n:pos
 traktuje fin:sg:ter:imperf
 się part
@@ -26645,7 +26645,7 @@ kapitana subst:sg:gen:m1
 , interp
 a conj
 on ppron3:sg:nom:m1:ter:akc:npraep
-centymetr subst:sg:acc:m3
+centymetr subst:sg:nom:m3
 za prep:inst
 centymetrem subst:sg:inst:m3
 , interp
@@ -26681,7 +26681,7 @@ możesz fin:sg:sec:imperf
 się part
 na prep:acc
 niego ppron3:sg:acc:m1:ter:akc:praep
-boczyć inf:perf
+boczyć inf:imperf
 o prep:acc
 to subst:sg:acc:n:ncol
 , interp
@@ -26694,7 +26694,7 @@ twoje adj:sg:acc:n:pos
 żądanie subst:sg:acc:n:ncol
 , interp
 nie part
-zmienia fin:pl:ter:perf
+zmienia fin:sg:ter:imperf
 . interp
 
 Doradzając pcon:imperf
@@ -26727,7 +26727,7 @@ Dubiński subst:sg:nom:m1
 
 Ja ppron12:sg:nom:m1:pri
 też part
-buduję fin:sg:ter:imperf
+buduję fin:sg:pri:imperf
 się part
 przy prep:loc
 ulicy subst:sg:loc:f
@@ -26759,7 +26759,7 @@ panie subst:pl:nom:f
 Ponadto part
 ułamał praet:sg:m3:perf
 się part
-bolec subst:sg:nom:m1
+bolec subst:sg:nom:m3
 stanowiący pact:sg:nom:m3:imperf:aff
 hamulec subst:sg:acc:m3
 , interp
@@ -26852,7 +26852,7 @@ każdej adj:sg:gen:f:pos
 wizyty subst:sg:gen:f
 ? interp
 
-Followers subst:sg:nom:m2
+Followers subst:sg:nom:m3
 to pred
 taki adj:sg:nom:m1:pos
 użytkownik subst:sg:nom:m1
@@ -26864,7 +26864,7 @@ lubi fin:sg:ter:imperf
 moje adj:sg:acc:n:pos
 zdjęcie subst:sg:acc:n:ncol
 i conj
-klika subst:sg:acc:f
+klika fin:sg:ter:imperf
 , interp
 żeby comp
 to subst:sg:acc:n:ncol
@@ -26877,7 +26877,7 @@ twórczość subst:sg:acc:f
 i conj
 nie conj
 tylko conj
-klika subst:sg:acc:f
+klika fin:sg:ter:imperf
 , interp
 lecz conj
 zaczyna fin:sg:ter:imperf
@@ -26916,14 +26916,14 @@ stwierdzeniami subst:pl:inst:n:ncol
 , interp
 które adj:pl:nom:n:pos
 burzą fin:pl:ter:imperf
-krew subst:sg:nom:f
+krew subst:sg:acc:f
 w prep:loc:nwok
 żyłach subst:pl:loc:f
-wielu adj:pl:dat:m1:pos
+wielu num:pl:dat:m1:congr
 ludziom subst:pl:dat:m1
 . interp
 
-Chwali fin:sg:ter:imperf
+Chwali praet:sg:f:imperf
 ją ppron3:sg:acc:f:ter:akc:npraep
 za prep:acc
 to subst:sg:acc:n:ncol
@@ -27024,7 +27024,7 @@ piersi subst:sg:gen:f
 zwiększa fin:sg:ter:imperf
 się part
 , interp
-sutek subst:sg:nom:m2
+sutek subst:sg:nom:m3
 jędrnieje fin:sg:ter:imperf
 i conj
 unosi fin:sg:ter:imperf
@@ -27071,7 +27071,7 @@ grunt subst:sg:acc:m3
 Na prep:acc
 koniec subst:sg:acc:m3
 kandyzować inf:imperf
-mango subst:pl:acc:n:ncol
+mango subst:sg:acc:m2
 cukrem subst:sg:inst:m3
 . interp
 
@@ -27082,7 +27082,7 @@ nieraz adv
 to subst:sg:acc:n:ncol
 , interp
 co subst:sg:acc:n:ncol
-piszę fin:sg:ter:imperf
+piszę fin:sg:pri:imperf
 , interp
 powiedziała praet:sg:f:perf
 mi ppron12:sg:dat:m1:pri:nakc
@@ -27134,7 +27134,7 @@ alkoholu subst:sg:gen:m3
 
 Czyli conj
 na prep:acc
-dwoje subst:sg:acc:f
+dwoje num:pl:acc:m1:rec
 babcia subst:sg:nom:f
 wróżyła praet:sg:f:imperf
 . interp
@@ -27145,8 +27145,8 @@ rodzaj subst:sg:nom:m3
 stopień subst:sg:nom:m3
 przyswojenia subst:sg:gen:n:ncol
 , interp
-zakres subst:sg:acc:m3
-znaczeniowy adj:sg:acc:m3:pos
+zakres subst:sg:nom:m3
+znaczeniowy adj:sg:nom:m3:pos
 charakteryzują fin:pl:ter:imperf
 tekst subst:sg:acc:m3
 pod prep:inst:nwok
@@ -27166,14 +27166,14 @@ zaczął praet:sg:m1:perf
 deliberować inf:imperf
 , interp
 że comp
-zasługuję fin:sg:ter:imperf
+zasługuję fin:sg:pri:imperf
 na prep:acc
 mandat subst:sg:acc:m3
 . interp
 
 Koza subst:sg:nom:f
 beknęła praet:sg:f:perf
-przeciągle subst:sg:acc:n:ncol
+przeciągle adv:pos
 , interp
 a conj
 w prep:acc:nwok
@@ -27196,7 +27196,7 @@ procesowe adj:pl:nom:f:pos
 Sąd subst:sg:nom:m3
 Rejonowy adj:sg:nom:m3:pos
 w prep:loc:nwok
-Mławie subst:sg:loc:m3
+Mławie subst:sg:loc:f
 zadecyduje fin:sg:ter:perf
 co comp
 do prep:gen
@@ -27272,7 +27272,7 @@ i conj
 możesz fin:sg:sec:imperf
 uargumentować inf:perf
 to subst:sg:acc:n:ncol
-Pismem subst:sg:inst:n:ncol
+Pismem subst:sg:inst:m2
 , interp
 co part
 więcej adv:com
@@ -27307,7 +27307,7 @@ graffiti subst:sg:acc:n:ncol
 szablonowe adj:sg:acc:n:pos
 , interp
 czyli conj
-takie adj:sg:nom:n:pos
+takie adj:sg:acc:n:pos
 , interp
 które adj:pl:nom:n:pos
 powstają fin:pl:ter:imperf
@@ -27347,48 +27347,48 @@ ok brev:pun
 obiadków subst:pl:gen:m3
 ( interp
 3 num:pl:nom:m3:congr
-x brev:npun
-rosołek subst:sg:acc:m3
+x subst:pl:acc:m3
+rosołek subst:sg:nom:m3
 z prep:inst:nwok
 kluseczkami subst:pl:inst:f
 , interp
-3 num:pl:acc:m3:congr
-x brev:npun
-pomidorowa adj:sg:nom:f:pos
+3 num:pl:nom:m3:congr
+x conj
+pomidorowa subst:sg:nom:f
 z prep:inst:nwok
 mięsem subst:sg:inst:n:ncol
 , interp
-3 num:pl:acc:m3:congr
-x brev:npun
+3 num:pl:nom:m3:congr
+x conj
 sos subst:sg:nom:m3
 koperkowy adj:sg:nom:m3:pos
 z prep:inst:nwok
-miesem subst:sg:inst:n:ncol
+miesem subst:sg:inst:m3
 , interp
 do prep:gen
-którego adj:sg:gen:n:pos
+którego adj:sg:gen:m3:pos
 potem adv
 babcia subst:sg:nom:f
 dogotowuje fin:sg:ter:imperf
-ziemniaki subst:pl:acc:m2
+ziemniaki subst:pl:acc:m3
 ) interp
 . interp
 
 W prep:loc:nwok
 szamotulskiej adj:sg:loc:f:pos
-krytej adj:sg:loc:f:pos
+krytej ppas:sg:loc:f:perf:aff
 pływalni subst:sg:loc:f
 pod prep:inst:nwok
 jego ppron3:sg:gen:m1:ter:akc:npraep
 okiem subst:sg:inst:n:col
-doskonali fin:sg:ter:imperf
+doskonali fin:pl:ter:imperf
 swe adj:pl:acc:f:pos
 umiejętności subst:pl:acc:f
 13-letni adj:sg:nom:m1:pos
 Patryk subst:sg:nom:m1
 Skrzypek subst:sg:nom:m1
 z prep:gen:nwok
-Dusznik subst:pl:gen:n:pt
+Dusznik subst:sg:gen:n:ncol
 ( interp
 ma fin:sg:ter:imperf
 amputowaną ppas:sg:acc:f:perf:aff
@@ -27405,7 +27405,7 @@ Wróblewska subst:sg:nom:f
 z prep:gen:nwok
 Szamotuł subst:pl:gen:n:pt
 z prep:inst:nwok
-porażeniem ger:sg:inst:n:perf:aff
+porażeniem subst:sg:inst:n:ncol
 mózgowym adj:sg:inst:n:pos
 i conj
 o prep:acc
@@ -27414,7 +27414,7 @@ starsza adj:sg:nom:f:com
 od prep:gen:nwok
 niej ppron3:sg:gen:f:ter:akc:praep
 Bożena subst:sg:nom:f
-Białasik subst:sg:nom:m1
+Białasik subst:sg:nom:f
 z prep:gen:nwok
 Szamotuł subst:pl:gen:n:pt
 , interp
@@ -27445,8 +27445,8 @@ razu subst:sg:gen:m3
 kupił praet:sg:m1:perf
 em aglt:sg:pri:imperf:wok
 sobie siebie:dat
-500 num:pl:acc:m1:rec
-followersów subst:pl:gen:m1
+500 num:pl:acc:m3:rec
+followersów subst:pl:gen:m2
 . interp
 
 Bo comp
@@ -27483,7 +27483,7 @@ bywało praet:sg:n:imperf
 że comp
 kiedy adv
 stawał praet:sg:m1:imperf
-oko subst:sg:acc:n:col
+oko subst:sg:nom:n:col
 w prep:acc:nwok
 oko subst:sg:acc:n:col
 z prep:inst:nwok
@@ -27493,18 +27493,18 @@ człowiekiem subst:sg:inst:m1
 który adj:sg:nom:m1:pos
 naciągnął praet:sg:m1:perf
 jego ppron3:sg:gen:m1:ter:akc:npraep
-nerwy subst:pl:acc:n:pt
+nerwy subst:pl:acc:m3
 , interp
 musiał praet:sg:m1:imperf
 zatrudnić inf:perf
 swój adj:sg:acc:m3:pos
 mózg subst:sg:acc:m3
-dźwięcznymi adj:pl:inst:f:pos
-frazami subst:pl:inst:f
+dźwięcznymi adj:pl:inst:m3:pos
+frazami subst:pl:inst:m3
 starożytnych adj:pl:gen:m1:pos
 Rzymian subst:pl:gen:m1
 , interp
-które adj:pl:nom:f:pos
+które adj:pl:nom:m3:pos
 miały praet:pl:f:imperf
 cudowną adj:sg:acc:f:pos
 właściwość subst:sg:acc:f
@@ -27555,11 +27555,11 @@ Uniwersytecie subst:sg:loc:m3
 w prep:loc:nwok
 Oxfordzie subst:sg:loc:m3
 i conj
-który adj:sg:nom:m1:pos
+który adj:sg:nom:m3:pos
 doradza fin:sg:ter:imperf
 mu ppron3:sg:dat:m1:ter:nakc:npraep
 znaleźć inf:perf
-stałą subst:sg:acc:f
+stałą adj:sg:acc:f:pos
 dla prep:gen
 obu num:pl:gen:m3:congr
 światów subst:pl:gen:m3
@@ -27595,7 +27595,7 @@ Warner subst:sg:nom:m1
 neurofizjolog subst:sg:nom:m1
 Akademii subst:sg:gen:f
 Medycznej adj:sg:gen:f:pos
-Loma subst:sg:gen:f
+Loma subst:sg:gen:m1
 Linda subst:sg:nom:f
 w prep:loc:nwok
 Kalifornii subst:sg:loc:f
@@ -27624,7 +27624,7 @@ krakali praet:pl:m1:imperf
 , interp
 no part
 i conj
-wykrakali praet:pl:m1:perf
+wykrakali praet:pl:m1:imperf
 - interp
 ceny subst:pl:nom:f
 szybują fin:pl:ter:imperf
@@ -27632,7 +27632,7 @@ w prep:acc:nwok
 górę subst:sg:acc:f
 . interp
 
-Podchmieleni adj:pl:nom:m1:pos
+Podchmieleni ppas:pl:nom:m1:perf:aff
 mężczyźni subst:pl:nom:m1
 często adv:pos
 dowcipkują fin:pl:ter:imperf
@@ -27685,7 +27685,7 @@ z prep:inst:nwok
 nadzieją subst:sg:inst:f
 , interp
 że comp
-odstraszą fin:sg:ter:imperf
+odstraszą fin:pl:ter:perf
 dziki subst:pl:acc:m2
 . interp
 
@@ -27700,7 +27700,7 @@ radiowozem subst:sg:inst:m3
 przeczesywano imps:imperf
 z prep:inst:nwok
 nim ppron3:sg:inst:m1:ter:akc:praep
-okolice subst:sg:acc:f
+okolice subst:pl:acc:f
 , interp
 a conj
 także part
@@ -27732,7 +27732,7 @@ bezustannie adv:pos
 i conj
 głuszył praet:sg:m1:imperf
 bicie ger:sg:acc:n:imperf:aff
-Akawojów subst:pl:gen:m3
+Akawojów subst:pl:gen:m1
 . interp
 
 Człowiek subst:sg:nom:m1
@@ -27770,15 +27770,15 @@ rodziny subst:pl:acc:f
 cukrem subst:sg:inst:m3
 i conj
 okrywa fin:sg:ter:imperf
-ule subst:pl:acc:m3
+ule subst:pl:acc:f
 specjalnymi adj:pl:inst:m3:pos
-poduchami subst:pl:inst:n:pt
+poduchami subst:pl:inst:n:ncol
 , interp
 by comp
 owady subst:pl:nom:m2
 zimą subst:sg:inst:f
 nie part
-zmarzły praet:pl:m3:perf
+zmarzły praet:pl:f:perf
 . interp
 
 Jedni adj:pl:nom:m1:pos
@@ -27810,7 +27810,7 @@ adaptuje fin:sg:ter:imperf
 go ppron3:sg:acc:m3:ter:nakc:npraep
 do prep:gen
 warunków subst:pl:gen:n:pt
-miejscowych adj:pl:gen:n:pos
+miejscowych adj:pl:gen:m3:pos
 , interp
 lub conj
 też part
@@ -27829,7 +27829,7 @@ działki subst:sg:gen:f
 . interp
 
 Ratownicy subst:pl:nom:m1
-THS subst:sg:gen:m3
+THS subst:sg:gen:n:ncol
 dyżurowali praet:pl:m1:imperf
 w prep:loc:nwok
 sezonie subst:sg:loc:m3
@@ -27839,14 +27839,14 @@ Szczyrbskim adj:sg:loc:n:pos
 Jeziorze subst:sg:loc:n:ncol
 , interp
 na prep:loc
-Siodełku subst:sg:loc:n:ncol
+Siodełku subst:sg:loc:m3
 , interp
 przy prep:loc
 Łomnickim adj:sg:loc:m3:pos
 Stawie subst:sg:loc:m3
 w prep:loc:nwok
-Ździarze subst:sg:loc:f
-Średnicy subst:sg:loc:f
+Ździarze subst:sg:loc:n:ncol
+Średnicy subst:sg:nom:m3
 . interp
 
 Ale conj
@@ -27879,7 +27879,7 @@ Dziś adv
 pochłaniają fin:pl:ter:imperf
 ich ppron3:pl:acc:m1:ter:akc:npraep
 inne adj:pl:nom:m3:pos
-obowiązki subst:pl:nom:m3
+obowiązki subst:pl:acc:m3
 , interp
 albo conj
 jak comp
@@ -27893,7 +27893,7 @@ za part
 starzy adj:pl:nom:m1:pos
 , interp
 żeby comp
-chałturzyć inf:perf
+chałturzyć inf:imperf
 po prep:loc
 imprezach subst:pl:loc:f
 . interp
@@ -27917,10 +27917,10 @@ u prep:gen
 Hauptmanna subst:sg:gen:m1
 . interp
 
-Pierwsze adj:pl:nom:m3:pos
-takty subst:pl:nom:m3
-takich adj:pl:gen:n:pos
-pisenek subst:pl:gen:n:ncol
+Pierwsze adj:pl:nom:f:pos
+takty subst:pl:nom:f
+takich adj:pl:gen:f:pos
+pisenek subst:pl:gen:f
 , interp
 jak comp
 " interp
@@ -27937,9 +27937,9 @@ Ciągle adv:pos
 pada fin:sg:ter:imperf
 " interp
 , interp
-witane ppas:pl:nom:m3:imperf:aff
+witane ppas:pl:nom:f:imperf:aff
 są fin:pl:ter:imperf
-piskiem subst:sg:inst:n:ncol
+piskiem subst:sg:inst:m3
 i conj
 oklaskami subst:pl:inst:n:pt
 , interp
@@ -27956,7 +27956,7 @@ rzecznym adj:sg:inst:m3:pos
 , interp
 tzw brev:pun
 . interp
-Flisem subst:sg:inst:m3
+Flisem subst:sg:inst:m1
 , interp
 kolejno adv:pos
 w prep:loc:nwok
@@ -28017,7 +28017,7 @@ następnie adv
 wypromować inf:perf
 ją ppron3:sg:acc:f:ter:akc:npraep
 akcją subst:sg:inst:f
-medialną adj:sg:nom:f:pos
+medialną adj:sg:inst:f:pos
 i conj
 serią subst:sg:inst:f
 koncertów subst:pl:gen:m3
@@ -28026,8 +28026,8 @@ koncertów subst:pl:gen:m3
 Kiedy adv
 więc comp
 uczyniwszy pant:perf
-stosowne adj:pl:acc:n:pos
-zakupy subst:pl:acc:n:pt
+stosowne adj:pl:acc:m3:pos
+zakupy subst:pl:acc:m3
 wymasujemy fin:pl:pri:perf
 się part
 poręcznym adj:sg:inst:m3:pos
@@ -28039,7 +28039,7 @@ wetrzemy fin:pl:pri:perf
 odmładzające pact:pl:acc:m3:imperf:aff
 kremy subst:pl:acc:m3
 i conj
-emulsje subst:pl:acc:f
+emulsje subst:pl:acc:m3
 , interp
 wypoczniemy fin:pl:pri:perf
 w prep:loc:nwok
@@ -28083,19 +28083,19 @@ moja adj:sg:nom:f:pos
 , interp
 przybrała praet:sg:f:perf
 barwę subst:sg:acc:f
-dania subst:sg:gen:n:ncol
+dania ger:sg:gen:n:perf:aff
 - interp
 przypominały praet:pl:f:imperf
 śmy aglt:pl:pri:imperf:nwok
 zamaskowanych adj:pl:acc:m1:pos
 żołnierzy subst:pl:acc:m1
 na prep:loc
-poligonie subst:sg:loc:m3
+poligonie subst:sg:loc:n:ncol
 - interp
 szczęśliwie adv:pos
 to part
 Monika subst:sg:nom:f
-jak comp
+jak adv:pos
 zwykle adv:pos
 wyglądała praet:sg:f:imperf
 na prep:acc
@@ -28159,7 +28159,7 @@ pniu subst:sg:loc:m3
 ziarno subst:sg:nom:n:ncol
 kiełkuje fin:sg:ter:imperf
 w prep:loc:nwok
-kłosie subst:sg:loc:f
+kłosie subst:sg:loc:m3
 ) interp
 — interp
 mówi fin:sg:ter:imperf
@@ -28167,7 +28167,7 @@ Eugeniusz subst:sg:nom:m1
 Kapuśniak subst:sg:nom:m1
 , interp
 wójt subst:sg:nom:m1
-Żarnowca subst:sg:nom:m1
+Żarnowca subst:sg:gen:m3
 . interp
 
 Powiedzmy impt:pl:pri:perf
@@ -28216,7 +28216,7 @@ co subst:sg:nom:n:ncol
 miało praet:sg:n:imperf
 dawać inf:imperf
 do prep:gen
-zrozumienia subst:sg:gen:n:ncol
+zrozumienia ger:sg:gen:n:perf:aff
 , interp
 że comp
 nie part
@@ -28258,7 +28258,7 @@ wkrótce adv
 znów part
 zacznie fin:sg:ter:perf
 się part
-bombardowanie subst:sg:nom:n:ncol
+bombardowanie ger:sg:nom:n:imperf:aff
 i conj
 wtedy adv
 zginiemy fin:pl:pri:perf
@@ -28297,7 +28297,7 @@ metr subst:sg:acc:m3
 za prep:inst
 metrem subst:sg:inst:m3
 , interp
-klepka fin:sg:ter:imperf
+klepka subst:sg:nom:f
 za prep:inst
 klepką subst:sg:inst:f
 , interp
@@ -28327,7 +28327,7 @@ nich ppron3:pl:gen:m1:ter:akc:praep
 w prep:loc:nwok
 kategoriach subst:pl:loc:f
 rozrywkowych adj:pl:loc:f:pos
-napompowane ppas:pl:nom:n:perf:aff
+napompowane ppas:pl:acc:n:perf:aff
 do prep:gen
 granic subst:pl:gen:f
 przyzwoitości subst:sg:gen:f
@@ -28368,7 +28368,7 @@ dostarczana ppas:sg:nom:f:imperf:aff
 z prep:gen:nwok
 grupowej adj:sg:gen:f:pos
 stacji subst:sg:gen:f
-wymieników subst:pl:gen:m1
+wymieników subst:pl:gen:m3
 , interp
 skąd adv
 cyrkuluje fin:sg:ter:imperf
@@ -28418,14 +28418,14 @@ ukos subst:sg:acc:m3
 Piłsudski subst:sg:nom:m1
 dobrotliwie adv:pos
 , interp
-Wieniawa fin:sg:ter:imperf
+Wieniawa subst:sg:nom:f
 z prep:inst:nwok
 lekkim adj:sg:inst:m3:pos
 grymasem subst:sg:inst:m3
 pogardy subst:sg:gen:f
 . interp
 
-Ponoś part
+Ponoś impt:sg:sec:perf
 sobie siebie:dat
 przez prep:acc:nwok
 kilka num:pl:acc:m3:rec
@@ -28470,7 +28470,7 @@ astronomowie subst:pl:nom:m1
 wiązali praet:pl:m1:imperf
 z prep:inst:nwok
 nim ppron3:sg:inst:m1:ter:akc:praep
-nadzieje subst:sg:acc:f
+nadzieje subst:pl:acc:f
 na prep:acc
 istnienie ger:sg:acc:n:imperf:aff
 inteligentnych adj:pl:gen:f:pos
@@ -28480,7 +28480,7 @@ Ziemią subst:sg:inst:f
 . interp
 
 Pani subst:sg:nom:f
-marszałek subst:sg:nom:m1
+marszałek subst:sg:nom:f
 musiała praet:sg:f:imperf
 więc comp
 przeboleć inf:perf
@@ -28532,7 +28532,7 @@ po prep:loc
 wyborach subst:pl:loc:n:pt
 " interp
 , interp
-które adj:pl:nom:f:pos
+które adj:pl:nom:n:pos
 odbędą fin:pl:ter:perf
 się part
 w prep:loc:nwok
@@ -28639,8 +28639,8 @@ co subst:sg:nom:n:ncol
 zostało praet:sg:n:perf
 podkreślone ppas:sg:nom:n:perf:aff
 w prep:loc:nwok
-pańskim adj:sg:loc:n:pos
-exposé subst:sg:loc:n:ncol
+pańskim adj:sg:loc:m3:pos
+exposé subst:sg:loc:m3
 , interp
 że comp
 polityki subst:pl:nom:f
@@ -28750,16 +28750,16 @@ się part
 nawet part
 dziwię fin:sg:pri:imperf
 swoim adj:pl:dat:m3:pos
-żalom subst:pl:dat:m3
+żalom subst:pl:inst:m3
 do prep:gen
 Agnieszki subst:sg:gen:f
 , interp
 swojemu adj:sg:dat:n:pos
-myśleniu subst:sg:loc:n:ncol
+myśleniu ger:sg:dat:n:imperf:aff
 o prep:loc
-Wieśku subst:sg:loc:n:ncol
+Wieśku subst:sg:loc:m1
 i conj
-gniewowi subst:sg:loc:m3
+gniewowi subst:sg:dat:m3
 na prep:acc
 Beatę subst:sg:acc:f
 . interp
@@ -28799,7 +28799,7 @@ my ppron12:pl:nom:m1:pri
 widzimy fin:pl:pri:imperf
 i conj
 " interp
-środki subst:pl:acc:n:pt
+środki subst:pl:acc:m3
 " interp
 i conj
 " interp
@@ -28824,7 +28824,7 @@ LU subst:sg:nom:f
 Polska subst:sg:nom:f
 . interp
 
-Tak adv:pos
+Tak part
 do prep:gen
 końca subst:sg:gen:m3
 nie part
@@ -28888,14 +28888,14 @@ tak adv:pos
 by part
 wyglądała praet:sg:f:imperf
 na prep:acc
-zamyśloną adj:sg:acc:f:pos
+zamyśloną ppas:sg:acc:f:perf:aff
 nieznajomą subst:sg:acc:f
 , interp
 z prep:inst:nwok
 głową subst:sg:inst:f
 pochyloną ppas:sg:inst:f:perf:aff
 nad prep:inst:nwok
-złożonymi ppas:pl:inst:f:perf:aff
+złożonymi adj:pl:inst:f:pos
 dłońmi subst:pl:inst:f
 . interp
 
@@ -28940,7 +28940,7 @@ pojazdy subst:pl:acc:m3
 MPK subst:sg:gen:n:ncol
 , interp
 wybijają fin:pl:ter:imperf
-szyby subst:pl:acc:f
+szyby subst:pl:acc:m3
 wystawowe adj:pl:acc:f:pos
 , interp
 bazgrzą fin:pl:ter:imperf
@@ -29039,8 +29039,8 @@ i conj
 nie part
 powiem fin:sg:pri:perf
 , interp
-co subst:sg:acc:n:ncol
-że prep:inst:wok
+co subst:sg:nom:n:ncol
+że part
 ście aglt:pl:sec:imperf:nwok
 kombinowali praet:pl:m1:imperf
 , interp
@@ -29101,7 +29101,7 @@ przed prep:inst:nwok
 rtęcią subst:sg:inst:f
 . interp
 
-Ajtemików subst:pl:gen:m3
+Ajtemików subst:pl:gen:m1
 , interp
 czyli conj
 przedmiotów subst:pl:gen:m3
@@ -29113,7 +29113,7 @@ mogę fin:sg:pri:imperf
 kupić inf:perf
 , interp
 jest fin:sg:ter:imperf
-mnóstwo subst:sg:nom:n:ncol
+mnóstwo num:pl:nom:m3:rec
 i conj
 Córka subst:sg:nom:f
 zastanawia fin:sg:ter:imperf
@@ -29125,8 +29125,8 @@ m aglt:sg:pri:imperf:nwok
 nie part
 chciał praet:sg:m1:imperf
 kupić inf:perf
-jej ppron3:sg:gen:f:ter:akc:npraep
-ajtemika subst:sg:gen:m3
+jej ppron3:sg:dat:f:ter:akc:npraep
+ajtemika subst:sg:gen:m2
 , interp
 który adj:sg:nom:m3:pos
 sprawi fin:sg:ter:perf
@@ -29150,7 +29150,7 @@ charczał praet:sg:m1:imperf
 Maks subst:sg:nom:m1
 , interp
 siadając pcon:imperf
-okrakiem subst:sg:inst:m3
+okrakiem subst:sg:inst:n:ncol
 na prep:loc
 jego ppron3:sg:gen:m1:ter:akc:npraep
 brzuchu subst:sg:loc:m3
@@ -29181,12 +29181,12 @@ pisz impt:sg:sec:imperf
 , interp
 świat subst:sg:nom:m3
 nie part
-zubożeje fin:sg:ter:imperf
+zubożeje fin:sg:ter:perf
 od prep:gen:nwok
 tego subst:sg:gen:n:ncol
 . interp
 
-Czknęło praet:sg:n:perf
+Czknęło praet:sg:n:imperf
 mu ppron3:sg:dat:m1:ter:nakc:npraep
 się part
 potężnie adv:pos
@@ -29201,7 +29201,7 @@ przepraszam fin:sg:pri:imperf
 , interp
 co subst:sg:nom:n:ncol
 pobudziło praet:sg:n:perf
-czabanów subst:pl:acc:m1
+czabanów subst:pl:gen:m3
 do prep:gen
 wesołości subst:sg:gen:f
 . interp
@@ -29231,14 +29231,14 @@ ubożeje fin:sg:ter:imperf
 tak adv:pos
 , interp
 jak comp
-ubożeją fin:sg:ter:imperf
-wszystkie adj:pl:acc:m3:pos
-języki subst:pl:acc:m3
+ubożeją fin:pl:ter:imperf
+wszystkie adj:pl:nom:m3:pos
+języki subst:pl:nom:m3
 , interp
 ponieważ comp
 nikną fin:pl:ter:imperf
-niektóre adj:pl:nom:n:pos
-zawody subst:pl:nom:n:pt
+niektóre adj:pl:nom:m3:pos
+zawody subst:pl:nom:m3
 , interp
 gdyż comp
 nikt subst:sg:nom:m1
@@ -29306,7 +29306,7 @@ ojciec subst:sg:nom:m1
 . interp
 
 42.99 dig
-Wznoszenie ger:sg:nom:n:imperf:aff
+Wznoszenie ger:sg:nom:n:perf:aff
 budynków subst:pl:gen:m3
 i conj
 roboty subst:pl:nom:f
@@ -29337,7 +29337,7 @@ ONZ subst:sg:gen:m3
 i conj
 zajęcia ger:sg:gen:n:perf:aff
 się part
-niedomogami subst:pl:inst:m3
+niedomogami subst:pl:inst:n:ncol
 protokołu subst:sg:gen:m3
 z prep:gen:nwok
 Kioto subst:sg:gen:n:ncol
@@ -29420,7 +29420,7 @@ i conj
 jest fin:sg:ter:imperf
 nadmiernie adv:pos
 pewny adj:sg:nom:m1:pos
-siebie siebie:gen
+siebie siebie:acc
 . interp
 
 Hagrid subst:sg:nom:m1
@@ -29485,8 +29485,8 @@ siłę subst:sg:acc:f
 by comp
 m aglt:sg:pri:imperf:nwok
 uratował praet:sg:m1:perf
-Marie subst:sg:acc:f
-Joelle subst:sg:acc:f
+Marie subst:sg:nom:f
+Joelle subst:sg:nom:m1
 . interp
 
 Moskwa subst:sg:nom:f
@@ -29592,11 +29592,11 @@ woda subst:sg:nom:f
 . interp
 
 – interp
-PCS subst:sg:nom:n:ncol
+PCS subst:sg:nom:m3
 oraz conj
 średnie adj:pl:nom:f:pos
 ceny subst:pl:nom:f
-netto adv:pos
+netto adj:pl:nom:f:pos
 zmieniały praet:pl:f:imperf
 się part
 równolegle adv:pos
@@ -29606,19 +29606,19 @@ motywy subst:pl:nom:m3
 , interp
 84 dig
 , interp
-91 dig
+91 num:pl:nom:m3:rec
 , interp
-98 dig
+98 num:pl:nom:m3:rec
 i conj
 105 num:pl:nom:f:rec
 decyzji subst:pl:gen:f
 ) interp
 . interp
 
-A part
+A conj
 ja ppron12:sg:nom:m1:pri
 nie part
-mogł praet:sg:m1:imperf:nagl
+mogł praet:sg:m1:imperf:agl
 em aglt:sg:pri:imperf:wok
 się part
 ruszyć inf:perf
@@ -29645,7 +29645,7 @@ mg brev:npun
 laktozy subst:sg:gen:f
 w prep:loc:nwok
 każdym adj:sg:loc:m3:pos
-1 adj:sg:loc:m3:pos
+1 num:pl:acc:m3:congr
 mg brev:npun
 dobowej adj:sg:gen:f:pos
 dawki subst:sg:gen:f
@@ -29657,7 +29657,7 @@ m aglt:sg:pri:imperf:nwok
 że comp
 chcę fin:sg:pri:imperf
 z prep:inst:nwok
-tobą ppron12:sg:inst:f:sec
+tobą ppron12:sg:inst:m1:sec
 spędzić inf:perf
 całe adj:sg:acc:n:pos
 życie subst:sg:acc:n:ncol
@@ -29768,9 +29768,9 @@ prawo subst:sg:nom:n:ncol
 stosowane ppas:sg:nom:n:imperf:aff
 włącza fin:sg:ter:imperf
 Traktat subst:sg:acc:m3
-Euratom subst:sg:nom:m3
+Euratom subst:sg:acc:m3
 i conj
-prawo subst:sg:nom:n:ncol
+prawo subst:sg:acc:n:ncol
 wtórne adj:sg:acc:n:pos
 poniżej adv
 . interp
@@ -29860,9 +29860,9 @@ batonach subst:pl:loc:m3
 , interp
 guma subst:sg:nom:f
 do prep:gen
-żucia ger:sg:gen:n:perf:aff
+żucia ger:sg:gen:n:imperf:aff
 , interp
-słodycze subst:pl:nom:n:pt
+słodycze subst:pl:nom:m3
 , interp
 toffi subst:sg:nom:n:ncol
 , interp
@@ -29922,7 +29922,7 @@ na prep:acc
 potrzeby subst:pl:acc:f
 celne adj:pl:acc:f:pos
 są fin:pl:ter:imperf
-traktowane ppas:pl:nom:m3:imperf:aff
+traktowane ppas:pl:nom:f:imperf:aff
 łącznie adv:pos
 z prep:inst:nwok
 towarem subst:sg:inst:m3
@@ -29949,7 +29949,7 @@ Nasi adj:pl:nom:m1:pos
 negocjatorzy subst:pl:nom:m1
 w prep:loc:nwok
 ramach subst:pl:loc:n:pt
-WTO subst:sg:gen:f
+WTO subst:sg:gen:n:ncol
 chcą fin:pl:ter:imperf
 jeszcze part
 bardziej adv:com
@@ -30042,7 +30042,7 @@ w prep:loc:nwok
 kierunku subst:sg:loc:m3
 pierwszych adj:pl:gen:m3:pos
 promieni subst:pl:gen:m3
-wschodzącego pact:sg:gen:m3:imperf:aff
+wschodzącego adj:sg:gen:n:pos
 słońca subst:sg:gen:n:ncol
 . interp
 
@@ -30128,7 +30128,7 @@ nawozem subst:sg:inst:m3
 W prep:loc:nwok
 ramach subst:pl:loc:n:pt
 działalności subst:sg:gen:f
-ACFA subst:sg:gen:f
+ACFA subst:sg:gen:n:ncol
 Komisja subst:sg:nom:f
 zorganizowała praet:sg:f:perf
 49 num:pl:acc:n:rec:ncol
@@ -30136,7 +30136,7 @@ spotkań subst:pl:gen:n:ncol
 grup subst:pl:gen:f
 roboczych adj:pl:gen:f:pos
 oraz conj
-12 num:pl:acc:m3:rec
+12 num:pl:acc:n:rec:ncol
 posiedzeń subst:pl:gen:n:ncol
 plenarnych adj:pl:gen:n:pos
 . interp
@@ -30181,15 +30181,15 @@ i conj
 udziały subst:pl:nom:m3
 w prep:loc:nwok
 portfelu subst:sg:loc:m3
-IRS subst:sg:gen:n:ncol
+IRS subst:sg:nom:m3
 , interp
-IRSC subst:sg:nom:n:ncol
+IRSC subst:sg:nom:m3
 , interp
-IRSR subst:sg:nom:n:ncol
+IRSR subst:sg:nom:m3
 , interp
 IS subst:sg:nom:n:ncol
-i ign
-FUS subst:sg:nom:m3
+i conj
+FUS subst:sg:nom:n:ncol
 
 Cóż interj
 , interp
@@ -30218,7 +30218,7 @@ cenę subst:sg:acc:f
 Produkty subst:pl:nom:m3
 sanitarne adj:pl:nom:m3:pos
 ( interp
-podpaski subst:pl:nom:f
+podpaski subst:pl:nom:m3
 i conj
 pieluszki subst:pl:nom:f
 itd brev:pun
@@ -30227,7 +30227,7 @@ itd brev:pun
 
 Wywóz subst:sg:nom:m3
 papierosów subst:pl:gen:m2
-wyprodukowanych ppas:pl:gen:m3:perf:aff
+wyprodukowanych ppas:pl:gen:n:perf:aff
 z prep:gen:nwok
 liści subst:pl:gen:m3
 tytoniu subst:sg:gen:m3
@@ -30328,14 +30328,14 @@ ministerialnymi adj:pl:inst:f:pos
 w prep:loc:nwok
 Rabacie subst:sg:loc:m3
 i conj
-Tripoli subst:sg:loc:m3
+Tripoli subst:sg:loc:f
 . interp
 
 współpracy subst:sg:gen:f
 i conj
 wspólnych adj:pl:gen:f:pos
 inicjatyw subst:pl:gen:f
-wyspecjalizowanych ppas:pl:gen:f:perf:aff
+wyspecjalizowanych adj:pl:gen:f:pos
 organizacji subst:pl:gen:f
 europejskich adj:pl:gen:f:pos
 , interp
@@ -30387,22 +30387,22 @@ Major subst:sg:nom:m1
 Bachman subst:sg:nom:m1
 z prep:gen:nwok
 biura subst:sg:gen:n:ncol
-śledczego adj:sg:gen:n:pos
+śledczego adj:sg:gen:m3:pos
 stanu subst:sg:gen:m3
 Tennessee subst:sg:gen:n:ncol
 . interp
 
 Zgodnie adv:pos
 z prep:inst:nwok
-MSR subst:sg:inst:n:ncol
+MSR subst:sg:inst:m3
 8 dig
-wpływ subst:sg:nom:m3
+wpływ subst:sg:acc:m3
 zmiany subst:sg:gen:f
 oszacowań subst:pl:gen:n:ncol
 ujmuje fin:sg:ter:imperf
 się part
 w prep:loc:nwok
-bieżącym adj:sg:loc:m3:pos
+bieżącym adj:pl:loc:m3:pos
 i conj
 kolejnych adj:pl:loc:m3:pos
 okresach subst:pl:loc:m3
@@ -30418,7 +30418,7 @@ mogły praet:pl:n:imperf
 wiązać inf:imperf
 się part
 w prep:loc:nwok
-co part
+co prep:acc
 najmniej adv:sup
 możliwym adj:sg:loc:m3:pos
 stopniu subst:sg:loc:m3
@@ -30433,9 +30433,9 @@ niepożądanymi adj:pl:inst:f:pos
 ) interp
 w prep:loc:nwok
 ramach subst:pl:loc:n:pt
-leczenia subst:sg:gen:n:ncol
+leczenia ger:sg:gen:n:imperf:aff
 przeciwretrowirusowego adj:sg:gen:n:pos
-były praet:pl:f:imperf
+były praet:pl:n:imperf
 : interp
 nudności subst:pl:nom:f
 , interp
@@ -30444,7 +30444,7 @@ biegunka subst:sg:nom:f
 uczucie subst:sg:nom:n:ncol
 zmęczenia subst:sg:gen:n:ncol
 , interp
-wymioty subst:pl:nom:m3
+wymioty subst:pl:nom:n:pt
 , interp
 wzdęcia subst:pl:nom:n:ncol
 i conj
@@ -30499,9 +30499,9 @@ przez prep:acc:nwok
 Państwo subst:sg:acc:n:ncol
 Członkowskie adj:sg:acc:n:pos
 , interp
-na prep:acc
+na prep:loc
 którego adj:sg:gen:n:pos
-terytorium subst:sg:acc:n:ncol
+terytorium subst:sg:loc:n:ncol
 zostało praet:sg:n:perf
 przyjęte ppas:sg:nom:n:perf:aff
 zgłoszenie subst:sg:nom:n:ncol
@@ -30534,11 +30534,11 @@ jakiegokolwiek adj:sg:gen:n:pos
 opakowania subst:sg:gen:n:ncol
 . interp
 
-San subst:sg:nom:n:ncol
-Clemente subst:sg:nom:n:ncol
-Road subst:sg:nom:n:ncol
+San frag
+Clemente subst:sg:nom:m3
+Road subst:sg:nom:m3
 i conj
-Hermosa subst:sg:nom:f
+Hermosa subst:sg:gen:m1
 . interp
 . interp
 . interp
@@ -30703,7 +30703,7 @@ w prep:loc:nwok
 cywilnych adj:pl:loc:f:pos
 operacjach subst:pl:loc:f
 pokojowych adj:pl:loc:f:pos
-prowadzonych ppas:pl:gen:f:imperf:aff
+prowadzonych ppas:pl:loc:m3:perf:aff
 przez prep:acc:nwok
 UE subst:sg:acc:f
 
@@ -30713,21 +30713,21 @@ dla prep:gen
 urzędników subst:pl:gen:m1
 państwowych adj:pl:gen:m1:pos
 
-Warunki subst:pl:nom:m3
+Warunki subst:pl:nom:n:pt
 tej adj:sg:gen:f:pos
 umowy subst:sg:gen:f
 , interp
-które adj:pl:nom:m3:pos
+które adj:pl:nom:n:pos
 muszą fin:pl:ter:imperf
 być inf:imperf
-jednolite adj:pl:nom:m3:pos
+jednolite adj:pl:nom:n:pos
 we prep:loc:wok
 wszystkich adj:pl:loc:n:pos
 Państwach subst:pl:loc:n:ncol
 Członkowskich adj:pl:loc:n:pos
 , interp
 są fin:pl:ter:imperf
-ustalane ppas:pl:nom:m3:imperf:aff
+ustalane ppas:pl:nom:n:imperf:aff
 zgodnie adv:pos
 z prep:inst:nwok
 procedurą subst:sg:inst:f
@@ -30815,7 +30815,7 @@ Służba subst:sg:nom:f
 Prawna adj:sg:nom:f:pos
 Parlamentu subst:sg:gen:m3
 , interp
-Trybunał subst:sg:nom:m3
+Trybunał subst:sg:acc:m3
 Sprawiedliwości subst:sg:gen:f
 Wspólnot subst:pl:gen:f
 Europejskich adj:pl:gen:f:pos
@@ -30909,8 +30909,8 @@ działalność subst:sg:acc:f
 dochodową adj:sg:acc:f:pos
 ? interp
 
-Woodson subst:sg:nom:n:ncol
-University subst:sg:nom:n:ncol
+Woodson subst:sg:nom:m3
+University subst:sg:nom:m3
 jest fin:sg:ter:imperf
 świetną adj:sg:inst:f:pos
 instytucją subst:sg:inst:f
@@ -30967,7 +30967,7 @@ o prep:acc
 Po prep:loc
 południu subst:sg:loc:n:ncol
 usłyszał praet:sg:m1:perf
-wołanie subst:sg:acc:n:ncol
+wołanie ger:sg:acc:n:imperf:aff
 , interp
 o prep:acc
 które adj:sg:acc:n:pos
@@ -30981,7 +30981,7 @@ się part
 , interp
 że comp
 dali praet:pl:m1:perf
-najlepszą adj:sg:nom:m3:sup
+najlepszą adj:sg:acc:f:com
 . interp
 
 Moja adj:sg:nom:f:pos
@@ -31024,7 +31024,7 @@ powiedzieć inf:perf
 to subst:sg:nom:n:ncol
 właśnie part
 jest fin:sg:ter:imperf
-najmilsze adj:sg:nom:n:sup
+najmilsze adj:sg:nom:n:pos
 w prep:loc:nwok
 prezencie subst:sg:loc:m3
 gwiazdkowym adj:sg:loc:m3:pos
@@ -31184,7 +31184,7 @@ innym adj:sg:loc:m3:pos
 przypadku subst:sg:loc:m3
 Państwa subst:pl:nom:n:ncol
 Członkowskie adj:pl:nom:n:pos
-powinny winien:pl:m3:imperf
+powinny winien:pl:f:imperf
 określić inf:perf
 je ppron3:pl:acc:m3:ter:akc:npraep
 w prep:loc:nwok
@@ -31230,7 +31230,7 @@ ma fin:sg:ter:imperf
 wiele num:pl:acc:f:rec
 przyczyn subst:pl:gen:f
 o prep:loc
-różnych adj:pl:loc:n:pos
+różnych adj:pl:loc:f:pos
 źródłach subst:pl:loc:n:ncol
 , interp
 chciała praet:sg:f:imperf
@@ -31252,7 +31252,7 @@ aspektu subst:sg:gen:m3
 , interp
 a conj
 mianowicie conj
-imigracji subst:sg:loc:f
+imigracji subst:sg:gen:f
 . interp
 
 A conj
@@ -31275,23 +31275,23 @@ istoty subst:pl:nom:f
 , interp
 wobec prep:gen
 których adj:pl:gen:f:pos
-jego ppron3:sg:gen:m1:ter:akc:npraep
+jego ppron3:sg:gen:m3:ter:akc:npraep
 właściwości subst:pl:nom:f
 bledną fin:pl:ter:imperf
 . interp
 
-Najsilniejszą adj:sg:nom:f:sup
+Najsilniejszą adj:sg:acc:f:com
 aktywność subst:sg:acc:f
 wykazuje fin:sg:ter:imperf
 przeciwko prep:dat
-wolnym adj:pl:dat:m3:pos
+wolnym adj:pl:dat:n:pos
 stadiom subst:pl:dat:n:ncol
-rozwojowym adj:pl:dat:m3:pos
+rozwojowym adj:pl:dat:n:pos
 pasożytów subst:pl:gen:m2
 ( interp
-sporozoity subst:pl:nom:m3
+sporozoity subst:pl:nom:m2
 , interp
-merozoity subst:pl:nom:m3
+merozoity subst:pl:nom:m2
 ) interp
 . interp
 
@@ -31371,7 +31371,7 @@ powinna winien:sg:f:imperf
 tego subst:sg:gen:n:ncol
 robić inf:imperf
 , interp
-Lilli subst:sg:nom:f
+Lilli subst:sg:voc:f
 . interp
 
 Trzeba pred
@@ -31404,10 +31404,10 @@ Europy subst:sg:gen:f
 
 Cztery num:pl:acc:m3:congr
 razy subst:pl:acc:m3
-osiem num:pl:nom:m3:congr
+osiem num:pl:nom:m3:rec
 równa fin:sg:ter:imperf
 się part
-trzydzieści num:pl:acc:m3:rec
+trzydzieści num:pl:nom:m3:congr
 dwa num:pl:acc:m3:congr
 , interp
 co subst:sg:nom:n:ncol
@@ -31418,7 +31418,7 @@ mówi fin:sg:ter:imperf
 - interp
 odezwała praet:sg:f:perf
 się part
-Lunzie subst:sg:nom:f
+Lunzie subst:sg:dat:f
 . interp
 
 Był praet:sg:m1:imperf
@@ -31431,7 +31431,7 @@ chociaż comp
 radził praet:sg:m1:imperf
 sobie siebie:dat
 w prep:loc:nwok
-tarapatach subst:pl:loc:m3
+tarapatach subst:pl:loc:n:pt
 . interp
 
 W prep:loc:nwok
@@ -31490,7 +31490,7 @@ Rewolucji subst:sg:loc:f
 i conj
 czasach subst:pl:loc:m3
 ją ppron3:sg:acc:f:ter:akc:npraep
-poprzedzających pact:pl:gen:m3:imperf:aff
+poprzedzających ppas:pl:loc:m3:perf:aff
 . interp
 
 ( interp
@@ -31506,7 +31506,7 @@ C brev:pun
 ) interp
 
 Dobra interj
-ludzie subst:pl:nom:m1
+ludzie subst:pl:nom:m1:pt
 , interp
 teraz adv
 brawa subst:pl:nom:n:ncol
@@ -31549,7 +31549,7 @@ papierosy subst:pl:nom:m2
 W prep:loc:nwok
 badaniach subst:pl:loc:n:ncol
 klinicznych adj:pl:loc:n:pos
-obejmujących pact:pl:gen:n:imperf:aff
+obejmujących pact:pl:loc:m3:imperf:aff
 pacjentów subst:pl:acc:m1
 z prep:inst:nwok
 nawrotowym adj:sg:inst:m3:pos
@@ -31560,10 +31560,10 @@ stwierdzono imps:perf
 , interp
 że comp
 toksycznością subst:sg:inst:f
-ograniczającą pact:sg:nom:f:imperf:aff
+ograniczającą pact:sg:inst:f:imperf:aff
 dawkę subst:sg:acc:f
 topotekanu subst:sg:gen:m3
-stosowanego ppas:sg:gen:m3:perf:aff
+stosowanego ppas:sg:gen:m3:imperf:aff
 w prep:loc:nwok
 monoterapii subst:sg:loc:f
 , interp
@@ -31590,12 +31590,12 @@ jest fin:sg:ter:imperf
 z prep:inst:nwok
 poszanowaniem subst:sg:inst:n:ncol
 artykułu subst:sg:gen:m3
-1 dig
+1 adj:sg:gen:m3:pos
 i conj
 może fin:sg:ter:imperf
 podlegać inf:imperf
 ograniczeniom subst:pl:dat:n:ncol
-dozwolonym adj:pl:dat:m3:pos
+dozwolonym adj:pl:dat:f:pos
 na prep:loc
 mocy subst:sg:loc:f
 artykułu subst:sg:gen:m3
@@ -31697,7 +31697,7 @@ To pred
 pierwszy adj:sg:nom:m2:pos
 ptak subst:sg:nom:m2
 , interp
-jakiego adj:sg:acc:m2:pos
+jakiego adj:sg:acc:m1:pos
 tu adv
 widzę fin:sg:pri:imperf
 . interp
@@ -31791,7 +31791,7 @@ Tytana subst:sg:acc:m2
 , interp
 czternasty adj:sg:nom:m3:pos
 księżyc subst:sg:nom:m3
-Saturna subst:sg:gen:m3
+Saturna subst:sg:gen:m2
 . interp
 
 fm subst:sg:nom:n:ncol
@@ -31955,7 +31955,7 @@ zarzuciła praet:sg:f:perf
 ramiona subst:pl:acc:n:ncol
 na prep:acc
 szyję subst:sg:acc:f
-Sophie subst:sg:nom:f
+Sophie subst:sg:gen:f
 i conj
 teraz adv
 łzy subst:pl:nom:f
@@ -31966,7 +31966,7 @@ szybciej adv:com
 Zakład subst:sg:nom:m3
 powstanie fin:sg:ter:perf
 w prep:loc:nwok
-Wageningen subst:sg:loc:n:ncol
+Wageningen subst:sg:loc:m3
 w prep:loc:nwok
 Holandii subst:sg:loc:f
 , interp
@@ -31976,7 +31976,7 @@ udziale subst:sg:loc:m3
 krajów subst:pl:gen:m3
 UE subst:sg:gen:f
 , interp
-Turcji subst:sg:gen:f
+Turcji subst:sg:loc:f
 i conj
 Rosji subst:sg:gen:f
 . interp
@@ -32016,10 +32016,10 @@ jak comp
 my ppron12:pl:nom:m1:pri
 . interp
 
-Pędy subst:pl:nom:m3
-Asparagus subst:sg:gen:m2
-sprengeri subst:sg:gen:m2
-tworzące pact:pl:nom:m3:imperf:aff
+Pędy subst:pl:nom:f
+Asparagus subst:sg:gen:m3
+sprengeri subst:sg:nom:m3
+tworzące pact:pl:nom:f:imperf:aff
 pęczek subst:sg:acc:m3
 muszą fin:pl:ter:imperf
 posiadać inf:imperf
@@ -32041,7 +32041,7 @@ troski subst:sg:gen:f
 o prep:acc
 ciebie ppron12:sg:acc:m1:sec:akc
 i conj
-Lise subst:sg:acc:m1
+Lise subst:sg:acc:f
 . interp
 
 Nie part
@@ -32053,19 +32053,19 @@ płciowych adj:pl:gen:f:pos
 , interp
 co subst:sg:nom:n:ncol
 już part
-samo adj:sg:nom:n:pos
+samo adv:pos
 przez prep:acc:nwok
 się part
 świadczyło praet:sg:n:imperf
 , interp
-jak adv:pos
+jak comp
 daleki adj:sg:nom:m1:pos
 był praet:sg:m1:imperf
 Bowman subst:sg:nom:m1
 od prep:gen:nwok
-swego adj:sg:gen:n:pos
-ludzkiego adj:sg:gen:n:pos
-dziedzictwa subst:sg:gen:n:ncol
+swego adj:sg:gen:m3:pos
+ludzkiego adj:sg:gen:m3:pos
+dziedzictwa subst:sg:gen:m3
 . interp
 
 Lub conj
@@ -32118,7 +32118,7 @@ na prep:acc
 ten adj:sg:acc:m3:pos
 temat subst:sg:acc:m3
 
-Nieśli praet:pl:m1:imperf
+Nieśli part
 wory subst:pl:acc:m3
 do prep:gen
 mielnicy subst:sg:gen:f
@@ -32266,7 +32266,7 @@ procedury subst:sg:gen:f
 przewidzianej ppas:sg:gen:f:perf:aff
 w prep:loc:nwok
 rozporządzeniu subst:sg:loc:n:ncol
-REACH subst:sg:gen:n:ncol
+REACH subst:sg:nom:n:ncol
 . interp
 
 Myślał praet:sg:m1:imperf
@@ -32372,7 +32372,7 @@ raczej part
 niezbędnej adj:sg:gen:f:pos
 konieczności subst:sg:gen:f
 zaakceptowania ger:sg:gen:n:perf:aff
-jego ppron3:sg:gen:m1:ter:akc:npraep
+jego ppron3:sg:gen:m3:ter:akc:npraep
 zasadności subst:sg:gen:f
 ” interp
 . interp
@@ -32393,7 +32393,7 @@ o prep:loc
 Są fin:pl:ter:imperf
 więc comp
 one ppron3:pl:nom:f:ter:akc:npraep
-traktowane ppas:pl:nom:m3:imperf:aff
+traktowane ppas:pl:nom:n:imperf:aff
 w prep:loc:nwok
 EAA subst:sg:loc:n:ncol
 w prep:acc:nwok
@@ -32405,7 +32405,7 @@ prosięta subst:pl:nom:n:ncol
 , interp
 które adj:pl:nom:n:pos
 są fin:pl:ter:imperf
-uznawane ppas:pl:nom:m3:imperf:aff
+uznawane ppas:pl:nom:n:imperf:aff
 za prep:acc
 produkcję subst:sg:acc:f
 globalną adj:sg:acc:f:pos
@@ -32413,7 +32413,7 @@ półproduktów subst:pl:gen:m3
 w prep:loc:nwok
 produkcji subst:sg:loc:f
 trzody subst:sg:gen:f
-chlewnej adj:sg:gen:f:pos
+chlewnej adj:sg:loc:f:pos
 . interp
 
 Podążyli praet:pl:m1:perf
@@ -32443,8 +32443,8 @@ Komisję subst:sg:acc:f
 o prep:loc
 warunkach subst:pl:loc:m3
 i conj
-środkach subst:pl:loc:n:pt
-niezbędnych adj:pl:loc:n:pos
+środkach subst:pl:loc:m3
+niezbędnych adj:pl:loc:m3:pos
 do prep:gen
 osiągnięcia ger:sg:gen:n:perf:aff
 celów subst:pl:gen:m3
@@ -32489,7 +32489,7 @@ innymi adj:pl:inst:n:pos
 przedsiębiorstwami subst:pl:inst:n:ncol
 , interp
 często adv:pos
-organizowaną ppas:sg:nom:f:imperf:aff
+organizowaną pact:sg:inst:f:imperf:aff
 przez prep:acc:nwok
 sieci subst:pl:acc:f
 takie adj:pl:acc:f:pos
@@ -32529,8 +32529,8 @@ prawem subst:sg:inst:n:ncol
 międzynarodowym adj:sg:inst:n:pos
 , interp
 które adj:pl:nom:m3:pos
-rzeczone adj:pl:nom:m3:pos
-warunki subst:pl:nom:m3
+rzeczone ppas:pl:acc:m3:perf:aff
+warunki subst:pl:acc:m3
 ilustrują fin:pl:ter:imperf
 . interp
 
@@ -32550,7 +32550,7 @@ Głośna adj:sg:nom:f:pos
 muzyka subst:sg:nom:f
 i conj
 bycie ger:sg:nom:n:imperf:aff
-niemiłym adj:sg:inst:n:pos
+niemiłym adj:sg:inst:m1:pos
 niczego subst:sg:gen:n:ncol
 nie part
 rozwiąże fin:sg:ter:perf
@@ -32584,7 +32584,7 @@ jednostki subst:pl:acc:f
 . interp
 na prep:acc
 lotnisko subst:sg:acc:n:ncol
-Hawthorne subst:sg:acc:n:ncol
+Hawthorne subst:sg:nom:n:ncol
 . interp
 
 Zawsze adv
@@ -32664,10 +32664,10 @@ rzeczy subst:sg:gen:f
 cieszyć inf:imperf
 . interp
 
-Zrobił praet:sg:m1:perf
+Zrobił praet:sg:m3:perf
 się part
 nagle adv:pos
-ponury adj:sg:nom:m1:pos
+ponury adj:sg:nom:m3:pos
 , interp
 jakby comp
 się part
@@ -32702,7 +32702,7 @@ dyskryminację subst:sg:acc:f
 na prep:acc
 niekorzyść subst:sg:acc:f
 spółek subst:pl:gen:f
-dominujących pact:pl:gen:f:imperf:aff
+dominujących adj:pl:gen:f:pos
 ze prep:gen:wok
 względu subst:sg:gen:m3
 na prep:acc
@@ -32710,7 +32710,7 @@ miejsce subst:sg:acc:n:ncol
 ich ppron3:pl:gen:f:ter:akc:npraep
 siedziby subst:sg:gen:f
 , interp
-niezgodną adj:sg:nom:f:pos
+niezgodną adj:sg:inst:f:pos
 ze prep:inst:wok
 swobodą subst:sg:inst:f
 działalności subst:sg:gen:f
@@ -32898,7 +32898,7 @@ na prep:loc
 opakowaniu subst:sg:loc:n:ncol
 lub conj
 wewnątrz prep:gen
-niego ppron3:sg:gen:m3:ter:akc:praep
+niego ppron3:sg:gen:m1:ter:akc:praep
 lub conj
 na prep:loc
 kontenerze subst:sg:loc:m3
@@ -32944,7 +32944,7 @@ ci adj:pl:nom:m1:pos
 którzy adj:pl:nom:m1:pos
 teraz adv
 zostali praet:pl:m1:perf
-bezrobotni adj:pl:nom:m1:pos
+bezrobotni subst:pl:nom:m1
 , interp
 odzyskają fin:pl:ter:perf
 miejsca subst:pl:acc:n:ncol
@@ -33010,7 +33010,7 @@ kraju subst:sg:gen:m3
 ( interp
 Fragment subst:sg:nom:m3
 z prep:gen:nwok
-Nag subst:sg:gen:m3
+Nag subst:sg:gen:n:ncol
 Hammadi subst:sg:gen:n:ncol
 6,2 dig
 ) interp
@@ -33039,10 +33039,10 @@ badania subst:pl:acc:n:ncol
 działalność subst:sg:acc:f
 informacyjną adj:sg:acc:f:pos
 i conj
-publikacje subst:sg:acc:f
+publikacje subst:pl:acc:f
 ; interp
 na prep:acc
-kampanie subst:sg:acc:f
+kampanie subst:pl:acc:f
 podnoszenia ger:sg:gen:n:imperf:aff
 świadomości subst:sg:gen:f
 publicznej adj:sg:gen:f:pos
@@ -33067,7 +33067,7 @@ jednomyślną adj:sg:acc:f:pos
 zgodę subst:sg:acc:f
 co comp
 do prep:gen
-żądanej ppas:sg:gen:f:perf:aff
+żądanej adj:sg:gen:f:pos
 opinii subst:sg:gen:f
 lub conj
 sprawozdania subst:sg:gen:n:ncol
@@ -33100,7 +33100,7 @@ tego adj:sg:gen:n:pos
 obliczania ger:sg:gen:n:imperf:aff
 i conj
 dane subst:pl:acc:n:pt
-użyte ppas:pl:nom:n:perf:aff
+użyte ppas:pl:acc:m3:perf:aff
 do prep:gen
 osiągnięcia ger:sg:gen:n:perf:aff
 takich adj:pl:gen:m3:pos
@@ -33184,7 +33184,7 @@ Władze subst:pl:nom:f
 właściwe adj:pl:nom:f:pos
 dwóch num:pl:gen:n:congr:ncol
 lub conj
-więcej num:pl:acc:n:rec:ncol
+więcej num:pl:gen:n:congr:ncol
 Państw subst:pl:gen:n:ncol
 Członkowskich adj:pl:gen:n:pos
 mogą fin:pl:ter:imperf
@@ -33256,7 +33256,7 @@ wdrożenia ger:sg:gen:n:perf:aff
 decyzji subst:pl:gen:f
 wydawanych ppas:pl:gen:f:imperf:aff
 in frag
-absentia subst:sg:nom:n:ncol
+absentia subst:sg:nom:f
 . interp
 
 - interp
@@ -33270,7 +33270,7 @@ to subst:sg:acc:n:ncol
 wytrzymać inf:perf
 - interp
 powiedział praet:sg:m1:perf
-cicho subst:sg:nom:m1
+cicho adv:pos
 Moores subst:sg:nom:m1
 . interp
 
@@ -33310,7 +33310,7 @@ cele subst:pl:acc:m3
 w prep:loc:nwok
 zakresie subst:sg:loc:m3
 wzrostu subst:sg:gen:m3
-ODA subst:sg:gen:m3
+ODA subst:sg:gen:n:ncol
 , interp
 a conj
 my ppron12:pl:nom:m1:pri
@@ -33385,7 +33385,7 @@ pozarządowymi adj:pl:inst:f:pos
 , interp
 gminami subst:pl:inst:f
 i conj
-podmiotami subst:pl:inst:m3
+podmiotami subst:pl:inst:f
 lokalnej adj:sg:gen:f:pos
 gospodarki subst:sg:gen:f
 oraz conj
@@ -33396,10 +33396,10 @@ przyczyniła praet:sg:f:perf
 się part
 do prep:gen
 rozwoju subst:sg:gen:m3
-godnych adj:sg:gen:m3:pos
+godnych adj:pl:gen:m3:pos
 podziwu subst:sg:gen:m3
 i conj
-świadomych adj:pl:gen:f:pos
+świadomych adj:pl:gen:m3:pos
 odpowiedzialności subst:sg:gen:f
 wzorów subst:pl:gen:m3
 dla prep:gen
@@ -33442,8 +33442,8 @@ zasobów subst:pl:gen:m3
 pracowników subst:pl:gen:m1
 . interp
 
-Pozytywną adj:sg:nom:f:pos
-zmianą subst:sg:nom:f
+Pozytywną adj:sg:inst:f:pos
+zmianą subst:sg:inst:f
 była praet:sg:f:imperf
 dokonana ppas:sg:nom:f:perf:aff
 w prep:loc:nwok
@@ -33471,7 +33471,7 @@ piśmie subst:sg:loc:n:ncol
 do prep:gen
 Rady subst:sg:gen:f
 Prezesów subst:pl:gen:m1
-EBC subst:sg:gen:m3
+EBC subst:sg:gen:n:ncol
 . interp
 
 Jednakże part
@@ -33543,14 +33543,14 @@ na prep:acc
 pytania subst:pl:acc:n:ncol
 uzupełniające pact:pl:acc:n:imperf:aff
 Kathy subst:sg:acc:f
-Sinnott subst:sg:nom:f
+Sinnott subst:sg:acc:f
 ( interp
-zastępcy subst:sg:gen:m1
+zastępcy subst:sg:acc:m1
 autora subst:sg:gen:m1
 ) interp
 i conj
-Huberta subst:sg:gen:m1
-Pirkera subst:sg:gen:m1
+Huberta subst:sg:acc:m1
+Pirkera subst:sg:acc:m1
 . interp
 
 Frank subst:sg:nom:m1
@@ -33601,7 +33601,7 @@ obecna adj:sg:nom:f:pos
 sytuacja subst:sg:nom:f
 . interp
 
-Leczenie ger:sg:acc:n:imperf:aff
+Leczenie subst:sg:acc:n:ncol
 celekoksybem subst:sg:inst:m3
 pacjentów subst:pl:gen:m1
 z prep:inst:nwok
@@ -33661,7 +33661,7 @@ Wspólnoty subst:sg:gen:f
 jest fin:sg:ter:imperf
 w prep:loc:nwok
 pełni subst:sg:loc:f
-uzasadnione adj:sg:nom:n:pos
+uzasadnione ppas:sg:nom:n:perf:aff
 . interp
 
 Plan subst:sg:nom:m3
@@ -33703,9 +33703,9 @@ kontynuacji subst:sg:gen:f
 tego adj:sg:gen:m3:pos
 procesu subst:sg:gen:m3
 w prep:loc:nwok
-tym adj:sg:loc:n:pos
-samym adj:sg:loc:n:pos
-tonie subst:sg:loc:n:ncol
+tym adj:sg:loc:m3:pos
+samym adj:sg:loc:m3:pos
+tonie subst:sg:loc:m3
 . interp
 
 Właściwe adj:pl:nom:m3:pos
@@ -33742,7 +33742,7 @@ powiązania subst:pl:acc:n:ncol
 . interp
 
 Chcemy fin:pl:pri:imperf
-współistnienia ger:sg:gen:n:imperf:aff
+współistnienia ger:sg:gen:n:perf:aff
 tych adj:pl:gen:n:pos
 dwóch num:pl:gen:n:congr:ncol
 państw subst:pl:gen:n:ncol
@@ -33772,7 +33772,7 @@ poważna adj:sg:nom:f:pos
 . interp
 
 Jako comp
-przykład subst:sg:nom:m3
+przykład subst:sg:acc:m3
 porozumień subst:pl:gen:n:ncol
 , interp
 które adj:pl:nom:n:pos
@@ -33825,10 +33825,10 @@ lub conj
 świadectwo subst:sg:nom:n:ncol
 zastępcze adj:sg:nom:n:pos
 lub conj
-wyciąg subst:sg:nom:m3
+wyciąg subst:sg:acc:m3
 zastępczy adj:sg:acc:m3:pos
 , interp
-powiększoną ppas:sg:nom:f:perf:aff
+powiększoną ppas:sg:acc:f:perf:aff
 o prep:acc
 dopuszczalny adj:sg:acc:m3:pos
 margines subst:sg:acc:m3
@@ -33925,16 +33925,16 @@ ci ppron12:sg:dat:m1:sec:nakc
 z prep:gen:nwok
 ust subst:pl:gen:n:pt
 bez prep:gen:nwok
-zastanowienia ger:sg:gen:n:perf:aff
+zastanowienia subst:sg:gen:n:ncol
 się part
 nad prep:inst:nwok
-konsekwencjami subst:pl:inst:n:pt
+konsekwencjami subst:pl:inst:f
 . interp
 
 Boże subst:sg:voc:m1
 , interp
 jak adv:pos
-ja ppron3:sg:acc:f:ter:akc:npraep
+ja ppron12:sg:nom:m1:pri
 ją ppron3:sg:acc:f:ter:akc:npraep
 kochał praet:sg:m1:imperf
 em aglt:sg:pri:imperf:wok
@@ -33962,7 +33962,7 @@ mogę fin:sg:pri:imperf
 wydawać inf:imperf
 pieniędzy subst:pl:gen:m3
 Fundacji subst:sg:gen:f
-tylko conj
+tylko part
 dlatego adv
 , interp
 że comp
@@ -33990,7 +33990,7 @@ przeanalizowania ger:sg:gen:n:perf:aff
 ewentualnego adj:sg:gen:m3:pos
 związku subst:sg:gen:m3
 pomiędzy prep:inst
-SUD subst:sg:inst:m3
+SUD subst:sg:inst:n:ncol
 a conj
 preparatem subst:sg:inst:m3
 Hexavac subst:sg:inst:m3
@@ -34029,9 +34029,9 @@ przy prep:loc
 pomocy subst:sg:loc:f
 KHTML subst:sg:gen:m3
 
-Yeosol subst:sg:nom:m1
+Yeosol subst:sg:nom:m3
 i conj
-HA-Il subst:sg:nom:m1
+HA-Il subst:sg:nom:m3
 będą bedzie:pl:ter:imperf
 chronić inf:imperf
 zachód subst:sg:acc:m3
@@ -34039,7 +34039,7 @@ zachód subst:sg:acc:m3
 . interp
 
 Cozaar subst:sg:nom:m3
-12,5 num:pl:acc:m3:rec
+12,5 num:pl:nom:m3:rec
 mg brev:npun
 , interp
 25 num:pl:nom:m3:rec
@@ -34057,36 +34057,36 @@ następujących adj:pl:loc:f:pos
 ilościach subst:pl:loc:f
 : interp
 odpowiednio adv:pos
-1,06 num:pl:acc:m3:rec
+1,06 num:pl:nom:m3:congr
 mg brev:npun
 ( interp
-0,027 num:pl:nom:m3:rec
+0,027 num:pl:nom:m3:congr
 mEq brev:npun
 ) interp
 , interp
 2,12 num:pl:nom:m3:congr
 mg brev:npun
 ( interp
-0,054 num:pl:nom:m3:rec
+0,054 num:pl:nom:m3:congr
 mEq brev:npun
 ) interp
 , interp
 4,24 num:pl:nom:m3:congr
 mg brev:npun
 ( interp
-0,108 num:pl:nom:m3:rec
+0,108 num:pl:nom:m3:congr
 mEq brev:npun
 ) interp
 i conj
 8,48 num:pl:nom:m3:rec
 mg brev:npun
 ( interp
-0,216 num:pl:nom:m3:rec
+0,216 num:pl:nom:m3:congr
 mEq brev:npun
 ) interp
 . interp
 
-Oczekiwanie ger:sg:nom:n:imperf:aff
+Oczekiwanie subst:sg:nom:n:ncol
 od prep:gen:nwok
 europejskich adj:pl:gen:m1:pos
 podatników subst:pl:gen:m1
@@ -34121,19 +34121,19 @@ b brev:pun
 ) interp
 powinny winien:pl:m3:imperf
 być inf:imperf
-większe adj:pl:nom:f:com
+większe adj:pl:nom:m3:com
 niż comp
 z prep:gen:nwok
 lit brev:pun
 . interp
-a brev:pun
+a brev:npun
 ) interp
 o prep:acc
 mniej num:pl:acc:m3:rec
 niż comp
-20 num:pl:acc:m3:rec
+20 num:pl:nom:m3:rec
 ppm brev:npun
-CO subst:sg:nom:n:ncol
+CO brev:npun
 . interp
 
 ustanawiająca pact:sg:nom:f:imperf:aff
@@ -34155,7 +34155,7 @@ wnioski subst:pl:acc:m3
 z prep:gen:nwok
 kryzysu subst:sg:gen:m3
 ; interp
-to subst:sg:nom:n:ncol
+to pred
 ważne adj:sg:nom:n:pos
 dla prep:gen
 gospodarczego adj:sg:gen:m3:pos
@@ -34181,7 +34181,7 @@ Europy subst:sg:gen:f
 oraz conj
 lepsza adj:sg:nom:f:com
 koordynacja subst:sg:nom:f
-gospodarcza adj:sg:inst:f:pos
+gospodarcza adj:sg:nom:f:pos
 w prep:loc:nwok
 całej adj:sg:loc:f:pos
 UE subst:sg:loc:f
@@ -34309,21 +34309,21 @@ wybuchnie fin:sg:ter:perf
 Jeśli comp
 stosuje fin:sg:ter:imperf
 się part
-Actraphane subst:sg:acc:f
+Actraphane subst:sg:acc:m3
 10 dig
-Penfill subst:sg:nom:m3
+Penfill subst:sg:acc:m3
 i conj
 inną adj:sg:acc:f:pos
 insulinę subst:sg:acc:f
 we prep:loc:wok
 wkładzie subst:sg:loc:m3
-Penfill subst:sg:gen:m3
+Penfill subst:sg:nom:m3
 , interp
 należy fin:sg:ter:imperf
 używać inf:imperf
-dwóch num:pl:gen:m1:congr
-wstrzykiwaczy subst:pl:gen:m2
-insulinowych adj:pl:gen:m1:pos
+dwóch num:pl:gen:m3:congr
+wstrzykiwaczy subst:pl:gen:m3
+insulinowych adj:pl:gen:m3:pos
 , interp
 po prep:loc
 jednym adj:sg:loc:m3:pos
@@ -34334,7 +34334,7 @@ insuliny subst:sg:gen:f
 . interp
 
 W prep:loc:nwok
-skonsolidowanym ppas:sg:loc:m3:perf:aff
+skonsolidowanym adj:sg:loc:m3:pos
 rachunku subst:sg:loc:m3
 zysków subst:pl:gen:m3
 i conj
@@ -34379,7 +34379,7 @@ na prep:acc
 budynki subst:pl:acc:m3
 i conj
 koszty subst:pl:acc:m3
-pochodne adj:pl:acc:m3:pos
+pochodne subst:pl:acc:m3
 
 Pewnie adv:pos
 jesteś fin:sg:sec:imperf
@@ -34400,8 +34400,8 @@ nędzy subst:sg:gen:f
 . interp
 
 Dostępność subst:sg:nom:f
-Solvent subst:sg:gen:m3
-Yellow subst:sg:gen:m3
+Solvent subst:sg:nom:m3
+Yellow subst:sg:nom:m3
 124 dig
 , interp
 pomimo prep:gen
@@ -34465,7 +34465,7 @@ wypadku subst:sg:loc:m3
 . interp
 
 Psy subst:pl:nom:m2
-czekały praet:pl:m3:imperf
+czekały praet:pl:n:imperf
 na prep:acc
 niego ppron3:sg:acc:m1:ter:akc:praep
 przed prep:inst:nwok
@@ -34525,7 +34525,7 @@ metod subst:pl:gen:f
 analitycznych adj:pl:gen:f:pos
 w prep:loc:nwok
 przypadku subst:sg:loc:m3
-benzo[a]pirenu subst:sg:gen:n:ncol
+benzo[a]pirenu subst:sg:gen:m3
 
 Hodowcy subst:pl:nom:m1
 bydła subst:sg:gen:n:ncol
@@ -34536,7 +34536,7 @@ pomocy subst:sg:gen:f
 finansowej adj:sg:gen:f:pos
 . interp
 
-Collridge subst:sg:nom:m1
+Collridge subst:sg:nom:f
 a conj
 ty ppron12:sg:nom:m1:sec
 właśnie adv
@@ -34571,10 +34571,10 @@ ochrony subst:sg:gen:f
 zdrowia subst:sg:gen:n:ncol
 i conj
 bezpieczeństwa subst:sg:gen:n:ncol
-wymienione ppas:pl:nom:m3:perf:aff
+wymienione ppas:pl:acc:m3:perf:aff
 w prep:loc:nwok
 załączniku subst:sg:loc:m3
-I brev:pun
+I adj:sg:loc:m3:pos
 . interp
 
 Rada subst:sg:nom:f
@@ -34618,11 +34618,11 @@ oczy subst:pl:acc:n:col
 . interp
 
 Skoro comp
-bawół subst:sg:nom:m2
-został praet:sg:m1:perf
-skradziony ppas:sg:nom:m1:perf:aff
+bawół subst:sg:nom:m3
+został praet:sg:m3:perf
+skradziony ppas:sg:nom:m3:perf:aff
 z prep:gen:nwok
-pól subst:pl:gen:f
+pól subst:pl:gen:n:ncol
 ryżowych adj:pl:gen:n:pos
 , interp
 na prep:loc
@@ -34712,7 +34712,7 @@ do prep:gen
 wzmocnienia ger:sg:gen:n:perf:aff
 pozycji subst:sg:gen:f
 znaku subst:sg:gen:m3
-CE subst:sg:gen:f
+CE adj:sg:gen:m3:pos
 i conj
 obowiązku subst:sg:gen:m3
 jego ppron3:sg:gen:m3:ter:akc:npraep
@@ -34766,7 +34766,7 @@ punkt subst:sg:acc:m3
 wyjściowy adj:sg:acc:m3:pos
 , interp
 a conj
-nie part
+nie conj
 przyznanie ger:sg:acc:n:perf:aff
 rynkowi subst:sg:dat:m3
 ważniejszej adj:sg:gen:f:com
@@ -34826,7 +34826,7 @@ tego subst:sg:gen:n:ncol
 uwagi subst:sg:gen:f
 B brev:npun
 i conj
-C subst:sg:nom:n:ncol
+C subst:sg:gen:n:ncol
 oraz conj
 pole subst:sg:nom:n:ncol
 11 dig
@@ -34866,7 +34866,7 @@ do prep:gen
 warsztatu subst:sg:gen:m3
 naprawy subst:sg:gen:f
 jachtów subst:pl:gen:m3
-Hallandale subst:sg:acc:m1
+Hallandale subst:sg:nom:m3
 . interp
 
 Faktoryzacja subst:sg:nom:f
@@ -34890,7 +34890,7 @@ zatem comp
 , interp
 że comp
 żadne adj:pl:nom:n:pos
-uzasadnione ppas:pl:nom:n:perf:aff
+uzasadnione adj:pl:nom:n:pos
 oczekiwania subst:pl:nom:n:ncol
 nie part
 mogą fin:pl:ter:imperf
@@ -34913,7 +34913,7 @@ daje fin:sg:ter:imperf
 tak part
 naprawdę part
 przedsiębiorstwom subst:pl:dat:n:ncol
-możliwości subst:sg:gen:f
+możliwości subst:pl:gen:f
 inwestowania ger:sg:gen:n:imperf:aff
 w prep:acc:nwok
 bezpieczeństwo subst:sg:acc:n:ncol
@@ -34968,10 +34968,10 @@ był praet:sg:m3:imperf
 aktywny adj:sg:nom:m3:pos
 w prep:loc:nwok
 komórkach subst:pl:loc:f
-ES subst:sg:gen:m3
+ES subst:sg:nom:n:ncol
 , interp
 ale conj
-nie part
+nie conj
 w prep:loc:nwok
 komórkach subst:pl:loc:f
 iPS subst:sg:gen:n:ncol
@@ -34991,7 +34991,7 @@ mutacjach subst:pl:loc:f
 , interp
 natomiast conj
 z prep:gen:nwok
-najnowszego adj:sg:gen:n:com
+najnowszego adj:sg:gen:n:pos
 odkrycia subst:sg:gen:n:ncol
 wynika fin:sg:ter:imperf
 , interp
@@ -35026,7 +35026,7 @@ bio-obrazowania subst:sg:gen:n:ncol
 mikroskopię subst:sg:acc:f
 krio-elektronową adja
 i conj
-NMR subst:sg:acc:m3
+NMR subst:sg:nom:n:ncol
 ( interp
 nuklearny adj:sg:nom:m3:pos
 rezonans subst:sg:nom:m3
@@ -35040,8 +35040,8 @@ skupienia subst:sg:gen:n:ncol
 
 Chowasz fin:sg:sec:imperf
 się part
-za prep:inst
-parawan ger:sg:acc:n:imperf:aff
+za prep:acc
+parawan subst:sg:acc:m3
 słów subst:pl:gen:n:ncol
 , interp
 które adj:pl:nom:n:pos
@@ -35128,7 +35128,7 @@ Wittgenstein subst:sg:nom:m1
 jeśli comp
 coś subst:sg:acc:n:ncol
 panu subst:sg:dat:m1
-to subst:sg:nom:n:ncol
+to subst:sg:acc:n:ncol
 mówi fin:sg:ter:imperf
 ? interp
 
@@ -35192,7 +35192,7 @@ spotkać inf:perf
 z prep:inst:nwok
 kimś subst:sg:inst:m1
 z prep:gen:nwok
-San subst:sg:gen:n:ncol
+San frag
 Antonio subst:sg:gen:n:ncol
 . interp
 
@@ -35200,7 +35200,7 @@ Ogólnie adv:pos
 rzecz subst:sg:acc:f
 biorąc pcon:imperf
 , interp
-pani subst:sg:gen:f
+pani subst:sg:nom:f
 pytanie subst:sg:nom:n:ncol
 dotyczy fin:sg:ter:imperf
 wolności subst:sg:gen:f
@@ -35342,7 +35342,7 @@ do prep:gen
 domu subst:sg:gen:m3
 na prep:acc
 weekend subst:sg:acc:m3
-z prep:gen:nwok
+z prep:inst:nwok
 Dibbs subst:sg:inst:n:ncol
 . interp
 
@@ -35409,7 +35409,7 @@ zwraca fin:sg:ter:imperf
 się part
 na prep:acc
 identyfikowanie ger:sg:acc:n:imperf:aff
-możliwości subst:sg:gen:f
+możliwości subst:pl:gen:f
 zapobiegania ger:sg:gen:n:imperf:aff
 depresji subst:sg:gen:f
 pojawiającej pact:sg:gen:f:imperf:aff
@@ -35478,7 +35478,7 @@ się part
 nim ppron3:sg:inst:m1:ter:akc:praep
 , interp
 podlegają fin:pl:ter:imperf
-zatwierdzeniu subst:sg:dat:n:ncol
+zatwierdzeniu ger:sg:dat:n:perf:aff
 przez prep:acc:nwok
 właściwe adj:pl:acc:m3:pos
 organy subst:pl:acc:m3
@@ -35520,7 +35520,7 @@ myśli subst:pl:acc:f
 . interp
 
 Podczas prep:gen
-zwiedzania subst:sg:gen:m3
+zwiedzania ger:sg:gen:n:imperf:aff
 odpowiednie adj:pl:nom:f:pos
 informacje subst:pl:nom:f
 będą bedzie:pl:ter:imperf
@@ -35575,9 +35575,9 @@ mój adj:sg:acc:m3:pos
 wybór subst:sg:acc:m3
 . interp
 
-Pułapy subst:pl:nom:m3
-taryfowe adj:pl:nom:m3:pos
-obowiązujące pact:pl:nom:m3:imperf:aff
+Pułapy subst:pl:nom:f
+taryfowe adj:pl:nom:f:pos
+obowiązujące pact:pl:nom:f:imperf:aff
 w prep:loc:nwok
 okresach subst:pl:loc:m3
 od prep:gen:nwok
@@ -35592,7 +35592,7 @@ czerwca subst:sg:gen:m3
 Mściwi adj:pl:nom:m1:pos
 sąsiedzi subst:pl:nom:m1
 ogolili praet:pl:m1:perf
-jej ppron3:sg:dat:f:ter:akc:npraep
+jej ppron3:sg:gen:f:ter:akc:npraep
 głowę subst:sg:acc:f
 do prep:gen
 gołej adj:sg:gen:f:pos
@@ -35607,7 +35607,7 @@ Niemcami subst:pl:inst:m1
 . interp
 
 - interp
-Tunne subst:sg:acc:f
+Tunne subst:sg:nom:f
 Kelam subst:sg:nom:f
 , interp
 Bernd subst:sg:nom:m1
@@ -35626,7 +35626,7 @@ Edward subst:sg:nom:m1
 McMillan-Scott subst:sg:nom:m1
 , interp
 Eija-Riitta subst:sg:nom:f
-Korhola subst:sg:nom:f
+Korhola subst:sg:gen:m1
 , interp
 Charles subst:sg:nom:m1
 Tannock subst:sg:nom:m1
@@ -35665,8 +35665,8 @@ zakupem subst:sg:inst:m3
 Happy subst:sg:gen:n:ncol
 Family subst:sg:gen:n:ncol
 Dinner subst:sg:gen:n:ncol
-w prep:acc:nwok
-Wok'n'Roll subst:sg:acc:m3
+w prep:loc:nwok
+Wok'n'Roll subst:sg:loc:n:ncol
 . interp
 
 Uważam fin:sg:pri:imperf
@@ -35675,10 +35675,10 @@ Uważam fin:sg:pri:imperf
 obecnie adv:pos
 położyli praet:pl:m1:perf
 śmy aglt:pl:pri:imperf:nwok
-pod prep:inst:nwok
+pod prep:acc:nwok
 nią ppron3:sg:inst:f:ter:akc:praep
 dobre adj:pl:acc:f:pos
-podwaliny subst:pl:acc:n:pt
+podwaliny subst:pl:acc:f
 . interp
 
 - interp
@@ -35695,7 +35695,7 @@ technologiczny adj:sg:nom:m3:pos
 demonstracje subst:pl:nom:f
 , interp
 zarządzanie ger:sg:nom:n:imperf:aff
-szkolenia subst:sg:gen:n:ncol
+szkolenia subst:pl:nom:n:ncol
 , interp
 upowszechnianie ger:sg:nom:n:imperf:aff
 , interp
@@ -35720,7 +35720,7 @@ systemów subst:pl:gen:m3
 . interp
 
 Harry subst:sg:nom:m1
-odniósł praet:sg:m1:perf:nagl
+odniósł praet:sg:m1:perf
 wrażenie subst:sg:acc:n:ncol
 , interp
 że comp
@@ -35773,10 +35773,10 @@ zawartości subst:sg:gen:f
 zaleca fin:sg:ter:imperf
 się part
 stosowanie ger:sg:acc:n:imperf:aff
-rękawic subst:pl:gen:m3
-lateksowych adj:pl:gen:m3:pos
+rękawic subst:pl:gen:f
+lateksowych adj:pl:gen:f:pos
 oraz conj
-okularów subst:pl:gen:n:pt
+okularów subst:pl:gen:n:ncol
 ochronnych adj:pl:gen:n:pos
 . interp
 
