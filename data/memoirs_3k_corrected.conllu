@@ -44,7 +44,7 @@
 42	,	,	PUNCT	interp	_	_	_	_	_
 43	która	który	DET	adj:sg:nom:f:pos	_	_	_	_	_
 44	później	późno	ADV	adv:com	_	_	_	_	_
-45	wdokumentach	dokument	NOUN	subst:pl:loc:m3	_	_	_	_	_
+45	wdokumentach	wdokument	NOUN	subst:pl:loc:m3	_	_	_	_	_
 46	się	się	PRON	part	_	_	_	_	_
 47	powtarza	powtarzać	VERB	fin:sg:ter:imperf	_	_	_	_	_
 48	)	)	PUNCT	interp	_	_	_	_	_
