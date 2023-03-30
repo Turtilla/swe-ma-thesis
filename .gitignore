@@ -78,3 +78,6 @@ nkjp_access.txt
 code/bert/polUPOS-model/runs/Mar29_10-16-24_LAPTOP-R5DMFSM2/1680077804.4975698/events.out.tfevents.1680077804.LAPTOP-R5DMFSM2.238.1
 code/bert/polUPOS-model/runs/Mar29_10-16-24_LAPTOP-R5DMFSM2/events.out.tfevents.1680077804.LAPTOP-R5DMFSM2.238.0
 code/bert/polUPOS-model/runs/Mar29_10-16-24_LAPTOP-R5DMFSM2/events.out.tfevents.1680097233.LAPTOP-R5DMFSM2.238.2
+*.1
+*.0
+code/bert/polXPOS-model/runs/Mar29_23-40-17_LAPTOP-R5DMFSM2/events.out.tfevents.1680142184.LAPTOP-R5DMFSM2.129.2
