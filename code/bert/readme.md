@@ -17,7 +17,7 @@ Move the created files into the folder with the code (this one)
 
 Set:
 + ``export MAX_LENGTH=128``
-+ ``export BERT_MODEL=dkleczek/bert-base-polish-uncased-v1``
++ ``export BERT_MODEL=dkleczek/bert-base-polish-cased-v1``
 
 Run:
 + ``python3 ../scripts/preprocess.py train.txt.tmp $BERT_MODEL $MAX_LENGTH > train.txt``
@@ -25,10 +25,10 @@ Run:
 + ``python3 ../scripts/preprocess.py test.txt.tmp $BERT_MODEL $MAX_LENGTH > test.txt``
 
 Later also:
-+ ``python3 scripts/preprocess.py test.txt.tmp $BERT_MODEL $MAX_LENGTH > test.txt``
++ ``python3 ../scripts/preprocess.py test.txt.tmp $BERT_MODEL $MAX_LENGTH > test.txt``
 
 IMPORTANT! Extra preprocessing needed to remove multi-token lines:
-+ ``python3 ../preproc_bert.py [name of the file]``
++ ``python3 ../../preproc_bert.py [name of the file]``
 
 Run:
 + ``cat train.txt dev.txt test.txt | cut -d " " -f 2 | grep -v "^$"| sort | uniq > labels.txt``

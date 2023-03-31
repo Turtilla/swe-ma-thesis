@@ -521,7 +521,7 @@ niebawem ADV
 owdowiał VERB
 . PUNCT
 
-Około PART
+Około ADP
 roku NOUN
 1784 ADJ
 pojechał VERB
@@ -1115,7 +1115,7 @@ zato PRON
 , PUNCT
 ażeby SCONJ
 Ci PRON
-Bóg NOUN
+Bóg PROPN
 na ADP
 tamtym DET
 świecie NOUN
@@ -1158,7 +1158,7 @@ wuj NOUN
 kuzyn NOUN
 Polanowskich PROPN
 z ADP
-Bełzkiego PROPN
+Bełzkiego ADJ
 często ADV
 bywał VERB
 w ADP
@@ -1410,7 +1410,7 @@ w ADP
 sąsiedztwa NOUN
 , PUNCT
 a CCONJ
-najwięcej ADJ
+najwięcej DET
 czasu NOUN
 podróże NOUN
 i CCONJ
@@ -1480,7 +1480,7 @@ bitwach NOUN
 a CCONJ
 pod ADP
 Iglan PROPN
-był VERB
+był AUX
 ranny ADJ
 w ADP
 rękę NOUN
@@ -2931,7 +2931,7 @@ cały ADJ
 dwór NOUN
 . PUNCT
 
-Był VERB
+Był AUX
 bardzo ADV
 pobożny ADJ
 – PUNCT
@@ -3500,7 +3500,7 @@ etykietalney ADJ
 pierwszey ADJ
 wizyty NOUN
 – PUNCT
-został VERB
+został AUX
 zatrzymany ADJ
 przez ADP
 dwa NUM
@@ -3565,7 +3565,7 @@ dołem NOUN
 – PUNCT
 widok NOUN
 Ś-tego X
-Stanisława X
+Stanisława PROPN
 klasztoru NOUN
 koło ADP
 Halicza PROPN
@@ -3949,7 +3949,7 @@ do ADP
 opisu NOUN
 malowanych ADJ
 pokoi NOUN
-był VERB
+był AUX
 drugi ADJ
 pokój NOUN
 obszerny ADJ
@@ -4146,7 +4146,7 @@ kępy NOUN
 była VERB
 szeroka ADJ
 fosa NOUN
-zarosła ADJ
+zarosła VERB
 szuwarem NOUN
 i CCONJ
 trzciną NOUN
@@ -6469,7 +6469,7 @@ druga ADJ
 kontynuując VERB
 dyskurs NOUN
 z ADP
-tamtą PRON
+tamtą DET
 zaczęty ADJ
 . PUNCT
 
@@ -6521,7 +6521,7 @@ mówi VERB
 raz NOUN
 – PUNCT
 chwała NOUN
-Bogu NOUN
+Bogu PROPN
 teraz ADV
 mogę VERB
 już PART
@@ -6580,8 +6580,8 @@ roku NOUN
 1831 ADJ
 ozdobionego ADJ
 krzyżem NOUN
-Virtuti X
-Militari X
+Virtuti PROPN
+Militari PROPN
 a CCONJ
 siostra NOUN
 Rzeźbiarza NOUN
@@ -6989,7 +6989,7 @@ było VERB
 dużo DET
 , PUNCT
 ale CCONJ
-naywięcej ADV
+naywięcej DET
 córek NOUN
 – PUNCT
 jedna ADJ
@@ -7202,7 +7202,7 @@ z ADP
 dziewięć NUM
 albo CCONJ
 i CCONJ
-więcej ADV
+więcej DET
 płucien NOUN
 portretów NOUN
 w ADP
@@ -7318,7 +7318,7 @@ Pana NOUN
 Wiktora PROPN
 staruszka NOUN
 ciemna ADJ
-respektowa NOUN
+respektowa ADJ
 Pana NOUN
 w ADP
 domu NOUN
@@ -7458,7 +7458,7 @@ przy ADP
 ołtarzu NOUN
 niezapalają VERB
 , PUNCT
-aż PART
+aż SCONJ
 ksiądz NOUN
 będzie AUX
 przy ADP
@@ -7658,7 +7658,7 @@ ale CCONJ
 tego PRON
 tylko PART
 było AUX
-potrzeba NOUN
+potrzeba VERB
 – PUNCT
 rzuciły VERB
 się PRON
@@ -8168,7 +8168,7 @@ piura NOUN
 niebył AUX
 tęgi ADJ
 – PUNCT
-pomimo ADP
+pomimo ADV
 że SCONJ
 skończył VERB
 Akademię NOUN
@@ -8529,9 +8529,9 @@ zuchwało ADV
 ! PUNCT
 – PUNCT
 
-Boże NOUN
+Boże PROPN
 móy DET
-Boże NOUN
+Boże PROPN
 ! PUNCT
 
 Jakież DET
@@ -8557,7 +8557,7 @@ bagnety NOUN
 – PUNCT
 i CCONJ
 z ADP
-uwolnionymi NOUN
+uwolnionymi VERB
 porwać VERB
 się PRON
 na ADP
@@ -8863,7 +8863,7 @@ Jędrżejowicz PROPN
 z ADP
 Czapel PROPN
 w ADP
-Samborskim PROPN
+Samborskim ADJ
 – PUNCT
 ale CCONJ
 Pan NOUN
@@ -10089,7 +10089,7 @@ na ADP
 czole NOUN
 , PUNCT
 która DET
-została VERB
+została AUX
 już PART
 przez ADP
 całe ADJ
@@ -10433,7 +10433,7 @@ dokupił VERB
 od ADP
 rodziny NOUN
 Uherce PROPN
-Niezabitowskie PROPN
+Niezabitowskie ADJ
 koło ADP
 Gródka PROPN
 – PUNCT
@@ -10566,7 +10566,7 @@ wuyem NOUN
 który DET
 równocześnie ADV
 także PART
-został VERB
+został AUX
 Deputatem NOUN
 stanów NOUN
 – PUNCT

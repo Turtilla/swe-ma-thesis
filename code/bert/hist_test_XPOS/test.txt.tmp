@@ -27,7 +27,7 @@ starszym adj:sg:inst:m1:com
 bratem subst:sg:inst:m1
 ś brev:pun
 . interp
-p brev:npun
+p brev:pun
 . interp
 Melchiora subst:sg:gen:m1
 – interp
@@ -201,7 +201,7 @@ nasz adj:sg:nom:m1:pos
 Karol subst:sg:nom:m1
 Czermiński subst:sg:nom:m1
 – interp
-jakoby part
+jakoby comp
 Dziad subst:sg:nom:m1
 jego ppron3:sg:gen:m1:ter:akc:npraep
 a conj
@@ -426,7 +426,7 @@ i conj
 stanowiąca pact:sg:nom:f:imperf:aff
 o prep:loc
 przyszłości subst:sg:loc:f
-jego ppron3:sg:loc:m1:ter:akc:npraep
+jego ppron3:sg:gen:m1:ter:akc:npraep
 . interp
 
 Dochód subst:sg:nom:m3
@@ -786,7 +786,7 @@ w prep:loc:nwok
 Bolechowie subst:sg:loc:m3
 umarła praet:sg:f:perf
 , interp
-bawiły praet:pl:n:imperf
+bawiły praet:pl:f:imperf
 pod prep:inst:nwok
 opieką subst:sg:inst:f
 Pani subst:sg:gen:f
@@ -1162,7 +1162,7 @@ wuj subst:sg:nom:m1
 kuzyn subst:sg:nom:m1
 Polanowskich subst:pl:gen:m1
 z prep:gen:nwok
-Bełzkiego subst:sg:gen:n:ncol
+Bełzkiego adj:sg:gen:n:pos
 często adv:pos
 bywał praet:sg:m1:imperf
 w prep:loc:nwok
@@ -1214,7 +1214,7 @@ musiała praet:sg:f:imperf
 służąca subst:sg:nom:f
 całą adj:sg:acc:f:pos
 drogę subst:sg:acc:f
-stać inf:perf
+stać inf:imperf
 na prep:loc
 stopniach subst:pl:loc:m3
 powozu subst:sg:gen:m3
@@ -1238,7 +1238,7 @@ Jeden adj:sg:nom:m1:pos
 i conj
 drugi adj:sg:nom:m1:pos
 pokończyli praet:pl:m1:perf
-nauki subst:sg:gen:f
+nauki subst:sg:acc:f
 ale conj
 nie part
 poszło praet:sg:n:perf
@@ -1888,7 +1888,7 @@ obywatelskiego adj:sg:gen:n:pos
 dla prep:gen
 poddanych subst:pl:gen:m1
 . interp
-Oycowskiey subst:sg:gen:f
+Oycowskiey adj:sg:gen:f:pos
 . interp
 
 Należało praet:sg:n:imperf
@@ -2870,7 +2870,7 @@ prawem subst:sg:inst:n:ncol
 sukcessyi subst:sg:gen:f
 przeszedł praet:sg:m3:perf
 po prep:loc
-synie subst:sg:loc:m3
+synie subst:sg:loc:m1
 na prep:acc
 Matkę subst:sg:acc:f
 – interp
