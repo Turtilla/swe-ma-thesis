@@ -27,7 +27,7 @@ starszym ADJ adj:sg:inst:m1:com
 bratem NOUN subst:sg:inst:m1
 ś X brev:pun
 . PUNCT interp
-p X brev:npun
+p X brev:pun
 . PUNCT interp
 Melchiora PROPN subst:sg:gen:m1
 – PUNCT interp
@@ -201,7 +201,7 @@ nasz DET adj:sg:nom:m1:pos
 Karol PROPN subst:sg:nom:m1
 Czermiński PROPN subst:sg:nom:m1
 – PUNCT interp
-jakoby SCONJ part
+jakoby SCONJ comp
 Dziad NOUN subst:sg:nom:m1
 jego DET ppron3:sg:gen:m1:ter:akc:npraep
 a CCONJ conj
@@ -426,7 +426,7 @@ i CCONJ conj
 stanowiąca ADJ pact:sg:nom:f:imperf:aff
 o ADP prep:loc
 przyszłości NOUN subst:sg:loc:f
-jego DET ppron3:sg:loc:m1:ter:akc:npraep
+jego DET ppron3:sg:gen:m1:ter:akc:npraep
 . PUNCT interp
 
 Dochód NOUN subst:sg:nom:m3
@@ -521,7 +521,7 @@ niebawem ADV adv
 owdowiał VERB praet:sg:m1:perf
 . PUNCT interp
 
-Około PART prep:gen
+Około ADP prep:gen
 roku NOUN subst:sg:gen:m3
 1784 ADJ adj:sg:gen:m3:pos
 pojechał VERB praet:sg:m1:perf
@@ -784,7 +784,7 @@ w ADP prep:loc:nwok
 Bolechowie PROPN subst:sg:loc:m3
 umarła VERB praet:sg:f:perf
 , PUNCT interp
-bawiły VERB praet:pl:n:imperf
+bawiły VERB praet:pl:f:imperf
 pod ADP prep:inst:nwok
 opieką NOUN subst:sg:inst:f
 Pani NOUN subst:sg:gen:f
@@ -1115,7 +1115,7 @@ zato PRON subst:sg:acc:n:ncol
 , PUNCT interp
 ażeby SCONJ comp
 Ci PRON ppron12:sg:dat:m1:sec:nakc
-Bóg NOUN subst:sg:nom:m1
+Bóg PROPN subst:sg:nom:m1
 na ADP prep:loc
 tamtym DET adj:sg:loc:m3:pos
 świecie NOUN subst:sg:loc:m3
@@ -1158,7 +1158,7 @@ wuj NOUN subst:sg:nom:m1
 kuzyn NOUN subst:sg:nom:m1
 Polanowskich PROPN subst:pl:gen:m1
 z ADP prep:gen:nwok
-Bełzkiego PROPN subst:sg:gen:n:ncol
+Bełzkiego ADJ adj:sg:gen:n:pos
 często ADV adv:pos
 bywał VERB praet:sg:m1:imperf
 w ADP prep:loc:nwok
@@ -1210,7 +1210,7 @@ musiała VERB praet:sg:f:imperf
 służąca NOUN subst:sg:nom:f
 całą ADJ adj:sg:acc:f:pos
 drogę NOUN subst:sg:acc:f
-stać VERB inf:perf
+stać VERB inf:imperf
 na ADP prep:loc
 stopniach NOUN subst:pl:loc:m3
 powozu NOUN subst:sg:gen:m3
@@ -1234,7 +1234,7 @@ Jeden ADJ adj:sg:nom:m1:pos
 i CCONJ conj
 drugi ADJ adj:sg:nom:m1:pos
 pokończyli VERB praet:pl:m1:perf
-nauki NOUN subst:sg:gen:f
+nauki NOUN subst:sg:acc:f
 ale CCONJ conj
 nie PART part
 poszło VERB praet:sg:n:perf
@@ -1410,7 +1410,7 @@ w ADP prep:acc:nwok
 sąsiedztwa NOUN subst:pl:acc:n:ncol
 , PUNCT interp
 a CCONJ conj
-najwięcej ADJ num:sg:acc:m3:rec
+najwięcej DET num:sg:acc:m3:rec
 czasu NOUN subst:sg:gen:m3
 podróże NOUN subst:pl:nom:f
 i CCONJ conj
@@ -1480,7 +1480,7 @@ bitwach NOUN subst:pl:loc:f
 a CCONJ conj
 pod ADP prep:inst:nwok
 Iglan PROPN subst:sg:inst:m3
-był VERB praet:sg:m1:imperf
+był AUX praet:sg:m1:imperf
 ranny ADJ adj:sg:nom:m1:pos
 w ADP prep:acc:nwok
 rękę NOUN subst:sg:acc:f
@@ -1881,7 +1881,7 @@ obywatelskiego ADJ adj:sg:gen:n:pos
 dla ADP prep:gen
 poddanych NOUN subst:pl:gen:m1
 . PUNCT interp
-Oycowskiey ADJ subst:sg:gen:f
+Oycowskiey ADJ adj:sg:gen:f:pos
 . PUNCT interp
 
 Należało VERB praet:sg:n:imperf
@@ -2861,7 +2861,7 @@ prawem NOUN subst:sg:inst:n:ncol
 sukcessyi NOUN subst:sg:gen:f
 przeszedł VERB praet:sg:m3:perf
 po ADP prep:loc
-synie NOUN subst:sg:loc:m3
+synie NOUN subst:sg:loc:m1
 na ADP prep:acc
 Matkę NOUN subst:sg:acc:f
 – PUNCT interp
@@ -2930,7 +2930,7 @@ cały ADJ adj:sg:acc:m3:pos
 dwór NOUN subst:sg:acc:m3
 . PUNCT interp
 
-Był VERB praet:sg:m1:imperf
+Był AUX praet:sg:m1:imperf
 bardzo ADV adv:pos
 pobożny ADJ adj:sg:nom:m1:pos
 – PUNCT interp

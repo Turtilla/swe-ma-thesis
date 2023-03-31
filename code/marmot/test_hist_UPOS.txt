@@ -27,7 +27,7 @@ starszym ADJ adj:sg:inst:m1:com
 bratem NOUN subst:sg:inst:m1
 ś X brev:pun
 . PUNCT interp
-p X brev:npun
+p X brev:pun
 . PUNCT interp
 Melchiora PROPN subst:sg:gen:m1
 – PUNCT interp
@@ -201,7 +201,7 @@ nasz DET adj:sg:nom:m1:pos
 Karol PROPN subst:sg:nom:m1
 Czermiński PROPN subst:sg:nom:m1
 – PUNCT interp
-jakoby SCONJ part
+jakoby SCONJ comp
 Dziad NOUN subst:sg:nom:m1
 jego DET ppron3:sg:gen:m1:ter:akc:npraep
 a CCONJ conj
@@ -426,7 +426,7 @@ i CCONJ conj
 stanowiąca ADJ pact:sg:nom:f:imperf:aff
 o ADP prep:loc
 przyszłości NOUN subst:sg:loc:f
-jego DET ppron3:sg:loc:m1:ter:akc:npraep
+jego DET ppron3:sg:gen:m1:ter:akc:npraep
 . PUNCT interp
 
 Dochód NOUN subst:sg:nom:m3
@@ -521,7 +521,7 @@ niebawem ADV adv
 owdowiał VERB praet:sg:m1:perf
 . PUNCT interp
 
-Około PART prep:gen
+Około ADP prep:gen
 roku NOUN subst:sg:gen:m3
 1784 ADJ adj:sg:gen:m3:pos
 pojechał VERB praet:sg:m1:perf
@@ -784,7 +784,7 @@ w ADP prep:loc:nwok
 Bolechowie PROPN subst:sg:loc:m3
 umarła VERB praet:sg:f:perf
 , PUNCT interp
-bawiły VERB praet:pl:n:imperf
+bawiły VERB praet:pl:f:imperf
 pod ADP prep:inst:nwok
 opieką NOUN subst:sg:inst:f
 Pani NOUN subst:sg:gen:f
@@ -1115,7 +1115,7 @@ zato PRON subst:sg:acc:n:ncol
 , PUNCT interp
 ażeby SCONJ comp
 Ci PRON ppron12:sg:dat:m1:sec:nakc
-Bóg NOUN subst:sg:nom:m1
+Bóg PROPN subst:sg:nom:m1
 na ADP prep:loc
 tamtym DET adj:sg:loc:m3:pos
 świecie NOUN subst:sg:loc:m3
@@ -1158,7 +1158,7 @@ wuj NOUN subst:sg:nom:m1
 kuzyn NOUN subst:sg:nom:m1
 Polanowskich PROPN subst:pl:gen:m1
 z ADP prep:gen:nwok
-Bełzkiego PROPN subst:sg:gen:n:ncol
+Bełzkiego ADJ adj:sg:gen:n:pos
 często ADV adv:pos
 bywał VERB praet:sg:m1:imperf
 w ADP prep:loc:nwok
@@ -1210,7 +1210,7 @@ musiała VERB praet:sg:f:imperf
 służąca NOUN subst:sg:nom:f
 całą ADJ adj:sg:acc:f:pos
 drogę NOUN subst:sg:acc:f
-stać VERB inf:perf
+stać VERB inf:imperf
 na ADP prep:loc
 stopniach NOUN subst:pl:loc:m3
 powozu NOUN subst:sg:gen:m3
@@ -1234,7 +1234,7 @@ Jeden ADJ adj:sg:nom:m1:pos
 i CCONJ conj
 drugi ADJ adj:sg:nom:m1:pos
 pokończyli VERB praet:pl:m1:perf
-nauki NOUN subst:sg:gen:f
+nauki NOUN subst:sg:acc:f
 ale CCONJ conj
 nie PART part
 poszło VERB praet:sg:n:perf
@@ -1410,7 +1410,7 @@ w ADP prep:acc:nwok
 sąsiedztwa NOUN subst:pl:acc:n:ncol
 , PUNCT interp
 a CCONJ conj
-najwięcej ADJ num:sg:acc:m3:rec
+najwięcej DET num:sg:acc:m3:rec
 czasu NOUN subst:sg:gen:m3
 podróże NOUN subst:pl:nom:f
 i CCONJ conj
@@ -1480,7 +1480,7 @@ bitwach NOUN subst:pl:loc:f
 a CCONJ conj
 pod ADP prep:inst:nwok
 Iglan PROPN subst:sg:inst:m3
-był VERB praet:sg:m1:imperf
+był AUX praet:sg:m1:imperf
 ranny ADJ adj:sg:nom:m1:pos
 w ADP prep:acc:nwok
 rękę NOUN subst:sg:acc:f
@@ -1881,7 +1881,7 @@ obywatelskiego ADJ adj:sg:gen:n:pos
 dla ADP prep:gen
 poddanych NOUN subst:pl:gen:m1
 . PUNCT interp
-Oycowskiey ADJ subst:sg:gen:f
+Oycowskiey ADJ adj:sg:gen:f:pos
 . PUNCT interp
 
 Należało VERB praet:sg:n:imperf
@@ -2861,7 +2861,7 @@ prawem NOUN subst:sg:inst:n:ncol
 sukcessyi NOUN subst:sg:gen:f
 przeszedł VERB praet:sg:m3:perf
 po ADP prep:loc
-synie NOUN subst:sg:loc:m3
+synie NOUN subst:sg:loc:m1
 na ADP prep:acc
 Matkę NOUN subst:sg:acc:f
 – PUNCT interp
@@ -2930,7 +2930,7 @@ cały ADJ adj:sg:acc:m3:pos
 dwór NOUN subst:sg:acc:m3
 . PUNCT interp
 
-Był VERB praet:sg:m1:imperf
+Był AUX praet:sg:m1:imperf
 bardzo ADV adv:pos
 pobożny ADJ adj:sg:nom:m1:pos
 – PUNCT interp
@@ -3499,7 +3499,7 @@ etykietalney ADJ adjp:gen
 pierwszey ADJ subst:sg:nom:f
 wizyty NOUN subst:sg:gen:f
 – PUNCT interp
-został VERB praet:sg:m1:perf
+został AUX praet:sg:m1:perf
 zatrzymany ADJ ppas:sg:nom:m1:perf:aff
 przez ADP prep:acc:nwok
 dwa NUM num:pl:acc:m3:congr:ncol
@@ -3564,7 +3564,7 @@ dołem NOUN subst:sg:inst:m3
 – PUNCT interp
 widok NOUN subst:sg:acc:m3
 Ś-tego X brev:punct
-Stanisława X subst:sg:gen:m1
+Stanisława PROPN subst:sg:gen:m1
 klasztoru NOUN subst:sg:gen:m3
 koło ADP prep:gen
 Halicza PROPN subst:sg:gen:m1
@@ -3948,7 +3948,7 @@ do ADP prep:gen
 opisu NOUN subst:sg:gen:m3
 malowanych ADJ ppas:pl:gen:m3:imperf:aff
 pokoi NOUN subst:pl:gen:m3
-był VERB praet:sg:m3:imperf
+był AUX praet:sg:m3:imperf
 drugi ADJ adj:sg:nom:m3:pos
 pokój NOUN subst:sg:nom:m3
 obszerny ADJ adj:sg:acc:m3:pos
@@ -4145,7 +4145,7 @@ kępy NOUN subst:pl:nom:f
 była VERB praet:sg:f:imperf
 szeroka ADJ adj:sg:nom:f:pos
 fosa NOUN subst:sg:nom:f
-zarosła ADJ praet:sg:f:perf
+zarosła VERB praet:sg:f:perf
 szuwarem NOUN subst:sg:inst:m3
 i CCONJ conj
 trzciną NOUN subst:sg:inst:f
@@ -6468,7 +6468,7 @@ druga ADJ adj:sg:nom:f:pos
 kontynuując VERB pcon:imperf
 dyskurs NOUN subst:sg:acc:m3
 z ADP prep:gen:nwok
-tamtą PRON adj:sg:inst:f:pos
+tamtą DET adj:sg:inst:f:pos
 zaczęty ADJ ppas:sg:nom:m3:perf:aff
 . PUNCT interp
 
@@ -6520,7 +6520,7 @@ mówi VERB fin:sg:ter:imperf
 raz NOUN subst:sg:nom:m3
 – PUNCT interp
 chwała NOUN subst:sg:nom:f
-Bogu NOUN subst:sg:dat:m1
+Bogu PROPN subst:sg:dat:m1
 teraz ADV adv
 mogę VERB fin:sg:pri:imperf
 już PART part
@@ -6579,8 +6579,8 @@ roku NOUN subst:sg:gen:m3
 1831 ADJ dig
 ozdobionego ADJ ppas:sg:gen:m3:perf:aff
 krzyżem NOUN subst:sg:inst:m3
-Virtuti X subst:sg:gen:m1
-Militari X subst:sg:nom:m1
+Virtuti PROPN subst:sg:gen:m1
+Militari PROPN subst:sg:nom:m1
 a CCONJ conj
 siostra NOUN subst:sg:nom:f
 Rzeźbiarza NOUN subst:sg:gen:m1
@@ -6988,7 +6988,7 @@ było VERB praet:sg:n:imperf
 dużo DET num:pl:acc:m3:rec
 , PUNCT interp
 ale CCONJ conj
-naywięcej ADV adj:pl:gen:f:pos
+naywięcej DET adj:pl:gen:f:pos
 córek NOUN subst:pl:gen:f
 – PUNCT interp
 jedna ADJ adj:sg:nom:f:pos
@@ -7200,7 +7200,7 @@ z ADP prep:inst:nwok
 dziewięć NUM num:pl:nom:m3:rec:ncol
 albo CCONJ conj
 i CCONJ conj
-więcej ADV num:pl:nom:m3:rec
+więcej DET num:pl:nom:m3:rec
 płucien NOUN adj:pl:gen:m3:pos
 portretów NOUN subst:pl:gen:m3
 w ADP prep:loc:nwok
@@ -7316,7 +7316,7 @@ Pana NOUN subst:sg:gen:m1
 Wiktora PROPN subst:sg:gen:m1
 staruszka NOUN subst:sg:gen:m1
 ciemna ADJ subst:sg:gen:n:ncol
-respektowa NOUN adj:sg:nom:f:pos
+respektowa ADJ adj:sg:nom:f:pos
 Pana NOUN subst:sg:gen:m1
 w ADP prep:loc:nwok
 domu NOUN subst:sg:loc:m3
@@ -7456,7 +7456,7 @@ przy ADP prep:loc
 ołtarzu NOUN subst:sg:loc:m3
 niezapalają VERB fin:pl:ter:imperf
 , PUNCT interp
-aż PART comp
+aż SCONJ comp
 ksiądz NOUN subst:sg:nom:m1
 będzie AUX bedzie:sg:ter:imperf
 przy ADP prep:loc
@@ -7656,7 +7656,7 @@ ale CCONJ conj
 tego PRON subst:sg:gen:n:ncol
 tylko PART part
 było AUX praet:sg:n:imperf
-potrzeba NOUN pred
+potrzeba VERB pred
 – PUNCT interp
 rzuciły VERB praet:pl:n:perf
 się PRON part
@@ -8166,7 +8166,7 @@ piura NOUN subst:sg:gen:f
 niebył AUX subst:pl:gen:f
 tęgi ADJ adj:sg:acc:m3:pos
 – PUNCT interp
-pomimo ADP prep:gen
+pomimo ADV prep:gen
 że SCONJ comp
 skończył VERB praet:sg:m3:perf
 Akademię NOUN subst:sg:acc:f
@@ -8527,9 +8527,9 @@ zuchwało ADV adv:pos
 ! PUNCT interp
 – PUNCT interp
 
-Boże NOUN subst:sg:dat:m1
+Boże PROPN subst:sg:dat:m1
 móy DET subst:sg:voc:m1
-Boże NOUN subst:sg:voc:m1
+Boże PROPN subst:sg:voc:m1
 ! PUNCT interp
 
 Jakież DET adj:sg:nom:n:pos
@@ -8555,7 +8555,7 @@ bagnety NOUN subst:pl:acc:m3
 – PUNCT interp
 i CCONJ conj
 z ADP prep:inst:nwok
-uwolnionymi NOUN ppas:pl:inst:n:perf:aff
+uwolnionymi VERB ppas:pl:inst:n:perf:aff
 porwać VERB inf:perf
 się PRON part
 na ADP prep:acc
@@ -8861,7 +8861,7 @@ Jędrżejowicz PROPN subst:sg:nom:m1
 z ADP prep:gen:nwok
 Czapel PROPN subst:pl:gen:f
 w ADP prep:loc:nwok
-Samborskim PROPN adj:sg:loc:m3:pos
+Samborskim ADJ adj:sg:loc:m3:pos
 – PUNCT interp
 ale CCONJ conj
 Pan NOUN subst:sg:nom:m1
@@ -10084,7 +10084,7 @@ na ADP prep:loc
 czole NOUN subst:sg:loc:n:ncol
 , PUNCT interp
 która DET adj:sg:nom:f:pos
-została VERB praet:sg:f:perf
+została AUX praet:sg:f:perf
 już PART part
 przez ADP prep:acc:nwok
 całe ADJ adj:sg:acc:n:pos
@@ -10428,7 +10428,7 @@ dokupił VERB praet:sg:m1:perf
 od ADP prep:gen:nwok
 rodziny NOUN subst:sg:gen:f
 Uherce PROPN subst:pl:nom:n:pt
-Niezabitowskie PROPN subst:pl:nom:f
+Niezabitowskie ADJ subst:pl:nom:f
 koło ADP prep:gen
 Gródka PROPN subst:sg:gen:m3
 – PUNCT interp
@@ -10561,7 +10561,7 @@ wuyem NOUN subst:sg:inst:m1
 który DET adj:sg:nom:m1:pos
 równocześnie ADV adv:pos
 także PART part
-został VERB praet:sg:m3:perf
+został AUX praet:sg:m3:perf
 Deputatem NOUN subst:sg:inst:m3
 stanów NOUN subst:pl:gen:m3
 – PUNCT interp
