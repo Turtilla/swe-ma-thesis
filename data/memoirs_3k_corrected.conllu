@@ -29,7 +29,7 @@
 27	bratem	brat	NOUN	subst:sg:inst:m1	_	_	_	_	_
 28	ś	świętej	X	brev:pun	_	_	_	_	_
 29	.	.	PUNCT	interp	_	_	_	_	_
-30	p	pamięci	X	brev:npun	_	_	_	_	_
+30	p	pamięci	X	brev:pun	_	_	_	_	_
 31	.	.	PUNCT	interp	_	_	_	_	_
 32	Melchiora	Melchior	PROPN	subst:sg:gen:m1	_	_	_	_	_
 33	–	–	PUNCT	interp	_	_	_	_	_
@@ -215,7 +215,7 @@
 12	Karol	Karol	PROPN	subst:sg:nom:m1	_	_	_	_	_
 13	Czermiński	Czermiński	PROPN	subst:sg:nom:m1	_	_	_	_	_
 14	–	–	PUNCT	interp	_	_	_	_	_
-15	jakoby	jakoby	SCONJ	part	_	_	_	_	_
+15	jakoby	jakoby	SCONJ	comp	_	_	_	_	_
 16	Dziad	dziad	NOUN	subst:sg:nom:m1	_	_	_	_	_
 17	jego	on	DET	ppron3:sg:gen:m1:ter:akc:npraep	_	_	_	_	_
 18	a	a	CCONJ	conj	_	_	_	_	_
@@ -458,7 +458,7 @@
 9	stanowiąca	stanowić	ADJ	pact:sg:nom:f:imperf:aff	_	_	_	_	_
 10	o	o	ADP	prep:loc	_	_	_	_	_
 11	przyszłości	przyszłość	NOUN	subst:sg:loc:f	_	_	_	_	_
-12	jego	on	DET	ppron3:sg:loc:m1:ter:akc:npraep	_	_	_	_	_
+12	jego	on	DET	ppron3:sg:gen:m1:ter:akc:npraep	_	_	_	_	_
 13	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 17
@@ -559,7 +559,7 @@
 
 # sent_id = 19
 # text = Około roku 1784 pojechał śp. Melchior za wołami.
-1	Około	około	PART	prep:gen	_	_	_	_	_
+1	Około	około	ADP	prep:gen	_	_	_	_	_
 2	roku	rok	NOUN	subst:sg:gen:m3	_	_	_	_	_
 3	1784	1784	ADJ	adj:sg:gen:m3:pos	_	_	_	_	_
 4	pojechał	pojechać	VERB	praet:sg:m1:perf	_	_	_	_	_
@@ -576,7 +576,7 @@
 2	drodze	droga	NOUN	subst:sg:loc:f	_	_	_	_	_
 3	na	na	ADP	prep:loc	_	_	_	_	_
 4	Posadzie	posada	NOUN	subst:sg:loc:f	_	_	_	_	_
-5	Chyrowskiey	chyrowska	PROPN	adj:sg:loc:f:pos	_	_	_	_	_
+5	Chyrowskiey	chyrowski	PROPN	adj:sg:loc:f:pos	_	_	_	_	_
 6	zapędziły	zapędzić	VERB	praet:pl:m2:perf	_	_	_	_	_
 7	się	się	PRON	part	_	_	_	_	_
 8	woły	wół	NOUN	subst:pl:nom:m2	_	_	_	_	_
@@ -842,7 +842,7 @@
 24	Bolechowie	Bolechów	PROPN	subst:sg:loc:m3	_	_	_	_	_
 25	umarła	umrzeć	VERB	praet:sg:f:perf	_	_	_	_	_
 26	,	,	PUNCT	interp	_	_	_	_	_
-27	bawiły	bawić	VERB	praet:pl:n:imperf	_	_	_	_	_
+27	bawiły	bawić	VERB	praet:pl:f:imperf	_	_	_	_	_
 28	pod	pod	ADP	prep:inst:nwok	_	_	_	_	_
 29	opieką	opieka	NOUN	subst:sg:inst:f	_	_	_	_	_
 30	Pani	pani	NOUN	subst:sg:gen:f	_	_	_	_	_
@@ -882,9 +882,9 @@
 5	był	być	AUX	praet:sg:m1:imperf	_	_	_	_	_
 6	szambelanem	szambelan	NOUN	subst:sg:inst:m1	_	_	_	_	_
 7	za	za	ADP	prep:gen	_	_	_	_	_
-8	Stan	Stanisława	X	brev:pun	_	_	_	_	_
+8	Stan	Stanisław	X	brev:pun	_	_	_	_	_
 9	.	.	PUNCT	interp	_	_	_	_	_
-10	Aug	Augusta	X	brev:pun	_	_	_	_	_
+10	Aug	August	X	brev:pun	_	_	_	_	_
 11	.	.	PUNCT	interp	_	_	_	_	_
 12	Poniatowskiego	Poniatowski	PROPN	subst:sg:gen:m1	_	_	_	_	_
 13	–	–	PUNCT	interp	_	_	_	_	_
@@ -1199,7 +1199,7 @@
 44	,	,	PUNCT	interp	_	_	_	_	_
 45	ażeby	ażeby	SCONJ	comp	_	_	_	_	_
 46	Ci	ty	PRON	ppron12:sg:dat:m1:sec:nakc	_	_	_	_	_
-47	Bóg	Bóg	NOUN	subst:sg:nom:m1	_	_	_	_	_
+47	Bóg	Bóg	PROPN	subst:sg:nom:m1	_	_	_	_	_
 48	na	na	ADP	prep:loc	_	_	_	_	_
 49	tamtym	tamten	DET	adj:sg:loc:m3:pos	_	_	_	_	_
 50	świecie	świat	NOUN	subst:sg:loc:m3	_	_	_	_	_
@@ -1246,7 +1246,7 @@
 5	kuzyn	kuzyn	NOUN	subst:sg:nom:m1	_	_	_	_	_
 6	Polanowskich	Polanowski	PROPN	subst:pl:gen:m1	_	_	_	_	_
 7	z	z	ADP	prep:gen:nwok	_	_	_	_	_
-8	Bełzkiego	Bełzkie	PROPN	subst:sg:gen:n:ncol	_	_	_	_	_
+8	Bełzkiego	Bełzkie	ADJ	adj:sg:gen:n:pos	_	_	_	_	_
 9	często	często	ADV	adv:pos	_	_	_	_	_
 10	bywał	bywać	VERB	praet:sg:m1:imperf	_	_	_	_	_
 11	w	w	ADP	prep:loc:nwok	_	_	_	_	_
@@ -1298,7 +1298,7 @@
 57	służąca	służąca	NOUN	subst:sg:nom:f	_	_	_	_	_
 58	całą	cały	ADJ	adj:sg:acc:f:pos	_	_	_	_	_
 59	drogę	droga	NOUN	subst:sg:acc:f	_	_	_	_	_
-60	stać	stać	VERB	inf:perf	_	_	_	_	_
+60	stać	stać	VERB	inf:imperf	_	_	_	_	_
 61	na	na	ADP	prep:loc	_	_	_	_	_
 62	stopniach	stopień	NOUN	subst:pl:loc:m3	_	_	_	_	_
 63	powozu	powóz	NOUN	subst:sg:gen:m3	_	_	_	_	_
@@ -1324,7 +1324,7 @@
 2	i	i	CCONJ	conj	_	_	_	_	_
 3	drugi	drugi	ADJ	adj:sg:nom:m1:pos	_	_	_	_	_
 4	pokończyli	pokończyć	VERB	praet:pl:m1:perf	_	_	_	_	_
-5	nauki	nauka	NOUN	subst:sg:gen:f	_	_	_	_	_
+5	nauki	nauka	NOUN	subst:sg:acc:f	_	_	_	_	_
 6	ale	ale	CCONJ	conj	_	_	_	_	_
 7	nie	nie	PART	part	_	_	_	_	_
 8	poszło	pójść	VERB	praet:sg:n:perf	_	_	_	_	_
@@ -1436,8 +1436,8 @@
 11	zawerbował	zawerbować	VERB	praet:sg:m1:perf	_	_	_	_	_
 12	się	się	PRON	part	_	_	_	_	_
 13	do	do	ADP	prep:gen	_	_	_	_	_
-14	Sachsen	sachsen	X	ign	_	_	_	_	_
-15	Cobary	cobary	X	ign	_	_	_	_	_
+14	Sachsen	Sachsen	X	ign	_	_	_	_	_
+15	Cobary	Cobary	X	ign	_	_	_	_	_
 16	Ułanów	ułan	NOUN	subst:pl:gen:m1	_	_	_	_	_
 17	mając	mieć	VERB	pcon:imperf	_	_	_	_	_
 18	lat	rok	NOUN	subst:pl:gen:m3	_	_	_	_	_
@@ -1518,7 +1518,7 @@
 16	sąsiedztwa	sąsiedztwo	NOUN	subst:pl:acc:n:ncol	_	_	_	_	_
 17	,	,	PUNCT	interp	_	_	_	_	_
 18	a	a	CCONJ	conj	_	_	_	_	_
-19	najwięcej	najwięcej	ADJ	num:sg:acc:m3:rec	_	_	_	_	_
+19	najwięcej	najwięcej	DET	num:sg:acc:m3:rec	_	_	_	_	_
 20	czasu	czas	NOUN	subst:sg:gen:m3	_	_	_	_	_
 21	podróże	podróż	NOUN	subst:pl:nom:f	_	_	_	_	_
 22	i	i	CCONJ	conj	_	_	_	_	_
@@ -1592,7 +1592,7 @@
 7	a	a	CCONJ	conj	_	_	_	_	_
 8	pod	pod	ADP	prep:inst:nwok	_	_	_	_	_
 9	Iglan	Iglan	PROPN	subst:sg:inst:m3	_	_	_	_	_
-10	był	być	VERB	praet:sg:m1:imperf	_	_	_	_	_
+10	był	być	AUX	praet:sg:m1:imperf	_	_	_	_	_
 11	ranny	ranny	ADJ	adj:sg:nom:m1:pos	_	_	_	_	_
 12	w	w	ADP	prep:acc:nwok	_	_	_	_	_
 13	rękę	ręka	NOUN	subst:sg:acc:f	_	_	_	_	_
@@ -1876,7 +1876,7 @@
 14	i	i	CCONJ	conj	_	_	_	_	_
 15	gęsi	gęś	NOUN	subst:pl:acc:f	_	_	_	_	_
 16	,	,	PUNCT	interp	_	_	_	_	_
-17	jaja	jaja	NOUN	subst:pl:acc:n:ncol	_	_	_	_	_
+17	jaja	jajo	NOUN	subst:pl:acc:n:ncol	_	_	_	_	_
 18	–	–	PUNCT	interp	_	_	_	_	_
 19	miewali	miewać	VERB	praet:pl:m1:imperf	_	_	_	_	_
 20	oni	on	PRON	ppron3:pl:nom:m1:ter:akc:npraep	_	_	_	_	_
@@ -2016,7 +2016,7 @@
 14	dla	dla	ADP	prep:gen	_	_	_	_	_
 15	poddanych	poddany	NOUN	subst:pl:gen:m1	_	_	_	_	_
 16	.	.	PUNCT	interp	_	_	_	_	_
-17	Oycowskiey	oycowski	ADJ	subst:sg:gen:f	_	_	_	_	_
+17	Oycowskiey	oycowski	ADJ	adj:sg:gen:f:pos	_	_	_	_	_
 18	.	.	PUNCT	interp	_	_	_	_	_
 
 # sent_id = 65
@@ -3064,7 +3064,7 @@
 3	sukcessyi	sukcessya	NOUN	subst:sg:gen:f	_	_	_	_	_
 4	przeszedł	przejść	VERB	praet:sg:m3:perf	_	_	_	_	_
 5	po	po	ADP	prep:loc	_	_	_	_	_
-6	synie	synie	NOUN	subst:sg:loc:m3	_	_	_	_	_
+6	synie	synie	NOUN	subst:sg:loc:m1	_	_	_	_	_
 7	na	na	ADP	prep:acc	_	_	_	_	_
 8	Matkę	matka	NOUN	subst:sg:acc:f	_	_	_	_	_
 9	–	–	PUNCT	interp	_	_	_	_	_
@@ -3137,7 +3137,7 @@
 
 # sent_id = 99
 # text = Był bardzo pobożny – do excentryczności.
-1	Był	być	VERB	praet:sg:m1:imperf	_	_	_	_	_
+1	Był	być	AUX	praet:sg:m1:imperf	_	_	_	_	_
 2	bardzo	bardzo	ADV	adv:pos	_	_	_	_	_
 3	pobożny	pobożny	ADJ	adj:sg:nom:m1:pos	_	_	_	_	_
 4	–	–	PUNCT	interp	_	_	_	_	_
