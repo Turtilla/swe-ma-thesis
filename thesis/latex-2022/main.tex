@@ -5,7 +5,13 @@
 % With Xetex/Luatex this shouldn't be used
 %\usepackage[utf8]{inputenc}
 
-\usepackage[english]{babel}
+\usepackage[polish, english]{babel}
+\usepackage [autostyle, english = american]{csquotes}
+\MakeOuterQuote{"}
+%%\usepackage[T1]{fontenc}
+\renewcommand\polishtablename{Table}
+\renewcommand\polishfigurename{Figure}
+\renewcommand{\contentsname}{Contents}
 \usepackage{graphicx}
 \usepackage{caption}
 \usepackage{subcaption}
@@ -14,7 +20,7 @@
 \usepackage{subfiles} 
 \usepackage{hyperref}
 \usepackage{booktabs}
-%\graphicspath{ {figures/} }
+\graphicspath{ {figures/} }
 
 \hypersetup{
 colorlinks,
@@ -22,9 +28,9 @@ allcolors={blue}
 }
 
 
-\title{This is the title}
-\subtitle{This is the subtitle}
-\author{R. Giskard Reventlov}
+\title{\textit{A catchy title}}  %% come up with a better title!
+\subtitle{An exploration of the computational methods for \\ identifying language variation in Polish}
+\author{Maria Irena Szawerna}
 
 \begin{document}
 
@@ -44,10 +50,10 @@ allcolors={blue}
 Master's Thesis: & 30 credits \\
 Programme: & Master’s Programme in Language Technology\\
 Level: & Advanced level \\
-Semester and year: & Spring, 2021\\
-Supervisor: & Name of Supervisor\\
-Examiner: & Name of Examiner\\
-Keywords: & keyword 1, keyword 2, keyword 3
+Semester and year: & Spring, 2023 \\
+Supervisor: & Aleksandrs Berdicevskis \\
+Examiner: & Asad Sayeed \\ %% make sure that titles are not needed
+Keywords: & language variation, Polish, diachronic linguistics %% can come up with better examples!
 \end{tabular}
 \endgroup
 
@@ -61,15 +67,13 @@ Keywords: & keyword 1, keyword 2, keyword 3
 \singlespacing
 \section*{Abstract}
 
-
-This is the abstract.\cmtSUP{Read more about margin comments in mlt-thesis-2015.sty on lines 20-26.}
-\cmtSTU[inline]{Read more about inline comments in mlt-thesis-2015.sty on lines 20-26.}
+\textbf{WRITE AT THE END}
 
 This is a template for master theses within the MLT programme at GU. The original author is Richard Johansson. It has since then been updated by Simon Hengchen. Questions (not compilation errors please, especially not the day before the deadline) should be addressed to \texttt{simon.hengchen@gu.se}.
 
-The ACL anthology\footnote{\url{https://aclanthology.org/}} provides canonical, recommended bibtex entries. Prefer these to those you find on Google Scholar or dblp or anywhere else. The official ACL anthology bibtex is included within this template (see bottom of \texttt{main.tex}), and if you use Overleaf to compile this template you can update the \texttt{anthology.bib} file automatically (click on it, then click ``refresh."). Should you want to cite papers not included in the ACL anthology, insert the bibtex entries in \texttt{personal.bib}. It is also included at the bottom of \texttt{main.tex}, and populated with some entries of work by GU researchers/some works you might find useful, e.g. \citet{harris1954distributional, sahlgren2008distributional, saussure1916, Kubhist, adesam2020superlim, eide2016swedish, hengchen-tahmasebi-2021-supersim}.
+The ACL anthology\footnote{\url{https://aclanthology.org/}} provides canonical, recommended bibtex entries. Prefer these to those you find on Google Scholar or dblp or anywhere else. The official ACL anthology bibtex is included within this template (see bottom of \texttt{main.tex}), and if you use Overleaf to compile this template you can update the \texttt{anthology.bib} file automatically (click on it, then click "refresh."). Should you want to cite papers not included in the ACL anthology, insert the bibtex entries in \texttt{personal.bib}. It is also included at the bottom of \texttt{main.tex}, and populated with some entries of work by GU researchers/some works you might find useful, e.g. \citet{harris1954distributional, sahlgren2008distributional, saussure1916, Kubhist, adesam2020superlim, eide2016swedish, hengchen-tahmasebi-2021-supersim}.
 
-Please compile this document with Xetex/Luatex. PDFLaTeX will also work, but in that case make sure that \texttt{utf-8} is enabled (line 6 of \texttt{main.tex}.) With Xetex/Luatex, weird Swedish characters such as ``å'' will work out of the box, you will not have to include them using e.g. ``\texttt{\textbackslash aa}.''
+Please compile this document with Xetex/Luatex. PDFLaTeX will also work, but in that case make sure that \texttt{utf-8} is enabled (line 6 of \texttt{main.tex}.) With Xetex/Luatex, weird Swedish characters such as "å" will work out of the box, you will not have to include them using e.g. ``\texttt{\textbackslash aa}.''
 
 The structure below is but a suggestion. Add/remove sections as you see fit.
 
@@ -81,8 +85,19 @@ The structure below is but a suggestion. Add/remove sections as you see fit.
 \newpage
 \section*{Preface}
 
-This is the preface.
+This thesis would not have taken shape without a number wonderful people, and I would like to take some time to thank them all.  
 
+I would like to thank my supervisor, Sasha Berdicevskis, for believing in the initial idea I had and for guiding me through many of the decisions that shaped the thesis into what it is today, as well as for showing me that I need not forsake my love of historical linguistics even in this program.
+
+I will forever be grateful to the rest of the teachers and staff of the MLT program, who have taught me so many of the skills that I put to test while working on this topic, but also many more that I will hopefully utilize in the future. I am also happy to have met all the wonderful people that I studied with throughout these two years. I cannot wait to see what future lies ahead of us!
+
+I want to extend my deepest thanks to my family members who were involved in procuring of the historical data: my grandfather, Piotr Kociatkiewicz, who meticulously transcribed our mutual ancestor's memoir from scans provided by my aunt Anna Chodorowska. It was my grandfather's question whether he should standardize the spelling of the text that sparked my interest in it as a linguistic resource - and without that question and the endeavor to transcribe the memoir, this thesis would not have been written.
+
+I am also deeply grateful for the time and help given to me by dr hab. Piotr Pęzik, who not only made it possible for me to access the National Corpus of Polish (NKJP), but also took his time to explain to me its ins and outs.
+
+I want to thank all of my friends and family whose support and faith in me carried me through the ups and downs: my father, Michał Szawerna, for his eagerness to discuss all things lingustics with me; my grandmother, Ewa Wajda-Kociatkiewicz, for her faith in me; my partner, Tobias Ström, for his patience and for believing in me at times when I did not believe I could finish this degree; my friends - Tomek Kos, Kasia Kuśmierczyk, Jakub Wróbel, Piotrek Szulc, Sandra Kierasińska, Freja Edvardsson, and so many others - for their unwavering support and friendship, despite some of us being hundreds of kilometers apart.
+
+Finally, I hope that my mother, Justyna Kociatkiewicz, would be proud to see how far I have made it - and that she would be happy to see that her love for our family history persists in this thesis.
 
 \thispagestyle{empty}
 

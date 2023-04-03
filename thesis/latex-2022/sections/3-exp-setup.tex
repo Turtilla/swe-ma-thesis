@@ -1,2 +1,45 @@
 \section{Experimental Setup}
 \label{sec:exp-setup}
+
+\subsection{Data}
+\label{subsec:data}
+
+The data used in the experiments originates from a memoir penned by Juliusz Czermiński in 1899 in Rzeszów. The original manuscript is preserved in the collection of Zakład Narodowy im. Ossolińskich (also known as Ossolineum) with the signature 15374/II, according to the library's catalogue, but cannot be accessed digitally \citep{ossolineum}. At some point in the past, typewriter copies of the manuscript have been made and distributed among the author's descendants. In the recent years, one of them, Piotr Kociat\-kiewicz, undertook the effort of copying over the text into a Word file, and it is this digitalized data that was used throughout the thesis. Unfortunately, due to the time constraints and the physical difficulty of accessing the manuscripts, no assessment of the quality of the transcription could be made.
+
+As mentioned before, the data originates from one author and belongs to the genre of memoir. The author was a native of an area that encompasses nowadays south-eastern Poland and western Ukraine, but was not independent at that time. From what can be gathered from the contents of the memoir, he considered himself to be Polish and wrote in an idiolect closely resembling the Polish language. However, due to the text's age and region of origin, it is likely that it diverges from standard modern Polish with regard to spelling (from which pronunciation may be inferred), grammar, and vocabulary. This assumption is strengthened by the fact that following the periodization of the history of Polish as outlined by \citet{długosz-kurczabowa_dubisz_2006}, the text could be classified as an example of writing in "early" New Polish (npol. 1.), which diverges from Modern or "late" New Polish (npol. 2.).
+%% maybe this should be written elsewhere? but where?
+
+Both the relative understandability of the text to a native speaker of Polish and the potential for it to differ from standard Polish make it a good candidate for inquiries into how such possible differences could be identified computationally.
+
+The entirety of the memoir consists of 37405 tokens, according to Word's word count functionality. Out of those, the first 360 sentences, corresponding to 10.286 tokens, were manually annotated with UPOS (universal part of speech) tags, and the first 115 sentences, corresponding to 3271 tokens, were additionally annotated with XPOS (language-specific part of speech) tags and lemmas following the tagset used by \citet{wroblewska-2018-extended}. The details of the annotation are discussed in \autoref{subsec:annotation}. While this means that only roughly more than a quarter of the text was annotated with the UPOS tags and less than a tenth with the XPOS tags and lemmas, the annotation of the entire text was deemed to be beyond the scope of this thesis, especially given the complicated nature of the XPOS tags and the fact that the the annotation had to be of high quality. Additionally, small test samples are not unheard of when it comes to tagger-related experiments using historical data \citep{bollmann-2013-pos, hupkes16, rayson07}.
+
+\subsection{Data Annotation}
+\label{subsec:annotation}
+
+The process of data annotation occured in a number of steps. First, the data was converted from a .docx file to a .txt file and segmented so that every line corresponded to a paragraph or a section in the original text. This served as a basis for the first major step in the annotation, namely the manual annotation of a selected subsection of the text with UPOS tags. Subsequently, Python code in the form of a Jupyter Notebook that allowed for the pre-tagging using the Morfeusz morphological analysis tool \citep{kie:wol:17:morf} in tandem with Concraft-pl \citep{waszczuk-2012-harnessing, waszczuk2018morphosyntactic}, a morphosyntactic tagger which relies on Morfeusz's analyses was developed. This was used for pre-annotating the subset of the data that was intended to be annotated with XPOS tags and lemmas, as those were the types of annotation provided by Morfeusz and Concraft-pl. The results, along with the UPOS tags, were outputted into a .conllu file which adhered to the standards of that format. This pre-annotation was then manually reviewed and corrected wherever necessary.
+
+As mentioned in \autoref{subsec:data}, the tagset used for this task was the same as the one used in the Polish Dependency Bank, the largest of the UD-standard treebanks for Polish \citep{wroblewska-2018-extended}. That was also the corpus that was consulted in problematic cases. 
+
+\subsection{Experiment 1: BERT POS-tagging}
+\label{subsec:bert-tagging}
+
+\subsection{Experiment 2: Marmot POS-tagging}
+\label{subsec:marmot-tagging}
+
+\subsection{Experiment 3: Stanza POS-tagging and lemmatization}
+\label{subsec:stanza-tagging}
+
+\subsection{Experiment 4: Morfeusz POS-tagging and lemmatization}
+\label{subsec:morfeusz-tagging}
+
+\subsection{Experiment 5: UD Cloud POS-tagging}
+\label{subsec:ud-tagging}
+
+\subsection{Experiment 6: n-gram statistics}
+\label{subsec:ngrams}
+
+\subsection{Experiment 7: NKJP vocabulary comparison}
+\label{subsec:nkjp-vocab}
+
+\subsection{Tagging and lemmatization error annotation}
+\label{subsec:error-annotation}
