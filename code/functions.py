@@ -352,3 +352,18 @@ def get_full_table(standard: list, predictions: list, tokens: list, confidence=[
         problematic_frame = pd.DataFrame(all_entries, columns=['Token', 'Context', 'Gold Standard', 'Prediction', 'Confidence'])
     
     return problematic_frame
+
+def get_labels(filename: str):
+    '''A function that extracts labels/tags from a .txt file.
+    
+    Args:
+        filename (str): The name of the file.
+    
+    Returns:
+        A list of tags.
+    '''
+    with open(filename) as f:
+        labels = f.readlines()[1:]
+        labels = [x.strip() for x in labels]
+        
+    return labels
