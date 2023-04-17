@@ -1,2 +1,270 @@
 \section{Resources}
 \label{app-resources}
+\newpage
+
+\section{Error Type Definitions}
+\label{error-types}
+\renewcommand{\arraystretch}{1.25}
+\begin{table}[H]
+\begin{center}
+\scalebox{1}{
+\begin{tabular}{p{2cm}p{4.5cm}p{3.5cm}p{1.75cm}p{1.75cm}}
+\toprule \bf Error Type & \bf Definition & \bf Example & \bf Predictions & \bf Standard\\ \toprule
+\textit{y} & \makecell[l]{The grapheme \textit{y} is used \\ instead of \textit{j} to signify \\ the /j/ sound} & \makecell[l]{\textit{suchey} \\ `dry'} & suchey & suchy \\ 
+
+\makecell[l]{proper \\ name} & \makecell[l]{Potentially unfamiliar \\ proper name token} & \makecell[l]{\textit{Bludniki} \\ `Bludniki'} & \makecell[l]{Bludnik \\ bludnik} & Bludniki  \\ 
+
+\textit{nie} & \makecell[l]{Spelling of the negation \\ with the negated word \\ in word classes that \\ normally do not allow it} & \makecell[l]{\textit{niemają} \\ `(they) don't have'} & \makecell[l]{niemaja \\ nie} & niemieć  \\ 
+
+spelling & \makecell[l]{A likely spelling error} & \makecell[l]{\textit{ładąn} \\ `pretty'} & ładąn & ładna \\ 
+
+surname & \makecell[l]{Potentially unfamiliar \\ surname token}  & \makecell[l]{\textit{Polanowski} \\ `Polanowski'} & polanowski & Polanowski \\ 
+
+capitalization & \makecell[l]{Nonstandard capitalization} & \makecell[l]{\textit{Dziedzica} \\ `of the heir'} & \makecell[l]{Dziedzic \\ dziedzica} & dziedzic  \\ 
+
+abbreviation & \makecell[l]{The token is abbreviated} & \makecell[l]{\textit{Stan} \\ `Stan'} & \makecell[l]{Stan \\ stan} & Stanisław \\
+
+\textit{e} & \makecell[l]{The grapheme \textit{e} is used \\ instead of another vowel \\ (commonly \textit{y})} & \makecell[l]{\textit{tem} \\ `this'} & \makecell[l]{tema \\ tem} & to \\
+
+ambiguous & \makecell[l]{The token could have \\ more than one interpretation} & \makecell[l]{\textit{dobra} \\`goods'} & dobry & dobra \\ 
+
+name & \makecell[l]{A potentially unfamiliar \\ first name token} & \makecell[l]{\textit{Kleosię} \\ `Kleosia'} & \makecell[l]{Kleosię \\ kleosia} & Kleosia \\
+
+unidentified & \makecell[l]{No apparent reason} & \makecell[l]{\textit{łania} \\ `doe'} & \makecell[l]{łani \\ łanie} & łania \\
+
+problematic & \makecell[l]{The choice of the lemma \\ is up to the annotator \\ because of two spelling \\ variants or the word \\ having been derived} & \makecell[l]{\textit{bombardowaniu} \\ `of the bombing'} & \makecell[l]{bombar-\\dować} & \makecell[l]{bombardo-\\wanie} \\
+
+foreign & The token is foreign & \makecell[l]{\textit{Toje} \\ `-'} & \makecell[l]{Toje \\ tój} & toje \\
+
+archaic & \makecell[l]{The token is somewhat \\ archaic or regional} & \makecell[l]{\textit{człowiecze} \\ `human'} & \makecell[l]{człowieczy \\ człowiec} & człowiek \\
+
+\bottomrule
+\end{tabular}}
+\end{center}
+\caption{\label{table:error-type-explanations} Types and examples of errors made by lemmatizers. The translations into English are not ideal since they do not capture all of the encoded information, such as case, gender, number.}
+\end{table}
+\newpage
+
+\renewcommand{\arraystretch}{1.5}
+\begin{longtable}[H]{p{2cm}p{4.5cm}p{3.5cm}p{1.75cm}p{1.75cm}}
+%\begin{center}
+%\begin{tabular}{p{2cm}p{4.5cm}p{3.5cm}p{1.75cm}p{1.75cm}}
+\toprule \bf Error Type & \bf Definition & \bf Example & \bf Predictions & \bf Standard\\ \toprule
+
+ambiguous & \makecell[l]{The token's meaning is \\ ambiguous} & \makecell[l]{\textit{jego} \\ `his'} & PRON & DET \\ 
+
+capitalization & Nonstandard capitalization & \makecell[l]{\textit{Patrona} \\ `patron'} & \makecell[l]{PROPN \\ NOUN } & NOUN  \\ 
+
+\textit{y} & \makecell[l]{The grapheme \textit{y} is used \\ instead of \textit{j} to signify \\ the /j/ sound} & \makecell[l]{\textit{móy} \\ `my'} & \makecell[l]{\\ PROPN \\ ADJ \\ VERB} & DET \\ 
+
+unidentified & \makecell[l]{No apparent reason} & \makecell[l]{\textit{wyłącznie} \\ `exclusively'} & \makecell[l]{\\ PART \\ ADV \\ NOUN} & ADV \\ 
+
+archaic & \makecell[l]{The token is somewhat \\ archaic or regional} & \makecell[l]{\textit{pono} \\ `supposedly'} & \makecell[l]{\\ PUNCT \\ VERB \\ PROPN \\ ADJ} & PART \\ 
+
+UD & \makecell[l]{The token has more \\ than one possible tag \\ due to UD guidelines} & \makecell[l]{\textit{był} \\ `(there) was'} & \makecell[l]{VERB \\ AUX} & VERB \\ 
+
+surname & \makecell[l]{Potentially unfamiliar \\ surname token}  & \makecell[l]{\textit{Ostaszewskiej} \\ `Ostaszewska'} & \makecell[l]{ADJ \\ PROPN} & PROPN \\ 
+
+\textit{e} & \makecell[l]{The grapheme \textit{e} is used \\ instead of another vowel \\ (commonly \textit{y})} & \makecell[l]{\textit{małem} \\ `small'} & \makecell[l]{ADJ \\ NOUN} & ADJ \\ 
+
+\textit{nie} & \makecell[l]{Spelling of the negation \\ with the negated word \\ in word classes that \\ normally do not allow it} & \makecell[l]{\textit{niechciały} \\ `(they) didn't want to'} & \makecell[l]{VERB \\ NOUN \\ ADJ} & VERB  \\ 
+
+ending & \makecell[l]{The ending of the word \\ can be indicative of \\ more than one class} & \makecell[l]{\textit{chwała} \\ `glory'} & \makecell[l]{NOUN \\ VERB} & NOUN \\ 
+
+spelling & \makecell[l]{A likely spelling error \\ or the lack of a space \\ or a superfluous one} & \makecell[l]{\textit{wkońcu} \\ `in the end'} & \makecell[l]{ADV \\ NOUN} & NOUN \\ 
+
+\makecell[l]{proper \\ name} & \makecell[l]{Potentially unfamiliar \\ proper name token} & \makecell[l]{\textit{Dąbrowy} \\ `Dąbrowa'} & \makecell[l]{PROPN \\ ADJ} & PROPN  \\ 
+
+problematic & \makecell[l]{The choice of the tag \\ is up to the annotator \\ because of two spelling \\ variants or the word \\ having been derived} & \makecell[l]{\textit{służąca} \\ `servant'} & \makecell[l]{NOUN \\ ADJ} & \makecell[l]{NOUN} \\ 
+
+digits & \makecell[l]{The token is in digits} & \makecell[l]{\textit{1} \\ `1'} & \makecell[l]{ADJ \\ NUM} & NUM \\ 
+
+foreign & The token is foreign & \makecell[l]{\textit{daruju} \\ `-'} & \makecell[l]{\\ NOUN \\ VERB} & X \\ 
+
+uncommon & The token is uncommon & \makecell[l]{\textit{czółno} \\ `canoe'} & \makecell[l]{ADV \\ ADJ} & NOUN \\ 
+
+abbreviation & \makecell[l]{The token is abbreviated} & \makecell[l]{\textit{5-cioro} \\ `five'} & \makecell[l]{\\ NUM \\ NOUN \\ MIS-\\PARSED} & NUM \\ 
+
+impersonal & \makecell[l]{The token is an \\ impersonal verb form} & \makecell[l]{\textit{wierzono} \\ `(it was) believed'} & \makecell[l]{\\ VERB \\ ADJ \\ ADV} & VERB \\ 
+
+name & \makecell[l]{A potentially unfamiliar \\ first name token} & \makecell[l]{\textit{Wiktorów} \\ `Wiktors'} & \makecell[l]{\\ PROPN \\ NOUN} & PROPN \\ 
+
+special & \makecell[l]{The token is a intentionally \\ spelled in a nonstandard \\ fashion} & \makecell[l]{\textit{psipiólki} \\ `quails'} & \makecell[l]{NOUN \\ ADJ} & NOUN \\ 
+
+currency & \makecell[l]{The token is a name \\ of a currency} & \makecell[l]{\textit{Dukatów} \\ ducats} & \makecell[l]{NOUN \\ X} & NOUN \\
+
+\bottomrule
+%\end{tabular}
+%\end{center}
+\caption{\label{table:error-type-upos-explanations} Types and examples of errors made by the UPOS taggers. The translations into English are not ideal since they do not capture all of the encoded information, such as case, gender, number.}
+\end{longtable}
+\newpage
+
+\renewcommand{\arraystretch}{1.5}
+\begin{longtable}[H]{p{2cm}p{4cm}p{1.5cm}p{3cm}p{3cm}}
+%\begin{center}
+%\begin{tabular}{p{2cm}p{4.5cm}p{3.5cm}p{1.75cm}p{1.75cm}}
+\toprule \bf Error Type & \bf Definition & \bf Example & \bf Predictions & \bf Standard\\ \toprule
+
+ambiguous & \makecell[l]{The token's meaning is \\ ambiguous} & \makecell[l]{\textit{parafii} \\ `parish'} & subst:sg:gen:f & subst:sg:loc:f \\ 
+
+unidentified & \makecell[l]{No apparent reason} & \makecell[l]{\textit{Ciotka} \\ `aunt'} & \makecell[l]{\\ subst:sg:acc:m1 \\ subst:sg:nom:m1 \\ subst:sg:nom:f} & subst:sg:nom:f \\
+
+\makecell[l]{proper \\ name} & \makecell[l]{Potentially unfamiliar \\ proper name token} & \makecell[l]{\textit{Brzeżan} \\ `Brzeżany'} & \makecell[l]{\\subst:pl:gen:n:pt \\ subst:sg:gen:n:ncol \\ subst:pl:gen:m1 \\ subst:sg:gen:m1} & subst:pl:gen:n:pt  \\ 
+
+\textit{y} & \makecell[l]{The grapheme \textit{y} is used \\ instead of \textit{j} to signify \\ the /j/ sound} & \makecell[l]{\textit{arye} \\ `arias'} & \makecell[l]{subst:pl:acc:m3 \\ adj:pl:nom:m2:pos} & subst:pl:acc:f \\ 
+
+digits & \makecell[l]{The token is in digits} & \makecell[l]{\textit{1808} \\ `1808'} & \makecell[l]{adj:sg:gen:m3:pos \\ dig} & adj:sg:gen:m3:pos \\
+
+problematic & \makecell[l]{The choice of the tag \\ is up to the annotator \\ because of two spelling \\ variants or the word \\ having been derived} & \makecell[l]{\textit{oczytany} \\ `learned'} & \makecell[l]{adj:sg:nom:m1:pos\\ adj:sg:nom:m3:pos \\ ppas:sg:nom:\\\hspace{0.5cm}m1:perf:aff} & \makecell[l]{ppas:sg:nom:\\\hspace{0.5cm}m1:perf:aff} \\ 
+
+\textit{nie} & \makecell[l]{Spelling of the negation \\ with the negated word \\ in word classes that \\ normally do not allow it} & \makecell[l]{\textit{niema} \\ `(there) \\ aren't'} & \makecell[l]{fin:sg:ter:imperf \\ subst:sg:nom:f} & fin:sg:ter:imperf  \\ 
+
+spelling & \makecell[l]{A likely spelling error \\ or the lack of a space \\ or a superfluous one} & \makecell[l]{\textit{kończ} \\ `end'} & \makecell[l]{subst:pl:gen:n:ncol \\ subst:pl:gen:f \\ impt:sg:sec:imperf} & subst:sg:gen:m3 \\ 
+
+archaic & \makecell[l]{The token is somewhat \\ archaic or regional} & \makecell[l]{\textit{wieleż} \\ `many'} & \makecell[l]{num:pl:acc:m3:rec \\ subst:sg:nom:m3 \\ subst:sg:nom:m1} & num:pl:acc:m3:rec \\ 
+
+foreign & The token is foreign & \makecell[l]{\textit{Toje} \\ `-'} & \makecell[l]{subst:sg:nom:n:ncol \\ xxx \\ subst:sg:nom:m1} & ign \\ 
+
+surname & \makecell[l]{Potentially unfamiliar \\ surname token}  & \makecell[l]{\textit{Zabilskich} \\ `Zabilscy'} & \makecell[l]{subst:pl:gen:m1 \\ adj:pl:gen:f:pos \\ subst:pl:acc:m1} & subst:pl:gen:m1 \\ 
+
+uncommon & The token is uncommon & \makecell[l]{\textit{hoża} \\ `swift'} & \makecell[l]{adj:sg:nom:f:pos \\ subst:sg:nom:f} & adj:sg:nom:f:pos \\ 
+
+currency & \makecell[l]{The token is a name \\ of a currency} & \makecell[l]{\textit{dukatów} \\ ducats} & \makecell[l]{subst:pl:gen:m3 \\ subst:pl:gen:m2} & subst:pl:gen:m2 \\
+
+\textit{e} & \makecell[l]{The grapheme \textit{e} is used \\ instead of another vowel \\ (commonly \textit{y})} & \makecell[l]{\textit{któremi} \\ `(with)\\which'} & \makecell[l]{adj:pl:inst:n:pos \\ subst:pl:inst:m3 \\ subst:pl:inst:m1 \\ adj:pl:inst:f:pos} & adj:pl:inst:m1:pos \\ 
+
+gender & \makecell[l]{The token is assigned \\ the wrong gender} & \makecell[l]{\textit{Ja} \\ `I'} & \makecell[l]{\\ppron12:sg:nom:\\\hspace{0.5cm}m1:pri \\ {}} & \makecell[l]{ppron12:sg:nom:\\\hspace{0.5cm}f:pri} \\
+
+vocative & \makecell[l]{The vocative case is \\ not properly recognized} & \makecell[l]{\textit{Ty} \\ `you'} & \makecell[l]{ppron12:sg:nom:\\\hspace{0.5cm}m1:sec} & \makecell[l]{ppron12:sg:voc:\\\hspace{0.5cm}m1:sec} \\
+
+abbreviation & \makecell[l]{The token is abbreviated} & \makecell[l]{\textit{śp} \\ `may his \\ soul rest \\ in peace'} & \makecell[l]{ \\ brev:pun \\ subst:sg:nom:m3 \\ subst:sg:nom:m1 \\ aglt:sg:sec:\\\hspace{0.5cm}imperf:nwok \\ {}} & brev:npun \\ 
+
+name & \makecell[l]{A potentially unfamiliar \\ first name token} & \makecell[l]{\textit{Melchior} \\ `Melchior'} & \makecell[l]{subst:sg:nom:m1 \\ subst:sg:nom:m3 \\ subst:sg:gen:f} & subst:sg:nom:m1 \\ 
+
+\bottomrule
+%\end{tabular}
+%\end{center}
+\caption{\label{table:error-type-xpos-explanations} Types and examples of errors made by the XPOS taggers. The translations into English are not ideal since they do not capture all of the encoded information, such as case, gender, number.}
+\end{longtable}
+\newpage
+
+\section{Extended UPOS measures}
+\label{upos-class-measures}
+
+\begin{table}[H]
+\begin{center}
+\scalebox{1.1}{
+\begin{tabular}{|l|cc|cc|}
+\hline \bf POS-tag & \multicolumn{2}{c|}{\bf Modern} & \multicolumn{2}{c|}{\bf Historical} \\
+\bf {} & \bf Precision & \bf Recall & \bf Precision & \bf Recall \\ \hline
+ADJ & 99.11\% & 99.55\% & 94.23\% & 93.31\% \\
+ADP & 99.77\% & 99.91\% & 99.74\% & 98.74\% \\
+ADV & 97.73\% & 98.44\% & 87.61\% & 89.94\% \\
+AUX & 98.93\% & 98.93\% & 91.32\% & 84.03\% \\
+CCONJ & 97.64\% & 97.99\% & 98.84\% & 93.92\%\\
+DET & 98.82\% & 99.06\% & 94.52\% & 83.99\% \\
+INTJ & 87.50\% & 70.00\% & 0.00\% & 0.00\% \\
+NOUN & 99.58\% & 99.26\% & 95.47\% & 95.27\% \\
+NUM & 97.06\% & 99.62\% & 98.21\% & 82.71\% \\
+PART & 97.14\% & 95.12\% & 79.45\% & 84.47\% \\
+PRON & 99.62\% & 99.44\% & 93.69\% & 91.09\% \\
+PROPN & 95.88\% & 98.12\% & 84.07\% & 96.87\% \\
+PUNCT & 99.96\% & 99.98\% & 99.59\% & 100.00\% \\
+SCONJ & 98.68\% & 98.40\% & 87.91\% & 94.97\% \\
+SYM & 50.00\% & 25.00\% & 0.00\% & 0.00\% \\
+VERB & 99.72\% & 99.72\% & 95.42\% & 96.01\% \\
+X & 95.62 \% & 91.91\% & 82.76\% & 72.73\% \\
+\hline
+\end{tabular}}
+\end{center}
+\caption{\label{table:bert-pr} BERT precision and recall per POS-tag per test set. }
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+\scalebox{1.1}{
+\begin{tabular}{|l|cc|cc|}
+\hline \bf POS-tag & \multicolumn{2}{c|}{\bf Modern} & \multicolumn{2}{c|}{\bf Historical} \\
+\bf {} & \bf Precision & \bf Recall & \bf Precision & \bf Recall \\ \hline
+ADJ & 97.25\% & 97.71\% & 81.33\% & 84.57\% \\
+ADP & 99.46\% & 99.74\% & 99.58\% & 98.99\%  \\
+ADV & 95.59\% & 95.33\% & 86.83\% & 85.80\% \\
+AUX & 91.67\% & 95.60\% & 85.02\% & 86.31\% \\
+CCONJ & 96.17\% & 95.60\% & 97.20\% & 95.76\%\\
+DET & 98.44\% & 96.93\% & 95.85\% & 74.94\% \\
+INTJ & 46.15\% & 60.00\% & 0.00\% & 0.00\% \\
+NOUN & 98.23\% & 98.04\% & 89.16\% & 91.16\% \\
+NUM & 98.04\% & 94.34\% & 97.98\% & 72.93\% \\
+PART & 93.49\% & 92.42\% & 78.39\% & 75.73\% \\
+PRON & 99.05\% & 98.31\% & 90.66\% & 86.53\% \\
+PROPN & 91.30\% & 94.09\% & 79.01\% & 86.20\% \\
+PUNCT & 99.95\% & 99.95\% & 100.00\% & 100.00\% \\
+SCONJ & 96.49\% & 96.21\% & 86.73\% & 91.96\% \\
+SYM & 100.00\% & 25.00\% & 0.00\% & 0.00\% \\
+VERB & 97.96\% & 97.43\% & 91.67\% & 92.73\% \\
+X & 89.33\% & 86.73\% & 63.16\% & 54.55\% \\
+\hline
+\end{tabular}}
+\end{center}
+\caption{\label{table:marmot-pr} Marmot precision and recall per POS-tag per test set. }
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+\scalebox{1.1}{
+\begin{tabular}{|l|cc|cc|}
+\hline \bf POS-tag & \multicolumn{2}{c|}{\bf Modern} & \multicolumn{2}{c|}{\bf Historical} \\
+\bf {} & \bf Precision & \bf Recall & \bf Precision & \bf Recall \\ \hline
+ADJ & 98.17\% & 98.99\% & 88.87\% & 93.85\% \\
+ADP & 99.46\% & 99.91\% & 99.58\% & 99.07\%  \\
+ADV & 94.58\% & 96.06\% & 91.16\% & 88.46\% \\
+AUX & 95.44\% & 97.14\% & 84.70\% & 86.31\% \\
+CCONJ & 95.47\% & 96.17\% & 98.14\% & 97.24\%\\
+DET & 98.00\% & 98.47\% & 94.49\% & 79.58\% \\
+INTJ & 100.00\% & 50.00\% & 0.00\% & 0.00\% \\
+NOUN & 99.17\% & 98.70\% & 95.15\% & 93.44\% \\
+NUM & 98.48\% & 98.11\% & 97.25\% & 79.70\% \\
+PART & 95.01\% & 90.97\% & 93.33\% & 74.76\% \\
+PRON & 98.63\% & 98.87\% & 90.08\% & 91.68\% \\
+PROPN & 94.14\% & 96.51\% & 79.07\% & 91.89\% \\
+PUNCT & 99.95\% & 99.95\% & 99.59\% & 100.00\% \\
+SCONJ & 95.86\% & 94.61\% & 86.30\% & 94.97\% \\
+SYM & 100.00\% & 25.00\% & 0.00\% & 0.00\% \\
+VERB & 99.20\% & 98.66\% & 93.73\% & 94.15\% \\
+X & 93.53\% & 93.53\% & 73.58\% & 59.09\% \\
+\hline
+\end{tabular}}
+\end{center}
+\caption{\label{table:stanza-pr} Stanza precision and recall per POS-tag per test set. }
+\end{table}
+
+%% rerun?
+\begin{table}[H]
+\begin{center}
+\scalebox{1.1}{
+\begin{tabular}{|l|cc|cc|}
+\hline \bf POS-tag & \multicolumn{2}{c|}{\bf Modern} & \multicolumn{2}{c|}{\bf Historical} \\
+\bf {} & \bf Precision & \bf Recall & \bf Precision & \bf Recall \\ \hline
+ADJ & 83.86\% & 91.58\% & 66.73\% & 75.08\% \\
+ADP & 96.65\% & 98.89\% & 96.18\% & 97.64\%  \\
+ADV & 79.69\% & 75.89\% & 75.09\% & 64.20\% \\
+AUX & 87.67\% & 82.98\% & 84.08\% & 78.33\% \\
+CCONJ & 93.72\% & 87.14\% & 95.58\% & 95.58\%\\
+DET & 94.64\% & 72.96\% & 94.58\% & 44.55\% \\
+INTJ & 0.00\% & 0.00\% & 0.00\% & 0.00\% \\
+NOUN & 90.82\% & 92.91\% & 80.08\% & 82.56\% \\
+NUM & 73.62\% & 70.57\% & 77.00\% & 57.89\% \\
+PART & 89.62\% & 80.69\% & 83.77\% & 62.62\% \\
+PRON & 94.35\% & 94.06\% & 85.54\% & 81.98\% \\
+PROPN & 83.40\% & 92.29\% & 69.77\% & 92.60\% \\
+PUNCT & 99.93\% & 99.72\% & 100.00\% & 99.92\% \\
+SCONJ & 88.62\% & 63.56\% & 83.81\% & 44.22\% \\
+SYM & 0.00\% & 0.00\% & 0.00\% & 0.00\% \\
+VERB & 89.46\% & 88.86\% & 81.64\% & 86.35\% \\
+X & 52.24\% & 41.42\% & 56.60\% & 45.45\% \\
+\hline
+\end{tabular}}
+\end{center}
+\caption{\label{table:ud-pr} UD Cloud tagger precision and recall per POS-tag per test set. }
+\end{table}
