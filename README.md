@@ -71,8 +71,8 @@
 + ~~Tools and methods.~~
 + ~~Results.~~
 + ~~Discussion.~~
-+ Ethical concerns **in progress**
-+ Limitations.
++ ~~Ethical concerns~~
++ ~~Limitations.~~
 + Conclusions.
 + Future work.
 + Proofreading.
