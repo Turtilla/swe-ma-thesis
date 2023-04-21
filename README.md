@@ -67,8 +67,8 @@
 + ~~Set up the template, fix potential issues.~~
 + Set up references.
 + Abstract.
-+ Introduction. **IN PROGRESS**
-+ Background, prior research.
++ ~~Introduction.~~ 
++ Background, prior research. **IN PROGRESS**
 + ~~Tools and methods.~~
 + ~~Results.~~
 + ~~Discussion.~~
