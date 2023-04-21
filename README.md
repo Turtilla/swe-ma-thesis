@@ -23,6 +23,7 @@
   * `memoirs*.conllu`: Different files containing preannotation or annotation in a CoNLL-U format. Refer to `memoirs_3k_corrected.conllu` for the fully corrected version (UPOS, XPOS, lemma), and `memoirs_10k_corrected.conllu` for a version with 10k tokens with manual UPOS annotation, but not all XPOS and lemma annotation has been reviewed in that file.
   * `korba*.txt`: Two files with selected Korba data that was not used due to differences in the tagset.
 * `thesis-plan`: Contains different versions of the thesis plan and its presentation.
+* `thesis/latex-2022`: Contains the LaTeX files + the PDF version of the most recent version of the thesis itself.
 
 #### TODO tagging:
 + ~~Tag 10k tokens with basic tags.~~
