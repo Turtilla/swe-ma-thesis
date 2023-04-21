@@ -66,14 +66,14 @@
 + ~~Set up the template, fix potential issues.~~
 + Set up references.
 + Abstract.
-+ Introduction.
++ Introduction. **IN PROGRESS**
 + Background, prior research.
 + ~~Tools and methods.~~
 + ~~Results.~~
 + ~~Discussion.~~
 + ~~Ethical concerns~~
 + ~~Limitations.~~
-+ Conclusions.
-+ Future work.
++ ~~Conclusions.~~
++ ~~Future work.~~
 + Proofreading.
 
