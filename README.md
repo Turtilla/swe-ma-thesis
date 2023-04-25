@@ -65,10 +65,10 @@
 
 #### TODO writing
 + ~~Set up the template, fix potential issues.~~
-+ Set up references.
-+ Abstract.
++ ~~Set up references.~~
++ ~~Abstract.~~
 + ~~Introduction.~~ 
-+ Background, prior research. **IN PROGRESS**
++ ~~Background, prior research.~~ 
 + ~~Tools and methods.~~
 + ~~Results.~~
 + ~~Discussion.~~
@@ -76,6 +76,6 @@
 + ~~Limitations.~~
 + ~~Conclusions.~~
 + ~~Future work.~~
-+ Proofreading.
-+ Think of a cool title! :)
++ Proofreading. **IN PROGRESS: refer more to the resources in discussion!** 
++ ~~Think of a cool title! :)~~
 
