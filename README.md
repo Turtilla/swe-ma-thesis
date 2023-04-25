@@ -78,6 +78,7 @@
 + ~~Future work.~~
 + Proofreading. **IN PROGRESS: refer more to the resources in discussion!** 
 + ~~Think of a cool title! :)~~
++ Complete Appendix A.
 + Correct according to the supervisor comments.
 + Send in to the examiner and opponent.
 
