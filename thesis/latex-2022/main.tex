@@ -35,7 +35,7 @@ allcolors={blue}
 }
 
 
-\title{\textit{A catchy title}}  %% come up with a better title!
+\title{\textit{Iż swój język mają!}} 
 \subtitle{An exploration of the computational methods for \\ identifying language variation in Polish}
 \author{Maria Irena Szawerna}
 
@@ -75,15 +75,9 @@ Keywords: & language variation, Polish, diachronic linguistics, \\
 \singlespacing
 \section*{Abstract}
 
-\textbf{WRITE AT THE END}
+Computational approaches to language variation continue to contribute in a relevant way to various fields, including Natural Language Processing and linguistics. Being able to accommodate variation within natural language increases robustness of NLP models and their usefulness in real-life applications; simultaneously, detecting and describing variation and trends that govern it is one of the main goals of sociolingiustics and historical linguistics, meaning that some of the advances in NLP can contribute to these fields as well. As one of the current trends in historical linguistics appears to be quantitative and corpus research, the need for annotated historical data is becoming more and more apparent.
 
-This is a template for master theses within the MLT programme at GU. The original author is Richard Johansson. It has since then been updated by Simon Hengchen. Questions (not compilation errors please, especially not the day before the deadline) should be addressed to \texttt{simon.hengchen@gu.se}.
-
-The ACL anthology\footnote{\url{https://aclanthology.org/}} provides canonical, recommended bibtex entries. Prefer these to those you find on Google Scholar or dblp or anywhere else. The official ACL anthology bibtex is included within this template (see bottom of \texttt{main.tex}), and if you use Overleaf to compile this template you can update the \texttt{anthology.bib} file automatically (click on it, then click "refresh."). Should you want to cite papers not included in the ACL anthology, insert the bibtex entries in \texttt{personal.bib}. It is also included at the bottom of \texttt{main.tex}, and populated with some entries of work by GU researchers/some works you might find useful, e.g.
-
-Please compile this document with Xetex/Luatex. PDFLaTeX will also work, but in that case make sure that \texttt{utf-8} is enabled (line 6 of \texttt{main.tex}.) With Xetex/Luatex, weird Swedish characters such as "å" will work out of the box, you will not have to include them using e.g. ``\texttt{\textbackslash aa}.''
-
-The structure below is but a suggestion. Add/remove sections as you see fit.
+Within this thesis a selection of tools and methods are tested for their ability to detect variation between a manually annotated sample of non-standard, historical Polish and corpora of modern Polish and tools based on them. The experiments include part-of-speech tagging with two tagsets, lemmatization, vocabulary comparisons, and an n-gram analysis. The results reveal the advantages and disadvantages of each approach, while simultaneously providing a characterization of some of the variation present in the text. It is concluded that since the majority of the presented methods require the data to be annotated to some extent, they are not ideal; nevertheless, they do reveal certain trends in variation as well as information on what kind of preprocessing may be needed for this sort of data to be successfully automatically annotated, which could enable the creation of a larger corpus, facilitating further research. 
 
 \thispagestyle{empty}
 
@@ -103,9 +97,9 @@ I want to extend my deepest thanks to my family members who were involved in pro
 
 I am also deeply grateful for the time and help given to me by dr hab. Piotr Pęzik, who not only made it possible for me to access the National Corpus of Polish (NKJP), but also took his time to explain to me its ins and outs.
 
-I want to thank all of my friends and family whose support and faith in me carried me through the ups and downs: my father, Michał Szawerna, for his eagerness to discuss all things lingustics with me; my grandmother, Ewa Wajda-Kociatkiewicz, for her faith in me; my partner, Tobias Ström, for his patience and for believing in me at times when I did not believe I could finish this degree; my friends - Tomek Kos, Kasia Kuśmierczyk, Jakub Wróbel, Piotrek Szulc, Sandra Kierasińska, Freja Edvardsson, and so many others - for their unwavering support and friendship, despite some of us being hundreds of kilometers apart.
+I want to thank all of my friends and family whose support and faith in me carried me through the ups and downs: my father, Michał Szawerna, for his eagerness to discuss all things lingustics with me; my grandmother, Ewa Wajda-Kociatkiewicz and uncle Mariusz Chodorowski for their faith in me; my partner, Tobias Ström, for his patience and for believing in me at times when I did not; my friends - Tomek Kos, Kasia Kuśmierczyk, Jakub Wróbel, Piotrek Szulc, Sandra Kierasińska, Freja Edvardsson, and so many others - for their unwavering support and friendship, despite some of us being hundreds of kilometers apart.
 
-Finally, I hope that my mother, Justyna Kociatkiewicz, would be proud to see how far I have made it - and that she would be happy to see that her love for our family history persists in this thesis.
+Finally, I hope that my mother, Justyna Kociatkiewicz, would be proud to see how far I have made it - and that she would be happy to see that her love for our family history and heritage persists in this thesis.
 
 \thispagestyle{empty}
 
@@ -122,9 +116,9 @@ Finally, I hope that my mother, Justyna Kociatkiewicz, would be proud to see how
 \end{spacing}
 \newpage
 \thispagestyle{empty}
-%\listoffigures
-%\newpage
-%\thispagestyle{empty}
+\listoffigures
+\newpage
+\thispagestyle{empty}
 \listoftables
 \endgroup
 \thispagestyle{empty}
