@@ -66,7 +66,7 @@
 #### TODO writing
 + ~~Set up the template, fix potential issues.~~
 + ~~Set up references.~~
-+ ~~Abstract.~~ CORRECTIONS
++ ~~Abstract.~~ ~~CORRECTIONS~~
 + ~~Introduction.~~ ~~CORRECTIONS~~
 + ~~Background, prior research.~~ CORRECTIONS
 + ~~Tools and methods.~~ CORRECTIONS
