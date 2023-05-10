@@ -80,7 +80,7 @@
 + ~~Think of a cool title! :)~~
 + ~~Complete Appendix A.~~
 + Correct according to the supervisor comments. **IN PROGRESS** 
-+ _The results reveal the advantages and disadvantages of each approach, while simultaneously providing a characterization of some of the variation present in the text._ DO THIS!
++ DO THIS! _The results reveal the advantages and disadvantages of each approach, while simultaneously providing a characterization of some of the variation present in the text._ 
 + Review the general comments.
 + Double-check that everything from the requirements is present.
 + Send in to the examiner and opponent.
