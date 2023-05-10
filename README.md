@@ -68,20 +68,22 @@
 + ~~Set up references.~~
 + ~~Abstract.~~ ~~CORRECTIONS~~
 + ~~Introduction.~~ ~~CORRECTIONS~~
-+ ~~Background, prior research.~~ CORRECTIONS
-+ ~~Tools and methods.~~ CORRECTIONS
++ ~~Background, prior research.~~ ~~CORRECTIONS~~ DOUBLE CORRECTIONS
++ ~~Tools and methods.~~ ~~CORRECTIONS~~
 + ~~Results.~~ CORRECTIONS
-+ ~~Discussion.~~ CORRECTIONS
-+ ~~Ethical concerns~~ CORRECTIONS
-+ ~~Limitations.~~ CORRECTIONS
-+ ~~Conclusions.~~ CORRECTIONS
-+ ~~Future work.~~ CORRECTIONS
-+ ~~Proofreading.~~ CORRECTIONS
++ ~~Discussion.~~ ~~CORRECTIONS~~
++ ~~Ethical concerns~~ ~~CORRECTIONS~~
++ ~~Limitations.~~ ~~CORRECTIONS~~
++ ~~Conclusions.~~ ~~CORRECTIONS~~
++ ~~Future work.~~ ~~CORRECTIONS~~
++ ~~Proofreading.~~ 
 + ~~Think of a cool title! :)~~
 + ~~Complete Appendix A.~~
 + Correct according to the supervisor comments. **IN PROGRESS** 
 + DO THIS! _The results reveal the advantages and disadvantages of each approach, while simultaneously providing a characterization of some of the variation present in the text._ 
 + Review the general comments.
++ Check all hyphens.
++ Check all numbers (. is decimals).
 + Double-check that everything from the requirements is present.
 + Send in to the examiner and opponent.
 
