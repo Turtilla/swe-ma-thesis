@@ -67,7 +67,7 @@
 + ~~Set up the template, fix potential issues.~~
 + ~~Set up references.~~
 + ~~Abstract.~~ CORRECTIONS
-+ ~~Introduction.~~ CORRECTIONS
++ ~~Introduction.~~ ~~CORRECTIONS~~
 + ~~Background, prior research.~~ CORRECTIONS
 + ~~Tools and methods.~~ CORRECTIONS
 + ~~Results.~~ CORRECTIONS
