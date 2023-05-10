@@ -66,19 +66,21 @@
 #### TODO writing
 + ~~Set up the template, fix potential issues.~~
 + ~~Set up references.~~
-+ ~~Abstract.~~
-+ ~~Introduction.~~ 
-+ ~~Background, prior research.~~ 
-+ ~~Tools and methods.~~
-+ ~~Results.~~
-+ ~~Discussion.~~
-+ ~~Ethical concerns~~
-+ ~~Limitations.~~
-+ ~~Conclusions.~~
-+ ~~Future work.~~
-+ ~~Proofreading.~~ 
++ ~~Abstract.~~ CORRECTIONS
++ ~~Introduction.~~ CORRECTIONS
++ ~~Background, prior research.~~ CORRECTIONS
++ ~~Tools and methods.~~ CORRECTIONS
++ ~~Results.~~ CORRECTIONS
++ ~~Discussion.~~ CORRECTIONS
++ ~~Ethical concerns~~ CORRECTIONS
++ ~~Limitations.~~ CORRECTIONS
++ ~~Conclusions.~~ CORRECTIONS
++ ~~Future work.~~ CORRECTIONS
++ ~~Proofreading.~~ CORRECTIONS
 + ~~Think of a cool title! :)~~
 + ~~Complete Appendix A.~~
 + Correct according to the supervisor comments. **IN PROGRESS** 
++ Review the general comments.
++ Double-check that everything from the requirements is present.
 + Send in to the examiner and opponent.
 
