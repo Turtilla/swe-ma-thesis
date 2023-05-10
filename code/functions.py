@@ -224,31 +224,43 @@ def best_interpretation(dag_disamb: list):
             
     return best_inter
 
-def get_lemma_measures(standard: list, predictions: list):
+def get_lemma_measures(standard: list, predictions: list, lowercase: bool = False):
     '''A function that calculates and prints out the accuracy of the lemmatization.
     
     Args:
         standard (list): A list of lists of gold standard lemmas.
         predictions (list): A list of lists of predicted lemmas.
+        lowercase (bool): Whether or not both of the lists should be lowercased.
     '''
-    standard = [x for sentence in standard for x in sentence]
-    predictions = [x for sentence in predictions for x in sentence]
+    if lowercase:
+        standard = [x.lower() for sentence in standard for x in sentence]
+        predictions = [x.lower() for sentence in predictions for x in sentence]
+    else:
+        standard = [x for sentence in standard for x in sentence]
+        predictions = [x for sentence in predictions for x in sentence]
+
     print(f'Accuracy: {"{:.2%}".format(sklearn.metrics.accuracy_score(standard, predictions))}')
 
-def get_lemma_comparison(standard: list, predictions: list, tokens: list):
+def get_lemma_comparison(standard: list, predictions: list, tokens: list, lowercase: bool = False):
     '''A function that calculates and prints out the accuracy of the lemmatization.
     
     Args:
         standard (list): A list of lists of gold standard lemmas.
         predictions (list): A list of lists of predicted lemmas.
+        tokens (list): A list of lists of the tokens to be lemmatized.
+        lowercase (bool): Whether or not standard and predictions should be lowercased.
     
     Returns:
         A Pandas dataframe containing the mismatched lemmas.
     '''
     tokens = [x for sentence in tokens for x in sentence]
 
-    standard = [x for sentence in standard for x in sentence]
-    predictions = [x for sentence in predictions for x in sentence]
+    if lowercase:
+        standard = [x.lower() for sentence in standard for x in sentence]
+        predictions = [x.lower() for sentence in predictions for x in sentence]
+    else:
+        standard = [x for sentence in standard for x in sentence]
+        predictions = [x for sentence in predictions for x in sentence]
             
     problematic_frame = get_comparison(standard, predictions, tokens)
     
@@ -309,13 +321,15 @@ def get_korba_data(filename: str):
             
     return tokens_list, lemmas_list, xpos_list
 
-def get_full_table(standard: list, predictions: list, tokens: list, confidence=[]):
+def get_full_table(standard: list, predictions: list, tokens: list, confidence=[], lowercase: bool = False):
     '''A function that returns a list of all the tokens with their predictions, gold standard, and context.
     
     Args:
         standard (list): A list of gold standard annotations.
         predictions (list): A list of predicted annotations.
         tokens (list): A list of original tokens corresponding to the tags.
+        confidence (list): A list of prediction confidences, if available; empty by default.
+        lowercase (bool): Whether or not standard and predictions should be lowercased.
     
     Returns:
         A Pandas dataframe containing the mismatched annotations, their context and tokens.
@@ -327,6 +341,10 @@ def get_full_table(standard: list, predictions: list, tokens: list, confidence=[
         predictions = [x for sentence in predictions for x in sentence]
     if isinstance(tokens[0], list):
         tokens = [x for sentence in tokens for x in sentence]
+
+    if lowercase:
+        standard = [x.lower() for x in standard]
+        predictions = [x.lower() for x in predictions]
     
     all_entries = []
     for i, ann in enumerate(predictions):

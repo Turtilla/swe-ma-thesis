@@ -1075,7 +1075,7 @@
 7	w	w	ADP	prep:loc:nwok	_	_	_	_	_
 8	domu	dom	NOUN	subst:sg:loc:m3	_	_	_	_	_
 9	mojego	mój	DET	adj:sg:gen:m1:pos	_	_	_	_	_
-10	Oyca	oyca	NOUN	subst:sg:gen:m1	_	_	_	_	_
+10	Oyca	oyciec	NOUN	subst:sg:gen:m1	_	_	_	_	_
 11	–	–	PUNCT	interp	_	_	_	_	_
 12	od	od	ADP	prep:gen:nwok	_	_	_	_	_
 13	niej	on	PRON	ppron3:sg:gen:f:ter:akc:praep	_	_	_	_	_
@@ -1083,7 +1083,7 @@
 15	szczegółów	szczegół	NOUN	subst:pl:gen:m3	_	_	_	_	_
 16	tyczących	tyczyć	ADJ	pact:pl:gen:m3:imperf:aff	_	_	_	_	_
 17	familii	familia	NOUN	subst:sg:gen:f	_	_	_	_	_
-18	Oyca	oyca	NOUN	subst:sg:gen:m1	_	_	_	_	_
+18	Oyca	oyciec	NOUN	subst:sg:gen:m1	_	_	_	_	_
 19	się	się	PRON	part	_	_	_	_	_
 20-21	dowiedziałam	_	_	_	_	_	_	_	_
 20	dowiedziała	dowiedzieć	VERB	praet:sg:f:perf	_	_	_	_	_
@@ -2901,7 +2901,7 @@
 22	ożenienia	ożenić	NOUN	ger:sg:gen:n:perf:aff	_	_	_	_	_
 23	się	się	PRON	part	_	_	_	_	_
 24	mojego	mój	DET	adj:sg:gen:m1:pos	_	_	_	_	_
-25	Oyca	oyca	NOUN	subst:sg:gen:m1	_	_	_	_	_
+25	Oyca	oyciec	NOUN	subst:sg:gen:m1	_	_	_	_	_
 26	pono	pono	PART	part	_	_	_	_	_
 27	1813	1813	ADJ	adj:sg:gen:m3:pos	_	_	_	_	_
 28	albo	albo	CCONJ	conj	_	_	_	_	_
@@ -3269,7 +3269,7 @@
 4	się	się	PRON	part	_	_	_	_	_
 5	po	po	ADP	prep:loc	_	_	_	_	_
 6	śmierci	śmierć	NOUN	subst:sg:loc:f	_	_	_	_	_
-7	Oyca	oyca	NOUN	subst:sg:gen:m1	_	_	_	_	_
+7	Oyca	oyciec	NOUN	subst:sg:gen:m1	_	_	_	_	_
 8	z	z	ADP	prep:inst:nwok	_	_	_	_	_
 9	Panną	panna	NOUN	subst:sg:inst:f	_	_	_	_	_
 10	Julią	Julia	PROPN	subst:sg:inst:f	_	_	_	_	_
