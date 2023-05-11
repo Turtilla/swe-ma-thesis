@@ -88,5 +88,7 @@
 + ~~Check all numbers (. is decimals).~~
 + ~~Unify away from NKJP -> National Corpus of Polish.~~
 + Double-check that everything from the requirements is present.
+    + Fix the background stuff!
+    + Make sure the discussion refers to the aims, background, future directions. 
 + Send in to the examiner and opponent.
 
