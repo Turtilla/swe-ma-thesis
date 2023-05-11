@@ -70,8 +70,8 @@
 + ~~Introduction.~~ ~~CORRECTIONS~~
 + ~~Background, prior research.~~ ~~CORRECTIONS~~ DOUBLE CORRECTIONS
 + ~~Tools and methods.~~ ~~CORRECTIONS~~
-+ ~~Results.~~ CORRECTIONS
-   + Added tables for general stuff! Change the descriptions, refer to them in the text, addapt the appendix tables.
++ ~~Results.~~ ~~CORRECTIONS~~
+   + ~~Added tables for general stuff! Change the descriptions, refer to them in the text, addapt the appendix tables.~~
 + ~~Discussion.~~ ~~CORRECTIONS~~
 + ~~Ethical concerns~~ ~~CORRECTIONS~~
 + ~~Limitations.~~ ~~CORRECTIONS~~
