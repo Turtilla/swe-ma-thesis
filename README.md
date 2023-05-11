@@ -82,7 +82,7 @@
 + ~~Complete Appendix A.~~
 + Correct according to the supervisor comments. **IN PROGRESS** 
 + ~~Re-run stuff to better talk about results.~~
-+ ~~DO THIS! The results reveal the advantages and disadvantages of each approach, while simultaneously providing a characterization of some of the variation present in the text. ~~
++ ~~DO THIS! The results reveal the advantages and disadvantages of each approach, while simultaneously providing a characterization of some of the variation present in the text.~~
 + ~~Review the general comments.~~
 + ~~Check all hyphens.~~
 + ~~Check all numbers (. is decimals).~~
