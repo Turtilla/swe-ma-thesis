@@ -70,8 +70,8 @@
 + ~~Introduction.~~ ~~CORRECTIONS~~
 + ~~Background, prior research.~~ ~~CORRECTIONS~~ DOUBLE CORRECTIONS
 + ~~Tools and methods.~~ ~~CORRECTIONS~~
-+ ~~Results.~~ CORRECTIONS
-   + Added tables for general stuff! Change the descriptions, refer to them in the text, addapt the appendix tables.
++ ~~Results.~~ ~~CORRECTIONS~~
+   + ~~Added tables for general stuff! Change the descriptions, refer to them in the text, addapt the appendix tables.~~
 + ~~Discussion.~~ ~~CORRECTIONS~~
 + ~~Ethical concerns~~ ~~CORRECTIONS~~
 + ~~Limitations.~~ ~~CORRECTIONS~~
@@ -82,10 +82,13 @@
 + ~~Complete Appendix A.~~
 + Correct according to the supervisor comments. **IN PROGRESS** 
 + ~~Re-run stuff to better talk about results.~~
-+ DO THIS! _The results reveal the advantages and disadvantages of each approach, while simultaneously providing a characterization of some of the variation present in the text._ 
-+ Review the general comments.
-+ Check all hyphens.
-+ Check all numbers (. is decimals).
++ ~~DO THIS! The results reveal the advantages and disadvantages of each approach, while simultaneously providing a characterization of some of the variation present in the text.~~
++ ~~Review the general comments.~~
++ ~~Check all hyphens.~~
++ ~~Check all numbers (. is decimals).~~
++ ~~Unify away from NKJP -> National Corpus of Polish.~~
 + Double-check that everything from the requirements is present.
+    + Fix the background stuff!
+    + Make sure the discussion refers to the aims, background, future directions. 
 + Send in to the examiner and opponent.
 
