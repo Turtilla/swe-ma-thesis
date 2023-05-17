@@ -61,7 +61,7 @@ Semester and year: & Spring, 2023 \\
 Supervisor: & Aleksandrs Berdicevskis \\
 Examiner: & Asad Sayeed \\ %% make sure that titles are not needed
 Keywords: & language variation, Polish, diachronic linguistics, \\ 
-{} & part-of-speech tagging, corpus linguistics %% can come up with better examples!
+{} & part-of-speech tagging, lemmatization, corpus linguistics %% can come up with better examples!
 \end{tabular}
 \endgroup
 
@@ -75,9 +75,9 @@ Keywords: & language variation, Polish, diachronic linguistics, \\
 \singlespacing
 \section*{Abstract}
 
-Computational approaches to language variation continue to contribute in a relevant way to various fields, including Natural Language Processing and linguistics. Being able to accommodate variation within natural language increases the robustness of NLP models and their usefulness in real-life applications; simultaneously, detecting and describing variation and trends that govern it is one of the main goals of sociolinguistics and historical linguistics, meaning that some of the advances in NLP can contribute to these fields as well. As one of the current trends in historical linguistics appears to be quantitative and corpus research, the need for annotated historical data is becoming more and more apparent.
+Computational approaches to language variation continue to contribute in a relevant way to various fields, including Natural Language Processing (NLP) and linguistics. Being able to accommodate variation within natural language increases the robustness of NLP models and their usefulness in real-life applications; simultaneously, detecting and describing variation and trends that govern it is one of the main goals of sociolinguistics and historical linguistics, meaning that some of the advances in NLP can contribute to these fields as well. As one of the current trends in historical linguistics appears to be quantitative and corpus research, the need for annotated historical data is becoming more and more apparent.
 
-Within this thesis, a selection of tools and methods are tested for their ability to detect variation between a manually annotated sample of non-standard, historical Polish and corpora of modern Polish and tools based on them. The experiments include part-of-speech tagging with two tagsets, lemmatization, vocabulary comparisons, and an n-gram analysis. The results reveal the advantages and disadvantages of each approach, while simultaneously providing a characterization of some of the variation present in the text. It is concluded that since the majority of the presented methods require the data to be annotated to some extent, they are not ideal; nevertheless, they do reveal certain trends in variation as well as information on what kind of preprocessing may be needed for this sort of data to be successfully automatically annotated, which could enable the creation of a larger corpus, facilitating further research.
+Within this thesis, a selection of tools and methods are tested for their ability to detect variation between a manually annotated sample of non-standard historical Polish and corpora of modern Polish and tools based on them. The experiments include part-of-speech tagging with two tagsets, lemmatization, vocabulary comparisons, and an n-gram analysis. The results reveal what kinds of variation each approach can discover in the text and to what extent. Since the majority of the presented methods require the data to be annotated, they would be time- and resource-consuming if applied to larger corpora; nevertheless, they do reveal certain trends in variation as well as information on what kind of preprocessing may be needed for this sort of data to be successfully automatically annotated, which could enable the creation of a larger corpus, facilitating further research. Additionally, a comparison of tagging and lemmatizing performance of various tools on modern Polish is presented, and the annotated historical text itself constitutes a relevant contribution as well.
 
 \thispagestyle{empty}
 
@@ -93,13 +93,13 @@ I would like to thank my supervisor, Sasha Berdicevskis, for believing in the in
 
 I will forever be grateful to the rest of the teachers and staff of the MLT program, who have taught me so many of the skills that I put to the test while working on this topic, but also many more that I will hopefully utilize in the future. I am also happy to have met all the wonderful people that I studied with throughout these two years. I cannot wait to see what future lies ahead of us!
 
-I want to extend my deepest thanks to my family members who were involved in procuring the historical data: my grandfather, Piotr Kociatkiewicz, who meticulously transcribed our mutual ancestor's memoir from scans provided by my aunt Anna Chodorowska. It was my grandfather's question about whether he should standardize the spelling of the text that sparked my interest in it as a linguistic resource - and without that question and the endeavor to transcribe the memoir, this thesis would not have been written.
+I want to extend my deepest thanks to my family members who were involved in procuring the historical data: my grandfather, Piotr Kociatkiewicz, who meticulously transcribed our mutual ancestor's memoir from scans provided by my aunt Anna Chodorowska. It was my grandfather's question about whether he should standardize the spelling of the text that sparked my interest in it as a linguistic resource --- and without that question and the endeavor to transcribe the memoir, this thesis would not have been written.
 
 I am also deeply grateful for the time and help given to me by dr hab. Piotr Pęzik, who not only made it possible for me to access the National Corpus of Polish (NKJP) but also took his time to explain to me its ins and outs.
 
-I want to thank all of my friends and family whose support and faith in me carried me through the ups and downs: my father, Michał Szawerna, for his eagerness to discuss all things linguistics with me; my grandmother, Ewa Wajda-Kociatkiewicz and uncle Mariusz Chodorowski for their faith in me; my partner, Tobias Ström, for his patience and for believing in me at times when I did not; my friends - Tomek Kos, Kasia Kuśmierczyk, Jakub Wróbel, Piotrek Szulc, Sandra Kierasińska, Freja Edvardsson, and so many others - for their unwavering support and friendship, despite some of us being hundreds of kilometers apart.
+I want to thank all of my friends and family whose support and faith in me carried me through the ups and downs: my father, Michał Szawerna, for his eagerness to discuss all things linguistics with me; my grandmother, Ewa Wajda-Kociatkiewicz and uncle Mariusz Chodorowski for their faith in me; my partner, Tobias Ström, for his patience and for believing in me at times when I did not; my friends --- Tomek Kos, Kasia Kuśmierczyk, Jakub Wróbel, Piotrek Szulc, Sandra Kierasińska, Freja Edvardsson, and so many others --- for their unwavering support and friendship, despite some of us being hundreds of kilometers apart.
 
-Finally, I hope that my mother, Justyna Kociatkiewicz, would be proud to see how far I have made it - and that she would be happy to see that her love for our family history and heritage persists in this thesis.
+Finally, I hope that my mother, Justyna Kociatkiewicz, would be proud to see how far I have made it --- and that she would be happy to see that her love for our family history and heritage persists in this thesis.
 
 \thispagestyle{empty}
 
@@ -181,7 +181,6 @@ Finally, I hope that my mother, Justyna Kociatkiewicz, would be proud to see how
 \newpage
 \appendix
 \input{sections/9.1-appendix-resources}
-
 
 \end{document}
 

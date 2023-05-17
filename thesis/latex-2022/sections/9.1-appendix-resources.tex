@@ -3,7 +3,7 @@
 
 Within this Appendix, links to a number of resources, both created and used in the thesis, will be provided, alongside explanations; these resources have been cited in the text according to the resource-specific guidelines (if provided):
 \begin{itemize}
-    \item Thesis repository (the repository structure is explained in the README): \url{https://github.com/Turtilla/swe-ma-thesis}
+    \item Thesis repository, including the text of the memoir with and without various annotation (the repository structure is explained in the README): \url{https://github.com/Turtilla/swe-ma-thesis}
     \item Instructions and contact information for the PELCRA search engine for the National Corpus of Polish\footnote{If one desires the so-called programming access, one must contact the person listed on this page, as this access is limited.}: \url{http://www.nkjp.uni.lodz.pl/help.jsp}
     \item The University of Sheffield UD-based POS tagger\footnote{As of 26.04.2023 this tagger appears to not work due to an "Internal Server Error".}: \url{https://cloud.gate.ac.uk/shopfront/displayItem/tagger-pos-pl-maxent1}
     \item Morfeusz2: \url{http://morfeusz.sgjp.pl/}
@@ -17,44 +17,100 @@ Within this Appendix, links to a number of resources, both created and used in t
 
 \section{Error Type Definitions}
 \label{error-types}
+
+\renewcommand{\arraystretch}{1.25}
+\begin{table}[H]
+\begin{center}
+\scalebox{1}{
+\begin{tabular}{lll}
+\toprule \bf Error Type & \bf Definition & \bf Included Subtypes \\ \toprule
+
+spelling & \makecell[l]{Any spelling-related differences, \\ both intentional and not} & \textit{y}, \textit{nie}, spelling, capitalization, \textit{e} \\
+
+name & \makecell[l]{Any type of proper names} & proper name, surname, name \\
+
+abbreviation & Abbreviated tokens & abbreviation \\
+
+ambiguous & \makecell[l]{The whole token or its part \\ is ambiguous in some way} & ambiguous, problematic \\
+
+unidentified & \makecell[l]{The reason for the error \\ cannot be identified} & unidentified \\
+
+vocabulary & \makecell[l]{The token is likely OOV \\ due to being specialized, \\ dialectical, archaic, or foreign} & foreign \\
+
+grammar & \makecell[l]{The token displays an unusual \\ grammatical feature} & grammar \\
+\bottomrule
+\end{tabular}}
+\end{center}
+\caption{\label{table:general-error-type-explanations} General types of errors made by lemmatizers.}
+\end{table}
+\newpage
+
 \renewcommand{\arraystretch}{1.25}
 \begin{table}[H]
 \begin{center}
 \scalebox{1}{
 \begin{tabular}{p{2cm}p{4.5cm}p{3.5cm}p{1.75cm}p{1.75cm}}
 \toprule \bf Error Type & \bf Definition & \bf Example & \bf Predictions & \bf Standard\\ \toprule
-\textit{y} & \makecell[l]{The grapheme \textit{y} is used \\ instead of \textit{j} to signify \\ the /j/ sound} & \makecell[l]{\textit{suchey} \\ `dry'} & suchey & suchy \\ 
+spelling: \textit{y} & \makecell[l]{The grapheme \textit{y} is used \\ instead of \textit{j} to signify \\ the /j/ sound} & \makecell[l]{\textit{suchey} \\ `dry'} & suchey & suchy \\ 
 
-\makecell[l]{proper \\ name} & \makecell[l]{Potentially unfamiliar \\ proper name token} & \makecell[l]{\textit{Bludniki} \\ `Bludniki'} & \makecell[l]{Bludnik \\ bludnik} & Bludniki  \\ 
+\makecell[l]{name: other} & \makecell[l]{Potentially unfamiliar \\ proper name token} & \makecell[l]{\textit{Bludniki} \\ `Bludniki'} & \makecell[l]{Bludnik \\ bludnik} & Bludniki  \\ 
 
-\textit{nie} & \makecell[l]{Spelling of the negation \\ with the negated word \\ in word classes that \\ normally do not allow it} & \makecell[l]{\textit{niemają} \\ `(they) don't have'} & \makecell[l]{niemaja \\ nie} & niemieć  \\ 
+spelling: \textit{nie} & \makecell[l]{Spelling of the negation \\ with the negated word \\ in word classes that \\ normally do not allow it} & \makecell[l]{\textit{niemają} \\ `(they) don't have'} & \makecell[l]{niemaja \\ nie} & niemieć  \\ 
 
-spelling & \makecell[l]{A likely spelling error} & \makecell[l]{\textit{ładąn} \\ `pretty'} & ładąn & ładna \\ 
+\makecell[l]{spelling: other} & \makecell[l]{Other spelling differences} & \makecell[l]{\textit{ładąn} \\ `pretty'} & ładąn & ładna \\ 
 
-surname & \makecell[l]{Potentially unfamiliar \\ surname token}  & \makecell[l]{\textit{Polanowski} \\ `Polanowski'} & polanowski & Polanowski \\ 
+\makecell[l]{name: \\ surname} & \makecell[l]{Potentially unfamiliar \\ surname token}  & \makecell[l]{\textit{Polanowski} \\ `Polanowski'} & polanowski & Polanowski \\ 
 
-capitalization & \makecell[l]{Nonstandard capitalization} & \makecell[l]{\textit{Dziedzica} \\ `of the heir'} & \makecell[l]{Dziedzic \\ dziedzica} & dziedzic  \\ 
+\makecell[l]{spelling: \\ capitalization} & \makecell[l]{Nonstandard capitalization} & \makecell[l]{\textit{Dziedzica} \\ `of the heir'} & \makecell[l]{Dziedzic \\ dziedzica} & dziedzic  \\ 
 
 abbreviation & \makecell[l]{The token is abbreviated} & \makecell[l]{\textit{Stan} \\ `Stan'} & \makecell[l]{Stan \\ stan} & Stanisław \\
 
-\textit{e} & \makecell[l]{The grapheme \textit{e} is used \\ instead of another vowel \\ (commonly \textit{y})} & \makecell[l]{\textit{tem} \\ `this'} & \makecell[l]{tema \\ tem} & to \\
+spelling: \textit{e} & \makecell[l]{The grapheme \textit{e} is used \\ instead of another vowel \\ (commonly \textit{y})} & \makecell[l]{\textit{tem} \\ `this'} & \makecell[l]{tema \\ tem} & to \\
 
-ambiguous & \makecell[l]{The token could have \\ more than one interpretation} & \makecell[l]{\textit{dobra} \\`goods'} & dobry & dobra \\ 
+\makecell[l]{ambiguous: \\ other} & \makecell[l]{The token could have \\ more than one interpretation} & \makecell[l]{\textit{dobra} \\`goods'} & dobry & dobra \\ 
 
-name & \makecell[l]{A potentially unfamiliar \\ first name token} & \makecell[l]{\textit{Kleosię} \\ `Kleosia'} & \makecell[l]{Kleosię \\ kleosia} & Kleosia \\
+\makecell[l]{name: \\ given name} & \makecell[l]{A potentially unfamiliar \\ first name token} & \makecell[l]{\textit{Kleosię} \\ `Kleosia'} & \makecell[l]{Kleosię \\ kleosia} & Kleosia \\
 
 unidentified & \makecell[l]{No apparent reason} & \makecell[l]{\textit{łania} \\ `doe'} & \makecell[l]{łani \\ łanie} & łania \\
 
-problematic & \makecell[l]{The choice of the lemma \\ is up to the annotator \\ because of two spelling \\ variants or the word \\ having been derived} & \makecell[l]{\textit{bombardowaniu} \\ `of the bombing'} & \makecell[l]{bombar-\\dować} & \makecell[l]{bombardo-\\wanie} \\
+\makecell[l]{ambiguous: \\ problematic} & \makecell[l]{The choice of the lemma \\ is up to the annotator \\ because of two acceptable \\ spelling variants or the \\ word being on the verge \\ of being independent or \\ being a derivational form \\ of another word} & \makecell[l]{\textit{bombardowaniu} \\ `of the bombing'} & \makecell[l]{bombar-\\dować} & \makecell[l]{bombardo-\\wanie} \\
 
-foreign & The token is foreign & \makecell[l]{\textit{Toje} \\ `-'} & \makecell[l]{Toje \\ tój} & toje \\
+\makecell[l]{vocabulary: \\ foreign} & The token is foreign & \makecell[l]{\textit{Toje} \\ `-'} & \makecell[l]{Toje \\ tój} & toje \\
 
-archaic & \makecell[l]{The token is somewhat \\ archaic or regional} & \makecell[l]{\textit{człowiecze} \\ `human'} & \makecell[l]{człowieczy \\ człowiec} & człowiek \\
+\makecell[l]{grammar: \\ other} & \makecell[l]{The token displays an \\ unusual grammatical ending} & \makecell[l]{\textit{człowiecze} \\ `human'} & \makecell[l]{człowieczy \\ człowiec} & człowiek \\
 
 \bottomrule
 \end{tabular}}
 \end{center}
 \caption{\label{table:error-type-explanations} Types and examples of errors made by lemmatizers. The translations into English are not ideal since they do not capture all of the encoded information, such as case, gender, number.}
+\end{table}
+\newpage
+
+\renewcommand{\arraystretch}{1.25}
+\begin{table}[H]
+\begin{center}
+\scalebox{1}{
+\begin{tabular}{lll}
+\toprule \bf Error Type & \bf Definition & \bf Included Subtypes \\ \toprule
+
+spelling & \makecell[l]{Any spelling-related differences, \\ both intentional and not} & capitalization, \textit{y}, \textit{e}, \textit{nie}, spelling \\
+
+name & \makecell[l]{Any type of proper names} & surname, proper name, name \\
+
+abbreviation & Abbreviated tokens & abbreviation \\
+
+ambiguous & \makecell[l]{The whole token or its part \\ is ambiguous in some way} & ambiguous, UD, ending, problematic, digits \\
+
+unidentified & \makecell[l]{The reason for the error \\ cannot be identified} & unidentified \\
+
+vocabulary & \makecell[l]{The token is likely OOV \\ due to being specialized, \\ dialectical, archaic, or foreign} & archaic, foreign, uncommon, special \\
+
+grammar & \makecell[l]{The token displays an unusual \\ grammatical feature} & impersonal, grammar \\
+
+\bottomrule
+\end{tabular}}
+\end{center}
+\caption{\label{table:general-upos-error-type-explanations} General types of errors made by UPOS taggers.}
 \end{table}
 \newpage
 
@@ -64,47 +120,47 @@ archaic & \makecell[l]{The token is somewhat \\ archaic or regional} & \makecell
 %\begin{tabular}{p{2cm}p{4.5cm}p{3.5cm}p{1.75cm}p{1.75cm}}
 \toprule \bf Error Type & \bf Definition & \bf Example & \bf Predictions & \bf Standard\\ \toprule
 
-ambiguous & \makecell[l]{The token's meaning is \\ ambiguous} & \makecell[l]{\textit{jego} \\ `his'} & PRON & DET \\ 
+\makecell[l]{ambiguous: \\ other} & \makecell[l]{The token is ambiguous} & \makecell[l]{\textit{jego} \\ `his'} & PRON & DET \\ 
 
-capitalization & Nonstandard capitalization & \makecell[l]{\textit{Patrona} \\ `patron'} & \makecell[l]{PROPN \\ NOUN } & NOUN  \\ 
+\makecell[l]{spelling: \\ capitalization} & Nonstandard capitalization & \makecell[l]{\textit{Patrona} \\ `patron'} & \makecell[l]{PROPN \\ NOUN } & NOUN  \\ 
 
-\textit{y} & \makecell[l]{The grapheme \textit{y} is used \\ instead of \textit{j} to signify \\ the /j/ sound} & \makecell[l]{\textit{móy} \\ `my'} & \makecell[l]{\\ PROPN \\ ADJ \\ VERB} & DET \\ 
+spelling: \textit{y} & \makecell[l]{The grapheme \textit{y} is used \\ instead of \textit{j} to signify \\ the /j/ sound} & \makecell[l]{\textit{móy} \\ `my'} & \makecell[l]{\\ PROPN \\ ADJ \\ VERB} & DET \\ 
 
 unidentified & \makecell[l]{No apparent reason} & \makecell[l]{\textit{wyłącznie} \\ `exclusively'} & \makecell[l]{\\ PART \\ ADV \\ NOUN} & ADV \\ 
 
-archaic & \makecell[l]{The token is somewhat \\ archaic or regional} & \makecell[l]{\textit{pono} \\ `supposedly'} & \makecell[l]{\\ PUNCT \\ VERB \\ PROPN \\ ADJ} & PART \\ 
+\makecell[l]{vocabulary: \\ archaic} & \makecell[l]{The token is somewhat \\ archaic or regional} & \makecell[l]{\textit{pono} \\ `supposedly'} & \makecell[l]{\\ PUNCT \\ VERB \\ PROPN \\ ADJ} & PART \\ 
 
-UD & \makecell[l]{The token has more \\ than one possible tag \\ due to UD guidelines} & \makecell[l]{\textit{był} \\ `(there) was'} & \makecell[l]{VERB \\ AUX} & VERB \\ 
+\makecell[l]{ambiguous: \\ UD} & \makecell[l]{The token has more \\ than one possible tag \\ due to UD guidelines} & \makecell[l]{\textit{był} \\ `(there) was'} & \makecell[l]{VERB \\ AUX} & VERB \\ 
 
-surname & \makecell[l]{Potentially unfamiliar \\ surname token}  & \makecell[l]{\textit{Ostaszewskiej} \\ `Ostaszewska'} & \makecell[l]{ADJ \\ PROPN} & PROPN \\ 
+\makecell[l]{name: \\ surname} & \makecell[l]{Potentially unfamiliar \\ surname token}  & \makecell[l]{\textit{Ostaszewskiej} \\ `Ostaszewska'} & \makecell[l]{ADJ \\ PROPN} & PROPN \\ 
 
-\textit{e} & \makecell[l]{The grapheme \textit{e} is used \\ instead of another vowel \\ (commonly \textit{y})} & \makecell[l]{\textit{małem} \\ `small'} & \makecell[l]{ADJ \\ NOUN} & ADJ \\ 
+spelling: \textit{e} & \makecell[l]{The grapheme \textit{e} is used \\ instead of another vowel \\ (commonly \textit{y})} & \makecell[l]{\textit{małem} \\ `small'} & \makecell[l]{ADJ \\ NOUN} & ADJ \\ 
 
-\textit{nie} & \makecell[l]{Spelling of the negation \\ with the negated word \\ in word classes that \\ normally do not allow it} & \makecell[l]{\textit{niechciały} \\ `(they) didn't want to'} & \makecell[l]{VERB \\ NOUN \\ ADJ} & VERB  \\ 
+spelling: \textit{nie} & \makecell[l]{Spelling of the negation \\ with the negated word \\ in word classes that \\ normally do not allow it} & \makecell[l]{\textit{niechciały} \\ `(they) didn't want to'} & \makecell[l]{VERB \\ NOUN \\ ADJ} & VERB  \\ 
 
-ending & \makecell[l]{The ending of the word \\ can be indicative of \\ more than one class} & \makecell[l]{\textit{chwała} \\ `glory'} & \makecell[l]{NOUN \\ VERB} & NOUN \\ 
+\makecell[l]{spelling: \\ other} & \makecell[l]{Other spelling differences} & \makecell[l]{\textit{wkońcu} \\ `in the end'} & \makecell[l]{ADV \\ NOUN} & NOUN \\ 
 
-spelling & \makecell[l]{A likely spelling error \\ or the lack of a space \\ or a superfluous one} & \makecell[l]{\textit{wkońcu} \\ `in the end'} & \makecell[l]{ADV \\ NOUN} & NOUN \\ 
+\makecell[l]{ambiguous: \\ ending} & \makecell[l]{The ending of the word \\ can be indicative of \\ more than one class} & \makecell[l]{\textit{chwała} \\ `glory'} & \makecell[l]{NOUN \\ VERB} & NOUN \\ 
 
-\makecell[l]{proper \\ name} & \makecell[l]{Potentially unfamiliar \\ proper name token} & \makecell[l]{\textit{Dąbrowy} \\ `Dąbrowa'} & \makecell[l]{PROPN \\ ADJ} & PROPN  \\ 
+\makecell[l]{name: \\ other} & \makecell[l]{Potentially unfamiliar \\ proper name token} & \makecell[l]{\textit{Dąbrowy} \\ `Dąbrowa'} & \makecell[l]{PROPN \\ ADJ} & PROPN  \\ 
 
-problematic & \makecell[l]{The choice of the tag \\ is up to the annotator \\ because of two spelling \\ variants or the word \\ having been derived} & \makecell[l]{\textit{służąca} \\ `servant'} & \makecell[l]{NOUN \\ ADJ} & \makecell[l]{NOUN} \\ 
+\makecell[l]{ambiguous: \\ problematic} & \makecell[l]{The choice of the tag \\ is up to the annotator \\ because of two spelling \\ variants or the word \\ having been derived} & \makecell[l]{\textit{służąca} \\ `servant'} & \makecell[l]{NOUN \\ ADJ} & \makecell[l]{NOUN} \\ 
 
-digits & \makecell[l]{The token is in digits} & \makecell[l]{\textit{1} \\ `1'} & \makecell[l]{ADJ \\ NUM} & NUM \\ 
+\makecell[l]{ambiguous: \\ digits} & \makecell[l]{The token is in digits} & \makecell[l]{\textit{1} \\ `1'} & \makecell[l]{ADJ \\ NUM} & NUM \\ 
 
-foreign & The token is foreign & \makecell[l]{\textit{daruju} \\ `-'} & \makecell[l]{\\ NOUN \\ VERB} & X \\ 
+\makecell[l]{vocabulary: \\ foreign} & The token is foreign & \makecell[l]{\textit{daruju} \\ `-'} & \makecell[l]{\\ NOUN \\ VERB} & X \\ 
 
-uncommon & The token is uncommon & \makecell[l]{\textit{czółno} \\ `canoe'} & \makecell[l]{ADV \\ ADJ} & NOUN \\ 
+\makecell[l]{vocabulary: \\ uncommon} & The token is uncommon & \makecell[l]{\textit{czółno} \\ `canoe'} & \makecell[l]{ADV \\ ADJ} & NOUN \\ 
 
 abbreviation & \makecell[l]{The token is abbreviated} & \makecell[l]{\textit{5-cioro} \\ `five'} & \makecell[l]{\\ NUM \\ NOUN \\ MIS-\\PARSED} & NUM \\ 
 
-impersonal & \makecell[l]{The token is an \\ impersonal verb form} & \makecell[l]{\textit{wierzono} \\ `(it was) believed'} & \makecell[l]{\\ VERB \\ ADJ \\ ADV} & VERB \\ 
+\makecell[l]{grammar: \\ impersonal} & \makecell[l]{The token is an \\ impersonal verb form} & \makecell[l]{\textit{wierzono} \\ `(it was) believed'} & \makecell[l]{\\ VERB \\ ADJ \\ ADV} & VERB \\ 
 
-name & \makecell[l]{A potentially unfamiliar \\ first name token} & \makecell[l]{\textit{Wiktorów} \\ `Wiktors'} & \makecell[l]{\\ PROPN \\ NOUN} & PROPN \\ 
+\makecell[l]{name: \\ given name} & \makecell[l]{A potentially unfamiliar \\ first name token} & \makecell[l]{\textit{Wiktorów} \\ `Wiktors'} & \makecell[l]{\\ PROPN \\ NOUN} & PROPN \\
 
-special & \makecell[l]{The token is a intentionally \\ spelled in a nonstandard \\ fashion} & \makecell[l]{\textit{psipiólki} \\ `quails'} & \makecell[l]{NOUN \\ ADJ} & NOUN \\ 
+\makecell[l]{grammar: \\ other} & \makecell[l]{The token features a \\ nonstandard inflectional \\ ending} & \makecell[l]{\textit{egzamina} \\ `exams'} & \makecell[l]{NOUN \\ ADJ} & NOUN \\
 
-currency & \makecell[l]{The token is a name \\ of a currency} & \makecell[l]{\textit{Dukatów} \\ ducats} & \makecell[l]{NOUN \\ X} & NOUN \\
+\makecell[l]{vocabulary: \\ stylized} & \makecell[l]{The token is a intentionally \\ spelled in a nonstandard \\ fashion} & \makecell[l]{\textit{psipiólki} \\ `quails'} & \makecell[l]{NOUN \\ ADJ} & NOUN \\ 
 
 \bottomrule
 %\end{tabular}
@@ -113,47 +169,75 @@ currency & \makecell[l]{The token is a name \\ of a currency} & \makecell[l]{\te
 \end{longtable}
 \newpage
 
+\renewcommand{\arraystretch}{1.25}
+\begin{table}[H]
+\begin{center}
+\scalebox{1}{
+\begin{tabular}{lll}
+\toprule \bf Error Type & \bf Definition & \bf Included Subtypes \\ \toprule
+
+spelling & \makecell[l]{Any spelling-related differences, \\ both intentional and not} &  \textit{y}, \textit{nie}, spelling, \textit{e} \\
+
+name & \makecell[l]{Any type of proper names} & proper name, surname, name \\
+
+abbreviation & Abbreviated tokens & abbreviation \\
+
+ambiguous & \makecell[l]{The whole token or its part \\ is ambiguous in some way} & ambiguous, digits, problematic, currency, \\
+
+unidentified & \makecell[l]{The reason for the error \\ cannot be identified} & unidentified \\
+
+vocabulary & \makecell[l]{The token is likely OOV \\ due to being specialized, \\ dialectical, archaic, or foreign} & archaic, foreign, uncommon \\
+
+grammar & \makecell[l]{The token displays an unusual \\ grammatical feature} & gender, vocative \\
+
+\bottomrule
+\end{tabular}}
+\end{center}
+\caption{\label{table:general-uxpos-error-type-explanations} General types of errors made by XPOS taggers.}
+\end{table}
+\newpage
+
 \renewcommand{\arraystretch}{1.5}
 \begin{longtable}[H]{p{2cm}p{4cm}p{1.5cm}p{3cm}p{3cm}}
 %\begin{center}
 %\begin{tabular}{p{2cm}p{4.5cm}p{3.5cm}p{1.75cm}p{1.75cm}}
 \toprule \bf Error Type & \bf Definition & \bf Example & \bf Predictions & \bf Standard\\ \toprule
 
-ambiguous & \makecell[l]{The token's meaning is \\ ambiguous} & \makecell[l]{\textit{parafii} \\ `parish'} & subst:sg:gen:f & subst:sg:loc:f \\ 
+\makecell[l]{ambiguous: \\ other} & \makecell[l]{The token's meaning is \\ ambiguous} & \makecell[l]{\textit{parafii} \\ `parish'} & subst:sg:gen:f & subst:sg:loc:f \\ 
 
 unidentified & \makecell[l]{No apparent reason} & \makecell[l]{\textit{Ciotka} \\ `aunt'} & \makecell[l]{\\ subst:sg:acc:m1 \\ subst:sg:nom:m1 \\ subst:sg:nom:f} & subst:sg:nom:f \\
 
-\makecell[l]{proper \\ name} & \makecell[l]{Potentially unfamiliar \\ proper name token} & \makecell[l]{\textit{Brzeżan} \\ `Brzeżany'} & \makecell[l]{\\subst:pl:gen:n:pt \\ subst:sg:gen:n:ncol \\ subst:pl:gen:m1 \\ subst:sg:gen:m1} & subst:pl:gen:n:pt  \\ 
+\makecell[l]{name: \\ other} & \makecell[l]{Potentially unfamiliar \\ proper name token} & \makecell[l]{\textit{Brzeżan} \\ `Brzeżany'} & \makecell[l]{\\subst:pl:gen:n:pt \\ subst:sg:gen:n:ncol \\ subst:pl:gen:m1 \\ subst:sg:gen:m1} & subst:pl:gen:n:pt  \\ 
 
-\textit{y} & \makecell[l]{The grapheme \textit{y} is used \\ instead of \textit{j} to signify \\ the /j/ sound} & \makecell[l]{\textit{arye} \\ `arias'} & \makecell[l]{subst:pl:acc:m3 \\ adj:pl:nom:m2:pos} & subst:pl:acc:f \\ 
+spelling: \textit{y} & \makecell[l]{The grapheme \textit{y} is used \\ instead of \textit{j} to signify \\ the /j/ sound} & \makecell[l]{\textit{arye} \\ `arias'} & \makecell[l]{subst:pl:acc:m3 \\ adj:pl:nom:m2:pos} & subst:pl:acc:f \\ 
 
-digits & \makecell[l]{The token is in digits} & \makecell[l]{\textit{1808} \\ `1808'} & \makecell[l]{adj:sg:gen:m3:pos \\ dig} & adj:sg:gen:m3:pos \\
+\makecell[l]{ambiguous: \\ digits} & \makecell[l]{The token is in digits} & \makecell[l]{\textit{1808} \\ `1808'} & \makecell[l]{adj:sg:gen:m3:pos \\ dig} & adj:sg:gen:m3:pos \\
 
-problematic & \makecell[l]{The choice of the tag \\ is up to the annotator \\ because of two spelling \\ variants or the word \\ having been derived} & \makecell[l]{\textit{oczytany} \\ `learned'} & \makecell[l]{adj:sg:nom:m1:pos\\ adj:sg:nom:m3:pos \\ ppas:sg:nom:\\\hspace{0.5cm}m1:perf:aff} & \makecell[l]{ppas:sg:nom:\\\hspace{0.5cm}m1:perf:aff} \\ 
+\makecell[l]{ambiguous: \\ problematic} & \makecell[l]{The choice of the tag \\ is up to the annotator \\ because of two spelling \\ variants or the word \\ having been derived} & \makecell[l]{\textit{oczytany} \\ `learned'} & \makecell[l]{adj:sg:nom:m1:pos\\ adj:sg:nom:m3:pos \\ ppas:sg:nom:\\\hspace{0.5cm}m1:perf:aff} & \makecell[l]{ppas:sg:nom:\\\hspace{0.5cm}m1:perf:aff} \\ 
 
-\textit{nie} & \makecell[l]{Spelling of the negation \\ with the negated word \\ in word classes that \\ normally do not allow it} & \makecell[l]{\textit{niema} \\ `(there) \\ aren't'} & \makecell[l]{fin:sg:ter:imperf \\ subst:sg:nom:f} & fin:sg:ter:imperf  \\ 
+spelling: \textit{nie} & \makecell[l]{Spelling of the negation \\ with the negated word \\ in word classes that \\ normally do not allow it} & \makecell[l]{\textit{niema} \\ `(there) \\ aren't'} & \makecell[l]{fin:sg:ter:imperf \\ subst:sg:nom:f} & fin:sg:ter:imperf  \\ 
 
-spelling & \makecell[l]{A likely spelling error \\ or the lack of a space \\ or a superfluous one} & \makecell[l]{\textit{kończ} \\ `end'} & \makecell[l]{subst:pl:gen:n:ncol \\ subst:pl:gen:f \\ impt:sg:sec:imperf} & subst:sg:gen:m3 \\ 
+\makecell[l]{spelling: other} & \makecell[l]{Other spelling differences} & \makecell[l]{\textit{kończ} \\ `end'} & \makecell[l]{subst:pl:gen:n:ncol \\ subst:pl:gen:f \\ impt:sg:sec:imperf} & subst:sg:gen:m3 \\ 
 
-archaic & \makecell[l]{The token is somewhat \\ archaic or regional} & \makecell[l]{\textit{wieleż} \\ `many'} & \makecell[l]{num:pl:acc:m3:rec \\ subst:sg:nom:m3 \\ subst:sg:nom:m1} & num:pl:acc:m3:rec \\ 
+\makecell[l]{vocabulary: \\ archaic} & \makecell[l]{The token is somewhat \\ archaic or regional} & \makecell[l]{\textit{wieleż} \\ `many'} & \makecell[l]{num:pl:acc:m3:rec \\ subst:sg:nom:m3 \\ subst:sg:nom:m1} & num:pl:acc:m3:rec \\ 
 
-foreign & The token is foreign & \makecell[l]{\textit{Toje} \\ `-'} & \makecell[l]{subst:sg:nom:n:ncol \\ xxx \\ subst:sg:nom:m1} & ign \\ 
+\makecell[l]{vocabulary: \\ foreign} & The token is foreign & \makecell[l]{\textit{Toje} \\ `-'} & \makecell[l]{subst:sg:nom:n:ncol \\ xxx \\ subst:sg:nom:m1} & ign \\ 
 
-surname & \makecell[l]{Potentially unfamiliar \\ surname token}  & \makecell[l]{\textit{Zabilskich} \\ `Zabilscy'} & \makecell[l]{subst:pl:gen:m1 \\ adj:pl:gen:f:pos \\ subst:pl:acc:m1} & subst:pl:gen:m1 \\ 
+\makecell[l]{name: \\ surname} & \makecell[l]{Potentially unfamiliar \\ surname token}  & \makecell[l]{\textit{Zabilskich} \\ `Zabilscy'} & \makecell[l]{subst:pl:gen:m1 \\ adj:pl:gen:f:pos \\ subst:pl:acc:m1} & subst:pl:gen:m1 \\ 
 
-uncommon & The token is uncommon & \makecell[l]{\textit{hoża} \\ `swift'} & \makecell[l]{adj:sg:nom:f:pos \\ subst:sg:nom:f} & adj:sg:nom:f:pos \\ 
+\makecell[l]{vocabulary: \\ uncommon} & The token is uncommon & \makecell[l]{\textit{hoża} \\ `swift'} & \makecell[l]{adj:sg:nom:f:pos \\ subst:sg:nom:f} & adj:sg:nom:f:pos \\ 
 
-currency & \makecell[l]{The token is a name \\ of a currency} & \makecell[l]{\textit{dukatów} \\ ducats} & \makecell[l]{subst:pl:gen:m3 \\ subst:pl:gen:m2} & subst:pl:gen:m2 \\
+\makecell[l]{ambiguous: \\ currency} & \makecell[l]{The token is a name \\ of a currency and \\ belongs to the \textit{m2} gender} & \makecell[l]{\textit{dukatów} \\ ducats} & \makecell[l]{subst:pl:gen:m3 \\ subst:pl:gen:m2} & subst:pl:gen:m2 \\
 
-\textit{e} & \makecell[l]{The grapheme \textit{e} is used \\ instead of another vowel \\ (commonly \textit{y})} & \makecell[l]{\textit{któremi} \\ `(with)\\which'} & \makecell[l]{adj:pl:inst:n:pos \\ subst:pl:inst:m3 \\ subst:pl:inst:m1 \\ adj:pl:inst:f:pos} & adj:pl:inst:m1:pos \\ 
+spelling: \textit{e} & \makecell[l]{The grapheme \textit{e} is used \\ instead of another vowel \\ (commonly \textit{y})} & \makecell[l]{\textit{któremi} \\ `(with)\\which'} & \makecell[l]{adj:pl:inst:n:pos \\ subst:pl:inst:m3 \\ subst:pl:inst:m1 \\ adj:pl:inst:f:pos} & adj:pl:inst:m1:pos \\ 
 
-gender & \makecell[l]{The token is assigned \\ the wrong gender} & \makecell[l]{\textit{Ja} \\ `I'} & \makecell[l]{\\ppron12:sg:nom:\\\hspace{0.5cm}m1:pri \\ {}} & \makecell[l]{ppron12:sg:nom:\\\hspace{0.5cm}f:pri} \\
+\makecell[l]{grammar: \\ gender} & \makecell[l]{The token is assigned \\ the wrong gender} & \makecell[l]{\textit{Ja} \\ `I'} & \makecell[l]{\\ppron12:sg:nom:\\\hspace{0.5cm}m1:pri \\ {}} & \makecell[l]{ppron12:sg:nom:\\\hspace{0.5cm}f:pri} \\
 
-vocative & \makecell[l]{The vocative case is \\ not properly recognized} & \makecell[l]{\textit{Ty} \\ `you'} & \makecell[l]{ppron12:sg:nom:\\\hspace{0.5cm}m1:sec} & \makecell[l]{ppron12:sg:voc:\\\hspace{0.5cm}m1:sec} \\
+\makecell[l]{grammar: \\ vocative} & \makecell[l]{The vocative case is \\ not properly recognized} & \makecell[l]{\textit{Ty} \\ `you'} & \makecell[l]{ppron12:sg:nom:\\\hspace{0.5cm}m1:sec} & \makecell[l]{ppron12:sg:voc:\\\hspace{0.5cm}m1:sec} \\
 
 abbreviation & \makecell[l]{The token is abbreviated} & \makecell[l]{\textit{śp} \\ `may his \\ soul rest \\ in peace'} & \makecell[l]{ \\ brev:pun \\ subst:sg:nom:m3 \\ subst:sg:nom:m1 \\ aglt:sg:sec:\\\hspace{0.5cm}imperf:nwok \\ {}} & brev:npun \\ 
 
-name & \makecell[l]{A potentially unfamiliar \\ first name token} & \makecell[l]{\textit{Melchior} \\ `Melchior'} & \makecell[l]{subst:sg:nom:m1 \\ subst:sg:nom:m3 \\ subst:sg:gen:f} & subst:sg:nom:m1 \\ 
+\makecell[l]{name: \\ given name} & \makecell[l]{A potentially unfamiliar \\ first name token} & \makecell[l]{\textit{Melchior} \\ `Melchior'} & \makecell[l]{subst:sg:nom:m1 \\ subst:sg:nom:m3 \\ subst:sg:gen:f} & subst:sg:nom:m1 \\ 
 
 \bottomrule
 %\end{tabular}
@@ -259,7 +343,7 @@ X & 93.53\% & 93.53\% & 73.58\% & 59.09\% \\
 \begin{tabular}{|l|cc|cc|}
 \hline \bf POS-tag & \multicolumn{2}{c|}{\bf Modern} & \multicolumn{2}{c|}{\bf Historical} \\
 \bf {} & \bf Precision & \bf Recall & \bf Precision & \bf Recall \\ \hline
-ADJ & 83.86\% & 91.58\% & 66.73\% & 75.08\% \\
+ADJ & 83.86\% & 91.58\% & 66.73\% & 75.08\% \\ 
 ADP & 96.65\% & 98.89\% & 96.18\% & 97.64\%  \\
 ADV & 79.69\% & 75.89\% & 75.09\% & 64.20\% \\
 AUX & 87.67\% & 82.98\% & 84.08\% & 78.33\% \\
@@ -283,7 +367,7 @@ X & 52.24\% & 41.42\% & 56.60\% & 45.45\% \\
 \end{table}
 \newpage
 
-\section{NKJP comparison output}
+\section{National Corpus of Polish vocabulary comparison output}
 \label{app:nkjp}
 
 Aside from counts and proportions of the tested vocabulary that could not be found in the National Corpus of Polish, specific tokens and lemmas were returned. The items listed below were not found in the selected subsection of the National Corpus of Polish. They are separated by whitespace.

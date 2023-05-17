@@ -5,59 +5,116 @@
 \subsection{Lemmatization}
 \label{subsec:lemmatization}
 
-As outlined in \autoref{subsec:stanza-tagging} and \autoref{subsec:morfeusz-tagging}, the two lemmatization tools that were used in this thesis were Stanza and Morfeusz. The only evaluation measure that was obtained for lemmatization was accuracy, as lemmatization differs from other classification problems in terms of the sheer number of possible classes, and therefore other measures were considered superfluous. \autoref{table:lemmas} depicts the accuracy per model and type of test data. What is immediately visible is Morfeusz's better performance on both modern and historical data. One potential explanation, that Stanza handles the input text worse than Morfeusz, has mostly been refuted by an inspection of the errors that both lemmatizers made and the fact that this tendency is consistent regardless of the type of data. Many of the mismatches between the gold standard lemma and the assigned lemma in the case of Stanza were due to Stanza returning all lemmas in lowercase by default, meaning that had capitalization been disregarded in this task, Stanza could have reached a higher accuracy score, both for modern and historical data.  \\
+As outlined in \autoref{subsec:stanza-tagging} and \autoref{subsec:morfeusz-tagging}, the two lemmatization tools that were used in this thesis were Stanza and Morfeusz. The only evaluation measure that was obtained for lemmatization was accuracy, as lemmatization differs from other classification problems in terms of the sheer number of possible classes, and therefore other measures were considered superfluous. Additionally, the measures, results, and error lists were returned for the original gold standard and predictions as well as for lowercased gold standard and predictions. This was done because Stanza appeared to return only lowercase predictions, and it was deemed interesting to compare how lowercasing would affect the lemmatization performance and variation detection. \autoref{table:lemmas} depicts the accuracy per model and type of test data. What is immediately visible is Morfeusz's better performance on both modern and historical data. As far as the original results and gold standard are concerned, many of the mismatches between the gold standard lemma and the assigned lemma in the case of Stanza were due to Stanza returning all lemmas in lowercase by default. Lowercasing both of the lists (not the input tokens, only the predictions and the standard) has proven to increase the performance of both of the tools, on both kinds of input (modern and historical), although to a slightly different extent. As far as the historical data is concerned, both of the lemmatizers improve by around 3 percentage points, meaning that the lowercase output is not the only cause of Stanza's inferior lemmatization performance.  \\
 
 \renewcommand{\arraystretch}{1.25}
 \begin{table}[h]
 \begin{center}
-\begin{tabular}{|cc|c|}
-\hline \bf Model & \bf Data & \bf Accuracy \\ \hline
+\begin{tabular}{|cc|c|c|}
+\hline \bf Model & \bf Data & \bf \makecell[c]{Accuracy \\ (regular, \%)} & \bf \makecell[c]{Accuracy \\ (lowercase, \%)} \\ \hline
 \multirow{2}{4em}{Stanza}
-& PDB & 90.89\%  \\
-& memoir & 83.49\%  \\
+& PDB & 90.89 & 92.34  \\
+& memoir & 83.37 & 86.27  \\
 \multirow{2}{4em}{Morfeusz}
-& PDB & 97.77\%  \\
-& memoir & 91.01\% \\ 
+& PDB & 97.77 & 98.37  \\
+& memoir & 91.01 & 94.22 \\ 
 \hline
 \end{tabular}
 \caption{\label{table:lemmas} Lemmatization accuracy per model and per test data type.}
 \end{center}
 \end{table}
 
-Another noticeable difference is the significantly worse performance of the taggers on the historical data when compared to the modern data. The qualitative error analysis conducted on tokens that were mislabelled by both of the lemmatizers\footnote{This allowed for the elimination of errors caused by tagger-specific issues and made it possible to focus on instances where it was more likely that it was the token itself that was problematic; for instance, this eliminated nearly all of the instances where Stanza returned a lowercase lemma where it was not expected to do that.} revealed characteristics of the mislabelled tokens that could be identified by a human annotator. The error statistics can be seen in \autoref{table:lemmas-errors}, and explanations and examples of the specific error types can be found in \autoref{table:error-type-explanations} in \autoref{error-types}. Two major categories that can be distinguished from among the errors are spelling-related ones and foreign vocabulary ones. The first category encompasses \textit{y}, \textit{e}, \textit{nie}, capitalization, abbreviation\footnote{This category does not include `spelling' as that error type is reserved for typos, while this overarching category is intended to gather tokens that are intentionally spelled in an unconventional way.}, while the latter - proper name, surname, name, foreign, archaic. Those two categories also appear to be rather text-specific, as the potentially unique vocabulary and a specific non-standard way of spelling are not features of the Polish language in general, but of the writing of this particular author. Naturally, there still are errors that stem from typos or ambiguities, but the bulk of the issues appear to be connected to the text's peculiarities. Simultaneously, the problematic tokens hint at there being a need for a more uniform way of determining what lemma to choose for verb-derived nouns and adjectives or words that have more than one acceptable spelling. What is worth pointing out is that while certain spelling decisions made by the author could be explained by there having been various competing spelling conventions, the substitution of \textit{a} for \textit{e} in a number of instances (perhaps more prominent in \autoref{subsec:upos-tagging}) appears to be characteristic of the Borderlands dialects of Polish, as described in \autoref{subsec:history-kresy}, proving that the variation in the text is not only diachronic but likely also regional.
+\renewcommand{\arraystretch}{1.25}
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{|l|cc|}
+\hline \bf Error Type & \bf Raw Freq. & \bf Relative Freq. (\%) \\ \hline
+spelling & 85 & 57.05  \\
+name & 45 & 30.20  \\
+abbreviation & 8 & 5.37 \\
+ambiguous & 5 & 3.36 \\
+unidentified & 3 & 2.01 \\
+vocabulary & 2 & 1.34 \\
+grammar & 1 & 0.67 \\
+\hline
+\end{tabular}
+\caption{\label{table:general-lemmas-errors} General types of errors and their raw and relative frequencies among the historical tokens that were mislabelled by both Stanza and Morfeusz.}
+\end{center}
+\end{table}
 
 \renewcommand{\arraystretch}{1.25}
 \begin{table}[h]
 \begin{center}
-\begin{tabular}{|c|cc|}
+\begin{tabular}{|l|cc|}
 \hline \bf Error Type & \bf Raw Freq. & \bf Relative Freq. (\%) \\ \hline
-\textit{y} & 35 & 24.14\%  \\
-proper name & 30 & 20.69\%  \\
-\textit{nie} & 19 & 13.10\%  \\
-spelling & 12 & 8.28\% \\ 
-surname & 12 & 8.28\% \\
-capitalization & 8 & 5.52\% \\
-abbreviation & 8 & 5.52\% \\
-\textit{e} & 7 & 4.83\% \\
-ambiguous & 3 & 2.07\% \\
-name & 3 & 2.07\% \\
-unidentified & 3 & 2.07\% \\
-problematic & 2 & 1.38\% \\
-foreign & 2 & 1.38\% \\
-archaic & 1 & 0.69\% \\
+spelling: \textit{y} & 39 & 26.17  \\
+name: other & 30 & 20.13  \\
+spelling: \textit{nie} & 19 & 12.75  \\
+spelling: other & 12 & 8.05 \\ 
+name: surname & 12 & 8.05 \\
+spelling: capitalization & 8 & 5.37 \\
+abbreviation & 8 & 5.37 \\
+spelling: \textit{e} & 7 & 4.70 \\
+ambiguous: other & 3 & 2.01 \\
+name: given name & 3 & 2.01 \\
+unidentified & 3 & 2.01 \\
+ambiguous: problematic & 2 & 1.34 \\
+vocabulary: foreign & 2 & 1.34 \\
+grammar: other & 1 & 0.67 \\
 \hline
 \end{tabular}
-\caption{\label{table:lemmas-errors} Types of errors and their raw and relative frequencies among the historical tokens that were mislabelled by both Stanza and Morfeusz.}
+\caption{\label{table:lemmas-errors} Detailed types of errors and their raw and relative frequencies among the historical tokens that were mislabelled by both Stanza and Morfeusz.}
 \end{center}
 \end{table}
 
-While a major drawback of this method of discovering a historical text's peculiarities is that there needs to be a gold standard to compare the performance of the lemmatizers to, it does reveal some interesting insights into the kinds of tokens that appear to be nonstandard for Polish and typical for a given text. What could be done in the case of texts with no gold standard is simply reviewing the entire output - but that would, in the long run, be almost identical to manually lemmatizing it in the first place.
+Another noticeable difference is the significantly worse tagging performance of the tools on the historical data when compared to the modern data. The qualitative error analysis conducted on tokens that were mislabelled by both of the lemmatizers\footnote{This allowed for the elimination of errors caused by tagger-specific issues and made it possible to focus on instances where it was more likely that it was the token itself that was problematic; for instance, this eliminated nearly all of the instances where Stanza returned a lowercase lemma where it was not expected to do that.} revealed characteristics of the mislabelled tokens that could be identified by a human annotator. The error statistics can be seen in \autoref{table:general-lemmas-errors} and \autoref{table:lemmas-errors} for the unaltered data and in \autoref{table:general-lowercase-lemmas-errors} and \autoref{table:lowercase-lemmas-errors} for the lowercased outputs and gold standards, while explanations and examples of the specific error types can be found in \autoref{table:general-error-type-explanations} and \autoref{table:error-type-explanations} in \autoref{error-types}. A number of general categories can be distinguished from among the errors. The most frequent one, \textbf{spelling}, encompasses \textit{y}, \textit{e}, \textit{nie}, capitalization, other spelling peculiarities. The second most prominent category is that of \textbf{name}, which includes surnames, given names, and other proper names. These two categories appear to be rather text-specific, as the potentially unique vocabulary and a specific non-standard way of spelling are not features of the Polish language in general, but of the writing of this particular author. While there are other general (and detailed) categories, they account for a much smaller selection of the errors present in the text, and the bulk of the issues appear to be connected to the text's peculiarities. Simultaneously, the problematic tokens hint at there being a need for a more uniform way of determining what lemma to choose for verb-derived nouns and adjectives or words that have more than one acceptable spelling. What is worth pointing out is that while certain spelling decisions made by the author could be explained by there having been various competing spelling conventions, the substitution of \textit{a} for \textit{e} in a number of instances (perhaps more prominent in \autoref{subsec:upos-tagging}) appears to be characteristic of the Borderlands dialects of Polish, as described in \autoref{subsec:history-kresy}, proving that the variation in the text is not only diachronic but likely also regional. It is also worth noting that some rare kinds of errors can be quite interesting too, as is the case with the one instance of the \textbf{grammar} error. In this case an unusual inflectional form \textit{człowiecze} `man' is selected for the vocative of \textit{człowiek}, with the modern form being \textit{człowieku}\footnote{The form \textit{człowiecze} is perhaps considered more poetic than archaic, but it is certainly not an everyday standard form.}. This difference is not listed in any of the previously discussed sources for historical Polish for the relevant time period, nor does it appear to be strictly dialectical; the form is attested for in the National Corpus of Polish, though. 
+
+\renewcommand{\arraystretch}{1.25}
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{|l|cc|}
+\hline \bf Error Type & \bf Raw Freq. & \bf Relative Freq. (\%) \\ \hline
+spelling & 75 & 63.56  \\
+name & 26 & 22.03  \\
+abbreviation & 8 & 6.78 \\
+ambiguous & 5 & 4.24 \\
+unidentified & 3 & 2.54 \\
+grammar & 1 & 0.85 \\
+\hline
+\end{tabular}
+\caption{\label{table:general-lowercase-lemmas-errors} General types of errors and their raw and relative frequencies among the historical tokens that were mislabelled by both Stanza and Morfeusz.}
+\end{center}
+\end{table}
+
+\renewcommand{\arraystretch}{1.25}
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{|l|cc|}
+\hline \bf Error Type & \bf Raw Freq. & \bf Relative Freq. (\%) \\ \hline
+spelling: \textit{y} & 38 & 32.20  \\
+name: other & 25 & 21.19  \\
+spelling: \textit{nie} & 18 & 15.25 \\
+spelling: other & 12 & 10.17 \\ 
+abbreviation & 8 & 6.78 \\
+spelling: \textit{e} & 7 & 5.93 \\
+ambiguous: other & 3 & 2.54 \\
+unidentified & 3 & 2.54 \\
+ambiguous: problematic & 2 & 1.69 \\
+name: surname & 1 & 0.85 \\
+grammar: other & 1 & 0.85 \\
+\hline
+\end{tabular}
+\caption{\label{table:lowercase-lemmas-errors} Detailed types of errors and their raw and relative frequencies among the historical tokens that were mislabelled by both Stanza and Morfeusz.}
+\end{center}
+\end{table}
+
+While comparing the results for the original and lowercased comparisons, one can note that the improvement in tool performance is due to some errors from the categories of spelling, name, and vocabulary disappearing. In the first and the last category it appears that capitalization still had some role to play --- a foreign word or an unusually spelled word were capitalized and therefore one of the taggers returned a capitalized lemma as well. The most major change occured in the category of name, though, with surnames and given names being the most affected, but with some of place names also now being "correctly" lemmatized. This hints to the casing of the output in comparison with the casing of the standard being quite relevant, and having the potential to lower the apparent tagging performance. Nevertheless, the gold standard lemmas were capitalized in the case of names since that is the UD standard which was being followed. Additionally, were the lemmatized forms to be used in some downstream tasks, the removal of capitalization could have negatively impacted those, as it does carry some meaning, especially for various kinds of proper names --- so while for this task lowercasing helped eliminate the instances that were not truly problematic or signified no variation other than the text including many names, overall the phenomenon of a lemmatizer only returning lowercase lemmas could be deemed disadvantageous.
+
+While a major drawback of this method of discovering a historical text's peculiarities is that there needs to be a gold standard to compare the overall performance of the lemmatizers to, it does reveal some interesting insights into the kinds of tokens that appear to be nonstandard for Polish and typical for a given text, including a plethora of proper names and unusual spelling, as well as singular instances of unconventional inflection. What could be done in the case of texts with no gold standard is simply reviewing the entire output.
 
 % UPOS
 \subsection{UPOS-tagging}
 \label{subsec:upos-tagging}
-
-As detailed in \autoref{subsec:bert-tagging}, \autoref{subsec:marmot-tagging}, \autoref{subsec:stanza-tagging}, and \autoref{subsec:ud-tagging}, the four taggers that either utilized or could be trained to utilize the UD tagset were BERT, Marmot, Stanza, and the UD Cloud tagger. Unlike in the case of lemmatization, when it comes to tagging, there is a specific number of classes in question, which allowed for the extension of the evaluation metrics from just accuracy to accuracy, weighted precision, weighted recall, and Matthew's Correlation Coefficient, which are presented in \autoref{table:upos}. Since the UD tagset is not large, precision and recall were also calculated for each class for a deeper insight into which classes are the most problematic \citep{ud-tagset}. These results can be found in \autoref{upos-class-measures}. Based on the general evaluation measures BERT performed best on both the modern and the historical dataset, while the UD Cloud tagger has the worst performance on both of the test sets. Although not by a lot, Stanza's neural pipeline outperforms Marmot. For all of the taggers, the historical dataset achieves a consistently lower score than the modern one, indicating issues that are not specific to the taggers themselves. 
 
 \renewcommand{\arraystretch}{1.25}
 \begin{table}[H]
@@ -78,55 +135,75 @@ As detailed in \autoref{subsec:bert-tagging}, \autoref{subsec:marmot-tagging}, \
 & memoir & 83.41\% & 84.12\% & 83.41\% & 81.17\% \\ 
 \hline
 \end{tabular}
-\caption{\label{table:upos} UPOS-tagging evaluation measures (accuracy, precision (weighted), recall (weighted)), Matthew's Correlation Coefficient per model and per test data type. Although calculated, F1 is not given since it can be calculated from precision and recall. Per class precision and recall can be found in \autoref{upos-class-measures}}
+\caption{\label{table:upos} UPOS-tagging evaluation measures (accuracy, precision (macroaveraged and weighted), recall (macroaveraged and weighted)), Matthews Correlation Coefficient per model and per test data type. Although calculated, F1 is not given since it can be derived from precision and recall. Per class precision and recall can be found in \autoref{upos-class-measures}}
 \end{center}
 \end{table}
 
-Similarly as in the case of lemmatization, manual annotation of errors made by the taggers has revealed certain recurring features, as outlined in \autoref{table:pos-errors}; this time, however, the token in question did not have to be misclassified by all of the taggers, and instead only two of them had to have made a mistake while tagging a given token, as that was deemed more likely to still remove the tagger-specific issues while preserving more information on the possible problematic features of the data than if all of the taggers had to misclassify the token. A more detailed definition of the types of errors along with examples can be found in \autoref{table:error-type-upos-explanations} in \autoref{error-types}.
+As detailed in \autoref{subsec:bert-tagging}, \autoref{subsec:marmot-tagging}, \autoref{subsec:stanza-tagging}, and \autoref{subsec:ud-tagging}, the four taggers that either utilized or could be trained to utilize the UD tagset were BERT, Marmot, Stanza, and the UD Cloud tagger. Unlike in the case of lemmatization, when it comes to tagging, there is a specific number of classes in question, which allowed for the extension of the evaluation metrics from just accuracy to accuracy, weighted precision, weighted recall, and Matthews Correlation Coefficient (MCC), which are presented in \autoref{table:upos}. MCC is featured in this comparison as it is considered to be appropriate for multiclass classification problems with unbalanced classes, and to be superior to accuracy in such cases \citep{matthewscc}. Since the UD tagset is not large, precision and recall were also calculated for each class for a deeper insight into which classes are the most problematic \citep{ud-tagset}. These results can be found in \autoref{upos-class-measures}. Based on the general evaluation measures BERT performed best on both the modern and the historical dataset, while the UD Cloud tagger has the worst tagging performance on both of the test sets. Although not by a lot, Stanza's neural pipeline outperforms Marmot. For all of the taggers, the historical dataset achieves a consistently lower score than the modern one, indicating issues that are not specific to the taggers themselves. 
 
-Similarly to the errors made during lemmatization, the errors can be divided into spelling-related and foreign vocabulary-related. However, another category appears to be taking shape here, namely that of form-related errors. These encompass a number of ambiguous, ending, problematic, and impersonal type errors, with the category of "ambiguous" being the most numerous error category in general. In that case, the word itself appears to be classified according to the wrong meaning or just by the ending, which can itself be ambiguous and lead to different interpretations. Clearly, the word form itself (or the inflectional ending itself) should not be the only factor determining a word's class; this may hint at an additional level of difficulty in terms of unusual word order if such information is utilized by the tagger. In addition, some errors stem from the UD tagging rules which are complicated e.g. when it comes to the VERB vs. AUX distinction for the verb \textit{być} in Polish. What is worth noting is the high number of capitalization-related errors. It appears that capitalization is factored in as a feature when it comes to tagging words as PROPN - and, as a result, regular words written unexpectedly with a capital letter at the start are often misclassified as such. 
+Similarly as in the case of lemmatization, manual annotation of errors made by the taggers has revealed certain recurring features, as outlined in \autoref{table:general-pos-errors} and \autoref{table:pos-errors}; this time, however, the token in question did not have to be misclassified by all of the taggers, and instead only two of them had to have made a mistake while tagging a given token, as that was deemed more likely to still remove the tagger-specific issues while preserving more information on the possible problematic features of the data than if all of the taggers had to misclassify the token. A more detailed definition of the types of errors along with examples can be found in \autoref{table:general-upos-error-type-explanations} and \autoref{table:error-type-upos-explanations} in \autoref{error-types}. It is worth pointing out that the kinds of changes that were made in the case of lemmatization, namely the lowercasing of the output and gold standard should make no difference here, and therefore that procedure was not carried out. 
 
 \renewcommand{\arraystretch}{1.25}
 \begin{table}[H]
 \begin{center}
-\begin{tabular}{|c|cc|}
+\begin{tabular}{|l|cc|}
 \hline \bf Error Type & \bf Raw Freq. & \bf Relative Freq. (\%) \\ \hline
-ambiguous & 208 & 21.80\% \\
-capitalization & 199 & 20.86\% \\
-\textit{y} & 109 & 11.43\%  \\
-unidentified & 62 & 6.50\% \\
-archaic & 59 & 6.19\% \\
-UD & 58 & 6.08\& \\
-surname & 41 & 4.30\% \\
-\textit{e} & 41 & 4.30\% \\
-\textit{nie} & 28 & 2.94\% \\
-ending & 24 & 2.56\% \\
-spelling & 23 & 2.41\% \\
-proper name & 21 & 2.20\% \\
-problematic & 20 & 2.10\% \\
-digits & 17 & 1.78\% \\
-foreign & 13 & 1.36\% \\
-uncommon & 12 & 1.26\% \\
-abbreviation & 11 & 1.15\% \\
-impersonal & 4 & 0.42\% \\
-name & 2 & 0.21\% \\
-currency & 1 & 0.11\% \\
-special & 1 & 0.11\% \\
+spelling & 404 & 42.35 \\
+ambiguous & 327 & 34.28 \\
+vocabulary & 79 & 8.28 \\
+name & 64 & 6.71 \\
+unidentified & 63 & 6.60 \\
+abbreviation & 11 & 1.15 \\
+grammar & 6 & 0.63 \\
 \hline
 \end{tabular}
-\caption{\label{table:pos-errors} Types of errors and their raw and relative frequencies among the historical tokens that were mislabelled by at least two of four UPOS taggers (BERT, Marmot, Stanza, UD Cloud).}
+\caption{\label{table:general-pos-errors} General types of errors and their raw and relative frequencies among the historical tokens that were mislabelled by at least two of four UPOS taggers (BERT, Marmot, Stanza, UD Cloud).}
 \end{center}
 \end{table}
 
-Class-specific measures yield a deeper insight into which classes in particular are more problematic. For BERT (as can be seen in \autoref{table:bert-pr}), all of the classes in the modern text, with the exception of INTJ and SYM perform very well. The two aforementioned classes could be problematic due to their scarcity. They are also not present at all in the historical data. As for the memoir, there is a noticeable drop in performance for ADV, AUX, PART, PROPN, SCONJ, and X - which are also less numerous than some of the other classes. Additionally, there is possibly some confusion between AUX and PART when it comes to the classification of the token \textit{to} `it' or `is'. Naturally, the numerous new proper nouns found in the historical text are also problematic, not to mention the issue of nonstandard capitalization. 
+Similarly to the errors made during lemmatization, the errors can be divided into overarching categories, with \textbf{spelling} and \textbf{ambiguous} being the most prominent ones. Unlike in the case of lemmatization, \textbf{name} errors do not constitute a large part of all the errors. \textbf{Unidentified} errors rise in importance relative to the other task. The \textbf{ambiguous} general class, which has seen the largest increase, includes errors pertaining to ambiguous word forms or endings, as well as noun- and adjective-like words formed by derivation which could be considered e.g. a participle form of a verb and errors stemming from UD guidelines concerning VERB and AUX tags. Clearly, the word form itself (or the inflectional ending itself) should not be the only factor determining a word's class; this may hint at an additional level of difficulty in terms of unusual word order if such information is utilized by the tagger. What is worth noting in the detailed error division is the high number of \textbf{capitalization} errors. It appears that capitalization is factored in as a feature when it comes to tagging words as PROPN --- and, as a result, regular words written unexpectedly with a capital letter at the start are often misclassified as such. One infrequent, but interesting type of error that surfaces in this task is that related to \textbf{impersonal} verb forms, such as \textit{cięto} `was being cut'. While this form is not uncommon in modern Polish, it appears to be problematic for some of the taggers. 
 
-Marmot (\autoref{table:marmot-pr}) similarly struggles with SYM and INTJ in the modern data, but it also scores relatively lower on AUX, PART, PROPN, and X on the PDB test set. When it comes to the historical data, a noticeable drop in performance can be noticed for the ADJ category, alongside ADV, AUX, PART, PROPN, SCONJ, and X. Aside from the ADJ category (which is more complicated due to place name-derived adjectived being capitalized by the author and surnames being misclassified as adjectives), the same categories seem to be problematic for Marmot as for BERT, although in this case some of these issues are already noticeable on the modern test set.
+\renewcommand{\arraystretch}{1.25}
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{|l|cc|}
+\hline \bf Error Type & \bf Raw Freq. & \bf Relative Freq. (\%) \\ \hline
+ambiguous: other & 208 & 21.80 \\
+spelling: capitalization & 199 & 20.86 \\
+spelling: \textit{y} & 109 & 11.43  \\
+unidentified & 63 & 6.60 \\
+vocabulary: archaic & 58 & 6.08 \\
+ambiguous: UD & 58 & 6.08 \\
+name: surname & 41 & 4.30 \\
+spelling: \textit{e} & 41 & 4.30 \\
+spelling: \textit{nie} & 28 & 2.94 \\
+spelling: other & 27 & 2.83 \\
+ambiguous: ending & 24 & 2.56 \\
+name: other & 21 & 2.20 \\
+ambiguous: problematic & 20 & 2.10 \\
+ambiguous: digits & 17 & 1.78 \\
+vocabulary: foreign & 13 & 1.36 \\
+vocabulary: uncommon & 12 & 1.26 \\
+abbreviation & 11 & 1.15 \\
+grammar: impersonal & 4 & 0.42 \\
+name: given name & 2 & 0.21 \\
+grammar: other & 2 & 0.21 \\
+vocabulary: stylized & 1 & 0.10 \\
+\hline
+\end{tabular}
+\caption{\label{table:pos-errors} Detailed types of errors and their raw and relative frequencies among the historical tokens that were mislabelled by at least two of four UPOS taggers (BERT, Marmot, Stanza, UD Cloud).}
+\end{center}
+\end{table}
 
-Stanza's results (which can be found in \autoref{table:stanza-pr}) show high precision, but low recall on the problematic INTJ and SYM classes. Otherwise, the tagger performs quite well across all of the categories in the modern data, with the possible exception of relatively low recall on PART. When it comes to the historical data, a noticeable drop in performance can be observed for ADJ, AUX, PROPN, SCONJ, and X, which again mostly overlaps with the categories that were problematic for the aforementioned taggers.
+Class-specific measures yield a deeper insight into which classes in particular are more problematic. For BERT (as can be seen in \autoref{table:bert-pr}), all of the classes in the modern text, with the exception of INTJ and SYM perform very well. The two aforementioned classes could be problematic due to their scarcity. They are also not present at all in the historical data. As for the memoir, there is a noticeable drop in tagging performance for ADV, AUX, PART, PROPN, SCONJ, and X --- which are also less numerous than some of the other classes. Additionally, there is possibly some confusion between AUX and PART when it comes to the classification of the token \textit{to} `it' or `is'. Naturally, the numerous new proper nouns found in the historical text are also problematic, not to mention the issue of nonstandard capitalization. 
 
-The UD Cloud tagger (\autoref{table:ud-pr}) shows a much more varied performance across the classes on both the modern and historical test data. As far as the PDB test set is concerned, it struggles with ADJ, ADV, AUX, NUM, PROPN, and X classes in particular. As for the memoir, a large drop in performance can be observed for most classes. Noticeably, the tagger performs well on ADP, CCONJ, and PUNCT, and has high precision, but very low recall on DET. While the issues that this tagger has with the modern data do partly overlap with the classes that were problematic for other taggers, this tendency is not that clear in the historical data due to the overall bad performance of the tagger. However, the issues visible on the PDB test set may hint at these classes being more problematic in both modern and historical data, and perhaps the errors made while classifying those are more visible due to the classes' lower frequencies.
+Marmot (\autoref{table:marmot-pr}) similarly struggles with SYM and INTJ in the modern data, but it also scores relatively lower on AUX, PART, PROPN, and X on the PDB test set. When it comes to the historical data, a considerable drop in tagging performance can be noticed for the ADJ category, alongside ADV, AUX, PART, PROPN, SCONJ, and X. Aside from the ADJ category (which is more complicated due to place name-derived adjectived being capitalized by the author and surnames being misclassified as adjectives), the same categories seem to be problematic for Marmot as for BERT, although in this case some of these issues are already noticeable on the modern test set.
 
-Although there is an overlap in terms of what features can lead to a token being misclassified, they seem to be of different importance when it comes to assigning UPOS tags compared to lemmatization. UPOS tagging does share the same issue as lemmatization when it comes to the need for some gold standard to compare the tagging to. While it does hint at certain text-specific issues, such as nonstandard spelling or unusual vocabulary, the bulk of the errors appears to stem from the ambiguity of some tokens.
+Stanza's results (which can be found in \autoref{table:stanza-pr}) show high precision, but low recall on the problematic INTJ and SYM classes. Otherwise, the tagger performs quite well across all of the categories in the modern data, with the possible exception of relatively low recall on PART. When it comes to the historical data, a noticeable drop in tagging performance can be observed for ADJ, AUX, PROPN, SCONJ, and X, which again mostly overlaps with the categories that were problematic for the aforementioned taggers.
+
+The UD Cloud tagger (\autoref{table:ud-pr}) shows a much more varied tagging performance across the classes on both the modern and historical test data. As far as the PDB test set is concerned, it struggles with ADJ, ADV, AUX, NUM, PROPN, and X classes in particular. As for the memoir, a large drop in tagging performance can be observed for most classes. Noticeably, the tagger performs well on ADP, CCONJ, and PUNCT, and has high precision, but very low recall on DET. While the issues that this tagger has with the modern data do partly overlap with the classes that were problematic for other taggers, this tendency is not that clear in the historical data due to the overall bad performance of the tagger. However, the issues visible on the PDB test set may hint at these classes being more problematic in both modern and historical data, and perhaps the errors made while classifying those are more visible due to the classes' lower frequencies.
+
+Although there is an overlap in terms of what features can lead to a token being misclassified, they seem to be of different importance when it comes to assigning UPOS tags compared to lemmatization. UPOS tagging does share the same issue as lemmatization when it comes to the need for some gold standard to compare the tagging to. While it does hint at certain text-specific issues, such as nonstandard spelling or unusual vocabulary, many of the errors appears to stem from the ambiguity of some tokens. Aside from the presence of the impersonal verb forms, which are not strictly speaking nonstandard, this experiment does not reveal any new kinds of variation.
 
 % XPOS
 \subsection{XPOS-tagging}
@@ -134,7 +211,7 @@ Although there is an overlap in terms of what features can lead to a token being
 
 In accordance with what was described in \autoref{subsec:bert-tagging}, \autoref{subsec:marmot-tagging}, \autoref{subsec:stanza-tagging}, and \autoref{subsec:morfeusz-tagging}, the four tools used for XPOS-tagging experiments were BERT, Marmot, Stanza's neural pipeline and the combination of the morphological analyzer Morfeusz and a morphosyntactic tagger Concraft-pl. All of these tools were previously used for either lemmatization or UPOS tagging. While the same general evaluation measures as in UPOS-tagging were employed in this task, a decision was made to leave out the tag-specific measures due to the sheer number of possible classes. The possible labels for the fine-tuned BERT model, extracted from the training and test set of PDB along with the historical data, consist of 898 different classes. 
 
-The overall performance of the tools in the XPOS-tagging task was worse than in the UPOS-tagging one. This could be attributed to a larger number of classes that require finer distinctions to be made. Same as before, all of the tools perform noticeably worse on historical data compared to modern data. The best-performing tool on both test sets is BERT and the worst is Marmot. What is worth pointing out in this case though is that Morfeusz and Concraft-pl's CRF architecture does outperform Stanza's neural pipeline slightly, but only on modern data.    
+The overall tagging performance of the tools in the XPOS-tagging task was worse than in the UPOS-tagging one. This could be attributed to a larger number of classes that require finer distinctions to be made. Same as before, all of the tools perform noticeably worse on historical data compared to modern data. The best-performing tool on both test sets is BERT and the worst is Marmot. What is worth pointing out in this case though is that Morfeusz and Concraft-pl's CRF architecture does outperform Stanza's neural pipeline slightly, but only on modern data.    
 
 \renewcommand{\arraystretch}{1.25}
 \begin{table}[H]
@@ -155,46 +232,64 @@ The overall performance of the tools in the XPOS-tagging task was worse than in 
 & memoir & 84.26\% & 86.83\% & 84.26\% & 83.76\% \\ 
 \hline
 \end{tabular}
-\caption{\label{table:xpos} XPOS-tagging evaluation measures (accuracy, precision (weighted), recall (weighted)), Matthew's Correlation Coefficient per model and per test data type. Although calculated, F1 is not given since it can be calculated from precision and recall.}
+\caption{\label{table:xpos} XPOS-tagging evaluation measures (accuracy, precision (macroaveraged and weighted), recall (macroaveraged and weighted)), Matthew's Correlation Coefficient per model and per test data type. Although calculated, F1 is not given since it can be calculated from precision and recall.}
 \end{center}
 \end{table}
 
-A manual error analysis and annotation has revealed a number of trends concerning the mistakes that the taggers make, as presented in \autoref{table:xpos-errors}. Definitions and examples of the errors can be found in \autoref{table:error-type-xpos-explanations} in \autoref{error-types}. A similar trend can be noticed in terms of the kinds of errors as in the UPOS-tagging task. The most numerous error type is the ambiguous errors, where one word form corresponds to multiple possible tags (e.g. in some declension paradigms certain cases have the same form). Once again, the prevalence of these errors hints either at the taggers not being able to properly utilize the contextual information that is necessary for the disambiguation of the class either due to their architecture or to the text's unusual word order; and again, the latter cannot be fully concluded simply from these results. 
-
-One relatively prominent error category, namely digits, appears to stem from the tools utilizing different strategies when it comes to numbers written as digits. Some of them classify them as \textit{dig}, while others attempt to provide the tag as if the number were written out with letters. Another tagset-related issue is that of currency mistakes; the XPOS tagset generally divides masculine nouns into three subgenders: m1, which includes animate human nouns, m2, which includes animate non-human nouns, and m3, which includes inanimate nouns. These are supposed to reflect which form the determiner \textit{który} `which' takes when referring to that noun \citep{ud-masculine-gender}. According to this, however, there are less obvious words that belong to the m2 category, such as currency names, which did seem to pose a problem for the taggers. In general, some mistakes were made when distinguishing between the m1 and m3 categories for other tokens as well, but they were not classified separately.
-
-Finally, although not numerous, two kinds of errors are worth mentioning in the context of the data, namely the gender and vocative ones. Although the gender category partly overlaps with the aforementioned masculine subgender distinction, a number of the instances in this error category stem from the fact that not all personal pronouns in Polish reflect gender (the first and second person in both singular and plural do not have an overt marking of the gender on the pronoun itself). However, since some do, all of the personal pronouns are annotated for gender. This leads to a number of personal pronouns being misclassified as masculine, when they should, in fact, be feminine, as they are uttered by a female character and followed by feminine verb or adjective forms. As for the vocative category, when the word can be interpreted otherwise, the taggers tend to not utilize the tags for the vocative case. Both of these issues hint at the fact that the training data used for the taggers may be lacking in dialogues where both first and second-person personal pronouns and nouns in the vocative case would be more present. Additionally, the tendency to select masculine over feminine for the pronouns may hint at a potential gender bias in the data.
+A manual error analysis and annotation have revealed a number of trends concerning the mistakes that the taggers make, as presented in \autoref{table:general-xpos-errors} and \autoref{table:xpos-errors}. Definitions and examples of the errors can be found in \autoref{table:general-uxpos-error-type-explanations} and \autoref{table:error-type-xpos-explanations} in \autoref{error-types}. A similar trend can be noticed in terms of the kinds of errors as in the UPOS-tagging task. This time, the most numerous error type is the \textbf{ambiguous} errors (both in the general and detailed error classification), where one word form corresponds to multiple possible tags (e.g. in some declension paradigms certain cases have the same form). Once again, the prevalence of these errors hints either at the taggers not being able to properly utilize the contextual information that is necessary for the disambiguation of the class either due to their architecture or to the text's unusual word order; and again, the latter cannot be fully concluded simply from these results. While \textbf{spelling} and \textbf{name} errors are still relatively prominent, the first category has become proportionally noticeably less common, while the latter one's relative frequency has doubled; the same can be said about the \textbf{unidentified} errors. 
 
 \renewcommand{\arraystretch}{1.25}
 \begin{table}[H]
 \begin{center}
-\begin{tabular}{|c|cc|}
+\begin{tabular}{|l|cc|}
 \hline \bf Error Type & \bf Raw Freq. & \bf Relative Freq. (\%) \\ \hline
-ambiguous & 199 & 38.20\% \\
-unidentified & 65 & 12.48\% \\
-proper name & 52 & 9.98\% \\
-\textit{y} & 39 & 7.49\% \\
-digits & 25 & 4.80\% \\
-problematic & 22 & 4.22\% \\
-\textit{nie} & 20 & 3.84\% \\
-spelling & 18 & 3.46\% \\
-archaic & 17 & 3.26\% \\
-foreign & 16 & 3.07\% \\
-surname & 12 & 2.30\% \\
-uncommon & 10 & 1.92\% \\
-currency & 8 & 1.54\% \\
-\textit{e} & 7 & 1.34\% \\
-gender & 4 & 0.77\% \\
-vocative & 3 & 0.58\% \\
-abbreviation & 2 & 0.38\% \\
-name & 2 & 0.38\% \\
+ambiguous & 254 & 48.75 \\
+spelling & 84 & 16.12 \\
+name & 66 & 12.67 \\
+unidentified & 65 & 12.48 \\
+vocabulary & 43 & 8.25 \\
+grammar & 7 & 1.34 \\
+abbreviation & 2 & 0.38 \\
 \hline
 \end{tabular}
-\caption{\label{table:xpos-errors} Types of errors and their raw and relative frequencies among the historical tokens that were mislabelled by at least two of four XPOS taggers (BERT, Marmot, Stanza, Morfeusz).}
+\caption{\label{table:general-xpos-errors} General types of errors and their raw and relative frequencies among the historical tokens that were mislabelled by at least two of four UPOS taggers (BERT, Marmot, Stanza, UD Cloud).}
 \end{center}
 \end{table}
 
-The issues that plague the XPOS taggers resemble those characteristic of UPOS tagging, with some novel types of errors being more indicative of the issues with the tagset or the training data. Once again, while this method does hint at unusual vocabulary and spelling practices being present in the text, and allows for the noticing of patterns within those trends, it requires prior manual annotation, which makes it more difficult to utilize it at a larger scale.
+One relatively prominent error category, namely digits, appears to stem from the tools utilizing different strategies when it comes to numbers written as digits. Some of them classify them as \textit{dig}, while others attempt to provide the tag as if the number were written out with letters. Another tagset-related issue is that of currency mistakes; the XPOS tagset generally divides masculine nouns into three subgenders: m1, which includes animate human nouns, m2, which includes animate non-human nouns, and m3, which includes inanimate nouns. These are supposed to reflect which form the determiner \textit{który} `which' takes when referring to that noun \citep{ud-masculine-gender}. According to this, however, there are less obvious words that belong to the m2 category, such as currency names, which did seem to pose a problem for the taggers. In general, some mistakes were made when distinguishing between the m1 and m3 categories for other tokens as well, but they were not classified separately.
+
+\renewcommand{\arraystretch}{1.25}
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{|l|cc|}
+\hline \bf Error Type & \bf Raw Freq. & \bf Relative Freq. (\%) \\ \hline
+ambiguous: other & 199 & 38.20 \\
+unidentified & 65 & 12.48 \\
+name: other & 52 & 9.98 \\
+spelling: \textit{y} & 39 & 7.49 \\
+ambiguous: digits & 25 & 4.80 \\
+ambiguous: problematic & 22 & 4.22 \\
+spelling: \textit{nie} & 20 & 3.84 \\
+spelling: other & 18 & 3.45 \\
+vocabulary: archaic & 17 & 3.26 \\
+vocabulary: foreign & 16 & 3.07 \\
+name: surname & 12 & 2.30 \\
+vocabulary: uncommon & 10 & 1.92 \\
+ambiguous: currency & 8 & 1.54 \\
+spelling: \textit{e} & 7 & 1.34 \\
+grammar: gender & 4 & 0.77 \\
+grammar: vocative & 3 & 0.58 \\
+abbreviation & 2 & 0.38 \\
+name: given name & 2 & 0.38 \\
+\hline
+\end{tabular}
+\caption{\label{table:xpos-errors} Detailed types of errors and their raw and relative frequencies among the historical tokens that were mislabelled by at least two of four XPOS taggers (BERT, Marmot, Stanza, Morfeusz).}
+\end{center}
+\end{table}
+
+Finally, although not numerous, two kinds of errors are worth mentioning in the context of the data, namely the \textbf{gender} and \textbf{vocative} ones. Although the \textbf{gender} category partly overlaps with the aforementioned masculine subgender distinction, a number of the instances in this error category stem from the fact that not all personal pronouns in Polish reflect gender (the first and second person in both singular and plural do not have an overt marking of the gender on the pronoun itself). However, since some do, all of the personal pronouns are annotated for gender. This is surprising, as for some of them the form does not indicate this feature, and it could only be deduced from the context, which is not always sufficient; it appears that the majority of such ambiguous cases in PDB are treated as masculine. This leads to a number of personal pronouns being misclassified as masculine, when they should, in fact, be feminine, as they are uttered by a female character and followed by feminine verb or adjective forms. While this is still a tagger error (there do exist instances in the PDB corpus where such a pronoun was classified as feminine), it highlights an important issue with the tagset and possibly the tagging convention. As for the \textbf{vocative} category, when the word can be interpreted otherwise, the taggers tend to not utilize the tags for the vocative case; one item classified as this kind of error actually supports the claim that the nominative and vocative could be the same in Borderlands Polish, as described in \autoref{subsec:history-kresy}. Both of these issues hint at the fact that the training data used for the taggers may be lacking in dialogues where both first and second-person personal pronouns and nouns in the vocative case would be more present. Additionally, the tendency to select masculine over feminine for the pronouns may hint at a potential gender bias in the data.
+
+The issues that plague the XPOS taggers resemble those characteristic of UPOS tagging, with some novel types of errors being more indicative of the issues with the tagset or the training data, such as the \textbf{gender} and \textbf{vocative} ones. Once again, while this method does hint at unusual vocabulary and spelling practices being present in the text, and allows for the noticing of patterns within those trends, it requires prior manual annotation, which makes it more difficult to utilize it at a larger scale. 
 
 % ngrams 
 \subsection{N-gram statistics}
@@ -202,74 +297,122 @@ The issues that plague the XPOS taggers resemble those characteristic of UPOS ta
 
 The constructed unigram comparisons for UPOS and XPOS tags offer insight into the composition of the text, without delving into the word order or sentence structure. Due to there being over 600 different XPOS tags in the combined test sets (and even more when it comes to their combinations in bi- and trigrams), the entirety of the comparison cannot be represented within this thesis, and instead a subsection of the most popular tags will be discussed. \texttt{.xlsx} files with full comparisons, sorted by the relative frequency of an n-gram in the PDB data can be found in the thesis repository, as outlined in \autoref{app-resources}. 
 
+When it comes to the UPOS unigram frequencies, as presented in \autoref{table:upos-unigrams}, for the majority of the tags the difference is not large. The exception is punctuation, which is noticeably less numerous in the memoir. This could be caused by unusual punctuation employed by the author or differences in terms of the structure of the sentences in both of the sets. Longer sentences without many commas or very few utterances in quotation marks could account for a part of this discrepancy. On the other hand, the memoir features proportionally more PROPN items than the PDB test set. As detailed in the other subsections of this section, these tokens do account for a non-negligible part of what sets the historical text apart from modern ones, both in terms of vocabulary differences and issues with lemmatization and tagging. While the prevalence of PROPN is more likely due to the genre or the topic of the memoir, higher relative frequencies of CCONJ and DET in the memoir seem to indicate something related more to the language or the style of the text. The frequency of CCONJ may indicate, along with the lower relative number of punctuation, that the author prefers long sentences the components of which are connected using coordinating conjunctions, instead of splitting them into shorter sentences. As for DET, it is important to note that while Polish does not have a proper article system, DET is used to denote demonstrative pronouns and possessive pronouns. While this could partly be explained by the topic and the fact that within a coherent text like the memoir the author may, for example, refer more to previously mentioned entities (which would warrant using demonstrative pronouns), it could also, to an extent, be simply typical for the author's language. Another interesting general observation that can be made is that lexical categories, with the exception of PROPN and NUM, are more prominent in PDB than in the memoir, while the memoir features proportionally more function words. These differences hint at the possibility of a different distribution of certain constructions, but that could be a consequence of genre differences, not just diachronic or regional variation. 
+
 \renewcommand{\arraystretch}{1.25}
 \begin{table}[H]
 \begin{center}
 \begin{tabular}{|c|cc|}
 \hline \bf UPOS tag & \bf \makecell[c]{PDB \% \\ frequency} & \bf \makecell[c]{memoir \% \\ frequency} \\ \hline
-NOUN & \textbf{24.94\%} & 23.86\% \\
-PUNCT & \textbf{16.76\%} & 11.71\% \\
-VERB & \textbf{11.57\%} & 10.97\% \\
-ADP & 10.49\% & \textbf{11.53\%} \\
-ADJ & \textbf{10.00\%} & 9.01\% \\
-PRON & 4.75\% & \textbf{4.91\%} \\
-PROPN & 3.32\% & \textbf{6.83\%} \\
-CCONJ & 3.26\% &\textbf{ 5.28\%} \\
-ADV & 3.25\% & \textbf{3.29\%} \\
-PART & \textbf{2.86\%} & 2.00\% \\
-DET & 2.52\% & \textbf{4.19\%} \\
-AUX & 2.50\% & \textbf{2.56\%} \\
-SCONJ & \textbf{2.04\%} & 1.93\% \\
-X & \textbf{0.92\%} & 0.64\% \\
-NUM & 0.79\% & \textbf{1.29\%} \\
-INTJ & \textbf{0.03\%} & 0.00\% \\
-SYM & \textbf{0.01\%} & 0.00\% \\
+NOUN & \textbf{24.94} & 23.86 \\
+PUNCT & \textit{\textbf{16.76}} & \textit{11.71} \\
+VERB & \textbf{11.57} & 10.97 \\
+ADP & 10.49 & \textbf{11.53} \\
+ADJ & \textbf{10.00} & 9.01 \\
+PRON & 4.75 & \textbf{4.91} \\
+PROPN & \textit{3.32} & \textit{\textbf{6.83}} \\
+CCONJ & \textit{3.26} & \textit{\textbf{ 5.28}} \\
+ADV & 3.25 & \textbf{3.29} \\
+PART & \textbf{2.86} & 2.00 \\
+DET & 2.52 & \textbf{4.19} \\
+AUX & 2.50 & \textbf{2.56} \\
+SCONJ & \textbf{2.04} & 1.93 \\
+X & \textbf{0.92} & 0.64 \\
+NUM & 0.79 & \textbf{1.29} \\
+INTJ & \textbf{0.03} & 0.00 \\
+SYM & \textbf{0.01} & 0.00 \\
 \hline
 \end{tabular}
-\caption{\label{table:upos-unigrams} The UPOS unigram \% frequencies for the modern and historical test data. The higher relative frequency is indicated in bold.}
+\caption{\label{table:upos-unigrams} The UPOS unigram \% frequencies for the modern and historical test data. The higher relative frequency is indicated in bold, and the most prominent differences are in italics.}
 \end{center}
 \end{table}
 
-When it comes to the UPOS unigram frequencies, as presented in \autoref{table:upos-unigrams}, for the majority of the tags the difference is not large. The exception is punctuation, which is noticeably less numerous in the memoir. This could be caused by unusual punctuation employed by the author or differences in terms of the structure of the sentences in both of the sets. Longer sentences without many commas or very few utterances in quotation marks could account for a part of this discrepancy. On the other hand, the memoir features proportionally more PROPN items than the PDB test set. As detailed in the other subsections of this section, these tokens do account for a non-negligible part of what sets the historical text apart from modern ones, both in terms of vocabulary differences and issues with lemmatization and tagging. While the prevalence of PROPN is more likely due to the genre or the topic of the memoir, higher relative frequencies of CCONJ and DET in the memoir seem to indicate something related more to the language or the style of the text. The frequency of CCONJ may indicate, along with the lower relative number of punctuation, that the author prefers long sentences the components of which are connected using coordinating conjunctions, instead of splitting them into shorter sentences. As for DET, it is important to note that while Polish does not have a proper article system, DET is used to denote demonstrative pronouns and possessive pronouns. While this could partly be explained by the topic and the fact that within a coherent text like the memoir the author may, for example, refer more to previously mentioned entities (which would warrant using demonstrative pronouns), it could also, to an extent, be simply typical for the author's language.
+As mentioned before, bigram and trigram frequency lists are too large to be included in the thesis, possibly even in the appendix. They can be accessed in the form of \texttt{.xlsx} files in the repository included in \autoref{app-resources}. Nevertheless, a discussion of them is warranted, as, unlike unigrams, they may hold clues to variation in word order and syntax. Since the relative frequencies provided for bigrams situate them in the general collection of all the bigrams, it is not possible to compare them directly within one subcategory. That is because, for example, the frequencies of all the bigrams starting with <BOS>\footnote{A placeholder or padding token marking the beginning of sentence.} in the historical data do not add up to the same fraction as in the modern data. Therefore, while the bigram <BOS> SCONJ may have the relative frequency in the modern text of ~0.15\% and ~0.10\% in the modern text, 0.10\% could constitute half of all the instances of bigrams starting with <BOS> for the historical text, while 0.15\% could instead only be a fourth of all such bigrams in the modern data. Because of that, comparisons across different n-grams starting with the same tag are not reliable.
 
-As mentioned before, bigram and trigram frequency lists are too large to be included in the thesis, possibly even in the appendix. They can be accessed in the form of \texttt{.xlsx} files in the repository included in \autoref{app-resources}. Nevertheless, a discussion of them is warranted, as, unlike unigrams, they may hold clues to variation in word order and syntax. Since the relative frequencies provided for bigrams situate them in the general collection of all the bigrams, it is not possible to compare them directly within one subcategory (meaning that the frequencies of all the bigrams starting with <BOS> in the historical data do not add up to the same fraction as in the modern data).
+Regardless of that, certain interesting trends can be noted. The relevant bigrams are displayed in \autoref{table:selected-bigrams} Although the sentences in the memoir tend to be longer than in PDB, the <BOS> CCONJ bigram is still relatively more numerous in historical data, which appears to be a peculiarity of the author's language, perhaps indicating a more informal style of writing. There is also a large discrepancy when it comes to <BOS> PUNCT, this time in favor of PDB, also indicating that there are more examples in that set that are marked as utterances in a dialogue or quotes. The historical data seems to feature more ADJ ADJ bigrams, which could indicate the omission of a comma that normally separates those. Relatively, the modern text features more ADJ NOUN bigrams than the memoir; it also has a higher relative count of NOUN ADJ bigrams, which indicates that a comparison against the whole selection of bigrams and not just within a subcategory can be less informative, as one needs to factor in the frequency of the constituent tags themselves. 
 
-Regardless of that, certain interesting trends can be noted. Overall, there appear to be fewer bigrams starting with <BOS> in the historical data, which would support the idea that the text consists of longer sentences than the PDB test set. Despite that, in the historical data, the <BOS> CCONJ bigram is still relatively more numerous, which appears to be a peculiarity of the author's language, perhaps indicating a more informal style of writing. There is also a large discrepancy when it comes to <BOS> PUNCT, this time in favor of PDB, also indicating that there are more examples in that set that are marked as utterances in a dialogue or quotes. The historical data seems to feature more ADJ ADJ bigrams, which could indicate the omission of a comma that normally separates those. Relatively, the modern text features more ADJ NOUN bigrams than the memoir; it also has a higher relative count of NOUN ADJ bigrams, which indicates that a comparison against the whole selection of bigrams and not just within a subcategory can be less informative, as one needs to factor in the frequency of the constituent tags themselves. 
+\renewcommand{\arraystretch}{1.1}
+\begin{longtable}[H]{|cc|c|c|}
+%\begin{center}
+%\begin{tabular}{p{2cm}p{4.5cm}p{3.5cm}p{1.75cm}p{1.75cm}}
+\hline \bf Tag 1 & \bf Tag 2 & \bf \makecell[c]{PDB \% \\ frequency} & \bf \makecell[c]{memoir \% \\ frequency} \\ \hline
+<BOS> & CCONJ & 0.17 & 0.24 \\ \hline
+ADJ & ADJ & 0.33 & 0.65 \\
+ADJ & NOUN & 4.61 & 3.50 \\
+ADJ & PROPN & 0.15 & 0.25 \\ \hline
+ADP & PROPN & 0.57 & 1.86 \\ \hline
+AUX & ADP & 0.18 & 0.34 \\
+AUX & ADV & 0.18 & 0.25 \\
+AUX & PROPN & 0.02 & 0.09 \\ \hline
+DET & ADJ & 0.23 & 0.26 \\
+DET & NOUN & 1.35 & 2.07 \\
+DET & PROPN & 0.00 & 0.22 \\ \hline
+NOUN & ADJ & 3.38 & 2.90 \\
+NOUN & DET & 0.34 & 1.47 \\
+NOUN & VERB & 2.55 & 2.66 \\ \hline 
+PROPN & DET & 0.01 & 0.07 \\
+PROPN & VERB & 0.47 & 0.91 \\ \hline
+VERB & NOUN & 1.79 & 2.15 \\ 
+VERB & PROPN & 0.16 & 0.15 \\
+\hline
+%\end{tabular}
+%\end{center}
+\caption{\label{table:selected-bigrams} Relative frequencies for the modern and historical data for selected UPOS bigrams, rounded to two decimals.}
+\end{longtable}
 
-The historical text seems to feature more ADP PROPN bigrams, which is reasonable given the prevalence of the PROPN tag in the memoir. There appears to be some variation in terms of the bigrams starting with AUX, with a surprising disparity in favor of PDB when it comes to the AUX VERB bigram; this is especially noticeable given the fact that proportionally the counts for AUX and VERB separately are not very different in both test sets. AUX appears to be followed more often by ADP or NOUN in the historical data. The DET NOUN and DET PROPN combinations are noticeably more frequent in the historical data than in the modern data, but there is no large difference between the frequencies for DET ADJ for the two sets. Similarly, the historical data shows proportionally many more NOUN DET combinations, hinting at a possible word order variation. The same can be noticed for PROPN DET and DET PROPN. While verbs seem to be more often directly followed by nouns in the historical data, it is impossible to determine whether that is due to some word order inversion or simply because of the object immediately following the verb. There is a small number of bigrams that only appear in one of the sets of data, partly due to INTJ and SYM only being present in the PDB data.
+The historical text seems to feature more ADP PROPN bigrams, which is reasonable given the prevalence of the PROPN tag in the memoir. There appears to be some variation in terms of the bigrams starting with AUX, with a surprising disparity in favor of PDB when it comes to the AUX VERB bigram; this is especially noticeable given the fact that proportionally the counts for AUX and VERB separately are not very different in both test sets. One possible explanation is that PDB may contain more conditional and future clauses, where auxiliaries are used, whereas the memoir is mostly recounting the past, where auxiliaries are not nearly as common. AUX appears to be followed more often by ADP or NOUN in the historical data. The DET NOUN and DET PROPN combinations are noticeably more frequent in the historical data than in the modern data, but there is no large difference between the frequencies for DET ADJ for the two sets. Similarly, the historical data shows proportionally many more NOUN DET combinations, hinting at a possible word order variation. The same can be noticed for PROPN DET and DET PROPN. While verbs seem to be more often directly followed by nouns in the historical data, it is impossible to determine whether that is due to some word order inversion or simply because of the object immediately following the verb. There is a small number of bigrams that only appear in one of the sets of data, partly due to INTJ and SYM only being present in the PDB data.
 
-As far as trigrams are concerned, many more combinations are available, and, unfortunately, not all of them can be discussed within this subsection, so a special focus will be put on the trends that were already previously noticed, such as the word order in adjectival phrases. The ADJ DET NOUN and ADJ NOUN DET trigrams appear more common in the historical data. DET ADJ NOUN appears to be equally frequent, while DET NOUN ADJ and NOUN DET ADJ are again more common in the historical data. While these results may be hinting at a tendency for unusual word order in certain phrases, this method does not allow for the distinction of whether the ADJ and DET elements were actually modifiers for the NOUN token. While this could be more noticeable in XPOS bigrams and trigrams, the number of possible combinations makes it impossible for any more in-depth analysis of those results without further computational processing, which is why the discussion of the results obtained for XPOS bigrams and trigrams is omitted (while the XPOS unigrams are discussed below).
+\renewcommand{\arraystretch}{1}
+\begin{longtable}[H]{|ccc|c|c|}
+%\begin{center}
+%\begin{tabular}{p{2cm}p{4.5cm}p{3.5cm}p{1.75cm}p{1.75cm}}
+\hline \bf Tag 1 & \bf Tag 2 & \bf Tag 3 & \bf \makecell[c]{PDB \% \\ frequency} & \bf \makecell[c]{memoir \% \\ frequency} \\ \hline
+ADJ & DET & NOUN & 0.02 & 0.11 \\
+ADJ & NOUN & DET & 0.04 & 0.13 \\ \hline
+DET & ADJ & NOUN & 0.15 & 0.15 \\
+DET & NOUN & ADJ & 0.11 & 0.15 \\ \hline
+NOUN & ADJ & DET & 0.01 & 0.04 \\
+NOUN & DET & ADJ & 0.02 & 0.07 \\
+\hline
+%\end{tabular}
+%\end{center}
+\caption{\label{table:selected-trigrams} Relative frequencies for the modern and historical data for selected UPOS trigrams, rounded to two decimals.}
+\end{longtable}
+
+As far as trigrams are concerned, many more combinations are available, and, unfortunately, not all of them can be discussed within this subsection, so a special focus will be put on the trends that were already previously noticed, such as the word order in adjectival phrases, and the relevant trigrams and their relative frequencies are can be found in \autoref{table:selected-trigrams}. The ADJ DET NOUN and ADJ NOUN DET trigrams appear more common in the historical data. DET ADJ NOUN appears to be equally frequent, while DET NOUN ADJ and NOUN DET ADJ are again more common in the historical data. While these results may be hinting at a tendency for unusual word order in certain phrases, this method does not allow for the distinction of whether the ADJ and DET elements were actually modifiers for the NOUN token. While this could be more noticeable in XPOS bigrams and trigrams, the number of possible combinations makes it impossible for any more in-depth analysis of those results without further computational processing, which is why the discussion of the results obtained for XPOS bigrams and trigrams is omitted (while the XPOS unigrams are discussed below).
 
 \renewcommand{\arraystretch}{1.25}
 \begin{table}[H]
 \begin{center}
 \begin{tabular}{|c|cc|}
 \hline \bf XPOS tag & \bf \makecell[c]{PDB \% \\ frequency} & \bf \makecell[c]{memoir \% \\ frequency} \\ \hline
-interp & \textbf{16.77\%} & 13.56\% \\
-part &\textbf{ 4.74\%} & 3.48\% \\
-conj & 3.26\% & \textbf{4.98\%} \\
-fin:sg:ter:imperf & \textbf{3.00\%} & 0.61\% \\
-subst:sg:gen:f & \textbf{2.51\%} & 1.71\% \\
-prep:loc:nwok & \textbf{2.47\%} & 1.65\% \\
-comp & 2.04\% & \textbf{2.26\%} \\
-subst:sg:nom:m1 & 1.92\% & \textbf{4.56\%} \\
-subst:sg:nom:f & 1.88\% &\textbf{ 2.17\%} \\
-prep:loc & \textbf{1.71\%} & 1.37\% \\
+interp & \textbf{16.77} & 13.36 \\
+subst:sg:nom:m1 & 1.92 & \textbf{4.56} \\
+praet:sg:m1:imperf & 0.67 & \textbf{3.15} \\
+fin:sg:ter:imperf & \textbf{3.00} & 0.61 \\
+conj & 3.26 & \textbf{4.98} \\
+praet:sg:m1:perf & 1.00 & \textbf{2.42} \\
+part & \textbf{4.74} & 3.49 \\
+subst:sg:acc:m1 & 0.21 & \textbf{1.44} \\
+adj:sg:nom:m1:pos & 0.46 & \textbf{1.65} \\
+fin:pl:ter:imperf & \textbf{1.04} & 0.12 \\
 \hline
 \end{tabular}
-\caption{\label{table:xpos-unigrams} The top 10 XPOS unigram \% frequencies for the modern and historical test data. The higher relative frequency is indicated in bold. The full comparison of unigrams can be found in \autoref{app-resources}.}
+\caption{\label{table:xpos-unigrams} The top 10 XPOS unigram \% frequencies with the largest difference between the modern and historical test data. The higher relative frequency is indicated in bold. The full comparison of unigrams can be found in \autoref{app-resources}.}
 \end{center}
 \end{table}
 
-While due to the sheer number of the XPOS tags appearing in the test data an equally detailed analysis cannot be conducted, certain interesting trends can be identified. Once more, punctuation appears on the top of the frequency table, with the PDB test set having proportionally more such tokens. What is interesting is that the PDB test set features significantly more verbs in the present tense (fin) as opposed to the memoir, in which past forms (praet) prevail. This is not unexpected given the genre of the memoir, but it could also hint at certain forms being underrepresented in the PDB. The prevalence of tokens marked as subst:sg:nom:m1, which refers not just to masculine, but masculine animate human nouns, indicates a certain bias in the memoir, where male characters were given more spotlight by the author. Looking at the full data, contrary to the expectations, vocative forms do not appear to be proportionally severely underrepresented in the PDB, but they are not frequent in general, which may lead to issues with detecting those forms by tools trained on the PDB. There is a number of tags that only appear in one of the test sets; their total number is still smaller than that of the classes used for training the BERT model (based on the test sets and the PDB training set). However, it is possible that even this collection of tags is incomplete given the number of possible feature combinations.
+While due to the sheer number of the XPOS tags appearing in the test data an equally detailed analysis cannot be conducted, certain interesting trends can be identified, especially when the classes with the largest frequency differences are considered (\autoref{table:xpos-unigrams}). Once more, punctuation appears on the top of the frequency table, with the PDB test set having proportionally more such tokens. What is interesting is that the PDB test set features significantly more verbs in the present tense (fin) as opposed to the memoir, in which past forms (praet) prevail. This is not unexpected given the genre of the memoir, but it could also hint at certain forms being underrepresented in the PDB. The prevalence of tokens marked as subst:sg:acc:m1, which refers not just to masculine, but masculine animate human nouns, indicates a certain bias in the memoir, where male characters were given more spotlight by the author. Looking at the full data, contrary to the expectations, vocative forms do not appear to be proportionally severely underrepresented in the PDB, but they are not frequent in general, which may lead to issues with detecting those forms by tools trained on the PDB. There is a number of tags that only appear in one of the test sets; their total number is still smaller than that of the classes used for training the BERT model (based on the test sets and the PDB training set). However, it is possible that even this collection of tags is incomplete given the number of possible feature combinations.
 
-While this method does reveal distributional differences, its usefulness is mostly constrained to unigrams and UPOS bigrams, as more processing of the results would be needed for data where there are thousands of n-gram combinations. Additionally, while presenting the bigram or trigram frequency as a fraction of the whole set of n-grams does allow for some comparisons, representing the frequency within the category of bigrams that start or end with a given element could yield additional insights. The lack of explicit indication as to what relation the elements in an n-gram have to each other makes this method inferior to the one employed by \citet{johannsen-etal-2015-cross}, although the annotation required for it may be less time-consuming. Nevertheless, since an annotation effort already has to be made, including syntactic relations in the annotation and then conducting an analysis of the syntactic treelets should yield clearer results.  
+While this method does reveal distributional differences, its usefulness is mostly constrained to unigrams and UPOS bigrams, as more processing of the results would be needed for data where there are thousands of n-gram combinations. Additionally, while presenting the bigram or trigram frequency as a fraction of the whole set of n-grams does allow for some comparisons, representing the frequency within the category of bigrams that start or end with a given element could yield additional insights. The lack of explicit indication as to what relation the elements in an n-gram have to each other makes this method inferior to the one employed by \citet{johannsen-etal-2015-cross}, although the annotation required for it may be less time-consuming given that the data in question is historical and the performance of pre-trained dependency parsers on it may be low. Nevertheless, since an annotation effort already has to be made, including syntactic relations in the annotation and then conducting an analysis of the syntactic treelets should yield clearer results.  
 
 % nkjp
-\subsection{NKJP vocabulary comparison}
+\subsection{The National Corpus of Polish vocabulary comparison}
 \label{subsec:nkjp-comparison-results}
 
-As discussed in \autoref{subsec:nkjp-vocab}, a comparison of the unique tokens and lemmas from both of the test sets against a subsection of the data from the National Corpus of Polish was conducted. As visualized in \autoref{table:nkjp-results}, noticeably more tokens and lemmas from the historical data were not found in the National Corpus of Polish when compared to the results from the PDB test set. The difference is statistically significant. What is worth noting is that while PDB is based on the texts from the National Corpus of Polish, it does include some sentences that do not come from that corpus and can therefore include tokens and lemmas that are not present in the corpus. 
+As discussed in \autoref{subsec:nkjp-vocab}, a comparison of the unique tokens and lemmas from both of the test sets against a subsection of the data from the National Corpus of Polish was conducted. As visualized in \autoref{table:nkjp-results}, noticeably more tokens and lemmas from the historical data were not found in the National Corpus of Polish when compared to the results from the PDB test set. What is worth noting is that while PDB is based on the texts from the National Corpus of Polish, it does include some sentences that do not come from that corpus and can therefore include tokens and lemmas that are not present in the corpus. 
+
+An inspection of the items that were returned as having no matches in the National Corpus of Polish for the PDB test set (which can be found in \autoref{app:nkjp}) reveals that many of them overlapped across the lemma and token category (i.e. if a token was not found in the corpus, neither was its lemma and vice versa). A number of the missing items include punctuation, which appears to not be included in the corpus searches, as well as different numbers and numerals, which, due to their practically infinite number, is understandable. Additionally, a number of place names, names, surnames, and brand names were not found in the National Corpus of Polish. Finally new borrowings with nonstandard spelling reflecting the original pronunciation (the diminutive \textit{lajwik} `live (stream)') as well as highly specialized vocabulary (\textit{trichlorobenzen} `trichlorobenzene') were not found in the National Corpus of Polish either, which is warranted as these are either new or very rarely used words.
 
 \renewcommand{\arraystretch}{1.25}
 \begin{table}[H]
@@ -277,21 +420,64 @@ As discussed in \autoref{subsec:nkjp-vocab}, a comparison of the unique tokens a
 \begin{tabular}{|cc|c|c|c|}
 \hline \bf Data & \bf Data & \bf Total unique & \bf Not found & \bf \% \\ \hline
 \multirow{2}{4em}{PDB}
-& lemmas & 7583 & 44 & 0.58\%  \\
-& tokens & 12601 & 56 & 0.44\%  \\
+& lemmas & 7583 & 44 & 0.58  \\
+& tokens & 12601 & 56 & 0.44  \\
 \multirow{2}{4em}{Historical}
-& lemmas & 1213 & 86 & 7.09\%  \\
-& tokens & 4302 & 346 & 8.04\% \\ 
+& lemmas & 1213 & 86 & 7.09  \\
+& tokens & 4302 & 346 & 8.04 \\ 
 \hline
 \end{tabular}
-\caption{\label{table:nkjp-results} Raw and \% numbers of tokens and lemmas unique to the modern or historical test sets when compared with a subset of the NKJP.}
+\caption{\label{table:nkjp-results} Raw and \% numbers of tokens and lemmas unique to the modern or historical test sets when compared with a subset of the National Corpus of Polish.}
 \end{center}
 \end{table}
 
-An inspection of the items that were returned as having no matches in the National Corpus of Polish for the PDB test set (which can be found in \autoref{app:nkjp}) reveals that many of them overlapped across the lemma and token category (i.e. if a token was not found in the corpus, neither was its lemma and vice versa). A number of the missing items include punctuation, which appears to not be included in the corpus searches, as well as different numbers and numerals, which, due to their practically infinite number, is understandable. Additionally, a number of place names, names, surnames, and brand names were not found in the NKJP. Finally new borrowings with nonstandard spelling reflecting the original pronunciation (the diminutive \textit{lajwik} `live (stream)') as well as highly specialized vocabulary (\textit{trichlorobenzen} `trichlorobenzene') were not found in the National Corpus of Polish either, which is warranted as these are either new or very rarely used words.
+A similar trend in terms of both the token and the lemma missing from the National Corpus of Polish can be noticed for the historical data, although here the comparison is more difficult, as the unique tokens were extracted from a larger text sample than the unique lemmas (which had to be manually annotated). Once again, some punctuation is listed as not found due to the search engine's limitations. However, almost no standard numbers or numerals are listed as not found, with the exception of \textit{cwansiger} `20 (coin/bill),' which appears to be a borrowing from German. Similarly as with modern data, a large number of proper names and surnames was not found in the corpus. A large part of the vocabulary with no hits in the National Corpus of Polish consists of either words spelled in a nonstandard fashion (with the spelling of \textit{nie} together with the verb it modifies and the use of the grapheme \textit{y} for /j/ being the most prominent; there is a number interesting instances of words featuring the sound \textipa{/\textrtailz/} in standard Polish being spelled as \textit{rż}, while the two accepted modern spellings are \textit{rz} and \textit{ż}. Only one of those words was problematic for the taggers, and therefore this tendency was not singled out as a separate error category. Nevertheless, similarly to the tendency to replace \textit{a} with \textit{e}\footnote{Which could, to some extent, be noticed in this comparison, but which was much more prominent in the other experiments, indicating that this type of spelling or pronunciation is also present in the National Corpus of Polish.}, this appears to be specific to Borderlands Polish, where, as discussed in \autoref{subsec:history-kresy}, at least in pronunciation, the phoneme /r̝/ (historically spelled as \textit{rz}) did not merge with /ʐ/ (spelled as \textit{ż}), but instead evolved into /rʐ/ or /r/\footnote{In all of these cases the fricative could also be realized as voiceless, depending on the surrounding sounds.}; while not detected in the previous experiments, this supports the claim that the text displays regional variation as well. Other words that were not detected in the National Corpus of Polish were words that appear to be out of use or highly specific to the sociohistorical context of the text (such as \textit{mandatariat} `the position of being a potentiary' or \textit{mortyfikować} `to self-flagellate'), with a potential overlap between the two categories. What is also noticeable is that some of the words reappear with multiple variations of spelling (e.g. \textit{jurysdykcya}, \textit{juryzdyksya} `jurisdiction' or \textit{mandataryusz}, \textit{mandatyrusz} `potentiary') indicating a certain degree of inconsistency when it comes to spelling; simultaneously, when it comes to tokens, and not lemmas, some words reappear with the same nonstandard spelling but various inflectional endings. 
 
-A similar trend in terms of both the token and the lemma missing from the National Corpus of Polish can be noticed for the historical data, although here the comparison is more difficult, as the unique tokens were extracted from a larger text sample than the unique lemmas (which had to be manually annotated). Once again, some punctuation is listed as not found due to the search engine's limitations. However, almost no standard numbers or numerals are listed as not found, with the exception of \textit{cwansiger} `20 (coin/bill)', which appears to be a borrowing from German. Similarly as with modern data, a large number of proper names and surnames was not found in the corpus. A large part of the vocabulary with no hits in the NKJP consists of either words spelled in a nonstandard fashion (with the spelling of \textit{nie} together with the verb it modifies and the use of the grapheme \textit{y} for /j/ being the most prominent; there is a number interesting instances of words featuring the sound \textipa{/\textrtailz/} in standard Polish being spelled as \textit{rż}, while the two accepted modern spellings are \textit{rz} and \textit{ż}. Only one of those words was problematic for the taggers, and therefore this tendency was not singled out as a separate error category. Nevertheless, similarly to the tendency to replace \textit{a} with \textit{e}\footnote{Which could, to some extent, be noticed in this comparison, but which was much more prominent in the other experiments, indicating that this type of spelling or pronunciation is also present in the National Corpus of Polish.}, this appears to be specific to Borderlands Polish, where, at least in pronunciation, the phoneme /r̝/ (historically spelled as \textit{rz}) did not merge with /ʐ/ (spelled as \textit{ż}), but instead evolved into /rʐ/ or /r/\footnote{In all of these cases the fricative could also be realized as voiceless, depending on the surrounding sounds.}; while not detected in the previous experiments, this supports the claim that the text displays regional variation as well. Other words that were not detected in the National Corpus of Polish were words that appear to be out of use or highly specific to the sociohistorical context of the text (such as \textit{mandatariat} `the position of being a potentiary' or \textit{mortyfikować} `to self-flagellate'), with a potential overlap between the two categories. What is also noticeable is that some of the words reappear with multiple variations of spelling (e.g. \textit{jurysdykcya}, \textit{juryzdyksya} `jurisdiction' or \textit{mandataryusz}, \textit{mandatyrusz} `potentiary') indicating a certain degree of inconsistency when it comes to spelling; simultaneously, when it comes to tokens, and not lemmas, some words reappear with the same nonstandard spelling but various inflectional endings. 
+Having previously noted that the historical text in question appears to bear some features of Borderlands Polish (as outlined in \autoref{subsec:lemmatization}), the items with zero hits returned for the memoir, with the exception of proper names and foreign words, were compared with a lexicon of Borderlands Polish, as provided by \citet{kurzowa_1983}. Most of the items were not present in the lexicon, with the exception of \textit{cwansiger} `20 (coin/bill)' could be found, albeit with a different spelling (\textit{cwancygier} in the lexicon). Alongside a number of words featuring the aforementioned pronunciation differences (\textit{rż}, \textit{e} errors), this strongly supports the claim that the text bears features of the Borderlands dialect of Polish. Additionally, one may expect to find more overlap between the lexicon of the memoirs and the vocabulary typical for Borderlands Polish, but those words may have been found in the corpus as well, excluding them from the output in this experiment.
 
-Having previously noted that the historical text in question appears to bear some features of Borderlands Polish (as outlined in \autoref{subsec:lemmatization}), the items with zero hits returned for the memoir, with the exception of proper names and foreign words, were compared with a lexicon of Borderlands Polish, as provided by \citet{kurzowa_1983}. Most of the items were not present in the lexicon, but some, like \textit{cwansiger} `20 (coin/bill)' could be found, albeit with a different spelling (\textit{cwancygier} in the lexicon). 
+A simple comparison of the vocabulary of a given text or dataset to that of a large corpus of a given language appears to yield informative results as far as those texts' divergence from the standard is concerned. With the exclusion of terms that are naturally unlikely to appear in the corpus (surnames, proper names), there still remain tokens and lemmas that were not identified in the corpus due to their spelling or rarity, and some of the same conclusions as to the nature of these differences can be drawn here as from the experiments \autoref{subsec:lemmatization}, \autoref{subsec:upos-tagging}, and \autoref{subsec:xpos-tagging}. While this method does not return as many items that were not found (or, in the case of the taggers, errors), it only requires the text to be lemmatized, not annotated for the part of speech --- and even simply searching for the tokens, and not their lemmas, yields interesting results that are not extremely different from those for lemmas. Overall, this kind of comparison appears to be quite rewarding for the amount of preprocessing or annotation required.
 
-A simple comparison of the vocabulary of a given text or dataset to that of a large corpus of a given language appears to yield informative results as far as those texts' divergence from the standard is concerned. With the exclusion of terms that are naturally unlikely to appear in the corpus (surnames, proper names), there still remain tokens and lemmas that were not identified in the corpus due to their spelling or rarity, and some of the same conclusions as to the nature of these differences can be drawn here as from the experiments \autoref{subsec:lemmatization}, \autoref{subsec:upos-tagging}, and \autoref{subsec:xpos-tagging}. While this method does not return as many items that were not found (or, in the case of the taggers, errors), it only requires the text to be lemmatized, not annotated for the part of speech - and even simply searching for the tokens, and not their lemmas, yields interesting results that are not extremely different from those for lemmas. Overall, this kind of comparison appears to be quite rewarding for the amount of preprocessing or annotation required.
+\subsection{Discussion of Results}
+\label{subsec:method-comparison}
+
+With the aim of the thesis, as specified in \autoref{sec:intro}, being simultaneously trying to identify the variation present in the memoir and to assess the usefulness of selected methods in identifying variability, a summary and discussion of the results from both of these perspectives is in place. The tool-based methods (measures and error review for lemmatization and two kinds of part-of-speech tagging) have all revealed similar kinds of variation, albeit at varying levels, since clearly it did not hinder their tagging and lemmatizing performance in all the cases; much of what was detected in these experiments was also observed in the vocabulary comparison with the National Corpus of Polish. In relation to the rest, the n-gram experiments did not provide as much information about the variation, but they did give insights into the aspects of the language in the memoir that were not accessible in other experiments, such as syntax. Certain features could have been considered negligible, had it not been for their importance in the dialectal context, as described in \autoref{subsec:history-kresy}, e.g. the cases of \textit{rż}, the vocative, or attested dialectical vocabulary that was not found in the National Corpus of Polish.    
+
+\renewcommand{\arraystretch}{1.25}
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{|l|ccccc|}
+\hline \bf Variation type & \bf Lemmatization & \bf \makecell[c]{UPOS-\\tagging} & \bf \makecell[c]{XPOS-\\tagging} & \bf n-grams & \bf \makecell[c]{Vocabulary \\ comparison} \\ \hline
+spelling: \textit{y} & yes & yes & yes & - & yes \\
+spelling: \textit{nie} & yes & yes & yes & - & yes \\
+spelling/pron.: \textit{e} & yes & yes & yes & - & yes \\
+spelling/pron.: \textit{rż} & weak & - & weak & - & weak \\
+spelling: capitalization & \makecell[c]{yes \\ \textit{(not when} \\ \textit{lowercased)}} & yes & - & - & - \\
+\makecell[l]{grammar: nonstandard \\ inflection}  & weak & weak & - & - & - \\
+\makecell[l]{grammar: vocative vs. \\ nominative}  & - & - & weak & - & - \\
+vocabulary: proper names  & yes & yes & yes & yes & yes \\
+vocabulary: other OOV & - & yes & yes & - & yes \\
+vocabulary: dialectical & - & - & - & - & yes \\
+syntax: word order & - & - & - & weak & - \\
+\makecell[l]{syntax: word class \\ prominence} & - & - & - & yes & - \\
+\hline
+\end{tabular}
+\caption{\label{table:results-comparison} A comparison of the kinds of variation identified in various experiments.}
+\end{center}
+\end{table}
+
+While, unfortunately, there is no benchmark to compare the performance of these methods to, it should be noted that not much other variation has been noticed by the author whilst reading the memoir itself than what was detected in the experiments. The only peculiarity which was found while reading through the text but not in the results presented in this thesis is the way in which the word order and sentence construction seemed to differ from written modern Polish. Overall, the tool-based methods seem to be quite proficient at picking out spelling and pronunciation differences, with lemmatizers being likely the easiest tools for that. Part-of-speech taggers additionally reveal the unification of vocative and nominative, but with only one example. The major disadvantage of these three methods is that it not only requires the manual annotation of the text in question, but also subsequent error annotation. Given the differences in prominence of different errors on the same data, they cannot be used to assess how widespread the phenomenon is either. The corpus vocabulary comparison requires, at best, the text to be lemmatized, but that is not that necessary, as the results are similar for tokens and lemmas. This method does show a lot of the spelling variation, with the exception of the irregular capitalization, as the API and search engine appear to ignore capitalization. While this method requires significantly less preparation, it clearly can lead to some variation being overlooked. Finally, the n-gram analysis does show differences, but it is difficult or impossible to draw many conclusions from them; the multiplicity of classes and the n-grams built from them leads to very sparse results that are difficult to read and interpret; additionally, there is no indication of the kind of relation between the elements in question, meaning that e.g. not all NOUN ADJ bigrams need to be a combination of a noun and an adjective that describes that noun, they can just be adjacent. All in all, while the methods should not be considered perfect, they do paint a picture of the variation present in the memoir, which can inform further inquiries.
+
+\subsection{Results and prior research}
+\label{subsec:results-and-background}
+
+While this topic has been discussed, to an extent, in the previous subsections, it is important to summarize the relation of these experiments and their findings to existing research. As far as \autoref{subsec:history-pl} and \autoref{subsec:history-kresy} are concerned, the variation identified in the memoir does not diverge significantly from what has previously been described; the text shows a number of features typical for Borderlands Polish, alongside more than one spelling convention for the /j/ sound. With \autoref{subsubsec:comphist-corpus} in mind, the annotated excerpt from the memoir can serve as a basis for future analyses, while the comparison of tool performance can inform the selection of a tool for some task related to processing historical or dialectical data. As previously discussed, the suggested n-gram method for syntactic variation detection is somewhat lacking in comparison with \citet{johannsen-etal-2015-cross}, although it evades the need for syntactic relation annotation, which could be problematic for a historical text. 
+
+Results from the POS tagger experiments using non-preprocessed data show a relatively high tagging performance compared to what was presented in \autoref{subsubsec:historical-pos-tagging}; while in this thesis the results are used to assess whether variation is responsible for the errors made by the tools, it is not the focus of the aforementioned papers. Simultaneously, the evaluation of multiple tools on that historical data that has been conducted as a part of this experiment constitutes a relevant contribution to the discussion of the use of modern POS-tagging tools on historical data. While no data normalization methods were employed in these experiments, the conclusions made by \citet{dipper-waldenberger-2017-investigating} that mappings and rules used for normalization can be used to assess variation are relevant to this thesis; if what needs normalization is what displays some kind of variation, then the errors made by tools on a non-normalized text should also be informative, as they have proven throughout this thesis. 
+
+
+
+
+
+
+
+
